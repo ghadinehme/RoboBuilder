@@ -1,0 +1,400 @@
+{
+ "name": "g16",
+ "description": "",
+ "chassis": "Ta",
+ "motor": "mL",
+ "battery": "battery",
+ "intended": [],
+ "parts": [
+  {
+   "name": "Ta",
+   "part": "2730",
+   "pos_mm": [
+    32.0,
+    20.0,
+    19.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "Tb",
+   "part": "2730",
+   "pos_mm": [
+    32.0,
+    -20.0,
+    19.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "mL",
+   "part": "58120c01",
+   "pos_mm": [
+    0.0,
+    48.0,
+    31.2
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "mR",
+   "part": "58120c01",
+   "pos_mm": [
+    0.0,
+    -48.0,
+    31.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "sL",
+   "part": "32062",
+   "pos_mm": [
+    0.0,
+    50.0,
+    31.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "sR",
+   "part": "32062",
+   "pos_mm": [
+    0.0,
+    -50.0,
+    31.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "gL1",
+   "part": "94925",
+   "pos_mm": [
+    0.0,
+    52.0,
+    31.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "gR1",
+   "part": "94925",
+   "pos_mm": [
+    0.0,
+    -52.0,
+    31.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "gL2",
+   "part": "94925",
+   "pos_mm": [
+    0.0,
+    52.0,
+    15.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "gR2",
+   "part": "94925",
+   "pos_mm": [
+    0.0,
+    -52.0,
+    15.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "aL",
+   "part": "44294",
+   "pos_mm": [
+    0.0,
+    40.0,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "aR",
+   "part": "44294",
+   "pos_mm": [
+    0.0,
+    -40.0,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "wL",
+   "part": "4185t",
+   "pos_mm": [
+    0.0,
+    61.0,
+    15.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wR",
+   "part": "4185t",
+   "pos_mm": [
+    0.0,
+    -61.0,
+    15.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "bL",
+   "part": "4265c",
+   "pos_mm": [
+    0.0,
+    14.0,
+    15.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "bR",
+   "part": "4265c",
+   "pos_mm": [
+    0.0,
+    -14.0,
+    15.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "tie",
+   "part": "3706",
+   "pos_mm": [
+    24.0,
+    0.0,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "t2",
+   "part": "4265c",
+   "pos_mm": [
+    24.0,
+    -14.0,
+    15.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    32.0,
+    0.0,
+    57.6
+   ],
+   "yaw_deg": -90
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    32.0,
+    16.0,
+    67.2
+   ],
+   "yaw_deg": -90
+  }
+ ],
+ "connections": [
+  {
+   "child": "aL",
+   "parent": "Ta",
+   "kind": "hinge"
+  },
+  {
+   "child": "aR",
+   "parent": "Tb",
+   "kind": "hinge"
+  },
+  {
+   "child": "wL",
+   "parent": "aL",
+   "kind": "cross"
+  },
+  {
+   "child": "wR",
+   "parent": "aR",
+   "kind": "cross"
+  },
+  {
+   "child": "gL2",
+   "parent": "aL",
+   "kind": "cross"
+  },
+  {
+   "child": "gR2",
+   "parent": "aR",
+   "kind": "cross"
+  },
+  {
+   "child": "tie",
+   "parent": "Ta",
+   "kind": "hinge"
+  },
+  {
+   "child": "tie",
+   "parent": "Tb",
+   "kind": "hinge"
+  },
+  {
+   "child": "t2",
+   "parent": "tie",
+   "kind": "cross"
+  },
+  {
+   "child": "bL",
+   "parent": "aL",
+   "kind": "cross"
+  },
+  {
+   "child": "bR",
+   "parent": "aR",
+   "kind": "cross"
+  },
+  {
+   "child": "mL",
+   "parent": "Ta",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "mR",
+   "parent": "Tb",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "sL",
+   "parent": "mL",
+   "kind": "motor"
+  },
+  {
+   "child": "sR",
+   "parent": "mR",
+   "kind": "motor"
+  },
+  {
+   "child": "gL1",
+   "parent": "sL",
+   "kind": "cross"
+  },
+  {
+   "child": "gR1",
+   "parent": "sR",
+   "kind": "cross"
+  },
+  {
+   "child": "battery",
+   "parent": "Ta",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "battery",
+   "parent": "Tb",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "gL1",
+   "gear_b": "gL2",
+   "teeth_a": 16,
+   "teeth_b": 16
+  },
+  {
+   "gear_a": "gR1",
+   "gear_b": "gR2",
+   "teeth_a": 16,
+   "teeth_b": 16
+  }
+ ],
+ "part_set": "inventory",
+ "motor_program": [
+  {
+   "t": 0,
+   "motor": "all",
+   "level": 3
+  },
+  {
+   "t": 0.2,
+   "motor": "all",
+   "level": 5
+  },
+  {
+   "t": 0.4,
+   "motor": "mL",
+   "level": 4
+  },
+  {
+   "t": 0.5,
+   "motor": "mR",
+   "level": 5
+  },
+  {
+   "t": 0.65,
+   "motor": "all",
+   "level": 5
+  },
+  {
+   "t": 1.6,
+   "motor": "all",
+   "level": 6
+  },
+  {
+   "t": 1.89,
+   "motor": "mL",
+   "level": 4
+  },
+  {
+   "t": 1.99,
+   "motor": "mR",
+   "level": 7
+  },
+  {
+   "t": 2.29,
+   "motor": "mL",
+   "level": 2
+  },
+  {
+   "t": 2.39,
+   "motor": "mR",
+   "level": 7
+  },
+  {
+   "t": 2.54,
+   "motor": "all",
+   "level": 7
+  },
+  {
+   "t": 2.89,
+   "motor": "all",
+   "level": 3
+  },
+  {
+   "t": 4.5,
+   "motor": "all",
+   "level": 4
+  }
+ ],
+ "start_gap_mm": 0.0
+}

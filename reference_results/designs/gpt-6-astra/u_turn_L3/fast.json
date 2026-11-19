@@ -1,0 +1,1244 @@
+{
+ "name": "final_sprint",
+ "description": "3:1 geared four-wheel chain drive, low central battery, ramp-referenced approach and timed two-pivot U-turn.",
+ "part_set": "inventory",
+ "chassis": "rail60",
+ "motor": "ml",
+ "battery": "battery",
+ "parts": [
+  {
+   "name": "s-60_1",
+   "part": "4477",
+   "pos_mm": [
+    0,
+    -52,
+    15.999999999999998
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail-60",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    -52,
+    25.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "s60_1",
+   "part": "4477",
+   "pos_mm": [
+    0,
+    52,
+    15.999999999999998
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail60",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    52,
+    25.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "ml",
+   "part": "58120c01",
+   "pos_mm": [
+    -32,
+    32,
+    37.6
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "al-32",
+   "part": "44294",
+   "pos_mm": [
+    -32,
+    60,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "gal-32",
+   "part": "94925",
+   "pos_mm": [
+    -32,
+    36.2,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "wal-32",
+   "part": "56145c01",
+   "pos_mm": [
+    -32,
+    71,
+    21.6
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "al32",
+   "part": "44294",
+   "pos_mm": [
+    32,
+    60,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "gal32",
+   "part": "94925",
+   "pos_mm": [
+    32,
+    36.2,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "wal32",
+   "part": "56145c01",
+   "pos_mm": [
+    32,
+    71,
+    21.6
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "mr",
+   "part": "58120c01",
+   "pos_mm": [
+    32,
+    -32,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "ar-32",
+   "part": "44294",
+   "pos_mm": [
+    -32,
+    -60,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "gar-32",
+   "part": "94925",
+   "pos_mm": [
+    -32,
+    -36.2,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "war-32",
+   "part": "56145c01",
+   "pos_mm": [
+    -32,
+    -71,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "ar32",
+   "part": "44294",
+   "pos_mm": [
+    32,
+    -60,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "gar32",
+   "part": "94925",
+   "pos_mm": [
+    32,
+    -36.2,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "war32",
+   "part": "56145c01",
+   "pos_mm": [
+    32,
+    -71,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    0,
+    0,
+    48.0
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    0,
+    -16,
+    57.599999999999994
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "stopal-32",
+   "part": "4265c",
+   "pos_mm": [
+    -32,
+    58,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "stopal32",
+   "part": "4265c",
+   "pos_mm": [
+    32,
+    58,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "stopar-32",
+   "part": "4265c",
+   "pos_mm": [
+    -32,
+    -58,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "stopar32",
+   "part": "4265c",
+   "pos_mm": [
+    32,
+    -58,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "floor-48",
+   "part": "3036",
+   "pos_mm": [
+    -24.0,
+    0,
+    9.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "floor48",
+   "part": "3036",
+   "pos_mm": [
+    24.0,
+    0,
+    9.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bridge-32",
+   "part": "3035",
+   "pos_mm": [
+    0,
+    -32,
+    6.4
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bridge32",
+   "part": "3035",
+   "pos_mm": [
+    0,
+    32,
+    6.4
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "drivel",
+   "part": "32073",
+   "pos_mm": [
+    -32,
+    40.2,
+    37.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pinionl",
+   "part": "10928",
+   "pos_mm": [
+    -32,
+    44,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "reductionl-32",
+   "part": "3648",
+   "pos_mm": [
+    -32,
+    44,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "reductionl32",
+   "part": "3648",
+   "pos_mm": [
+    32,
+    44,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "driver",
+   "part": "32073",
+   "pos_mm": [
+    32,
+    -40.2,
+    37.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pinionr",
+   "part": "10928",
+   "pos_mm": [
+    32,
+    -44,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "reductionr-32",
+   "part": "3648",
+   "pos_mm": [
+    -32,
+    -44,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "reductionr32",
+   "part": "3648",
+   "pos_mm": [
+    32,
+    -44,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "s-60_0",
+   "part": "3710",
+   "pos_mm": [
+    0,
+    -52,
+    12.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "s60_0",
+   "part": "3710",
+   "pos_mm": [
+    0,
+    52,
+    12.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "upper-20",
+   "part": "4477",
+   "pos_mm": [
+    -20,
+    16,
+    54.4
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pad-20",
+   "part": "3023",
+   "pos_mm": [
+    -20,
+    -48,
+    54.4
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "upperopp-20",
+   "part": "4477",
+   "pos_mm": [
+    -20,
+    -16,
+    57.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "upper20",
+   "part": "4477",
+   "pos_mm": [
+    20,
+    16,
+    54.4
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pad20",
+   "part": "3023",
+   "pos_mm": [
+    20,
+    -48,
+    54.4
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "upperopp20",
+   "part": "4477",
+   "pos_mm": [
+    20,
+    -16,
+    57.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "shaftstopl",
+   "part": "4265c",
+   "pos_mm": [
+    -32,
+    58,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "shaftstopr",
+   "part": "4265c",
+   "pos_mm": [
+    32,
+    -58,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "post-20_-60",
+   "part": "3700",
+   "pos_mm": [
+    -16,
+    -52,
+    41.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "post-20_60",
+   "part": "3700",
+   "pos_mm": [
+    -16,
+    52,
+    41.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "post20_-60",
+   "part": "3700",
+   "pos_mm": [
+    16,
+    -52,
+    41.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "post20_60",
+   "part": "3700",
+   "pos_mm": [
+    16,
+    52,
+    41.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "lowspacer-60",
+   "part": "3710",
+   "pos_mm": [
+    0,
+    -52,
+    9.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "lowspacer60",
+   "part": "3710",
+   "pos_mm": [
+    0,
+    52,
+    9.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "riserl",
+   "part": "3001",
+   "pos_mm": [
+    -32,
+    8,
+    19.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bedl0",
+   "part": "3032",
+   "pos_mm": [
+    -32,
+    8,
+    22.4
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bedl1",
+   "part": "3032",
+   "pos_mm": [
+    -32,
+    8,
+    25.599999999999998
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bearingplatel0",
+   "part": "4477",
+   "pos_mm": [
+    -24,
+    52,
+    28.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bearingplatel1",
+   "part": "4477",
+   "pos_mm": [
+    -24,
+    52,
+    32.0
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bearingl",
+   "part": "3700",
+   "pos_mm": [
+    -32,
+    52,
+    41.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "riserr",
+   "part": "3001",
+   "pos_mm": [
+    32,
+    -8,
+    19.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bedr0",
+   "part": "3032",
+   "pos_mm": [
+    32,
+    -8,
+    22.4
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bedr1",
+   "part": "3032",
+   "pos_mm": [
+    32,
+    -8,
+    25.599999999999998
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bearingplater0",
+   "part": "4477",
+   "pos_mm": [
+    24,
+    -52,
+    28.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bearingplater1",
+   "part": "4477",
+   "pos_mm": [
+    24,
+    -52,
+    32.0
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bearingr",
+   "part": "3700",
+   "pos_mm": [
+    32,
+    -52,
+    41.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "postsupport16_0",
+   "part": "3023",
+   "pos_mm": [
+    24,
+    52,
+    28.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "postsupport16_1",
+   "part": "3023",
+   "pos_mm": [
+    24,
+    52,
+    32.0
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "postsupport-16_0",
+   "part": "3023",
+   "pos_mm": [
+    -24,
+    -52,
+    28.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "postsupport-16_1",
+   "part": "3023",
+   "pos_mm": [
+    -24,
+    -52,
+    32.0
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "post-20_-60ext",
+   "part": "3700",
+   "pos_mm": [
+    -16,
+    -52,
+    51.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "post-20_60ext",
+   "part": "3700",
+   "pos_mm": [
+    -16,
+    52,
+    51.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "post20_-60ext",
+   "part": "3700",
+   "pos_mm": [
+    16,
+    -52,
+    51.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "post20_60ext",
+   "part": "3700",
+   "pos_mm": [
+    16,
+    52,
+    51.2
+   ],
+   "yaw_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "rail-60",
+   "parent": "s-60_1",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "rail60",
+   "parent": "s60_1",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "gal-32",
+   "parent": "al-32",
+   "kind": "cross"
+  },
+  {
+   "child": "wal-32",
+   "parent": "al-32",
+   "kind": "cross"
+  },
+  {
+   "child": "al32",
+   "parent": "rail60",
+   "kind": "hinge"
+  },
+  {
+   "child": "gal32",
+   "parent": "al32",
+   "kind": "cross"
+  },
+  {
+   "child": "wal32",
+   "parent": "al32",
+   "kind": "cross"
+  },
+  {
+   "child": "ar-32",
+   "parent": "rail-60",
+   "kind": "hinge"
+  },
+  {
+   "child": "gar-32",
+   "parent": "ar-32",
+   "kind": "cross"
+  },
+  {
+   "child": "war-32",
+   "parent": "ar-32",
+   "kind": "cross"
+  },
+  {
+   "child": "gar32",
+   "parent": "ar32",
+   "kind": "cross"
+  },
+  {
+   "child": "war32",
+   "parent": "ar32",
+   "kind": "cross"
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "stopal-32",
+   "parent": "al-32",
+   "kind": "cross"
+  },
+  {
+   "child": "stopal32",
+   "parent": "al32",
+   "kind": "cross"
+  },
+  {
+   "child": "stopar-32",
+   "parent": "ar-32",
+   "kind": "cross"
+  },
+  {
+   "child": "stopar32",
+   "parent": "ar32",
+   "kind": "cross"
+  },
+  {
+   "child": "drivel",
+   "parent": "ml",
+   "kind": "motor"
+  },
+  {
+   "child": "pinionl",
+   "parent": "drivel",
+   "kind": "cross"
+  },
+  {
+   "child": "al-32",
+   "parent": "rail60",
+   "kind": "hinge"
+  },
+  {
+   "child": "reductionl-32",
+   "parent": "al-32",
+   "kind": "cross"
+  },
+  {
+   "child": "reductionl32",
+   "parent": "al32",
+   "kind": "cross"
+  },
+  {
+   "child": "driver",
+   "parent": "mr",
+   "kind": "motor"
+  },
+  {
+   "child": "pinionr",
+   "parent": "driver",
+   "kind": "cross"
+  },
+  {
+   "child": "reductionr-32",
+   "parent": "ar-32",
+   "kind": "cross"
+  },
+  {
+   "child": "ar32",
+   "parent": "rail-60",
+   "kind": "hinge"
+  },
+  {
+   "child": "reductionr32",
+   "parent": "ar32",
+   "kind": "cross"
+  },
+  {
+   "child": "s-60_0",
+   "parent": "lowspacer-60",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "s-60_1",
+   "parent": "s-60_0",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "s60_0",
+   "parent": "lowspacer60",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "s60_1",
+   "parent": "s60_0",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "upper-20",
+   "parent": "post-20_60ext",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "pad-20",
+   "parent": "post-20_-60ext",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "upperopp-20",
+   "parent": "upper-20",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "upperopp-20",
+   "parent": "pad-20",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "upper20",
+   "parent": "post20_60ext",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "pad20",
+   "parent": "post20_-60ext",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "upperopp20",
+   "parent": "upper20",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "upperopp20",
+   "parent": "pad20",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "shaftstopl",
+   "parent": "drivel",
+   "kind": "cross"
+  },
+  {
+   "child": "shaftstopr",
+   "parent": "driver",
+   "kind": "cross"
+  },
+  {
+   "child": "post-20_-60",
+   "parent": "postsupport-16_1",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "post-20_60",
+   "parent": "bearingplatel1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "post20_-60",
+   "parent": "bearingplater1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "post20_60",
+   "parent": "postsupport16_1",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "floor-48",
+   "parent": "bridge-32",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "floor48",
+   "parent": "bridge-32",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "floor-48",
+   "parent": "bridge32",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "floor48",
+   "parent": "bridge32",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "lowspacer-60",
+   "parent": "bridge-32",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "lowspacer60",
+   "parent": "bridge32",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "riserl",
+   "parent": "floor-48",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "bedl0",
+   "parent": "riserl",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "bedl1",
+   "parent": "bedl0",
+   "kind": "stud",
+   "studs": 24
+  },
+  {
+   "child": "ml",
+   "parent": "bedl1",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "bearingplatel0",
+   "parent": "rail60",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "bearingplatel1",
+   "parent": "bearingplatel0",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "bearingl",
+   "parent": "bearingplatel1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "riserr",
+   "parent": "floor48",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "bedr0",
+   "parent": "riserr",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "bedr1",
+   "parent": "bedr0",
+   "kind": "stud",
+   "studs": 24
+  },
+  {
+   "child": "mr",
+   "parent": "bedr1",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "bearingplater0",
+   "parent": "rail-60",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "bearingplater1",
+   "parent": "bearingplater0",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "bearingr",
+   "parent": "bearingplater1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "battery",
+   "parent": "floor-48",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "battery",
+   "parent": "floor48",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "postsupport16_0",
+   "parent": "rail60",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "postsupport16_1",
+   "parent": "postsupport16_0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "postsupport-16_0",
+   "parent": "rail-60",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "postsupport-16_1",
+   "parent": "postsupport-16_0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "post20_60",
+   "parent": "bearingplatel1",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "post-20_-60",
+   "parent": "bearingplater1",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "post-20_-60ext",
+   "parent": "post-20_-60",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "post-20_60ext",
+   "parent": "post-20_60",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "post20_-60ext",
+   "parent": "post20_-60",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "post20_60ext",
+   "parent": "post20_60",
+   "kind": "stud",
+   "studs": 2
+  }
+ ],
+ "chains": [
+  {
+   "name": "l",
+   "gears": [
+    "gal-32",
+    "gal32"
+   ],
+   "links": 28
+  },
+  {
+   "name": "r",
+   "gears": [
+    "gar-32",
+    "gar32"
+   ],
+   "links": 28
+  }
+ ],
+ "motor_program": [
+  {
+   "t": 0,
+   "motor": "all",
+   "level": 7
+  },
+  {
+   "t": 1.8,
+   "motor": "all",
+   "level": 2
+  },
+  {
+   "t": 3.5,
+   "motor": "all",
+   "level": 7
+  },
+  {
+   "t": 3.9,
+   "motor": "ml",
+   "level": "brake"
+  },
+  {
+   "t": 5.0,
+   "motor": "all",
+   "level": 6
+  },
+  {
+   "t": 6.0,
+   "motor": "mr",
+   "level": 7
+  },
+  {
+   "t": 6.1,
+   "motor": "ml",
+   "level": "brake"
+  },
+  {
+   "t": 7.4,
+   "motor": "all",
+   "level": 7
+  },
+  {
+   "t": 9.0,
+   "motor": "all",
+   "level": "brake"
+  }
+ ],
+ "start_gap_mm": 0,
+ "gear_meshes": [
+  {
+   "gear_a": "pinionl",
+   "gear_b": "reductionl-32"
+  },
+  {
+   "gear_a": "pinionr",
+   "gear_b": "reductionr32"
+  }
+ ]
+}

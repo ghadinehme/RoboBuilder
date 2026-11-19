@@ -1,0 +1,881 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RoboBuilder Controller</title>
+<style>
+/* Layout: a course-side tool. Header = IR bridge link + emergency stop. Programs tab: experiment / agent / level picker,
+   then the run card (wiring, placement, program, play) beside the trial log for this design. */
+:root {
+  --bg: #f1f3f6; --card: #ffffff; --ink: #1b2330; --muted: #5f6b7a; --line: #d8dde4; --soft: #e8ebf0;
+  --accent: #e07a1f; --red: #d23b3b; --blue: #2f6fb0; --ok: #2e8b57; --warn: #b8901c; --bad: #c0442e;
+  --ok-bg: #dff1e6; --bad-bg: #f8e1dc; --part-bg: #f6edd2; --btn: #eceff3; --btn-ink: #1b2330;
+  --f-ui: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  --f-num: ui-monospace, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #13171d; --card: #1c2129; --ink: #e6e9ee; --muted: #9aa4b2; --line: #313844; --soft: #252b35;
+  --ok: #4cbf7f; --bad: #e46c55; --ok-bg: #18342a; --bad-bg: #3a1f1a; --part-bg: #3a3218; --btn: #2a3039; --btn-ink: #e6e9ee;
+  color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #13171d; --card: #1c2129; --ink: #e6e9ee; --muted: #9aa4b2; --line: #313844; --soft: #252b35;
+  --ok: #4cbf7f; --bad: #e46c55; --ok-bg: #18342a; --bad-bg: #3a1f1a; --part-bg: #3a3218; --btn: #2a3039; --btn-ink: #e6e9ee;
+  color-scheme: dark }
+* { box-sizing: border-box }
+[hidden] { display: none !important }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.45 var(--f-ui) }
+header { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; padding: 12px 20px; background: var(--card);
+  border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 3 }
+header h1 { font-size: 18px; margin: 0 8px 0 0 }
+.dot { width: 10px; height: 10px; border-radius: 50%; background: var(--muted); display: inline-block; margin-right: 6px }
+.dot.on { background: var(--ok) } .dot.busy { background: var(--warn) }
+button { font: inherit; border: 1px solid var(--line); background: var(--btn); color: var(--btn-ink); border-radius: 8px;
+  padding: 7px 12px; cursor: pointer }
+button:hover { border-color: var(--ink) }
+button:focus-visible, select:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px }
+button.primary { background: var(--accent); border-color: var(--accent); color: #fff }
+button.stop { background: var(--red); border-color: var(--red); color: #fff; font-weight: 700 }
+button.sel { background: var(--ink); color: var(--bg); border-color: var(--ink) }
+button:disabled { opacity: .45; cursor: default }
+select, input[type=number], input[type=text] { font: inherit; padding: 5px 8px; border-radius: 7px; border: 1px solid var(--line);
+  background: var(--card); color: var(--ink) }
+main { padding: 18px 20px 300px; max-width: 1280px; margin: 0 auto; display: grid; gap: 16px }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; min-width: 0 }
+.card h3 { font-size: 12px; margin: 14px 0 6px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em }
+.card h3:first-child { margin-top: 0 }
+.row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 10px }
+.row > label.k { color: var(--muted); font-size: 13px; min-width: 76px }
+.tabs { display: flex; gap: 6px; flex-wrap: wrap }
+.tabs button.sel { background: var(--accent); border-color: var(--accent); color: #fff }
+.muted { color: var(--muted); font-size: 13px }
+.num { font-family: var(--f-num); font-variant-numeric: tabular-nums }
+/* level grid */
+.lgrid { display: grid; grid-template-columns: 96px repeat(3, minmax(46px, 1fr)); gap: 4px; margin-top: 10px; min-width: 300px }
+.lgrid .bn { font-weight: 600; font-size: 14px; display: flex; align-items: center }
+.lgrid .hd { font-size: 12px; color: var(--muted); text-align: center }
+.cell { height: 38px; border-radius: 6px; border: 1px solid var(--line); background: var(--soft); display: grid; place-items: center;
+  font: 12px var(--f-num); cursor: pointer; color: var(--muted); position: relative }
+.cell.has { background: var(--card); color: var(--ink); border-color: var(--line) }
+.cell.has:hover { border-color: var(--ink) }
+.cell.none { cursor: default; opacity: .5 }
+.cell.sel { box-shadow: 0 0 0 2px var(--accent) }
+.cell .tries { display: flex; gap: 2px; position: absolute; bottom: 3px }
+.cell .tries i { width: 7px; height: 7px; border-radius: 2px; background: var(--line) }
+.cell .tries i.pass { background: var(--ok) } .cell .tries i.fail { background: var(--bad) } .cell .tries i.partial { background: var(--warn) }
+.scroll { overflow-x: auto }
+.pgrid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 16px }
+@media (max-width: 960px) { .pgrid { grid-template-columns: 1fr } }
+table.w { border-collapse: collapse; width: 100%; font-size: 14px }
+table.w td, table.w th { border-bottom: 1px solid var(--line); padding: 5px 6px; text-align: left; vertical-align: top }
+table.w th { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; font-weight: 600 }
+.tag { font-size: 12px; font-weight: 700; padding: 1px 7px; border-radius: 5px; color: #fff }
+.tag.A { background: var(--red) } .tag.B { background: var(--blue) }
+.boxnote { background: var(--part-bg); border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; margin: 8px 0 }
+.play { font-size: 20px; padding: 12px 26px }
+.bar { height: 10px; background: var(--btn); border-radius: 6px; overflow: hidden; margin-top: 10px }
+.bar > div { height: 100%; width: 0; background: var(--accent) }
+.state { margin-top: 10px; display: flex; justify-content: space-between; align-items: baseline; border-top: 1px dashed var(--line); padding-top: 8px }
+.big { font-size: 28px; font-weight: 700; font-variant-numeric: tabular-nums }
+.notes { font-size: 13px; color: var(--muted); max-height: 120px; overflow: auto; white-space: pre-wrap }
+.res { display: flex; gap: 6px; flex-wrap: wrap }
+.res button.pass.sel { background: var(--ok); border-color: var(--ok); color: #fff }
+.res button.fail.sel { background: var(--bad); border-color: var(--bad); color: #fff }
+.res button.partial.sel { background: var(--warn); border-color: var(--warn); color: #fff }
+.pill { display: inline-block; padding: 1px 8px; border-radius: 999px; font-size: 12px; font-weight: 600 }
+.pill.pass { background: var(--ok-bg); color: var(--ok) } .pill.fail { background: var(--bad-bg); color: var(--bad) }
+.pill.partial { background: var(--part-bg); color: var(--warn) }
+#log { font: 12px/1.45 var(--f-num); background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 10px;
+  height: 150px; overflow: auto; white-space: pre-wrap }
+#overlay { position: fixed; inset: 0; background: rgba(0,0,0,.74); color: #fff; display: flex; flex-direction: column;
+  align-items: center; justify-content: center; z-index: 9; text-align: center; padding: 16px }
+#overlay[hidden] { display: none }
+#overlay .n { font-size: 150px; font-weight: 800; line-height: 1 }
+#overlay .sub { font-size: 22px; margin-top: 12px; max-width: 760px }
+.hint { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 8px; padding: 10px 14px }
+.mgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 14px }
+.levels { display: grid; grid-template-columns: repeat(8, 1fr); gap: 4px; width: 100% }
+.levels button { padding: 8px 0 }
+.seg button { border-radius: 0; margin-left: -1px } .seg button:first-child { border-radius: 8px 0 0 8px; margin-left: 0 }
+.seg button:last-child { border-radius: 0 8px 8px 0 }
+@media (max-width: 520px) { header { padding: 10px 16px } main { padding: 14px 16px 32px } }
+.cell.simfail { border-style: dashed; color: var(--muted) }
+.cell.simfail::after { content: "sim ✕"; position: absolute; top: 1px; right: 3px; font-size: 9px; color: var(--bad) }
+.mlgrid { display: grid; grid-template-columns: 96px repeat(10, minmax(46px, 1fr)); gap: 4px; margin-top: 8px; min-width: 640px }
+.mlgrid .bn { font-weight: 600; font-size: 14px; display: flex; align-items: center }
+.mlgrid .hd { font-size: 11px; color: var(--muted); text-align: center }
+/* camera: always on screen */
+#cam { position: fixed; right: 14px; bottom: 14px; width: 340px; max-width: calc(100vw - 28px); z-index: 8; background: var(--card);
+  border: 1px solid var(--line); border-radius: 12px; box-shadow: 0 6px 24px rgba(0,0,0,.25); overflow: hidden }
+#cam .camhd { display: flex; align-items: center; gap: 8px; padding: 6px 10px; font-size: 13px; border-bottom: 1px solid var(--line) }
+#cam video { display: block; width: 100%; aspect-ratio: 16 / 9; background: #000; object-fit: contain }
+#cam .vwrap { position: relative; aspect-ratio: 16 / 9; background: #000; overflow: hidden }
+#cam .vwrap video { position: absolute; inset: 0; height: 100%; transform-origin: 50% 50% }
+#cam .vwrap img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; pointer-events: none; opacity: 0 }
+#cam .vwrap .simtag { position: absolute; left: 6px; top: 6px; font-size: 11px; background: rgba(0,0,0,.6); color: #fff; padding: 1px 6px; border-radius: 4px }
+#cam.big { width: min(760px, calc(100vw - 28px)) }
+#cam.min .vwrap { display: none }
+#cam .camctl { display: grid; gap: 6px; padding: 8px 10px; font-size: 13px }
+#cam .camctl select { width: 100%; font-size: 13px }
+#cam.min video, #cam.min .camctl { display: none }
+#rec { color: var(--muted); font-family: var(--f-num) }
+#rec.on { color: var(--red); font-weight: 700 }
+#savebox { position: fixed; inset: 0; background: rgba(0,0,0,.7); z-index: 10; display: grid; place-items: center; padding: 16px }
+#savebox[hidden] { display: none }
+#savebox .sv { background: var(--card); color: var(--ink); border-radius: 12px; padding: 16px; width: min(720px, 100%); display: grid; gap: 10px }
+#savebox video { width: 100%; max-height: 50vh; background: #000; border-radius: 8px }
+#savebox .yn { display: flex; gap: 10px; justify-content: flex-end; flex-wrap: wrap }
+#savebox .yn button { font-size: 18px; padding: 10px 22px }
+</style>
+</head>
+<body>
+<header>
+  <h1>RoboBuilder Controller</h1>
+  <span><span id="dot" class="dot"></span><span id="status">not connected</span></span>
+  <button id="connect" class="primary">Connect IR bridge</button>
+  <button id="disconnect" disabled>Disconnect</button>
+  <label class="muted" for="repeats">IR repeats</label>
+  <select id="repeats"><option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option></select>
+  <button id="stopall" class="stop" title="Space bar">STOP ALL</button>
+</header>
+<main>
+  <div id="nosupport" class="hint" hidden>This browser has no Web Serial. Open the page in <b>Google Chrome</b> or <b>Microsoft Edge</b>
+    (see README.md in this folder).</div>
+  <div class="tabs"><button id="tabP" class="sel">Run designs</button><button id="tabR">Trial results</button><button id="tabM">Manual control</button></div>
+
+  <!-- ===================== programs ===================== -->
+  <section id="programs" style="display:grid;gap:16px">
+    <div class="card">
+      <div class="row" style="margin-top:0">
+        <label class="k" for="selExp">Experiment</label><select id="selExp"></select>
+        <span class="muted" id="expInfo"></span>
+        <label class="muted" style="margin-left:auto">Add an experiment file <input type="file" id="addExp" accept=".js,.json"></label>
+      </div>
+      <div class="row"><label class="k">Agent</label><div class="tabs" id="agents"></div></div>
+      <div class="scroll"><div class="lgrid" id="lgrid"></div></div>
+      <div id="mwrap" hidden><h3 style="margin:14px 0 0;font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em">All-in-one robots: one assembly, a program per course</h3>
+        <div class="scroll"><div class="mlgrid" id="mlgrid"></div></div></div>
+      <div class="muted" style="margin-top:8px">Squares under a level: the real tries logged so far (green pass, red fail, amber partial). Up to 3 tries per design. Dashed cells: designs that did not pass in simulation.</div>
+    </div>
+    <div class="pgrid">
+      <div class="card" id="pinfo"><p class="muted">Pick a level with a design.</p></div>
+      <div style="display:grid;gap:16px;align-content:start">
+        <div class="card">
+          <h3>Run</h3>
+          <div class="row" style="margin-top:0"><label class="k" for="scale">Speed scale</label>
+            <input type="range" id="scale" min="0.6" max="1.3" step="0.05" value="1" style="width:160px">
+            <span id="scalev" class="muted num">1.00 (real ÷ sim motor speed)</span></div>
+          <div class="row"><label class="k">Polarity</label><span id="flips" class="muted"></span></div>
+          <div class="row"><button id="play" class="primary play">▶ Play</button><button id="pstop" class="stop play">■ Stop</button></div>
+          <div class="bar"><div id="pbar"></div></div>
+          <div class="state"><span class="muted" id="pnext">—</span><span class="big" id="ptime">0.0 s</span></div>
+        </div>
+        <div class="card" id="trialcard">
+          <h3>Log this try</h3>
+          <div class="res" id="resBtns">
+            <button class="pass" data-v="pass">✓ Pass</button><button class="fail" data-v="fail">✗ Fail</button>
+            <button class="partial" data-v="partial">~ Partial</button></div>
+          <div class="row"><label class="k" for="tTime">Time</label><input type="number" id="tTime" step="0.1" min="0" style="width:90px"> <span class="muted">s to the goal (filled from the last run, edit if needed)</span></div>
+          <div class="row"><label class="k" for="tFail">Failure</label><select id="tFail">
+            <option value="">—</option><option>did not reach the goal</option><option>stuck</option><option>tipped / flipped</option>
+            <option>fell off</option><option>broke apart</option><option>left the lane</option><option>did not stop in the goal</option>
+            <option>wrong direction / wiring</option><option>other</option></select></div>
+          <div class="row"><label class="k" for="tVideo">Video</label><input type="text" id="tVideo" placeholder="file name, e.g. IMG_1234.MOV" style="flex:1;min-width:160px"></div>
+          <div class="row"><label class="k" for="tNotes">Notes</label><input type="text" id="tNotes" placeholder="what happened" style="flex:1;min-width:160px"></div>
+          <div class="row"><button id="saveTry" class="primary">Save try</button><span class="muted" id="saveMsg"></span></div>
+          <h3>Tries for this design</h3>
+          <div id="tryList" class="muted">None yet.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== results ===================== -->
+  <section id="results" hidden style="display:grid;gap:16px">
+    <div class="card">
+      <div class="row" style="margin-top:0"><label class="k" for="resExp">Experiment</label><select id="resExp"></select>
+        <button id="expJson" class="primary">Export JSON</button><button id="expCsv">Export CSV</button>
+        <label class="muted">Import results <input type="file" id="impRes" accept=".json"></label></div>
+      <p class="muted" style="margin:8px 0 0">The log is kept in this browser. Export it after each session and keep the file with the videos:
+        it is the real-world feedback for the next design round. Importing merges tries (same id = same try).</p>
+    </div>
+    <div class="card scroll" id="resTable"></div>
+  </section>
+
+  <!-- ===================== manual ===================== -->
+  <section id="manual" hidden style="display:grid;gap:16px">
+    <div class="hint">One card per receiver output. Channel = the receiver's orange switch (1–4); red = output A, blue = output B.
+      Commands latch: an output keeps its level until you change it. <b>Space</b> = stop all.
+      <button id="addCard" style="margin-left:8px">+ Add output</button></div>
+    <div class="mgrid" id="cards"></div>
+  </section>
+
+  <div id="log"></div>
+</main>
+<section id="cam" aria-label="Camera">
+  <div class="camhd"><b>Camera</b><span id="rec">not recording</span>
+    <button id="camMin" style="margin-left:auto;padding:2px 8px" title="Hide / show the picture">▾</button></div>
+  <div class="vwrap"><video id="camv" autoplay muted playsinline></video><img id="camSim" alt="Overlay picture"><span class="simtag" id="camSimTag" hidden>overlay</span></div>
+  <div class="camctl">
+    <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap">
+      <label title="Lay a reference picture (e.g. a frame of the simulated overview video) over the live camera to line it up"><input type="checkbox" id="camOv"> Overlay</label>
+      <label class="muted" style="cursor:pointer" title="Choose the overlay picture"><input type="file" id="camOvFile" accept="image/*" hidden><u>picture…</u></label>
+      <input type="range" id="camOvA" min="0" max="1" step="0.05" value="0.5" style="flex:1;min-width:80px" aria-label="Overlay opacity">
+      <button id="camBig" style="padding:2px 8px" title="Bigger picture for lining up">⤢</button>
+    </div>
+    <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap" class="muted">
+      <label title="Zoom the preview, e.g. when the camera is wider than the overlay picture (the recording stays full frame)">Preview zoom
+        <input type="range" id="camZoom" min="1" max="2" step="0.05" value="1" style="width:110px"></label>
+    </div>
+    <select id="camDev" aria-label="Camera"><option value="">Start camera…</option></select>
+    <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap">
+      <label class="muted" for="camRes">Quality</label>
+      <select id="camRes" aria-label="Recording quality" style="width:auto;flex:1">
+        <option value="720">720p, 30 fps</option><option value="1080">1080p, 30 fps</option>
+        <option value="1080_60">1080p, 60 fps</option><option value="2160" selected>4K, 30 fps</option></select>
+    </div>
+    <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap">
+      <label><input type="checkbox" id="camMic"> Record sound</label>
+      <select id="micDev" aria-label="Microphone" style="width:auto;flex:1" hidden></select>
+    </div>
+    <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap">
+      <label><input type="checkbox" id="camAuto" checked> Record every run</label>
+      <button id="camRec" style="margin-left:auto">● Record</button>
+    </div>
+    <div style="display:flex;gap:6px;align-items:center"><button id="camDir">Video folder…</button><span id="camDirName" class="muted">not chosen</span></div>
+  </div>
+</section>
+<div id="savebox" hidden><div class="sv" role="dialog" aria-modal="true" aria-labelledby="svT">
+  <b id="svT" style="font-size:18px">Keep this video?</b>
+  <video id="svVid" controls playsinline></video>
+  <div class="muted" id="svPath"></div>
+  <div class="yn"><button id="svNo" class="stop">No, delete (N)</button><button id="svYes" class="primary">Yes, save (Y)</button></div>
+</div></div>
+<div id="overlay" hidden><div class="n" id="ovn">3</div><div class="sub" id="ovs"></div></div>
+
+<template id="cardtpl">
+  <div class="card">
+    <h3 style="display:flex;align-items:center;gap:8px;text-transform:none;letter-spacing:0;font-size:15px;color:var(--ink)">
+      <span class="tag">A</span><span class="title">Output</span><button class="x" title="Remove" style="margin-left:auto;padding:2px 8px">✕</button></h3>
+    <div class="row"><label class="k">Channel</label>
+      <div class="seg ch"><button>1</button><button>2</button><button>3</button><button>4</button></div>
+      <div class="seg out" style="margin-left:8px"><button>A</button><button>B</button></div></div>
+    <div class="row"><label class="k">Type</label>
+      <div class="seg type"><button data-v="motor">Motor</button><button data-v="servo">Servo</button></div>
+      <label style="margin-left:8px" class="muted"><input type="checkbox" class="inv"> invert</label></div>
+    <div class="motor">
+      <div class="row"><label class="k">Direction</label>
+        <div class="seg dir"><button data-v="1">Forward ▶</button><button data-v="-1">◀ Reverse</button></div></div>
+      <div class="row"><label class="k">Speed</label><div class="levels spd"></div></div>
+      <div class="row"><button class="brake">Brake</button><button class="float">Stop (float)</button></div>
+    </div>
+    <div class="servo" hidden>
+      <div class="row"><label class="k">Angle</label><input type="range" class="angr" min="-7" max="7" step="1" value="0" style="flex:1"></div>
+    </div>
+    <div class="state"><span class="muted cmd">—</span><span class="big val">0</span></div>
+  </div>
+</template>
+
+<script src="experiments/index.js"></script>
+<script>
+"use strict";
+const $ = (s, r = document) => r.querySelector(s);
+const esc = t => String(t ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const logEl = $("#log");
+function log(t) { logEl.textContent += `[${new Date().toLocaleTimeString()}] ${t}\n`; logEl.scrollTop = logEl.scrollHeight; }
+const store = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch (e) { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { log("could not save to browser storage: " + e.message); } },
+};
+
+// ---------------------------------------------------------------- serial link (Web Serial; the protocol of real_world/firmware/ir_bridge)
+let port = null, writer = null, reader = null, rxBuf = "", waiting = null, queue = Promise.resolve();
+const enc = new TextEncoder(), dec = new TextDecoder();
+function setStatus(text, cls) { $("#status").textContent = text; $("#dot").className = "dot " + (cls || ""); }
+async function readLoop() {
+  try {
+    while (port && port.readable) {
+      reader = port.readable.getReader();
+      while (true) {
+        const { value, done } = await reader.read();
+        if (done) break;
+        rxBuf += dec.decode(value);
+        let i;
+        while ((i = rxBuf.indexOf("\n")) >= 0) {
+          const line = rxBuf.slice(0, i).replace("\r", "").trim(); rxBuf = rxBuf.slice(i + 1);
+          if (!line) continue;
+          log("← " + line);
+          if (line.startsWith("OK ir-bridge")) setStatus("connected (IR bridge)", "on");
+          if (waiting) { const w = waiting; waiting = null; w(line); }
+        }
+      }
+      reader.releaseLock();
+    }
+  } catch (e) { log("read error: " + e.message); }
+}
+function rawSend(cmd) {
+  return new Promise(async (resolve) => {
+    if (!writer) { log("(not connected) " + cmd); return resolve(null); }
+    const t = setTimeout(() => { waiting = null; log("no answer to: " + cmd); resolve(null); }, 1500);
+    waiting = (line) => { clearTimeout(t); resolve(line); };
+    log("→ " + cmd);
+    try { await writer.write(enc.encode(cmd + "\n")); } catch (e) { clearTimeout(t); waiting = null; log("write error: " + e.message); resolve(null); }
+  });
+}
+function send(cmd) { queue = queue.then(() => rawSend(cmd)); return queue; }
+async function connect() {
+  if (!("serial" in navigator)) { $("#nosupport").hidden = false; return; }
+  try {
+    port = await navigator.serial.requestPort();
+    await port.open({ baudRate: 115200 });
+    writer = port.writable.getWriter();
+    setStatus("waiting for the board to reset…", "busy");
+    $("#connect").disabled = true; $("#disconnect").disabled = false;
+    readLoop();
+    await new Promise(r => setTimeout(r, 2200));
+    const ans = await send("?");
+    if (ans && ans.startsWith("OK")) setStatus("connected (IR bridge)", "on");
+    else setStatus("connected, but no IR bridge answer: flash the firmware (README.md, Flash the firmware)", "busy");
+    await send("N " + $("#repeats").value);
+  } catch (e) { log("connect: " + e.message); setStatus("not connected"); }
+}
+async function disconnect() {
+  try { await stopAll(); } catch (e) {}
+  try { if (reader) await reader.cancel(); } catch (e) {}
+  try { if (writer) { writer.releaseLock(); writer = null; } } catch (e) {}
+  try { if (port) await port.close(); } catch (e) {}
+  port = null; setStatus("not connected"); $("#connect").disabled = false; $("#disconnect").disabled = true;
+}
+async function stopAll() {
+  for (const c of cards) { c.cfg.spd = 0; c.cfg.ang = 0; c.render(); }
+  pending.clear();
+  for (const ch of [1, 2, 3, 4]) for (const o of ["A", "B"]) await send(`P ${ch} ${o} 0`);
+}
+
+// ---------------------------------------------------------------- experiments
+const EXPS = {};  // name -> experiment
+const BENCHES = ["ramp", "gap", "bridge", "rope", "steps", "bumps", "seesaw", "gap_drop", "wall", "u_turn"];
+const BN = { ramp: "Ramp", gap: "Gap", bridge: "Bridge", rope: "Rope", steps: "Steps", bumps: "Bumps", seesaw: "Seesaw",
+  gap_drop: "Gap-drop", wall: "Wall", u_turn: "U-turn" };
+const LEVELS = [1, 2, 3];
+let sel = store.get("rb_sel", { exp: null, agent: null, task: null });
+let running = null, lastRunS = null;
+
+function loadScript(src) {
+  return new Promise(res => { const s = document.createElement("script"); s.src = src; s.onload = res;
+    s.onerror = () => { log("could not load " + src); res(); }; document.head.appendChild(s); });
+}
+function parseExperimentText(text) {
+  const t = text.trim();
+  if (t.startsWith("{")) return JSON.parse(t);
+  const i = t.indexOf("= {"), j = t.lastIndexOf("};");
+  if (i < 0 || j < 0) throw new Error("not an experiment file");
+  return JSON.parse(t.slice(i + 2, j + 1));
+}
+async function loadExperiments() {
+  for (const f of window.RB_EXPERIMENT_FILES || []) await loadScript("experiments/" + f);
+  Object.assign(EXPS, window.RB_EXPERIMENTS || {});
+  for (const e of store.get("rb_added_exps", [])) EXPS[e.name] = e;  // experiments added from a file on this browser
+}
+function exps() { return Object.keys(EXPS).sort(); }
+function cur() { return EXPS[sel.exp]; }
+function progFor(exp, agent, task) { return exp && exp.programs.find(p => p.agent === agent && p.task === task); }
+function agentsOf(exp) {
+  const m = new Map();
+  for (const p of exp ? exp.programs : []) if (!m.has(p.agent)) m.set(p.agent, p.agent_label || p.agent);
+  return [...m.entries()];
+}
+
+function renderPicker() {
+  const ne = exps();
+  if (!ne.length) { $("#pinfo").innerHTML = "<p class='muted'>No experiment loaded. Run <code>python scripts/export_controller.py</code> or add an experiment file.</p>"; }
+  if (!EXPS[sel.exp]) sel.exp = ne[ne.length - 1] || null;
+  for (const id of ["#selExp", "#resExp"]) {
+    $(id).innerHTML = ne.map(n => `<option value="${esc(n)}">${esc(n)}</option>`).join("");
+    $(id).value = sel.exp || "";
+  }
+  const e = cur();
+  $("#expInfo").textContent = e ? `${e.title || ""} · ${e.programs.length} programs` : "";
+  const ag = agentsOf(e);
+  if (!ag.find(([a]) => a === sel.agent)) sel.agent = ag.length ? ag[0][0] : null;
+  $("#agents").innerHTML = ag.map(([a, l]) => `<button data-a="${esc(a)}" class="${a === sel.agent ? "sel" : ""}">${esc(l)}</button>`).join("");
+  $("#agents").querySelectorAll("button").forEach(b => b.onclick = () => { if (running) return; sel.agent = b.dataset.a; sel.task = null; saveSel(); renderPicker(); });
+  let h = `<div></div>` + LEVELS.map(l => `<div class="hd">L${l}</div>`).join("");
+  for (const b of BENCHES) {
+    h += `<div class="bn">${BN[b]}</div>`;
+    for (const l of LEVELS) {
+      const task = `${b}_L${l}`, p = progFor(e, sel.agent, task);
+      const tries = p ? triesFor(sel.exp, sel.agent, task) : [];
+      const dots = tries.slice(0, 6).map(t => `<i class="${esc(t.result)}"></i>`).join("");
+      h += `<div class="cell ${p ? "has" : "none"} ${p && p.solved_in_sim === false ? "simfail" : ""} ${sel.task === task ? "sel" : ""}" data-t="${task}" ${p ? 'tabindex="0" role="button"' : ""}
+        title="${p ? esc(`${task}: ${p.design}, ${p.solved_in_sim === false ? "did not pass in simulation" : "sim " + (p.sim_time_s ?? "?") + " s"}, ${tries.length} tries`) : "no design"}">
+        ${p ? (p.sim_time_s != null ? p.sim_time_s.toFixed(1) + "s" : "•") : "–"}<span class="tries">${dots}</span></div>`;
+    }
+  }
+  $("#lgrid").innerHTML = h;
+  const ml = [...new Set((e ? e.programs : []).filter(p => p.agent === sel.agent && p.multi).map(p => p.multi))].sort();
+  $("#mwrap").hidden = !ml.length;
+  let mh = `<div></div>` + BENCHES.map(b => `<div class="hd">${BN[b]}</div>`).join("");
+  for (const m of ml) {
+    mh += `<div class="bn">All-in-one ${esc(m.replace("all_", ""))}</div>`;
+    for (const b of BENCHES) {
+      const task = `${m}/${b}`, p = progFor(e, sel.agent, task), tries = p ? triesFor(sel.exp, sel.agent, task) : [];
+      mh += `<div class="cell ${p ? "has" : "none"} ${p && p.solved_in_sim === false ? "simfail" : ""} ${sel.task === task ? "sel" : ""}" data-t="${task}" ${p ? 'tabindex="0" role="button"' : ""}
+        title="${p ? esc(`${task}: ${p.solved_in_sim === false ? "did not pass in simulation" : "sim " + (p.sim_time_s ?? "?") + " s"}, ${tries.length} tries`) : "no program"}">
+        ${p ? (p.sim_time_s != null && p.solved_in_sim !== false ? p.sim_time_s.toFixed(1) + "s" : "•") : "–"}<span class="tries">${tries.slice(0, 6).map(t => `<i class="${esc(t.result)}"></i>`).join("")}</span></div>`;
+    }
+  }
+  $("#mlgrid").innerHTML = mh;
+  document.querySelectorAll("#lgrid .cell.has, #mlgrid .cell.has").forEach(c => {
+    const go = () => { if (running) return; sel.task = c.dataset.t; saveSel(); renderPicker(); };
+    c.onclick = go; c.onkeydown = ev => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); go(); } };
+  });
+  if (!progFor(e, sel.agent, sel.task)) { const f = e && e.programs.find(p => p.agent === sel.agent); sel.task = f ? f.task : null; }
+  renderInfo(); renderTries(); renderFlips();
+}
+function saveSel() { store.set("rb_sel", sel); }
+
+// ---------------------------------------------------------------- camera overlay: a reference picture over the live camera
+// Any picture works, e.g. a frame of the overview video of `robobuilder simulate ... --video` (the simulator's camera).
+let ovURL = null;
+function camOverlay() {
+  const img = $("#camSim"), on = $("#camOv").checked && !!ovURL;
+  if (on && img.getAttribute("src") !== ovURL) img.src = ovURL;
+  img.style.opacity = on ? $("#camOvA").value : 0; $("#camSimTag").hidden = !on;
+  $("#camv").style.transform = `scale(${Number($("#camZoom").value || 1).toFixed(3)})`;
+  store.set("rb_cam_view", { ov: $("#camOv").checked, a: $("#camOvA").value, zoom: $("#camZoom").value, big: $("#cam").classList.contains("big") });
+}
+function prog() { return progFor(cur(), sel.agent, sel.task); }
+function renderInfo() {
+  const p = prog(), el = $("#pinfo");
+  if (!p) { el.innerHTML = "<p class='muted'>Pick a level with a design.</p>"; return; }
+  const recv = [...new Set(p.motors.filter(m => m.channel).map(m => m.channel))].sort();
+  const wires = p.motors.map(m => `<tr><td><b>${esc(m.label)}</b></td><td>${esc(m.part)}</td><td>${esc(m.role)}</td><td>${
+    m.box ? "<b>battery box directly</b> (switch on at GO)" : m.channel ? `receiver ch <b>${m.channel}</b> · <span class="tag ${m.output}">${m.output}</span> ${m.output === "A" ? "red" : "blue"}${m.stacked_on ? ` <span class="muted">(stack on ${esc(m.stacked_on)}'s plug, same way round)</span>` : ""}` : "not used"}</td></tr>`).join("");
+  const fx = p.start && p.start.front_x_m != null ? Math.round(-p.start.front_x_m * 1000) : null;
+  const place = fx == null ? "Place it as the start pose in the task file (<code>robobuilder task &lt;course&gt; &lt;level&gt;</code>)." : fx > 0
+    ? `Robot's front <b>${fx} mm before the obstacle's start line</b>, centred on the lane, pointing along the course.`
+    : `Robot's front <b>at the obstacle's start line</b>${fx < 0 ? ` (${-fx} mm past it)` : ""}, centred, pointing along the course.`;
+  const box = p.box_direct.length ? `<div class="boxnote"><b>At GO:</b> ${p.box_direct.map(b => esc(b.note)).join("<br>")}</div>` : "";
+  const two = recv.length > 1 ? `<div class="boxnote"><b>Two receivers:</b> set one receiver's channel switch to <b>${recv[0]}</b> and the other's to <b>${recv[1]}</b> (wiring table below).
+    One IR emitter controls both; make sure each receiver's dark front window can see an IR LED for the whole run.</div>` : "";
+  const multi = p.multi ? `<div class="boxnote"><b>All-in-one robot:</b> the same assembly runs every course; this is its <b>${BN[p.bench]}</b> program.</div>` : "";
+  el.innerHTML = `<h3>${BN[p.bench]} L${p.level} · ${esc(p.agent_label)} · design <span class="num">${esc(p.design)}</span>${p.phase === "print" ? " · Cross+Print" : ""}${p.solved_in_sim === false ? ' · <span style="color:var(--bad)">did not pass in simulation</span>' : ""}</h3>${multi}
+    <div class="muted">${esc((p.start && p.start.description || "").replace(/^\[[^\]]*\]\s*/, ""))}</div>
+    <div class="muted num" style="margin-top:4px">sim: goal at ${p.sim_time_s ?? "?"} s · run ${runWindow(p).toFixed(1)} s (commands) of ${p.run_s} s window · ${p.ir.length} IR command(s) · ${p.receivers} receiver(s)</div>
+    <h3>Place the robot</h3><div>${place}</div>
+    <h3>Camera</h3><div class="muted">One fixed camera beside the course that sees the start, the obstacle and the goal, as the
+      simulator's overview camera. To line it up, load a frame of the design's simulated overview video as the overlay picture in the camera box.</div>
+    <h3>Wiring</h3><div class="scroll"><table class="w"><tr><th>Motor</th><th>Part</th><th>Role</th><th>Plug into</th></tr>${wires}</table></div>
+    <div class="muted" style="margin-top:6px">Receiver channel switch${recv.length > 1 ? "es" : ""}: <b>${recv.join(" and ") || "—"}</b>. Battery: ${esc(p.battery)}.</div>
+    ${p.motors.filter(m => m.channel && !m.stacked_on).length > 1 || p.motors.some(m => m.stacked_on) ? `<div class="boxnote"><b>Plugging:</b> each motor goes on its own output as listed${p.motors.some(m => m.stacked_on) ? "; a motor marked “stack on” goes on top of that motor's plug, the same way round (stacked plugs cannot be turned round)" : ""}. Mirror-image motors (for example a left and a right wheel motor) are on red and blue so each gets its own direction.</div>` : ""}
+    ${(p.wiring_notes || []).length ? `<div class="boxnote"><b>Separate outputs:</b> ${p.wiring_notes.map(esc).join("<br>")}</div>` : ""}
+    ${two}${box}
+    <h3>Program</h3><div class="scroll"><table class="w">${p.ir.map(c => `<tr><td class="num">${c.t.toFixed(2)} s</td><td><code>C ${c.ch} ${esc(c.A)} ${esc(c.B)}</code></td><td class="muted">${esc((c.why || []).join("; "))}</td></tr>`).join("") || "<tr><td class='muted'>no IR commands (battery-box motors only)</td></tr>"}</table></div>
+    ${p.agent_notes ? `<h3>Agent's notes</h3><div class="notes">${esc(p.agent_notes)}</div>` : ""}`;
+}
+
+// polarity flips per channel/output (if a motor turns the wrong way on the first test), remembered
+function flips() { return store.get("rb_flips", {}); }
+function renderFlips() {
+  const p = prog(); const outs = p ? [...new Set(p.motors.filter(m => m.channel).map(m => m.channel + m.output))].sort() : [];
+  const f = flips();
+  $("#flips").innerHTML = outs.length ? outs.map(k => `<label style="margin-right:10px"><input type="checkbox" data-k="${k}" ${f[k] ? "checked" : ""}> flip ${k}</label>`).join("") : "—";
+  $("#flips").querySelectorAll("input").forEach(i => i.onchange = () => { const g = flips(); g[i.dataset.k] = i.checked; store.set("rb_flips", g); });
+}
+function flipVal(v, key) { return v === "brake" || v === "0" || !flips()[key] ? v : String(-Number(v)); }
+// the run (and its recording) lasts as long as the motor commands: until 1 s after the last command when
+// that command leaves every output stopped (0 / brake); otherwise the whole run window of the level
+function runWindow(p) {
+  if (!p.ir.length || (p.box_direct || []).length) return p.run_s;  // box-direct motors run until the box is switched off
+  const fin = {};
+  for (const c of p.ir) fin[c.ch] = [String(c.A), String(c.B)];
+  const stopped = Object.values(fin).every(v => v.every(x => x === "0" || x === "brake"));
+  const lastT = Math.max(...p.ir.map(c => c.t));
+  return stopped ? Math.min(p.run_s, lastT + 1.0) : p.run_s;
+}
+function lineFor(c) { return `C ${c.ch} ${flipVal(c.A, c.ch + "A")} ${flipVal(c.B, c.ch + "B")}`; }
+
+async function countdown(p) {
+  const ov = $("#overlay"); ov.hidden = false;
+  for (const n of [3, 2, 1]) {
+    if (n === 1 && running && running.recStart) running.recStart();
+    $("#ovn").textContent = n; $("#ovs").textContent = `${BN[p.bench]} L${p.level} · ${p.agent_label}: hands off the robot`;
+    await new Promise(r => setTimeout(r, 1000));
+    if (!running || running.stop) { ov.hidden = true; return false; }
+  }
+  $("#ovn").textContent = "GO";
+  $("#ovs").textContent = p.box_direct.length ? "SWITCH ON the battery box for " + p.box_direct.map(b => b.label).join(", ") : "";
+  setTimeout(() => { ov.hidden = true; }, p.box_direct.length ? 1500 : 600);
+  return true;
+}
+async function play() {
+  const p = prog();
+  if (!p || running) return;
+  if (!writer) { log("Connect the IR bridge first."); $("#pnext").textContent = "Connect the IR bridge first."; return; }
+  const scale = Number($("#scale").value), keep = (cur() && cur().keepalive_s) || 0.3;
+  running = { stop: false }; $("#play").disabled = true;
+  const recOn = cam.ready() && $("#camAuto").checked;
+  if (recOn) running.recStart = () => cam.start(p);
+  if (!(await countdown(p))) { if (recOn) await cam.discard(); running = null; $("#play").disabled = false; return; }
+  const events = p.ir.map(c => ({ t: c.t / scale, line: lineFor(c), ch: c.ch, why: (c.why || []).join("; ") }));
+  const runS = runWindow(p) / scale, t0 = performance.now(), curL = {}, last = {};
+  let i = 0, busy = false;
+  log(`GO ${sel.exp} ${p.agent} ${p.task} (${p.design}), speed scale ${scale}, window ${runS.toFixed(1)} s`);
+  await new Promise(resolve => {
+    const tick = async () => {
+      const now = (performance.now() - t0) / 1000;
+      $("#ptime").textContent = now.toFixed(1) + " s";
+      $("#pbar").style.width = Math.min(100, 100 * now / runS) + "%";
+      $("#pnext").textContent = i < events.length ? `next: ${events[i].line} at ${events[i].t.toFixed(2)} s` : "running…";
+      if (running.stop || now >= runS) return resolve();
+      if (!busy) {
+        if (i < events.length && now >= events[i].t - 1e-4) {
+          const ev = events[i++]; busy = true;
+          log(`t=${now.toFixed(3)} s  ${ev.line}  ${ev.why}`);
+          curL[ev.ch] = ev.line; last[ev.ch] = now; await send(ev.line); busy = false;
+        } else {
+          const soon = i < events.length && events[i].t - now < 0.15;
+          for (const ch of Object.keys(curL)) {  // keep-alive: combo commands time out after ~1 s
+            if (now - last[ch] >= keep && !(soon && now - last[ch] < 0.7)) { busy = true; last[ch] = now; await send(curL[ch]); busy = false; break; }
+          }
+        }
+      }
+      setTimeout(tick, 5);
+    };
+    tick();
+  });
+  const why = running.stop ? "stopped" : "end of run window";
+  lastRunS = (performance.now() - t0) / 1000;
+  await stopAll();
+  log(`STOP (${why}) at ${lastRunS.toFixed(2)} s; every output floated` + (p.box_direct.length ? "; switch the battery box OFF" : ""));
+  $("#pnext").textContent = why + (p.box_direct.length ? " · switch the battery box OFF" : "") + " · log the try →";
+  running = null; $("#play").disabled = false;
+  if (recOn) { await new Promise(r => setTimeout(r, 1500)); await cam.finish(p); }  // 1.5 s after the stop, then keep or delete
+}
+
+// ---------------------------------------------------------------- trial log
+function allTries() { return store.get("rb_tries", []); }
+function triesFor(exp, agent, task) { return allTries().filter(t => t.exp === exp && t.agent === agent && t.task === task); }
+let pick = null;
+function renderTries() {
+  const p = prog();
+  $("#trialcard").style.opacity = p ? 1 : 0.5;
+  const ts = p ? triesFor(sel.exp, sel.agent, sel.task) : [];
+  $("#tryList").innerHTML = ts.length ? `<table class="w"><tr><th>#</th><th>Result</th><th>Time</th><th>Failure</th><th>Video</th><th></th></tr>` +
+    ts.map((t, k) => `<tr><td class="num">${k + 1}</td><td><span class="pill ${esc(t.result)}">${esc(t.result)}</span></td><td class="num">${t.time_s ?? "–"}</td>
+      <td>${esc(t.failure || "")}${t.notes ? `<div class="muted">${esc(t.notes)}</div>` : ""}</td><td class="muted">${esc(t.video || "")}</td>
+      <td><button data-id="${esc(t.id)}" class="del" style="padding:2px 8px" title="Delete this try">✕</button></td></tr>`).join("") + `</table>` +
+    `<div class="muted" style="margin-top:6px">${ts.length} of up to 3 tries · ${ts.filter(t => t.result === "pass").length} pass</div>` : "None yet.";
+  $("#tryList").querySelectorAll("button.del").forEach(b => b.onclick = () => {
+    if (b.dataset.armed) { store.set("rb_tries", allTries().filter(t => t.id !== b.dataset.id)); renderPicker(); }
+    else { b.dataset.armed = "1"; b.textContent = "Delete?"; }
+  });
+}
+$("#resBtns").querySelectorAll("button").forEach(b => b.onclick = () => {
+  pick = b.dataset.v; $("#resBtns").querySelectorAll("button").forEach(x => x.classList.toggle("sel", x === b));
+});
+$("#saveTry").onclick = () => {
+  const p = prog();
+  if (!p) return;
+  if (!pick) { $("#saveMsg").textContent = "Choose Pass, Fail or Partial first."; return; }
+  const t = { id: `${Date.now()}-${Math.random().toString(36).slice(2, 7)}`, exp: sel.exp, agent: p.agent, model: p.model, task: p.task,
+    bench: p.bench, level: p.level, design: p.design, result: pick, time_s: $("#tTime").value ? Number($("#tTime").value) : null,
+    failure: $("#tFail").value, video: $("#tVideo").value.trim(), notes: $("#tNotes").value.trim(),
+    speed_scale: Number($("#scale").value), at: new Date().toISOString() };
+  store.set("rb_tries", allTries().concat([t]));
+  pick = null; $("#resBtns").querySelectorAll("button").forEach(x => x.classList.remove("sel"));
+  for (const id of ["#tTime", "#tVideo", "#tNotes"]) $(id).value = ""; $("#tFail").value = "";
+  $("#saveMsg").textContent = `Saved try ${triesFor(sel.exp, p.agent, p.task).length}.`;
+  renderPicker(); if (!$("#results").hidden) renderResults();
+};
+
+function renderResults() {
+  const exp = $("#resExp").value, ts = allTries().filter(t => t.exp === exp);
+  const by = new Map();
+  for (const t of ts) { const k = t.agent + "|" + t.task; if (!by.has(k)) by.set(k, []); by.get(k).push(t); }
+  const agents = [...new Set(ts.map(t => t.agent))];
+  const sum = agents.map(a => {
+    const ds = [...by.entries()].filter(([k]) => k.startsWith(a + "|"));
+    const passAny = ds.filter(([, v]) => v.some(t => t.result === "pass")).length;
+    const pass3 = ds.filter(([, v]) => v.length >= 3 && v.every(t => t.result === "pass")).length;
+    return `<tr><td><b>${esc(a)}</b></td><td class="num">${ds.length}</td><td class="num">${passAny}</td><td class="num">${pass3}</td><td class="num">${ds.reduce((s, [, v]) => s + v.length, 0)}</td></tr>`;
+  }).join("");
+  $("#resTable").innerHTML = ts.length ? `<h3>Summary</h3><table class="w"><tr><th>Agent</th><th>Designs tried</th><th>Passed at least once</th><th>Passed all 3+ tries</th><th>Tries</th></tr>${sum}</table>
+    <h3 style="margin-top:16px">Every try</h3><table class="w"><tr><th>Agent</th><th>Task</th><th>Design</th><th>Result</th><th>Time</th><th>Failure / notes</th><th>Video</th><th>When</th></tr>` +
+    ts.map(t => `<tr><td>${esc(t.agent)}</td><td>${esc(t.task)}</td><td class="num">${esc(t.design)}</td><td><span class="pill ${esc(t.result)}">${esc(t.result)}</span></td>
+      <td class="num">${t.time_s ?? "–"}</td><td>${esc(t.failure || "")} <span class="muted">${esc(t.notes || "")}</span></td><td class="muted">${esc(t.video || "")}</td>
+      <td class="muted num">${esc((t.at || "").replace("T", " ").slice(0, 16))}</td></tr>`).join("") + `</table>` : "<p class='muted'>No tries logged for this experiment yet.</p>";
+}
+function download(name, text, type) {
+  const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([text], { type })); a.download = name;
+  document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 500);
+}
+$("#expJson").onclick = () => {
+  const exp = $("#resExp").value;
+  download(`real_trials_${exp}.json`, JSON.stringify({ experiment: exp, exported: new Date().toISOString(),
+    tries: allTries().filter(t => t.exp === exp) }, null, 1), "application/json");
+};
+$("#expCsv").onclick = () => {
+  const exp = $("#resExp").value, cols = ["exp", "agent", "model", "task", "bench", "level", "design", "result", "time_s", "failure", "notes", "video", "speed_scale", "at", "id"];
+  const q = v => `"${String(v ?? "").replace(/"/g, '""')}"`;
+  download(`real_trials_${exp}.csv`, [cols.join(",")].concat(allTries().filter(t => t.exp === exp).map(t => cols.map(c => q(t[c])).join(","))).join("\n"), "text/csv");
+};
+$("#impRes").onchange = async e => {
+  const f = e.target.files[0]; if (!f) return;
+  try {
+    const d = JSON.parse(await f.text()), have = new Set(allTries().map(t => t.id));
+    const add = (d.tries || []).filter(t => t.id && !have.has(t.id));
+    store.set("rb_tries", allTries().concat(add)); log(`imported ${add.length} tries from ${f.name}`); renderResults(); renderPicker();
+  } catch (err) { log("import failed: " + err.message); }
+  e.target.value = "";
+};
+$("#addExp").onchange = async e => {
+  const f = e.target.files[0]; if (!f) return;
+  try {
+    const x = parseExperimentText(await f.text());
+    if (!x.name || !Array.isArray(x.programs)) throw new Error("missing name / programs");
+    EXPS[x.name] = x; const added = store.get("rb_added_exps", []).filter(y => y.name !== x.name); added.push(x);
+    store.set("rb_added_exps", added); sel.exp = x.name; saveSel(); renderPicker(); log(`added experiment ${x.name} (${x.programs.length} designs)`);
+  } catch (err) { log("could not read the experiment file: " + err.message); }
+  e.target.value = "";
+};
+
+// ---------------------------------------------------------------- manual control (one card per output)
+const cards = [], pending = new Map();
+function levelButtons(el, vals) { el.innerHTML = vals.map(v => `<button data-v="${v}">${v}</button>`).join(""); }
+function addCard(cfg) {
+  cfg = Object.assign({ ch: 1, out: "A", type: "motor", inv: false, dir: 1, spd: 0, ang: 0 }, cfg || {});
+  const node = $("#cardtpl").content.firstElementChild.cloneNode(true), c = { cfg, node };
+  cards.push(c); $("#cards").appendChild(node);
+  levelButtons($(".spd", node), [0, 1, 2, 3, 4, 5, 6, 7]);
+  const saveCards = () => store.set("rb_cards", cards.map(k => k.cfg));
+  const on = (s, f) => node.querySelectorAll(s + " button").forEach(b => b.onclick = () => { f(b); render(); apply(); saveCards(); });
+  on(".ch", b => { send(`P ${cfg.ch} ${cfg.out} 0`); cfg.ch = Number(b.textContent); });
+  on(".out", b => { send(`P ${cfg.ch} ${cfg.out} 0`); cfg.out = b.textContent; });
+  on(".type", b => { cfg.type = b.dataset.v; cfg.spd = 0; cfg.ang = 0; });
+  on(".dir", b => { cfg.dir = Number(b.dataset.v); });
+  on(".spd", b => { cfg.spd = Number(b.dataset.v); });
+  $(".angr", node).oninput = e => { cfg.ang = Number(e.target.value); render(); apply(); saveCards(); };
+  $(".inv", node).onchange = e => { cfg.inv = e.target.checked; render(); apply(); saveCards(); };
+  $(".brake", node).onclick = () => { cfg.spd = 0; render(); sendLevel(c, "brake"); };
+  $(".float", node).onclick = () => { cfg.spd = 0; render(); sendLevel(c, 0); };
+  $(".x", node).onclick = async () => { await sendLevel(c, 0); cards.splice(cards.indexOf(c), 1); node.remove(); saveCards(); };
+  function render() {
+    const mark = (s, p) => node.querySelectorAll(s + " button").forEach(b => b.classList.toggle("sel", p(b)));
+    mark(".ch", b => Number(b.textContent) === cfg.ch); mark(".out", b => b.textContent === cfg.out);
+    mark(".type", b => b.dataset.v === cfg.type); mark(".dir", b => Number(b.dataset.v) === cfg.dir); mark(".spd", b => Number(b.dataset.v) === cfg.spd);
+    $(".angr", node).value = cfg.ang; $(".inv", node).checked = cfg.inv;
+    const tag = $(".tag", node); tag.textContent = cfg.out; tag.className = "tag " + cfg.out;
+    $(".title", node).textContent = `Channel ${cfg.ch} · ${cfg.type === "servo" ? "Servo" : "Motor"}`;
+    $(".motor", node).hidden = cfg.type !== "motor"; $(".servo", node).hidden = cfg.type !== "servo";
+    $(".val", node).textContent = cfg.type === "servo" ? `${cfg.ang > 0 ? "+" : ""}${Math.round(cfg.ang / 7 * 90)}°` : (cfg.spd === 0 ? "stop" : `${cfg.dir > 0 ? "▶" : "◀"} ${cfg.spd}`);
+  }
+  function apply() { return sendLevel(c, cfg.type === "servo" ? cfg.ang : cfg.dir * cfg.spd); }
+  c.render = render; render(); return c;
+}
+function sendLevel(c, lvl) {
+  let v = lvl; if (v !== "brake" && c.cfg.inv) v = -v;
+  const cmd = `P ${c.cfg.ch} ${c.cfg.out} ${v}`, key = c.cfg.ch + c.cfg.out;
+  $(".cmd", c.node).textContent = cmd;
+  const had = pending.has(key); pending.set(key, cmd);
+  if (had) return queue;
+  queue = queue.then(() => { const l = pending.get(key); pending.delete(key); return l ? rawSend(l) : null; });
+  return queue;
+}
+
+// ---------------------------------------------------------------- camera: live picture, recording, keep-or-delete, folder
+// Videos go to <chosen folder>/<experiment>/<bench>/L<level>/<agent>_try_<k>.<ext>
+// (all-bench designs: <experiment>/all_L<level>/<bench>/<agent>_try_<k>.<ext>); k = the first free number from 0.
+const cam = (() => {
+  let stream = null, rec = null, chunks = [], recT0 = 0, recTimer = null, recFor = null, dirHandle = null;
+  // recording format: with sound, a type that carries both an AAC / Opus track and the video track
+  const pickMime = audio => (audio
+    ? ["video/mp4;codecs=avc1,mp4a.40.2", "video/mp4;codecs=avc1,opus", "video/webm;codecs=vp9,opus", "video/webm;codecs=vp8,opus", "video/webm"]
+    : ["video/mp4;codecs=avc1", "video/mp4", "video/webm;codecs=vp9", "video/webm"])
+    .find(m => window.MediaRecorder && MediaRecorder.isTypeSupported(m)) || "";
+  let MIME = pickMime(false), EXT = MIME.startsWith("video/mp4") ? "mp4" : "webm";
+  const RES = { "720": [1280, 720, 30, 6e6], "1080": [1920, 1080, 30, 12e6], "1080_60": [1920, 1080, 60, 20e6], "2160": [3840, 2160, 30, 45e6] };
+  const res = () => RES[$("#camRes").value] || RES["2160"];  // default 4K
+  // the chosen folder survives reloads (IndexedDB keeps the handle; Chrome asks for permission again once per session)
+  const idb = (mode, fn) => new Promise((res, rej) => { const o = indexedDB.open("rb_cam", 1);
+    o.onupgradeneeded = () => o.result.createObjectStore("kv"); o.onerror = () => rej(o.error);
+    o.onsuccess = () => { const tx = o.result.transaction("kv", mode); const r = fn(tx.objectStore("kv")); tx.oncomplete = () => res(r && r.result); tx.onerror = () => rej(tx.error); }; });
+  async function loadDir() { try { dirHandle = await idb("readonly", s => s.get("dir")) || null; } catch (e) { dirHandle = null; } showDir(); }
+  function showDir() { $("#camDirName").textContent = dirHandle ? dirHandle.name : "not chosen"; }
+  async function chooseDir() {
+    if (!window.showDirectoryPicker) { log("This browser cannot write to a folder: use Chrome or Edge."); return null; }
+    try { dirHandle = await showDirectoryPicker({ id: "rb-videos", mode: "readwrite" }); await idb("readwrite", s => s.put(dirHandle, "dir")); showDir(); return dirHandle; }
+    catch (e) { return null; }
+  }
+  async function writable() {
+    if (!dirHandle) return chooseDir();
+    let q = await dirHandle.queryPermission({ mode: "readwrite" });
+    if (q !== "granted") q = await dirHandle.requestPermission({ mode: "readwrite" });
+    return q === "granted" ? dirHandle : chooseDir();
+  }
+  async function listDevices() {
+    const devs = (await navigator.mediaDevices.enumerateDevices()).filter(d => d.kind === "videoinput");
+    const saved = store.get("rb_cam_dev", "");
+    $("#camDev").innerHTML = devs.map((d, k) => `<option value="${esc(d.deviceId)}">${esc(d.label || "Camera " + (k + 1))}</option>`).join("") || `<option value="">no camera found</option>`;
+    // prefer the saved camera, else an external (USB) one over a built-in camera
+    const ext = devs.find(d => !/facetime|built-in|integrated/i.test(d.label));
+    $("#camDev").value = devs.some(d => d.deviceId === saved) ? saved : (ext || devs[0] || {}).deviceId || "";
+    return devs;
+  }
+  async function open(id) {
+    if (rec && rec.state === "recording") { log("camera: stop the recording before changing camera, quality or sound"); return; }
+    if (stream) stream.getTracks().forEach(t => t.stop());
+    const [w, h, fps] = res(), wantMic = $("#camMic").checked;
+    try {
+      stream = await navigator.mediaDevices.getUserMedia({ audio: false, video: { deviceId: id ? { exact: id } : undefined,
+        width: { ideal: w }, height: { ideal: h }, frameRate: { ideal: fps } } });
+    } catch (e) { log("camera: " + e.message); stream = null; return; }
+    // the microphone is opened on its own, so a refused or missing microphone never stops the picture
+    if (wantMic) {
+      const mid = $("#micDev").value;
+      try {
+        const a = await navigator.mediaDevices.getUserMedia({ video: false, audio: { deviceId: mid ? { exact: mid } : undefined,
+          echoCancellation: false, noiseSuppression: false, autoGainControl: true } });
+        a.getAudioTracks().forEach(t => stream.addTrack(t));
+        if (mid) store.set("rb_mic_dev", mid);
+      } catch (e) { log("microphone: " + e.message + " (recording without sound)"); }
+    }
+    MIME = pickMime(stream.getAudioTracks().length > 0); EXT = MIME.startsWith("video/mp4") ? "mp4" : "webm";
+    $("#camv").srcObject = stream;
+    const vt = stream.getVideoTracks()[0], s = vt.getSettings(), at = stream.getAudioTracks()[0];
+    log(`camera: ${vt.label} ${s.width}x${s.height} @ ${Math.round(s.frameRate || 0)} fps` + (at ? `, sound from ${at.label}` : ", no sound") + `, recording as ${EXT}`);
+    if (s.height && s.height < h) log(`camera: asked for ${h}p, this camera gives ${s.height}p (it may not support ${h}p over this cable or port)`);
+    if (id) store.set("rb_cam_dev", id);
+    store.set("rb_cam_q2", { res: $("#camRes").value, mic: wantMic });
+  }
+  async function listMics() {
+    const mics = (await navigator.mediaDevices.enumerateDevices()).filter(d => d.kind === "audioinput");
+    const saved = store.get("rb_mic_dev", "");
+    $("#micDev").innerHTML = mics.map((d, k) => `<option value="${esc(d.deviceId)}">${esc(d.label || "Microphone " + (k + 1))}</option>`).join("") || `<option value="">no microphone found</option>`;
+    // prefer the saved microphone, else the camera's own one (same device name), else the default
+    const camLabel = ($("#camDev").selectedOptions[0] || {}).textContent || "";
+    const same = mics.find(d => camLabel && d.label && d.label.split(" (")[0] === camLabel.split(" (")[0]);
+    $("#micDev").value = mics.some(d => d.deviceId === saved) ? saved : (same || mics[0] || {}).deviceId || "";
+    $("#micDev").hidden = !$("#camMic").checked;
+  }
+  async function init() {
+    if (!navigator.mediaDevices) { log("No camera access in this browser."); return; }
+    await loadDir();
+    try { await open(store.get("rb_cam_dev", "") || undefined); } catch (e) {}
+    const devs = await listDevices();  // labels are only known once the camera was allowed
+    const want = $("#camDev").value;
+    if (stream && want && stream.getVideoTracks()[0].getSettings().deviceId !== want) await open(want);
+    await listMics();
+    navigator.mediaDevices.addEventListener("devicechange", () => { listDevices(); listMics(); });
+    if (!devs.length) log("camera: none found; plug in a USB camera and pick it in the camera box");
+  }
+  function tick() { $("#rec").textContent = `● REC ${((performance.now() - recT0) / 1000).toFixed(1)} s`; }
+  function start(p) {
+    if (!stream || (rec && rec.state === "recording")) return;
+    chunks = []; recFor = p;
+    const vb = res()[3], opt = { videoBitsPerSecond: vb, audioBitsPerSecond: 160e3 };
+    rec = new MediaRecorder(stream, MIME ? Object.assign({ mimeType: MIME }, opt) : opt);
+    rec.ondataavailable = e => { if (e.data && e.data.size) chunks.push(e.data); };
+    rec.start(1000); recT0 = performance.now(); $("#rec").classList.add("on"); recTimer = setInterval(tick, 100); tick();
+    $("#camRec").textContent = "■ Stop recording";
+  }
+  function stopRec() {
+    return new Promise(res => {
+      clearInterval(recTimer); $("#rec").classList.remove("on"); $("#rec").textContent = "not recording"; $("#camRec").textContent = "● Record";
+      if (!rec || rec.state === "inactive") return res(null);
+      rec.onstop = () => res(new Blob(chunks, { type: MIME || "video/webm" })); rec.stop();
+    });
+  }
+  function slug(t) { return String(t || "agent").toLowerCase().replace(/[^a-z0-9.]+/g, "-").replace(/^-|-$/g, ""); }
+  function folderParts(p) {
+    const ex = sel.exp || "experiment";
+    if (!p) return [ex, "manual"];
+    return p.multi ? [ex, p.multi, p.bench] : [ex, p.bench, "L" + p.level];
+  }
+  async function nextName(dir, base) {
+    const used = new Set();
+    for await (const [n] of dir.entries()) { const m = n.match(new RegExp("^" + base.replace(/[.]/g, "\\.") + "_try_(\\d+)\\.")); if (m) used.add(Number(m[1])); }
+    let k = 0; while (used.has(k)) k++;
+    return { k, name: `${base}_try_${k}.${EXT}`, n: used.size };
+  }
+  function ask(blob, where) {
+    return new Promise(res => {
+      const url = URL.createObjectURL(blob); $("#svVid").src = url; $("#svPath").textContent = where;
+      $("#savebox").hidden = false; $("#svYes").focus();
+      const done = v => { $("#savebox").hidden = true; $("#svVid").pause(); $("#svVid").removeAttribute("src"); URL.revokeObjectURL(url);
+        document.removeEventListener("keydown", key, true); res(v); };
+      const key = e => { if (e.key === "y" || e.key === "Y") { e.preventDefault(); e.stopPropagation(); done(true); }
+        if (e.key === "n" || e.key === "N" || e.key === "Escape") { e.preventDefault(); e.stopPropagation(); done(false); } };
+      $("#svYes").onclick = () => done(true); $("#svNo").onclick = () => done(false);
+      document.addEventListener("keydown", key, true);
+    });
+  }
+  async function finish(p) {
+    const blob = await stopRec(); p = p || recFor;
+    if (!blob || !blob.size) { log("camera: nothing was recorded"); return; }
+    const parts = folderParts(p), base = slug(p ? p.agent_label : "manual");
+    const mb = (blob.size / 1e6).toFixed(1);
+    if (!(await ask(blob, `→ ${parts.join(" / ")} / ${base}_try_<next>.${EXT}  (${mb} MB)`))) { log("video deleted"); return; }
+    const root = await writable();
+    if (!root) { log("video NOT saved: no folder chosen"); return; }
+    let dir = root; for (const d of parts) dir = await dir.getDirectoryHandle(d, { create: true });
+    const nm = await nextName(dir, base);
+    if (nm.n >= 3) log(`note: ${parts.join("/")} already holds ${nm.n} videos of ${base} (the plan is up to 3)`);
+    const f = await dir.getFileHandle(nm.name, { create: true }), w = await f.createWritable(); await w.write(blob); await w.close();
+    const rel = [...parts, nm.name].join("/");
+    log(`video saved: ${root.name}/${rel} (${mb} MB)`);
+    if (p && p.task === sel.task) $("#tVideo").value = rel;  // goes into the try's log entry
+  }
+  async function discard() { await stopRec(); chunks = []; }
+  $("#camDev").onchange = e => open(e.target.value);
+  { const q = store.get("rb_cam_q2", {}); $("#camRes").value = q.res && RES[q.res] ? q.res : "2160"; $("#camMic").checked = !!q.mic; }  // 4K by default
+  $("#camRes").onchange = () => open($("#camDev").value);
+  $("#camMic").onchange = async () => { if ($("#camMic").checked) { await open($("#camDev").value); await listMics(); } else { $("#micDev").hidden = true; await open($("#camDev").value); } };
+  $("#micDev").onchange = () => open($("#camDev").value);
+  $("#camDir").onclick = chooseDir;
+  $("#camMin").onclick = () => { $("#cam").classList.toggle("min"); $("#camMin").textContent = $("#cam").classList.contains("min") ? "▴" : "▾"; };
+  $("#camRec").onclick = async () => { if (rec && rec.state === "recording") await finish(recFor); else if (stream) start(prog() || null); else log("camera: pick a camera first"); };
+  return { init, start, finish, discard, ready: () => !!stream };
+})();
+
+// ---------------------------------------------------------------- wiring the page
+function tab(id) {
+  for (const [s, b] of [["#programs", "#tabP"], ["#results", "#tabR"], ["#manual", "#tabM"]]) {
+    $(s).hidden = s !== id; $(b).classList.toggle("sel", s === id);
+  }
+  if (id === "#results") renderResults();
+}
+$("#tabP").onclick = () => tab("#programs"); $("#tabR").onclick = () => tab("#results"); $("#tabM").onclick = () => tab("#manual");
+$("#selExp").onchange = e => { if (running) return; sel.exp = e.target.value; sel.task = null; saveSel(); renderPicker(); };
+$("#resExp").onchange = () => renderResults();
+$("#play").onclick = play;
+$("#pstop").onclick = () => { if (running) running.stop = true; else stopAll(); };
+$("#scale").oninput = e => { $("#scalev").textContent = Number(e.target.value).toFixed(2) + " (real ÷ sim motor speed)"; };
+$("#connect").onclick = connect; $("#disconnect").onclick = disconnect; $("#stopall").onclick = () => { if (running) running.stop = true; stopAll(); };
+$("#repeats").onchange = e => send("N " + e.target.value);
+$("#addCard").onclick = () => { addCard({}); store.set("rb_cards", cards.map(k => k.cfg)); };
+document.addEventListener("keydown", e => {
+  if (e.code === "Space" && !["INPUT", "SELECT", "TEXTAREA", "BUTTON"].includes(document.activeElement.tagName)) {
+    e.preventDefault(); if (running) running.stop = true; else stopAll();
+  }
+});
+if (!("serial" in navigator)) $("#nosupport").hidden = false;
+else navigator.serial.addEventListener("disconnect", () => { log("USB unplugged"); writer = null; port = null; setStatus("not connected");
+  $("#connect").disabled = false; $("#disconnect").disabled = true; });
+// the play time of the last run fills the "Time" field of the next try
+const _play = play;
+$("#play").onclick = async () => { await _play(); if (lastRunS != null && !$("#tTime").value) $("#tTime").value = lastRunS.toFixed(1); };
+for (const cfg of store.get("rb_cards", [{ ch: 1, out: "A", type: "motor" }, { ch: 1, out: "B", type: "motor" }])) addCard(Object.assign(cfg, { spd: 0, ang: 0 }));
+loadExperiments().then(renderPicker);
+{ const v = store.get("rb_cam_view", {}); $("#camOv").checked = !!v.ov; if (v.a) $("#camOvA").value = v.a; if (v.zoom) $("#camZoom").value = v.zoom;
+  if (v.big) $("#cam").classList.add("big"); }
+for (const id of ["#camOv", "#camOvA", "#camZoom"]) $(id).addEventListener("input", camOverlay);
+$("#camOvFile").onchange = e => { const f = e.target.files[0]; if (!f) return; if (ovURL) URL.revokeObjectURL(ovURL);
+  ovURL = URL.createObjectURL(f); $("#camOv").checked = true; camOverlay(); log("overlay picture: " + f.name); };
+$("#camBig").onclick = () => { $("#cam").classList.toggle("big"); camOverlay(); };
+camOverlay();
+cam.init();
+</script>
+</body>
+</html>

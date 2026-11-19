@@ -1,0 +1,520 @@
+{
+ "name": "tune_0.85_1.75_1",
+ "part_set": "inventory",
+ "chassis": "deck",
+ "motor": "motorl",
+ "battery": "battery",
+ "parts": [
+  {
+   "name": "motorl",
+   "part": "99499c01",
+   "pos_mm": [
+    0,
+    56,
+    31.32
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "raill",
+   "part": "3895",
+   "pos_mm": [
+    -24,
+    60,
+    35.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pinl0",
+   "part": "2780",
+   "pos_mm": [
+    -8,
+    56,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pinl1",
+   "part": "2780",
+   "pos_mm": [
+    8,
+    56,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "axl",
+   "part": "3706",
+   "pos_mm": [
+    0,
+    72,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "wl",
+   "part": "32020c01",
+   "pos_mm": [
+    0,
+    84,
+    31.32
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "rearaxl",
+   "part": "3707",
+   "pos_mm": [
+    -64,
+    72,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "rearwl",
+   "part": "32020c01",
+   "pos_mm": [
+    -64,
+    84,
+    31.32
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "bl",
+   "part": "4265c",
+   "pos_mm": [
+    -64,
+    54,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "motorr",
+   "part": "99499c01",
+   "pos_mm": [
+    0,
+    -56,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "railr",
+   "part": "3895",
+   "pos_mm": [
+    -24,
+    -60,
+    35.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pinr0",
+   "part": "2780",
+   "pos_mm": [
+    -8,
+    -56,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pinr1",
+   "part": "2780",
+   "pos_mm": [
+    8,
+    -56,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "axr",
+   "part": "3706",
+   "pos_mm": [
+    0,
+    -72,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "wr",
+   "part": "32020c01",
+   "pos_mm": [
+    0,
+    -84,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rearaxr",
+   "part": "3707",
+   "pos_mm": [
+    -64,
+    -72,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "rearwr",
+   "part": "32020c01",
+   "pos_mm": [
+    -64,
+    -84,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "br",
+   "part": "4265c",
+   "pos_mm": [
+    -64,
+    -54,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "deck",
+   "part": "92438",
+   "pos_mm": [
+    -48,
+    0,
+    38.52
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "lowerl",
+   "part": "3035",
+   "pos_mm": [
+    -48,
+    32,
+    25.72
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "lowerr",
+   "part": "3035",
+   "pos_mm": [
+    -48,
+    -32,
+    25.72
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "tie0",
+   "part": "3001",
+   "pos_mm": [
+    -56,
+    0,
+    35.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "tie1",
+   "part": "3001",
+   "pos_mm": [
+    -40,
+    0,
+    35.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    -48,
+    0,
+    76.92
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    -48,
+    -16,
+    86.52
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "gfrontl",
+   "part": "94925",
+   "pos_mm": [
+    0,
+    68,
+    31.32
+   ]
+  },
+  {
+   "name": "grearl",
+   "part": "94925",
+   "pos_mm": [
+    -64,
+    68,
+    31.32
+   ]
+  },
+  {
+   "name": "gfrontr",
+   "part": "94925",
+   "pos_mm": [
+    0,
+    -68,
+    31.32
+   ]
+  },
+  {
+   "name": "grearr",
+   "part": "94925",
+   "pos_mm": [
+    -64,
+    -68,
+    31.32
+   ]
+  }
+ ],
+ "connections": [
+  {
+   "child": "pinl0",
+   "parent": "motorl",
+   "kind": "pin"
+  },
+  {
+   "child": "pinl0",
+   "parent": "raill",
+   "kind": "pin"
+  },
+  {
+   "child": "pinl1",
+   "parent": "motorl",
+   "kind": "pin"
+  },
+  {
+   "child": "pinl1",
+   "parent": "raill",
+   "kind": "pin"
+  },
+  {
+   "child": "axl",
+   "parent": "motorl",
+   "kind": "motor"
+  },
+  {
+   "child": "wl",
+   "parent": "axl",
+   "kind": "cross"
+  },
+  {
+   "child": "rearaxl",
+   "parent": "raill",
+   "kind": "hinge"
+  },
+  {
+   "child": "rearwl",
+   "parent": "rearaxl",
+   "kind": "cross"
+  },
+  {
+   "child": "bl",
+   "parent": "rearaxl",
+   "kind": "cross"
+  },
+  {
+   "child": "pinr0",
+   "parent": "motorr",
+   "kind": "pin"
+  },
+  {
+   "child": "pinr0",
+   "parent": "railr",
+   "kind": "pin"
+  },
+  {
+   "child": "pinr1",
+   "parent": "motorr",
+   "kind": "pin"
+  },
+  {
+   "child": "pinr1",
+   "parent": "railr",
+   "kind": "pin"
+  },
+  {
+   "child": "axr",
+   "parent": "motorr",
+   "kind": "motor"
+  },
+  {
+   "child": "wr",
+   "parent": "axr",
+   "kind": "cross"
+  },
+  {
+   "child": "rearaxr",
+   "parent": "railr",
+   "kind": "hinge"
+  },
+  {
+   "child": "rearwr",
+   "parent": "rearaxr",
+   "kind": "cross"
+  },
+  {
+   "child": "br",
+   "parent": "rearaxr",
+   "kind": "cross"
+  },
+  {
+   "child": "deck",
+   "parent": "raill",
+   "kind": "stud",
+   "studs": 7
+  },
+  {
+   "child": "deck",
+   "parent": "railr",
+   "kind": "stud",
+   "studs": 7
+  },
+  {
+   "child": "raill",
+   "parent": "lowerl",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "railr",
+   "parent": "lowerr",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "tie0",
+   "parent": "lowerl",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "tie0",
+   "parent": "lowerr",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "deck",
+   "parent": "tie0",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "tie1",
+   "parent": "lowerl",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "tie1",
+   "parent": "lowerr",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "deck",
+   "parent": "tie1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "battery",
+   "parent": "deck",
+   "kind": "stud",
+   "studs": 32
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "gfrontl",
+   "parent": "axl",
+   "kind": "cross"
+  },
+  {
+   "child": "grearl",
+   "parent": "rearaxl",
+   "kind": "cross"
+  },
+  {
+   "child": "gfrontr",
+   "parent": "axr",
+   "kind": "cross"
+  },
+  {
+   "child": "grearr",
+   "parent": "rearaxr",
+   "kind": "cross"
+  }
+ ],
+ "start_gap_mm": 0,
+ "motor_program": [
+  {
+   "t": 0,
+   "motor": "all",
+   "level": 7
+  },
+  {
+   "t": 0.85,
+   "motor": "motorl",
+   "level": 1
+  },
+  {
+   "t": 1.75,
+   "motor": "motorl",
+   "level": 7
+  },
+  {
+   "t": 3.2,
+   "motor": "all",
+   "level": "brake"
+  }
+ ],
+ "chains": [
+  {
+   "name": "chainl",
+   "gears": [
+    "gfrontl",
+    "grearl"
+   ],
+   "links": 28
+  },
+  {
+   "name": "chainr",
+   "gears": [
+    "gfrontr",
+    "grearr"
+   ],
+   "links": 28
+  }
+ ]
+}

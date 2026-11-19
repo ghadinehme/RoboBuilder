@@ -1,0 +1,463 @@
+{
+ "name": "chain_track_plank",
+ "description": "single centred 7.8mm chain track on 40T gears, motors both on right, battery left",
+ "chassis": "ri_r",
+ "motor": "motor_r",
+ "battery": "battery",
+ "intended": [],
+ "parts": [
+  {
+   "name": "ri_r",
+   "part": "3703",
+   "pos_mm": [
+    0.0,
+    8.0,
+    26.5
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "ro_r",
+   "part": "3703",
+   "pos_mm": [
+    0.0,
+    16.0,
+    26.5
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "ri_l",
+   "part": "3703",
+   "pos_mm": [
+    0.0,
+    -8.0,
+    26.5
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "ro_l",
+   "part": "3703",
+   "pos_mm": [
+    0.0,
+    -16.0,
+    26.5
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "p1r0",
+   "part": "3034",
+   "pos_mm": [
+    -32.0,
+    12.0,
+    16.9
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "p2r0",
+   "part": "3034",
+   "pos_mm": [
+    -32.0,
+    12.0,
+    13.7
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "p1r1",
+   "part": "3034",
+   "pos_mm": [
+    32.0,
+    12.0,
+    16.9
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "p2r1",
+   "part": "3034",
+   "pos_mm": [
+    32.0,
+    12.0,
+    13.7
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "platr",
+   "part": "92438",
+   "pos_mm": [
+    0.0,
+    36.0,
+    10.5
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "motor_r",
+   "part": "58120c01",
+   "pos_mm": [
+    -32.0,
+    20.0,
+    22.5
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "motor_f",
+   "part": "58120c01",
+   "pos_mm": [
+    32.0,
+    20.0,
+    22.5
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    0.0,
+    44.0,
+    20.1
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bl0",
+   "part": "3001",
+   "pos_mm": [
+    -16.0,
+    -12.0,
+    16.9
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bl1",
+   "part": "3001",
+   "pos_mm": [
+    16.0,
+    -12.0,
+    16.9
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pl",
+   "part": "3034",
+   "pos_mm": [
+    0.0,
+    -12.0,
+    7.3
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "platl",
+   "part": "41539",
+   "pos_mm": [
+    0.0,
+    -36.0,
+    4.1
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    0.0,
+    -36.0,
+    42.5
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "tie-8",
+   "part": "6558",
+   "pos_mm": [
+    -8.0,
+    0.0,
+    22.5
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "tie0",
+   "part": "6558",
+   "pos_mm": [
+    0.0,
+    0.0,
+    22.5
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "tie8",
+   "part": "6558",
+   "pos_mm": [
+    8.0,
+    0.0,
+    22.5
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "topplate",
+   "part": "3021",
+   "pos_mm": [
+    0.0,
+    0.0,
+    29.7
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "axle_r",
+   "part": "3706",
+   "pos_mm": [
+    -32.0,
+    4.0,
+    22.5
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "gear_r",
+   "part": "3649",
+   "pos_mm": [
+    -32.0,
+    0.0,
+    22.5
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "axle_f",
+   "part": "3706",
+   "pos_mm": [
+    32.0,
+    4.0,
+    22.5
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "gear_f",
+   "part": "3649",
+   "pos_mm": [
+    32.0,
+    0.0,
+    22.5
+   ],
+   "yaw_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "p1r0",
+   "parent": "ri_r",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "p1r0",
+   "parent": "ro_r",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "p2r0",
+   "parent": "p1r0",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "p1r1",
+   "parent": "ri_r",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "p1r1",
+   "parent": "ro_r",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "p2r1",
+   "parent": "p1r1",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "platr",
+   "parent": "p2r0",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "platr",
+   "parent": "p2r1",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "motor_r",
+   "parent": "platr",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "motor_f",
+   "parent": "platr",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "receiver",
+   "parent": "platr",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "bl0",
+   "parent": "ri_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "bl0",
+   "parent": "ro_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "bl1",
+   "parent": "ri_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "bl1",
+   "parent": "ro_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "pl",
+   "parent": "bl0",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "pl",
+   "parent": "bl1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "platl",
+   "parent": "pl",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "battery",
+   "parent": "platl",
+   "kind": "stud",
+   "studs": 32
+  },
+  {
+   "child": "tie-8",
+   "parent": "ri_r",
+   "kind": "pin"
+  },
+  {
+   "child": "tie-8",
+   "parent": "ri_l",
+   "kind": "pin"
+  },
+  {
+   "child": "tie0",
+   "parent": "ri_r",
+   "kind": "pin"
+  },
+  {
+   "child": "tie0",
+   "parent": "ri_l",
+   "kind": "pin"
+  },
+  {
+   "child": "tie8",
+   "parent": "ri_r",
+   "kind": "pin"
+  },
+  {
+   "child": "tie8",
+   "parent": "ri_l",
+   "kind": "pin"
+  },
+  {
+   "child": "topplate",
+   "parent": "ri_r",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "topplate",
+   "parent": "ri_l",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "axle_r",
+   "parent": "motor_r",
+   "kind": "motor"
+  },
+  {
+   "child": "gear_r",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "axle_f",
+   "parent": "motor_f",
+   "kind": "motor"
+  },
+  {
+   "child": "gear_f",
+   "parent": "axle_f",
+   "kind": "cross"
+  }
+ ],
+ "gear_meshes": [],
+ "motor_program": [
+  {
+   "t": 0.0,
+   "motor": "all",
+   "level": 2
+  },
+  {
+   "t": 4.0,
+   "motor": "all",
+   "level": "brake"
+  }
+ ],
+ "start_gap_mm": 30.0,
+ "treads": [
+  {
+   "name": "track",
+   "sprockets": [
+    "gear_r",
+    "gear_f"
+   ],
+   "links": 41,
+   "link": "3711"
+  }
+ ]
+}

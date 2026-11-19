@@ -1,0 +1,719 @@
+{
+ "name": "low_longtail_spring3",
+ "description": "Low forward battery, four clockable climbing feet and a long passive tail. The longer wheelbase limits body pitch while the front axle spans successive risers. Full fixed spring winding, 3:1 drive.",
+ "part_set": "inventory",
+ "chassis": "upper_l",
+ "motor": "motor",
+ "battery": "battery",
+ "parts": [
+  {
+   "name": "motor",
+   "part": "12787c01",
+   "pos_mm": [
+    0,
+    0,
+    36
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "arm_l",
+   "part": "32526",
+   "pos_mm": [
+    -16,
+    28,
+    28
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "pinl0",
+   "part": "6558",
+   "pos_mm": [
+    -16,
+    16,
+    28
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "pinl1",
+   "part": "6558",
+   "pos_mm": [
+    -8,
+    16,
+    28
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "upper_l",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    20,
+    32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "arm_r",
+   "part": "32526",
+   "pos_mm": [
+    -16,
+    -28,
+    28
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "pinr0",
+   "part": "6558",
+   "pos_mm": [
+    -16,
+    -16,
+    28
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "pinr1",
+   "part": "6558",
+   "pos_mm": [
+    -8,
+    -16,
+    28
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "upper_r",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    -20,
+    32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    48,
+    0,
+    70.4
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    48,
+    -16,
+    80
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "shaft",
+   "part": "23948",
+   "pos_mm": [
+    0,
+    0,
+    36
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "pinion",
+   "part": "10928",
+   "pos_mm": [
+    0,
+    -40,
+    36
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 77.80484646876603
+  },
+  {
+   "name": "msl",
+   "part": "3713",
+   "pos_mm": [
+    0,
+    16,
+    36
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 77.80484646876603
+  },
+  {
+   "name": "msr",
+   "part": "3713",
+   "pos_mm": [
+    0,
+    -16,
+    36
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 77.80484646876603
+  },
+  {
+   "name": "gear",
+   "part": "3648",
+   "pos_mm": [
+    16,
+    -40,
+    36
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -18.43494882292201
+  },
+  {
+   "name": "coupler",
+   "part": "32034",
+   "pos_mm": [
+    16,
+    0,
+    36
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -18.43494882292201
+  },
+  {
+   "name": "axle_l",
+   "part": "23948",
+   "pos_mm": [
+    16,
+    43.8,
+    36
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "footl0",
+   "part": "32348",
+   "pos_mm": [
+    16,
+    48,
+    36
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -18.43494882292201
+  },
+  {
+   "name": "footl1",
+   "part": "32348",
+   "pos_mm": [
+    16,
+    56,
+    36
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 71.56505117707799
+  },
+  {
+   "name": "footl2",
+   "part": "32348",
+   "pos_mm": [
+    16,
+    64,
+    36
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 161.56505117707798
+  },
+  {
+   "name": "footl3",
+   "part": "32348",
+   "pos_mm": [
+    16,
+    72,
+    36
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 251.56505117707798
+  },
+  {
+   "name": "outer_l",
+   "part": "4265c",
+   "pos_mm": [
+    16,
+    78,
+    36
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -18.43494882292201
+  },
+  {
+   "name": "axle_r",
+   "part": "23948",
+   "pos_mm": [
+    16,
+    -43.8,
+    36
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "footr0",
+   "part": "32348",
+   "pos_mm": [
+    16,
+    -48,
+    36
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -18.43494882292201
+  },
+  {
+   "name": "footr1",
+   "part": "32348",
+   "pos_mm": [
+    16,
+    -56,
+    36
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 71.56505117707799
+  },
+  {
+   "name": "footr2",
+   "part": "32348",
+   "pos_mm": [
+    16,
+    -64,
+    36
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 161.56505117707798
+  },
+  {
+   "name": "footr3",
+   "part": "32348",
+   "pos_mm": [
+    16,
+    -72,
+    36
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 251.56505117707798
+  },
+  {
+   "name": "outer_r",
+   "part": "4265c",
+   "pos_mm": [
+    16,
+    -78,
+    36
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -18.43494882292201
+  },
+  {
+   "name": "rollerbracket",
+   "part": "32526",
+   "pos_mm": [
+    -80,
+    36,
+    28
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 180
+  },
+  {
+   "name": "rollerpin0",
+   "part": "2780",
+   "pos_mm": [
+    -112,
+    32,
+    28
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "rollerpin1",
+   "part": "2780",
+   "pos_mm": [
+    -104,
+    32,
+    28
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "rolleraxle",
+   "part": "4519",
+   "pos_mm": [
+    -112,
+    38,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "roller",
+   "part": "55423c01",
+   "pos_mm": [
+    -112,
+    41,
+    12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rollerstopa",
+   "part": "4265c",
+   "pos_mm": [
+    -112,
+    30,
+    12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rollerstopb",
+   "part": "4265c",
+   "pos_mm": [
+    -112,
+    47,
+    12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "inner_l",
+   "part": "4265c",
+   "pos_mm": [
+    16,
+    34,
+    36
+   ]
+  },
+  {
+   "name": "inner_r",
+   "part": "4265c",
+   "pos_mm": [
+    16,
+    -34,
+    36
+   ]
+  },
+  {
+   "name": "tail_extension",
+   "part": "32525",
+   "pos_mm": [
+    -88,
+    28,
+    28
+   ]
+  },
+  {
+   "name": "tail_pin0",
+   "part": "2780",
+   "pos_mm": [
+    -56,
+    24,
+    28
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "tail_pin1",
+   "part": "2780",
+   "pos_mm": [
+    -48,
+    24,
+    28
+   ],
+   "yaw_deg": 90
+  }
+ ],
+ "connections": [
+  {
+   "child": "pinl0",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "pinl0",
+   "parent": "arm_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pinl1",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "pinl1",
+   "parent": "arm_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pinr0",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "pinr0",
+   "parent": "arm_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pinr1",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "pinr1",
+   "parent": "arm_r",
+   "kind": "pin"
+  },
+  {
+   "child": "battery",
+   "parent": "upper_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "battery",
+   "parent": "upper_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "shaft",
+   "parent": "motor",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion",
+   "parent": "shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "msl",
+   "parent": "shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "msr",
+   "parent": "shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "axle_l",
+   "parent": "arm_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "coupler",
+   "parent": "axle_l",
+   "kind": "cross"
+  },
+  {
+   "child": "footl0",
+   "parent": "axle_l",
+   "kind": "cross"
+  },
+  {
+   "child": "footl1",
+   "parent": "axle_l",
+   "kind": "cross"
+  },
+  {
+   "child": "footl2",
+   "parent": "axle_l",
+   "kind": "cross"
+  },
+  {
+   "child": "footl3",
+   "parent": "axle_l",
+   "kind": "cross"
+  },
+  {
+   "child": "outer_l",
+   "parent": "axle_l",
+   "kind": "cross"
+  },
+  {
+   "child": "axle_r",
+   "parent": "arm_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "coupler",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "footr0",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "footr1",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "footr2",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "footr3",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "outer_r",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "gear",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "rollerpin0",
+   "parent": "rollerbracket",
+   "kind": "pin"
+  },
+  {
+   "child": "rollerpin1",
+   "parent": "rollerbracket",
+   "kind": "pin"
+  },
+  {
+   "child": "rolleraxle",
+   "parent": "rollerbracket",
+   "kind": "hinge"
+  },
+  {
+   "child": "roller",
+   "parent": "rolleraxle",
+   "kind": "cross"
+  },
+  {
+   "child": "rollerstopa",
+   "parent": "rolleraxle",
+   "kind": "cross"
+  },
+  {
+   "child": "rollerstopb",
+   "parent": "rolleraxle",
+   "kind": "cross"
+  },
+  {
+   "child": "pinl0",
+   "parent": "upper_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pinl1",
+   "parent": "upper_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pinr0",
+   "parent": "upper_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pinr1",
+   "parent": "upper_r",
+   "kind": "pin"
+  },
+  {
+   "child": "inner_l",
+   "parent": "axle_l",
+   "kind": "cross"
+  },
+  {
+   "child": "inner_r",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "tail_pin0",
+   "parent": "upper_l",
+   "kind": "pin"
+  },
+  {
+   "child": "tail_pin0",
+   "parent": "tail_extension",
+   "kind": "pin"
+  },
+  {
+   "child": "tail_pin1",
+   "parent": "upper_l",
+   "kind": "pin"
+  },
+  {
+   "child": "tail_pin1",
+   "parent": "tail_extension",
+   "kind": "pin"
+  },
+  {
+   "child": "rollerpin0",
+   "parent": "tail_extension",
+   "kind": "pin"
+  },
+  {
+   "child": "rollerpin1",
+   "parent": "tail_extension",
+   "kind": "pin"
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "pinion",
+   "gear_b": "gear"
+  }
+ ],
+ "pullback": [
+  {
+   "motor": "motor",
+   "wind_turns": 10,
+   "sense": -1
+  }
+ ],
+ "motor_program": [
+  {
+   "t": 0,
+   "motor": "all",
+   "level": "brake"
+  }
+ ],
+ "start_gap_mm": 20
+}

@@ -1,0 +1,261 @@
+{
+ "name": "plank_pb",
+ "description": "compact tandem, 8 mm tread wheels; pullback spring motor beside front wheel via 8T:8T",
+ "chassis": "wall_r",
+ "motor": "motor",
+ "battery": "battery",
+ "intended": [],
+ "parts": [
+  {
+   "name": "wall_r",
+   "part": "2730",
+   "pos_mm": [
+    0.0,
+    12.0,
+    16.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "wall_l",
+   "part": "3701",
+   "pos_mm": [
+    -24.0,
+    -20.0,
+    16.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    0.0,
+    -8.0,
+    55.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    0.0,
+    -24.0,
+    64.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "motor",
+   "part": "12787c01",
+   "pos_mm": [
+    48.0,
+    40.0,
+    20.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pin0",
+   "part": "6558",
+   "pos_mm": [
+    16.0,
+    24.0,
+    12.8
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin1",
+   "part": "6558",
+   "pos_mm": [
+    8.0,
+    24.0,
+    12.8
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "shaft_m",
+   "part": "32062",
+   "pos_mm": [
+    48.0,
+    28.0,
+    20.8
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "g_m",
+   "part": "3648",
+   "pos_mm": [
+    48.0,
+    24.0,
+    20.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "ax_f",
+   "part": "3705",
+   "pos_mm": [
+    32.0,
+    12.0,
+    12.8
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "wh_f",
+   "part": "57520",
+   "pos_mm": [
+    32.0,
+    0.0,
+    12.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "g_w",
+   "part": "69778",
+   "pos_mm": [
+    32.0,
+    24.0,
+    12.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "ax_r",
+   "part": "32073",
+   "pos_mm": [
+    -32.0,
+    -4.0,
+    12.8
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "wh_r",
+   "part": "57520",
+   "pos_mm": [
+    -32.0,
+    0.0,
+    12.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bi_r_l",
+   "part": "4265c",
+   "pos_mm": [
+    -32.0,
+    -14.0,
+    12.8
+   ],
+   "yaw_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "battery",
+   "parent": "wall_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "battery",
+   "parent": "wall_l",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "pin0",
+   "parent": "wall_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1",
+   "parent": "wall_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "shaft_m",
+   "parent": "motor",
+   "kind": "motor"
+  },
+  {
+   "child": "g_m",
+   "parent": "shaft_m",
+   "kind": "cross"
+  },
+  {
+   "child": "ax_f",
+   "parent": "wall_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "wh_f",
+   "parent": "ax_f",
+   "kind": "cross"
+  },
+  {
+   "child": "g_w",
+   "parent": "ax_f",
+   "kind": "cross"
+  },
+  {
+   "child": "ax_r",
+   "parent": "wall_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "ax_r",
+   "parent": "wall_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "wh_r",
+   "parent": "ax_r",
+   "kind": "cross"
+  },
+  {
+   "child": "bi_r_l",
+   "parent": "ax_r",
+   "kind": "cross"
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "g_m",
+   "gear_b": "g_w",
+   "teeth_a": 24,
+   "teeth_b": 12
+  }
+ ],
+ "part_set": "inventory",
+ "start_gap_mm": 40.0,
+ "pullback": [
+  {
+   "motor": "motor",
+   "wind_turns": 7.0
+  }
+ ]
+}

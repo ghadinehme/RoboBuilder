@@ -1,0 +1,697 @@
+{
+ "name": "single_compact",
+ "description": "Low-mounted M motors drive 24T side chains through 8T pinions. Six bearing rails, four rubber tyres, low scrub wheelbase. Timed two-stage U turn.",
+ "part_set": "inventory",
+ "chassis": "rail_l_28",
+ "motor": "motor_l",
+ "battery": "battery",
+ "parts": [
+  {
+   "name": "rail_l_28",
+   "part": "2730",
+   "pos_mm": [
+    0,
+    28,
+    19.200000000000003
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail_r_28",
+   "part": "2730",
+   "pos_mm": [
+    0,
+    -28,
+    19.200000000000003
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "enddeck_-32",
+   "part": "3710",
+   "pos_mm": [
+    -28,
+    16,
+    9.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "enddeck_32",
+   "part": "3710",
+   "pos_mm": [
+    28,
+    -16,
+    9.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    0,
+    0,
+    57.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    0,
+    -16,
+    67.19999999999999
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "motor_l",
+   "part": "58120c01",
+   "pos_mm": [
+    -32,
+    32,
+    31.200000000000003
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "shaft_l",
+   "part": "32062",
+   "pos_mm": [
+    -32,
+    32,
+    31.200000000000003
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pinion_l",
+   "part": "10928",
+   "pos_mm": [
+    -32,
+    36,
+    31.200000000000003
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "axle_l_a",
+   "part": "44294",
+   "pos_mm": [
+    -32,
+    40,
+    15.200000000000001
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "innerstop_axle_l_a",
+   "part": "4265c",
+   "pos_mm": [
+    -32,
+    14,
+    15.200000000000001
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "chain_axle_l_a",
+   "part": "3648",
+   "pos_mm": [
+    -32,
+    44,
+    15.200000000000001
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "outerstop_axle_l_a",
+   "part": "3648",
+   "pos_mm": [
+    -32,
+    36,
+    15.200000000000001
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "wheel_axle_l_a",
+   "part": "55982c01",
+   "pos_mm": [
+    -32,
+    56,
+    15.200000000000001
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "axle_l_b",
+   "part": "32073",
+   "pos_mm": [
+    32,
+    40,
+    15.200000000000001
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "innerstop_axle_l_b",
+   "part": "4265c",
+   "pos_mm": [
+    32,
+    22,
+    15.200000000000001
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "chain_axle_l_b",
+   "part": "3648",
+   "pos_mm": [
+    32,
+    44,
+    15.200000000000001
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "outerstop_axle_l_b",
+   "part": "4265c",
+   "pos_mm": [
+    32,
+    34,
+    15.200000000000001
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "wheel_axle_l_b",
+   "part": "4185t",
+   "pos_mm": [
+    32,
+    50,
+    15.200000000000001
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "motor_r",
+   "part": "58120c01",
+   "pos_mm": [
+    32,
+    -32,
+    31.200000000000003
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "shaft_r",
+   "part": "32062",
+   "pos_mm": [
+    32,
+    -32,
+    31.200000000000003
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pinion_r",
+   "part": "10928",
+   "pos_mm": [
+    32,
+    -36,
+    31.200000000000003
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "axle_r_a",
+   "part": "3706",
+   "pos_mm": [
+    -32,
+    -44,
+    15.200000000000001
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "innerstop_axle_r_a",
+   "part": "4265c",
+   "pos_mm": [
+    -32,
+    -22,
+    15.200000000000001
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "chain_axle_r_a",
+   "part": "3648",
+   "pos_mm": [
+    -32,
+    -44,
+    15.200000000000001
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "outerstop_axle_r_a",
+   "part": "4265c",
+   "pos_mm": [
+    -32,
+    -34,
+    15.200000000000001
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "wheel_axle_r_a",
+   "part": "55982c01",
+   "pos_mm": [
+    -32,
+    -56,
+    15.200000000000001
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "axle_r_b",
+   "part": "44294",
+   "pos_mm": [
+    32,
+    -40,
+    15.200000000000001
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "innerstop_axle_r_b",
+   "part": "4265c",
+   "pos_mm": [
+    32,
+    -14,
+    15.200000000000001
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "chain_axle_r_b",
+   "part": "3648",
+   "pos_mm": [
+    32,
+    -44,
+    15.200000000000001
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "outerstop_axle_r_b",
+   "part": "3648",
+   "pos_mm": [
+    32,
+    -36,
+    15.200000000000001
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "wheel_axle_r_b",
+   "part": "55982c01",
+   "pos_mm": [
+    32,
+    -56,
+    15.200000000000001
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "local_l",
+   "part": "3700",
+   "pos_mm": [
+    -32,
+    20,
+    19.2
+   ]
+  },
+  {
+   "name": "foot_l",
+   "part": "32000",
+   "pos_mm": [
+    -32,
+    4,
+    19.2
+   ]
+  },
+  {
+   "name": "local_r",
+   "part": "3700",
+   "pos_mm": [
+    32,
+    -20,
+    19.2
+   ]
+  },
+  {
+   "name": "foot_r",
+   "part": "32000",
+   "pos_mm": [
+    32,
+    -4,
+    19.2
+   ]
+  },
+  {
+   "name": "cross_tie",
+   "part": "3707",
+   "pos_mm": [
+    0,
+    0,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "tiecap_l",
+   "part": "4265c",
+   "pos_mm": [
+    0,
+    22,
+    15.2
+   ]
+  },
+  {
+   "name": "tiecap_r",
+   "part": "4265c",
+   "pos_mm": [
+    0,
+    -22,
+    15.2
+   ]
+  }
+ ],
+ "connections": [
+  {
+   "child": "rail_l_28",
+   "parent": "enddeck_-32",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "rail_r_28",
+   "parent": "enddeck_32",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "motor_l",
+   "parent": "rail_l_28",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "shaft_l",
+   "parent": "motor_l",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion_l",
+   "parent": "shaft_l",
+   "kind": "cross"
+  },
+  {
+   "child": "axle_l_a",
+   "parent": "rail_l_28",
+   "kind": "hinge"
+  },
+  {
+   "child": "innerstop_axle_l_a",
+   "parent": "axle_l_a",
+   "kind": "cross"
+  },
+  {
+   "child": "chain_axle_l_a",
+   "parent": "axle_l_a",
+   "kind": "cross"
+  },
+  {
+   "child": "outerstop_axle_l_a",
+   "parent": "axle_l_a",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_axle_l_a",
+   "parent": "axle_l_a",
+   "kind": "cross"
+  },
+  {
+   "child": "axle_l_b",
+   "parent": "rail_l_28",
+   "kind": "hinge"
+  },
+  {
+   "child": "innerstop_axle_l_b",
+   "parent": "axle_l_b",
+   "kind": "cross"
+  },
+  {
+   "child": "chain_axle_l_b",
+   "parent": "axle_l_b",
+   "kind": "cross"
+  },
+  {
+   "child": "outerstop_axle_l_b",
+   "parent": "axle_l_b",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_axle_l_b",
+   "parent": "axle_l_b",
+   "kind": "cross"
+  },
+  {
+   "child": "motor_r",
+   "parent": "rail_r_28",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "shaft_r",
+   "parent": "motor_r",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion_r",
+   "parent": "shaft_r",
+   "kind": "cross"
+  },
+  {
+   "child": "axle_r_a",
+   "parent": "rail_r_28",
+   "kind": "hinge"
+  },
+  {
+   "child": "innerstop_axle_r_a",
+   "parent": "axle_r_a",
+   "kind": "cross"
+  },
+  {
+   "child": "chain_axle_r_a",
+   "parent": "axle_r_a",
+   "kind": "cross"
+  },
+  {
+   "child": "outerstop_axle_r_a",
+   "parent": "axle_r_a",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_axle_r_a",
+   "parent": "axle_r_a",
+   "kind": "cross"
+  },
+  {
+   "child": "axle_r_b",
+   "parent": "rail_r_28",
+   "kind": "hinge"
+  },
+  {
+   "child": "innerstop_axle_r_b",
+   "parent": "axle_r_b",
+   "kind": "cross"
+  },
+  {
+   "child": "chain_axle_r_b",
+   "parent": "axle_r_b",
+   "kind": "cross"
+  },
+  {
+   "child": "outerstop_axle_r_b",
+   "parent": "axle_r_b",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_axle_r_b",
+   "parent": "axle_r_b",
+   "kind": "cross"
+  },
+  {
+   "child": "battery",
+   "parent": "rail_l_28",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "battery",
+   "parent": "rail_r_28",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "local_l",
+   "parent": "enddeck_-32",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "motor_l",
+   "parent": "local_l",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "foot_l",
+   "parent": "enddeck_-32",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "motor_l",
+   "parent": "foot_l",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "axle_l_a",
+   "parent": "local_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "local_r",
+   "parent": "enddeck_32",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "motor_r",
+   "parent": "local_r",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "foot_r",
+   "parent": "enddeck_32",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "motor_r",
+   "parent": "foot_r",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "axle_r_b",
+   "parent": "local_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "cross_tie",
+   "parent": "rail_l_28",
+   "kind": "hinge"
+  },
+  {
+   "child": "cross_tie",
+   "parent": "rail_r_28",
+   "kind": "hinge"
+  },
+  {
+   "child": "tiecap_l",
+   "parent": "cross_tie",
+   "kind": "cross"
+  },
+  {
+   "child": "tiecap_r",
+   "parent": "cross_tie",
+   "kind": "cross"
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "pinion_l",
+   "gear_b": "outerstop_axle_l_a"
+  },
+  {
+   "gear_a": "pinion_r",
+   "gear_b": "outerstop_axle_r_b"
+  }
+ ],
+ "chains": [
+  {
+   "name": "chain_l",
+   "gears": [
+    "chain_axle_l_a",
+    "chain_axle_l_b"
+   ],
+   "links": 32
+  },
+  {
+   "name": "chain_r",
+   "gears": [
+    "chain_axle_r_a",
+    "chain_axle_r_b"
+   ],
+   "links": 32
+  }
+ ],
+ "start_gap_mm": 0,
+ "motor_program": [
+  {
+   "t": 0,
+   "motor": "all",
+   "level": 6
+  },
+  {
+   "t": 5.2,
+   "motor": "motor_l",
+   "level": "brake"
+  },
+  {
+   "t": 6.65,
+   "motor": "motor_l",
+   "level": 6
+  },
+  {
+   "t": 7.7,
+   "motor": "motor_l",
+   "level": "brake"
+  },
+  {
+   "t": 9.15,
+   "motor": "motor_l",
+   "level": 6
+  },
+  {
+   "t": 11.65,
+   "motor": "all",
+   "level": "brake"
+  }
+ ]
+}

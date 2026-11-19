@@ -1,0 +1,484 @@
+{
+ "name": "v12",
+ "description": "single-piece 2-axle 4WD chassis",
+ "part_set": "inventory",
+ "chassis": "body",
+ "motor": "motor_r",
+ "battery": "battery",
+ "parts": [
+  {
+   "name": "body",
+   "part": "p3d_ff4172d570",
+   "pos_mm": [
+    0,
+    0,
+    0
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    144,
+    0,
+    82.459
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    96,
+    0,
+    53.659
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "motor_r",
+   "part": "58120c01",
+   "pos_mm": [
+    -8.0,
+    40,
+    56.059
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "shaft_r",
+   "part": "32062",
+   "pos_mm": [
+    -8.0,
+    41.4,
+    56.059
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "pinion_r",
+   "part": "69778",
+   "pos_mm": [
+    -8.0,
+    44.5,
+    56.059
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "axle_r",
+   "part": "50451",
+   "pos_mm": [
+    0,
+    4.25,
+    31.32
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "gear_r",
+   "part": "3649",
+   "pos_mm": [
+    0,
+    44.5,
+    31.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "wheel_l_r",
+   "part": "32020c01",
+   "pos_mm": [
+    0,
+    63.3,
+    31.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "wheel_r_r",
+   "part": "32020c01",
+   "pos_mm": [
+    0,
+    -54.8,
+    31.32
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "motor_f",
+   "part": "58120c01",
+   "pos_mm": [
+    216.0,
+    40,
+    56.059
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "shaft_f",
+   "part": "32062",
+   "pos_mm": [
+    216.0,
+    41.4,
+    56.059
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "pinion_f",
+   "part": "69778",
+   "pos_mm": [
+    216.0,
+    44.5,
+    56.059
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "axle_f",
+   "part": "50451",
+   "pos_mm": [
+    224.0,
+    4.25,
+    31.32
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "gear_f",
+   "part": "3649",
+   "pos_mm": [
+    224.0,
+    44.5,
+    31.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "wheel_l_f",
+   "part": "32020c01",
+   "pos_mm": [
+    224.0,
+    63.3,
+    31.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "wheel_r_f",
+   "part": "32020c01",
+   "pos_mm": [
+    224.0,
+    -54.8,
+    31.32
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "wheel_sl_r",
+   "part": "55423c01",
+   "pos_mm": [
+    0,
+    10.5,
+    31.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "wheel_sr_r",
+   "part": "55423c01",
+   "pos_mm": [
+    0,
+    -10.5,
+    31.32
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "wheel_sl_f",
+   "part": "55423c01",
+   "pos_mm": [
+    224.0,
+    10.5,
+    31.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "wheel_sr_f",
+   "part": "55423c01",
+   "pos_mm": [
+    224.0,
+    -10.5,
+    31.32
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "battery",
+   "parent": "body",
+   "kind": "stud",
+   "studs": 32
+  },
+  {
+   "child": "receiver",
+   "parent": "body",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "motor_r",
+   "parent": "body",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "shaft_r",
+   "parent": "motor_r",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion_r",
+   "parent": "shaft_r",
+   "kind": "cross"
+  },
+  {
+   "child": "axle_r",
+   "parent": "body",
+   "kind": "hinge"
+  },
+  {
+   "child": "gear_r",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_l_r",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_r_r",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "motor_f",
+   "parent": "body",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "shaft_f",
+   "parent": "motor_f",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion_f",
+   "parent": "shaft_f",
+   "kind": "cross"
+  },
+  {
+   "child": "axle_f",
+   "parent": "body",
+   "kind": "hinge"
+  },
+  {
+   "child": "gear_f",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_l_f",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_r_f",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_sl_r",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_sr_r",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_sl_f",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_sr_f",
+   "parent": "axle_f",
+   "kind": "cross"
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "pinion_r",
+   "gear_b": "gear_r",
+   "teeth_a": 12,
+   "teeth_b": 40
+  },
+  {
+   "gear_a": "pinion_f",
+   "gear_b": "gear_f",
+   "teeth_a": 12,
+   "teeth_b": 40
+  }
+ ],
+ "motor_programs": {
+  "ramp": [
+   {
+    "t": 0.0,
+    "motor": "all",
+    "level": 7
+   },
+   {
+    "t": 4.6,
+    "motor": "all",
+    "level": "brake"
+   }
+  ],
+  "gap": [
+   {
+    "t": 0.0,
+    "motor": "all",
+    "level": 7
+   },
+   {
+    "t": 1.5,
+    "motor": "all",
+    "level": "brake"
+   }
+  ],
+  "bridge": [
+   {
+    "t": 0.0,
+    "motor": "all",
+    "level": 7
+   },
+   {
+    "t": 5.8,
+    "motor": "all",
+    "level": "brake"
+   }
+  ],
+  "rope": [
+   {
+    "t": 0.0,
+    "motor": "all",
+    "level": 7
+   },
+   {
+    "t": 6,
+    "motor": "all",
+    "level": "brake"
+   }
+  ],
+  "steps": [
+   {
+    "t": 0.0,
+    "motor": "all",
+    "level": 7
+   },
+   {
+    "t": 3.3,
+    "motor": "all",
+    "level": "brake"
+   }
+  ],
+  "bumps": [
+   {
+    "t": 0.0,
+    "motor": "all",
+    "level": 7
+   },
+   {
+    "t": 12,
+    "motor": "all",
+    "level": "brake"
+   }
+  ],
+  "seesaw": [
+   {
+    "t": 0.0,
+    "motor": "all",
+    "level": 7
+   },
+   {
+    "t": 6,
+    "motor": "all",
+    "level": "brake"
+   }
+  ],
+  "gap_drop": [
+   {
+    "t": 0.0,
+    "motor": "all",
+    "level": 7
+   },
+   {
+    "t": 1.5,
+    "motor": "all",
+    "level": "brake"
+   }
+  ],
+  "wall": [
+   {
+    "t": 0.0,
+    "motor": "all",
+    "level": 7
+   },
+   {
+    "t": 10,
+    "motor": "all",
+    "level": "brake"
+   }
+  ],
+  "u_turn": [
+   {
+    "t": 0.0,
+    "motor": "all",
+    "level": 7
+   },
+   {
+    "t": 6,
+    "motor": "all",
+    "level": "brake"
+   }
+  ]
+ },
+ "start_gap_mm": 40
+}

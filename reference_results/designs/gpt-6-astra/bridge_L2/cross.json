@@ -1,0 +1,532 @@
+{
+ "name": "bridge3_guided_carriage",
+ "description": "24 mm plank carriage. Four narrow rubber load tyres inside driven oversize edge-guide sprockets. Both solid axles synchronized by chain, one M motor, retained axles, wide bracing and low battery.",
+ "part_set": "inventory",
+ "chassis": "rail_l",
+ "motor": "motor",
+ "battery": "battery",
+ "parts": [
+  {
+   "name": "rail_l",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    36,
+    25.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail_r",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    -36,
+    25.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_axle",
+   "part": "50451",
+   "pos_mm": [
+    -48,
+    0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "rear_l",
+   "part": "4185t",
+   "pos_mm": [
+    -48,
+    7,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_r",
+   "part": "4185t",
+   "pos_mm": [
+    -48,
+    -7,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_guide_l",
+   "part": "57519",
+   "pos_mm": [
+    -48,
+    20.5,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_guide_r",
+   "part": "57519",
+   "pos_mm": [
+    -48,
+    -20.5,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_axle",
+   "part": "50451",
+   "pos_mm": [
+    56,
+    0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "front_l",
+   "part": "4185t",
+   "pos_mm": [
+    56,
+    7,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_r",
+   "part": "4185t",
+   "pos_mm": [
+    56,
+    -7,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_guide_l",
+   "part": "57519",
+   "pos_mm": [
+    56,
+    20.5,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_guide_r",
+   "part": "57519",
+   "pos_mm": [
+    56,
+    -20.5,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "motorplate0",
+   "part": "3034",
+   "pos_mm": [
+    8,
+    32,
+    28.8
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "motorplate1",
+   "part": "3030",
+   "pos_mm": [
+    0,
+    0,
+    32.0
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "motor",
+   "part": "58120c01",
+   "pos_mm": [
+    0,
+    40,
+    44
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "shaft",
+   "part": "3705",
+   "pos_mm": [
+    0,
+    40,
+    44
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pinion",
+   "part": "94925",
+   "pos_mm": [
+    0,
+    44,
+    44
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "gear",
+   "part": "3648",
+   "pos_mm": [
+    -48,
+    44,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "sync_rear",
+   "part": "3648",
+   "pos_mm": [
+    -48,
+    -44,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "sync_front",
+   "part": "3648",
+   "pos_mm": [
+    56,
+    -44,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "tower_l",
+   "part": "3701",
+   "pos_mm": [
+    40,
+    36,
+    35.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "tower2_l",
+   "part": "3701",
+   "pos_mm": [
+    40,
+    36,
+    44.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "tower_r",
+   "part": "3701",
+   "pos_mm": [
+    40,
+    -36,
+    35.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "tower2_r",
+   "part": "3701",
+   "pos_mm": [
+    40,
+    -36,
+    44.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "batterydeck",
+   "part": "3033",
+   "pos_mm": [
+    40,
+    0,
+    48.0
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    32,
+    -8,
+    86.4
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    32,
+    -24,
+    96.0
+   ],
+   "yaw_deg": -90
+  },
+  {
+   "name": "front_stop",
+   "part": "4265c",
+   "pos_mm": [
+    56,
+    42,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "motorbase_r",
+   "part": "3035",
+   "pos_mm": [
+    0,
+    -32,
+    28.8
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "stopbase",
+   "part": "3001",
+   "pos_mm": [
+    0,
+    56,
+    38.4
+   ]
+  },
+  {
+   "name": "stopwall",
+   "part": "3001",
+   "pos_mm": [
+    0,
+    64,
+    48
+   ]
+  }
+ ],
+ "connections": [
+  {
+   "child": "rear_axle",
+   "parent": "rail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "rear_axle",
+   "parent": "rail_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "rear_l",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_r",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_guide_l",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_guide_r",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_axle",
+   "parent": "rail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "front_axle",
+   "parent": "rail_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "front_l",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_r",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_guide_l",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_guide_r",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "motorplate0",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "motorbase_r",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "motorplate1",
+   "parent": "motorplate0",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "motor",
+   "parent": "motorplate1",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "shaft",
+   "parent": "motor",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion",
+   "parent": "shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "gear",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "sync_rear",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "sync_front",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "tower_l",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "tower2_l",
+   "parent": "tower_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "tower_r",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "tower2_r",
+   "parent": "tower_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "batterydeck",
+   "parent": "tower2_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "batterydeck",
+   "parent": "tower2_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "battery",
+   "parent": "batterydeck",
+   "kind": "stud",
+   "studs": 32
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "front_stop",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "motorplate1",
+   "parent": "motorbase_r",
+   "kind": "stud",
+   "studs": 20
+  },
+  {
+   "child": "stopbase",
+   "parent": "motorplate0",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "stopwall",
+   "parent": "stopbase",
+   "kind": "stud",
+   "studs": 4
+  }
+ ],
+ "gear_meshes": [],
+ "chains": [
+  {
+   "name": "drivechain",
+   "gears": [
+    "pinion",
+    "gear"
+   ],
+   "links": 27
+  },
+  {
+   "name": "axlechain",
+   "gears": [
+    "sync_rear",
+    "sync_front"
+   ],
+   "links": 45
+  }
+ ],
+ "motor_program": [
+  {
+   "t": 0,
+   "motor": "all",
+   "level": 3
+  },
+  {
+   "t": 5.5,
+   "motor": "all",
+   "level": "brake"
+  }
+ ],
+ "start_gap_mm": 5
+}

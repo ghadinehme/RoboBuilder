@@ -1,0 +1,732 @@
+{
+ "name": "wheg_n",
+ "description": "Tail-dragger wheg climber: two 4-spoke whegs (crossed liftarms pinned to a thin L) on an axle in bearings under the base plate (compression); M motor on shims drives it 12T:40T, clamped from above by plates hung under the receiver plate; the AAA box drags as the tail.",
+ "chassis": "box",
+ "motor": "motor",
+ "battery": "box",
+ "intended": [],
+ "parts": [
+  {
+   "name": "base",
+   "part": "3032",
+   "pos_mm": [
+    40.0,
+    0.0,
+    50.8
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "brgr",
+   "part": "32000",
+   "pos_mm": [
+    48.0,
+    -12.0,
+    47.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "brgl",
+   "part": "32000",
+   "pos_mm": [
+    48.0,
+    12.0,
+    47.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "box",
+   "part": "87513c01",
+   "pos_mm": [
+    0.0,
+    0.0,
+    89.2
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "rplate",
+   "part": "3023",
+   "pos_mm": [
+    -8.0,
+    4.0,
+    50.8
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "boom",
+   "part": "32018",
+   "pos_mm": [
+    -16.0,
+    4.0,
+    47.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "ext",
+   "part": "32524",
+   "pos_mm": [
+    -80.0,
+    -4.0,
+    43.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "tbp0",
+   "part": "2780",
+   "pos_mm": [
+    -64.0,
+    0.0,
+    43.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "tbp1",
+   "part": "2780",
+   "pos_mm": [
+    -56.0,
+    0.0,
+    43.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "taxle",
+   "part": "3706",
+   "pos_mm": [
+    -104.0,
+    -2.5,
+    43.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "tspr",
+   "part": "94925",
+   "pos_mm": [
+    -104.0,
+    -21.0,
+    43.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "tbush",
+   "part": "3713",
+   "pos_mm": [
+    -104.0,
+    -13.0,
+    43.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "thb",
+   "part": "4265c",
+   "pos_mm": [
+    -104.0,
+    18.0,
+    43.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "tA",
+   "part": "32524",
+   "pos_mm": [
+    -104.0,
+    4.0,
+    43.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "tL",
+   "part": "32056",
+   "pos_mm": [
+    -104.0,
+    10.0,
+    43.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "tL2",
+   "part": "32056",
+   "pos_mm": [
+    -104.0,
+    14.0,
+    43.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 180
+  },
+  {
+   "name": "tpA",
+   "part": "2780",
+   "pos_mm": [
+    -96.0,
+    8.0,
+    43.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "sh1",
+   "part": "3021",
+   "pos_mm": [
+    48.0,
+    4.0,
+    54.0
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "sh2",
+   "part": "3021",
+   "pos_mm": [
+    48.0,
+    4.0,
+    57.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "motor",
+   "part": "58120c01",
+   "pos_mm": [
+    48.0,
+    -24.0,
+    69.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "shaft",
+   "part": "32062",
+   "pos_mm": [
+    48.0,
+    -28.6,
+    69.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pinion",
+   "part": "69778",
+   "pos_mm": [
+    48.0,
+    -29.0,
+    69.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "P",
+   "part": "3022",
+   "pos_mm": [
+    32.0,
+    0.0,
+    92.4
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "recv",
+   "part": "58123c01",
+   "pos_mm": [
+    32.0,
+    0.0,
+    102.0
+   ],
+   "yaw_deg": -90
+  },
+  {
+   "name": "Q1",
+   "part": "3023",
+   "pos_mm": [
+    36.0,
+    0.0,
+    89.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "Q2",
+   "part": "3023",
+   "pos_mm": [
+    36.0,
+    0.0,
+    86.0
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "waxle",
+   "part": "50451",
+   "pos_mm": [
+    52.0,
+    -4.5,
+    43.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "gear",
+   "part": "3649",
+   "pos_mm": [
+    52.0,
+    -29.0,
+    43.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "fspr",
+   "part": "94925",
+   "pos_mm": [
+    52.0,
+    -21.0,
+    43.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "bush_l",
+   "part": "3713",
+   "pos_mm": [
+    52.0,
+    20.0,
+    43.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "hb_l",
+   "part": "4265c",
+   "pos_mm": [
+    52.0,
+    26.0,
+    43.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "hb_r",
+   "part": "4265c",
+   "pos_mm": [
+    52.0,
+    -35.0,
+    43.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "Ar",
+   "part": "32525",
+   "pos_mm": [
+    52.0,
+    -41.0,
+    43.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "Lr",
+   "part": "32056",
+   "pos_mm": [
+    52.0,
+    -47.0,
+    43.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "Br",
+   "part": "32524",
+   "pos_mm": [
+    52.0,
+    -53.0,
+    43.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 90
+  },
+  {
+   "name": "pALr",
+   "part": "2780",
+   "pos_mm": [
+    60.0,
+    -45.0,
+    43.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pBLr",
+   "part": "2780",
+   "pos_mm": [
+    52.0,
+    -49.0,
+    51.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "Al",
+   "part": "32525",
+   "pos_mm": [
+    52.0,
+    32.0,
+    43.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "Ll",
+   "part": "32056",
+   "pos_mm": [
+    52.0,
+    38.0,
+    43.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "Bl",
+   "part": "32524",
+   "pos_mm": [
+    52.0,
+    44.0,
+    43.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 90
+  },
+  {
+   "name": "pALl",
+   "part": "2780",
+   "pos_mm": [
+    60.0,
+    36.0,
+    43.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pBLl",
+   "part": "2780",
+   "pos_mm": [
+    52.0,
+    40.0,
+    51.6
+   ],
+   "yaw_deg": 90
+  }
+ ],
+ "connections": [
+  {
+   "child": "brgr",
+   "parent": "base",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "brgl",
+   "parent": "base",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "box",
+   "parent": "base",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "box",
+   "parent": "rplate",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "boom",
+   "parent": "base",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "boom",
+   "parent": "rplate",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "tbp0",
+   "parent": "boom",
+   "kind": "pin"
+  },
+  {
+   "child": "tbp0",
+   "parent": "ext",
+   "kind": "pin"
+  },
+  {
+   "child": "tbp1",
+   "parent": "boom",
+   "kind": "pin"
+  },
+  {
+   "child": "tbp1",
+   "parent": "ext",
+   "kind": "pin"
+  },
+  {
+   "child": "taxle",
+   "parent": "ext",
+   "kind": "hinge"
+  },
+  {
+   "child": "tspr",
+   "parent": "taxle",
+   "kind": "cross"
+  },
+  {
+   "child": "tbush",
+   "parent": "taxle",
+   "kind": "cross"
+  },
+  {
+   "child": "thb",
+   "parent": "taxle",
+   "kind": "cross"
+  },
+  {
+   "child": "tL",
+   "parent": "taxle",
+   "kind": "cross"
+  },
+  {
+   "child": "tL2",
+   "parent": "taxle",
+   "kind": "cross"
+  },
+  {
+   "child": "tpA",
+   "parent": "tA",
+   "kind": "pin"
+  },
+  {
+   "child": "tpA",
+   "parent": "tL",
+   "kind": "pin"
+  },
+  {
+   "child": "taxle",
+   "parent": "tA",
+   "kind": "hinge"
+  },
+  {
+   "child": "sh1",
+   "parent": "base",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "sh2",
+   "parent": "sh1",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "motor",
+   "parent": "sh2",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "shaft",
+   "parent": "motor",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion",
+   "parent": "shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "P",
+   "parent": "box",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "recv",
+   "parent": "P",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "Q1",
+   "parent": "P",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "Q2",
+   "parent": "Q1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "waxle",
+   "parent": "brgr",
+   "kind": "hinge"
+  },
+  {
+   "child": "waxle",
+   "parent": "brgl",
+   "kind": "hinge"
+  },
+  {
+   "child": "gear",
+   "parent": "waxle",
+   "kind": "cross"
+  },
+  {
+   "child": "fspr",
+   "parent": "waxle",
+   "kind": "cross"
+  },
+  {
+   "child": "bush_l",
+   "parent": "waxle",
+   "kind": "cross"
+  },
+  {
+   "child": "hb_l",
+   "parent": "waxle",
+   "kind": "cross"
+  },
+  {
+   "child": "hb_r",
+   "parent": "waxle",
+   "kind": "cross"
+  },
+  {
+   "child": "Lr",
+   "parent": "waxle",
+   "kind": "cross"
+  },
+  {
+   "child": "pALr",
+   "parent": "Ar",
+   "kind": "pin"
+  },
+  {
+   "child": "pALr",
+   "parent": "Lr",
+   "kind": "pin"
+  },
+  {
+   "child": "pBLr",
+   "parent": "Br",
+   "kind": "pin"
+  },
+  {
+   "child": "pBLr",
+   "parent": "Lr",
+   "kind": "pin"
+  },
+  {
+   "child": "waxle",
+   "parent": "Ar",
+   "kind": "hinge"
+  },
+  {
+   "child": "waxle",
+   "parent": "Br",
+   "kind": "hinge"
+  },
+  {
+   "child": "Ll",
+   "parent": "waxle",
+   "kind": "cross"
+  },
+  {
+   "child": "pALl",
+   "parent": "Al",
+   "kind": "pin"
+  },
+  {
+   "child": "pALl",
+   "parent": "Ll",
+   "kind": "pin"
+  },
+  {
+   "child": "pBLl",
+   "parent": "Bl",
+   "kind": "pin"
+  },
+  {
+   "child": "pBLl",
+   "parent": "Ll",
+   "kind": "pin"
+  },
+  {
+   "child": "waxle",
+   "parent": "Al",
+   "kind": "hinge"
+  },
+  {
+   "child": "waxle",
+   "parent": "Bl",
+   "kind": "hinge"
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "pinion",
+   "gear_b": "gear"
+  }
+ ],
+ "part_set": "inventory",
+ "motor_program": [
+  {
+   "t": 0.0,
+   "motor": "motor",
+   "level": -1
+  },
+  {
+   "t": 0.3,
+   "motor": "motor",
+   "level": -2
+  },
+  {
+   "t": 0.6,
+   "motor": "motor",
+   "level": -3
+  },
+  {
+   "t": 15.0,
+   "motor": "motor",
+   "level": "brake"
+  }
+ ],
+ "chains": [
+  {
+   "name": "chain",
+   "gears": [
+    "fspr",
+    "tspr"
+   ],
+   "links": 57
+  }
+ ]
+}

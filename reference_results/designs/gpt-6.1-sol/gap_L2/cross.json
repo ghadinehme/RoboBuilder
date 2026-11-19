@@ -1,0 +1,4929 @@
+{
+ "name": "gap3_rolling_bridge",
+ "description": "Pinned twin girders, driven transfer rollers and central landing wheels; passive bank-edge pitch support.",
+ "part_set": "inventory",
+ "chassis": "tl3",
+ "motor": "rear_motor",
+ "battery": "battery",
+ "parts": [
+  {
+   "name": "tl0",
+   "part": "3703",
+   "pos_mm": [
+    -384,
+    12,
+    25.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "tl1",
+   "part": "3703",
+   "pos_mm": [
+    -256,
+    12,
+    25.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "tl2",
+   "part": "3703",
+   "pos_mm": [
+    -128,
+    12,
+    25.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "tl3",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    12,
+    25.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "tl4",
+   "part": "3703",
+   "pos_mm": [
+    128,
+    12,
+    25.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "tl5",
+   "part": "3703",
+   "pos_mm": [
+    256,
+    12,
+    25.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "tl6",
+   "part": "3703",
+   "pos_mm": [
+    384,
+    12,
+    25.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "bl0",
+   "part": "32018",
+   "pos_mm": [
+    -336,
+    12,
+    16
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "bl1",
+   "part": "32018",
+   "pos_mm": [
+    -224,
+    12,
+    16
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "bl2",
+   "part": "32018",
+   "pos_mm": [
+    -112,
+    12,
+    16
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "bl3",
+   "part": "32018",
+   "pos_mm": [
+    0,
+    12,
+    16
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "bl4",
+   "part": "32018",
+   "pos_mm": [
+    112,
+    12,
+    16
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "bl5",
+   "part": "32018",
+   "pos_mm": [
+    224,
+    12,
+    16
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "bl6",
+   "part": "32018",
+   "pos_mm": [
+    336,
+    12,
+    16
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "sl0",
+   "part": "3034",
+   "pos_mm": [
+    -352,
+    8,
+    6.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "sl1",
+   "part": "3034",
+   "pos_mm": [
+    -288,
+    8,
+    6.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "sl2",
+   "part": "3034",
+   "pos_mm": [
+    -224,
+    8,
+    6.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "sl3",
+   "part": "3034",
+   "pos_mm": [
+    -160,
+    8,
+    6.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "sl4",
+   "part": "3034",
+   "pos_mm": [
+    -96,
+    8,
+    6.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "sl5",
+   "part": "3034",
+   "pos_mm": [
+    -32,
+    8,
+    6.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "sl6",
+   "part": "3034",
+   "pos_mm": [
+    32,
+    8,
+    6.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "sl7",
+   "part": "3034",
+   "pos_mm": [
+    96,
+    8,
+    6.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "sl8",
+   "part": "3034",
+   "pos_mm": [
+    160,
+    8,
+    6.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "sl9",
+   "part": "3034",
+   "pos_mm": [
+    224,
+    8,
+    6.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "sl10",
+   "part": "3034",
+   "pos_mm": [
+    288,
+    8,
+    6.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "sl11",
+   "part": "3034",
+   "pos_mm": [
+    352,
+    8,
+    6.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "tr0",
+   "part": "3703",
+   "pos_mm": [
+    -384,
+    -12,
+    25.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "tr1",
+   "part": "3703",
+   "pos_mm": [
+    -256,
+    -12,
+    25.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "tr2",
+   "part": "3703",
+   "pos_mm": [
+    -128,
+    -12,
+    25.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "tr3",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    -12,
+    25.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "tr4",
+   "part": "3703",
+   "pos_mm": [
+    128,
+    -12,
+    25.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "tr5",
+   "part": "3703",
+   "pos_mm": [
+    256,
+    -12,
+    25.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "tr6",
+   "part": "3703",
+   "pos_mm": [
+    384,
+    -12,
+    25.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "br0",
+   "part": "32018",
+   "pos_mm": [
+    -336,
+    -12,
+    16
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "br1",
+   "part": "32018",
+   "pos_mm": [
+    -224,
+    -12,
+    16
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "br2",
+   "part": "32018",
+   "pos_mm": [
+    -112,
+    -12,
+    16
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "br3",
+   "part": "32018",
+   "pos_mm": [
+    0,
+    -12,
+    16
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "br4",
+   "part": "32018",
+   "pos_mm": [
+    112,
+    -12,
+    16
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "br5",
+   "part": "32018",
+   "pos_mm": [
+    224,
+    -12,
+    16
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "br6",
+   "part": "32018",
+   "pos_mm": [
+    336,
+    -12,
+    16
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "sr0",
+   "part": "3034",
+   "pos_mm": [
+    -352,
+    -8,
+    6.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "sr1",
+   "part": "3034",
+   "pos_mm": [
+    -288,
+    -8,
+    6.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "sr2",
+   "part": "3034",
+   "pos_mm": [
+    -224,
+    -8,
+    6.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "sr3",
+   "part": "3034",
+   "pos_mm": [
+    -160,
+    -8,
+    6.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "sr4",
+   "part": "3034",
+   "pos_mm": [
+    -96,
+    -8,
+    6.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "sr5",
+   "part": "3034",
+   "pos_mm": [
+    -32,
+    -8,
+    6.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "sr6",
+   "part": "3034",
+   "pos_mm": [
+    32,
+    -8,
+    6.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "sr7",
+   "part": "3034",
+   "pos_mm": [
+    96,
+    -8,
+    6.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "sr8",
+   "part": "3034",
+   "pos_mm": [
+    160,
+    -8,
+    6.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "sr9",
+   "part": "3034",
+   "pos_mm": [
+    224,
+    -8,
+    6.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "sr10",
+   "part": "3034",
+   "pos_mm": [
+    288,
+    -8,
+    6.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "sr11",
+   "part": "3034",
+   "pos_mm": [
+    352,
+    -8,
+    6.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck0",
+   "part": "3034",
+   "pos_mm": [
+    -336,
+    0,
+    28.8
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck1",
+   "part": "3034",
+   "pos_mm": [
+    -256,
+    0,
+    28.8
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck2",
+   "part": "3031",
+   "pos_mm": [
+    -184,
+    0,
+    28.8
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck3",
+   "part": "3034",
+   "pos_mm": [
+    -128,
+    0,
+    28.8
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck4",
+   "part": "3035",
+   "pos_mm": [
+    0,
+    0,
+    28.8
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck5",
+   "part": "3034",
+   "pos_mm": [
+    128,
+    0,
+    28.8
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck6",
+   "part": "3031",
+   "pos_mm": [
+    184,
+    0,
+    28.8
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck7",
+   "part": "3034",
+   "pos_mm": [
+    256,
+    0,
+    28.8
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck8",
+   "part": "3034",
+   "pos_mm": [
+    336,
+    0,
+    28.8
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "pilot_bearingl-432",
+   "part": "3895",
+   "pos_mm": [
+    -400,
+    12,
+    35.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "pilot_bearingr-432",
+   "part": "3895",
+   "pos_mm": [
+    -400,
+    -12,
+    35.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "pilot_bearingl432",
+   "part": "3895",
+   "pos_mm": [
+    400,
+    12,
+    35.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "pilot_bearingr432",
+   "part": "3895",
+   "pos_mm": [
+    400,
+    -12,
+    35.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "towerdeck-152",
+   "part": "3034",
+   "pos_mm": [
+    -152,
+    8,
+    28.8
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "towerdeck152",
+   "part": "3034",
+   "pos_mm": [
+    152,
+    8,
+    28.8
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_rise0",
+   "part": "3036",
+   "pos_mm": [
+    -184,
+    0,
+    32.0
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_rise1",
+   "part": "3036",
+   "pos_mm": [
+    -184,
+    0,
+    35.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_rise2",
+   "part": "3036",
+   "pos_mm": [
+    -184,
+    0,
+    38.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_rise3",
+   "part": "3036",
+   "pos_mm": [
+    -184,
+    0,
+    41.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_motor",
+   "part": "58120c01",
+   "pos_mm": [
+    -184,
+    24,
+    53.6
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_shaft",
+   "part": "32073",
+   "pos_mm": [
+    -184,
+    28,
+    53.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_pinion",
+   "part": "3648",
+   "pos_mm": [
+    -184,
+    28,
+    53.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_gear",
+   "part": "3649",
+   "pos_mm": [
+    -184,
+    28,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_tower0",
+   "part": "3700",
+   "pos_mm": [
+    -152,
+    36,
+    38.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_tower1",
+   "part": "3700",
+   "pos_mm": [
+    -152,
+    36,
+    48.0
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_bearing",
+   "part": "3702",
+   "pos_mm": [
+    -168.0,
+    36,
+    57.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_stop",
+   "part": "4265c",
+   "pos_mm": [
+    -184,
+    42,
+    53.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_rise0",
+   "part": "3036",
+   "pos_mm": [
+    184,
+    0,
+    32.0
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_rise1",
+   "part": "3036",
+   "pos_mm": [
+    184,
+    0,
+    35.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_rise2",
+   "part": "3036",
+   "pos_mm": [
+    184,
+    0,
+    38.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_rise3",
+   "part": "3036",
+   "pos_mm": [
+    184,
+    0,
+    41.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_motor",
+   "part": "58120c01",
+   "pos_mm": [
+    184,
+    24,
+    53.6
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_shaft",
+   "part": "32073",
+   "pos_mm": [
+    184,
+    28,
+    53.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_pinion",
+   "part": "3648",
+   "pos_mm": [
+    184,
+    28,
+    53.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_gear",
+   "part": "3649",
+   "pos_mm": [
+    184,
+    28,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_tower0",
+   "part": "3700",
+   "pos_mm": [
+    152,
+    36,
+    38.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_tower1",
+   "part": "3700",
+   "pos_mm": [
+    152,
+    36,
+    48.0
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_bearing",
+   "part": "3702",
+   "pos_mm": [
+    168.0,
+    36,
+    57.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_stop",
+   "part": "4265c",
+   "pos_mm": [
+    184,
+    42,
+    53.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "tail_axle",
+   "part": "23948",
+   "pos_mm": [
+    -304,
+    0,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "tail_wheell",
+   "part": "56145c01",
+   "pos_mm": [
+    -304,
+    32,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "tail_bushl",
+   "part": "4265c",
+   "pos_mm": [
+    -304,
+    18,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "tail_wheelr",
+   "part": "56145c01",
+   "pos_mm": [
+    -304,
+    -32,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "tail_bushr",
+   "part": "4265c",
+   "pos_mm": [
+    -304,
+    -18,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_axle",
+   "part": "50451",
+   "pos_mm": [
+    -184,
+    0,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_wheell",
+   "part": "56145c01",
+   "pos_mm": [
+    -184,
+    52,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_bushl",
+   "part": "4265c",
+   "pos_mm": [
+    -184,
+    6,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_wheelr",
+   "part": "56145c01",
+   "pos_mm": [
+    -184,
+    -52,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_bushr",
+   "part": "4265c",
+   "pos_mm": [
+    -184,
+    -6,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_axle",
+   "part": "50451",
+   "pos_mm": [
+    184,
+    0,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_wheell",
+   "part": "56145c01",
+   "pos_mm": [
+    184,
+    52,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_bushl",
+   "part": "4265c",
+   "pos_mm": [
+    184,
+    6,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_wheelr",
+   "part": "56145c01",
+   "pos_mm": [
+    184,
+    -52,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_bushr",
+   "part": "4265c",
+   "pos_mm": [
+    184,
+    -6,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "nose_axle",
+   "part": "23948",
+   "pos_mm": [
+    304,
+    0,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "nose_wheell",
+   "part": "56145c01",
+   "pos_mm": [
+    304,
+    32,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "nose_bushl",
+   "part": "4265c",
+   "pos_mm": [
+    304,
+    18,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "nose_wheelr",
+   "part": "56145c01",
+   "pos_mm": [
+    304,
+    -32,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "nose_bushr",
+   "part": "4265c",
+   "pos_mm": [
+    304,
+    -18,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "pilot_rear_axle",
+   "part": "50451",
+   "pos_mm": [
+    -432,
+    0,
+    31.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "pilot_rear_wheell",
+   "part": "32020c01",
+   "pos_mm": [
+    -432,
+    52,
+    31.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "pilot_rear_bushl",
+   "part": "4265c",
+   "pos_mm": [
+    -432,
+    6,
+    31.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "pilot_rear_wheelr",
+   "part": "32020c01",
+   "pos_mm": [
+    -432,
+    -52,
+    31.2
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "pilot_rear_bushr",
+   "part": "4265c",
+   "pos_mm": [
+    -432,
+    -6,
+    31.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "pilot_front_axle",
+   "part": "50451",
+   "pos_mm": [
+    432,
+    0,
+    31.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "pilot_front_wheell",
+   "part": "32020c01",
+   "pos_mm": [
+    432,
+    52,
+    31.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "pilot_front_bushl",
+   "part": "4265c",
+   "pos_mm": [
+    432,
+    6,
+    31.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "pilot_front_wheelr",
+   "part": "32020c01",
+   "pos_mm": [
+    432,
+    -52,
+    31.2
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "pilot_front_bushr",
+   "part": "4265c",
+   "pos_mm": [
+    432,
+    -6,
+    31.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    0,
+    0,
+    67.2
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    16,
+    0,
+    76.8
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap0",
+   "part": "32278",
+   "pos_mm": [
+    -320,
+    4,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap0_pin0",
+   "part": "2780",
+   "pos_mm": [
+    -344,
+    8,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap0_pin1",
+   "part": "2780",
+   "pos_mm": [
+    -336,
+    8,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap0_pin3",
+   "part": "2780",
+   "pos_mm": [
+    -296,
+    8,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap1",
+   "part": "32278",
+   "pos_mm": [
+    -192,
+    20,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap1_pin0",
+   "part": "2780",
+   "pos_mm": [
+    -216,
+    16,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap1_pin1",
+   "part": "2780",
+   "pos_mm": [
+    -208,
+    16,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap1_pin2",
+   "part": "2780",
+   "pos_mm": [
+    -176,
+    16,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap1_pin3",
+   "part": "2780",
+   "pos_mm": [
+    -168,
+    16,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap2",
+   "part": "32278",
+   "pos_mm": [
+    -64,
+    20,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap2_pin0",
+   "part": "2780",
+   "pos_mm": [
+    -88,
+    16,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap2_pin1",
+   "part": "2780",
+   "pos_mm": [
+    -80,
+    16,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap2_pin2",
+   "part": "2780",
+   "pos_mm": [
+    -48,
+    16,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap2_pin3",
+   "part": "2780",
+   "pos_mm": [
+    -40,
+    16,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap3",
+   "part": "32278",
+   "pos_mm": [
+    64,
+    20,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap3_pin0",
+   "part": "2780",
+   "pos_mm": [
+    40,
+    16,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap3_pin1",
+   "part": "2780",
+   "pos_mm": [
+    48,
+    16,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap3_pin2",
+   "part": "2780",
+   "pos_mm": [
+    80,
+    16,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap3_pin3",
+   "part": "2780",
+   "pos_mm": [
+    88,
+    16,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap4",
+   "part": "32278",
+   "pos_mm": [
+    192,
+    20,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap4_pin0",
+   "part": "2780",
+   "pos_mm": [
+    168,
+    16,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap4_pin1",
+   "part": "2780",
+   "pos_mm": [
+    176,
+    16,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap4_pin2",
+   "part": "2780",
+   "pos_mm": [
+    208,
+    16,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap4_pin3",
+   "part": "2780",
+   "pos_mm": [
+    216,
+    16,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap5",
+   "part": "32278",
+   "pos_mm": [
+    320,
+    4,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap5_pin0",
+   "part": "2780",
+   "pos_mm": [
+    296,
+    8,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap5_pin2",
+   "part": "2780",
+   "pos_mm": [
+    336,
+    8,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap5_pin3",
+   "part": "2780",
+   "pos_mm": [
+    344,
+    8,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap6",
+   "part": "32525",
+   "pos_mm": [
+    -280,
+    4,
+    12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap6_pin0",
+   "part": "2780",
+   "pos_mm": [
+    -304,
+    8,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap6_pin1",
+   "part": "2780",
+   "pos_mm": [
+    -296,
+    8,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap6_pin2",
+   "part": "2780",
+   "pos_mm": [
+    -264,
+    8,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap6_pin3",
+   "part": "2780",
+   "pos_mm": [
+    -256,
+    8,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap7",
+   "part": "32525",
+   "pos_mm": [
+    -168,
+    20,
+    12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap7_pin0",
+   "part": "2780",
+   "pos_mm": [
+    -192,
+    16,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap7_pin1",
+   "part": "2780",
+   "pos_mm": [
+    -184,
+    16,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap7_pin2",
+   "part": "2780",
+   "pos_mm": [
+    -152,
+    16,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap7_pin3",
+   "part": "2780",
+   "pos_mm": [
+    -144,
+    16,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap8",
+   "part": "32525",
+   "pos_mm": [
+    -56,
+    20,
+    12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap8_pin1",
+   "part": "2780",
+   "pos_mm": [
+    -72,
+    16,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap8_pin2",
+   "part": "2780",
+   "pos_mm": [
+    -40,
+    16,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap8_pin3",
+   "part": "2780",
+   "pos_mm": [
+    -32,
+    16,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap9",
+   "part": "32525",
+   "pos_mm": [
+    56,
+    20,
+    12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap9_pin0",
+   "part": "2780",
+   "pos_mm": [
+    32,
+    16,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap9_pin1",
+   "part": "2780",
+   "pos_mm": [
+    40,
+    16,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap9_pin2",
+   "part": "2780",
+   "pos_mm": [
+    72,
+    16,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap10",
+   "part": "32525",
+   "pos_mm": [
+    168,
+    20,
+    12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap10_pin0",
+   "part": "2780",
+   "pos_mm": [
+    144,
+    16,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap10_pin1",
+   "part": "2780",
+   "pos_mm": [
+    152,
+    16,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap10_pin2",
+   "part": "2780",
+   "pos_mm": [
+    184,
+    16,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap10_pin3",
+   "part": "2780",
+   "pos_mm": [
+    192,
+    16,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap11",
+   "part": "32525",
+   "pos_mm": [
+    280,
+    4,
+    12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap11_pin0",
+   "part": "2780",
+   "pos_mm": [
+    256,
+    8,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap11_pin1",
+   "part": "2780",
+   "pos_mm": [
+    264,
+    8,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap11_pin2",
+   "part": "2780",
+   "pos_mm": [
+    296,
+    8,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap11_pin3",
+   "part": "2780",
+   "pos_mm": [
+    304,
+    8,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap12",
+   "part": "41239",
+   "pos_mm": [
+    -320,
+    -4,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap12_pin0",
+   "part": "2780",
+   "pos_mm": [
+    -344,
+    -8,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap12_pin1",
+   "part": "2780",
+   "pos_mm": [
+    -336,
+    -8,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap12_pin3",
+   "part": "2780",
+   "pos_mm": [
+    -296,
+    -8,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap13",
+   "part": "41239",
+   "pos_mm": [
+    -192,
+    -20,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap13_pin0",
+   "part": "2780",
+   "pos_mm": [
+    -216,
+    -16,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap13_pin1",
+   "part": "2780",
+   "pos_mm": [
+    -208,
+    -16,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap13_pin2",
+   "part": "2780",
+   "pos_mm": [
+    -176,
+    -16,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap13_pin3",
+   "part": "2780",
+   "pos_mm": [
+    -168,
+    -16,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap14",
+   "part": "41239",
+   "pos_mm": [
+    -64,
+    -20,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap14_pin0",
+   "part": "2780",
+   "pos_mm": [
+    -88,
+    -16,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap14_pin1",
+   "part": "2780",
+   "pos_mm": [
+    -80,
+    -16,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap14_pin2",
+   "part": "2780",
+   "pos_mm": [
+    -48,
+    -16,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap14_pin3",
+   "part": "2780",
+   "pos_mm": [
+    -40,
+    -16,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap15",
+   "part": "41239",
+   "pos_mm": [
+    64,
+    -20,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap15_pin0",
+   "part": "2780",
+   "pos_mm": [
+    40,
+    -16,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap15_pin1",
+   "part": "2780",
+   "pos_mm": [
+    48,
+    -16,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap15_pin2",
+   "part": "2780",
+   "pos_mm": [
+    80,
+    -16,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap15_pin3",
+   "part": "2780",
+   "pos_mm": [
+    88,
+    -16,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap16",
+   "part": "41239",
+   "pos_mm": [
+    192,
+    -20,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap16_pin0",
+   "part": "2780",
+   "pos_mm": [
+    168,
+    -16,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap16_pin1",
+   "part": "2780",
+   "pos_mm": [
+    176,
+    -16,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap16_pin2",
+   "part": "2780",
+   "pos_mm": [
+    208,
+    -16,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap16_pin3",
+   "part": "2780",
+   "pos_mm": [
+    216,
+    -16,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap17",
+   "part": "41239",
+   "pos_mm": [
+    320,
+    -4,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap17_pin0",
+   "part": "2780",
+   "pos_mm": [
+    296,
+    -8,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap17_pin2",
+   "part": "2780",
+   "pos_mm": [
+    336,
+    -8,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap17_pin3",
+   "part": "2780",
+   "pos_mm": [
+    344,
+    -8,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap18",
+   "part": "32525",
+   "pos_mm": [
+    -280,
+    -4,
+    12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap18_pin0",
+   "part": "2780",
+   "pos_mm": [
+    -304,
+    -8,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap18_pin1",
+   "part": "2780",
+   "pos_mm": [
+    -296,
+    -8,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap18_pin2",
+   "part": "2780",
+   "pos_mm": [
+    -264,
+    -8,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap18_pin3",
+   "part": "2780",
+   "pos_mm": [
+    -256,
+    -8,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap19",
+   "part": "32525",
+   "pos_mm": [
+    -168,
+    -20,
+    12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap19_pin0",
+   "part": "2780",
+   "pos_mm": [
+    -192,
+    -16,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap19_pin1",
+   "part": "2780",
+   "pos_mm": [
+    -184,
+    -16,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap19_pin2",
+   "part": "2780",
+   "pos_mm": [
+    -152,
+    -16,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap19_pin3",
+   "part": "2780",
+   "pos_mm": [
+    -144,
+    -16,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap20",
+   "part": "32525",
+   "pos_mm": [
+    -56,
+    -20,
+    12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap20_pin1",
+   "part": "2780",
+   "pos_mm": [
+    -72,
+    -16,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap20_pin2",
+   "part": "2780",
+   "pos_mm": [
+    -40,
+    -16,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap20_pin3",
+   "part": "2780",
+   "pos_mm": [
+    -32,
+    -16,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap21",
+   "part": "32525",
+   "pos_mm": [
+    56,
+    -20,
+    12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap21_pin0",
+   "part": "2780",
+   "pos_mm": [
+    32,
+    -16,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap21_pin1",
+   "part": "2780",
+   "pos_mm": [
+    40,
+    -16,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap21_pin2",
+   "part": "2780",
+   "pos_mm": [
+    72,
+    -16,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap22",
+   "part": "40490",
+   "pos_mm": [
+    168,
+    -20,
+    12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap22_pin0",
+   "part": "2780",
+   "pos_mm": [
+    144,
+    -16,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap22_pin1",
+   "part": "2780",
+   "pos_mm": [
+    152,
+    -16,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap22_pin2",
+   "part": "2780",
+   "pos_mm": [
+    184,
+    -16,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap22_pin3",
+   "part": "2780",
+   "pos_mm": [
+    192,
+    -16,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap23",
+   "part": "40490",
+   "pos_mm": [
+    280,
+    -4,
+    12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap23_pin0",
+   "part": "2780",
+   "pos_mm": [
+    256,
+    -8,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap23_pin1",
+   "part": "2780",
+   "pos_mm": [
+    264,
+    -8,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap23_pin2",
+   "part": "2780",
+   "pos_mm": [
+    296,
+    -8,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap23_pin3",
+   "part": "2780",
+   "pos_mm": [
+    304,
+    -8,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "edge0_axle",
+   "part": "50451",
+   "pos_mm": [
+    -128,
+    0,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "edge0_wheell",
+   "part": "55423c01",
+   "pos_mm": [
+    -128,
+    52,
+    12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "edge0_bushl",
+   "part": "4265c",
+   "pos_mm": [
+    -128,
+    6,
+    12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "edge0_wheelr",
+   "part": "55423c01",
+   "pos_mm": [
+    -128,
+    -52,
+    12
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "edge0_bushr",
+   "part": "4265c",
+   "pos_mm": [
+    -128,
+    -6,
+    12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "edge1_axle",
+   "part": "50451",
+   "pos_mm": [
+    -80,
+    0,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "edge1_wheell",
+   "part": "55423c01",
+   "pos_mm": [
+    -80,
+    52,
+    12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "edge1_bushl",
+   "part": "4265c",
+   "pos_mm": [
+    -80,
+    6,
+    12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "edge1_wheelr",
+   "part": "55423c01",
+   "pos_mm": [
+    -80,
+    -52,
+    12
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "edge1_bushr",
+   "part": "4265c",
+   "pos_mm": [
+    -80,
+    -6,
+    12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "edge2_axle",
+   "part": "50451",
+   "pos_mm": [
+    80,
+    0,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "edge2_wheell",
+   "part": "55423c01",
+   "pos_mm": [
+    80,
+    52,
+    12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "edge2_bushl",
+   "part": "4265c",
+   "pos_mm": [
+    80,
+    6,
+    12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "edge2_wheelr",
+   "part": "55423c01",
+   "pos_mm": [
+    80,
+    -52,
+    12
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "edge2_bushr",
+   "part": "4265c",
+   "pos_mm": [
+    80,
+    -6,
+    12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "edge3_axle",
+   "part": "50451",
+   "pos_mm": [
+    128,
+    0,
+    12
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "edge3_wheell",
+   "part": "55423c01",
+   "pos_mm": [
+    128,
+    52,
+    12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "edge3_bushl",
+   "part": "4265c",
+   "pos_mm": [
+    128,
+    6,
+    12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "edge3_wheelr",
+   "part": "55423c01",
+   "pos_mm": [
+    128,
+    -52,
+    12
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "edge3_bushr",
+   "part": "4265c",
+   "pos_mm": [
+    128,
+    -6,
+    12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_main16",
+   "part": "94925",
+   "pos_mm": [
+    -184,
+    -32,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_mid16a",
+   "part": "94925",
+   "pos_mm": [
+    -128,
+    -32,
+    12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_mid16b",
+   "part": "94925",
+   "pos_mm": [
+    -128,
+    -40,
+    12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_inner16",
+   "part": "94925",
+   "pos_mm": [
+    -80,
+    -40,
+    12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_main16",
+   "part": "94925",
+   "pos_mm": [
+    184,
+    -32,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_mid16a",
+   "part": "94925",
+   "pos_mm": [
+    128,
+    -32,
+    12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_mid16b",
+   "part": "94925",
+   "pos_mm": [
+    128,
+    -40,
+    12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_inner16",
+   "part": "94925",
+   "pos_mm": [
+    80,
+    -40,
+    12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "rear_shaft",
+   "parent": "rear_motor",
+   "kind": "motor"
+  },
+  {
+   "child": "rear_pinion",
+   "parent": "rear_shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_gear",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_stop",
+   "parent": "rear_shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "front_shaft",
+   "parent": "front_motor",
+   "kind": "motor"
+  },
+  {
+   "child": "front_pinion",
+   "parent": "front_shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "front_gear",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_stop",
+   "parent": "front_shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "tail_wheell",
+   "parent": "tail_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "tail_bushl",
+   "parent": "tail_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "tail_axle",
+   "parent": "tl1",
+   "kind": "hinge"
+  },
+  {
+   "child": "tail_wheelr",
+   "parent": "tail_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "tail_bushr",
+   "parent": "tail_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "tail_axle",
+   "parent": "tr1",
+   "kind": "hinge"
+  },
+  {
+   "child": "rear_wheell",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_bushl",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_axle",
+   "parent": "tl2",
+   "kind": "hinge"
+  },
+  {
+   "child": "rear_wheelr",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_bushr",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_axle",
+   "parent": "tr2",
+   "kind": "hinge"
+  },
+  {
+   "child": "front_wheell",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_bushl",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_axle",
+   "parent": "tl4",
+   "kind": "hinge"
+  },
+  {
+   "child": "front_wheelr",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_bushr",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_axle",
+   "parent": "tr4",
+   "kind": "hinge"
+  },
+  {
+   "child": "nose_wheell",
+   "parent": "nose_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "nose_bushl",
+   "parent": "nose_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "nose_axle",
+   "parent": "tl5",
+   "kind": "hinge"
+  },
+  {
+   "child": "nose_wheelr",
+   "parent": "nose_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "nose_bushr",
+   "parent": "nose_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "nose_axle",
+   "parent": "tr5",
+   "kind": "hinge"
+  },
+  {
+   "child": "pilot_rear_wheell",
+   "parent": "pilot_rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "pilot_rear_bushl",
+   "parent": "pilot_rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "pilot_rear_axle",
+   "parent": "pilot_bearingl-432",
+   "kind": "hinge"
+  },
+  {
+   "child": "pilot_rear_wheelr",
+   "parent": "pilot_rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "pilot_rear_bushr",
+   "parent": "pilot_rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "pilot_rear_axle",
+   "parent": "pilot_bearingr-432",
+   "kind": "hinge"
+  },
+  {
+   "child": "pilot_front_wheell",
+   "parent": "pilot_front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "pilot_front_bushl",
+   "parent": "pilot_front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "pilot_front_axle",
+   "parent": "pilot_bearingl432",
+   "kind": "hinge"
+  },
+  {
+   "child": "pilot_front_wheelr",
+   "parent": "pilot_front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "pilot_front_bushr",
+   "parent": "pilot_front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "pilot_front_axle",
+   "parent": "pilot_bearingr432",
+   "kind": "hinge"
+  },
+  {
+   "child": "strap0_pin0",
+   "parent": "strap0",
+   "kind": "pin"
+  },
+  {
+   "child": "strap0_pin0",
+   "parent": "tl0",
+   "kind": "pin"
+  },
+  {
+   "child": "strap0_pin1",
+   "parent": "strap0",
+   "kind": "pin"
+  },
+  {
+   "child": "strap0_pin1",
+   "parent": "tl0",
+   "kind": "pin"
+  },
+  {
+   "child": "strap0_pin3",
+   "parent": "strap0",
+   "kind": "pin"
+  },
+  {
+   "child": "strap0_pin3",
+   "parent": "tl1",
+   "kind": "pin"
+  },
+  {
+   "child": "strap1_pin0",
+   "parent": "strap1",
+   "kind": "pin"
+  },
+  {
+   "child": "strap1_pin0",
+   "parent": "tl1",
+   "kind": "pin"
+  },
+  {
+   "child": "strap1_pin1",
+   "parent": "strap1",
+   "kind": "pin"
+  },
+  {
+   "child": "strap1_pin1",
+   "parent": "tl1",
+   "kind": "pin"
+  },
+  {
+   "child": "strap1_pin2",
+   "parent": "strap1",
+   "kind": "pin"
+  },
+  {
+   "child": "strap1_pin2",
+   "parent": "tl2",
+   "kind": "pin"
+  },
+  {
+   "child": "strap1_pin3",
+   "parent": "strap1",
+   "kind": "pin"
+  },
+  {
+   "child": "strap1_pin3",
+   "parent": "tl2",
+   "kind": "pin"
+  },
+  {
+   "child": "strap2_pin0",
+   "parent": "strap2",
+   "kind": "pin"
+  },
+  {
+   "child": "strap2_pin0",
+   "parent": "tl2",
+   "kind": "pin"
+  },
+  {
+   "child": "strap2_pin1",
+   "parent": "strap2",
+   "kind": "pin"
+  },
+  {
+   "child": "strap2_pin1",
+   "parent": "tl2",
+   "kind": "pin"
+  },
+  {
+   "child": "strap2_pin2",
+   "parent": "strap2",
+   "kind": "pin"
+  },
+  {
+   "child": "strap2_pin2",
+   "parent": "tl3",
+   "kind": "pin"
+  },
+  {
+   "child": "strap2_pin3",
+   "parent": "strap2",
+   "kind": "pin"
+  },
+  {
+   "child": "strap2_pin3",
+   "parent": "tl3",
+   "kind": "pin"
+  },
+  {
+   "child": "strap3_pin0",
+   "parent": "strap3",
+   "kind": "pin"
+  },
+  {
+   "child": "strap3_pin0",
+   "parent": "tl3",
+   "kind": "pin"
+  },
+  {
+   "child": "strap3_pin1",
+   "parent": "strap3",
+   "kind": "pin"
+  },
+  {
+   "child": "strap3_pin1",
+   "parent": "tl3",
+   "kind": "pin"
+  },
+  {
+   "child": "strap3_pin2",
+   "parent": "strap3",
+   "kind": "pin"
+  },
+  {
+   "child": "strap3_pin2",
+   "parent": "tl4",
+   "kind": "pin"
+  },
+  {
+   "child": "strap3_pin3",
+   "parent": "strap3",
+   "kind": "pin"
+  },
+  {
+   "child": "strap3_pin3",
+   "parent": "tl4",
+   "kind": "pin"
+  },
+  {
+   "child": "strap4_pin0",
+   "parent": "strap4",
+   "kind": "pin"
+  },
+  {
+   "child": "strap4_pin0",
+   "parent": "tl4",
+   "kind": "pin"
+  },
+  {
+   "child": "strap4_pin1",
+   "parent": "strap4",
+   "kind": "pin"
+  },
+  {
+   "child": "strap4_pin1",
+   "parent": "tl4",
+   "kind": "pin"
+  },
+  {
+   "child": "strap4_pin2",
+   "parent": "strap4",
+   "kind": "pin"
+  },
+  {
+   "child": "strap4_pin2",
+   "parent": "tl5",
+   "kind": "pin"
+  },
+  {
+   "child": "strap4_pin3",
+   "parent": "strap4",
+   "kind": "pin"
+  },
+  {
+   "child": "strap4_pin3",
+   "parent": "tl5",
+   "kind": "pin"
+  },
+  {
+   "child": "strap5_pin0",
+   "parent": "strap5",
+   "kind": "pin"
+  },
+  {
+   "child": "strap5_pin0",
+   "parent": "tl5",
+   "kind": "pin"
+  },
+  {
+   "child": "strap5_pin2",
+   "parent": "strap5",
+   "kind": "pin"
+  },
+  {
+   "child": "strap5_pin2",
+   "parent": "tl6",
+   "kind": "pin"
+  },
+  {
+   "child": "strap5_pin3",
+   "parent": "strap5",
+   "kind": "pin"
+  },
+  {
+   "child": "strap5_pin3",
+   "parent": "tl6",
+   "kind": "pin"
+  },
+  {
+   "child": "strap6_pin0",
+   "parent": "strap6",
+   "kind": "pin"
+  },
+  {
+   "child": "strap6_pin0",
+   "parent": "bl0",
+   "kind": "pin"
+  },
+  {
+   "child": "strap6_pin1",
+   "parent": "strap6",
+   "kind": "pin"
+  },
+  {
+   "child": "strap6_pin1",
+   "parent": "bl0",
+   "kind": "pin"
+  },
+  {
+   "child": "strap6_pin2",
+   "parent": "strap6",
+   "kind": "pin"
+  },
+  {
+   "child": "strap6_pin2",
+   "parent": "bl1",
+   "kind": "pin"
+  },
+  {
+   "child": "strap6_pin3",
+   "parent": "strap6",
+   "kind": "pin"
+  },
+  {
+   "child": "strap6_pin3",
+   "parent": "bl1",
+   "kind": "pin"
+  },
+  {
+   "child": "strap7_pin0",
+   "parent": "strap7",
+   "kind": "pin"
+  },
+  {
+   "child": "strap7_pin0",
+   "parent": "bl1",
+   "kind": "pin"
+  },
+  {
+   "child": "strap7_pin1",
+   "parent": "strap7",
+   "kind": "pin"
+  },
+  {
+   "child": "strap7_pin1",
+   "parent": "bl1",
+   "kind": "pin"
+  },
+  {
+   "child": "strap7_pin2",
+   "parent": "strap7",
+   "kind": "pin"
+  },
+  {
+   "child": "strap7_pin2",
+   "parent": "bl2",
+   "kind": "pin"
+  },
+  {
+   "child": "strap7_pin3",
+   "parent": "strap7",
+   "kind": "pin"
+  },
+  {
+   "child": "strap7_pin3",
+   "parent": "bl2",
+   "kind": "pin"
+  },
+  {
+   "child": "strap8_pin1",
+   "parent": "strap8",
+   "kind": "pin"
+  },
+  {
+   "child": "strap8_pin1",
+   "parent": "bl2",
+   "kind": "pin"
+  },
+  {
+   "child": "strap8_pin2",
+   "parent": "strap8",
+   "kind": "pin"
+  },
+  {
+   "child": "strap8_pin2",
+   "parent": "bl3",
+   "kind": "pin"
+  },
+  {
+   "child": "strap8_pin3",
+   "parent": "strap8",
+   "kind": "pin"
+  },
+  {
+   "child": "strap8_pin3",
+   "parent": "bl3",
+   "kind": "pin"
+  },
+  {
+   "child": "strap9_pin0",
+   "parent": "strap9",
+   "kind": "pin"
+  },
+  {
+   "child": "strap9_pin0",
+   "parent": "bl3",
+   "kind": "pin"
+  },
+  {
+   "child": "strap9_pin1",
+   "parent": "strap9",
+   "kind": "pin"
+  },
+  {
+   "child": "strap9_pin1",
+   "parent": "bl3",
+   "kind": "pin"
+  },
+  {
+   "child": "strap9_pin2",
+   "parent": "strap9",
+   "kind": "pin"
+  },
+  {
+   "child": "strap9_pin2",
+   "parent": "bl4",
+   "kind": "pin"
+  },
+  {
+   "child": "strap10_pin0",
+   "parent": "strap10",
+   "kind": "pin"
+  },
+  {
+   "child": "strap10_pin0",
+   "parent": "bl4",
+   "kind": "pin"
+  },
+  {
+   "child": "strap10_pin1",
+   "parent": "strap10",
+   "kind": "pin"
+  },
+  {
+   "child": "strap10_pin1",
+   "parent": "bl4",
+   "kind": "pin"
+  },
+  {
+   "child": "strap10_pin2",
+   "parent": "strap10",
+   "kind": "pin"
+  },
+  {
+   "child": "strap10_pin2",
+   "parent": "bl5",
+   "kind": "pin"
+  },
+  {
+   "child": "strap10_pin3",
+   "parent": "strap10",
+   "kind": "pin"
+  },
+  {
+   "child": "strap10_pin3",
+   "parent": "bl5",
+   "kind": "pin"
+  },
+  {
+   "child": "strap11_pin0",
+   "parent": "strap11",
+   "kind": "pin"
+  },
+  {
+   "child": "strap11_pin0",
+   "parent": "bl5",
+   "kind": "pin"
+  },
+  {
+   "child": "strap11_pin1",
+   "parent": "strap11",
+   "kind": "pin"
+  },
+  {
+   "child": "strap11_pin1",
+   "parent": "bl5",
+   "kind": "pin"
+  },
+  {
+   "child": "strap11_pin2",
+   "parent": "strap11",
+   "kind": "pin"
+  },
+  {
+   "child": "strap11_pin2",
+   "parent": "bl6",
+   "kind": "pin"
+  },
+  {
+   "child": "strap11_pin3",
+   "parent": "strap11",
+   "kind": "pin"
+  },
+  {
+   "child": "strap11_pin3",
+   "parent": "bl6",
+   "kind": "pin"
+  },
+  {
+   "child": "strap12_pin0",
+   "parent": "strap12",
+   "kind": "pin"
+  },
+  {
+   "child": "strap12_pin0",
+   "parent": "tr0",
+   "kind": "pin"
+  },
+  {
+   "child": "strap12_pin1",
+   "parent": "strap12",
+   "kind": "pin"
+  },
+  {
+   "child": "strap12_pin1",
+   "parent": "tr0",
+   "kind": "pin"
+  },
+  {
+   "child": "strap12_pin3",
+   "parent": "strap12",
+   "kind": "pin"
+  },
+  {
+   "child": "strap12_pin3",
+   "parent": "tr1",
+   "kind": "pin"
+  },
+  {
+   "child": "strap13_pin0",
+   "parent": "strap13",
+   "kind": "pin"
+  },
+  {
+   "child": "strap13_pin0",
+   "parent": "tr1",
+   "kind": "pin"
+  },
+  {
+   "child": "strap13_pin1",
+   "parent": "strap13",
+   "kind": "pin"
+  },
+  {
+   "child": "strap13_pin1",
+   "parent": "tr1",
+   "kind": "pin"
+  },
+  {
+   "child": "strap13_pin2",
+   "parent": "strap13",
+   "kind": "pin"
+  },
+  {
+   "child": "strap13_pin2",
+   "parent": "tr2",
+   "kind": "pin"
+  },
+  {
+   "child": "strap13_pin3",
+   "parent": "strap13",
+   "kind": "pin"
+  },
+  {
+   "child": "strap13_pin3",
+   "parent": "tr2",
+   "kind": "pin"
+  },
+  {
+   "child": "strap14_pin0",
+   "parent": "strap14",
+   "kind": "pin"
+  },
+  {
+   "child": "strap14_pin0",
+   "parent": "tr2",
+   "kind": "pin"
+  },
+  {
+   "child": "strap14_pin1",
+   "parent": "strap14",
+   "kind": "pin"
+  },
+  {
+   "child": "strap14_pin1",
+   "parent": "tr2",
+   "kind": "pin"
+  },
+  {
+   "child": "strap14_pin2",
+   "parent": "strap14",
+   "kind": "pin"
+  },
+  {
+   "child": "strap14_pin2",
+   "parent": "tr3",
+   "kind": "pin"
+  },
+  {
+   "child": "strap14_pin3",
+   "parent": "strap14",
+   "kind": "pin"
+  },
+  {
+   "child": "strap14_pin3",
+   "parent": "tr3",
+   "kind": "pin"
+  },
+  {
+   "child": "strap15_pin0",
+   "parent": "strap15",
+   "kind": "pin"
+  },
+  {
+   "child": "strap15_pin0",
+   "parent": "tr3",
+   "kind": "pin"
+  },
+  {
+   "child": "strap15_pin1",
+   "parent": "strap15",
+   "kind": "pin"
+  },
+  {
+   "child": "strap15_pin1",
+   "parent": "tr3",
+   "kind": "pin"
+  },
+  {
+   "child": "strap15_pin2",
+   "parent": "strap15",
+   "kind": "pin"
+  },
+  {
+   "child": "strap15_pin2",
+   "parent": "tr4",
+   "kind": "pin"
+  },
+  {
+   "child": "strap15_pin3",
+   "parent": "strap15",
+   "kind": "pin"
+  },
+  {
+   "child": "strap15_pin3",
+   "parent": "tr4",
+   "kind": "pin"
+  },
+  {
+   "child": "strap16_pin0",
+   "parent": "strap16",
+   "kind": "pin"
+  },
+  {
+   "child": "strap16_pin0",
+   "parent": "tr4",
+   "kind": "pin"
+  },
+  {
+   "child": "strap16_pin1",
+   "parent": "strap16",
+   "kind": "pin"
+  },
+  {
+   "child": "strap16_pin1",
+   "parent": "tr4",
+   "kind": "pin"
+  },
+  {
+   "child": "strap16_pin2",
+   "parent": "strap16",
+   "kind": "pin"
+  },
+  {
+   "child": "strap16_pin2",
+   "parent": "tr5",
+   "kind": "pin"
+  },
+  {
+   "child": "strap16_pin3",
+   "parent": "strap16",
+   "kind": "pin"
+  },
+  {
+   "child": "strap16_pin3",
+   "parent": "tr5",
+   "kind": "pin"
+  },
+  {
+   "child": "strap17_pin0",
+   "parent": "strap17",
+   "kind": "pin"
+  },
+  {
+   "child": "strap17_pin0",
+   "parent": "tr5",
+   "kind": "pin"
+  },
+  {
+   "child": "strap17_pin2",
+   "parent": "strap17",
+   "kind": "pin"
+  },
+  {
+   "child": "strap17_pin2",
+   "parent": "tr6",
+   "kind": "pin"
+  },
+  {
+   "child": "strap17_pin3",
+   "parent": "strap17",
+   "kind": "pin"
+  },
+  {
+   "child": "strap17_pin3",
+   "parent": "tr6",
+   "kind": "pin"
+  },
+  {
+   "child": "strap18_pin0",
+   "parent": "strap18",
+   "kind": "pin"
+  },
+  {
+   "child": "strap18_pin0",
+   "parent": "br0",
+   "kind": "pin"
+  },
+  {
+   "child": "strap18_pin1",
+   "parent": "strap18",
+   "kind": "pin"
+  },
+  {
+   "child": "strap18_pin1",
+   "parent": "br0",
+   "kind": "pin"
+  },
+  {
+   "child": "strap18_pin2",
+   "parent": "strap18",
+   "kind": "pin"
+  },
+  {
+   "child": "strap18_pin2",
+   "parent": "br1",
+   "kind": "pin"
+  },
+  {
+   "child": "strap18_pin3",
+   "parent": "strap18",
+   "kind": "pin"
+  },
+  {
+   "child": "strap18_pin3",
+   "parent": "br1",
+   "kind": "pin"
+  },
+  {
+   "child": "strap19_pin0",
+   "parent": "strap19",
+   "kind": "pin"
+  },
+  {
+   "child": "strap19_pin0",
+   "parent": "br1",
+   "kind": "pin"
+  },
+  {
+   "child": "strap19_pin1",
+   "parent": "strap19",
+   "kind": "pin"
+  },
+  {
+   "child": "strap19_pin1",
+   "parent": "br1",
+   "kind": "pin"
+  },
+  {
+   "child": "strap19_pin2",
+   "parent": "strap19",
+   "kind": "pin"
+  },
+  {
+   "child": "strap19_pin2",
+   "parent": "br2",
+   "kind": "pin"
+  },
+  {
+   "child": "strap19_pin3",
+   "parent": "strap19",
+   "kind": "pin"
+  },
+  {
+   "child": "strap19_pin3",
+   "parent": "br2",
+   "kind": "pin"
+  },
+  {
+   "child": "strap20_pin1",
+   "parent": "strap20",
+   "kind": "pin"
+  },
+  {
+   "child": "strap20_pin1",
+   "parent": "br2",
+   "kind": "pin"
+  },
+  {
+   "child": "strap20_pin2",
+   "parent": "strap20",
+   "kind": "pin"
+  },
+  {
+   "child": "strap20_pin2",
+   "parent": "br3",
+   "kind": "pin"
+  },
+  {
+   "child": "strap20_pin3",
+   "parent": "strap20",
+   "kind": "pin"
+  },
+  {
+   "child": "strap20_pin3",
+   "parent": "br3",
+   "kind": "pin"
+  },
+  {
+   "child": "strap21_pin0",
+   "parent": "strap21",
+   "kind": "pin"
+  },
+  {
+   "child": "strap21_pin0",
+   "parent": "br3",
+   "kind": "pin"
+  },
+  {
+   "child": "strap21_pin1",
+   "parent": "strap21",
+   "kind": "pin"
+  },
+  {
+   "child": "strap21_pin1",
+   "parent": "br3",
+   "kind": "pin"
+  },
+  {
+   "child": "strap21_pin2",
+   "parent": "strap21",
+   "kind": "pin"
+  },
+  {
+   "child": "strap21_pin2",
+   "parent": "br4",
+   "kind": "pin"
+  },
+  {
+   "child": "strap22_pin0",
+   "parent": "strap22",
+   "kind": "pin"
+  },
+  {
+   "child": "strap22_pin0",
+   "parent": "br4",
+   "kind": "pin"
+  },
+  {
+   "child": "strap22_pin1",
+   "parent": "strap22",
+   "kind": "pin"
+  },
+  {
+   "child": "strap22_pin1",
+   "parent": "br4",
+   "kind": "pin"
+  },
+  {
+   "child": "strap22_pin2",
+   "parent": "strap22",
+   "kind": "pin"
+  },
+  {
+   "child": "strap22_pin2",
+   "parent": "br5",
+   "kind": "pin"
+  },
+  {
+   "child": "strap22_pin3",
+   "parent": "strap22",
+   "kind": "pin"
+  },
+  {
+   "child": "strap22_pin3",
+   "parent": "br5",
+   "kind": "pin"
+  },
+  {
+   "child": "strap23_pin0",
+   "parent": "strap23",
+   "kind": "pin"
+  },
+  {
+   "child": "strap23_pin0",
+   "parent": "br5",
+   "kind": "pin"
+  },
+  {
+   "child": "strap23_pin1",
+   "parent": "strap23",
+   "kind": "pin"
+  },
+  {
+   "child": "strap23_pin1",
+   "parent": "br5",
+   "kind": "pin"
+  },
+  {
+   "child": "strap23_pin2",
+   "parent": "strap23",
+   "kind": "pin"
+  },
+  {
+   "child": "strap23_pin2",
+   "parent": "br6",
+   "kind": "pin"
+  },
+  {
+   "child": "strap23_pin3",
+   "parent": "strap23",
+   "kind": "pin"
+  },
+  {
+   "child": "strap23_pin3",
+   "parent": "br6",
+   "kind": "pin"
+  },
+  {
+   "child": "edge0_wheell",
+   "parent": "edge0_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "edge0_bushl",
+   "parent": "edge0_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "edge0_wheelr",
+   "parent": "edge0_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "edge0_bushr",
+   "parent": "edge0_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "edge0_axle",
+   "parent": "bl2",
+   "kind": "hinge"
+  },
+  {
+   "child": "edge0_axle",
+   "parent": "br2",
+   "kind": "hinge"
+  },
+  {
+   "child": "edge0_axle",
+   "parent": "strap7",
+   "kind": "hinge"
+  },
+  {
+   "child": "edge0_axle",
+   "parent": "strap19",
+   "kind": "hinge"
+  },
+  {
+   "child": "edge1_wheell",
+   "parent": "edge1_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "edge1_bushl",
+   "parent": "edge1_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "edge1_wheelr",
+   "parent": "edge1_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "edge1_bushr",
+   "parent": "edge1_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "edge1_axle",
+   "parent": "bl2",
+   "kind": "hinge"
+  },
+  {
+   "child": "edge1_axle",
+   "parent": "br2",
+   "kind": "hinge"
+  },
+  {
+   "child": "edge1_axle",
+   "parent": "strap8",
+   "kind": "hinge"
+  },
+  {
+   "child": "edge1_axle",
+   "parent": "strap20",
+   "kind": "hinge"
+  },
+  {
+   "child": "edge2_wheell",
+   "parent": "edge2_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "edge2_bushl",
+   "parent": "edge2_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "edge2_wheelr",
+   "parent": "edge2_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "edge2_bushr",
+   "parent": "edge2_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "edge2_axle",
+   "parent": "bl4",
+   "kind": "hinge"
+  },
+  {
+   "child": "edge2_axle",
+   "parent": "br4",
+   "kind": "hinge"
+  },
+  {
+   "child": "edge2_axle",
+   "parent": "strap9",
+   "kind": "hinge"
+  },
+  {
+   "child": "edge2_axle",
+   "parent": "strap21",
+   "kind": "hinge"
+  },
+  {
+   "child": "edge3_wheell",
+   "parent": "edge3_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "edge3_bushl",
+   "parent": "edge3_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "edge3_wheelr",
+   "parent": "edge3_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "edge3_bushr",
+   "parent": "edge3_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "edge3_axle",
+   "parent": "bl4",
+   "kind": "hinge"
+  },
+  {
+   "child": "edge3_axle",
+   "parent": "br4",
+   "kind": "hinge"
+  },
+  {
+   "child": "edge3_axle",
+   "parent": "strap10",
+   "kind": "hinge"
+  },
+  {
+   "child": "rear_main16",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_mid16a",
+   "parent": "edge0_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_mid16b",
+   "parent": "edge0_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_inner16",
+   "parent": "edge1_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_main16",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_mid16a",
+   "parent": "edge3_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_mid16b",
+   "parent": "edge3_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_inner16",
+   "parent": "edge2_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "tl0",
+   "parent": "bl0",
+   "kind": "stud",
+   "studs": 9
+  },
+  {
+   "child": "tl1",
+   "parent": "bl0",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "tl1",
+   "parent": "bl1",
+   "kind": "stud",
+   "studs": 11
+  },
+  {
+   "child": "tl2",
+   "parent": "bl1",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "tl2",
+   "parent": "bl2",
+   "kind": "stud",
+   "studs": 13
+  },
+  {
+   "child": "tl3",
+   "parent": "bl2",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "tl3",
+   "parent": "bl3",
+   "kind": "stud",
+   "studs": 14
+  },
+  {
+   "child": "tl3",
+   "parent": "bl4",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "tl4",
+   "parent": "bl4",
+   "kind": "stud",
+   "studs": 13
+  },
+  {
+   "child": "tl4",
+   "parent": "bl5",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "tl5",
+   "parent": "bl5",
+   "kind": "stud",
+   "studs": 11
+  },
+  {
+   "child": "tl5",
+   "parent": "bl6",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "tl6",
+   "parent": "bl6",
+   "kind": "stud",
+   "studs": 9
+  },
+  {
+   "child": "bl0",
+   "parent": "sl0",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "bl0",
+   "parent": "sl1",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "bl1",
+   "parent": "sl1",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "bl1",
+   "parent": "sl2",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "bl1",
+   "parent": "sl3",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "bl2",
+   "parent": "sl3",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "bl2",
+   "parent": "sl4",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "bl2",
+   "parent": "sl5",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "bl3",
+   "parent": "sl5",
+   "kind": "stud",
+   "studs": 7
+  },
+  {
+   "child": "bl3",
+   "parent": "sl6",
+   "kind": "stud",
+   "studs": 7
+  },
+  {
+   "child": "bl4",
+   "parent": "sl6",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "bl4",
+   "parent": "sl7",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "bl4",
+   "parent": "sl8",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "bl5",
+   "parent": "sl8",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "bl5",
+   "parent": "sl9",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "bl5",
+   "parent": "sl10",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "bl6",
+   "parent": "sl10",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "bl6",
+   "parent": "sl11",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "tr0",
+   "parent": "br0",
+   "kind": "stud",
+   "studs": 9
+  },
+  {
+   "child": "tr1",
+   "parent": "br0",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "tr1",
+   "parent": "br1",
+   "kind": "stud",
+   "studs": 11
+  },
+  {
+   "child": "tr2",
+   "parent": "br1",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "tr2",
+   "parent": "br2",
+   "kind": "stud",
+   "studs": 13
+  },
+  {
+   "child": "tr3",
+   "parent": "br2",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "tr3",
+   "parent": "br3",
+   "kind": "stud",
+   "studs": 14
+  },
+  {
+   "child": "tr3",
+   "parent": "br4",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "tr4",
+   "parent": "br4",
+   "kind": "stud",
+   "studs": 13
+  },
+  {
+   "child": "tr4",
+   "parent": "br5",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "tr5",
+   "parent": "br5",
+   "kind": "stud",
+   "studs": 11
+  },
+  {
+   "child": "tr5",
+   "parent": "br6",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "tr6",
+   "parent": "br6",
+   "kind": "stud",
+   "studs": 9
+  },
+  {
+   "child": "br0",
+   "parent": "sr0",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "br0",
+   "parent": "sr1",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "br1",
+   "parent": "sr1",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "br1",
+   "parent": "sr2",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "br1",
+   "parent": "sr3",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "br2",
+   "parent": "sr3",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "br2",
+   "parent": "sr4",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "br2",
+   "parent": "sr5",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "br3",
+   "parent": "sr5",
+   "kind": "stud",
+   "studs": 7
+  },
+  {
+   "child": "br3",
+   "parent": "sr6",
+   "kind": "stud",
+   "studs": 7
+  },
+  {
+   "child": "br4",
+   "parent": "sr6",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "br4",
+   "parent": "sr7",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "br4",
+   "parent": "sr8",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "br5",
+   "parent": "sr8",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "br5",
+   "parent": "sr9",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "br5",
+   "parent": "sr10",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "br6",
+   "parent": "sr10",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "br6",
+   "parent": "sr11",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "deck0",
+   "parent": "tl0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck0",
+   "parent": "tr0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck1",
+   "parent": "tl1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck1",
+   "parent": "tr1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck2",
+   "parent": "tl1",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "deck2",
+   "parent": "tl2",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "deck2",
+   "parent": "tr1",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "deck2",
+   "parent": "tr2",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "deck3",
+   "parent": "tl2",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck3",
+   "parent": "tr2",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck4",
+   "parent": "tl3",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "deck4",
+   "parent": "tr3",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "deck5",
+   "parent": "tl4",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck5",
+   "parent": "tr4",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck6",
+   "parent": "tl4",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "deck6",
+   "parent": "tl5",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "deck6",
+   "parent": "tr4",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "deck6",
+   "parent": "tr5",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "deck7",
+   "parent": "tl5",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck7",
+   "parent": "tr5",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck8",
+   "parent": "tl6",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck8",
+   "parent": "tr6",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "pilot_bearingl-432",
+   "parent": "tl0",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "pilot_bearingr-432",
+   "parent": "tr0",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "pilot_bearingl432",
+   "parent": "tl6",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "pilot_bearingr432",
+   "parent": "tr6",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "towerdeck-152",
+   "parent": "tl2",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "towerdeck-152",
+   "parent": "tr2",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "towerdeck152",
+   "parent": "tl4",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "towerdeck152",
+   "parent": "tr4",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "rear_rise0",
+   "parent": "deck2",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "rear_rise0",
+   "parent": "towerdeck-152",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "rear_rise1",
+   "parent": "rear_rise0",
+   "kind": "stud",
+   "studs": 48
+  },
+  {
+   "child": "rear_rise2",
+   "parent": "rear_rise1",
+   "kind": "stud",
+   "studs": 48
+  },
+  {
+   "child": "rear_rise3",
+   "parent": "rear_rise2",
+   "kind": "stud",
+   "studs": 48
+  },
+  {
+   "child": "rear_motor",
+   "parent": "rear_rise3",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "rear_tower0",
+   "parent": "towerdeck-152",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "rear_tower1",
+   "parent": "rear_tower0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "rear_bearing",
+   "parent": "rear_tower1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "front_rise0",
+   "parent": "deck6",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "front_rise0",
+   "parent": "towerdeck152",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "front_rise1",
+   "parent": "front_rise0",
+   "kind": "stud",
+   "studs": 48
+  },
+  {
+   "child": "front_rise2",
+   "parent": "front_rise1",
+   "kind": "stud",
+   "studs": 48
+  },
+  {
+   "child": "front_rise3",
+   "parent": "front_rise2",
+   "kind": "stud",
+   "studs": 48
+  },
+  {
+   "child": "front_motor",
+   "parent": "front_rise3",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "front_tower0",
+   "parent": "towerdeck152",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "front_tower1",
+   "parent": "front_tower0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "front_bearing",
+   "parent": "front_tower1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "battery",
+   "parent": "deck4",
+   "kind": "stud",
+   "studs": 32
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "rear_pinion",
+   "gear_b": "rear_gear"
+  },
+  {
+   "gear_a": "front_pinion",
+   "gear_b": "front_gear"
+  }
+ ],
+ "chains": [
+  {
+   "name": "rear_outer_chain",
+   "gears": [
+    "rear_main16",
+    "rear_mid16a"
+   ],
+   "links": 26
+  },
+  {
+   "name": "rear_inner_chain",
+   "gears": [
+    "rear_mid16b",
+    "rear_inner16"
+   ],
+   "links": 23
+  },
+  {
+   "name": "front_outer_chain",
+   "gears": [
+    "front_main16",
+    "front_mid16a"
+   ],
+   "links": 26
+  },
+  {
+   "name": "front_inner_chain",
+   "gears": [
+    "front_mid16b",
+    "front_inner16"
+   ],
+   "links": 23
+  }
+ ],
+ "start_gap_mm": 15,
+ "motor_program": [
+  {
+   "t": 0,
+   "motor": "all",
+   "level": 5
+  },
+  {
+   "t": 9.0,
+   "motor": "all",
+   "level": "brake"
+  }
+ ]
+}

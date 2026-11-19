@@ -1,0 +1,485 @@
+{
+ "name": "Narrow central track",
+ "description": "Single narrow track and symmetric low battery; retained chain drive.",
+ "part_set": "inventory",
+ "chassis": "rail_l0",
+ "motor": "motor",
+ "battery": "battery",
+ "parts": [
+  {
+   "name": "rail_l0",
+   "part": "3895",
+   "pos_mm": [
+    0,
+    20,
+    19.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail_l1",
+   "part": "3895",
+   "pos_mm": [
+    0,
+    20,
+    29.200000000000003
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail_r0",
+   "part": "3895",
+   "pos_mm": [
+    0,
+    -20,
+    19.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail_r1",
+   "part": "3895",
+   "pos_mm": [
+    0,
+    -20,
+    29.200000000000003
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "deck",
+   "part": "3028",
+   "pos_mm": [
+    0,
+    0,
+    35.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_axle",
+   "part": "23948",
+   "pos_mm": [
+    -32,
+    0,
+    15.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "rear_sprocket",
+   "part": "57520",
+   "pos_mm": [
+    -32,
+    0,
+    15.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_bush_r",
+   "part": "4265c",
+   "pos_mm": [
+    -32,
+    -26,
+    15.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_axle",
+   "part": "3707",
+   "pos_mm": [
+    40,
+    0,
+    15.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "front_sprocket",
+   "part": "57520",
+   "pos_mm": [
+    40,
+    0,
+    15.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_bush_l",
+   "part": "4265c",
+   "pos_mm": [
+    40,
+    26,
+    15.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_bush_r",
+   "part": "4265c",
+   "pos_mm": [
+    40,
+    -26,
+    15.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_gear",
+   "part": "3648",
+   "pos_mm": [
+    -32,
+    32,
+    15.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "riser",
+   "part": "3031",
+   "pos_mm": [
+    -32,
+    0,
+    38.800000000000004
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "motor",
+   "part": "58120c01",
+   "pos_mm": [
+    -32,
+    24,
+    50.800000000000004
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "shaft",
+   "part": "3705",
+   "pos_mm": [
+    -32,
+    30,
+    50.800000000000004
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "drive_gear",
+   "part": "94925",
+   "pos_mm": [
+    -32,
+    32,
+    50.800000000000004
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    24,
+    0,
+    73.99999999999999
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    40,
+    0,
+    83.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pillar",
+   "part": "3701",
+   "pos_mm": [
+    0,
+    20,
+    45.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "cap0",
+   "part": "3020",
+   "pos_mm": [
+    0,
+    32,
+    48.400000000000006
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "cap1",
+   "part": "3020",
+   "pos_mm": [
+    0,
+    32,
+    51.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "cheek",
+   "part": "3894",
+   "pos_mm": [
+    -16,
+    44,
+    64.39999999999999
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail_l2",
+   "part": "4477",
+   "pos_mm": [
+    0,
+    20,
+    32.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail_r2",
+   "part": "4477",
+   "pos_mm": [
+    0,
+    -20,
+    32.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "cap2",
+   "part": "3020",
+   "pos_mm": [
+    0,
+    40,
+    54.800000000000004
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "rear_spacer",
+   "part": "4265c",
+   "pos_mm": [
+    -32,
+    26,
+    15.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "shaft_bush",
+   "part": "4265c",
+   "pos_mm": [
+    -32,
+    38,
+    50.8
+   ],
+   "yaw_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "rail_l1",
+   "parent": "rail_l0",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "rail_r1",
+   "parent": "rail_r0",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "deck",
+   "parent": "rail_l2",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "deck",
+   "parent": "rail_r2",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "rear_axle",
+   "parent": "rail_l0",
+   "kind": "hinge"
+  },
+  {
+   "child": "rear_axle",
+   "parent": "rail_r0",
+   "kind": "hinge"
+  },
+  {
+   "child": "rear_sprocket",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_bush_r",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_axle",
+   "parent": "rail_l0",
+   "kind": "hinge"
+  },
+  {
+   "child": "front_axle",
+   "parent": "rail_r0",
+   "kind": "hinge"
+  },
+  {
+   "child": "front_sprocket",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_bush_l",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_bush_r",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_gear",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "riser",
+   "parent": "deck",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "motor",
+   "parent": "riser",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "shaft",
+   "parent": "motor",
+   "kind": "motor"
+  },
+  {
+   "child": "drive_gear",
+   "parent": "shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "battery",
+   "parent": "deck",
+   "kind": "stud",
+   "studs": 28
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "pillar",
+   "parent": "deck",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "cap0",
+   "parent": "pillar",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "cap1",
+   "parent": "cap0",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "cheek",
+   "parent": "cap2",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "rail_l2",
+   "parent": "rail_l1",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "rail_r2",
+   "parent": "rail_r1",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "cap2",
+   "parent": "cap1",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "rear_spacer",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "shaft_bush",
+   "parent": "shaft",
+   "kind": "cross"
+  }
+ ],
+ "chains": [
+  {
+   "name": "drive",
+   "gears": [
+    "drive_gear",
+    "rear_gear"
+   ],
+   "links": 21
+  }
+ ],
+ "treads": [
+  {
+   "name": "central",
+   "sprockets": [
+    "rear_sprocket",
+    "front_sprocket"
+   ],
+   "links": 35
+  }
+ ],
+ "motor_program": [
+  {
+   "t": 0,
+   "motor": "motor",
+   "level": 4
+  },
+  {
+   "t": 5,
+   "motor": "motor",
+   "level": "brake"
+  }
+ ],
+ "start_gap_mm": 20
+}

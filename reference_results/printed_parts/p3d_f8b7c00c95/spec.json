@@ -1,0 +1,128 @@
+{
+ "part_id": "p3d_f8b7c00c95",
+ "title": "printed part: Two rounded climbing lobes keyed to a drive axle; small hub and broad blunt feet",
+ "kind": "connector",
+ "mass_g": 13.81,
+ "com_mm": [
+  -0.0,
+  0.0,
+  0.0
+ ],
+ "size_mm": [
+  160.0,
+  8.0,
+  20.0
+ ],
+ "boxes": [
+  [
+   [
+    -80.0,
+    -4.0,
+    -6.4
+   ],
+   [
+    80.0,
+    4.0,
+    6.4
+   ]
+  ],
+  [
+   [
+    -4.0,
+    -4.0,
+    -9.6
+   ],
+   [
+    4.0,
+    4.0,
+    -6.4
+   ]
+  ],
+  [
+   [
+    -4.0,
+    -4.0,
+    6.4
+   ],
+   [
+    4.0,
+    4.0,
+    9.6
+   ]
+  ]
+ ],
+ "studs_top": [],
+ "top_z": 0.0,
+ "studs_bottom": [],
+ "bottom_z": 0.0,
+ "pin_holes": [],
+ "axle_holes": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   "y"
+  ]
+ ],
+ "copies": 8,
+ "interfaces": {
+  "name": "two_lobe_climber",
+  "title": "Two rounded climbing lobes keyed to a drive axle; small hub and broad blunt feet",
+  "studs_top": null,
+  "studs_bottom": null,
+  "pin_holes": [],
+  "axle_holes": [
+   [
+    0.0,
+    0.0,
+    0.0,
+    "y"
+   ]
+  ]
+ },
+ "report": {
+  "ok": true,
+  "errors": [],
+  "warnings": [],
+  "notes": [
+   "prints without supports +y up (as modelled: 1256 mm2 of overhang steeper than 45 deg)"
+  ],
+  "size_mm": [
+   160.0,
+   8.0,
+   20.0
+  ],
+  "volume_cm3": 16.259,
+  "mass_g": 13.81,
+  "com_mm": [
+   -0.0,
+   0.0,
+   0.0
+  ],
+  "min_wall_mm": 7.53,
+  "overhang": {
+   "as_modelled_mm2": 1255.9,
+   "best_orientation": "+y up",
+   "best_mm2": 0.0
+  },
+  "interfaces": {
+   "studs_top": null,
+   "studs_bottom": null,
+   "pin_holes": [],
+   "axle_holes": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     "y"
+    ]
+   ]
+  },
+  "mass_model": "PLA 1.24 g/cm3, 1.2 mm solid shell + 35% infill",
+  "collision": {
+   "boxes": 3,
+   "voxel_mm": 4.0,
+   "volume_ratio": 1.033
+  }
+ }
+}

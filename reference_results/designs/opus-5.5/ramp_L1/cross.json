@@ -1,0 +1,513 @@
+{
+ "name": "climber3",
+ "description": "Compact 4WD ramp climber v3.\nTwo 1x14 beam-brick rows carry both wheel axles. Each axle has its own L motor, pinned at both\nends between the rows (4 pins), output at axle height through the front row: 8T pinion -> 24T on the\nwheel axle (16 mm, the same row's holes), 1:3. 62.4 mm tyres; battery on a narrow deck between the motors.",
+ "chassis": "row_f",
+ "motor": "motor_f",
+ "battery": "battery",
+ "intended": [],
+ "parts": [
+  {
+   "name": "row_f",
+   "part": "32018",
+   "pos_mm": [
+    0.0,
+    -36.0,
+    35.32
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "row_b",
+   "part": "32018",
+   "pos_mm": [
+    0.0,
+    28.0,
+    35.32
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "axle_f",
+   "part": "50451",
+   "pos_mm": [
+    48.0,
+    -8.0,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "gear_f",
+   "part": "3648",
+   "pos_mm": [
+    48.0,
+    -44.2,
+    31.32
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wheel_fr",
+   "part": "32020c01",
+   "pos_mm": [
+    48.0,
+    -56.0,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "wheel_fl",
+   "part": "32020c01",
+   "pos_mm": [
+    48.0,
+    38.5,
+    31.32
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "motor_f",
+   "part": "99499c01",
+   "pos_mm": [
+    32.0,
+    -32.0,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pin0",
+   "part": "2780",
+   "pos_mm": [
+    24.0,
+    -32.0,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin1",
+   "part": "2780",
+   "pos_mm": [
+    24.0,
+    24.0,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin2",
+   "part": "2780",
+   "pos_mm": [
+    40.0,
+    -32.0,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin3",
+   "part": "2780",
+   "pos_mm": [
+    40.0,
+    24.0,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "shaft_f",
+   "part": "4519",
+   "pos_mm": [
+    32.0,
+    -37.6,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pinion_f",
+   "part": "10928",
+   "pos_mm": [
+    32.0,
+    -44.2,
+    31.32
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "axle_r",
+   "part": "50451",
+   "pos_mm": [
+    -48.0,
+    -8.0,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "gear_r",
+   "part": "3648",
+   "pos_mm": [
+    -48.0,
+    -44.2,
+    31.32
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wheel_rr",
+   "part": "32020c01",
+   "pos_mm": [
+    -48.0,
+    -56.0,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "wheel_rl",
+   "part": "32020c01",
+   "pos_mm": [
+    -48.0,
+    38.5,
+    31.32
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "motor_r",
+   "part": "99499c01",
+   "pos_mm": [
+    -32.0,
+    -32.0,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pin4",
+   "part": "2780",
+   "pos_mm": [
+    -40.0,
+    -32.0,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin5",
+   "part": "2780",
+   "pos_mm": [
+    -40.0,
+    24.0,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin6",
+   "part": "2780",
+   "pos_mm": [
+    -24.0,
+    -32.0,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin7",
+   "part": "2780",
+   "pos_mm": [
+    -24.0,
+    24.0,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "shaft_r",
+   "part": "4519",
+   "pos_mm": [
+    -32.0,
+    -37.6,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pinion_r",
+   "part": "10928",
+   "pos_mm": [
+    -32.0,
+    -44.2,
+    31.32
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "sp_row_f",
+   "part": "3701",
+   "pos_mm": [
+    0.0,
+    -36.0,
+    44.92
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "sp_row_b",
+   "part": "3701",
+   "pos_mm": [
+    0.0,
+    28.0,
+    44.92
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "deck",
+   "part": "3030",
+   "pos_mm": [
+    0.0,
+    -8.0,
+    48.12
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    0.0,
+    -8.0,
+    86.52
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    0.0,
+    -24.0,
+    96.12
+   ],
+   "yaw_deg": 90
+  }
+ ],
+ "connections": [
+  {
+   "child": "axle_f",
+   "parent": "row_f",
+   "kind": "hinge"
+  },
+  {
+   "child": "axle_f",
+   "parent": "row_b",
+   "kind": "hinge"
+  },
+  {
+   "child": "gear_f",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_fr",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_fl",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "pin0",
+   "parent": "motor_f",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0",
+   "parent": "row_f",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1",
+   "parent": "motor_f",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1",
+   "parent": "row_b",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2",
+   "parent": "motor_f",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2",
+   "parent": "row_f",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3",
+   "parent": "motor_f",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3",
+   "parent": "row_b",
+   "kind": "pin"
+  },
+  {
+   "child": "shaft_f",
+   "parent": "motor_f",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion_f",
+   "parent": "shaft_f",
+   "kind": "cross"
+  },
+  {
+   "child": "axle_r",
+   "parent": "row_f",
+   "kind": "hinge"
+  },
+  {
+   "child": "axle_r",
+   "parent": "row_b",
+   "kind": "hinge"
+  },
+  {
+   "child": "gear_r",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_rr",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_rl",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "pin4",
+   "parent": "motor_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4",
+   "parent": "row_f",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5",
+   "parent": "motor_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5",
+   "parent": "row_b",
+   "kind": "pin"
+  },
+  {
+   "child": "pin6",
+   "parent": "motor_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin6",
+   "parent": "row_f",
+   "kind": "pin"
+  },
+  {
+   "child": "pin7",
+   "parent": "motor_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin7",
+   "parent": "row_b",
+   "kind": "pin"
+  },
+  {
+   "child": "shaft_r",
+   "parent": "motor_r",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion_r",
+   "parent": "shaft_r",
+   "kind": "cross"
+  },
+  {
+   "child": "sp_row_f",
+   "parent": "row_f",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "sp_row_b",
+   "parent": "row_b",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "deck",
+   "parent": "sp_row_f",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "deck",
+   "parent": "sp_row_b",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "battery",
+   "parent": "deck",
+   "kind": "stud",
+   "studs": 32
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "pinion_f",
+   "gear_b": "gear_f"
+  },
+  {
+   "gear_a": "pinion_r",
+   "gear_b": "gear_r"
+  }
+ ],
+ "part_set": "inventory",
+ "motor_program": [
+  {
+   "t": 0.0,
+   "motor": "all",
+   "level": 7,
+   "note": "drive"
+  },
+  {
+   "t": 2.58,
+   "motor": "all",
+   "level": "brake",
+   "note": "stop on the plateau"
+  }
+ ]
+}

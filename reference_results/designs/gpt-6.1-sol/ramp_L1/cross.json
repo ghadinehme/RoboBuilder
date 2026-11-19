@@ -1,0 +1,441 @@
+{
+ "name": "ramp_chain_4wd",
+ "description": "Large rubber tyres, rigid synchronized four-wheel drive via a retained chain, 3:1 reduction, forward AAA battery and short wheelbase.",
+ "part_set": "inventory",
+ "chassis": "rail_l",
+ "motor": "motor",
+ "battery": "battery",
+ "parts": [
+  {
+   "name": "rail_l",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    12,
+    35.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail_r",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    -12,
+    35.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail_li",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    4,
+    35.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail_ri",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    -4,
+    35.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_axle",
+   "part": "50451",
+   "pos_mm": [
+    -48,
+    0,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "wheel_rearl",
+   "part": "32020c01",
+   "pos_mm": [
+    -48,
+    44,
+    31.32
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "wheel_rearr",
+   "part": "32020c01",
+   "pos_mm": [
+    -48,
+    -44,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bush_rearl",
+   "part": "4265c",
+   "pos_mm": [
+    -48,
+    18,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bush_rearr",
+   "part": "4265c",
+   "pos_mm": [
+    -48,
+    -18,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "chain_rear",
+   "part": "3648",
+   "pos_mm": [
+    -48,
+    -28,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_axle",
+   "part": "50451",
+   "pos_mm": [
+    56,
+    0,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "wheel_frontl",
+   "part": "32020c01",
+   "pos_mm": [
+    56,
+    44,
+    31.32
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "wheel_frontr",
+   "part": "32020c01",
+   "pos_mm": [
+    56,
+    -44,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bush_frontl",
+   "part": "4265c",
+   "pos_mm": [
+    56,
+    18,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bush_frontr",
+   "part": "4265c",
+   "pos_mm": [
+    56,
+    -18,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "chain_front",
+   "part": "3648",
+   "pos_mm": [
+    56,
+    -28,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_gear",
+   "part": "3648",
+   "pos_mm": [
+    -48,
+    28,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "motor",
+   "part": "58120c01",
+   "pos_mm": [
+    -48,
+    24,
+    47.32
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "shaft",
+   "part": "32062",
+   "pos_mm": [
+    -48,
+    28,
+    47.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pinion",
+   "part": "10928",
+   "pos_mm": [
+    -48,
+    28,
+    47.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "deck",
+   "part": "3035",
+   "pos_mm": [
+    16,
+    0,
+    38.52
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    16,
+    0,
+    76.92
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    32,
+    0,
+    86.52000000000001
+   ],
+   "yaw_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "rear_axle",
+   "parent": "rail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "rear_axle",
+   "parent": "rail_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "rear_axle",
+   "parent": "rail_li",
+   "kind": "hinge"
+  },
+  {
+   "child": "rear_axle",
+   "parent": "rail_ri",
+   "kind": "hinge"
+  },
+  {
+   "child": "wheel_rearl",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_rearr",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "bush_rearl",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "bush_rearr",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "chain_rear",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_axle",
+   "parent": "rail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "front_axle",
+   "parent": "rail_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "front_axle",
+   "parent": "rail_li",
+   "kind": "hinge"
+  },
+  {
+   "child": "front_axle",
+   "parent": "rail_ri",
+   "kind": "hinge"
+  },
+  {
+   "child": "wheel_frontl",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_frontr",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "bush_frontl",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "bush_frontr",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "chain_front",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_gear",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "motor",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "motor",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "motor",
+   "parent": "rail_li",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "motor",
+   "parent": "rail_ri",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "shaft",
+   "parent": "motor",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion",
+   "parent": "shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "deck",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "deck",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "deck",
+   "parent": "rail_li",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "deck",
+   "parent": "rail_ri",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "battery",
+   "parent": "deck",
+   "kind": "stud",
+   "studs": 32
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "pinion",
+   "gear_b": "rear_gear"
+  }
+ ],
+ "chains": [
+  {
+   "name": "synchronizer",
+   "gears": [
+    "chain_rear",
+    "chain_front"
+   ],
+   "links": 45
+  }
+ ],
+ "start_gap_mm": 25,
+ "motor_program": [
+  {
+   "t": 0,
+   "motor": "all",
+   "level": 4
+  },
+  {
+   "t": 0.35,
+   "motor": "all",
+   "level": 7
+  },
+  {
+   "t": 4,
+   "motor": "all",
+   "level": "brake"
+  }
+ ]
+}

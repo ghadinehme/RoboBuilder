@@ -1,0 +1,462 @@
+{
+ "name": "low_receiver_supported",
+ "description": "Lightweight edge-contact keel; parameterized mass and drive experiments.",
+ "part_set": "inventory",
+ "chassis": "rail_l",
+ "motor": "motor",
+ "battery": "battery",
+ "parts": [
+  {
+   "name": "rail_l",
+   "part": "3703",
+   "pos_mm": [
+    16,
+    12,
+    19.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail_r",
+   "part": "3703",
+   "pos_mm": [
+    16,
+    -12,
+    19.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "frontcross",
+   "part": "3032",
+   "pos_mm": [
+    56,
+    -8,
+    25.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "arm-32",
+   "part": "3020",
+   "pos_mm": [
+    -32,
+    24,
+    32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "arm32",
+   "part": "3020",
+   "pos_mm": [
+    32,
+    24,
+    32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "platform",
+   "part": "3033",
+   "pos_mm": [
+    0,
+    48,
+    35.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "deck",
+   "part": "3958",
+   "pos_mm": [
+    0,
+    -8,
+    22.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    0,
+    -8,
+    60.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    48,
+    -8,
+    35.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "motor",
+   "part": "58120c01",
+   "pos_mm": [
+    0,
+    24,
+    47.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "shaft",
+   "part": "32062",
+   "pos_mm": [
+    0,
+    24,
+    47.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pinion",
+   "part": "3649",
+   "pos_mm": [
+    0,
+    20,
+    47.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "gear",
+   "part": "3648",
+   "pos_mm": [
+    0,
+    20,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "drive",
+   "part": "23948",
+   "pos_mm": [
+    0,
+    0,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "drive-36",
+   "part": "4185t",
+   "pos_mm": [
+    0,
+    -36,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "drive36",
+   "part": "4185t",
+   "pos_mm": [
+    0,
+    36,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "driveb-18",
+   "part": "4265c",
+   "pos_mm": [
+    0,
+    -18,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front",
+   "part": "23948",
+   "pos_mm": [
+    64,
+    0,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "front-36",
+   "part": "4185t",
+   "pos_mm": [
+    64,
+    -36,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front36",
+   "part": "4185t",
+   "pos_mm": [
+    64,
+    36,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "frontb-18",
+   "part": "4265c",
+   "pos_mm": [
+    64,
+    -18,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "frontb18",
+   "part": "4265c",
+   "pos_mm": [
+    64,
+    18,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "armbase-32",
+   "part": "3700",
+   "pos_mm": [
+    -32,
+    12,
+    28.8
+   ]
+  },
+  {
+   "name": "armbase32",
+   "part": "3700",
+   "pos_mm": [
+    32,
+    12,
+    28.8
+   ]
+  },
+  {
+   "name": "shaft_guard",
+   "part": "3701",
+   "pos_mm": [
+    0,
+    12,
+    32
+   ]
+  },
+  {
+   "name": "nose_cap0",
+   "part": "3623",
+   "pos_mm": [
+    44,
+    -12,
+    22.4
+   ]
+  },
+  {
+   "name": "nose_cap1",
+   "part": "3623",
+   "pos_mm": [
+    68,
+    -12,
+    22.4
+   ]
+  }
+ ],
+ "connections": [
+  {
+   "child": "shaft",
+   "parent": "motor",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion",
+   "parent": "shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "gear",
+   "parent": "drive",
+   "kind": "cross"
+  },
+  {
+   "child": "drive",
+   "parent": "rail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "drive",
+   "parent": "rail_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "drive-36",
+   "parent": "drive",
+   "kind": "cross"
+  },
+  {
+   "child": "drive36",
+   "parent": "drive",
+   "kind": "cross"
+  },
+  {
+   "child": "driveb-18",
+   "parent": "drive",
+   "kind": "cross"
+  },
+  {
+   "child": "front",
+   "parent": "rail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "front",
+   "parent": "rail_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "front-36",
+   "parent": "front",
+   "kind": "cross"
+  },
+  {
+   "child": "front36",
+   "parent": "front",
+   "kind": "cross"
+  },
+  {
+   "child": "frontb-18",
+   "parent": "front",
+   "kind": "cross"
+  },
+  {
+   "child": "frontb18",
+   "parent": "front",
+   "kind": "cross"
+  },
+  {
+   "child": "frontcross",
+   "parent": "nose_cap0",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "frontcross",
+   "parent": "nose_cap1",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "arm-32",
+   "parent": "armbase-32",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "arm32",
+   "parent": "armbase32",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "platform",
+   "parent": "arm-32",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "platform",
+   "parent": "arm32",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "deck",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "deck",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "battery",
+   "parent": "deck",
+   "kind": "stud",
+   "studs": 24
+  },
+  {
+   "child": "receiver",
+   "parent": "frontcross",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "motor",
+   "parent": "platform",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "armbase-32",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "armbase32",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "shaft_guard",
+   "parent": "deck",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "nose_cap0",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "nose_cap1",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 3
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "pinion",
+   "gear_b": "gear"
+  }
+ ],
+ "start_gap_mm": 350,
+ "motor_program": [
+  {
+   "t": 0,
+   "motor": "all",
+   "level": 7
+  },
+  {
+   "t": 1.5,
+   "motor": "all",
+   "level": "brake"
+  }
+ ]
+}

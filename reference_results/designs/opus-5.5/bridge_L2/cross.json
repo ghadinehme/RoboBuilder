@@ -1,0 +1,632 @@
+{
+ "name": "rail_train_24",
+ "description": "Flanged-wheelset rail vehicle for the 24 mm plank. Free front axle: one narrow r15.2 tread rides the plank, outer r21.6 tyres carry it on the decks and hang 6.4 mm beside the plank as flanges (8 mm play). Rear: two r21.6 tyres side by side, driven by two mirrored L motors 8T->24T.",
+ "chassis": "deck",
+ "motor": "motor_l",
+ "battery": "battery",
+ "intended": [],
+ "parts": [
+  {
+   "name": "rbeam_l",
+   "part": "32018",
+   "pos_mm": [
+    16.0,
+    36.0,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "rwheel_l",
+   "part": "56145c01",
+   "pos_mm": [
+    0.0,
+    11.2,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "rgear_l",
+   "part": "3648",
+   "pos_mm": [
+    0.0,
+    28.0,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "motor_l",
+   "part": "99499c01",
+   "pos_mm": [
+    -16.0,
+    40.0,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "mshaft_l",
+   "part": "4519",
+   "pos_mm": [
+    -16.0,
+    36.0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pinion_l",
+   "part": "10928",
+   "pos_mm": [
+    -16.0,
+    28.0,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "mpin_l0",
+   "part": "2780",
+   "pos_mm": [
+    -24.0,
+    40.0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "mpin_l1",
+   "part": "2780",
+   "pos_mm": [
+    -8.0,
+    40.0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "rbeam_r",
+   "part": "32018",
+   "pos_mm": [
+    16.0,
+    -36.0,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "rwheel_r",
+   "part": "56145c01",
+   "pos_mm": [
+    0.0,
+    -11.2,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "rgear_r",
+   "part": "3648",
+   "pos_mm": [
+    0.0,
+    -28.0,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "motor_r",
+   "part": "99499c01",
+   "pos_mm": [
+    -16.0,
+    -40.0,
+    21.6
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "mshaft_r",
+   "part": "4519",
+   "pos_mm": [
+    -16.0,
+    -36.0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pinion_r",
+   "part": "10928",
+   "pos_mm": [
+    -16.0,
+    -28.0,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "mpin_r0",
+   "part": "2780",
+   "pos_mm": [
+    -24.0,
+    -40.0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "mpin_r1",
+   "part": "2780",
+   "pos_mm": [
+    -8.0,
+    -40.0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "raxle",
+   "part": "23948",
+   "pos_mm": [
+    0.0,
+    0.0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "deck",
+   "part": "3033",
+   "pos_mm": [
+    48.0,
+    0.0,
+    28.8
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    40.0,
+    0.0,
+    67.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    40.0,
+    -16.0,
+    76.8
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "fbeam_l",
+   "part": "2730",
+   "pos_mm": [
+    72.0,
+    12.0,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "fbeam_r",
+   "part": "2730",
+   "pos_mm": [
+    72.0,
+    -12.0,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "tread",
+   "part": "55982c01",
+   "pos_mm": [
+    96.0,
+    -0.6,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "fbush_l",
+   "part": "4265c",
+   "pos_mm": [
+    96.0,
+    18.0,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "fbush_r",
+   "part": "4265c",
+   "pos_mm": [
+    96.0,
+    -18.0,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "flange_l",
+   "part": "56145c01",
+   "pos_mm": [
+    96.0,
+    30.8,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "flange_r",
+   "part": "56145c01",
+   "pos_mm": [
+    96.0,
+    -30.8,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "fbush_lo",
+   "part": "4265c",
+   "pos_mm": [
+    96.0,
+    43.6,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "fbush_ro",
+   "part": "4265c",
+   "pos_mm": [
+    96.0,
+    -43.6,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "faxle",
+   "part": "50451",
+   "pos_mm": [
+    96.0,
+    0.0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "tie0",
+   "part": "23948",
+   "pos_mm": [
+    48.0,
+    0.0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "tieb0l",
+   "part": "4265c",
+   "pos_mm": [
+    48.0,
+    41.8,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "tieb0r",
+   "part": "4265c",
+   "pos_mm": [
+    48.0,
+    -41.8,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "tie1",
+   "part": "23948",
+   "pos_mm": [
+    56.0,
+    0.0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "tieb1l",
+   "part": "4265c",
+   "pos_mm": [
+    56.0,
+    41.8,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "tieb1r",
+   "part": "4265c",
+   "pos_mm": [
+    56.0,
+    -41.8,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  }
+ ],
+ "connections": [
+  {
+   "child": "mpin_l0",
+   "parent": "motor_l",
+   "kind": "pin"
+  },
+  {
+   "child": "mpin_l0",
+   "parent": "rbeam_l",
+   "kind": "pin"
+  },
+  {
+   "child": "mpin_l1",
+   "parent": "motor_l",
+   "kind": "pin"
+  },
+  {
+   "child": "mpin_l1",
+   "parent": "rbeam_l",
+   "kind": "pin"
+  },
+  {
+   "child": "rwheel_l",
+   "parent": "raxle",
+   "kind": "cross"
+  },
+  {
+   "child": "rgear_l",
+   "parent": "raxle",
+   "kind": "cross"
+  },
+  {
+   "child": "mshaft_l",
+   "parent": "motor_l",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion_l",
+   "parent": "mshaft_l",
+   "kind": "cross"
+  },
+  {
+   "child": "mpin_r0",
+   "parent": "motor_r",
+   "kind": "pin"
+  },
+  {
+   "child": "mpin_r0",
+   "parent": "rbeam_r",
+   "kind": "pin"
+  },
+  {
+   "child": "mpin_r1",
+   "parent": "motor_r",
+   "kind": "pin"
+  },
+  {
+   "child": "mpin_r1",
+   "parent": "rbeam_r",
+   "kind": "pin"
+  },
+  {
+   "child": "rwheel_r",
+   "parent": "raxle",
+   "kind": "cross"
+  },
+  {
+   "child": "rgear_r",
+   "parent": "raxle",
+   "kind": "cross"
+  },
+  {
+   "child": "mshaft_r",
+   "parent": "motor_r",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion_r",
+   "parent": "mshaft_r",
+   "kind": "cross"
+  },
+  {
+   "child": "raxle",
+   "parent": "rbeam_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "raxle",
+   "parent": "rbeam_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "deck",
+   "parent": "rbeam_l",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "deck",
+   "parent": "rbeam_r",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "battery",
+   "parent": "deck",
+   "kind": "stud",
+   "studs": 32
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "fbush_l",
+   "parent": "faxle",
+   "kind": "cross"
+  },
+  {
+   "child": "flange_l",
+   "parent": "faxle",
+   "kind": "cross"
+  },
+  {
+   "child": "fbush_lo",
+   "parent": "faxle",
+   "kind": "cross"
+  },
+  {
+   "child": "fbeam_l",
+   "parent": "deck",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "fbush_r",
+   "parent": "faxle",
+   "kind": "cross"
+  },
+  {
+   "child": "flange_r",
+   "parent": "faxle",
+   "kind": "cross"
+  },
+  {
+   "child": "fbush_ro",
+   "parent": "faxle",
+   "kind": "cross"
+  },
+  {
+   "child": "fbeam_r",
+   "parent": "deck",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "tread",
+   "parent": "faxle",
+   "kind": "cross"
+  },
+  {
+   "child": "faxle",
+   "parent": "fbeam_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "faxle",
+   "parent": "fbeam_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "tie0",
+   "parent": "fbeam_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "tie0",
+   "parent": "fbeam_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "tie0",
+   "parent": "rbeam_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "tie0",
+   "parent": "rbeam_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "tieb0l",
+   "parent": "tie0",
+   "kind": "cross"
+  },
+  {
+   "child": "tieb0r",
+   "parent": "tie0",
+   "kind": "cross"
+  },
+  {
+   "child": "tie1",
+   "parent": "fbeam_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "tie1",
+   "parent": "fbeam_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "tie1",
+   "parent": "rbeam_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "tie1",
+   "parent": "rbeam_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "tieb1l",
+   "parent": "tie1",
+   "kind": "cross"
+  },
+  {
+   "child": "tieb1r",
+   "parent": "tie1",
+   "kind": "cross"
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "pinion_l",
+   "gear_b": "rgear_l"
+  },
+  {
+   "gear_a": "pinion_r",
+   "gear_b": "rgear_r"
+  }
+ ],
+ "part_set": "inventory",
+ "motor_program": [
+  {
+   "t": 0.0,
+   "motor": "all",
+   "level": 3
+  },
+  {
+   "t": 0.3,
+   "motor": "all",
+   "level": 5
+  },
+  {
+   "t": 4.7,
+   "motor": "all",
+   "level": "brake"
+  }
+ ],
+ "start_gap_mm": 10.0
+}

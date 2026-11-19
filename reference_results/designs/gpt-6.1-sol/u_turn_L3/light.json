@@ -1,0 +1,446 @@
+{
+ "name": "b33_trike",
+ "description": "Low forward battery balances slope moment over two directly driven rear tyres. Light front roller reduces yaw scrub.",
+ "part_set": "inventory",
+ "chassis": "rail20",
+ "motor": "motor_l",
+ "battery": "battery",
+ "parts": [
+  {
+   "name": "bed",
+   "part": "3036",
+   "pos_mm": [
+    48,
+    0,
+    3.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail-20",
+   "part": "3703",
+   "pos_mm": [
+    48,
+    -20,
+    12.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail20",
+   "part": "3703",
+   "pos_mm": [
+    48,
+    20,
+    12.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bridge",
+   "part": "3030",
+   "pos_mm": [
+    0,
+    0,
+    16
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    48,
+    0,
+    41.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    32,
+    0,
+    51.2
+   ],
+   "yaw_deg": -90
+  },
+  {
+   "name": "mount_l",
+   "part": "3034",
+   "pos_mm": [
+    0,
+    32,
+    19.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "motor_l",
+   "part": "58120c01",
+   "pos_mm": [
+    0,
+    48,
+    31.2
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "foot_l_0",
+   "part": "3023",
+   "pos_mm": [
+    0,
+    60,
+    22.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "foot_l_1",
+   "part": "3023",
+   "pos_mm": [
+    0,
+    60,
+    25.599999999999998
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bearing_l",
+   "part": "3700",
+   "pos_mm": [
+    0,
+    60,
+    35.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "axle_l",
+   "part": "32073",
+   "pos_mm": [
+    0,
+    64,
+    31.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bush_l",
+   "part": "3713",
+   "pos_mm": [
+    0,
+    52,
+    31.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "wheel_l",
+   "part": "32020c01",
+   "pos_mm": [
+    0,
+    78,
+    31.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "mount_r",
+   "part": "3034",
+   "pos_mm": [
+    0,
+    -32,
+    19.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "motor_r",
+   "part": "58120c01",
+   "pos_mm": [
+    0,
+    -48,
+    31.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "foot_r_0",
+   "part": "3023",
+   "pos_mm": [
+    0,
+    -60,
+    22.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "foot_r_1",
+   "part": "3023",
+   "pos_mm": [
+    0,
+    -60,
+    25.599999999999998
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bearing_r",
+   "part": "3700",
+   "pos_mm": [
+    0,
+    -60,
+    35.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "axle_r",
+   "part": "32073",
+   "pos_mm": [
+    0,
+    -64,
+    31.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bush_r",
+   "part": "3713",
+   "pos_mm": [
+    0,
+    -52,
+    31.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "wheel_r",
+   "part": "32020c01",
+   "pos_mm": [
+    0,
+    -78,
+    31.2
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "front_axle",
+   "part": "44294",
+   "pos_mm": [
+    104,
+    0,
+    8.8
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "roller",
+   "part": "4185",
+   "pos_mm": [
+    104,
+    0,
+    8.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "frontstop-26",
+   "part": "4265c",
+   "pos_mm": [
+    104,
+    -26,
+    8.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "frontstop26",
+   "part": "4265c",
+   "pos_mm": [
+    104,
+    26,
+    8.8
+   ],
+   "yaw_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "rail-20",
+   "parent": "bed",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "rail20",
+   "parent": "bed",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "bridge",
+   "parent": "rail-20",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "bridge",
+   "parent": "rail20",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "battery",
+   "parent": "bed",
+   "kind": "stud",
+   "studs": 32
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "mount_l",
+   "parent": "bridge",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "motor_l",
+   "parent": "mount_l",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "foot_l_0",
+   "parent": "mount_l",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "foot_l_1",
+   "parent": "foot_l_0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "bearing_l",
+   "parent": "foot_l_1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "axle_l",
+   "parent": "motor_l",
+   "kind": "motor"
+  },
+  {
+   "child": "bush_l",
+   "parent": "axle_l",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_l",
+   "parent": "axle_l",
+   "kind": "cross"
+  },
+  {
+   "child": "mount_r",
+   "parent": "bridge",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "motor_r",
+   "parent": "mount_r",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "foot_r_0",
+   "parent": "mount_r",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "foot_r_1",
+   "parent": "foot_r_0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "bearing_r",
+   "parent": "foot_r_1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "axle_r",
+   "parent": "motor_r",
+   "kind": "motor"
+  },
+  {
+   "child": "bush_r",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_r",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "front_axle",
+   "parent": "rail-20",
+   "kind": "hinge"
+  },
+  {
+   "child": "front_axle",
+   "parent": "rail20",
+   "kind": "hinge"
+  },
+  {
+   "child": "roller",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "frontstop-26",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "frontstop26",
+   "parent": "front_axle",
+   "kind": "cross"
+  }
+ ],
+ "start_gap_mm": 0,
+ "motor_program": [
+  {
+   "t": 0,
+   "motor": "all",
+   "level": 7
+  },
+  {
+   "t": 1.4,
+   "motor": "motor_l",
+   "level": 3
+  },
+  {
+   "t": 2.5,
+   "motor": "motor_l",
+   "level": 7
+  },
+  {
+   "t": 4,
+   "motor": "all",
+   "level": "brake"
+  }
+ ]
+}

@@ -1,0 +1,190 @@
+{
+ "name": "u7",
+ "description": "rear-drive diff steering, battery ahead of axle on plate, front ski",
+ "part_set": "inventory",
+ "chassis": "plateA",
+ "motor": "motL",
+ "battery": "battery",
+ "parts": [
+  {
+   "name": "plateA",
+   "part": "3028",
+   "pos_mm": [
+    16,
+    0,
+    9.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "motL",
+   "part": "58120c01",
+   "pos_mm": [
+    0,
+    48,
+    21.6
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "motR",
+   "part": "58120c01",
+   "pos_mm": [
+    0,
+    -48,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "shaftL",
+   "part": "3705",
+   "pos_mm": [
+    0,
+    57,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "wheelL",
+   "part": "56145c01",
+   "pos_mm": [
+    0,
+    59.2,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "shaftR",
+   "part": "3705",
+   "pos_mm": [
+    0,
+    -57,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "wheelR",
+   "part": "56145c01",
+   "pos_mm": [
+    0,
+    -59.2,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    48,
+    0,
+    48.0
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "recv",
+   "part": "58123c01",
+   "pos_mm": [
+    32,
+    0,
+    57.6
+   ],
+   "yaw_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "motL",
+   "parent": "plateA",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "shaftL",
+   "parent": "motL",
+   "kind": "motor"
+  },
+  {
+   "child": "wheelL",
+   "parent": "shaftL",
+   "kind": "cross"
+  },
+  {
+   "child": "motR",
+   "parent": "plateA",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "shaftR",
+   "parent": "motR",
+   "kind": "motor"
+  },
+  {
+   "child": "wheelR",
+   "parent": "shaftR",
+   "kind": "cross"
+  },
+  {
+   "child": "battery",
+   "parent": "plateA",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "recv",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  }
+ ],
+ "gear_meshes": [],
+ "motor_program": [
+  {
+   "t": 0.0,
+   "motor": "all",
+   "level": 2
+  },
+  {
+   "t": 0.3,
+   "motor": "all",
+   "level": 3
+  },
+  {
+   "t": 0.6,
+   "motor": "all",
+   "level": 4
+  },
+  {
+   "t": 0.9,
+   "motor": "all",
+   "level": 5
+  },
+  {
+   "t": 2.2,
+   "motor": "motL",
+   "level": 3
+  },
+  {
+   "t": 2.3,
+   "motor": "motR",
+   "level": 7
+  },
+  {
+   "t": 7,
+   "motor": "all",
+   "level": 5
+  },
+  {
+   "t": 14,
+   "motor": "all",
+   "level": "brake"
+  }
+ ],
+ "start_gap_mm": 0
+}

@@ -1,0 +1,381 @@
+{
+ "name": "narrow_quad",
+ "description": "4 narrow wheels",
+ "part_set": "inventory",
+ "chassis": "rail_l",
+ "motor": "motor",
+ "battery": "battery",
+ "intended": [],
+ "parts": [
+  {
+   "name": "rail_l",
+   "part": "2730",
+   "pos_mm": [
+    0,
+    16,
+    19.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rail_r",
+   "part": "2730",
+   "pos_mm": [
+    0,
+    -16,
+    19.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "wr_l",
+   "part": "4185t",
+   "pos_mm": [
+    -32,
+    6.0,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "wr_r",
+   "part": "4185t",
+   "pos_mm": [
+    -32,
+    -6.0,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "wf_l",
+   "part": "4185t",
+   "pos_mm": [
+    32,
+    6.0,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "wf_r",
+   "part": "4185t",
+   "pos_mm": [
+    32,
+    -6.0,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "axle_f",
+   "part": "32073",
+   "pos_mm": [
+    32,
+    0,
+    15.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "bush_f1",
+   "part": "4265c",
+   "pos_mm": [
+    32,
+    10,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "bush_f-1",
+   "part": "4265c",
+   "pos_mm": [
+    32,
+    -10,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "axle_r",
+   "part": "44294",
+   "pos_mm": [
+    -32,
+    8.3,
+    15.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "bush_rm",
+   "part": "4265c",
+   "pos_mm": [
+    -32,
+    -10,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "bush_rp",
+   "part": "3713",
+   "pos_mm": [
+    -32,
+    24,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "gear_w",
+   "part": "94925",
+   "pos_mm": [
+    -32,
+    32,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "p1",
+   "part": "3795",
+   "pos_mm": [
+    -8,
+    20,
+    9.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "plat",
+   "part": "3795",
+   "pos_mm": [
+    -16,
+    36.0,
+    6.4
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "motor",
+   "part": "58120c01",
+   "pos_mm": [
+    -16,
+    36,
+    18.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "mshaft",
+   "part": "4519",
+   "pos_mm": [
+    -16,
+    31.8,
+    18.4
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "bush_m",
+   "part": "3713",
+   "pos_mm": [
+    -16,
+    24,
+    18.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "gear_m",
+   "part": "94925",
+   "pos_mm": [
+    -16,
+    32,
+    18.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    0,
+    -12,
+    57.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    0,
+    -28,
+    67.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "axle_f",
+   "parent": "rail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "axle_f",
+   "parent": "rail_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "wf_l",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "bush_f1",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "wf_r",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "bush_f-1",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "axle_r",
+   "parent": "rail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "axle_r",
+   "parent": "rail_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "wr_l",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "wr_r",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "bush_rm",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "bush_rp",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "gear_w",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "p1",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "plat",
+   "parent": "p1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "motor",
+   "parent": "plat",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "mshaft",
+   "parent": "motor",
+   "kind": "motor"
+  },
+  {
+   "child": "gear_m",
+   "parent": "mshaft",
+   "kind": "cross"
+  },
+  {
+   "child": "bush_m",
+   "parent": "mshaft",
+   "kind": "cross"
+  },
+  {
+   "child": "battery",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "battery",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "gear_m",
+   "gear_b": "gear_w",
+   "teeth_a": 16,
+   "teeth_b": 16
+  }
+ ],
+ "motor_program": [
+  {
+   "t": 0.0,
+   "motor": "motor",
+   "level": 3
+  },
+  {
+   "t": 3.7,
+   "motor": "motor",
+   "level": "brake"
+  }
+ ],
+ "start_gap_mm": 10
+}

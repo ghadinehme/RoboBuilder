@@ -1,0 +1,409 @@
+{
+ "name": "n12_7",
+ "description": "tandem centre-wheel vehicle, skids, dual motors",
+ "chassis": "rail_l",
+ "motor": "motor_l",
+ "battery": "battery",
+ "intended": [],
+ "parts": [
+  {
+   "name": "rail_l",
+   "part": "3895",
+   "pos_mm": [
+    0,
+    20,
+    24.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rail_r",
+   "part": "3895",
+   "pos_mm": [
+    0,
+    -20,
+    24.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck_l",
+   "part": "3020",
+   "pos_mm": [
+    0,
+    16,
+    27.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck_r",
+   "part": "3020",
+   "pos_mm": [
+    0,
+    -16,
+    27.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    0,
+    -8,
+    66.0
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    0,
+    -24,
+    75.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "p1_l",
+   "part": "3710",
+   "pos_mm": [
+    32,
+    20,
+    14.8
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "p2_l",
+   "part": "3710",
+   "pos_mm": [
+    32,
+    20,
+    11.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "plat_l",
+   "part": "3036",
+   "pos_mm": [
+    40,
+    48,
+    8.4
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "motor_l",
+   "part": "58120c01",
+   "pos_mm": [
+    40,
+    24,
+    20.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "shaft_l",
+   "part": "3706",
+   "pos_mm": [
+    40,
+    4.2,
+    20.4
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "wheel_d",
+   "part": "57519",
+   "pos_mm": [
+    40,
+    0,
+    20.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "bush_d_l",
+   "part": "4265c",
+   "pos_mm": [
+    40,
+    12.8,
+    20.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "bush_d_r",
+   "part": "4265c",
+   "pos_mm": [
+    40,
+    -12.8,
+    20.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "axle_f",
+   "part": "44294",
+   "pos_mm": [
+    -40,
+    0,
+    20.4
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "wheel_f",
+   "part": "57519",
+   "pos_mm": [
+    -40,
+    0,
+    20.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "bush_f_l",
+   "part": "4265c",
+   "pos_mm": [
+    -40,
+    12.8,
+    20.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "bush_f_r",
+   "part": "4265c",
+   "pos_mm": [
+    -40,
+    -12.8,
+    20.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "p1_r",
+   "part": "3710",
+   "pos_mm": [
+    32,
+    -20,
+    14.8
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "p2_r",
+   "part": "3710",
+   "pos_mm": [
+    32,
+    -20,
+    11.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "plat_r",
+   "part": "3036",
+   "pos_mm": [
+    40,
+    -48,
+    8.4
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "bal0",
+   "part": "3001",
+   "pos_mm": [
+    40,
+    -48,
+    18.0
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "bal1",
+   "part": "3001",
+   "pos_mm": [
+    40,
+    -48,
+    27.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "deck_l",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "deck_r",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "battery",
+   "parent": "deck_l",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "battery",
+   "parent": "deck_r",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "p1_l",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "p2_l",
+   "parent": "p1_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "plat_l",
+   "parent": "p2_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "motor_l",
+   "parent": "plat_l",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "shaft_l",
+   "parent": "motor_l",
+   "kind": "motor"
+  },
+  {
+   "child": "wheel_d",
+   "parent": "shaft_l",
+   "kind": "cross"
+  },
+  {
+   "child": "bush_d_l",
+   "parent": "shaft_l",
+   "kind": "cross"
+  },
+  {
+   "child": "bush_d_r",
+   "parent": "shaft_l",
+   "kind": "cross"
+  },
+  {
+   "child": "axle_f",
+   "parent": "rail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "axle_f",
+   "parent": "rail_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "wheel_f",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "bush_f_l",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "bush_f_r",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "p1_r",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "p2_r",
+   "parent": "p1_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "plat_r",
+   "parent": "p2_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "bal0",
+   "parent": "plat_r",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "bal1",
+   "parent": "bal0",
+   "kind": "stud",
+   "studs": 8
+  }
+ ],
+ "gear_meshes": [],
+ "part_set": "inventory",
+ "motor_program": [
+  {
+   "t": 0.0,
+   "motor": "motor_l",
+   "level": 7
+  },
+  {
+   "t": 3.5,
+   "motor": "motor_l",
+   "level": "brake"
+  }
+ ],
+ "start_gap_mm": 10
+}

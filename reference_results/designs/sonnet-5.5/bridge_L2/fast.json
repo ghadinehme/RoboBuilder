@@ -1,0 +1,588 @@
+{
+ "name": "b3_L",
+ "description": "tandem centre-wheel vehicle, skids, dual motors",
+ "chassis": "rail_l",
+ "motor": "motor_l",
+ "battery": "battery",
+ "intended": [],
+ "parts": [
+  {
+   "name": "rail_l",
+   "part": "2730",
+   "pos_mm": [
+    -8,
+    20,
+    35.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rail_r",
+   "part": "2730",
+   "pos_mm": [
+    -8,
+    -20,
+    35.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck_l",
+   "part": "3020",
+   "pos_mm": [
+    16,
+    16,
+    38.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck_r",
+   "part": "3020",
+   "pos_mm": [
+    16,
+    -16,
+    38.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    16,
+    -8.0,
+    76.8
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    16,
+    -24.0,
+    86.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "wheel_r",
+   "part": "32020c01",
+   "pos_mm": [
+    -32,
+    3.8,
+    31.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "fp1_l",
+   "part": "3710",
+   "pos_mm": [
+    16,
+    20,
+    25.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "fp2_l",
+   "part": "3710",
+   "pos_mm": [
+    16,
+    20,
+    22.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "fb_l",
+   "part": "3700",
+   "pos_mm": [
+    16,
+    20,
+    19.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "fp1_r",
+   "part": "3710",
+   "pos_mm": [
+    16,
+    -20,
+    25.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "fp2_r",
+   "part": "3710",
+   "pos_mm": [
+    16,
+    -20,
+    22.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "fb_r",
+   "part": "3700",
+   "pos_mm": [
+    16,
+    -20,
+    19.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "faxle",
+   "part": "44294",
+   "pos_mm": [
+    16,
+    0,
+    15.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "wheel_f",
+   "part": "4185t",
+   "pos_mm": [
+    16,
+    8,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "wheel_f2",
+   "part": "4185t",
+   "pos_mm": [
+    16,
+    -8,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "fbush_l",
+   "part": "4265c",
+   "pos_mm": [
+    16,
+    13.9,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "fbush_r",
+   "part": "4265c",
+   "pos_mm": [
+    16,
+    -13.9,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "motor_l",
+   "part": "99499c01",
+   "pos_mm": [
+    -32,
+    32,
+    31.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "tl",
+   "part": "60484",
+   "pos_mm": [
+    -32,
+    28,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -90
+  },
+  {
+   "name": "shaft_l",
+   "part": "44294",
+   "pos_mm": [
+    -32,
+    8.2,
+    31.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "bush_r_l",
+   "part": "4265c",
+   "pos_mm": [
+    -32,
+    13.9,
+    31.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "bush_r_r",
+   "part": "4265c",
+   "pos_mm": [
+    -32,
+    -13.9,
+    31.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "pin_a",
+   "part": "6558",
+   "pos_mm": [
+    -40,
+    28,
+    31.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "pin_b",
+   "part": "6558",
+   "pos_mm": [
+    -24,
+    28,
+    31.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "pin_c",
+   "part": "2780",
+   "pos_mm": [
+    -32,
+    32,
+    23.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "cw_p1",
+   "part": "3710",
+   "pos_mm": [
+    -24,
+    -20,
+    25.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "cw_p2",
+   "part": "3710",
+   "pos_mm": [
+    -24,
+    -20,
+    22.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "cw_pl",
+   "part": "3036",
+   "pos_mm": [
+    -32,
+    -48,
+    19.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "cw_b0",
+   "part": "3001",
+   "pos_mm": [
+    -40,
+    -48,
+    28.8
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "cw_b1",
+   "part": "3001",
+   "pos_mm": [
+    -24,
+    -48,
+    28.8
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "cw_b2",
+   "part": "3001",
+   "pos_mm": [
+    -40,
+    -48,
+    38.4
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "cw_b3",
+   "part": "3001",
+   "pos_mm": [
+    -24,
+    -48,
+    38.4
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "battery",
+   "parent": "deck_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "battery",
+   "parent": "deck_r",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "deck_l",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "deck_r",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "fp1_l",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "fp2_l",
+   "parent": "fp1_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "fb_l",
+   "parent": "fp2_l",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "fp1_r",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "fp2_r",
+   "parent": "fp1_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "fb_r",
+   "parent": "fp2_r",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "faxle",
+   "parent": "fb_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "faxle",
+   "parent": "fb_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "wheel_f",
+   "parent": "faxle",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_f2",
+   "parent": "faxle",
+   "kind": "cross"
+  },
+  {
+   "child": "fbush_l",
+   "parent": "faxle",
+   "kind": "cross"
+  },
+  {
+   "child": "fbush_r",
+   "parent": "faxle",
+   "kind": "cross"
+  },
+  {
+   "child": "pin_a",
+   "parent": "motor_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_a",
+   "parent": "tl",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_a",
+   "parent": "rail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_b",
+   "parent": "motor_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_b",
+   "parent": "tl",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_b",
+   "parent": "rail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_c",
+   "parent": "motor_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_c",
+   "parent": "tl",
+   "kind": "pin"
+  },
+  {
+   "child": "shaft_l",
+   "parent": "motor_l",
+   "kind": "motor"
+  },
+  {
+   "child": "wheel_r",
+   "parent": "shaft_l",
+   "kind": "cross"
+  },
+  {
+   "child": "bush_r_l",
+   "parent": "shaft_l",
+   "kind": "cross"
+  },
+  {
+   "child": "bush_r_r",
+   "parent": "shaft_l",
+   "kind": "cross"
+  },
+  {
+   "child": "cw_p1",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "cw_p2",
+   "parent": "cw_p1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "cw_pl",
+   "parent": "cw_p2",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "cw_b0",
+   "parent": "cw_pl",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "cw_b1",
+   "parent": "cw_pl",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "cw_b2",
+   "parent": "cw_b0",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "cw_b3",
+   "parent": "cw_b1",
+   "kind": "stud",
+   "studs": 8
+  }
+ ],
+ "gear_meshes": [],
+ "part_set": "inventory",
+ "motor_program": [
+  {
+   "t": 0.0,
+   "motor": "motor_l",
+   "level": 7
+  },
+  {
+   "t": 1.1,
+   "motor": "motor_l",
+   "level": "brake"
+  }
+ ],
+ "start_gap_mm": 0.0
+}

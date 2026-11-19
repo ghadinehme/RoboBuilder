@@ -1,0 +1,705 @@
+{
+ "name": "pinned_coasting_long_power_32",
+ "part_set": "inventory",
+ "parts": [
+  {
+   "name": "mid_l",
+   "part": "32525",
+   "pos_mm": [
+    0,
+    12,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_l",
+   "part": "32278",
+   "pos_mm": [
+    -88,
+    20,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_pin_l0",
+   "part": "6558",
+   "pos_mm": [
+    -40,
+    12,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "rear_pin_l1",
+   "part": "6558",
+   "pos_mm": [
+    -32,
+    12,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "front_l",
+   "part": "32278",
+   "pos_mm": [
+    88,
+    20,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_pin_l0",
+   "part": "2780",
+   "pos_mm": [
+    32,
+    16,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "front_pin_l1",
+   "part": "2780",
+   "pos_mm": [
+    40,
+    16,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "battery_brick_l",
+   "part": "3701",
+   "pos_mm": [
+    -32,
+    4,
+    19.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "motor_brick_l",
+   "part": "3701",
+   "pos_mm": [
+    0,
+    4,
+    19.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "motor_pin_l0",
+   "part": "2780",
+   "pos_mm": [
+    -8,
+    8,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "motor_pin_l1",
+   "part": "2780",
+   "pos_mm": [
+    8,
+    8,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "mid_r",
+   "part": "32525",
+   "pos_mm": [
+    0,
+    -12,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_r",
+   "part": "32278",
+   "pos_mm": [
+    -88,
+    -20,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_pin_r0",
+   "part": "6558",
+   "pos_mm": [
+    -40,
+    -12,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "rear_pin_r1",
+   "part": "6558",
+   "pos_mm": [
+    -32,
+    -12,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "front_r",
+   "part": "32278",
+   "pos_mm": [
+    88,
+    -20,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_pin_r0",
+   "part": "2780",
+   "pos_mm": [
+    32,
+    -16,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "front_pin_r1",
+   "part": "2780",
+   "pos_mm": [
+    40,
+    -16,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "battery_brick_r",
+   "part": "3701",
+   "pos_mm": [
+    -32,
+    -4,
+    19.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "motor_brick_r",
+   "part": "3701",
+   "pos_mm": [
+    0,
+    -4,
+    19.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "motor_pin_r0",
+   "part": "2780",
+   "pos_mm": [
+    -8,
+    -8,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "motor_pin_r1",
+   "part": "2780",
+   "pos_mm": [
+    8,
+    -8,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "rear_axle",
+   "part": "44294",
+   "pos_mm": [
+    -144,
+    0,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "rear_bl",
+   "part": "4265c",
+   "pos_mm": [
+    -144,
+    26,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_br",
+   "part": "4265c",
+   "pos_mm": [
+    -144,
+    -26,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_axle",
+   "part": "44294",
+   "pos_mm": [
+    144,
+    0,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "front_bl",
+   "part": "4265c",
+   "pos_mm": [
+    144,
+    26,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_br",
+   "part": "4265c",
+   "pos_mm": [
+    144,
+    -26,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_wc",
+   "part": "4185t",
+   "pos_mm": [
+    144,
+    0,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "middle_axle",
+   "part": "60485",
+   "pos_mm": [
+    0,
+    0,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "middle_bl",
+   "part": "4265c",
+   "pos_mm": [
+    0,
+    18,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "middle_br",
+   "part": "4265c",
+   "pos_mm": [
+    0,
+    -18,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "middle_wl",
+   "part": "4185t",
+   "pos_mm": [
+    0,
+    34,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "middle_wr",
+   "part": "4185t",
+   "pos_mm": [
+    0,
+    -34,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    -32,
+    0,
+    57.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    -32,
+    -16,
+    67.2
+   ],
+   "yaw_deg": -90
+  },
+  {
+   "name": "motor",
+   "part": "58120c01",
+   "pos_mm": [
+    0,
+    24,
+    31.2
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "shaft",
+   "part": "32062",
+   "pos_mm": [
+    0,
+    24.05,
+    31.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pinion",
+   "part": "3648",
+   "pos_mm": [
+    0,
+    28,
+    31.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "drivegear",
+   "part": "10928",
+   "pos_mm": [
+    0,
+    28,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_wc",
+   "part": "4185t",
+   "pos_mm": [
+    -144,
+    0,
+    15.2
+   ]
+  }
+ ],
+ "connections": [
+  {
+   "child": "rear_pin_l0",
+   "parent": "rear_l",
+   "kind": "pin"
+  },
+  {
+   "child": "rear_pin_l0",
+   "parent": "mid_l",
+   "kind": "pin"
+  },
+  {
+   "child": "rear_pin_l0",
+   "parent": "battery_brick_l",
+   "kind": "pin"
+  },
+  {
+   "child": "rear_pin_l1",
+   "parent": "rear_l",
+   "kind": "pin"
+  },
+  {
+   "child": "rear_pin_l1",
+   "parent": "mid_l",
+   "kind": "pin"
+  },
+  {
+   "child": "rear_pin_l1",
+   "parent": "battery_brick_l",
+   "kind": "pin"
+  },
+  {
+   "child": "front_pin_l0",
+   "parent": "front_l",
+   "kind": "pin"
+  },
+  {
+   "child": "front_pin_l0",
+   "parent": "mid_l",
+   "kind": "pin"
+  },
+  {
+   "child": "front_pin_l1",
+   "parent": "front_l",
+   "kind": "pin"
+  },
+  {
+   "child": "front_pin_l1",
+   "parent": "mid_l",
+   "kind": "pin"
+  },
+  {
+   "child": "motor_pin_l0",
+   "parent": "motor_brick_l",
+   "kind": "pin"
+  },
+  {
+   "child": "motor_pin_l0",
+   "parent": "mid_l",
+   "kind": "pin"
+  },
+  {
+   "child": "motor_pin_l1",
+   "parent": "motor_brick_l",
+   "kind": "pin"
+  },
+  {
+   "child": "motor_pin_l1",
+   "parent": "mid_l",
+   "kind": "pin"
+  },
+  {
+   "child": "rear_pin_r0",
+   "parent": "rear_r",
+   "kind": "pin"
+  },
+  {
+   "child": "rear_pin_r0",
+   "parent": "mid_r",
+   "kind": "pin"
+  },
+  {
+   "child": "rear_pin_r0",
+   "parent": "battery_brick_r",
+   "kind": "pin"
+  },
+  {
+   "child": "rear_pin_r1",
+   "parent": "rear_r",
+   "kind": "pin"
+  },
+  {
+   "child": "rear_pin_r1",
+   "parent": "mid_r",
+   "kind": "pin"
+  },
+  {
+   "child": "rear_pin_r1",
+   "parent": "battery_brick_r",
+   "kind": "pin"
+  },
+  {
+   "child": "front_pin_r0",
+   "parent": "front_r",
+   "kind": "pin"
+  },
+  {
+   "child": "front_pin_r0",
+   "parent": "mid_r",
+   "kind": "pin"
+  },
+  {
+   "child": "front_pin_r1",
+   "parent": "front_r",
+   "kind": "pin"
+  },
+  {
+   "child": "front_pin_r1",
+   "parent": "mid_r",
+   "kind": "pin"
+  },
+  {
+   "child": "motor_pin_r0",
+   "parent": "motor_brick_r",
+   "kind": "pin"
+  },
+  {
+   "child": "motor_pin_r0",
+   "parent": "mid_r",
+   "kind": "pin"
+  },
+  {
+   "child": "motor_pin_r1",
+   "parent": "motor_brick_r",
+   "kind": "pin"
+  },
+  {
+   "child": "motor_pin_r1",
+   "parent": "mid_r",
+   "kind": "pin"
+  },
+  {
+   "child": "rear_axle",
+   "parent": "rear_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "rear_axle",
+   "parent": "rear_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "rear_bl",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_br",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_axle",
+   "parent": "front_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "front_axle",
+   "parent": "front_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "front_bl",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_br",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_wc",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "middle_axle",
+   "parent": "mid_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "middle_axle",
+   "parent": "mid_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "middle_bl",
+   "parent": "middle_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "middle_br",
+   "parent": "middle_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "middle_wl",
+   "parent": "middle_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "middle_wr",
+   "parent": "middle_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "battery",
+   "parent": "battery_brick_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "battery",
+   "parent": "battery_brick_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "motor",
+   "parent": "motor_brick_l",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "motor",
+   "parent": "motor_brick_r",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "shaft",
+   "parent": "motor",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion",
+   "parent": "shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "drivegear",
+   "parent": "middle_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_wc",
+   "parent": "rear_axle",
+   "kind": "cross"
+  }
+ ],
+ "chassis": "mid_l",
+ "motor": "motor",
+ "battery": "battery",
+ "gear_meshes": [
+  {
+   "gear_a": "pinion",
+   "gear_b": "drivegear"
+  }
+ ],
+ "start_gap_mm": 400,
+ "motor_program": [
+  {
+   "t": 0,
+   "motor": "motor",
+   "level": 7
+  },
+  {
+   "t": 1.9,
+   "motor": "motor",
+   "level": "brake"
+  }
+ ],
+ "description": "Five wheel middle-drive coasting bridge. Double-pin lap joints in studless beams reduce rail mass; battery and motor have low two-row stud saddles. Single front passive wheel and paired rear wheels support roll during the short unpowered coast."
+}

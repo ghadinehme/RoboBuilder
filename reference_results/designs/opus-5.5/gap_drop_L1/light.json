@@ -1,0 +1,496 @@
+{
+ "name": "crawler26g60",
+ "description": "Crawler: a 168 mm driven chain track under the body is the main support (its front sprocket just ahead of the CoM), with free 16T outrigger rollers for roll and a raised tyred front pair on a stud-built beam ~175 mm ahead of the CoM. At the 152 mm gap it pivots on the start edge right under its CoM until the front wheels touch the lower deck, then the track bridges both edges and the body slides down onto the deck without free falls.",
+ "chassis": "bB",
+ "motor": "motor",
+ "battery": "battery",
+ "intended": [],
+ "parts": [
+  {
+   "name": "bA",
+   "part": "3703",
+   "pos_mm": [
+    -120.0,
+    12.0,
+    18.4
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "bB",
+   "part": "3703",
+   "pos_mm": [
+    8.0,
+    12.0,
+    18.4
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "bC",
+   "part": "3895",
+   "pos_mm": [
+    120.0,
+    12.0,
+    18.4
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "jb0",
+   "part": "4477",
+   "pos_mm": [
+    -56.0,
+    12.0,
+    8.8
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "jt1",
+   "part": "4477",
+   "pos_mm": [
+    72.0,
+    12.0,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "jb1",
+   "part": "3710",
+   "pos_mm": [
+    72.0,
+    12.0,
+    8.8
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "rail_r",
+   "part": "3895",
+   "pos_mm": [
+    -32.0,
+    -12.0,
+    18.4
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "tf_axle",
+   "part": "23948",
+   "pos_mm": [
+    8.0,
+    0.0,
+    14.4
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "spr_f",
+   "part": "3648",
+   "pos_mm": [
+    8.0,
+    -36.0,
+    14.4
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "g_tf",
+   "part": "94925",
+   "pos_mm": [
+    8.0,
+    -20.0,
+    14.4
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "tf_bush",
+   "part": "4265c",
+   "pos_mm": [
+    8.0,
+    17.8,
+    14.4
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "o_tf",
+   "part": "4185",
+   "pos_mm": [
+    8.0,
+    37.8,
+    14.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "key0",
+   "part": "3700",
+   "pos_mm": [
+    8.0,
+    -4.0,
+    18.4
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "motor",
+   "part": "58120c01",
+   "pos_mm": [
+    8.0,
+    -16.0,
+    30.4
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "motor_shaft",
+   "part": "32062",
+   "pos_mm": [
+    8.0,
+    -18.2,
+    30.4
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pinion",
+   "part": "94925",
+   "pos_mm": [
+    8.0,
+    -20.0,
+    30.4
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "r_axle",
+   "part": "23948",
+   "pos_mm": [
+    -176.0,
+    0.0,
+    14.4
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "spr_r",
+   "part": "3648",
+   "pos_mm": [
+    -176.0,
+    -36.0,
+    14.4
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "r_b1",
+   "part": "4265c",
+   "pos_mm": [
+    -176.0,
+    6.0,
+    14.4
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "r_b2",
+   "part": "4265c",
+   "pos_mm": [
+    -176.0,
+    18.0,
+    14.4
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "o_r",
+   "part": "4185",
+   "pos_mm": [
+    -176.0,
+    37.8,
+    14.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    -56.0,
+    0.0,
+    56.8
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    80.0,
+    8.0,
+    31.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "f_axle",
+   "part": "44294",
+   "pos_mm": [
+    160.0,
+    0.0,
+    14.4
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "f_wl",
+   "part": "55423c01",
+   "pos_mm": [
+    160.0,
+    22.0,
+    14.4
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "f_wr",
+   "part": "55423c01",
+   "pos_mm": [
+    160.0,
+    -22.0,
+    14.4
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "f_b1",
+   "part": "4265c",
+   "pos_mm": [
+    160.0,
+    6.0,
+    14.4
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "f_b2",
+   "part": "4265c",
+   "pos_mm": [
+    160.0,
+    18.0,
+    14.4
+   ],
+   "yaw_deg": 0.0
+  }
+ ],
+ "connections": [
+  {
+   "child": "jb0",
+   "parent": "bA",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "jb0",
+   "parent": "bB",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "jt1",
+   "parent": "bB",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "jt1",
+   "parent": "bC",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "jb1",
+   "parent": "bB",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "jb1",
+   "parent": "bC",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "tf_axle",
+   "parent": "rail_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "tf_axle",
+   "parent": "bB",
+   "kind": "hinge"
+  },
+  {
+   "child": "spr_f",
+   "parent": "tf_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "g_tf",
+   "parent": "tf_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "tf_bush",
+   "parent": "tf_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "o_tf",
+   "parent": "tf_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "motor",
+   "parent": "key0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "tf_axle",
+   "parent": "key0",
+   "kind": "hinge"
+  },
+  {
+   "child": "motor",
+   "parent": "bB",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "motor",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "motor_shaft",
+   "parent": "motor",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion",
+   "parent": "motor_shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "r_axle",
+   "parent": "bA",
+   "kind": "hinge"
+  },
+  {
+   "child": "spr_r",
+   "parent": "r_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "r_b1",
+   "parent": "r_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "r_b2",
+   "parent": "r_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "o_r",
+   "parent": "r_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "battery",
+   "parent": "bA",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "battery",
+   "parent": "bB",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "battery",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 7
+  },
+  {
+   "child": "receiver",
+   "parent": "jt1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "f_axle",
+   "parent": "bC",
+   "kind": "hinge"
+  },
+  {
+   "child": "f_wl",
+   "parent": "f_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "f_wr",
+   "parent": "f_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "f_b1",
+   "parent": "f_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "f_b2",
+   "parent": "f_axle",
+   "kind": "cross"
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "pinion",
+   "gear_b": "g_tf"
+  }
+ ],
+ "part_set": "inventory",
+ "motor_program": [
+  {
+   "t": 0.0,
+   "motor": "motor",
+   "level": 7
+  },
+  {
+   "t": 2.1,
+   "motor": "motor",
+   "level": "brake"
+  }
+ ],
+ "start_gap_mm": 60,
+ "treads": [
+  {
+   "name": "track",
+   "sprockets": [
+    "spr_f",
+    "spr_r"
+   ],
+   "links": 70,
+   "link": "3711"
+  }
+ ]
+}

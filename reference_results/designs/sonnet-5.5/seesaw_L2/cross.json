@@ -1,0 +1,972 @@
+{
+ "name": "seesaw_servo",
+ "description": "4WD chain car with servo arm that presses the seesaw end down",
+ "part_set": "inventory",
+ "chassis": "rail_l",
+ "motor": "motor",
+ "battery": "battery",
+ "parts": [
+  {
+   "name": "rail_l",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    12,
+    25.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "rail_r",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    -12,
+    25.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "riser_l",
+   "part": "3702",
+   "pos_mm": [
+    0,
+    12,
+    35.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "riser_r",
+   "part": "3702",
+   "pos_mm": [
+    0,
+    -12,
+    35.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "bplate",
+   "part": "3035",
+   "pos_mm": [
+    0,
+    0,
+    38.4
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    0,
+    8,
+    76.8
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "rear_axle",
+   "part": "50451",
+   "pos_mm": [
+    -48.0,
+    0,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "front_axle",
+   "part": "50451",
+   "pos_mm": [
+    56.0,
+    0,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "wheel_rl",
+   "part": "56145c01",
+   "pos_mm": [
+    -48.0,
+    35.0,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "wheel_rr",
+   "part": "56145c01",
+   "pos_mm": [
+    -48.0,
+    -35.0,
+    21.6
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "bush_rr",
+   "part": "3713",
+   "pos_mm": [
+    -48.0,
+    -20.2,
+    21.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "wheel_fl",
+   "part": "56145c01",
+   "pos_mm": [
+    56.0,
+    35.0,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "bush_fl",
+   "part": "3713",
+   "pos_mm": [
+    56.0,
+    20.2,
+    21.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "wheel_fr",
+   "part": "56145c01",
+   "pos_mm": [
+    56.0,
+    -35.0,
+    21.6
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "bush_fr",
+   "part": "3713",
+   "pos_mm": [
+    56.0,
+    -20.2,
+    21.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "chain_r",
+   "part": "94925",
+   "pos_mm": [
+    -48.0,
+    -4,
+    21.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "chain_f",
+   "part": "94925",
+   "pos_mm": [
+    56.0,
+    -4,
+    21.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "main24",
+   "part": "3648",
+   "pos_mm": [
+    -48.0,
+    20,
+    21.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "jack_axle",
+   "part": "32073",
+   "pos_mm": [
+    -48.0,
+    4.2,
+    37.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "jack24",
+   "part": "3648",
+   "pos_mm": [
+    -48.0,
+    4,
+    37.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "jack8",
+   "part": "10928",
+   "pos_mm": [
+    -48.0,
+    20,
+    37.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "twl_p1",
+   "part": "3710",
+   "pos_mm": [
+    -48.0,
+    12,
+    28.8
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "twl_p2",
+   "part": "3710",
+   "pos_mm": [
+    -48.0,
+    12,
+    32.0
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "twl_b",
+   "part": "3701",
+   "pos_mm": [
+    -48.0,
+    12,
+    41.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "twr_p1",
+   "part": "3020",
+   "pos_mm": [
+    -48.0,
+    -16,
+    28.8
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "twr_p2",
+   "part": "3710",
+   "pos_mm": [
+    -48.0,
+    -12,
+    32.0
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "twr_b",
+   "part": "3701",
+   "pos_mm": [
+    -48.0,
+    -12,
+    41.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "motor",
+   "part": "58120c01",
+   "pos_mm": [
+    -56.0,
+    0,
+    56.5
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "two_b",
+   "part": "3701",
+   "pos_mm": [
+    -48.0,
+    -20,
+    38.4
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "two_p",
+   "part": "3710",
+   "pos_mm": [
+    -48.0,
+    -20,
+    41.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "motor_shaft",
+   "part": "4519",
+   "pos_mm": [
+    -56.0,
+    8,
+    56.5
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "pinion",
+   "part": "94925",
+   "pos_mm": [
+    -56.0,
+    4,
+    56.5
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "mezz",
+   "part": "3031",
+   "pos_mm": [
+    16,
+    8,
+    80.0
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    16,
+    8,
+    89.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "tw0",
+   "part": "3701",
+   "pos_mm": [
+    48.0,
+    12,
+    35.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "tw1",
+   "part": "3701",
+   "pos_mm": [
+    48.0,
+    12,
+    44.8
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "tw2",
+   "part": "3701",
+   "pos_mm": [
+    48.0,
+    12,
+    54.4
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "tw3",
+   "part": "3701",
+   "pos_mm": [
+    48.0,
+    12,
+    64.0
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "tw4",
+   "part": "3701",
+   "pos_mm": [
+    48.0,
+    12,
+    73.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "rib",
+   "part": "32524",
+   "pos_mm": [
+    40.0,
+    20,
+    45.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 90
+  },
+  {
+   "name": "ribpin0",
+   "part": "2780",
+   "pos_mm": [
+    40.0,
+    16,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "ribpin1",
+   "part": "2780",
+   "pos_mm": [
+    40.0,
+    16,
+    69.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "servo",
+   "part": "99498c01",
+   "pos_mm": [
+    48.0,
+    8,
+    77.6
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 180
+  },
+  {
+   "name": "spin0",
+   "part": "2780",
+   "pos_mm": [
+    48.0,
+    8,
+    69.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "spin8",
+   "part": "2780",
+   "pos_mm": [
+    56.0,
+    8,
+    69.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "arm_axle",
+   "part": "4519",
+   "pos_mm": [
+    48.0,
+    13.8,
+    77.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "arm_base",
+   "part": "32271",
+   "pos_mm": [
+    48.0,
+    20,
+    77.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -60.0
+  },
+  {
+   "name": "arm_long",
+   "part": "32525",
+   "pos_mm": [
+    80.0,
+    12,
+    133.026
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -60.0
+  },
+  {
+   "name": "apin0",
+   "part": "2780",
+   "pos_mm": [
+    60.0,
+    16,
+    98.385
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "apin1",
+   "part": "2780",
+   "pos_mm": [
+    64.0,
+    16,
+    105.313
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "apin2",
+   "part": "2780",
+   "pos_mm": [
+    68.0,
+    16,
+    112.241
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "mp_r",
+   "part": "3710",
+   "pos_mm": [
+    -48.0,
+    -12,
+    44.8
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "mp_l",
+   "part": "3710",
+   "pos_mm": [
+    -48.0,
+    -20,
+    44.8
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  }
+ ],
+ "connections": [
+  {
+   "child": "riser_l",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "riser_r",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "bplate",
+   "parent": "riser_l",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "bplate",
+   "parent": "riser_r",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "battery",
+   "parent": "bplate",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "rear_axle",
+   "parent": "rail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "rear_axle",
+   "parent": "rail_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "wheel_rl",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_rr",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "bush_rr",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_axle",
+   "parent": "rail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "front_axle",
+   "parent": "rail_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "wheel_fl",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "bush_fl",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_fr",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "bush_fr",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "chain_r",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "chain_f",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "main24",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "jack24",
+   "parent": "jack_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "jack8",
+   "parent": "jack_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "twl_p1",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "twl_p2",
+   "parent": "twl_p1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "twl_b",
+   "parent": "twl_p2",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "jack_axle",
+   "parent": "twl_b",
+   "kind": "hinge"
+  },
+  {
+   "child": "twr_p1",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "twr_p2",
+   "parent": "twr_p1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "twr_b",
+   "parent": "twr_p2",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "jack_axle",
+   "parent": "twr_b",
+   "kind": "hinge"
+  },
+  {
+   "child": "two_b",
+   "parent": "twr_p1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "two_p",
+   "parent": "two_b",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "motor_shaft",
+   "parent": "motor",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion",
+   "parent": "motor_shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "mezz",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "receiver",
+   "parent": "mezz",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "tw0",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "tw1",
+   "parent": "tw0",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "tw2",
+   "parent": "tw1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "tw3",
+   "parent": "tw2",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "tw4",
+   "parent": "tw3",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "ribpin0",
+   "parent": "rib",
+   "kind": "pin"
+  },
+  {
+   "child": "ribpin0",
+   "parent": "rail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "ribpin1",
+   "parent": "rib",
+   "kind": "pin"
+  },
+  {
+   "child": "ribpin1",
+   "parent": "tw4",
+   "kind": "pin"
+  },
+  {
+   "child": "spin0",
+   "parent": "servo",
+   "kind": "pin"
+  },
+  {
+   "child": "spin0",
+   "parent": "tw4",
+   "kind": "pin"
+  },
+  {
+   "child": "spin8",
+   "parent": "servo",
+   "kind": "pin"
+  },
+  {
+   "child": "spin8",
+   "parent": "tw4",
+   "kind": "pin"
+  },
+  {
+   "child": "arm_axle",
+   "parent": "servo",
+   "kind": "motor"
+  },
+  {
+   "child": "arm_base",
+   "parent": "arm_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "apin0",
+   "parent": "arm_base",
+   "kind": "pin"
+  },
+  {
+   "child": "apin0",
+   "parent": "arm_long",
+   "kind": "pin"
+  },
+  {
+   "child": "apin1",
+   "parent": "arm_base",
+   "kind": "pin"
+  },
+  {
+   "child": "apin1",
+   "parent": "arm_long",
+   "kind": "pin"
+  },
+  {
+   "child": "apin2",
+   "parent": "arm_base",
+   "kind": "pin"
+  },
+  {
+   "child": "apin2",
+   "parent": "arm_long",
+   "kind": "pin"
+  },
+  {
+   "child": "mp_r",
+   "parent": "twr_b",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "mp_l",
+   "parent": "two_p",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "motor",
+   "parent": "mp_r",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "motor",
+   "parent": "mp_l",
+   "kind": "stud",
+   "studs": 2
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "pinion",
+   "gear_b": "jack24"
+  },
+  {
+   "gear_a": "jack8",
+   "gear_b": "main24"
+  }
+ ],
+ "chains": [
+  {
+   "name": "chain",
+   "gears": [
+    "chain_r",
+    "chain_f"
+   ],
+   "links": 41
+  }
+ ],
+ "motor_program": [
+  {
+   "t": 0.2,
+   "motor": "servo",
+   "level": 2
+  },
+  {
+   "t": 0.6,
+   "motor": "servo",
+   "level": 4
+  },
+  {
+   "t": 1.0,
+   "motor": "servo",
+   "level": 6
+  },
+  {
+   "t": 2.5,
+   "motor": "motor",
+   "level": 7
+  },
+  {
+   "t": 3.4,
+   "motor": "servo",
+   "level": 0
+  },
+  {
+   "t": 29,
+   "motor": "motor",
+   "level": "brake"
+  }
+ ],
+ "start_gap_mm": 0.0
+}

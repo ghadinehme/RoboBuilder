@@ -1,0 +1,5182 @@
+{
+ "agents": {
+  "opus-5.5": {
+   "label": "Opus 5.5",
+   "agent": "claude-code",
+   "model": "claude-opus-5-5",
+   "effort": "medium",
+   "tasks": {
+    "ramp_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 5,
+     "light": {
+      "value": 178.39,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 0.899,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 171346,
+      "output": 91404
+     },
+     "wall_h": 0.34,
+     "sims_cross_print": 5,
+     "cross": {
+      "design": "designs/opus-5.5/ramp_L1/cross.json",
+      "mass_g": 379.89,
+      "time_s": 2.41,
+      "pieces": 29,
+      "sims_at_accept": 5,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/opus-5.5/ramp_L1/light.json",
+      "mass_g": 178.39,
+      "time_s": 3.72,
+      "pieces": 37,
+      "sims_at_accept": 38,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/opus-5.5/ramp_L1/fast.json",
+      "mass_g": 329.75,
+      "time_s": 0.899,
+      "pieces": 100,
+      "sims_at_accept": 22,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "gap_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 2,
+     "light": {
+      "value": 204.52,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 0.589,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 114023,
+      "output": 51782
+     },
+     "wall_h": 0.22,
+     "sims_cross_print": 2,
+     "cross": {
+      "design": "designs/opus-5.5/gap_L1/cross.json",
+      "mass_g": 468.03,
+      "time_s": 2.57,
+      "pieces": 67,
+      "sims_at_accept": 2,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/opus-5.5/gap_L1/light.json",
+      "mass_g": 204.52,
+      "time_s": 1.449,
+      "pieces": 88,
+      "sims_at_accept": 41,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/opus-5.5/gap_L1/fast.json",
+      "mass_g": 522.53,
+      "time_s": 0.589,
+      "pieces": 178,
+      "sims_at_accept": 49,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "bridge_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 2,
+     "light": {
+      "value": 172.06,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 0.689,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 145802,
+      "output": 87643
+     },
+     "wall_h": 0.3,
+     "sims_cross_print": 2,
+     "cross": {
+      "design": "designs/opus-5.5/bridge_L1/cross.json",
+      "mass_g": 332.01,
+      "time_s": 4.16,
+      "pieces": 33,
+      "sims_at_accept": 2,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/opus-5.5/bridge_L1/light.json",
+      "mass_g": 172.06,
+      "time_s": 1.259,
+      "pieces": 18,
+      "sims_at_accept": 49,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/opus-5.5/bridge_L1/fast.json",
+      "mass_g": 339.04,
+      "time_s": 0.689,
+      "pieces": 100,
+      "sims_at_accept": 36,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "rope_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 8,
+     "light": {
+      "value": 232.7,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 1.709,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 438450,
+      "output": 299194
+     },
+     "wall_h": 1.45,
+     "sims_cross_print": 12,
+     "cross": {
+      "design": "designs/opus-5.5/rope_L1/cross.json",
+      "mass_g": 529.67,
+      "time_s": 6.409,
+      "pieces": 174,
+      "sims_at_accept": 8,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/opus-5.5/rope_L1/light.json",
+      "mass_g": 232.7,
+      "time_s": 7.959,
+      "pieces": 95,
+      "sims_at_accept": 29,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/opus-5.5/rope_L1/fast.json",
+      "mass_g": 712.05,
+      "time_s": 1.709,
+      "pieces": 114,
+      "sims_at_accept": 50,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "steps_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 8,
+     "light": {
+      "value": 208.1,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 3.44,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 263350,
+      "output": 167237
+     },
+     "wall_h": 1.06,
+     "sims_cross_print": 8,
+     "cross": {
+      "design": "designs/opus-5.5/steps_L1/cross.json",
+      "mass_g": 342.23,
+      "time_s": 3.44,
+      "pieces": 103,
+      "sims_at_accept": 8,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/opus-5.5/steps_L1/light.json",
+      "mass_g": 208.1,
+      "time_s": 5.059,
+      "pieces": 99,
+      "sims_at_accept": 50,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": true
+      }
+     }
+    },
+    "bumps_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 19,
+     "light": {
+      "value": 488.56,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 1.459,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 567993,
+      "output": 420836
+     },
+     "wall_h": 1.78,
+     "sims_cross_print": 19,
+     "cross": {
+      "design": "designs/opus-5.5/bumps_L1/cross.json",
+      "mass_g": 488.56,
+      "time_s": 3.23,
+      "pieces": 99,
+      "sims_at_accept": 19,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/opus-5.5/bumps_L1/fast.json",
+      "mass_g": 452.64,
+      "time_s": 1.459,
+      "pieces": 64,
+      "sims_at_accept": 50,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "seesaw_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 9,
+     "light": {
+      "value": 182.67,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 0.699,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 435973,
+      "output": 316178
+     },
+     "wall_h": 1.15,
+     "sims_cross_print": 9,
+     "cross": {
+      "design": "designs/opus-5.5/seesaw_L1/cross.json",
+      "mass_g": 280.0,
+      "time_s": 3.95,
+      "pieces": 67,
+      "sims_at_accept": 9,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/opus-5.5/seesaw_L1/light.json",
+      "mass_g": 182.67,
+      "time_s": 1.099,
+      "pieces": 24,
+      "sims_at_accept": 47,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/opus-5.5/seesaw_L1/fast.json",
+      "mass_g": 430.18,
+      "time_s": 0.699,
+      "pieces": 84,
+      "sims_at_accept": 38,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "gap_drop_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 2,
+     "light": {
+      "value": 207.28,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 0.589,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 185135,
+      "output": 121809
+     },
+     "wall_h": 0.44,
+     "sims_cross_print": 2,
+     "cross": {
+      "design": "designs/opus-5.5/gap_drop_L1/cross.json",
+      "mass_g": 482.94,
+      "time_s": 6.889,
+      "pieces": 76,
+      "sims_at_accept": 2,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/opus-5.5/gap_drop_L1/light.json",
+      "mass_g": 207.28,
+      "time_s": 1.739,
+      "pieces": 98,
+      "sims_at_accept": 50,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/opus-5.5/gap_drop_L1/fast.json",
+      "mass_g": 358.32,
+      "time_s": 0.589,
+      "pieces": 27,
+      "sims_at_accept": 50,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "wall_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 18,
+     "light": {
+      "value": 462.24,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 0.889,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 615098,
+      "output": 457051
+     },
+     "wall_h": 2.49,
+     "sims_cross_print": 18,
+     "cross": {
+      "design": "designs/opus-5.5/wall_L1/cross.json",
+      "mass_g": 462.24,
+      "time_s": 2.89,
+      "pieces": 125,
+      "sims_at_accept": 18,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/opus-5.5/wall_L1/fast.json",
+      "mass_g": 440.55,
+      "time_s": 0.889,
+      "pieces": 93,
+      "sims_at_accept": 2,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "u_turn_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 22,
+     "light": {
+      "value": 213.96,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 1.189,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 751769,
+      "output": 596594
+     },
+     "wall_h": 2.28,
+     "sims_cross_print": 22,
+     "cross": {
+      "design": "designs/opus-5.5/u_turn_L1/cross.json",
+      "mass_g": 339.73,
+      "time_s": 6.209,
+      "pieces": 112,
+      "sims_at_accept": 22,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/opus-5.5/u_turn_L1/light.json",
+      "mass_g": 213.96,
+      "time_s": 3.56,
+      "pieces": 20,
+      "sims_at_accept": 48,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/opus-5.5/u_turn_L1/fast.json",
+      "mass_g": 318.83,
+      "time_s": 1.189,
+      "pieces": 71,
+      "sims_at_accept": 42,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "ramp_L2": {
+     "passed_with": null,
+     "sims_to_pass": null,
+     "light": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "fast": {
+      "value": 1.419,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 1619072,
+      "output": 1273041
+     },
+     "wall_h": 6.34,
+     "sims_cross_print": 30,
+     "fast_design": {
+      "design": "designs/opus-5.5/ramp_L2/fast.json",
+      "mass_g": 512.56,
+      "time_s": 1.419,
+      "pieces": 146,
+      "sims_at_accept": 47,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "gap_L2": {
+     "passed_with": "cross",
+     "sims_to_pass": 3,
+     "light": {
+      "value": 225.78,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 1.309,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 356341,
+      "output": 241525
+     },
+     "wall_h": 1.23,
+     "sims_cross_print": 3,
+     "cross": {
+      "design": "designs/opus-5.5/gap_L2/cross.json",
+      "mass_g": 648.55,
+      "time_s": 5.589,
+      "pieces": 304,
+      "sims_at_accept": 3,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/opus-5.5/gap_L2/light.json",
+      "mass_g": 225.78,
+      "time_s": 3.51,
+      "pieces": 92,
+      "sims_at_accept": 27,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/opus-5.5/gap_L2/fast.json",
+      "mass_g": 810.14,
+      "time_s": 1.309,
+      "pieces": 282,
+      "sims_at_accept": 22,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "bridge_L2": {
+     "passed_with": "cross",
+     "sims_to_pass": 2,
+     "light": {
+      "value": 172.23,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 0.689,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 64799,
+      "output": 17215
+     },
+     "wall_h": 0.09,
+     "sims_cross_print": 2,
+     "cross": {
+      "design": "designs/opus-5.5/bridge_L2/cross.json",
+      "mass_g": 326.06,
+      "time_s": 4.17,
+      "pieces": 36,
+      "sims_at_accept": 2,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/opus-5.5/bridge_L2/light.json",
+      "mass_g": 172.23,
+      "time_s": 1.719,
+      "pieces": 16,
+      "sims_at_accept": 46,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/opus-5.5/bridge_L2/fast.json",
+      "mass_g": 261.02,
+      "time_s": 0.689,
+      "pieces": 34,
+      "sims_at_accept": 30,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "rope_L2": {
+     "passed_with": "cross",
+     "sims_to_pass": 8,
+     "light": {
+      "value": 431.41,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 1.509,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 389314,
+      "output": 246541
+     },
+     "wall_h": 1.75,
+     "sims_cross_print": 8,
+     "cross": {
+      "design": "designs/opus-5.5/rope_L2/cross.json",
+      "mass_g": 431.41,
+      "time_s": 10.98,
+      "pieces": 190,
+      "sims_at_accept": 8,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/opus-5.5/rope_L2/fast.json",
+      "mass_g": 538.06,
+      "time_s": 1.509,
+      "pieces": 241,
+      "sims_at_accept": 43,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "steps_L2": {
+     "passed_with": "cross",
+     "sims_to_pass": 9,
+     "light": {
+      "value": 366.83,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 3.82,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 320315,
+      "output": 217180
+     },
+     "wall_h": 0.93,
+     "sims_cross_print": 9,
+     "cross": {
+      "design": "designs/opus-5.5/steps_L2/cross.json",
+      "mass_g": 366.83,
+      "time_s": 4.3,
+      "pieces": 117,
+      "sims_at_accept": 9,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/opus-5.5/steps_L2/fast.json",
+      "mass_g": 425.38,
+      "time_s": 3.82,
+      "pieces": 90,
+      "sims_at_accept": 38,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": true
+      }
+     }
+    },
+    "bumps_L2": {
+     "passed_with": "cross",
+     "sims_to_pass": 22,
+     "light": {
+      "value": 531.97,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 12.93,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 661197,
+      "output": 471616
+     },
+     "wall_h": 2.37,
+     "sims_cross_print": 22,
+     "cross": {
+      "design": "designs/opus-5.5/bumps_L2/cross.json",
+      "mass_g": 531.97,
+      "time_s": 12.93,
+      "pieces": 155,
+      "sims_at_accept": 22,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "seesaw_L2": {
+     "passed_with": "cross",
+     "sims_to_pass": 9,
+     "light": {
+      "value": 218.83,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 1.039,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 379351,
+      "output": 273793
+     },
+     "wall_h": 1.35,
+     "sims_cross_print": 9,
+     "cross": {
+      "design": "designs/opus-5.5/seesaw_L2/cross.json",
+      "mass_g": 414.53,
+      "time_s": 4.459,
+      "pieces": 87,
+      "sims_at_accept": 9,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/opus-5.5/seesaw_L2/light.json",
+      "mass_g": 218.83,
+      "time_s": 5.319,
+      "pieces": 107,
+      "sims_at_accept": 50,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/opus-5.5/seesaw_L2/fast.json",
+      "mass_g": 440.12,
+      "time_s": 1.039,
+      "pieces": 69,
+      "sims_at_accept": 5,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "gap_drop_L2": {
+     "passed_with": "cross",
+     "sims_to_pass": 2,
+     "light": {
+      "value": 201.2,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 0.539,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 222393,
+      "output": 142719
+     },
+     "wall_h": 0.55,
+     "sims_cross_print": 2,
+     "cross": {
+      "design": "designs/opus-5.5/gap_drop_L2/cross.json",
+      "mass_g": 379.47,
+      "time_s": 2.58,
+      "pieces": 172,
+      "sims_at_accept": 2,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/opus-5.5/gap_drop_L2/light.json",
+      "mass_g": 201.2,
+      "time_s": 2.83,
+      "pieces": 95,
+      "sims_at_accept": 30,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/opus-5.5/gap_drop_L2/fast.json",
+      "mass_g": 372.4,
+      "time_s": 0.539,
+      "pieces": 73,
+      "sims_at_accept": 46,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "wall_L2": {
+     "passed_with": "cross",
+     "sims_to_pass": 10,
+     "light": {
+      "value": 454.08,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 4.829,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 566979,
+      "output": 377826
+     },
+     "wall_h": 1.89,
+     "sims_cross_print": 10,
+     "cross": {
+      "design": "designs/opus-5.5/wall_L2/cross.json",
+      "mass_g": 454.08,
+      "time_s": 7.809,
+      "pieces": 173,
+      "sims_at_accept": 10,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/opus-5.5/wall_L2/fast.json",
+      "mass_g": 549.37,
+      "time_s": 4.829,
+      "pieces": 191,
+      "sims_at_accept": 31,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": true
+      }
+     }
+    },
+    "u_turn_L2": {
+     "passed_with": null,
+     "sims_to_pass": null,
+     "light": {
+      "value": 241.78,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 1.769,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 1516163,
+      "output": 1215985
+     },
+     "wall_h": 8.3,
+     "sims_cross_print": 30,
+     "light_design": {
+      "design": "designs/opus-5.5/u_turn_L2/light.json",
+      "mass_g": 241.78,
+      "time_s": 5.039,
+      "pieces": 39,
+      "sims_at_accept": 49,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/opus-5.5/u_turn_L2/fast.json",
+      "mass_g": 322.95,
+      "time_s": 1.769,
+      "pieces": 39,
+      "sims_at_accept": 50,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "ramp_L3": {
+     "passed_with": "print",
+     "sims_to_pass": 45,
+     "light": {
+      "value": 756.92,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 2.58,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 811552,
+      "output": 590297
+     },
+     "wall_h": 4.88,
+     "sims_cross_print": 30,
+     "print": {
+      "design": "designs/opus-5.5/ramp_L3/print.json",
+      "mass_g": 756.92,
+      "time_s": 12.11,
+      "pieces": 174,
+      "sims_at_accept": 15,
+      "printed_parts": [
+       "printed_parts/p3d_fea6c3a85a/spec.json"
+      ],
+      "rules": {
+       "start_boards": true,
+       "max_chains": 2,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/opus-5.5/ramp_L3/fast.json",
+      "mass_g": 670.98,
+      "time_s": 2.58,
+      "pieces": 171,
+      "sims_at_accept": 50,
+      "printed_parts": [
+       "printed_parts/p3d_e453a9fbd3/spec.json"
+      ],
+      "rules": {
+       "start_boards": true,
+       "max_chains": 2,
+       "cross_index": false
+      }
+     }
+    },
+    "gap_L3": {
+     "passed_with": "cross",
+     "sims_to_pass": 28,
+     "light": {
+      "value": 1065.33,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 11.74,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 1308538,
+      "output": 1110316
+     },
+     "wall_h": 9.79,
+     "sims_cross_print": 28,
+     "cross": {
+      "design": "designs/opus-5.5/gap_L3/cross.json",
+      "mass_g": 1065.33,
+      "time_s": 11.74,
+      "pieces": 277,
+      "sims_at_accept": 28,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "bridge_L3": {
+     "passed_with": "cross",
+     "sims_to_pass": 5,
+     "light": {
+      "value": 177.02,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 0.689,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 206241,
+      "output": 118539
+     },
+     "wall_h": 0.77,
+     "sims_cross_print": 5,
+     "cross": {
+      "design": "designs/opus-5.5/bridge_L3/cross.json",
+      "mass_g": 464.97,
+      "time_s": 4.649,
+      "pieces": 117,
+      "sims_at_accept": 5,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/opus-5.5/bridge_L3/light.json",
+      "mass_g": 177.02,
+      "time_s": 1.759,
+      "pieces": 24,
+      "sims_at_accept": 46,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/opus-5.5/bridge_L3/fast.json",
+      "mass_g": 247.51,
+      "time_s": 0.689,
+      "pieces": 34,
+      "sims_at_accept": 45,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "rope_L3": {
+     "passed_with": null,
+     "sims_to_pass": null,
+     "light": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "fast": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "tokens": {
+      "input": 927974,
+      "output": 727305
+     },
+     "wall_h": 4.46,
+     "sims_cross_print": 30
+    },
+    "steps_L3": {
+     "passed_with": "cross",
+     "sims_to_pass": 23,
+     "light": {
+      "value": 543.53,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 8.699,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 469749,
+      "output": 290029
+     },
+     "wall_h": 4.11,
+     "sims_cross_print": 23,
+     "cross": {
+      "design": "designs/opus-5.5/steps_L3/cross.json",
+      "mass_g": 543.53,
+      "time_s": 20.339,
+      "pieces": 220,
+      "sims_at_accept": 23,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/opus-5.5/steps_L3/fast.json",
+      "mass_g": 606.51,
+      "time_s": 8.699,
+      "pieces": 160,
+      "sims_at_accept": 48,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "bumps_L3": {
+     "passed_with": "print",
+     "sims_to_pass": 54,
+     "light": {
+      "value": 1037.3,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 1.189,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 518393,
+      "output": 326419
+     },
+     "wall_h": 3.15,
+     "sims_cross_print": 30,
+     "print": {
+      "design": "designs/opus-5.5/bumps_L3/print.json",
+      "mass_g": 1037.3,
+      "time_s": 5.979,
+      "pieces": 100,
+      "sims_at_accept": 24,
+      "printed_parts": [
+       "printed_parts/p3d_b9c21ad3d6/spec.json"
+      ],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/opus-5.5/bumps_L3/fast.json",
+      "mass_g": 398.97,
+      "time_s": 1.189,
+      "pieces": 141,
+      "sims_at_accept": 45,
+      "printed_parts": [
+       "printed_parts/p3d_5d02ece5f3/spec.json"
+      ],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "seesaw_L3": {
+     "passed_with": "cross",
+     "sims_to_pass": 11,
+     "light": {
+      "value": 594.68,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 8.219,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 338324,
+      "output": 235295
+     },
+     "wall_h": 2.15,
+     "sims_cross_print": 11,
+     "cross": {
+      "design": "designs/opus-5.5/seesaw_L3/cross.json",
+      "mass_g": 594.68,
+      "time_s": 8.219,
+      "pieces": 364,
+      "sims_at_accept": 11,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "gap_drop_L3": {
+     "passed_with": null,
+     "sims_to_pass": null,
+     "light": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "fast": {
+      "value": 0.419,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 484697,
+      "output": 322146
+     },
+     "wall_h": 4.43,
+     "sims_cross_print": 30,
+     "fast_design": {
+      "design": "designs/opus-5.5/gap_drop_L3/fast.json",
+      "mass_g": 412.49,
+      "time_s": 0.419,
+      "pieces": 160,
+      "sims_at_accept": 33,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "wall_L3": {
+     "passed_with": null,
+     "sims_to_pass": null,
+     "light": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "fast": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "tokens": {
+      "input": 486433,
+      "output": 476681
+     },
+     "wall_h": 3.34,
+     "sims_cross_print": 30
+    },
+    "u_turn_L3": {
+     "passed_with": null,
+     "sims_to_pass": null,
+     "light": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "fast": {
+      "value": 2.85,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 1392785,
+      "output": 1085966
+     },
+     "wall_h": 8.77,
+     "sims_cross_print": 30,
+     "fast_design": {
+      "design": "designs/opus-5.5/u_turn_L3/fast.json",
+      "mass_g": 333.35,
+      "time_s": 2.85,
+      "pieces": 45,
+      "sims_at_accept": 49,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    }
+   },
+   "all_in_one": {
+    "design": "all_in_one/opus-5.5.json",
+    "printed_parts": [
+     "printed_parts/p3d_87d34202bd/spec.json",
+     "printed_parts/p3d_e4fde64894/spec.json",
+     "printed_parts/p3d_eeff8bd21b/spec.json"
+    ],
+    "benches_passed": 6,
+    "benches": {
+     "ramp": true,
+     "gap": true,
+     "bridge": true,
+     "rope": false,
+     "steps": false,
+     "bumps": true,
+     "seesaw": true,
+     "gap_drop": true,
+     "wall": false,
+     "u_turn": false
+    },
+    "sims": 300,
+    "real_benches": {
+     "bridge": true,
+     "bumps": true,
+     "gap": true,
+     "gap_drop": true,
+     "ramp": true,
+     "seesaw": true,
+     "steps": false,
+     "wall": false
+    },
+    "real_benches_passed": 6,
+    "rules": {
+     "start_boards": true,
+     "max_chains": null,
+     "cross_index": false
+    }
+   }
+  },
+  "sonnet-5.5": {
+   "label": "Sonnet 5.5",
+   "agent": "claude-code",
+   "model": "claude-sonnet-5-5",
+   "effort": "medium",
+   "tasks": {
+    "ramp_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 4,
+     "light": {
+      "value": 183.64,
+      "from": "light",
+      "sims": 14
+     },
+     "fast": {
+      "value": 1.019,
+      "from": "fast",
+      "sims": 43
+     },
+     "tokens": {
+      "input": 54511,
+      "output": 13507
+     },
+     "wall_h": 0.07,
+     "sims_cross_print": 4,
+     "cross": {
+      "design": "designs/sonnet-5.5/ramp_L1/cross.json",
+      "mass_g": 246.99,
+      "time_s": 3.06,
+      "pieces": 20,
+      "sims_at_accept": 4,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/sonnet-5.5/ramp_L1/light.json",
+      "mass_g": 183.64,
+      "time_s": 2.4,
+      "pieces": 38,
+      "sims_at_accept": 10,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/sonnet-5.5/ramp_L1/fast.json",
+      "mass_g": 322.09,
+      "time_s": 1.019,
+      "pieces": 24,
+      "sims_at_accept": 28,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "gap_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 12,
+     "light": {
+      "value": 210.5,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 0.779,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 185269,
+      "output": 114976
+     },
+     "wall_h": 0.41,
+     "sims_cross_print": 12,
+     "cross": {
+      "design": "designs/sonnet-5.5/gap_L1/cross.json",
+      "mass_g": 534.28,
+      "time_s": 2.43,
+      "pieces": 44,
+      "sims_at_accept": 12,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/sonnet-5.5/gap_L1/light.json",
+      "mass_g": 210.5,
+      "time_s": 1.369,
+      "pieces": 79,
+      "sims_at_accept": 38,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/sonnet-5.5/gap_L1/fast.json",
+      "mass_g": 378.81,
+      "time_s": 0.779,
+      "pieces": 59,
+      "sims_at_accept": 45,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "bridge_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 9,
+     "light": {
+      "value": 166.33,
+      "from": "light",
+      "sims": 22
+     },
+     "fast": {
+      "value": 1.049,
+      "from": "fast",
+      "sims": 36
+     },
+     "tokens": {
+      "input": 94331,
+      "output": 47042
+     },
+     "wall_h": 0.21,
+     "sims_cross_print": 9,
+     "cross": {
+      "design": "designs/sonnet-5.5/bridge_L1/cross.json",
+      "mass_g": 229.15,
+      "time_s": 3.29,
+      "pieces": 31,
+      "sims_at_accept": 9,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/sonnet-5.5/bridge_L1/light.json",
+      "mass_g": 166.33,
+      "time_s": 1.149,
+      "pieces": 11,
+      "sims_at_accept": 19,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/sonnet-5.5/bridge_L1/fast.json",
+      "mass_g": 245.16,
+      "time_s": 1.049,
+      "pieces": 74,
+      "sims_at_accept": 15,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "rope_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 19,
+     "light": {
+      "value": 460.11,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 5.639,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 705394,
+      "output": 553606
+     },
+     "wall_h": 1.86,
+     "sims_cross_print": 19,
+     "cross": {
+      "design": "designs/sonnet-5.5/rope_L1/cross.json",
+      "mass_g": 460.11,
+      "time_s": 5.639,
+      "pieces": 180,
+      "sims_at_accept": 19,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "steps_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 28,
+     "light": {
+      "value": 497.89,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 3.2,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 473601,
+      "output": 367579
+     },
+     "wall_h": 1.19,
+     "sims_cross_print": 28,
+     "cross": {
+      "design": "designs/sonnet-5.5/steps_L1/cross.json",
+      "mass_g": 497.89,
+      "time_s": 3.68,
+      "pieces": 40,
+      "sims_at_accept": 28,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/sonnet-5.5/steps_L1/fast.json",
+      "mass_g": 437.11,
+      "time_s": 3.2,
+      "pieces": 73,
+      "sims_at_accept": 46,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "bumps_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 20,
+     "light": {
+      "value": 249.38,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 5.539,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 337138,
+      "output": 263142
+     },
+     "wall_h": 0.77,
+     "sims_cross_print": 20,
+     "cross": {
+      "design": "designs/sonnet-5.5/bumps_L1/cross.json",
+      "mass_g": 425.02,
+      "time_s": 3.62,
+      "pieces": 31,
+      "sims_at_accept": 20,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/sonnet-5.5/bumps_L1/light.json",
+      "mass_g": 249.38,
+      "time_s": 4.499,
+      "pieces": 101,
+      "sims_at_accept": 48,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/sonnet-5.5/bumps_L1/fast.json",
+      "mass_g": 392.33,
+      "time_s": 5.539,
+      "pieces": 33,
+      "sims_at_accept": 40,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "seesaw_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 30,
+     "light": {
+      "value": 196.69,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 1.169,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 381360,
+      "output": 298887
+     },
+     "wall_h": 1.59,
+     "sims_cross_print": 30,
+     "cross": {
+      "design": "designs/sonnet-5.5/seesaw_L1/cross.json",
+      "mass_g": 225.74,
+      "time_s": 18.969,
+      "pieces": 43,
+      "sims_at_accept": 30,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/sonnet-5.5/seesaw_L1/light.json",
+      "mass_g": 196.69,
+      "time_s": 1.899,
+      "pieces": 53,
+      "sims_at_accept": 43,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/sonnet-5.5/seesaw_L1/fast.json",
+      "mass_g": 409.7,
+      "time_s": 1.169,
+      "pieces": 100,
+      "sims_at_accept": 20,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "gap_drop_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 18,
+     "light": {
+      "value": 297.5,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 0.539,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 271970,
+      "output": 179474
+     },
+     "wall_h": 0.72,
+     "sims_cross_print": 27,
+     "cross": {
+      "design": "designs/sonnet-5.5/gap_drop_L1/cross.json",
+      "mass_g": 395.66,
+      "time_s": 2.59,
+      "pieces": 103,
+      "sims_at_accept": 18,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/sonnet-5.5/gap_drop_L1/light.json",
+      "mass_g": 297.5,
+      "time_s": 1.289,
+      "pieces": 96,
+      "sims_at_accept": 25,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/sonnet-5.5/gap_drop_L1/fast.json",
+      "mass_g": 314.81,
+      "time_s": 0.539,
+      "pieces": 22,
+      "sims_at_accept": 33,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "wall_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 24,
+     "light": {
+      "value": 330.15,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 0.769,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 404431,
+      "output": 321219
+     },
+     "wall_h": 0.99,
+     "sims_cross_print": 24,
+     "cross": {
+      "design": "designs/sonnet-5.5/wall_L1/cross.json",
+      "mass_g": 375.36,
+      "time_s": 2.79,
+      "pieces": 25,
+      "sims_at_accept": 24,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/sonnet-5.5/wall_L1/light.json",
+      "mass_g": 330.15,
+      "time_s": 1.539,
+      "pieces": 80,
+      "sims_at_accept": 45,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/sonnet-5.5/wall_L1/fast.json",
+      "mass_g": 368.39,
+      "time_s": 0.769,
+      "pieces": 127,
+      "sims_at_accept": 37,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "u_turn_L1": {
+     "passed_with": null,
+     "sims_to_pass": null,
+     "light": {
+      "value": 237.45,
+      "from": "light",
+      "sims": 34
+     },
+     "fast": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "tokens": {
+      "input": 430404,
+      "output": 257942
+     },
+     "wall_h": 1.2,
+     "sims_cross_print": 30,
+     "light_design": {
+      "design": "designs/sonnet-5.5/u_turn_L1/light.json",
+      "mass_g": 237.45,
+      "time_s": 3.5,
+      "pieces": 9,
+      "sims_at_accept": 13,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "ramp_L2": {
+     "passed_with": null,
+     "sims_to_pass": null,
+     "light": {
+      "value": null,
+      "from": null,
+      "sims": 46
+     },
+     "fast": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "tokens": {
+      "input": 644585,
+      "output": 538506
+     },
+     "wall_h": 1.72,
+     "sims_cross_print": 30
+    },
+    "gap_L2": {
+     "passed_with": "cross",
+     "sims_to_pass": 1,
+     "light": {
+      "value": 300.15,
+      "from": "light",
+      "sims": 38
+     },
+     "fast": {
+      "value": 3.09,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 70465,
+      "output": 31271
+     },
+     "wall_h": 0.17,
+     "sims_cross_print": 1,
+     "cross": {
+      "design": "designs/sonnet-5.5/gap_L2/cross.json",
+      "mass_g": 650.92,
+      "time_s": 3.15,
+      "pieces": 120,
+      "sims_at_accept": 1,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/sonnet-5.5/gap_L2/light.json",
+      "mass_g": 300.15,
+      "time_s": 5.039,
+      "pieces": 148,
+      "sims_at_accept": 38,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/sonnet-5.5/gap_L2/fast.json",
+      "mass_g": 728.89,
+      "time_s": 3.09,
+      "pieces": 232,
+      "sims_at_accept": 46,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "bridge_L2": {
+     "passed_with": "cross",
+     "sims_to_pass": 6,
+     "light": {
+      "value": 184.92,
+      "from": "light",
+      "sims": 9
+     },
+     "fast": {
+      "value": 0.809,
+      "from": "fast",
+      "sims": 34
+     },
+     "tokens": {
+      "input": 65649,
+      "output": 31917
+     },
+     "wall_h": 0.19,
+     "sims_cross_print": 6,
+     "cross": {
+      "design": "designs/sonnet-5.5/bridge_L2/cross.json",
+      "mass_g": 219.09,
+      "time_s": 3.14,
+      "pieces": 45,
+      "sims_at_accept": 6,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/sonnet-5.5/bridge_L2/light.json",
+      "mass_g": 184.92,
+      "time_s": 3.08,
+      "pieces": 21,
+      "sims_at_accept": 9,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/sonnet-5.5/bridge_L2/fast.json",
+      "mass_g": 246.99,
+      "time_s": 0.809,
+      "pieces": 33,
+      "sims_at_accept": 25,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "rope_L2": {
+     "passed_with": null,
+     "sims_to_pass": null,
+     "light": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "fast": {
+      "value": 4.0,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 542878,
+      "output": 406711
+     },
+     "wall_h": 2.47,
+     "sims_cross_print": 30,
+     "fast_design": {
+      "design": "designs/sonnet-5.5/rope_L2/fast.json",
+      "mass_g": 596.9,
+      "time_s": 4.0,
+      "pieces": 171,
+      "sims_at_accept": 30,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": 2,
+       "cross_index": false
+      }
+     }
+    },
+    "steps_L2": {
+     "passed_with": null,
+     "sims_to_pass": null,
+     "light": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "fast": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "tokens": {
+      "input": 436251,
+      "output": 303394
+     },
+     "wall_h": 1.25,
+     "sims_cross_print": 30
+    },
+    "bumps_L2": {
+     "passed_with": null,
+     "sims_to_pass": null,
+     "light": {
+      "value": 270.39,
+      "from": "light",
+      "sims": 42
+     },
+     "fast": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "tokens": {
+      "input": 443746,
+      "output": 322143
+     },
+     "wall_h": 1.17,
+     "sims_cross_print": 30,
+     "light_design": {
+      "design": "designs/sonnet-5.5/bumps_L2/light.json",
+      "mass_g": 270.39,
+      "time_s": 11.09,
+      "pieces": 61,
+      "sims_at_accept": 40,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "seesaw_L2": {
+     "passed_with": "cross",
+     "sims_to_pass": 9,
+     "light": {
+      "value": 209.37,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 4.639,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 270410,
+      "output": 170711
+     },
+     "wall_h": 0.81,
+     "sims_cross_print": 9,
+     "cross": {
+      "design": "designs/sonnet-5.5/seesaw_L2/cross.json",
+      "mass_g": 332.6,
+      "time_s": 25.049,
+      "pieces": 94,
+      "sims_at_accept": 9,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/sonnet-5.5/seesaw_L2/light.json",
+      "mass_g": 209.37,
+      "time_s": 12.54,
+      "pieces": 74,
+      "sims_at_accept": 49,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/sonnet-5.5/seesaw_L2/fast.json",
+      "mass_g": 345.53,
+      "time_s": 4.639,
+      "pieces": 114,
+      "sims_at_accept": 49,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "gap_drop_L2": {
+     "passed_with": "cross",
+     "sims_to_pass": 18,
+     "light": {
+      "value": 220.57,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 0.659,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 341549,
+      "output": 219852
+     },
+     "wall_h": 1.19,
+     "sims_cross_print": 18,
+     "cross": {
+      "design": "designs/sonnet-5.5/gap_drop_L2/cross.json",
+      "mass_g": 556.96,
+      "time_s": 2.99,
+      "pieces": 87,
+      "sims_at_accept": 18,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/sonnet-5.5/gap_drop_L2/light.json",
+      "mass_g": 220.57,
+      "time_s": 1.569,
+      "pieces": 107,
+      "sims_at_accept": 42,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/sonnet-5.5/gap_drop_L2/fast.json",
+      "mass_g": 434.25,
+      "time_s": 0.659,
+      "pieces": 97,
+      "sims_at_accept": 44,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "wall_L2": {
+     "passed_with": null,
+     "sims_to_pass": null,
+     "light": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "fast": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "tokens": {
+      "input": 580483,
+      "output": 431981
+     },
+     "wall_h": 1.6,
+     "sims_cross_print": 30
+    },
+    "u_turn_L2": {
+     "passed_with": null,
+     "sims_to_pass": null,
+     "light": {
+      "value": 365.42,
+      "from": "light",
+      "sims": 46
+     },
+     "fast": {
+      "value": 4.34,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 339264,
+      "output": 201705
+     },
+     "wall_h": 0.87,
+     "sims_cross_print": 30,
+     "light_design": {
+      "design": "designs/sonnet-5.5/u_turn_L2/light.json",
+      "mass_g": 365.42,
+      "time_s": 5.839,
+      "pieces": 51,
+      "sims_at_accept": 46,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/sonnet-5.5/u_turn_L2/fast.json",
+      "mass_g": 408.02,
+      "time_s": 4.34,
+      "pieces": 40,
+      "sims_at_accept": 49,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "ramp_L3": {
+     "passed_with": null,
+     "sims_to_pass": null,
+     "light": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "fast": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "tokens": {
+      "input": 821166,
+      "output": 638069
+     },
+     "wall_h": 2.31,
+     "sims_cross_print": 30
+    },
+    "gap_L3": {
+     "passed_with": null,
+     "sims_to_pass": null,
+     "light": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "fast": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "tokens": {
+      "input": 697841,
+      "output": 554646
+     },
+     "wall_h": 1.89,
+     "sims_cross_print": 30
+    },
+    "bridge_L3": {
+     "passed_with": "cross",
+     "sims_to_pass": 1,
+     "light": {
+      "value": 173.01,
+      "from": "light",
+      "sims": 27
+     },
+     "fast": {
+      "value": 1.209,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 132942,
+      "output": 83088
+     },
+     "wall_h": 0.25,
+     "sims_cross_print": 1,
+     "cross": {
+      "design": "designs/sonnet-5.5/bridge_L3/cross.json",
+      "mass_g": 277.44,
+      "time_s": 3.4,
+      "pieces": 66,
+      "sims_at_accept": 1,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/sonnet-5.5/bridge_L3/light.json",
+      "mass_g": 173.01,
+      "time_s": 1.499,
+      "pieces": 15,
+      "sims_at_accept": 27,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/sonnet-5.5/bridge_L3/fast.json",
+      "mass_g": 206.69,
+      "time_s": 1.209,
+      "pieces": 23,
+      "sims_at_accept": 37,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "rope_L3": {
+     "passed_with": null,
+     "sims_to_pass": null,
+     "light": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "fast": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "tokens": {
+      "input": 686933,
+      "output": 541842
+     },
+     "wall_h": 2.7,
+     "sims_cross_print": 30
+    },
+    "steps_L3": {
+     "passed_with": "print",
+     "sims_to_pass": 46,
+     "light": {
+      "value": 739.0,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 11.88,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 616631,
+      "output": 452518
+     },
+     "wall_h": 2.17,
+     "sims_cross_print": 30,
+     "print": {
+      "design": "designs/sonnet-5.5/steps_L3/print.json",
+      "mass_g": 739.0,
+      "time_s": 11.88,
+      "pieces": 61,
+      "sims_at_accept": 16,
+      "printed_parts": [
+       "printed_parts/p3d_db8656e5a9/spec.json"
+      ],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "bumps_L3": {
+     "passed_with": null,
+     "sims_to_pass": null,
+     "light": {
+      "value": 301.7,
+      "from": "light",
+      "sims": 48
+     },
+     "fast": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "tokens": {
+      "input": 549861,
+      "output": 395486
+     },
+     "wall_h": 1.66,
+     "sims_cross_print": 30,
+     "light_design": {
+      "design": "designs/sonnet-5.5/bumps_L3/light.json",
+      "mass_g": 301.7,
+      "time_s": 4.749,
+      "pieces": 127,
+      "sims_at_accept": 45,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "seesaw_L3": {
+     "passed_with": null,
+     "sims_to_pass": null,
+     "light": {
+      "value": null,
+      "from": null,
+      "sims": 28
+     },
+     "fast": {
+      "value": null,
+      "from": null,
+      "sims": 19
+     },
+     "tokens": {
+      "input": 462262,
+      "output": 365122
+     },
+     "wall_h": 1.07,
+     "sims_cross_print": 30
+    },
+    "gap_drop_L3": {
+     "passed_with": "cross",
+     "sims_to_pass": 4,
+     "light": {
+      "value": 470.1,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 1.979,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 135883,
+      "output": 69829
+     },
+     "wall_h": 0.43,
+     "sims_cross_print": 4,
+     "cross": {
+      "design": "designs/sonnet-5.5/gap_drop_L3/cross.json",
+      "mass_g": 470.1,
+      "time_s": 1.979,
+      "pieces": 127,
+      "sims_at_accept": 4,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "wall_L3": {
+     "passed_with": null,
+     "sims_to_pass": null,
+     "light": {
+      "value": null,
+      "from": null,
+      "sims": 3
+     },
+     "fast": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "tokens": {
+      "input": 84727,
+      "output": 41540
+     },
+     "wall_h": 0.2,
+     "sims_cross_print": 30
+    },
+    "u_turn_L3": {
+     "passed_with": null,
+     "sims_to_pass": null,
+     "light": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "fast": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "tokens": {
+      "input": 383060,
+      "output": 243857
+     },
+     "wall_h": 1.39,
+     "sims_cross_print": 30
+    }
+   },
+   "all_in_one": {
+    "design": "all_in_one/sonnet-5.5.json",
+    "printed_parts": [
+     "printed_parts/p3d_ff4172d570/spec.json"
+    ],
+    "benches_passed": 3,
+    "benches": {
+     "ramp": true,
+     "gap": false,
+     "bridge": true,
+     "rope": false,
+     "steps": true,
+     "bumps": false,
+     "seesaw": false,
+     "gap_drop": false,
+     "wall": false,
+     "u_turn": false
+    },
+    "sims": 300,
+    "real_benches": {
+     "bridge": false,
+     "bumps": false,
+     "gap": false,
+     "gap_drop": false,
+     "ramp": true,
+     "seesaw": false,
+     "steps": true,
+     "wall": false
+    },
+    "real_benches_passed": 2,
+    "rules": {
+     "start_boards": true,
+     "max_chains": null,
+     "cross_index": false
+    }
+   }
+  },
+  "gpt-6-astra": {
+   "label": "GPT-6 Astra",
+   "agent": "codex",
+   "model": "gpt-6-astra",
+   "effort": "medium",
+   "tasks": {
+    "ramp_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 4,
+     "light": {
+      "value": 180.65,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 3.14,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 47423,
+      "output": 6978
+     },
+     "wall_h": 0.18,
+     "sims_cross_print": 4,
+     "cross": {
+      "design": "designs/gpt-6-astra/ramp_L1/cross.json",
+      "mass_g": 292.7,
+      "time_s": 3.14,
+      "pieces": 31,
+      "sims_at_accept": 4,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/gpt-6-astra/ramp_L1/light.json",
+      "mass_g": 180.65,
+      "time_s": 5.179,
+      "pieces": 41,
+      "sims_at_accept": 50,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "gap_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 6,
+     "light": {
+      "value": 225.57,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 1.069,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 84638,
+      "output": 20963
+     },
+     "wall_h": 0.4,
+     "sims_cross_print": 6,
+     "cross": {
+      "design": "designs/gpt-6-astra/gap_L1/cross.json",
+      "mass_g": 323.08,
+      "time_s": 2.29,
+      "pieces": 179,
+      "sims_at_accept": 6,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/gpt-6-astra/gap_L1/light.json",
+      "mass_g": 225.57,
+      "time_s": 1.779,
+      "pieces": 130,
+      "sims_at_accept": 49,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/gpt-6-astra/gap_L1/fast.json",
+      "mass_g": 445.29,
+      "time_s": 1.069,
+      "pieces": 168,
+      "sims_at_accept": 30,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "bridge_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 4,
+     "light": {
+      "value": 167.89,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 0.959,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 53373,
+      "output": 12694
+     },
+     "wall_h": 0.15,
+     "sims_cross_print": 4,
+     "cross": {
+      "design": "designs/gpt-6-astra/bridge_L1/cross.json",
+      "mass_g": 218.54,
+      "time_s": 2.47,
+      "pieces": 28,
+      "sims_at_accept": 4,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/gpt-6-astra/bridge_L1/light.json",
+      "mass_g": 167.89,
+      "time_s": 1.319,
+      "pieces": 14,
+      "sims_at_accept": 50,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/gpt-6-astra/bridge_L1/fast.json",
+      "mass_g": 363.67,
+      "time_s": 0.959,
+      "pieces": 119,
+      "sims_at_accept": 50,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "rope_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 11,
+     "light": {
+      "value": 526.4,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 7.669,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 110602,
+      "output": 42267
+     },
+     "wall_h": 0.89,
+     "sims_cross_print": 11,
+     "cross": {
+      "design": "designs/gpt-6-astra/rope_L1/cross.json",
+      "mass_g": 526.4,
+      "time_s": 7.669,
+      "pieces": 213,
+      "sims_at_accept": 11,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "steps_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 27,
+     "light": {
+      "value": 458.05,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 7.179,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 237399,
+      "output": 91802
+     },
+     "wall_h": 1.73,
+     "sims_cross_print": 27,
+     "cross": {
+      "design": "designs/gpt-6-astra/steps_L1/cross.json",
+      "mass_g": 458.05,
+      "time_s": 7.179,
+      "pieces": 107,
+      "sims_at_accept": 27,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "bumps_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 27,
+     "light": {
+      "value": 420.71,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 1.689,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 287406,
+      "output": 95500
+     },
+     "wall_h": 1.74,
+     "sims_cross_print": 47,
+     "cross": {
+      "design": "designs/gpt-6-astra/bumps_L1/cross.json",
+      "mass_g": 420.71,
+      "time_s": 2.38,
+      "pieces": 37,
+      "sims_at_accept": 27,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/gpt-6-astra/bumps_L1/fast.json",
+      "mass_g": 362.02,
+      "time_s": 1.689,
+      "pieces": 43,
+      "sims_at_accept": 50,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "seesaw_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 9,
+     "light": {
+      "value": 291.05,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 5.029,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 215651,
+      "output": 85762
+     },
+     "wall_h": 1.26,
+     "sims_cross_print": 29,
+     "cross": {
+      "design": "designs/gpt-6-astra/seesaw_L1/cross.json",
+      "mass_g": 291.05,
+      "time_s": 5.029,
+      "pieces": 61,
+      "sims_at_accept": 9,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "gap_drop_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 11,
+     "light": {
+      "value": 239.52,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 3.94,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 106832,
+      "output": 24231
+     },
+     "wall_h": 0.49,
+     "sims_cross_print": 11,
+     "cross": {
+      "design": "designs/gpt-6-astra/gap_drop_L1/cross.json",
+      "mass_g": 553.46,
+      "time_s": 3.94,
+      "pieces": 73,
+      "sims_at_accept": 11,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/gpt-6-astra/gap_drop_L1/light.json",
+      "mass_g": 239.52,
+      "time_s": 1.529,
+      "pieces": 133,
+      "sims_at_accept": 47,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "wall_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 20,
+     "light": {
+      "value": 459.48,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 2.22,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 164145,
+      "output": 73698
+     },
+     "wall_h": 1.72,
+     "sims_cross_print": 20,
+     "cross": {
+      "design": "designs/gpt-6-astra/wall_L1/cross.json",
+      "mass_g": 459.48,
+      "time_s": 2.22,
+      "pieces": 134,
+      "sims_at_accept": 20,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "u_turn_L1": {
+     "passed_with": "print",
+     "sims_to_pass": 51,
+     "light": {
+      "value": 271.24,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 1.869,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 344923,
+      "output": 75537
+     },
+     "wall_h": 2.2,
+     "sims_cross_print": 30,
+     "print": {
+      "design": "designs/gpt-6-astra/u_turn_L1/print.json",
+      "mass_g": 271.24,
+      "time_s": 2.6,
+      "pieces": 25,
+      "sims_at_accept": 21,
+      "printed_parts": [
+       "printed_parts/p3d_5058c57829/spec.json"
+      ],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/gpt-6-astra/u_turn_L1/fast.json",
+      "mass_g": 403.96,
+      "time_s": 1.869,
+      "pieces": 85,
+      "sims_at_accept": 50,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "ramp_L2": {
+     "passed_with": null,
+     "sims_to_pass": null,
+     "light": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "fast": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "tokens": {
+      "input": 394230,
+      "output": 251812
+     },
+     "wall_h": 4.17,
+     "sims_cross_print": 30
+    },
+    "gap_L2": {
+     "passed_with": "cross",
+     "sims_to_pass": 10,
+     "light": {
+      "value": 700.19,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 4.779,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 831655,
+      "output": 558035
+     },
+     "wall_h": 1.36,
+     "sims_cross_print": 10,
+     "cross": {
+      "design": "designs/gpt-6-astra/gap_L2/cross.json",
+      "mass_g": 700.19,
+      "time_s": 4.779,
+      "pieces": 398,
+      "sims_at_accept": 10,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "bridge_L2": {
+     "passed_with": "cross",
+     "sims_to_pass": 4,
+     "light": {
+      "value": 195.14,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 5.019,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 62755,
+      "output": 18593
+     },
+     "wall_h": 0.35,
+     "sims_cross_print": 4,
+     "cross": {
+      "design": "designs/gpt-6-astra/bridge_L2/cross.json",
+      "mass_g": 249.19,
+      "time_s": 5.019,
+      "pieces": 103,
+      "sims_at_accept": 4,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/gpt-6-astra/bridge_L2/light.json",
+      "mass_g": 195.14,
+      "time_s": 2.44,
+      "pieces": 56,
+      "sims_at_accept": 38,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "rope_L2": {
+     "passed_with": "cross",
+     "sims_to_pass": 6,
+     "light": {
+      "value": 520.44,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 8.719,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 266531,
+      "output": 13095
+     },
+     "wall_h": 0.53,
+     "sims_cross_print": 6,
+     "cross": {
+      "design": "designs/gpt-6-astra/rope_L2/cross.json",
+      "mass_g": 520.44,
+      "time_s": 8.719,
+      "pieces": 186,
+      "sims_at_accept": 6,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": 2,
+       "cross_index": false
+      }
+     }
+    },
+    "steps_L2": {
+     "passed_with": "cross",
+     "sims_to_pass": 23,
+     "light": {
+      "value": 648.89,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 5.399,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 176406,
+      "output": 35773
+     },
+     "wall_h": 0.92,
+     "sims_cross_print": 23,
+     "cross": {
+      "design": "designs/gpt-6-astra/steps_L2/cross.json",
+      "mass_g": 474.77,
+      "time_s": 14.36,
+      "pieces": 115,
+      "sims_at_accept": 23,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": true
+      }
+     }
+    },
+    "bumps_L2": {
+     "passed_with": "cross",
+     "sims_to_pass": 24,
+     "light": {
+      "value": 351.87,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 13.23,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 245836,
+      "output": 109774
+     },
+     "wall_h": 2.82,
+     "sims_cross_print": 24,
+     "cross": {
+      "design": "designs/gpt-6-astra/bumps_L2/cross.json",
+      "mass_g": 531.9,
+      "time_s": 13.23,
+      "pieces": 138,
+      "sims_at_accept": 24,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/gpt-6-astra/bumps_L2/light.json",
+      "mass_g": 351.87,
+      "time_s": 4.539,
+      "pieces": 112,
+      "sims_at_accept": 46,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "seesaw_L2": {
+     "passed_with": "cross",
+     "sims_to_pass": 20,
+     "light": {
+      "value": 420.46,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 7.129,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 204855,
+      "output": 107290
+     },
+     "wall_h": 2.5,
+     "sims_cross_print": 20,
+     "cross": {
+      "design": "designs/gpt-6-astra/seesaw_L2/cross.json",
+      "mass_g": 420.46,
+      "time_s": 7.129,
+      "pieces": 157,
+      "sims_at_accept": 20,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "gap_drop_L2": {
+     "passed_with": "cross",
+     "sims_to_pass": 10,
+     "light": {
+      "value": 213.03,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 4.37,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 117672,
+      "output": 19953
+     },
+     "wall_h": 0.65,
+     "sims_cross_print": 10,
+     "cross": {
+      "design": "designs/gpt-6-astra/gap_drop_L2/cross.json",
+      "mass_g": 659.8,
+      "time_s": 4.37,
+      "pieces": 137,
+      "sims_at_accept": 10,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/gpt-6-astra/gap_drop_L2/light.json",
+      "mass_g": 213.03,
+      "time_s": 1.219,
+      "pieces": 27,
+      "sims_at_accept": 47,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "wall_L2": {
+     "passed_with": "print",
+     "sims_to_pass": 31,
+     "light": {
+      "value": 389.48,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 2.93,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 427262,
+      "output": 157696
+     },
+     "wall_h": 2.83,
+     "sims_cross_print": 30,
+     "print": {
+      "design": "designs/gpt-6-astra/wall_L2/print.json",
+      "mass_g": 559.22,
+      "time_s": 5.749,
+      "pieces": 272,
+      "sims_at_accept": 1,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/gpt-6-astra/wall_L2/light.json",
+      "mass_g": 389.48,
+      "time_s": 3.66,
+      "pieces": 78,
+      "sims_at_accept": 50,
+      "printed_parts": [
+       "printed_parts/p3d_6319ee4c83/spec.json"
+      ],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/gpt-6-astra/wall_L2/fast.json",
+      "mass_g": 586.23,
+      "time_s": 2.93,
+      "pieces": 119,
+      "sims_at_accept": 50,
+      "printed_parts": [
+       "printed_parts/p3d_8fa08dae33/spec.json"
+      ],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "u_turn_L2": {
+     "passed_with": "cross",
+     "sims_to_pass": 1,
+     "light": {
+      "value": 333.06,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 4.31,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 341870,
+      "output": 85988
+     },
+     "wall_h": 2.8,
+     "sims_cross_print": 30,
+     "cross": {
+      "design": "designs/gpt-6-astra/u_turn_L2/cross.json",
+      "mass_g": 357.16,
+      "time_s": 11.77,
+      "pieces": 128,
+      "sims_at_accept": 1,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/gpt-6-astra/u_turn_L2/light.json",
+      "mass_g": 333.06,
+      "time_s": 11.56,
+      "pieces": 110,
+      "sims_at_accept": 19,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/gpt-6-astra/u_turn_L2/fast.json",
+      "mass_g": 358.64,
+      "time_s": 4.31,
+      "pieces": 128,
+      "sims_at_accept": 49,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "ramp_L3": {
+     "passed_with": "print",
+     "sims_to_pass": 39,
+     "light": {
+      "value": 591.16,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 4.539,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 267151,
+      "output": 192336
+     },
+     "wall_h": 3.01,
+     "sims_cross_print": 30,
+     "print": {
+      "design": "designs/gpt-6-astra/ramp_L3/print.json",
+      "mass_g": 897.32,
+      "time_s": 4.539,
+      "pieces": 380,
+      "sims_at_accept": 9,
+      "printed_parts": [
+       "printed_parts/p3d_edae47b701/spec.json"
+      ],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/gpt-6-astra/ramp_L3/light.json",
+      "mass_g": 591.16,
+      "time_s": 4.919,
+      "pieces": 169,
+      "sims_at_accept": 50,
+      "printed_parts": [
+       "printed_parts/p3d_5f4ca28ab4/spec.json"
+      ],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "gap_L3": {
+     "passed_with": null,
+     "sims_to_pass": null,
+     "light": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "fast": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "tokens": {
+      "input": 284779,
+      "output": 111127
+     },
+     "wall_h": 8.65,
+     "sims_cross_print": 30
+    },
+    "bridge_L3": {
+     "passed_with": "cross",
+     "sims_to_pass": 7,
+     "light": {
+      "value": 189.31,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 1.439,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 82354,
+      "output": 11725
+     },
+     "wall_h": 0.27,
+     "sims_cross_print": 7,
+     "cross": {
+      "design": "designs/gpt-6-astra/bridge_L3/cross.json",
+      "mass_g": 249.19,
+      "time_s": 4.929,
+      "pieces": 103,
+      "sims_at_accept": 7,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/gpt-6-astra/bridge_L3/light.json",
+      "mass_g": 189.31,
+      "time_s": 4.889,
+      "pieces": 54,
+      "sims_at_accept": 42,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/gpt-6-astra/bridge_L3/fast.json",
+      "mass_g": 254.1,
+      "time_s": 1.439,
+      "pieces": 121,
+      "sims_at_accept": 50,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "rope_L3": {
+     "passed_with": null,
+     "sims_to_pass": null,
+     "light": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "fast": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "tokens": {
+      "input": 253696,
+      "output": 105375
+     },
+     "wall_h": 2.16,
+     "sims_cross_print": 30
+    },
+    "steps_L3": {
+     "passed_with": null,
+     "sims_to_pass": null,
+     "light": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "fast": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "tokens": {
+      "input": 302826,
+      "output": 162884
+     },
+     "wall_h": 2.45,
+     "sims_cross_print": 30
+    },
+    "bumps_L3": {
+     "passed_with": "cross",
+     "sims_to_pass": 24,
+     "light": {
+      "value": 417.8,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 10.56,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 173469,
+      "output": 55340
+     },
+     "wall_h": 1.24,
+     "sims_cross_print": 24,
+     "cross": {
+      "design": "designs/gpt-6-astra/bumps_L3/cross.json",
+      "mass_g": 575.1,
+      "time_s": 10.56,
+      "pieces": 260,
+      "sims_at_accept": 24,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/gpt-6-astra/bumps_L3/light.json",
+      "mass_g": 417.8,
+      "time_s": 14.89,
+      "pieces": 144,
+      "sims_at_accept": 21,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "seesaw_L3": {
+     "passed_with": null,
+     "sims_to_pass": null,
+     "light": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "fast": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "tokens": {
+      "input": 296543,
+      "output": 164108
+     },
+     "wall_h": 3.78,
+     "sims_cross_print": 30
+    },
+    "gap_drop_L3": {
+     "passed_with": "cross",
+     "sims_to_pass": 16,
+     "light": {
+      "value": 548.83,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 0.909,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 160117,
+      "output": 54527
+     },
+     "wall_h": 1.2,
+     "sims_cross_print": 16,
+     "cross": {
+      "design": "designs/gpt-6-astra/gap_drop_L3/cross.json",
+      "mass_g": 548.83,
+      "time_s": 0.909,
+      "pieces": 127,
+      "sims_at_accept": 16,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "wall_L3": {
+     "passed_with": null,
+     "sims_to_pass": null,
+     "light": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "fast": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "tokens": {
+      "input": 366986,
+      "output": 171522
+     },
+     "wall_h": 4.08,
+     "sims_cross_print": 30
+    },
+    "u_turn_L3": {
+     "passed_with": null,
+     "sims_to_pass": null,
+     "light": {
+      "value": 345.98,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 7.759,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 259091,
+      "output": 79068
+     },
+     "wall_h": 1.63,
+     "sims_cross_print": 30,
+     "light_design": {
+      "design": "designs/gpt-6-astra/u_turn_L3/light.json",
+      "mass_g": 345.98,
+      "time_s": 12.31,
+      "pieces": 128,
+      "sims_at_accept": 50,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/gpt-6-astra/u_turn_L3/fast.json",
+      "mass_g": 357.16,
+      "time_s": 7.759,
+      "pieces": 128,
+      "sims_at_accept": 50,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    }
+   },
+   "all_in_one": {
+    "design": "all_in_one/gpt-6-astra.json",
+    "printed_parts": [
+     "printed_parts/p3d_0d3456a886/spec.json",
+     "printed_parts/p3d_2bd8dd2aef/spec.json",
+     "printed_parts/p3d_526f6d27a2/spec.json",
+     "printed_parts/p3d_570c45bc69/spec.json",
+     "printed_parts/p3d_6aea26a3f8/spec.json",
+     "printed_parts/p3d_7e902edcc0/spec.json",
+     "printed_parts/p3d_b8d4f0602d/spec.json",
+     "printed_parts/p3d_f8b7c00c95/spec.json"
+    ],
+    "benches_passed": 6,
+    "benches": {
+     "ramp": true,
+     "gap": true,
+     "bridge": true,
+     "rope": false,
+     "steps": true,
+     "bumps": true,
+     "seesaw": true,
+     "gap_drop": false,
+     "wall": false,
+     "u_turn": false
+    },
+    "sims": 300,
+    "real_benches": {
+     "bridge": false,
+     "bumps": true,
+     "gap": true,
+     "gap_drop": true,
+     "ramp": true,
+     "seesaw": true,
+     "steps": false,
+     "wall": false
+    },
+    "real_benches_passed": 5,
+    "rules": {
+     "start_boards": true,
+     "max_chains": null,
+     "cross_index": false
+    }
+   }
+  },
+  "gpt-6.1-sol": {
+   "label": "GPT-6.1 Sol",
+   "agent": "codex",
+   "model": "gpt-6.1-sol",
+   "effort": "medium",
+   "tasks": {
+    "ramp_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 3,
+     "light": {
+      "value": 183.89,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 2.61,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 155798,
+      "output": 130881
+     },
+     "wall_h": 1.28,
+     "sims_cross_print": 23,
+     "cross": {
+      "design": "designs/gpt-6.1-sol/ramp_L1/cross.json",
+      "mass_g": 336.46,
+      "time_s": 3.48,
+      "pieces": 68,
+      "sims_at_accept": 3,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/gpt-6.1-sol/ramp_L1/light.json",
+      "mass_g": 183.89,
+      "time_s": 4.14,
+      "pieces": 48,
+      "sims_at_accept": 50,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/gpt-6.1-sol/ramp_L1/fast.json",
+      "mass_g": 272.15,
+      "time_s": 2.61,
+      "pieces": 58,
+      "sims_at_accept": 50,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "gap_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 5,
+     "light": {
+      "value": 206.15,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 1.339,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 57713,
+      "output": 20419
+     },
+     "wall_h": 0.27,
+     "sims_cross_print": 5,
+     "cross": {
+      "design": "designs/gpt-6.1-sol/gap_L1/cross.json",
+      "mass_g": 467.52,
+      "time_s": 2.35,
+      "pieces": 159,
+      "sims_at_accept": 5,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/gpt-6.1-sol/gap_L1/light.json",
+      "mass_g": 206.15,
+      "time_s": 1.559,
+      "pieces": 41,
+      "sims_at_accept": 31,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/gpt-6.1-sol/gap_L1/fast.json",
+      "mass_g": 469.43,
+      "time_s": 1.339,
+      "pieces": 46,
+      "sims_at_accept": 50,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "bridge_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 3,
+     "light": {
+      "value": 176.33,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 1.209,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 162447,
+      "output": 107916
+     },
+     "wall_h": 0.92,
+     "sims_cross_print": 23,
+     "cross": {
+      "design": "designs/gpt-6.1-sol/bridge_L1/cross.json",
+      "mass_g": 220.84,
+      "time_s": 3.1,
+      "pieces": 35,
+      "sims_at_accept": 3,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/gpt-6.1-sol/bridge_L1/light.json",
+      "mass_g": 176.33,
+      "time_s": 1.249,
+      "pieces": 23,
+      "sims_at_accept": 50,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/gpt-6.1-sol/bridge_L1/fast.json",
+      "mass_g": 247.88,
+      "time_s": 1.209,
+      "pieces": 24,
+      "sims_at_accept": 19,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "rope_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 9,
+     "light": {
+      "value": 560.46,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 8.129,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 137810,
+      "output": 80226
+     },
+     "wall_h": 1.27,
+     "sims_cross_print": 9,
+     "cross": {
+      "design": "designs/gpt-6.1-sol/rope_L1/cross.json",
+      "mass_g": 560.46,
+      "time_s": 8.129,
+      "pieces": 236,
+      "sims_at_accept": 9,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "steps_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 23,
+     "light": {
+      "value": 208.16,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 5.539,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 158358,
+      "output": 77471
+     },
+     "wall_h": 1.47,
+     "sims_cross_print": 23,
+     "cross": {
+      "design": "designs/gpt-6.1-sol/steps_L1/cross.json",
+      "mass_g": 452.75,
+      "time_s": 5.539,
+      "pieces": 62,
+      "sims_at_accept": 23,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/gpt-6.1-sol/steps_L1/light.json",
+      "mass_g": 208.16,
+      "time_s": 1.809,
+      "pieces": 41,
+      "sims_at_accept": 50,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "bumps_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 9,
+     "light": {
+      "value": 419.02,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 1.109,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 782857,
+      "output": 114378
+     },
+     "wall_h": 1.25,
+     "sims_cross_print": 29,
+     "cross": {
+      "design": "designs/gpt-6.1-sol/bumps_L1/cross.json",
+      "mass_g": 419.02,
+      "time_s": 2.47,
+      "pieces": 79,
+      "sims_at_accept": 9,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/gpt-6.1-sol/bumps_L1/fast.json",
+      "mass_g": 396.21,
+      "time_s": 1.109,
+      "pieces": 31,
+      "sims_at_accept": 13,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "seesaw_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 10,
+     "light": {
+      "value": 371.13,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 4.429,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 99038,
+      "output": 34010
+     },
+     "wall_h": 0.4,
+     "sims_cross_print": 10,
+     "cross": {
+      "design": "designs/gpt-6.1-sol/seesaw_L1/cross.json",
+      "mass_g": 371.13,
+      "time_s": 4.429,
+      "pieces": 54,
+      "sims_at_accept": 10,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "gap_drop_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 17,
+     "light": {
+      "value": 213.59,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 1.619,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 127546,
+      "output": 69294
+     },
+     "wall_h": 0.89,
+     "sims_cross_print": 17,
+     "cross": {
+      "design": "designs/gpt-6.1-sol/gap_drop_L1/cross.json",
+      "mass_g": 483.0,
+      "time_s": 1.619,
+      "pieces": 139,
+      "sims_at_accept": 17,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/gpt-6.1-sol/gap_drop_L1/light.json",
+      "mass_g": 213.59,
+      "time_s": 1.049,
+      "pieces": 124,
+      "sims_at_accept": 50,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "wall_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 10,
+     "light": {
+      "value": 632.85,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 2.27,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 140954,
+      "output": 82509
+     },
+     "wall_h": 1.07,
+     "sims_cross_print": 10,
+     "cross": {
+      "design": "designs/gpt-6.1-sol/wall_L1/cross.json",
+      "mass_g": 632.85,
+      "time_s": 2.27,
+      "pieces": 254,
+      "sims_at_accept": 10,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "u_turn_L1": {
+     "passed_with": "cross",
+     "sims_to_pass": 30,
+     "light": {
+      "value": 227.45,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 5.149,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 131749,
+      "output": 45715
+     },
+     "wall_h": 1.46,
+     "sims_cross_print": 30,
+     "cross": {
+      "design": "designs/gpt-6.1-sol/u_turn_L1/cross.json",
+      "mass_g": 376.1,
+      "time_s": 5.369,
+      "pieces": 126,
+      "sims_at_accept": 30,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/gpt-6.1-sol/u_turn_L1/light.json",
+      "mass_g": 227.45,
+      "time_s": 16.25,
+      "pieces": 34,
+      "sims_at_accept": 50,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/gpt-6.1-sol/u_turn_L1/fast.json",
+      "mass_g": 347.0,
+      "time_s": 5.149,
+      "pieces": 125,
+      "sims_at_accept": 50,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "ramp_L2": {
+     "passed_with": null,
+     "sims_to_pass": null,
+     "light": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "fast": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "tokens": {
+      "input": 1362313,
+      "output": 260480
+     },
+     "wall_h": 2.67,
+     "sims_cross_print": 30
+    },
+    "gap_L2": {
+     "passed_with": "cross",
+     "sims_to_pass": 8,
+     "light": {
+      "value": 278.15,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 7.079,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 1072162,
+      "output": 908564
+     },
+     "wall_h": 1.1,
+     "sims_cross_print": 8,
+     "cross": {
+      "design": "designs/gpt-6.1-sol/gap_L2/cross.json",
+      "mass_g": 912.66,
+      "time_s": 7.079,
+      "pieces": 361,
+      "sims_at_accept": 8,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/gpt-6.1-sol/gap_L2/light.json",
+      "mass_g": 278.15,
+      "time_s": 1.849,
+      "pieces": 105,
+      "sims_at_accept": 47,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "bridge_L2": {
+     "passed_with": "cross",
+     "sims_to_pass": 7,
+     "light": {
+      "value": 219.66,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 1.829,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 96963,
+      "output": 30394
+     },
+     "wall_h": 0.31,
+     "sims_cross_print": 7,
+     "cross": {
+      "design": "designs/gpt-6.1-sol/bridge_L2/cross.json",
+      "mass_g": 252.09,
+      "time_s": 3.27,
+      "pieces": 107,
+      "sims_at_accept": 7,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/gpt-6.1-sol/bridge_L2/light.json",
+      "mass_g": 219.66,
+      "time_s": 3.77,
+      "pieces": 84,
+      "sims_at_accept": 18,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/gpt-6.1-sol/bridge_L2/fast.json",
+      "mass_g": 300.16,
+      "time_s": 1.829,
+      "pieces": 90,
+      "sims_at_accept": 6,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "rope_L2": {
+     "passed_with": "print",
+     "sims_to_pass": 59,
+     "light": {
+      "value": 781.14,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 7.599,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 313495,
+      "output": 69375
+     },
+     "wall_h": 4.66,
+     "sims_cross_print": 30,
+     "print": {
+      "design": "designs/gpt-6.1-sol/rope_L2/print.json",
+      "mass_g": 781.14,
+      "time_s": 7.599,
+      "pieces": 276,
+      "sims_at_accept": 29,
+      "printed_parts": [
+       "printed_parts/p3d_fd431ea45f/spec.json"
+      ],
+      "rules": {
+       "start_boards": true,
+       "max_chains": 2,
+       "cross_index": false
+      }
+     }
+    },
+    "steps_L2": {
+     "passed_with": "cross",
+     "sims_to_pass": 16,
+     "light": {
+      "value": 652.77,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 10.48,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 153349,
+      "output": 58325
+     },
+     "wall_h": 0.87,
+     "sims_cross_print": 16,
+     "cross": {
+      "design": "designs/gpt-6.1-sol/steps_L2/cross.json",
+      "mass_g": 466.72,
+      "time_s": 7.529,
+      "pieces": 71,
+      "sims_at_accept": 16,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": true
+      }
+     },
+     "fast_design": {
+      "design": "designs/gpt-6.1-sol/steps_L2/fast.json",
+      "mass_g": 466.33,
+      "time_s": 10.48,
+      "pieces": 66,
+      "sims_at_accept": 46,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "bumps_L2": {
+     "passed_with": null,
+     "sims_to_pass": null,
+     "light": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "fast": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "tokens": {
+      "input": 611626,
+      "output": 197673
+     },
+     "wall_h": 2.2,
+     "sims_cross_print": 30
+    },
+    "seesaw_L2": {
+     "passed_with": "cross",
+     "sims_to_pass": 24,
+     "light": {
+      "value": 440.16,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 5.169,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 181026,
+      "output": 135305
+     },
+     "wall_h": 1.58,
+     "sims_cross_print": 24,
+     "cross": {
+      "design": "designs/gpt-6.1-sol/seesaw_L2/cross.json",
+      "mass_g": 440.16,
+      "time_s": 5.169,
+      "pieces": 94,
+      "sims_at_accept": 24,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "gap_drop_L2": {
+     "passed_with": "cross",
+     "sims_to_pass": 9,
+     "light": {
+      "value": 367.44,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 1.639,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 91468,
+      "output": 19203
+     },
+     "wall_h": 0.35,
+     "sims_cross_print": 9,
+     "cross": {
+      "design": "designs/gpt-6.1-sol/gap_drop_L2/cross.json",
+      "mass_g": 497.38,
+      "time_s": 1.839,
+      "pieces": 141,
+      "sims_at_accept": 9,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/gpt-6.1-sol/gap_drop_L2/light.json",
+      "mass_g": 367.44,
+      "time_s": 2.2,
+      "pieces": 139,
+      "sims_at_accept": 48,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/gpt-6.1-sol/gap_drop_L2/fast.json",
+      "mass_g": 483.0,
+      "time_s": 1.639,
+      "pieces": 139,
+      "sims_at_accept": 19,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "wall_L2": {
+     "passed_with": null,
+     "sims_to_pass": null,
+     "light": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "fast": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "tokens": {
+      "input": 1614235,
+      "output": 923398
+     },
+     "wall_h": 10.14,
+     "sims_cross_print": 30
+    },
+    "u_turn_L2": {
+     "passed_with": "cross",
+     "sims_to_pass": 4,
+     "light": {
+      "value": 254.63,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 5.229,
+      "from": "fast",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 108849,
+      "output": 13893
+     },
+     "wall_h": 1.61,
+     "sims_cross_print": 30,
+     "cross": {
+      "design": "designs/gpt-6.1-sol/u_turn_L2/cross.json",
+      "mass_g": 297.6,
+      "time_s": 8.96,
+      "pieces": 108,
+      "sims_at_accept": 4,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "light_design": {
+      "design": "designs/gpt-6.1-sol/u_turn_L2/light.json",
+      "mass_g": 254.63,
+      "time_s": 9.47,
+      "pieces": 103,
+      "sims_at_accept": 42,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     },
+     "fast_design": {
+      "design": "designs/gpt-6.1-sol/u_turn_L2/fast.json",
+      "mass_g": 298.62,
+      "time_s": 5.229,
+      "pieces": 108,
+      "sims_at_accept": 30,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "ramp_L3": {
+     "passed_with": null,
+     "sims_to_pass": null,
+     "light": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "fast": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "tokens": {
+      "input": 292935,
+      "output": 196111
+     },
+     "wall_h": 4.85,
+     "sims_cross_print": 30
+    },
+    "gap_L3": {
+     "passed_with": null,
+     "sims_to_pass": null,
+     "light": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "fast": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "tokens": {
+      "input": 2208291,
+      "output": 1080099
+     },
+     "wall_h": 13.27,
+     "sims_cross_print": 30
+    },
+    "bridge_L3": {
+     "passed_with": "cross",
+     "sims_to_pass": 10,
+     "light": {
+      "value": 268.83,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 2.73,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 129816,
+      "output": 46957
+     },
+     "wall_h": 0.62,
+     "sims_cross_print": 10,
+     "cross": {
+      "design": "designs/gpt-6.1-sol/bridge_L3/cross.json",
+      "mass_g": 268.83,
+      "time_s": 2.73,
+      "pieces": 155,
+      "sims_at_accept": 10,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "rope_L3": {
+     "passed_with": "print",
+     "sims_to_pass": 42,
+     "light": {
+      "value": 777.95,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 11.98,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 568107,
+      "output": 431951
+     },
+     "wall_h": 6.44,
+     "sims_cross_print": 30,
+     "print": {
+      "design": "designs/gpt-6.1-sol/rope_L3/print.json",
+      "mass_g": 777.95,
+      "time_s": 11.98,
+      "pieces": 361,
+      "sims_at_accept": 12,
+      "printed_parts": [
+       "printed_parts/p3d_1433958c08/spec.json"
+      ],
+      "rules": {
+       "start_boards": true,
+       "max_chains": 2,
+       "cross_index": false
+      }
+     }
+    },
+    "steps_L3": {
+     "passed_with": "cross",
+     "sims_to_pass": 22,
+     "light": {
+      "value": 822.17,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 19.329,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 670022,
+      "output": 420049
+     },
+     "wall_h": 5.37,
+     "sims_cross_print": 22,
+     "cross": {
+      "design": "designs/gpt-6.1-sol/steps_L3/cross.json",
+      "mass_g": 822.17,
+      "time_s": 19.329,
+      "pieces": 350,
+      "sims_at_accept": 22,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "bumps_L3": {
+     "passed_with": "cross",
+     "sims_to_pass": 18,
+     "light": {
+      "value": 466.59,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": 3.54,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 199953,
+      "output": 143654
+     },
+     "wall_h": 2.18,
+     "sims_cross_print": 18,
+     "cross": {
+      "design": "designs/gpt-6.1-sol/bumps_L3/cross.json",
+      "mass_g": 652.2,
+      "time_s": 3.46,
+      "pieces": 210,
+      "sims_at_accept": 18,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": true
+      }
+     },
+     "light_design": {
+      "design": "designs/gpt-6.1-sol/bumps_L3/light.json",
+      "mass_g": 466.59,
+      "time_s": 3.27,
+      "pieces": 256,
+      "sims_at_accept": 50,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": true
+      }
+     }
+    },
+    "seesaw_L3": {
+     "passed_with": null,
+     "sims_to_pass": null,
+     "light": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "fast": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "tokens": {
+      "input": 300142,
+      "output": 310574
+     },
+     "wall_h": 3.54,
+     "sims_cross_print": 30
+    },
+    "gap_drop_L3": {
+     "passed_with": "cross",
+     "sims_to_pass": 15,
+     "light": {
+      "value": 365.77,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 1.059,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 147065,
+      "output": 56724
+     },
+     "wall_h": 0.68,
+     "sims_cross_print": 15,
+     "cross": {
+      "design": "designs/gpt-6.1-sol/gap_drop_L3/cross.json",
+      "mass_g": 365.77,
+      "time_s": 1.059,
+      "pieces": 45,
+      "sims_at_accept": 15,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": false,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "wall_L3": {
+     "passed_with": "print",
+     "sims_to_pass": 47,
+     "light": {
+      "value": 989.26,
+      "from": "pass",
+      "sims": 50
+     },
+     "fast": {
+      "value": 2.59,
+      "from": "pass",
+      "sims": 50
+     },
+     "tokens": {
+      "input": 378260,
+      "output": 460977
+     },
+     "wall_h": 4.93,
+     "sims_cross_print": 30,
+     "print": {
+      "design": "designs/gpt-6.1-sol/wall_L3/print.json",
+      "mass_g": 989.26,
+      "time_s": 2.59,
+      "pieces": 393,
+      "sims_at_accept": 17,
+      "printed_parts": [
+       "printed_parts/p3d_6f0fdac4f4/spec.json"
+      ],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    },
+    "u_turn_L3": {
+     "passed_with": null,
+     "sims_to_pass": null,
+     "light": {
+      "value": 297.73,
+      "from": "light",
+      "sims": 50
+     },
+     "fast": {
+      "value": null,
+      "from": null,
+      "sims": 50
+     },
+     "tokens": {
+      "input": 241423,
+      "output": 80030
+     },
+     "wall_h": 1.1,
+     "sims_cross_print": 30,
+     "light_design": {
+      "design": "designs/gpt-6.1-sol/u_turn_L3/light.json",
+      "mass_g": 297.73,
+      "time_s": 2.61,
+      "pieces": 26,
+      "sims_at_accept": 34,
+      "printed_parts": [],
+      "rules": {
+       "start_boards": true,
+       "max_chains": null,
+       "cross_index": false
+      }
+     }
+    }
+   },
+   "all_in_one": {
+    "design": "all_in_one/gpt-6.1-sol.json",
+    "printed_parts": [
+     "printed_parts/p3d_19a9f1f4ee/spec.json",
+     "printed_parts/p3d_46a2d41b8e/spec.json",
+     "printed_parts/p3d_4f78561618/spec.json",
+     "printed_parts/p3d_abbeeca59f/spec.json",
+     "printed_parts/p3d_cd81b44a3d/spec.json"
+    ],
+    "benches_passed": 5,
+    "benches": {
+     "ramp": true,
+     "gap": true,
+     "bridge": true,
+     "rope": false,
+     "steps": true,
+     "bumps": false,
+     "seesaw": false,
+     "gap_drop": true,
+     "wall": false,
+     "u_turn": false
+    },
+    "sims": 300,
+    "real_benches": {
+     "bridge": true,
+     "bumps": true,
+     "gap": true,
+     "gap_drop": true,
+     "ramp": true,
+     "seesaw": true,
+     "steps": false,
+     "wall": false
+    },
+    "real_benches_passed": 6,
+    "rules": {
+     "start_boards": true,
+     "max_chains": null,
+     "cross_index": false
+    }
+   }
+  }
+ },
+ "simulator_params": "robobuilder/sim/params/learned.json",
+ "note": "Per task: passed_with = cross | print | null; sims_to_pass = simulations until the passing design was accepted (Cross+Print counts the 30 of Cross); light / fast value = mass (g) / time (s) of the best accepted Light / Fast design, else of the passing design (from = pass), null if neither; designs/ holds every accepted design; all_in_one: courses passed in simulation and on the real courses. rules: the rules each design was accepted under (start boards or the courses as built, the chain-loop limit, the cross-axle 90-deg rule); the benchmark's rules for new runs are start boards on, at most 2 chain loops and the cross-axle rule; tests/selftest.py re-judges each design under its own rules."
+}

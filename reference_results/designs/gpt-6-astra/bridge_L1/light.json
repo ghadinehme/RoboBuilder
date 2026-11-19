@@ -1,0 +1,246 @@
+{
+ "name": "v102",
+ "description": "Split mounting plates use the battery housing as a structural cross tie. Four friction pins retain two motor bearing bricks. Two rubber pulley tyres drive directly; the motor housing is the rear sliding shoe. Spring wound ten output turns, no electric commands.",
+ "part_set": "inventory",
+ "chassis": "rail_l",
+ "motor": "motor",
+ "battery": "battery",
+ "parts": [
+  {
+   "name": "motor",
+   "part": "12787c01",
+   "pos_mm": [
+    0,
+    -4,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail_r",
+   "part": "32000",
+   "pos_mm": [
+    -4,
+    -20,
+    43.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pin_r-8",
+   "part": "2780",
+   "pos_mm": [
+    -8,
+    -16,
+    39.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_r0",
+   "part": "2780",
+   "pos_mm": [
+    0,
+    -16,
+    39.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "rail_l",
+   "part": "32000",
+   "pos_mm": [
+    -4,
+    12,
+    43.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pin_l-8",
+   "part": "2780",
+   "pos_mm": [
+    -8,
+    8,
+    39.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_l0",
+   "part": "2780",
+   "pos_mm": [
+    0,
+    8,
+    39.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    -4,
+    0,
+    84.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    -20,
+    0,
+    94.39999999999999
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "drive_axle",
+   "part": "3705",
+   "pos_mm": [
+    0,
+    -4,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "drive_wheel-1",
+   "part": "4185t",
+   "pos_mm": [
+    0,
+    -18.5,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "drive_wheel1",
+   "part": "4185t",
+   "pos_mm": [
+    0,
+    10.5,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "mount_l",
+   "part": "3023",
+   "pos_mm": [
+    -4,
+    12,
+    46.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "mount_r",
+   "part": "3022",
+   "pos_mm": [
+    -4,
+    -16,
+    46.4
+   ],
+   "yaw_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "pin_r-8",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_r-8",
+   "parent": "rail_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_r0",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_r0",
+   "parent": "rail_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_l-8",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_l-8",
+   "parent": "rail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_l0",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_l0",
+   "parent": "rail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "drive_axle",
+   "parent": "motor",
+   "kind": "motor"
+  },
+  {
+   "child": "drive_wheel-1",
+   "parent": "drive_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "drive_wheel1",
+   "parent": "drive_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "mount_l",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "battery",
+   "parent": "mount_l",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "mount_r",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "battery",
+   "parent": "mount_r",
+   "kind": "stud",
+   "studs": 2
+  }
+ ],
+ "pullback": [
+  {
+   "motor": "motor",
+   "wind_turns": 10,
+   "sense": 1
+  }
+ ],
+ "motor_program": [],
+ "start_gap_mm": 0
+}

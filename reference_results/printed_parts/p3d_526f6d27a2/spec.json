@@ -1,0 +1,278 @@
+{
+ "part_id": "p3d_526f6d27a2",
+ "title": "printed part: 16 mm long axle coupling for two butted stock axles",
+ "kind": "connector",
+ "mass_g": 2.22,
+ "com_mm": [
+  -0.0,
+  0.0,
+  -0.0
+ ],
+ "size_mm": [
+  14.0,
+  16.0,
+  14.0
+ ],
+ "boxes": [
+  [
+   [
+    -7.0,
+    -8.0,
+    -2.4
+   ],
+   [
+    -2.0,
+    8.0,
+    2.4
+   ]
+  ],
+  [
+   [
+    -6.0,
+    -8.0,
+    -4.0
+   ],
+   [
+    6.0,
+    8.0,
+    -2.4
+   ]
+  ],
+  [
+   [
+    -6.0,
+    -8.0,
+    2.4
+   ],
+   [
+    6.0,
+    8.0,
+    4.0
+   ]
+  ],
+  [
+   [
+    -5.0,
+    -8.0,
+    -5.6
+   ],
+   [
+    5.0,
+    8.0,
+    -4.0
+   ]
+  ],
+  [
+   [
+    -5.0,
+    -8.0,
+    4.0
+   ],
+   [
+    5.0,
+    8.0,
+    5.6
+   ]
+  ],
+  [
+   [
+    -4.0,
+    -8.0,
+    -6.4
+   ],
+   [
+    4.0,
+    8.0,
+    -5.6
+   ]
+  ],
+  [
+   [
+    -4.0,
+    -8.0,
+    5.6
+   ],
+   [
+    4.0,
+    8.0,
+    6.4
+   ]
+  ],
+  [
+   [
+    -2.0,
+    -8.0,
+    -7.2
+   ],
+   [
+    2.0,
+    8.0,
+    -6.4
+   ]
+  ],
+  [
+   [
+    -2.0,
+    -8.0,
+    -2.4
+   ],
+   [
+    -1.0,
+    8.0,
+    -0.8
+   ]
+  ],
+  [
+   [
+    -2.0,
+    -8.0,
+    0.8
+   ],
+   [
+    -1.0,
+    8.0,
+    2.4
+   ]
+  ],
+  [
+   [
+    -2.0,
+    -8.0,
+    6.4
+   ],
+   [
+    2.0,
+    8.0,
+    7.2
+   ]
+  ],
+  [
+   [
+    1.0,
+    -8.0,
+    -2.4
+   ],
+   [
+    7.0,
+    8.0,
+    -0.8
+   ]
+  ],
+  [
+   [
+    1.0,
+    -8.0,
+    0.8
+   ],
+   [
+    7.0,
+    8.0,
+    2.4
+   ]
+  ],
+  [
+   [
+    2.0,
+    -8.0,
+    -0.8
+   ],
+   [
+    7.0,
+    8.0,
+    0.8
+   ]
+  ]
+ ],
+ "studs_top": [],
+ "top_z": 0.0,
+ "studs_bottom": [],
+ "bottom_z": 0.0,
+ "pin_holes": [],
+ "axle_holes": [
+  [
+   0.0,
+   -4.0,
+   0.0,
+   "y"
+  ],
+  [
+   0.0,
+   4.0,
+   0.0,
+   "y"
+  ]
+ ],
+ "copies": 8,
+ "interfaces": {
+  "name": "shaft_coupler",
+  "title": "16 mm long axle coupling for two butted stock axles",
+  "studs_top": null,
+  "studs_bottom": null,
+  "pin_holes": [],
+  "axle_holes": [
+   [
+    0.0,
+    -4.0,
+    0.0,
+    "y"
+   ],
+   [
+    0.0,
+    4.0,
+    0.0,
+    "y"
+   ]
+  ]
+ },
+ "report": {
+  "ok": true,
+  "errors": [],
+  "warnings": [],
+  "notes": [
+   "prints without supports +y up (as modelled: 184 mm2 of overhang steeper than 45 deg)"
+  ],
+  "size_mm": [
+   14.0,
+   16.0,
+   14.0
+  ],
+  "volume_cm3": 2.222,
+  "mass_g": 2.22,
+  "com_mm": [
+   -0.0,
+   0.0,
+   -0.0
+  ],
+  "min_wall_mm": 4.4,
+  "overhang": {
+   "as_modelled_mm2": 184.5,
+   "best_orientation": "+y up",
+   "best_mm2": 0.0
+  },
+  "interfaces": {
+   "studs_top": null,
+   "studs_bottom": null,
+   "pin_holes": [],
+   "axle_holes": [
+    [
+     0.0,
+     -4.0,
+     0.0,
+     "y"
+    ],
+    [
+     0.0,
+     4.0,
+     0.0,
+     "y"
+    ]
+   ]
+  },
+  "mass_model": "PLA 1.24 g/cm3, 1.2 mm solid shell + 35% infill",
+  "collision": {
+   "boxes": 14,
+   "voxel_mm": 1.0,
+   "volume_ratio": 1.037
+  }
+ }
+}

@@ -1,0 +1,589 @@
+{
+ "name": "whegcar2",
+ "description": "4wd, hook arms",
+ "chassis": "rail4",
+ "motor": "mot_r",
+ "battery": "battery",
+ "parts": [
+  {
+   "name": "rail-20",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    -20,
+    35.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rail-12",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    -12,
+    35.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rail-4",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    -4,
+    35.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rail4",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    4,
+    35.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rail12",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    12,
+    35.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rail20",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    20,
+    35.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck",
+   "part": "3032",
+   "pos_mm": [
+    0,
+    0,
+    38.52
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "ax_r",
+   "part": "50451",
+   "pos_mm": [
+    -48,
+    0,
+    31.32
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "bush_ro",
+   "part": "4265c",
+   "pos_mm": [
+    -48,
+    -26,
+    31.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "gear_r",
+   "part": "3648",
+   "pos_mm": [
+    -48,
+    28,
+    31.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "mot_r",
+   "part": "58120c01",
+   "pos_mm": [
+    -48,
+    24,
+    47.32
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "msh_r",
+   "part": "32062",
+   "pos_mm": [
+    -48,
+    27,
+    47.32
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "pin_r",
+   "part": "10928",
+   "pos_mm": [
+    -48,
+    28,
+    47.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "w_rl",
+   "part": "32020c01",
+   "pos_mm": [
+    -48,
+    58,
+    31.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "w_rr",
+   "part": "32020c01",
+   "pos_mm": [
+    -48,
+    -58,
+    31.32
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "ax_f",
+   "part": "50451",
+   "pos_mm": [
+    48,
+    0,
+    31.32
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "bush_fo",
+   "part": "4265c",
+   "pos_mm": [
+    48,
+    -26,
+    31.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "gear_f",
+   "part": "3648",
+   "pos_mm": [
+    48,
+    28,
+    31.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "mot_f",
+   "part": "58120c01",
+   "pos_mm": [
+    48,
+    24,
+    47.32
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "msh_f",
+   "part": "32062",
+   "pos_mm": [
+    48,
+    27,
+    47.32
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "pin_f",
+   "part": "10928",
+   "pos_mm": [
+    48,
+    28,
+    47.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "w_fl",
+   "part": "32020c01",
+   "pos_mm": [
+    48,
+    58,
+    31.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "w_fr",
+   "part": "32020c01",
+   "pos_mm": [
+    48,
+    -58,
+    31.32
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    0,
+    0,
+    76.92
+   ],
+   "yaw_deg": 270,
+   "spin_deg": 0
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    0,
+    16,
+    86.52
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "deck",
+   "parent": "rail-20",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "deck",
+   "parent": "rail-12",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "deck",
+   "parent": "rail-4",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "deck",
+   "parent": "rail4",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "deck",
+   "parent": "rail12",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "deck",
+   "parent": "rail20",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "ax_r",
+   "parent": "rail-20",
+   "kind": "hinge"
+  },
+  {
+   "child": "ax_r",
+   "parent": "rail-12",
+   "kind": "hinge"
+  },
+  {
+   "child": "ax_r",
+   "parent": "rail-4",
+   "kind": "hinge"
+  },
+  {
+   "child": "ax_r",
+   "parent": "rail4",
+   "kind": "hinge"
+  },
+  {
+   "child": "ax_r",
+   "parent": "rail12",
+   "kind": "hinge"
+  },
+  {
+   "child": "ax_r",
+   "parent": "rail20",
+   "kind": "hinge"
+  },
+  {
+   "child": "bush_ro",
+   "parent": "ax_r",
+   "kind": "cross"
+  },
+  {
+   "child": "gear_r",
+   "parent": "ax_r",
+   "kind": "cross"
+  },
+  {
+   "child": "mot_r",
+   "parent": "rail-20",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "mot_r",
+   "parent": "rail-12",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "mot_r",
+   "parent": "rail-4",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "mot_r",
+   "parent": "rail4",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "mot_r",
+   "parent": "rail12",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "mot_r",
+   "parent": "rail20",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "msh_r",
+   "parent": "mot_r",
+   "kind": "motor"
+  },
+  {
+   "child": "pin_r",
+   "parent": "msh_r",
+   "kind": "cross"
+  },
+  {
+   "child": "w_rl",
+   "parent": "ax_r",
+   "kind": "cross"
+  },
+  {
+   "child": "w_rr",
+   "parent": "ax_r",
+   "kind": "cross"
+  },
+  {
+   "child": "ax_f",
+   "parent": "rail-20",
+   "kind": "hinge"
+  },
+  {
+   "child": "ax_f",
+   "parent": "rail-12",
+   "kind": "hinge"
+  },
+  {
+   "child": "ax_f",
+   "parent": "rail-4",
+   "kind": "hinge"
+  },
+  {
+   "child": "ax_f",
+   "parent": "rail4",
+   "kind": "hinge"
+  },
+  {
+   "child": "ax_f",
+   "parent": "rail12",
+   "kind": "hinge"
+  },
+  {
+   "child": "ax_f",
+   "parent": "rail20",
+   "kind": "hinge"
+  },
+  {
+   "child": "bush_fo",
+   "parent": "ax_f",
+   "kind": "cross"
+  },
+  {
+   "child": "gear_f",
+   "parent": "ax_f",
+   "kind": "cross"
+  },
+  {
+   "child": "mot_f",
+   "parent": "rail-20",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "mot_f",
+   "parent": "rail-12",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "mot_f",
+   "parent": "rail-4",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "mot_f",
+   "parent": "rail4",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "mot_f",
+   "parent": "rail12",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "mot_f",
+   "parent": "rail20",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "msh_f",
+   "parent": "mot_f",
+   "kind": "motor"
+  },
+  {
+   "child": "pin_f",
+   "parent": "msh_f",
+   "kind": "cross"
+  },
+  {
+   "child": "w_fl",
+   "parent": "ax_f",
+   "kind": "cross"
+  },
+  {
+   "child": "w_fr",
+   "parent": "ax_f",
+   "kind": "cross"
+  },
+  {
+   "child": "battery",
+   "parent": "deck",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 8
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "pin_r",
+   "gear_b": "gear_r",
+   "teeth_a": 8,
+   "teeth_b": 24
+  },
+  {
+   "gear_a": "pin_f",
+   "gear_b": "gear_f",
+   "teeth_a": 8,
+   "teeth_b": 24
+  }
+ ],
+ "part_set": "inventory",
+ "start_gap_mm": 150,
+ "motor_program": [
+  {
+   "t": 0.0,
+   "motor": "all",
+   "level": 1
+  },
+  {
+   "t": 0.3,
+   "motor": "all",
+   "level": 2
+  },
+  {
+   "t": 0.6,
+   "motor": "all",
+   "level": 3
+  },
+  {
+   "t": 0.9,
+   "motor": "all",
+   "level": 4
+  },
+  {
+   "t": 1.2,
+   "motor": "all",
+   "level": 5
+  },
+  {
+   "t": 1.5,
+   "motor": "all",
+   "level": 6
+  },
+  {
+   "t": 1.8,
+   "motor": "all",
+   "level": 7
+  },
+  {
+   "t": 2.1,
+   "motor": "all",
+   "level": 3
+  },
+  {
+   "t": 4.6,
+   "motor": "all",
+   "level": "brake"
+  }
+ ]
+}

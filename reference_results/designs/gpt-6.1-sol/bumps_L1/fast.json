@@ -1,0 +1,524 @@
+{
+ "name": "pinned_direct",
+ "part_set": "inventory",
+ "chassis": "rail_l",
+ "motor": "motor",
+ "battery": "battery",
+ "start_gap_mm": 0,
+ "parts": [
+  {
+   "name": "rail_l",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    -32,
+    35.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pinl-40-8",
+   "part": "2780",
+   "pos_mm": [
+    -48,
+    -28,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pinl-408",
+   "part": "2780",
+   "pos_mm": [
+    -32,
+    -28,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pinl40-8",
+   "part": "2780",
+   "pos_mm": [
+    32,
+    -28,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pinl408",
+   "part": "2780",
+   "pos_mm": [
+    48,
+    -28,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "capl0",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    -32,
+    44.92
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "capl1",
+   "part": "4477",
+   "pos_mm": [
+    0,
+    -32,
+    48.12
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "capl2",
+   "part": "4477",
+   "pos_mm": [
+    0,
+    -32,
+    51.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail_r",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    32,
+    35.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pinr-40-8",
+   "part": "2780",
+   "pos_mm": [
+    -48,
+    28,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pinr-408",
+   "part": "2780",
+   "pos_mm": [
+    -32,
+    28,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pinr40-8",
+   "part": "2780",
+   "pos_mm": [
+    32,
+    28,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pinr408",
+   "part": "2780",
+   "pos_mm": [
+    48,
+    28,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "capr0",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    32,
+    44.92
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "capr1",
+   "part": "4477",
+   "pos_mm": [
+    0,
+    32,
+    48.12
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "capr2",
+   "part": "4477",
+   "pos_mm": [
+    0,
+    32,
+    51.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "motor",
+   "part": "99499c01",
+   "pos_mm": [
+    -40,
+    -28,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "motoraxle",
+   "part": "50451",
+   "pos_mm": [
+    -40,
+    0,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "motorl",
+   "part": "32020c01",
+   "pos_mm": [
+    -40,
+    -50,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "motorlb",
+   "part": "4265c",
+   "pos_mm": [
+    -40,
+    -40,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "motorr",
+   "part": "32020c01",
+   "pos_mm": [
+    -40,
+    50,
+    31.32
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "motorrb",
+   "part": "4265c",
+   "pos_mm": [
+    -40,
+    40,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "frontmotor",
+   "part": "99499c01",
+   "pos_mm": [
+    40,
+    -28,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "frontmotoraxle",
+   "part": "50451",
+   "pos_mm": [
+    40,
+    0,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "frontmotorl",
+   "part": "32020c01",
+   "pos_mm": [
+    40,
+    -50,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "frontmotorlb",
+   "part": "4265c",
+   "pos_mm": [
+    40,
+    -40,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "frontmotorr",
+   "part": "32020c01",
+   "pos_mm": [
+    40,
+    50,
+    31.32
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "frontmotorrb",
+   "part": "4265c",
+   "pos_mm": [
+    40,
+    40,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "deck",
+   "part": "3033",
+   "pos_mm": [
+    0,
+    4,
+    54.52
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    0,
+    4,
+    92.92
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    16,
+    4,
+    102.52
+   ],
+   "yaw_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "pinl-40-8",
+   "parent": "rail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pinl-40-8",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "pinl-408",
+   "parent": "rail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pinl-408",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "pinl40-8",
+   "parent": "rail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pinl40-8",
+   "parent": "frontmotor",
+   "kind": "pin"
+  },
+  {
+   "child": "pinl408",
+   "parent": "rail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pinl408",
+   "parent": "frontmotor",
+   "kind": "pin"
+  },
+  {
+   "child": "capl0",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "capl1",
+   "parent": "capl0",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "capl2",
+   "parent": "capl1",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "pinr-40-8",
+   "parent": "rail_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pinr-40-8",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "pinr-408",
+   "parent": "rail_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pinr-408",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "pinr40-8",
+   "parent": "rail_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pinr40-8",
+   "parent": "frontmotor",
+   "kind": "pin"
+  },
+  {
+   "child": "pinr408",
+   "parent": "rail_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pinr408",
+   "parent": "frontmotor",
+   "kind": "pin"
+  },
+  {
+   "child": "capr0",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "capr1",
+   "parent": "capr0",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "capr2",
+   "parent": "capr1",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "motoraxle",
+   "parent": "motor",
+   "kind": "motor"
+  },
+  {
+   "child": "motorl",
+   "parent": "motoraxle",
+   "kind": "cross"
+  },
+  {
+   "child": "motorlb",
+   "parent": "motoraxle",
+   "kind": "cross"
+  },
+  {
+   "child": "motorr",
+   "parent": "motoraxle",
+   "kind": "cross"
+  },
+  {
+   "child": "motorrb",
+   "parent": "motoraxle",
+   "kind": "cross"
+  },
+  {
+   "child": "frontmotoraxle",
+   "parent": "frontmotor",
+   "kind": "motor"
+  },
+  {
+   "child": "frontmotorl",
+   "parent": "frontmotoraxle",
+   "kind": "cross"
+  },
+  {
+   "child": "frontmotorlb",
+   "parent": "frontmotoraxle",
+   "kind": "cross"
+  },
+  {
+   "child": "frontmotorr",
+   "parent": "frontmotoraxle",
+   "kind": "cross"
+  },
+  {
+   "child": "frontmotorrb",
+   "parent": "frontmotoraxle",
+   "kind": "cross"
+  },
+  {
+   "child": "deck",
+   "parent": "capl2",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "deck",
+   "parent": "capr2",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "battery",
+   "parent": "deck",
+   "kind": "stud",
+   "studs": 24
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  }
+ ],
+ "motor_program": [
+  {
+   "t": 0,
+   "motor": "all",
+   "level": 7
+  },
+  {
+   "t": 2,
+   "motor": "all",
+   "level": "brake"
+  }
+ ]
+}

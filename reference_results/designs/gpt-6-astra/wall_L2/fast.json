@@ -1,0 +1,2130 @@
+{
+ "name": "r50",
+ "description": "Long stable stepping frame with full battery deck; front/rear axle spacing places rear forward foot behind the centre of mass during startup.",
+ "part_set": "inventory",
+ "chassis": "rail_l",
+ "motor": "motor_r",
+ "battery": "battery",
+ "parts": [
+  {
+   "name": "rail_l",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    8,
+    128.0
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rail_r",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    -8,
+    128.0
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck",
+   "part": "92438",
+   "pos_mm": [
+    0,
+    -4,
+    131.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    16,
+    4,
+    169.6
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    32,
+    4,
+    179.20000000000002
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "axle_f",
+   "part": "50451",
+   "pos_mm": [
+    128.0,
+    36,
+    124.0
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "bush_fr",
+   "part": "4265c",
+   "pos_mm": [
+    128.0,
+    -14,
+    124.0
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "gear_f",
+   "part": "3649",
+   "pos_mm": [
+    128.0,
+    36,
+    124.0
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "axle_r",
+   "part": "50451",
+   "pos_mm": [
+    -128.0,
+    36,
+    124.0
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "bush_rr",
+   "part": "4265c",
+   "pos_mm": [
+    -128.0,
+    -14,
+    124.0
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "gear_r",
+   "part": "3649",
+   "pos_mm": [
+    -128.0,
+    36,
+    124.0
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "frame_f",
+   "part": "32525",
+   "pos_mm": [
+    128.0,
+    20,
+    148.0
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 90
+  },
+  {
+   "name": "brace_f",
+   "part": "32526",
+   "pos_mm": [
+    160.0,
+    28,
+    124.0
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 180
+  },
+  {
+   "name": "bp_f0",
+   "part": "2780",
+   "pos_mm": [
+    128.0,
+    24,
+    116.0
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "framepin_f",
+   "part": "6558",
+   "pos_mm": [
+    136.0,
+    16,
+    124.0
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "motor_f",
+   "part": "99499c01",
+   "pos_mm": [
+    128.0,
+    16,
+    164.0
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 90
+  },
+  {
+   "name": "mp_f0",
+   "part": "2780",
+   "pos_mm": [
+    128.0,
+    16,
+    156.0
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "mp_f1",
+   "part": "2780",
+   "pos_mm": [
+    128.0,
+    16,
+    172.0
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "shaft_f",
+   "part": "3705",
+   "pos_mm": [
+    128.0,
+    24,
+    164.0
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "pinion_f",
+   "part": "10928",
+   "pos_mm": [
+    128.0,
+    28,
+    164.0
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "frame_r",
+   "part": "32525",
+   "pos_mm": [
+    -128.0,
+    20,
+    148.0
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 90
+  },
+  {
+   "name": "brace_r",
+   "part": "32526",
+   "pos_mm": [
+    -160.0,
+    28,
+    124.0
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 180
+  },
+  {
+   "name": "bp_r0",
+   "part": "2780",
+   "pos_mm": [
+    -128.0,
+    24,
+    116.0
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "framepin_r",
+   "part": "6558",
+   "pos_mm": [
+    -136.0,
+    16,
+    124.0
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "motor_r",
+   "part": "99499c01",
+   "pos_mm": [
+    -128.0,
+    16,
+    164.0
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 90
+  },
+  {
+   "name": "mp_r0",
+   "part": "2780",
+   "pos_mm": [
+    -128.0,
+    16,
+    156.0
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "mp_r1",
+   "part": "2780",
+   "pos_mm": [
+    -128.0,
+    16,
+    172.0
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "shaft_r",
+   "part": "3705",
+   "pos_mm": [
+    -128.0,
+    24,
+    164.0
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "pinion_r",
+   "part": "10928",
+   "pos_mm": [
+    -128.0,
+    28,
+    164.0
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "extension_fl",
+   "part": "3894",
+   "pos_mm": [
+    136.0,
+    8,
+    128.0
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "extension_fr",
+   "part": "3702",
+   "pos_mm": [
+    128.0,
+    -8,
+    128.0
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "extension_rl",
+   "part": "3894",
+   "pos_mm": [
+    -136.0,
+    8,
+    128.0
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "extension_rr",
+   "part": "3702",
+   "pos_mm": [
+    -128.0,
+    -8,
+    128.0
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "splice_f",
+   "part": "32278",
+   "pos_mm": [
+    96.0,
+    0,
+    124.0
+   ]
+  },
+  {
+   "name": "splice_fpin0",
+   "part": "6558",
+   "pos_mm": [
+    40.0,
+    0,
+    124.0
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "splice_fpin1",
+   "part": "6558",
+   "pos_mm": [
+    56.0,
+    0,
+    124.0
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "splice_fpin2",
+   "part": "6558",
+   "pos_mm": [
+    120.0,
+    0,
+    124.0
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "retainer_f",
+   "part": "32525",
+   "pos_mm": [
+    128.0,
+    44,
+    164.0
+   ],
+   "spin_deg": 90
+  },
+  {
+   "name": "retainpin_f0",
+   "part": "6558",
+   "pos_mm": [
+    128.0,
+    32,
+    180.0
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "retainpin_f1",
+   "part": "6558",
+   "pos_mm": [
+    128.0,
+    32,
+    188.0
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "splice_r",
+   "part": "32278",
+   "pos_mm": [
+    -96.0,
+    0,
+    124.0
+   ]
+  },
+  {
+   "name": "splice_rpin0",
+   "part": "6558",
+   "pos_mm": [
+    -40.0,
+    0,
+    124.0
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "splice_rpin1",
+   "part": "6558",
+   "pos_mm": [
+    -56.0,
+    0,
+    124.0
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "splice_rpin2",
+   "part": "6558",
+   "pos_mm": [
+    -120.0,
+    0,
+    124.0
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "retainer_r",
+   "part": "32525",
+   "pos_mm": [
+    -128.0,
+    44,
+    164.0
+   ],
+   "spin_deg": 90
+  },
+  {
+   "name": "retainpin_r0",
+   "part": "6558",
+   "pos_mm": [
+    -128.0,
+    32,
+    180.0
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "retainpin_r1",
+   "part": "6558",
+   "pos_mm": [
+    -128.0,
+    32,
+    188.0
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "inter_f",
+   "part": "32073",
+   "pos_mm": [
+    128.0,
+    28,
+    148.0
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "inter_big_f",
+   "part": "3648",
+   "pos_mm": [
+    128.0,
+    28,
+    148.0
+   ]
+  },
+  {
+   "name": "inter_small_f",
+   "part": "10928",
+   "pos_mm": [
+    128.0,
+    36,
+    148.0
+   ]
+  },
+  {
+   "name": "inter_stop_in_f",
+   "part": "3713",
+   "pos_mm": [
+    128.0,
+    12,
+    148.0
+   ]
+  },
+  {
+   "name": "inter_r",
+   "part": "32073",
+   "pos_mm": [
+    -128.0,
+    28,
+    148.0
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "inter_big_r",
+   "part": "3648",
+   "pos_mm": [
+    -128.0,
+    28,
+    148.0
+   ]
+  },
+  {
+   "name": "inter_small_r",
+   "part": "10928",
+   "pos_mm": [
+    -128.0,
+    36,
+    148.0
+   ]
+  },
+  {
+   "name": "inter_stop_in_r",
+   "part": "3713",
+   "pos_mm": [
+    -128.0,
+    12,
+    148.0
+   ]
+  },
+  {
+   "name": "output_stop_f",
+   "part": "3713",
+   "pos_mm": [
+    128.0,
+    36,
+    164.0
+   ]
+  },
+  {
+   "name": "output_stop_r",
+   "part": "3713",
+   "pos_mm": [
+    -128.0,
+    36,
+    164.0
+   ]
+  },
+  {
+   "name": "centre_tie",
+   "part": "3700",
+   "pos_mm": [
+    0,
+    0,
+    128.0
+   ]
+  },
+  {
+   "name": "centre_pin",
+   "part": "6558",
+   "pos_mm": [
+    0,
+    0,
+    124.0
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "brace_base_f",
+   "part": "6558",
+   "pos_mm": [
+    152.0,
+    16,
+    124
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "brace_vertical_f",
+   "part": "2780",
+   "pos_mm": [
+    128.0,
+    24,
+    108
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "splice_anchor_f",
+   "part": "6558",
+   "pos_mm": [
+    144.0,
+    0,
+    124
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "negative_f",
+   "part": "23948",
+   "pos_mm": [
+    128.0,
+    -72,
+    124
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "coupler_f",
+   "part": "32034",
+   "pos_mm": [
+    128.0,
+    -28,
+    124
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "outerbearing_f",
+   "part": "3702",
+   "pos_mm": [
+    128.0,
+    -48,
+    128
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "bridge_f",
+   "part": "3035",
+   "pos_mm": [
+    128.0,
+    -36,
+    131.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "innerstop_f",
+   "part": "4265c",
+   "pos_mm": [
+    128.0,
+    -42,
+    124
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "outerstop_f",
+   "part": "4265c",
+   "pos_mm": [
+    128.0,
+    -54,
+    124
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "bridge2_f",
+   "part": "3035",
+   "pos_mm": [
+    128.0,
+    -36,
+    134.4
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "upperbearing_finner",
+   "part": "3702",
+   "pos_mm": [
+    128.0,
+    -8,
+    144
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap_finner-24",
+   "part": "32523",
+   "pos_mm": [
+    104.0,
+    -16,
+    132
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 90
+  },
+  {
+   "name": "strap_finner-24124",
+   "part": "2780",
+   "pos_mm": [
+    104.0,
+    -12.0,
+    124
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap_finner-24140",
+   "part": "2780",
+   "pos_mm": [
+    104.0,
+    -12.0,
+    140
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap_finner24",
+   "part": "32523",
+   "pos_mm": [
+    152.0,
+    -16,
+    132
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 90
+  },
+  {
+   "name": "strap_finner24124",
+   "part": "2780",
+   "pos_mm": [
+    152.0,
+    -12.0,
+    124
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap_finner24140",
+   "part": "2780",
+   "pos_mm": [
+    152.0,
+    -12.0,
+    140
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "upperbearing_fouter",
+   "part": "3702",
+   "pos_mm": [
+    128.0,
+    -48,
+    144
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap_fouter-24",
+   "part": "32523",
+   "pos_mm": [
+    104.0,
+    -40,
+    132
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 90
+  },
+  {
+   "name": "strap_fouter-24124",
+   "part": "2780",
+   "pos_mm": [
+    104.0,
+    -44.0,
+    124
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap_fouter-24140",
+   "part": "2780",
+   "pos_mm": [
+    104.0,
+    -44.0,
+    140
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap_fouter24",
+   "part": "32523",
+   "pos_mm": [
+    152.0,
+    -40,
+    132
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 90
+  },
+  {
+   "name": "strap_fouter24124",
+   "part": "2780",
+   "pos_mm": [
+    152.0,
+    -44.0,
+    124
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap_fouter24140",
+   "part": "2780",
+   "pos_mm": [
+    152.0,
+    -44.0,
+    140
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "rotor_f-1",
+   "part": "p3d_8fa08dae33",
+   "pos_mm": [
+    128.0,
+    -72,
+    124
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "stop_f-1_-10",
+   "part": "4265c",
+   "pos_mm": [
+    128.0,
+    -82,
+    124
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "stop_f-1_6",
+   "part": "4265c",
+   "pos_mm": [
+    128.0,
+    -70,
+    124
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rotor_f1",
+   "part": "p3d_8fa08dae33",
+   "pos_mm": [
+    128.0,
+    72,
+    124
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "stop_f1_-10",
+   "part": "4265c",
+   "pos_mm": [
+    128.0,
+    62,
+    124
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "stop_f1_6",
+   "part": "4265c",
+   "pos_mm": [
+    128.0,
+    74,
+    124
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "brace_base_r",
+   "part": "6558",
+   "pos_mm": [
+    -152.0,
+    16,
+    124
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "brace_vertical_r",
+   "part": "2780",
+   "pos_mm": [
+    -128.0,
+    24,
+    108
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "splice_anchor_r",
+   "part": "6558",
+   "pos_mm": [
+    -144.0,
+    0,
+    124
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "negative_r",
+   "part": "23948",
+   "pos_mm": [
+    -128.0,
+    -72,
+    124
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "coupler_r",
+   "part": "32034",
+   "pos_mm": [
+    -128.0,
+    -28,
+    124
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "outerbearing_r",
+   "part": "3702",
+   "pos_mm": [
+    -128.0,
+    -48,
+    128
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "bridge_r",
+   "part": "3035",
+   "pos_mm": [
+    -128.0,
+    -36,
+    131.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "innerstop_r",
+   "part": "4265c",
+   "pos_mm": [
+    -128.0,
+    -42,
+    124
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "outerstop_r",
+   "part": "4265c",
+   "pos_mm": [
+    -128.0,
+    -54,
+    124
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "bridge2_r",
+   "part": "3035",
+   "pos_mm": [
+    -128.0,
+    -36,
+    134.4
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "upperbearing_rinner",
+   "part": "3702",
+   "pos_mm": [
+    -128.0,
+    -8,
+    144
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap_rinner-24",
+   "part": "32523",
+   "pos_mm": [
+    -152.0,
+    -16,
+    132
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 90
+  },
+  {
+   "name": "strap_rinner-24124",
+   "part": "2780",
+   "pos_mm": [
+    -152.0,
+    -12.0,
+    124
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap_rinner-24140",
+   "part": "2780",
+   "pos_mm": [
+    -152.0,
+    -12.0,
+    140
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap_rinner24",
+   "part": "32523",
+   "pos_mm": [
+    -104.0,
+    -16,
+    132
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 90
+  },
+  {
+   "name": "strap_rinner24124",
+   "part": "2780",
+   "pos_mm": [
+    -104.0,
+    -12.0,
+    124
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap_rinner24140",
+   "part": "2780",
+   "pos_mm": [
+    -104.0,
+    -12.0,
+    140
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "upperbearing_router",
+   "part": "3702",
+   "pos_mm": [
+    -128.0,
+    -48,
+    144
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap_router-24",
+   "part": "32523",
+   "pos_mm": [
+    -152.0,
+    -40,
+    132
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 90
+  },
+  {
+   "name": "strap_router-24124",
+   "part": "2780",
+   "pos_mm": [
+    -152.0,
+    -44.0,
+    124
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap_router-24140",
+   "part": "2780",
+   "pos_mm": [
+    -152.0,
+    -44.0,
+    140
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap_router24",
+   "part": "32523",
+   "pos_mm": [
+    -104.0,
+    -40,
+    132
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 90
+  },
+  {
+   "name": "strap_router24124",
+   "part": "2780",
+   "pos_mm": [
+    -104.0,
+    -44.0,
+    124
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "strap_router24140",
+   "part": "2780",
+   "pos_mm": [
+    -104.0,
+    -44.0,
+    140
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "rotor_r-1",
+   "part": "p3d_8fa08dae33",
+   "pos_mm": [
+    -128.0,
+    -88,
+    124
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "stop_r-1_-10",
+   "part": "4265c",
+   "pos_mm": [
+    -128.0,
+    -98,
+    124
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "stop_r-1_6",
+   "part": "4265c",
+   "pos_mm": [
+    -128.0,
+    -86,
+    124
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rotor_r1",
+   "part": "p3d_8fa08dae33",
+   "pos_mm": [
+    -128.0,
+    88,
+    124
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "stop_r1_-10",
+   "part": "4265c",
+   "pos_mm": [
+    -128.0,
+    78,
+    124
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "stop_r1_6",
+   "part": "4265c",
+   "pos_mm": [
+    -128.0,
+    90,
+    124
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "deck",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "deck",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "battery",
+   "parent": "deck",
+   "kind": "stud",
+   "studs": 32
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "axle_f",
+   "parent": "extension_fl",
+   "kind": "hinge"
+  },
+  {
+   "child": "axle_f",
+   "parent": "extension_fr",
+   "kind": "hinge"
+  },
+  {
+   "child": "bush_fr",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "gear_f",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "axle_r",
+   "parent": "extension_rl",
+   "kind": "hinge"
+  },
+  {
+   "child": "axle_r",
+   "parent": "extension_rr",
+   "kind": "hinge"
+  },
+  {
+   "child": "bush_rr",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "gear_r",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "bp_f0",
+   "parent": "brace_f",
+   "kind": "pin"
+  },
+  {
+   "child": "bp_f0",
+   "parent": "frame_f",
+   "kind": "pin"
+  },
+  {
+   "child": "axle_f",
+   "parent": "frame_f",
+   "kind": "hinge"
+  },
+  {
+   "child": "framepin_f",
+   "parent": "brace_f",
+   "kind": "pin"
+  },
+  {
+   "child": "framepin_f",
+   "parent": "extension_fl",
+   "kind": "pin"
+  },
+  {
+   "child": "mp_f0",
+   "parent": "frame_f",
+   "kind": "pin"
+  },
+  {
+   "child": "mp_f0",
+   "parent": "motor_f",
+   "kind": "pin"
+  },
+  {
+   "child": "mp_f1",
+   "parent": "frame_f",
+   "kind": "pin"
+  },
+  {
+   "child": "mp_f1",
+   "parent": "motor_f",
+   "kind": "pin"
+  },
+  {
+   "child": "shaft_f",
+   "parent": "motor_f",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion_f",
+   "parent": "shaft_f",
+   "kind": "cross"
+  },
+  {
+   "child": "bp_r0",
+   "parent": "brace_r",
+   "kind": "pin"
+  },
+  {
+   "child": "bp_r0",
+   "parent": "frame_r",
+   "kind": "pin"
+  },
+  {
+   "child": "axle_r",
+   "parent": "frame_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "framepin_r",
+   "parent": "brace_r",
+   "kind": "pin"
+  },
+  {
+   "child": "framepin_r",
+   "parent": "extension_rl",
+   "kind": "pin"
+  },
+  {
+   "child": "mp_r0",
+   "parent": "frame_r",
+   "kind": "pin"
+  },
+  {
+   "child": "mp_r0",
+   "parent": "motor_r",
+   "kind": "pin"
+  },
+  {
+   "child": "mp_r1",
+   "parent": "frame_r",
+   "kind": "pin"
+  },
+  {
+   "child": "mp_r1",
+   "parent": "motor_r",
+   "kind": "pin"
+  },
+  {
+   "child": "shaft_r",
+   "parent": "motor_r",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion_r",
+   "parent": "shaft_r",
+   "kind": "cross"
+  },
+  {
+   "child": "axle_f",
+   "parent": "splice_f",
+   "kind": "hinge"
+  },
+  {
+   "child": "splice_fpin0",
+   "parent": "splice_f",
+   "kind": "pin"
+  },
+  {
+   "child": "splice_fpin0",
+   "parent": "rail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "splice_fpin0",
+   "parent": "rail_r",
+   "kind": "pin"
+  },
+  {
+   "child": "splice_fpin1",
+   "parent": "splice_f",
+   "kind": "pin"
+  },
+  {
+   "child": "splice_fpin1",
+   "parent": "rail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "splice_fpin1",
+   "parent": "rail_r",
+   "kind": "pin"
+  },
+  {
+   "child": "splice_fpin2",
+   "parent": "splice_f",
+   "kind": "pin"
+  },
+  {
+   "child": "splice_fpin2",
+   "parent": "extension_fl",
+   "kind": "pin"
+  },
+  {
+   "child": "splice_fpin2",
+   "parent": "extension_fr",
+   "kind": "pin"
+  },
+  {
+   "child": "retainpin_f0",
+   "parent": "retainer_f",
+   "kind": "pin"
+  },
+  {
+   "child": "retainpin_f0",
+   "parent": "frame_f",
+   "kind": "pin"
+  },
+  {
+   "child": "retainpin_f1",
+   "parent": "retainer_f",
+   "kind": "pin"
+  },
+  {
+   "child": "retainpin_f1",
+   "parent": "frame_f",
+   "kind": "pin"
+  },
+  {
+   "child": "axle_r",
+   "parent": "splice_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "splice_rpin0",
+   "parent": "splice_r",
+   "kind": "pin"
+  },
+  {
+   "child": "splice_rpin0",
+   "parent": "rail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "splice_rpin0",
+   "parent": "rail_r",
+   "kind": "pin"
+  },
+  {
+   "child": "splice_rpin1",
+   "parent": "splice_r",
+   "kind": "pin"
+  },
+  {
+   "child": "splice_rpin1",
+   "parent": "rail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "splice_rpin1",
+   "parent": "rail_r",
+   "kind": "pin"
+  },
+  {
+   "child": "splice_rpin2",
+   "parent": "splice_r",
+   "kind": "pin"
+  },
+  {
+   "child": "splice_rpin2",
+   "parent": "extension_rl",
+   "kind": "pin"
+  },
+  {
+   "child": "splice_rpin2",
+   "parent": "extension_rr",
+   "kind": "pin"
+  },
+  {
+   "child": "retainpin_r0",
+   "parent": "retainer_r",
+   "kind": "pin"
+  },
+  {
+   "child": "retainpin_r0",
+   "parent": "frame_r",
+   "kind": "pin"
+  },
+  {
+   "child": "retainpin_r1",
+   "parent": "retainer_r",
+   "kind": "pin"
+  },
+  {
+   "child": "retainpin_r1",
+   "parent": "frame_r",
+   "kind": "pin"
+  },
+  {
+   "child": "inter_f",
+   "parent": "frame_f",
+   "kind": "hinge"
+  },
+  {
+   "child": "inter_big_f",
+   "parent": "inter_f",
+   "kind": "cross"
+  },
+  {
+   "child": "inter_small_f",
+   "parent": "inter_f",
+   "kind": "cross"
+  },
+  {
+   "child": "inter_stop_in_f",
+   "parent": "inter_f",
+   "kind": "cross"
+  },
+  {
+   "child": "inter_r",
+   "parent": "frame_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "inter_big_r",
+   "parent": "inter_r",
+   "kind": "cross"
+  },
+  {
+   "child": "inter_small_r",
+   "parent": "inter_r",
+   "kind": "cross"
+  },
+  {
+   "child": "inter_stop_in_r",
+   "parent": "inter_r",
+   "kind": "cross"
+  },
+  {
+   "child": "axle_f",
+   "parent": "brace_f",
+   "kind": "hinge"
+  },
+  {
+   "child": "axle_r",
+   "parent": "brace_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "axle_f",
+   "parent": "retainer_f",
+   "kind": "hinge"
+  },
+  {
+   "child": "inter_f",
+   "parent": "retainer_f",
+   "kind": "hinge"
+  },
+  {
+   "child": "output_stop_f",
+   "parent": "shaft_f",
+   "kind": "cross"
+  },
+  {
+   "child": "axle_r",
+   "parent": "retainer_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "inter_r",
+   "parent": "retainer_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "output_stop_r",
+   "parent": "shaft_r",
+   "kind": "cross"
+  },
+  {
+   "child": "centre_pin",
+   "parent": "rail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "centre_pin",
+   "parent": "rail_r",
+   "kind": "pin"
+  },
+  {
+   "child": "centre_pin",
+   "parent": "centre_tie",
+   "kind": "pin"
+  },
+  {
+   "child": "deck",
+   "parent": "centre_tie",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "brace_base_f",
+   "parent": "brace_f",
+   "kind": "pin"
+  },
+  {
+   "child": "brace_base_f",
+   "parent": "extension_fl",
+   "kind": "pin"
+  },
+  {
+   "child": "brace_vertical_f",
+   "parent": "brace_f",
+   "kind": "pin"
+  },
+  {
+   "child": "brace_vertical_f",
+   "parent": "frame_f",
+   "kind": "pin"
+  },
+  {
+   "child": "splice_anchor_f",
+   "parent": "splice_f",
+   "kind": "pin"
+  },
+  {
+   "child": "splice_anchor_f",
+   "parent": "extension_fl",
+   "kind": "pin"
+  },
+  {
+   "child": "splice_anchor_f",
+   "parent": "extension_fr",
+   "kind": "pin"
+  },
+  {
+   "child": "coupler_f",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "coupler_f",
+   "parent": "negative_f",
+   "kind": "cross"
+  },
+  {
+   "child": "negative_f",
+   "parent": "outerbearing_f",
+   "kind": "hinge"
+  },
+  {
+   "child": "bridge_f",
+   "parent": "outerbearing_f",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "bridge_f",
+   "parent": "extension_fr",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "innerstop_f",
+   "parent": "negative_f",
+   "kind": "cross"
+  },
+  {
+   "child": "outerstop_f",
+   "parent": "negative_f",
+   "kind": "cross"
+  },
+  {
+   "child": "bridge2_f",
+   "parent": "bridge_f",
+   "kind": "stud",
+   "studs": 32
+  },
+  {
+   "child": "upperbearing_finner",
+   "parent": "bridge2_f",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "strap_finner-24124",
+   "parent": "strap_finner-24",
+   "kind": "pin"
+  },
+  {
+   "child": "strap_finner-24124",
+   "parent": "extension_fr",
+   "kind": "pin"
+  },
+  {
+   "child": "strap_finner-24140",
+   "parent": "strap_finner-24",
+   "kind": "pin"
+  },
+  {
+   "child": "strap_finner-24140",
+   "parent": "upperbearing_finner",
+   "kind": "pin"
+  },
+  {
+   "child": "strap_finner24124",
+   "parent": "strap_finner24",
+   "kind": "pin"
+  },
+  {
+   "child": "strap_finner24124",
+   "parent": "extension_fr",
+   "kind": "pin"
+  },
+  {
+   "child": "strap_finner24140",
+   "parent": "strap_finner24",
+   "kind": "pin"
+  },
+  {
+   "child": "strap_finner24140",
+   "parent": "upperbearing_finner",
+   "kind": "pin"
+  },
+  {
+   "child": "upperbearing_fouter",
+   "parent": "bridge2_f",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "strap_fouter-24124",
+   "parent": "strap_fouter-24",
+   "kind": "pin"
+  },
+  {
+   "child": "strap_fouter-24124",
+   "parent": "outerbearing_f",
+   "kind": "pin"
+  },
+  {
+   "child": "strap_fouter-24140",
+   "parent": "strap_fouter-24",
+   "kind": "pin"
+  },
+  {
+   "child": "strap_fouter-24140",
+   "parent": "upperbearing_fouter",
+   "kind": "pin"
+  },
+  {
+   "child": "strap_fouter24124",
+   "parent": "strap_fouter24",
+   "kind": "pin"
+  },
+  {
+   "child": "strap_fouter24124",
+   "parent": "outerbearing_f",
+   "kind": "pin"
+  },
+  {
+   "child": "strap_fouter24140",
+   "parent": "strap_fouter24",
+   "kind": "pin"
+  },
+  {
+   "child": "strap_fouter24140",
+   "parent": "upperbearing_fouter",
+   "kind": "pin"
+  },
+  {
+   "child": "rotor_f-1",
+   "parent": "negative_f",
+   "kind": "cross"
+  },
+  {
+   "child": "stop_f-1_-10",
+   "parent": "negative_f",
+   "kind": "cross"
+  },
+  {
+   "child": "stop_f-1_6",
+   "parent": "negative_f",
+   "kind": "cross"
+  },
+  {
+   "child": "rotor_f1",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "stop_f1_-10",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "stop_f1_6",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "brace_base_r",
+   "parent": "brace_r",
+   "kind": "pin"
+  },
+  {
+   "child": "brace_base_r",
+   "parent": "extension_rl",
+   "kind": "pin"
+  },
+  {
+   "child": "brace_vertical_r",
+   "parent": "brace_r",
+   "kind": "pin"
+  },
+  {
+   "child": "brace_vertical_r",
+   "parent": "frame_r",
+   "kind": "pin"
+  },
+  {
+   "child": "splice_anchor_r",
+   "parent": "splice_r",
+   "kind": "pin"
+  },
+  {
+   "child": "splice_anchor_r",
+   "parent": "extension_rl",
+   "kind": "pin"
+  },
+  {
+   "child": "splice_anchor_r",
+   "parent": "extension_rr",
+   "kind": "pin"
+  },
+  {
+   "child": "coupler_r",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "coupler_r",
+   "parent": "negative_r",
+   "kind": "cross"
+  },
+  {
+   "child": "negative_r",
+   "parent": "outerbearing_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "bridge_r",
+   "parent": "outerbearing_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "bridge_r",
+   "parent": "extension_rr",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "innerstop_r",
+   "parent": "negative_r",
+   "kind": "cross"
+  },
+  {
+   "child": "outerstop_r",
+   "parent": "negative_r",
+   "kind": "cross"
+  },
+  {
+   "child": "bridge2_r",
+   "parent": "bridge_r",
+   "kind": "stud",
+   "studs": 32
+  },
+  {
+   "child": "upperbearing_rinner",
+   "parent": "bridge2_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "strap_rinner-24124",
+   "parent": "strap_rinner-24",
+   "kind": "pin"
+  },
+  {
+   "child": "strap_rinner-24124",
+   "parent": "extension_rr",
+   "kind": "pin"
+  },
+  {
+   "child": "strap_rinner-24140",
+   "parent": "strap_rinner-24",
+   "kind": "pin"
+  },
+  {
+   "child": "strap_rinner-24140",
+   "parent": "upperbearing_rinner",
+   "kind": "pin"
+  },
+  {
+   "child": "strap_rinner24124",
+   "parent": "strap_rinner24",
+   "kind": "pin"
+  },
+  {
+   "child": "strap_rinner24124",
+   "parent": "extension_rr",
+   "kind": "pin"
+  },
+  {
+   "child": "strap_rinner24140",
+   "parent": "strap_rinner24",
+   "kind": "pin"
+  },
+  {
+   "child": "strap_rinner24140",
+   "parent": "upperbearing_rinner",
+   "kind": "pin"
+  },
+  {
+   "child": "upperbearing_router",
+   "parent": "bridge2_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "strap_router-24124",
+   "parent": "strap_router-24",
+   "kind": "pin"
+  },
+  {
+   "child": "strap_router-24124",
+   "parent": "outerbearing_r",
+   "kind": "pin"
+  },
+  {
+   "child": "strap_router-24140",
+   "parent": "strap_router-24",
+   "kind": "pin"
+  },
+  {
+   "child": "strap_router-24140",
+   "parent": "upperbearing_router",
+   "kind": "pin"
+  },
+  {
+   "child": "strap_router24124",
+   "parent": "strap_router24",
+   "kind": "pin"
+  },
+  {
+   "child": "strap_router24124",
+   "parent": "outerbearing_r",
+   "kind": "pin"
+  },
+  {
+   "child": "strap_router24140",
+   "parent": "strap_router24",
+   "kind": "pin"
+  },
+  {
+   "child": "strap_router24140",
+   "parent": "upperbearing_router",
+   "kind": "pin"
+  },
+  {
+   "child": "rotor_r-1",
+   "parent": "negative_r",
+   "kind": "cross"
+  },
+  {
+   "child": "stop_r-1_-10",
+   "parent": "negative_r",
+   "kind": "cross"
+  },
+  {
+   "child": "stop_r-1_6",
+   "parent": "negative_r",
+   "kind": "cross"
+  },
+  {
+   "child": "rotor_r1",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "stop_r1_-10",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "stop_r1_6",
+   "parent": "axle_r",
+   "kind": "cross"
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "pinion_f",
+   "gear_b": "inter_big_f"
+  },
+  {
+   "gear_a": "inter_small_f",
+   "gear_b": "gear_f"
+  },
+  {
+   "gear_a": "pinion_r",
+   "gear_b": "inter_big_r"
+  },
+  {
+   "gear_a": "inter_small_r",
+   "gear_b": "gear_r"
+  }
+ ],
+ "start_gap_mm": 2,
+ "motor_program": [
+  {
+   "t": 0,
+   "motor": "all",
+   "level": 7
+  },
+  {
+   "t": 3.7,
+   "motor": "all",
+   "level": "brake"
+  }
+ ]
+}

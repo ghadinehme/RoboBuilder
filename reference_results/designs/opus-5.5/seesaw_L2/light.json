@@ -1,0 +1,886 @@
+{
+ "name": "lance5",
+ "description": "",
+ "part_set": "inventory",
+ "chassis": "brick_l",
+ "motor": "motor",
+ "battery": "battery",
+ "parts": [
+  {
+   "name": "brick_l",
+   "part": "3703",
+   "pos_mm": [
+    48.0,
+    12.0,
+    19.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "brick_r",
+   "part": "3895",
+   "pos_mm": [
+    56.0,
+    -12.0,
+    19.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "rl_l",
+   "part": "32278",
+   "pos_mm": [
+    -56.0,
+    4.0,
+    15.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "pin_rll0",
+   "part": "2780",
+   "pos_mm": [
+    0.0,
+    8.0,
+    15.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "pin_rll1",
+   "part": "2780",
+   "pos_mm": [
+    -8.0,
+    8.0,
+    15.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "rear_axle",
+   "part": "44294",
+   "pos_mm": [
+    -112.0,
+    -14.0,
+    15.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "w_rearr",
+   "part": "4185",
+   "pos_mm": [
+    -112.0,
+    -18.2,
+    15.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "rb_l",
+   "part": "4265c",
+   "pos_mm": [
+    -112.0,
+    10.0,
+    15.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "rb_r",
+   "part": "4265c",
+   "pos_mm": [
+    -112.0,
+    -2.0,
+    15.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "sp_rear",
+   "part": "94925",
+   "pos_mm": [
+    -112.0,
+    -36.0,
+    15.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "front_axle",
+   "part": "44294",
+   "pos_mm": [
+    96.0,
+    -6.0,
+    15.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "w_frontl",
+   "part": "4185t",
+   "pos_mm": [
+    96.0,
+    18.2,
+    15.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "w_frontr",
+   "part": "4185t",
+   "pos_mm": [
+    96.0,
+    -18.2,
+    15.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "g_front",
+   "part": "3648",
+   "pos_mm": [
+    96.0,
+    -28.0,
+    15.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "motor",
+   "part": "58120c01",
+   "pos_mm": [
+    48.0,
+    -24.0,
+    31.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "mshaft",
+   "part": "32062",
+   "pos_mm": [
+    48.0,
+    -26.2,
+    31.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "pinion",
+   "part": "10928",
+   "pos_mm": [
+    48.0,
+    -28.0,
+    31.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "g48_ax",
+   "part": "32073",
+   "pos_mm": [
+    48.0,
+    -20.2,
+    15.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "sp48",
+   "part": "94925",
+   "pos_mm": [
+    48.0,
+    -36.0,
+    15.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "g48",
+   "part": "3648",
+   "pos_mm": [
+    48.0,
+    -28.0,
+    15.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "g48_b",
+   "part": "4265c",
+   "pos_mm": [
+    48.0,
+    -18.0,
+    15.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "g48_h",
+   "part": "4265c",
+   "pos_mm": [
+    48.0,
+    -4.0,
+    15.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "g72_ax",
+   "part": "3705",
+   "pos_mm": [
+    72.0,
+    -17.8,
+    15.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "g72",
+   "part": "3648",
+   "pos_mm": [
+    72.0,
+    -28.0,
+    15.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "g72_b",
+   "part": "4265c",
+   "pos_mm": [
+    72.0,
+    -18.0,
+    15.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "g72_h",
+   "part": "4265c",
+   "pos_mm": [
+    72.0,
+    -6.0,
+    15.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "riser_l",
+   "part": "3701",
+   "pos_mm": [
+    88.0,
+    12.0,
+    28.8
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "rplate_l",
+   "part": "3710",
+   "pos_mm": [
+    88.0,
+    12.0,
+    32.0
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "riser_r",
+   "part": "3701",
+   "pos_mm": [
+    88.0,
+    -12.0,
+    28.8
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "rplate_r",
+   "part": "3710",
+   "pos_mm": [
+    88.0,
+    -12.0,
+    32.0
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    88.0,
+    0.0,
+    70.4
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    8.0,
+    0.0,
+    28.8
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "abase",
+   "part": "3020",
+   "pos_mm": [
+    88.0,
+    -16.0,
+    73.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "aplate",
+   "part": "3701",
+   "pos_mm": [
+    88.0,
+    -20.0,
+    83.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "anchor",
+   "part": "3700",
+   "pos_mm": [
+    96.0,
+    -20.0,
+    92.8
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "lance1",
+   "part": "32278",
+   "pos_mm": [
+    144.1717,
+    -4.0,
+    35.7568
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": -30.66
+  },
+  {
+   "name": "rootL",
+   "part": "60484",
+   "pos_mm": [
+    80.0,
+    4.0,
+    15.2
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 180
+  },
+  {
+   "name": "pin_rl0",
+   "part": "3673",
+   "pos_mm": [
+    88.0,
+    8.0,
+    15.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "pin_rl1",
+   "part": "3673",
+   "pos_mm": [
+    80.0,
+    8.0,
+    15.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "pin_root",
+   "part": "3673",
+   "pos_mm": [
+    96.0,
+    0.0,
+    7.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "lance2",
+   "part": "41239",
+   "pos_mm": [
+    226.7517,
+    4.0,
+    84.7113
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": -30.66
+  },
+  {
+   "name": "lpin13",
+   "part": "3673",
+   "pos_mm": [
+    185.4617,
+    0.0,
+    60.234
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "lpin14",
+   "part": "3673",
+   "pos_mm": [
+    192.3434,
+    0.0,
+    64.3136
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "lance3",
+   "part": "32524",
+   "pos_mm": [
+    281.805,
+    -4.0,
+    117.3476
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": -30.66
+  },
+  {
+   "name": "lpin24",
+   "part": "3673",
+   "pos_mm": [
+    261.16,
+    0.0,
+    105.109
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "lpin25",
+   "part": "3673",
+   "pos_mm": [
+    268.0417,
+    0.0,
+    109.1885
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "strut",
+   "part": "32525",
+   "pos_mm": [
+    130.4083,
+    -12.0,
+    68.3977
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 30.66566725731932
+  },
+  {
+   "name": "pin_p1",
+   "part": "3673",
+   "pos_mm": [
+    96.0,
+    -16.0,
+    88.8
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "pin_q",
+   "part": "3673",
+   "pos_mm": [
+    164.8167,
+    -8.0,
+    47.9954
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  }
+ ],
+ "connections": [
+  {
+   "child": "pin_rll0",
+   "parent": "rl_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_rll0",
+   "parent": "brick_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_rll1",
+   "parent": "rl_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_rll1",
+   "parent": "brick_l",
+   "kind": "pin"
+  },
+  {
+   "child": "rear_axle",
+   "parent": "rl_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "w_rearr",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rb_l",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rb_r",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "sp_rear",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_axle",
+   "parent": "brick_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "front_axle",
+   "parent": "brick_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "w_frontl",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "w_frontr",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "g_front",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "motor",
+   "parent": "brick_l",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "motor",
+   "parent": "brick_r",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "mshaft",
+   "parent": "motor",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion",
+   "parent": "mshaft",
+   "kind": "cross"
+  },
+  {
+   "child": "g48_ax",
+   "parent": "brick_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "sp48",
+   "parent": "g48_ax",
+   "kind": "cross"
+  },
+  {
+   "child": "g48",
+   "parent": "g48_ax",
+   "kind": "cross"
+  },
+  {
+   "child": "g48_b",
+   "parent": "g48_ax",
+   "kind": "cross"
+  },
+  {
+   "child": "g48_h",
+   "parent": "g48_ax",
+   "kind": "cross"
+  },
+  {
+   "child": "g72_ax",
+   "parent": "brick_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "g72",
+   "parent": "g72_ax",
+   "kind": "cross"
+  },
+  {
+   "child": "g72_b",
+   "parent": "g72_ax",
+   "kind": "cross"
+  },
+  {
+   "child": "g72_h",
+   "parent": "g72_ax",
+   "kind": "cross"
+  },
+  {
+   "child": "riser_l",
+   "parent": "brick_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rplate_l",
+   "parent": "riser_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "riser_r",
+   "parent": "brick_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rplate_r",
+   "parent": "riser_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "battery",
+   "parent": "rplate_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "battery",
+   "parent": "rplate_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "receiver",
+   "parent": "brick_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "receiver",
+   "parent": "brick_r",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "abase",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "aplate",
+   "parent": "abase",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "anchor",
+   "parent": "aplate",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "pin_rl0",
+   "parent": "rootL",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_rl0",
+   "parent": "brick_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_rl1",
+   "parent": "rootL",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_rl1",
+   "parent": "brick_l",
+   "kind": "pin"
+  },
+  {
+   "child": "front_axle",
+   "parent": "rootL",
+   "kind": "hinge"
+  },
+  {
+   "child": "pin_root",
+   "parent": "lance1",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_root",
+   "parent": "rootL",
+   "kind": "pin"
+  },
+  {
+   "child": "lpin13",
+   "parent": "lance1",
+   "kind": "pin"
+  },
+  {
+   "child": "lpin13",
+   "parent": "lance2",
+   "kind": "pin"
+  },
+  {
+   "child": "lpin14",
+   "parent": "lance1",
+   "kind": "pin"
+  },
+  {
+   "child": "lpin14",
+   "parent": "lance2",
+   "kind": "pin"
+  },
+  {
+   "child": "lpin24",
+   "parent": "lance2",
+   "kind": "pin"
+  },
+  {
+   "child": "lpin24",
+   "parent": "lance3",
+   "kind": "pin"
+  },
+  {
+   "child": "lpin25",
+   "parent": "lance2",
+   "kind": "pin"
+  },
+  {
+   "child": "lpin25",
+   "parent": "lance3",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_p1",
+   "parent": "anchor",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_p1",
+   "parent": "strut",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_q",
+   "parent": "lance1",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_q",
+   "parent": "strut",
+   "kind": "pin"
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "pinion",
+   "gear_b": "g48"
+  },
+  {
+   "gear_a": "g48",
+   "gear_b": "g72"
+  },
+  {
+   "gear_a": "g72",
+   "gear_b": "g_front"
+  }
+ ],
+ "chains": [
+  {
+   "name": "chain",
+   "gears": [
+    "sp48",
+    "sp_rear"
+   ],
+   "links": 58
+  }
+ ],
+ "motor_program": [
+  {
+   "t": 0.0,
+   "motor": "motor",
+   "level": 7
+  },
+  {
+   "t": 25.0,
+   "motor": "motor",
+   "level": "brake"
+  }
+ ],
+ "start_gap_mm": 5.0
+}

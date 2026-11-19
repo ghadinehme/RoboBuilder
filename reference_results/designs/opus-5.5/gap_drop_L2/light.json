@@ -1,0 +1,557 @@
+{
+ "name": "v9f",
+ "description": "v3 tip-and-slide crawler: M free, M2 driven, chain-driven F on a boom, sliding tail",
+ "chassis": "railR",
+ "motor": "motor",
+ "battery": "battery",
+ "intended": [],
+ "parts": [
+  {
+   "name": "railL",
+   "part": "3702",
+   "pos_mm": [
+    16.0,
+    -12.0,
+    16.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "railR",
+   "part": "3702",
+   "pos_mm": [
+    24.0,
+    12.0,
+    16.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "motor",
+   "part": "58120c01",
+   "pos_mm": [
+    32.0,
+    24.0,
+    28.0
+   ],
+   "yaw_deg": 180.0
+  },
+  {
+   "name": "mshaft",
+   "part": "32062",
+   "pos_mm": [
+    32.0,
+    28.0,
+    28.0
+   ],
+   "yaw_deg": 90.0
+  },
+  {
+   "name": "g12",
+   "part": "69778",
+   "pos_mm": [
+    32.0,
+    28.0,
+    28.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "ax2",
+   "part": "23948",
+   "pos_mm": [
+    32.0,
+    0.0,
+    12.0
+   ],
+   "yaw_deg": 90.0
+  },
+  {
+   "name": "g20",
+   "part": "32269",
+   "pos_mm": [
+    32.0,
+    28.0,
+    12.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "spr2",
+   "part": "94925",
+   "pos_mm": [
+    32.0,
+    -28.0,
+    12.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "w2L",
+   "part": "4185",
+   "pos_mm": [
+    32.0,
+    -36.0,
+    12.0
+   ],
+   "yaw_deg": 180.0
+  },
+  {
+   "name": "w2R",
+   "part": "4185",
+   "pos_mm": [
+    32.0,
+    36.0,
+    12.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "ax1",
+   "part": "23948",
+   "pos_mm": [
+    0.0,
+    0.0,
+    12.0
+   ],
+   "yaw_deg": 90.0
+  },
+  {
+   "name": "w1L",
+   "part": "55423c01",
+   "pos_mm": [
+    0.0,
+    -36.0,
+    12.0
+   ],
+   "yaw_deg": 180.0
+  },
+  {
+   "name": "w1R",
+   "part": "55423c01",
+   "pos_mm": [
+    0.0,
+    36.0,
+    12.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    0.0,
+    0.0,
+    54.4
+   ],
+   "yaw_deg": 90.0
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    0.0,
+    -16.0,
+    64.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "tAL",
+   "part": "41239",
+   "pos_mm": [
+    -48.0,
+    -4.0,
+    12.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "pin0",
+   "part": "2780",
+   "pos_mm": [
+    -8.0,
+    -8.0,
+    12.0
+   ],
+   "yaw_deg": 90.0
+  },
+  {
+   "name": "tBL",
+   "part": "32524",
+   "pos_mm": [
+    -112.0,
+    -12.0,
+    12.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "pin1",
+   "part": "2780",
+   "pos_mm": [
+    -88.0,
+    -8.0,
+    12.0
+   ],
+   "yaw_deg": 90.0
+  },
+  {
+   "name": "pin2",
+   "part": "2780",
+   "pos_mm": [
+    -96.0,
+    -8.0,
+    12.0
+   ],
+   "yaw_deg": 90.0
+  },
+  {
+   "name": "bm1",
+   "part": "41239",
+   "pos_mm": [
+    88.0,
+    4.0,
+    12.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "pin3",
+   "part": "2780",
+   "pos_mm": [
+    40.0,
+    8.0,
+    12.0
+   ],
+   "yaw_deg": 90.0
+  },
+  {
+   "name": "pin4",
+   "part": "2780",
+   "pos_mm": [
+    48.0,
+    8.0,
+    12.0
+   ],
+   "yaw_deg": 90.0
+  },
+  {
+   "name": "bm2",
+   "part": "32525",
+   "pos_mm": [
+    168.0,
+    -4.0,
+    12.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "pin5",
+   "part": "2780",
+   "pos_mm": [
+    128.0,
+    0.0,
+    12.0
+   ],
+   "yaw_deg": 90.0
+  },
+  {
+   "name": "pin6",
+   "part": "2780",
+   "pos_mm": [
+    136.0,
+    0.0,
+    12.0
+   ],
+   "yaw_deg": 90.0
+  },
+  {
+   "name": "axF",
+   "part": "44294",
+   "pos_mm": [
+    208.0,
+    -4.5,
+    12.0
+   ],
+   "yaw_deg": 90.0
+  },
+  {
+   "name": "sprF",
+   "part": "94925",
+   "pos_mm": [
+    208.0,
+    -28.0,
+    12.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "fb0",
+   "part": "4265c",
+   "pos_mm": [
+    208.0,
+    -10.0,
+    12.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "fb1",
+   "part": "4265c",
+   "pos_mm": [
+    208.0,
+    2.0,
+    12.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wFL",
+   "part": "4185",
+   "pos_mm": [
+    208.0,
+    -19.0,
+    12.0
+   ],
+   "yaw_deg": 180.0
+  },
+  {
+   "name": "wFR",
+   "part": "4185",
+   "pos_mm": [
+    208.0,
+    19.0,
+    12.0
+   ],
+   "yaw_deg": 0.0
+  }
+ ],
+ "connections": [
+  {
+   "child": "motor",
+   "parent": "railL",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "motor",
+   "parent": "railR",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "mshaft",
+   "parent": "motor",
+   "kind": "motor"
+  },
+  {
+   "child": "g12",
+   "parent": "mshaft",
+   "kind": "cross"
+  },
+  {
+   "child": "ax2",
+   "parent": "railL",
+   "kind": "hinge"
+  },
+  {
+   "child": "ax2",
+   "parent": "railR",
+   "kind": "hinge"
+  },
+  {
+   "child": "g20",
+   "parent": "ax2",
+   "kind": "cross"
+  },
+  {
+   "child": "spr2",
+   "parent": "ax2",
+   "kind": "cross"
+  },
+  {
+   "child": "w2L",
+   "parent": "ax2",
+   "kind": "cross"
+  },
+  {
+   "child": "w2R",
+   "parent": "ax2",
+   "kind": "cross"
+  },
+  {
+   "child": "ax1",
+   "parent": "railL",
+   "kind": "hinge"
+  },
+  {
+   "child": "ax1",
+   "parent": "railR",
+   "kind": "hinge"
+  },
+  {
+   "child": "w1L",
+   "parent": "ax1",
+   "kind": "cross"
+  },
+  {
+   "child": "w1R",
+   "parent": "ax1",
+   "kind": "cross"
+  },
+  {
+   "child": "battery",
+   "parent": "railL",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "battery",
+   "parent": "railR",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "ax1",
+   "parent": "tAL",
+   "kind": "hinge"
+  },
+  {
+   "child": "pin0",
+   "parent": "railL",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0",
+   "parent": "tAL",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1",
+   "parent": "tAL",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1",
+   "parent": "tBL",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2",
+   "parent": "tAL",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2",
+   "parent": "tBL",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3",
+   "parent": "railR",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3",
+   "parent": "bm1",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4",
+   "parent": "railR",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4",
+   "parent": "bm1",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5",
+   "parent": "bm1",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5",
+   "parent": "bm2",
+   "kind": "pin"
+  },
+  {
+   "child": "pin6",
+   "parent": "bm1",
+   "kind": "pin"
+  },
+  {
+   "child": "pin6",
+   "parent": "bm2",
+   "kind": "pin"
+  },
+  {
+   "child": "axF",
+   "parent": "bm2",
+   "kind": "hinge"
+  },
+  {
+   "child": "sprF",
+   "parent": "axF",
+   "kind": "cross"
+  },
+  {
+   "child": "fb0",
+   "parent": "axF",
+   "kind": "cross"
+  },
+  {
+   "child": "fb1",
+   "parent": "axF",
+   "kind": "cross"
+  },
+  {
+   "child": "wFL",
+   "parent": "axF",
+   "kind": "cross"
+  },
+  {
+   "child": "wFR",
+   "parent": "axF",
+   "kind": "cross"
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "g12",
+   "gear_b": "g20"
+  }
+ ],
+ "part_set": "inventory",
+ "motor_program": [
+  {
+   "t": 0.0,
+   "motor": "motor",
+   "level": 5
+  },
+  {
+   "t": 3.5,
+   "motor": "motor",
+   "level": "brake"
+  }
+ ],
+ "start_gap_mm": 20.0,
+ "chains": [
+  {
+   "name": "chainF",
+   "gears": [
+    "spr2",
+    "sprF"
+   ],
+   "links": 63
+  }
+ ]
+}

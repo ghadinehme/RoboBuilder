@@ -1,0 +1,436 @@
+{
+ "name": "car4",
+ "description": "L-motor direct drive rear, pinned side bricks",
+ "part_set": "inventory",
+ "chassis": "brL",
+ "motor": "ML",
+ "battery": "bat",
+ "parts": [
+  {
+   "name": "brL",
+   "part": "3895",
+   "pos_mm": [
+    32,
+    60,
+    35.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "ML",
+   "part": "99499c01",
+   "pos_mm": [
+    0,
+    56,
+    31.32
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "pinL0",
+   "part": "2780",
+   "pos_mm": [
+    -8,
+    56,
+    31.32
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "pinL1",
+   "part": "2780",
+   "pos_mm": [
+    8,
+    56,
+    31.32
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "axL",
+   "part": "32073",
+   "pos_mm": [
+    0,
+    71.8,
+    31.32
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "wL",
+   "part": "32020c01",
+   "pos_mm": [
+    0,
+    70.2,
+    31.32
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "faxL",
+   "part": "32073",
+   "pos_mm": [
+    64,
+    71.8,
+    31.32
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "bushL",
+   "part": "4265c",
+   "pos_mm": [
+    64,
+    54,
+    31.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "fwL",
+   "part": "4185t",
+   "pos_mm": [
+    64,
+    75,
+    31.32
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "brR",
+   "part": "3895",
+   "pos_mm": [
+    32,
+    -60,
+    35.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "MR",
+   "part": "99499c01",
+   "pos_mm": [
+    0,
+    -56,
+    31.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "pinR0",
+   "part": "2780",
+   "pos_mm": [
+    -8,
+    -56,
+    31.32
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "pinR1",
+   "part": "2780",
+   "pos_mm": [
+    8,
+    -56,
+    31.32
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "axR",
+   "part": "32073",
+   "pos_mm": [
+    0,
+    -71.8,
+    31.32
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "wR",
+   "part": "32020c01",
+   "pos_mm": [
+    0,
+    -70.2,
+    31.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "faxR",
+   "part": "32073",
+   "pos_mm": [
+    64,
+    -71.8,
+    31.32
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "bushR",
+   "part": "4265c",
+   "pos_mm": [
+    64,
+    -54,
+    31.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "fwR",
+   "part": "4185t",
+   "pos_mm": [
+    64,
+    -75,
+    31.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "F",
+   "part": "92438",
+   "pos_mm": [
+    56,
+    0,
+    38.52
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "tie",
+   "part": "50451",
+   "pos_mm": [
+    32,
+    0,
+    31.32
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "tba",
+   "part": "3700",
+   "pos_mm": [
+    32,
+    4,
+    35.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "tbb",
+   "part": "3700",
+   "pos_mm": [
+    32,
+    -4,
+    35.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "bat",
+   "part": "87513c01",
+   "pos_mm": [
+    56,
+    0,
+    76.92
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rx",
+   "part": "58123c01",
+   "pos_mm": [
+    40,
+    0,
+    86.52
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "pinL0",
+   "parent": "brL",
+   "kind": "pin"
+  },
+  {
+   "child": "pinL0",
+   "parent": "ML",
+   "kind": "pin"
+  },
+  {
+   "child": "pinL1",
+   "parent": "brL",
+   "kind": "pin"
+  },
+  {
+   "child": "pinL1",
+   "parent": "ML",
+   "kind": "pin"
+  },
+  {
+   "child": "axL",
+   "parent": "ML",
+   "kind": "motor"
+  },
+  {
+   "child": "wL",
+   "parent": "axL",
+   "kind": "cross"
+  },
+  {
+   "child": "faxL",
+   "parent": "brL",
+   "kind": "hinge"
+  },
+  {
+   "child": "bushL",
+   "parent": "faxL",
+   "kind": "cross"
+  },
+  {
+   "child": "fwL",
+   "parent": "faxL",
+   "kind": "cross"
+  },
+  {
+   "child": "pinR0",
+   "parent": "brR",
+   "kind": "pin"
+  },
+  {
+   "child": "pinR0",
+   "parent": "MR",
+   "kind": "pin"
+  },
+  {
+   "child": "pinR1",
+   "parent": "brR",
+   "kind": "pin"
+  },
+  {
+   "child": "pinR1",
+   "parent": "MR",
+   "kind": "pin"
+  },
+  {
+   "child": "axR",
+   "parent": "MR",
+   "kind": "motor"
+  },
+  {
+   "child": "wR",
+   "parent": "axR",
+   "kind": "cross"
+  },
+  {
+   "child": "faxR",
+   "parent": "brR",
+   "kind": "hinge"
+  },
+  {
+   "child": "bushR",
+   "parent": "faxR",
+   "kind": "cross"
+  },
+  {
+   "child": "fwR",
+   "parent": "faxR",
+   "kind": "cross"
+  },
+  {
+   "child": "F",
+   "parent": "brL",
+   "kind": "stud",
+   "studs": 7
+  },
+  {
+   "child": "F",
+   "parent": "brR",
+   "kind": "stud",
+   "studs": 7
+  },
+  {
+   "child": "tba",
+   "parent": "F",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "tie",
+   "parent": "tba",
+   "kind": "hinge"
+  },
+  {
+   "child": "tbb",
+   "parent": "F",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "tie",
+   "parent": "tbb",
+   "kind": "hinge"
+  },
+  {
+   "child": "tie",
+   "parent": "brL",
+   "kind": "hinge"
+  },
+  {
+   "child": "tie",
+   "parent": "brR",
+   "kind": "hinge"
+  },
+  {
+   "child": "bat",
+   "parent": "F",
+   "kind": "stud",
+   "studs": 24
+  },
+  {
+   "child": "rx",
+   "parent": "bat",
+   "kind": "stud",
+   "studs": 10
+  }
+ ],
+ "gear_meshes": [],
+ "motor_program": [
+  {
+   "t": 0.0,
+   "motor": "all",
+   "level": 7
+  },
+  {
+   "t": 3,
+   "motor": "all",
+   "level": "brake"
+  }
+ ],
+ "start_gap_mm": 0
+}

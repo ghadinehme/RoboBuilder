@@ -1,0 +1,637 @@
+{
+ "name": "Short wheelbase bump roller rover",
+ "description": "80 mm wheelbase, continuous three-rail chassis, four 62.6 mm driven tyres and two 43.2 mm raised powered belly rollers. Twin M motors with 24:40 reduction. Full forward at start; brake at 4.5 s.",
+ "part_set": "inventory",
+ "chassis": "left",
+ "motor": "rearmotor",
+ "battery": "battery",
+ "parts": [
+  {
+   "name": "left",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    36,
+    48.120000000000005
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "right",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    -36,
+    48.120000000000005
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "middle",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    4,
+    48.120000000000005
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rearax",
+   "part": "50451",
+   "pos_mm": [
+    -40,
+    0,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "rearbearingl",
+   "part": "3701",
+   "pos_mm": [
+    -32.0,
+    36,
+    35.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rearspacerl",
+   "part": "3710",
+   "pos_mm": [
+    -32.0,
+    36,
+    38.52
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rearbearingr",
+   "part": "3701",
+   "pos_mm": [
+    -32.0,
+    -36,
+    35.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rearspacerr",
+   "part": "3710",
+   "pos_mm": [
+    -32.0,
+    -36,
+    38.52
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rearwheell",
+   "part": "32020c01",
+   "pos_mm": [
+    -40,
+    55.8,
+    31.32
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "rearwheelr",
+   "part": "32020c01",
+   "pos_mm": [
+    -40,
+    -55.8,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rearbushl",
+   "part": "4265c",
+   "pos_mm": [
+    -40,
+    30,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rearbushr",
+   "part": "4265c",
+   "pos_mm": [
+    -40,
+    -42,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rearroller",
+   "part": "56145c01",
+   "pos_mm": [
+    -40,
+    -20,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "reargear",
+   "part": "3649",
+   "pos_mm": [
+    -40,
+    44,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rearmount",
+   "part": "3032",
+   "pos_mm": [
+    -40,
+    16,
+    51.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "rearmotor",
+   "part": "58120c01",
+   "pos_mm": [
+    -40,
+    40,
+    63.32
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "rearshaft",
+   "part": "32062",
+   "pos_mm": [
+    -40,
+    40.05,
+    63.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "rearpinion",
+   "part": "3648",
+   "pos_mm": [
+    -40,
+    44,
+    63.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "frontax",
+   "part": "50451",
+   "pos_mm": [
+    40,
+    0,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "frontbearingl",
+   "part": "3701",
+   "pos_mm": [
+    32.0,
+    36,
+    35.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "frontspacerl",
+   "part": "3710",
+   "pos_mm": [
+    32.0,
+    36,
+    38.52
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "frontbearingr",
+   "part": "3701",
+   "pos_mm": [
+    32.0,
+    -36,
+    35.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "frontspacerr",
+   "part": "3710",
+   "pos_mm": [
+    32.0,
+    -36,
+    38.52
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "frontwheell",
+   "part": "32020c01",
+   "pos_mm": [
+    40,
+    55.8,
+    31.32
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "frontwheelr",
+   "part": "32020c01",
+   "pos_mm": [
+    40,
+    -55.8,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "frontbushl",
+   "part": "4265c",
+   "pos_mm": [
+    40,
+    30,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "frontbushr",
+   "part": "4265c",
+   "pos_mm": [
+    40,
+    -42,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "frontroller",
+   "part": "56145c01",
+   "pos_mm": [
+    40,
+    -20,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "frontgear",
+   "part": "3649",
+   "pos_mm": [
+    40,
+    44,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "frontmount",
+   "part": "3032",
+   "pos_mm": [
+    40,
+    16,
+    51.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "frontmotor",
+   "part": "58120c01",
+   "pos_mm": [
+    40,
+    40,
+    63.32
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "frontshaft",
+   "part": "32062",
+   "pos_mm": [
+    40,
+    40.05,
+    63.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "frontpinion",
+   "part": "3648",
+   "pos_mm": [
+    40,
+    44,
+    63.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "deck",
+   "part": "3033",
+   "pos_mm": [
+    0,
+    0,
+    51.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "lowerbrace",
+   "part": "3030",
+   "pos_mm": [
+    0,
+    0,
+    38.52
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    0,
+    0,
+    89.72
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    0,
+    -16,
+    99.32
+   ],
+   "yaw_deg": 270
+  }
+ ],
+ "connections": [
+  {
+   "child": "rearax",
+   "parent": "rearbearingl",
+   "kind": "hinge"
+  },
+  {
+   "child": "rearspacerl",
+   "parent": "rearbearingl",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "left",
+   "parent": "rearspacerl",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rearax",
+   "parent": "rearbearingr",
+   "kind": "hinge"
+  },
+  {
+   "child": "rearspacerr",
+   "parent": "rearbearingr",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "right",
+   "parent": "rearspacerr",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rearwheell",
+   "parent": "rearax",
+   "kind": "cross"
+  },
+  {
+   "child": "rearwheelr",
+   "parent": "rearax",
+   "kind": "cross"
+  },
+  {
+   "child": "rearbushl",
+   "parent": "rearax",
+   "kind": "cross"
+  },
+  {
+   "child": "rearbushr",
+   "parent": "rearax",
+   "kind": "cross"
+  },
+  {
+   "child": "rearroller",
+   "parent": "rearax",
+   "kind": "cross"
+  },
+  {
+   "child": "reargear",
+   "parent": "rearax",
+   "kind": "cross"
+  },
+  {
+   "child": "rearmount",
+   "parent": "left",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rearmount",
+   "parent": "middle",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rearmotor",
+   "parent": "rearmount",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "rearshaft",
+   "parent": "rearmotor",
+   "kind": "motor"
+  },
+  {
+   "child": "rearpinion",
+   "parent": "rearshaft",
+   "kind": "cross"
+  },
+  {
+   "child": "frontax",
+   "parent": "frontbearingl",
+   "kind": "hinge"
+  },
+  {
+   "child": "frontspacerl",
+   "parent": "frontbearingl",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "left",
+   "parent": "frontspacerl",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "frontax",
+   "parent": "frontbearingr",
+   "kind": "hinge"
+  },
+  {
+   "child": "frontspacerr",
+   "parent": "frontbearingr",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "right",
+   "parent": "frontspacerr",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "frontwheell",
+   "parent": "frontax",
+   "kind": "cross"
+  },
+  {
+   "child": "frontwheelr",
+   "parent": "frontax",
+   "kind": "cross"
+  },
+  {
+   "child": "frontbushl",
+   "parent": "frontax",
+   "kind": "cross"
+  },
+  {
+   "child": "frontbushr",
+   "parent": "frontax",
+   "kind": "cross"
+  },
+  {
+   "child": "frontroller",
+   "parent": "frontax",
+   "kind": "cross"
+  },
+  {
+   "child": "frontgear",
+   "parent": "frontax",
+   "kind": "cross"
+  },
+  {
+   "child": "frontmount",
+   "parent": "left",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "frontmount",
+   "parent": "middle",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "frontmotor",
+   "parent": "frontmount",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "frontshaft",
+   "parent": "frontmotor",
+   "kind": "motor"
+  },
+  {
+   "child": "frontpinion",
+   "parent": "frontshaft",
+   "kind": "cross"
+  },
+  {
+   "child": "deck",
+   "parent": "left",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "deck",
+   "parent": "right",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "deck",
+   "parent": "middle",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "left",
+   "parent": "lowerbrace",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "right",
+   "parent": "lowerbrace",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "middle",
+   "parent": "lowerbrace",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "battery",
+   "parent": "deck",
+   "kind": "stud",
+   "studs": 24
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "rearpinion",
+   "gear_b": "reargear"
+  },
+  {
+   "gear_a": "frontpinion",
+   "gear_b": "frontgear"
+  }
+ ],
+ "motor_program": [
+  {
+   "t": 0,
+   "motor": "all",
+   "level": 7
+  },
+  {
+   "t": 4.5,
+   "motor": "all",
+   "level": "brake"
+  }
+ ],
+ "start_gap_mm": 10
+}

@@ -1,0 +1,510 @@
+{
+ "name": "J15",
+ "description": "6WD chain drive",
+ "part_set": "inventory",
+ "chassis": "beamL",
+ "motor": "motor",
+ "battery": "battery",
+ "parts": [
+  {
+   "name": "beamL",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    12,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "beamR",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    -12,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "a0",
+   "part": "50451",
+   "pos_mm": [
+    56,
+    0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "a0_wl",
+   "part": "56145c01",
+   "pos_mm": [
+    56,
+    43.0,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "a0_wr",
+   "part": "56145c01",
+   "pos_mm": [
+    56,
+    -43.0,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "a0_Pa",
+   "part": "94925",
+   "pos_mm": [
+    56,
+    28,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "a0_Pm",
+   "part": "3648",
+   "pos_mm": [
+    56,
+    20,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "a0_b-20",
+   "part": "3713",
+   "pos_mm": [
+    56,
+    -20,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "a1",
+   "part": "50451",
+   "pos_mm": [
+    0,
+    0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "a1_wl",
+   "part": "57519",
+   "pos_mm": [
+    0,
+    43.0,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "a1_wr",
+   "part": "57519",
+   "pos_mm": [
+    0,
+    -43.0,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "a1_Pa",
+   "part": "94925",
+   "pos_mm": [
+    0,
+    28,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "a1_Pb",
+   "part": "94925",
+   "pos_mm": [
+    0,
+    -28,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "a1_b20",
+   "part": "3713",
+   "pos_mm": [
+    0,
+    20,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "a1_b-20",
+   "part": "3713",
+   "pos_mm": [
+    0,
+    -20,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "a2",
+   "part": "50451",
+   "pos_mm": [
+    -56,
+    0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "a2_wl",
+   "part": "57519",
+   "pos_mm": [
+    -56,
+    43.0,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "a2_wr",
+   "part": "57519",
+   "pos_mm": [
+    -56,
+    -43.0,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "a2_Pb",
+   "part": "94925",
+   "pos_mm": [
+    -56,
+    -28,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "a2_b20",
+   "part": "3713",
+   "pos_mm": [
+    -56,
+    20,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "a2_b-20",
+   "part": "3713",
+   "pos_mm": [
+    -56,
+    -20,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "pl0",
+   "part": "3020",
+   "pos_mm": [
+    56,
+    0,
+    28.8
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "br0",
+   "part": "3001",
+   "pos_mm": [
+    56,
+    0,
+    38.4
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pl1",
+   "part": "3020",
+   "pos_mm": [
+    56,
+    0,
+    41.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "motor",
+   "part": "58120c01",
+   "pos_mm": [
+    56,
+    16.0,
+    53.6
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "mshaft",
+   "part": "32062",
+   "pos_mm": [
+    56,
+    18.0,
+    53.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pinion",
+   "part": "94925",
+   "pos_mm": [
+    56,
+    20.0,
+    53.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    -24.0,
+    0,
+    64.0
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    -8.0,
+    0,
+    73.6
+   ],
+   "yaw_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "a0",
+   "parent": "beamL",
+   "kind": "hinge"
+  },
+  {
+   "child": "a0",
+   "parent": "beamR",
+   "kind": "hinge"
+  },
+  {
+   "child": "a0_wl",
+   "parent": "a0",
+   "kind": "cross"
+  },
+  {
+   "child": "a0_wr",
+   "parent": "a0",
+   "kind": "cross"
+  },
+  {
+   "child": "a0_Pa",
+   "parent": "a0",
+   "kind": "cross"
+  },
+  {
+   "child": "a0_Pm",
+   "parent": "a0",
+   "kind": "cross"
+  },
+  {
+   "child": "a0_b-20",
+   "parent": "a0",
+   "kind": "cross"
+  },
+  {
+   "child": "a1",
+   "parent": "beamL",
+   "kind": "hinge"
+  },
+  {
+   "child": "a1",
+   "parent": "beamR",
+   "kind": "hinge"
+  },
+  {
+   "child": "a1_wl",
+   "parent": "a1",
+   "kind": "cross"
+  },
+  {
+   "child": "a1_wr",
+   "parent": "a1",
+   "kind": "cross"
+  },
+  {
+   "child": "a1_Pa",
+   "parent": "a1",
+   "kind": "cross"
+  },
+  {
+   "child": "a1_Pb",
+   "parent": "a1",
+   "kind": "cross"
+  },
+  {
+   "child": "a1_b20",
+   "parent": "a1",
+   "kind": "cross"
+  },
+  {
+   "child": "a1_b-20",
+   "parent": "a1",
+   "kind": "cross"
+  },
+  {
+   "child": "a2",
+   "parent": "beamL",
+   "kind": "hinge"
+  },
+  {
+   "child": "a2",
+   "parent": "beamR",
+   "kind": "hinge"
+  },
+  {
+   "child": "a2_wl",
+   "parent": "a2",
+   "kind": "cross"
+  },
+  {
+   "child": "a2_wr",
+   "parent": "a2",
+   "kind": "cross"
+  },
+  {
+   "child": "a2_Pb",
+   "parent": "a2",
+   "kind": "cross"
+  },
+  {
+   "child": "a2_b20",
+   "parent": "a2",
+   "kind": "cross"
+  },
+  {
+   "child": "a2_b-20",
+   "parent": "a2",
+   "kind": "cross"
+  },
+  {
+   "child": "pl0",
+   "parent": "beamL",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "pl0",
+   "parent": "beamR",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "br0",
+   "parent": "pl0",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "pl1",
+   "parent": "br0",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "motor",
+   "parent": "pl1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "mshaft",
+   "parent": "motor",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion",
+   "parent": "mshaft",
+   "kind": "cross"
+  },
+  {
+   "child": "battery",
+   "parent": "beamL",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "battery",
+   "parent": "beamR",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  }
+ ],
+ "gear_meshes": [],
+ "chains": [
+  {
+   "name": "cF",
+   "gears": [
+    "a0_Pa",
+    "a1_Pa"
+   ],
+   "links": 26
+  },
+  {
+   "name": "cR",
+   "gears": [
+    "a1_Pb",
+    "a2_Pb"
+   ],
+   "links": 26
+  },
+  {
+   "name": "cM",
+   "gears": [
+    "pinion",
+    "a0_Pm"
+   ],
+   "links": 20
+  }
+ ],
+ "motor_program": [
+  {
+   "t": 0,
+   "motor": "motor",
+   "level": 7
+  },
+  {
+   "t": 14.0,
+   "motor": "motor",
+   "level": "brake"
+  }
+ ],
+ "start_gap_mm": 100
+}

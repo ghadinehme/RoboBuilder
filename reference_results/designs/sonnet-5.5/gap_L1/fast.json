@@ -1,0 +1,1021 @@
+{
+ "name": "tri3",
+ "description": "drive block at CG, supports 160 mm fore and aft, outriggers",
+ "chassis": "A_l",
+ "motor": "motor_l",
+ "battery": "battery",
+ "intended": [],
+ "parts": [
+  {
+   "name": "A_l",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    12,
+    16.12
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "B_rl",
+   "part": "3703",
+   "pos_mm": [
+    -72,
+    20,
+    16.12
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "C_rl",
+   "part": "3703",
+   "pos_mm": [
+    -112,
+    28,
+    16.12
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pAB_rl24",
+   "part": "2780",
+   "pos_mm": [
+    -24,
+    16,
+    12.120000000000001
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pAB_rl40",
+   "part": "2780",
+   "pos_mm": [
+    -40,
+    16,
+    12.120000000000001
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pAB_rl56",
+   "part": "2780",
+   "pos_mm": [
+    -56,
+    16,
+    12.120000000000001
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pBC_rl88",
+   "part": "2780",
+   "pos_mm": [
+    -88,
+    24,
+    12.120000000000001
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pBC_rl104",
+   "part": "2780",
+   "pos_mm": [
+    -104,
+    24,
+    12.120000000000001
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pBC_rl120",
+   "part": "2780",
+   "pos_mm": [
+    -120,
+    24,
+    12.120000000000001
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "C_fl",
+   "part": "3703",
+   "pos_mm": [
+    64,
+    20,
+    16.12
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pAC_fl24",
+   "part": "2780",
+   "pos_mm": [
+    24,
+    16,
+    12.120000000000001
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pAC_fl40",
+   "part": "2780",
+   "pos_mm": [
+    40,
+    16,
+    12.120000000000001
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pAC_fl56",
+   "part": "2780",
+   "pos_mm": [
+    56,
+    16,
+    12.120000000000001
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "A_r",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    -12,
+    16.12
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "B_rr",
+   "part": "3703",
+   "pos_mm": [
+    -72,
+    -20,
+    16.12
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "C_rr",
+   "part": "3703",
+   "pos_mm": [
+    -112,
+    -28,
+    16.12
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pAB_rr24",
+   "part": "2780",
+   "pos_mm": [
+    -24,
+    -16,
+    12.120000000000001
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pAB_rr40",
+   "part": "2780",
+   "pos_mm": [
+    -40,
+    -16,
+    12.120000000000001
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pAB_rr56",
+   "part": "2780",
+   "pos_mm": [
+    -56,
+    -16,
+    12.120000000000001
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pBC_rr88",
+   "part": "2780",
+   "pos_mm": [
+    -88,
+    -24,
+    12.120000000000001
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pBC_rr104",
+   "part": "2780",
+   "pos_mm": [
+    -104,
+    -24,
+    12.120000000000001
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pBC_rr120",
+   "part": "2780",
+   "pos_mm": [
+    -120,
+    -24,
+    12.120000000000001
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "C_fr",
+   "part": "3703",
+   "pos_mm": [
+    64,
+    -20,
+    16.12
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pAC_fr24",
+   "part": "2780",
+   "pos_mm": [
+    24,
+    -16,
+    12.120000000000001
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pAC_fr40",
+   "part": "2780",
+   "pos_mm": [
+    40,
+    -16,
+    12.120000000000001
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pAC_fr56",
+   "part": "2780",
+   "pos_mm": [
+    56,
+    -16,
+    12.120000000000001
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "p0",
+   "part": "3028",
+   "pos_mm": [
+    -24,
+    0,
+    19.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "motor_l",
+   "part": "58120c01",
+   "pos_mm": [
+    -24,
+    48,
+    31.32
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "shaft_l",
+   "part": "3705",
+   "pos_mm": [
+    -24,
+    56,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "wheel_m1l",
+   "part": "32020c01",
+   "pos_mm": [
+    -24,
+    62.5,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "motor_r",
+   "part": "58120c01",
+   "pos_mm": [
+    -24,
+    -48,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "shaft_r",
+   "part": "3705",
+   "pos_mm": [
+    -24,
+    -56,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "wheel_m1r",
+   "part": "32020c01",
+   "pos_mm": [
+    -24,
+    -62.5,
+    31.32
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "pl-20_0",
+   "part": "3710",
+   "pos_mm": [
+    -44,
+    0,
+    22.520000000000003
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pl-20_1",
+   "part": "3710",
+   "pos_mm": [
+    -44,
+    0,
+    25.720000000000002
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pl-20_2",
+   "part": "3710",
+   "pos_mm": [
+    -44,
+    0,
+    28.92
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pl-20_3",
+   "part": "3710",
+   "pos_mm": [
+    -44,
+    0,
+    32.120000000000005
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pl-20_4",
+   "part": "3710",
+   "pos_mm": [
+    -44,
+    0,
+    35.32000000000001
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pl-20_5",
+   "part": "3710",
+   "pos_mm": [
+    -44,
+    0,
+    38.52
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pl-20_6",
+   "part": "3710",
+   "pos_mm": [
+    -44,
+    0,
+    41.72
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pl-20_7",
+   "part": "3710",
+   "pos_mm": [
+    -44,
+    0,
+    44.92
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pl20_0",
+   "part": "3710",
+   "pos_mm": [
+    -4,
+    0,
+    22.520000000000003
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pl20_1",
+   "part": "3710",
+   "pos_mm": [
+    -4,
+    0,
+    25.720000000000002
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pl20_2",
+   "part": "3710",
+   "pos_mm": [
+    -4,
+    0,
+    28.92
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pl20_3",
+   "part": "3710",
+   "pos_mm": [
+    -4,
+    0,
+    32.120000000000005
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pl20_4",
+   "part": "3710",
+   "pos_mm": [
+    -4,
+    0,
+    35.32000000000001
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pl20_5",
+   "part": "3710",
+   "pos_mm": [
+    -4,
+    0,
+    38.52
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pl20_6",
+   "part": "3710",
+   "pos_mm": [
+    -4,
+    0,
+    41.72
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pl20_7",
+   "part": "3710",
+   "pos_mm": [
+    -4,
+    0,
+    44.92
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "fb_fl",
+   "part": "3702",
+   "pos_mm": [
+    96,
+    20,
+    25.72
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "fb_fr",
+   "part": "3702",
+   "pos_mm": [
+    96,
+    -20,
+    25.72
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "axle_f",
+   "part": "3706",
+   "pos_mm": [
+    120,
+    0,
+    21.72
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "wheel_fl",
+   "part": "56145c01",
+   "pos_mm": [
+    120,
+    0,
+    21.72
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "fb_rl",
+   "part": "3702",
+   "pos_mm": [
+    -144,
+    28,
+    25.72
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "fb_rr",
+   "part": "3702",
+   "pos_mm": [
+    -144,
+    -28,
+    25.72
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "axle_r",
+   "part": "3707",
+   "pos_mm": [
+    -168,
+    0,
+    21.72
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "wheel_rl",
+   "part": "56145c01",
+   "pos_mm": [
+    -168,
+    0,
+    21.72
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    -16,
+    0,
+    83.32
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    0,
+    0,
+    92.91999999999999
+   ],
+   "yaw_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "pAB_rl24",
+   "parent": "A_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pAB_rl24",
+   "parent": "B_rl",
+   "kind": "pin"
+  },
+  {
+   "child": "pAB_rl40",
+   "parent": "A_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pAB_rl40",
+   "parent": "B_rl",
+   "kind": "pin"
+  },
+  {
+   "child": "pAB_rl56",
+   "parent": "A_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pAB_rl56",
+   "parent": "B_rl",
+   "kind": "pin"
+  },
+  {
+   "child": "pBC_rl88",
+   "parent": "B_rl",
+   "kind": "pin"
+  },
+  {
+   "child": "pBC_rl88",
+   "parent": "C_rl",
+   "kind": "pin"
+  },
+  {
+   "child": "pBC_rl104",
+   "parent": "B_rl",
+   "kind": "pin"
+  },
+  {
+   "child": "pBC_rl104",
+   "parent": "C_rl",
+   "kind": "pin"
+  },
+  {
+   "child": "pBC_rl120",
+   "parent": "B_rl",
+   "kind": "pin"
+  },
+  {
+   "child": "pBC_rl120",
+   "parent": "C_rl",
+   "kind": "pin"
+  },
+  {
+   "child": "pAC_fl24",
+   "parent": "A_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pAC_fl24",
+   "parent": "C_fl",
+   "kind": "pin"
+  },
+  {
+   "child": "pAC_fl40",
+   "parent": "A_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pAC_fl40",
+   "parent": "C_fl",
+   "kind": "pin"
+  },
+  {
+   "child": "pAC_fl56",
+   "parent": "A_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pAC_fl56",
+   "parent": "C_fl",
+   "kind": "pin"
+  },
+  {
+   "child": "pAB_rr24",
+   "parent": "A_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pAB_rr24",
+   "parent": "B_rr",
+   "kind": "pin"
+  },
+  {
+   "child": "pAB_rr40",
+   "parent": "A_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pAB_rr40",
+   "parent": "B_rr",
+   "kind": "pin"
+  },
+  {
+   "child": "pAB_rr56",
+   "parent": "A_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pAB_rr56",
+   "parent": "B_rr",
+   "kind": "pin"
+  },
+  {
+   "child": "pBC_rr88",
+   "parent": "B_rr",
+   "kind": "pin"
+  },
+  {
+   "child": "pBC_rr88",
+   "parent": "C_rr",
+   "kind": "pin"
+  },
+  {
+   "child": "pBC_rr104",
+   "parent": "B_rr",
+   "kind": "pin"
+  },
+  {
+   "child": "pBC_rr104",
+   "parent": "C_rr",
+   "kind": "pin"
+  },
+  {
+   "child": "pBC_rr120",
+   "parent": "B_rr",
+   "kind": "pin"
+  },
+  {
+   "child": "pBC_rr120",
+   "parent": "C_rr",
+   "kind": "pin"
+  },
+  {
+   "child": "pAC_fr24",
+   "parent": "A_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pAC_fr24",
+   "parent": "C_fr",
+   "kind": "pin"
+  },
+  {
+   "child": "pAC_fr40",
+   "parent": "A_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pAC_fr40",
+   "parent": "C_fr",
+   "kind": "pin"
+  },
+  {
+   "child": "pAC_fr56",
+   "parent": "A_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pAC_fr56",
+   "parent": "C_fr",
+   "kind": "pin"
+  },
+  {
+   "child": "p0",
+   "parent": "A_l",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "p0",
+   "parent": "B_rl",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "p0",
+   "parent": "A_r",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "p0",
+   "parent": "B_rr",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "motor_l",
+   "parent": "p0",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "shaft_l",
+   "parent": "motor_l",
+   "kind": "motor"
+  },
+  {
+   "child": "wheel_m1l",
+   "parent": "shaft_l",
+   "kind": "cross"
+  },
+  {
+   "child": "motor_r",
+   "parent": "p0",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "shaft_r",
+   "parent": "motor_r",
+   "kind": "motor"
+  },
+  {
+   "child": "wheel_m1r",
+   "parent": "shaft_r",
+   "kind": "cross"
+  },
+  {
+   "child": "pl-20_0",
+   "parent": "p0",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "pl-20_1",
+   "parent": "pl-20_0",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "pl-20_2",
+   "parent": "pl-20_1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "pl-20_3",
+   "parent": "pl-20_2",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "pl-20_4",
+   "parent": "pl-20_3",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "pl-20_5",
+   "parent": "pl-20_4",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "pl-20_6",
+   "parent": "pl-20_5",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "pl-20_7",
+   "parent": "pl-20_6",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "pl20_0",
+   "parent": "p0",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "pl20_1",
+   "parent": "pl20_0",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "pl20_2",
+   "parent": "pl20_1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "pl20_3",
+   "parent": "pl20_2",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "pl20_4",
+   "parent": "pl20_3",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "pl20_5",
+   "parent": "pl20_4",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "pl20_6",
+   "parent": "pl20_5",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "pl20_7",
+   "parent": "pl20_6",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "fb_fl",
+   "parent": "C_fl",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "fb_fr",
+   "parent": "C_fr",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "axle_f",
+   "parent": "fb_fl",
+   "kind": "hinge"
+  },
+  {
+   "child": "axle_f",
+   "parent": "fb_fr",
+   "kind": "hinge"
+  },
+  {
+   "child": "wheel_fl",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "fb_rl",
+   "parent": "C_rl",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "fb_rr",
+   "parent": "C_rr",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "axle_r",
+   "parent": "fb_rl",
+   "kind": "hinge"
+  },
+  {
+   "child": "axle_r",
+   "parent": "fb_rr",
+   "kind": "hinge"
+  },
+  {
+   "child": "wheel_rl",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "battery",
+   "parent": "pl-20_7",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "battery",
+   "parent": "pl20_7",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  }
+ ],
+ "gear_meshes": [],
+ "part_set": "inventory",
+ "motor_program": [
+  {
+   "t": 0,
+   "motor": "all",
+   "level": 7
+  },
+  {
+   "t": 3.0,
+   "motor": "all",
+   "level": "brake"
+  }
+ ],
+ "start_gap_mm": 0
+}

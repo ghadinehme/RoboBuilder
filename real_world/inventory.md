@@ -1,0 +1,144 @@
+# Parts sourcing
+
+Every part of the owned inventory, with its BrickLink catalogue number, catalogue name and the number
+of pieces owned, so that the parts can be bought and every robot built. Colours do not matter. The part ids of the
+design files and of `robobuilder/core/data/inventory.json` are these catalogue numbers.
+
+132 part types are owned and 131 are offered to the agents: the 131 catalogue items below, plus the wedge-belt wheel
+4185 fitted with its tyre 2815 (design part `4185t`, a type of its own), minus the train motor 87574c01 (owned but
+withdrawn). The chain links (3711) and tread links (3873, 57518) are used through a design's `chains` and `treads`
+lists.
+
+| id | BrickLink catalogue name | pieces | link |
+|---|---|---|---|
+| 731c04 | Technic, Shock Absorber 6.5L with Black Piston Rod - Hard Spring, Tight Coils in Middle | 6 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=731c04) |
+| 2730 | Technic, Brick 1 x 10 with Holes | 15 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=2730) |
+| 2780 | Technic, Pin with Short Friction Ridges | 121 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=2780) |
+| 2815 | Tire Technic Wedge Belt Wheel | 4 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=2815) |
+| 2909c03 | Technic, Shock Absorber 9.5L (Soft Spring) | 2 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=2909c03) |
+| 3001 | Brick 2 x 4 | 500 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3001) |
+| 3020 | Plate 2 x 4 | 55 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3020) |
+| 3021 | Plate 2 x 3 | 40 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3021) |
+| 3022 | Plate 2 x 2 | 45 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3022) |
+| 3023 | Plate 1 x 2 | 44 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3023) |
+| 3028 | Plate 6 x 12 | 10 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3028) |
+| 3030 | Plate 4 x 10 | 10 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3030) |
+| 3031 | Plate 4 x 4 | 10 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3031) |
+| 3032 | Plate 4 x 6 | 10 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3032) |
+| 3033 | Plate 6 x 10 | 10 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3033) |
+| 3034 | Plate 2 x 8 | 51 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3034) |
+| 3035 | Plate 4 x 8 | 10 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3035) |
+| 3036 | Plate 6 x 8 | 10 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3036) |
+| 3623 | Plate 1 x 3 | 40 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3623) |
+| 3648 | Technic, Gear 24 Tooth with 1 Axle Hole | 10 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3648) |
+| 3649 | Technic, Gear 40 Tooth | 18 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3649) |
+| 3673 | Technic, Pin without Friction Ridges | 143 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3673) |
+| 3700 | Technic, Brick 1 x 2 with Hole | 30 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3700) |
+| 3701 | Technic, Brick 1 x 4 with Holes | 31 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3701) |
+| 3702 | Technic, Brick 1 x 8 with Holes | 20 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3702) |
+| 3703 | Technic, Brick 1 x 16 with Holes | 15 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3703) |
+| 3705 | Technic, Axle  4L | 20 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3705) |
+| 3706 | Technic, Axle  6L | 44 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3706) |
+| 3707 | Technic, Axle  8L | 16 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3707) |
+| 3710 | Plate 1 x 4 | 36 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3710) |
+| 3711 | Technic, Link Chain | 100 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3711) |
+| 3713 | Technic Bush | 10 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3713) |
+| 3743 | Technic, Gear Rack 1 x 4 | 22 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3743) |
+| 3795 | Plate 2 x 6 | 35 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3795) |
+| 3873 | Technic, Link Tread | 50 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3873) |
+| 3894 | Technic, Brick 1 x 6 with Holes | 20 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3894) |
+| 3895 | Technic, Brick 1 x 12 with Holes | 15 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3895) |
+| 3958 | Plate 6 x 6 | 10 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3958) |
+| 4019 | Technic, Gear 16 Tooth - Axle Hole with Open Sides | 1 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=4019) |
+| 4185 | Technic Wedge Belt Wheel (Pulley) | 4 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=4185) |
+| 4265c | Technic Bush 1/2 Smooth | 66 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=4265c) |
+| 4477 | Plate 1 x 10 | 15 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=4477) |
+| 4519 | Technic, Axle  3L | 33 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=4519) |
+| 4716 | Technic, Gear Worm Screw, Long | 11 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=4716) |
+| 6536 | Technic, Axle and Pin Connector Perpendicular | 21 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=6536) |
+| 6541 | Technic, Brick 1 x 1 with Hole | 30 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=6541) |
+| 6542b | Technic, Gear 16 Tooth with Clutch, Smooth Center | 8 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=6542b) |
+| 6558 | Technic, Pin 3L with Friction Ridges | 101 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=6558) |
+| 6575 | Technic Cam | 2 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=6575) |
+| 6587 | Technic, Axle  3L with Stud | 8 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=6587) |
+| 6588 | Technic, Gearbox 2 x 4 x 3 1/3 | 1 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=6588) |
+| 6589 | Technic, Gear 12 Tooth Bevel | 35 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=6589) |
+| 6629 | Technic, Liftarm, Modified Bent Thick 1 x 9 (6 - 4) | 10 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=6629) |
+| 6630 | Technic, Gear Rack 1 x 8 with Holes | 4 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=6630) |
+| 6641 | Technic Changeover Catch | 4 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=6641) |
+| 10928 | Technic, Gear 8 Tooth with Dual Face | 39 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=10928) |
+| 12787c01 | Pullback Motor 6 x 5 x 3 | 2 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=12787c01) |
+| 15100 | Technic, Pin with Friction Ridges and Pin Hole | 7 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=15100) |
+| 15462 | Technic, Axle  5L with Stop | 8 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=15462) |
+| 18946 | Technic, Gear 16 Tooth with Clutch on Both Sides | 10 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=18946) |
+| 23948 | Technic, Axle 11L | 8 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=23948) |
+| 24316 | Technic, Axle  3L with Stop | 8 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=24316) |
+| 32000 | Technic, Brick 1 x 2 with Holes | 20 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32000) |
+| 32009 | Technic, Liftarm, Modified Bent Thick 1 x 11.5 Double | 8 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32009) |
+| 32013 | Technic, Axle and Pin Connector Angled #1 | 11 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32013) |
+| 32015 | Technic, Axle and Pin Connector Angled #5 - 112.5 degrees | 11 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32015) |
+| 32018 | Technic, Brick 1 x 14 with Holes | 15 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32018) |
+| 32020c01 | Wheel 43.2mm D. x 18mm - Extended Axle Stem with Black Tire 62.4 x 20 S (32020 / 32019) | 4 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32020c01) |
+| 32034 | Technic, Axle and Pin Connector Angled #2 - 180 degrees | 11 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32034) |
+| 32054 | Technic, Pin 3L with Friction Ridges and Stop Bush | 102 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32054) |
+| 32056 | Technic, Liftarm, Modified Bent Thin L-Shape 3 x 3 | 11 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32056) |
+| 32062 | Technic, Axle  2L Notched | 50 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32062) |
+| 32072 | Technic, Gear Knob Cog Wheel with Axle Hole (+ Orientation) | 26 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32072) |
+| 32073 | Technic, Axle  5L | 20 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32073) |
+| 32140 | Technic, Liftarm, Modified Bent Thick L-Shape 2 x 4 | 10 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32140) |
+| 32184 | Technic, Axle and Pin Connector Perpendicular 3L with Center Pin Hole | 21 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32184) |
+| 32198 | Technic, Gear 20 Tooth Bevel | 33 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32198) |
+| 32269 | Technic, Gear 20 Tooth Double Bevel | 44 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32269) |
+| 32270 | Technic, Gear 12 Tooth Double Bevel | 45 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32270) |
+| 32271 | Technic, Liftarm, Modified Bent Thick 1 x 9 (7 - 3) | 10 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32271) |
+| 32278 | Technic, Liftarm Thick 1 x 15 | 6 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32278) |
+| 32316 | Technic, Liftarm Thick 1 x 5 | 10 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32316) |
+| 32348 | Technic, Liftarm, Modified Bent Thick 1 x 7 (4 - 4) | 10 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32348) |
+| 32494 | Technic, Steering CV Joint | 4 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32494) |
+| 32498 | Technic, Gear 36 Tooth Double Bevel | 6 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32498) |
+| 32523 | Technic, Liftarm Thick 1 x 3 | 11 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32523) |
+| 32524 | Technic, Liftarm Thick 1 x 7 | 10 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32524) |
+| 32525 | Technic, Liftarm Thick 1 x 11 | 10 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32525) |
+| 32526 | Technic, Liftarm, Modified Bent Thick L-Shape 3 x 5 | 10 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32526) |
+| 35188 | Technic Changeover Rotary Catch | 2 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=35188) |
+| 40490 | Technic, Liftarm Thick 1 x 9 | 10 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=40490) |
+| 41239 | Technic, Liftarm Thick 1 x 13 | 6 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=41239) |
+| 41539 | Plate 8 x 8 | 10 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=41539) |
+| 42003 | Technic, Axle and Pin Connector Perpendicular 3L with 2 Pin Holes | 21 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=42003) |
+| 43093 | Technic, Axle  1L with Pin with Friction Ridges | 153 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=43093) |
+| 44294 | Technic, Axle  7L | 20 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=44294) |
+| 48989 | Technic, Pin Connector Perpendicular 3L with 4 Pins | 5 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=48989) |
+| 50451 | Technic, Axle 16L | 8 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=50451) |
+| 55423c01 | Train Wheel RC, Spoked with Technic Axle Hole and Rubber Friction Band | 8 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=55423c01) |
+| 55615 | Technic, Pin Connector Perpendicular 3 x 3 Bent with 4 Pins | 5 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=55615) |
+| 55982c01 | Wheel 18mm D. x 14mm with Axle Hole, Fake Bolts and Shallow Spokes with Black Tire 30.4 x 14 Offset Tread (55982 / 30391) | 4 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=55982c01) |
+| 56145c01 | Wheel 30.4mm D. x 20mm with No Pin Holes and Reinforced Rim with Black Tire 43.2 x 22 ZR (56145 / 44309) | 8 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=56145c01) |
+| 57515 | Technic, Steering Arm 6 x 2 with Tow Ball Socket Rounded, Chamfered | 4 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=57515) |
+| 57518 | Technic, Link Tread Wide with 2 Pin Holes | 52 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=57518) |
+| 57519 | Technic Tread Sprocket Wheel Large | 4 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=57519) |
+| 57520 | Technic Tread Sprocket Wheel Small | 10 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=57520) |
+| 57585 | Technic, Axle Connector Hub with 3 Axles | 4 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=57585) |
+| 58120c01 | Electric, Motor 9V Power Functions M with Dark Bluish Gray Bottom | 2 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=58120c01) |
+| 58121c01 | Electric, Motor 9V Power Functions XL with Dark Bluish Gray Bottom | 2 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=58121c01) |
+| 58123c01 | Electric Power Functions Receiver Unit with Dark Bluish Gray Bottom | 2 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=58123c01) |
+| 59510c01 | Electric 9V Battery Box 4 x 11 x 7 PF with Orange Switch and Dark Bluish Gray Covers | 2 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=59510c01) |
+| 60484 | Technic, Liftarm, Modified T-Shape Thick 3 x 3 | 10 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=60484) |
+| 60485 | Technic, Axle  9L | 8 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=60485) |
+| 62821b | Technic, Gear Differential 28 Tooth Bevel - Inner Tabs with Closed Center | 2 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=62821b) |
+| 64178 | Technic, Liftarm, Modified Frame Thick 5 x 11 Open Center | 2 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=64178) |
+| 64179 | Technic, Liftarm, Modified Frame Thick 5 x 7 Open Center | 12 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=64179) |
+| 65249 | Technic, Axle  2L with Pin without Friction Ridges | 8 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=65249) |
+| 65414 | Technic, Gear Differential Housing | 3 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=65414) |
+| 69761 | Technic, Gear 22 Tooth Bevel | 3 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=69761) |
+| 69762 | Technic, Gear 14 Tooth Bevel Thick | 6 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=69762) |
+| 69778 | Technic, Gear 12 Tooth | 8 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=69778) |
+| 87082 | Technic, Pin 3L with Friction Ridges and Center Pin Hole | 5 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=87082) |
+| 87083 | Technic, Axle  4L with Stop | 8 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=87083) |
+| 87513c01 | Electric 9V Battery Box Power Functions (Non-Rechargeable) with Dark Bluish Gray Bottom | 2 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=87513c01) |
+| 87574c01 | Electric, Train Motor 9V RC Train with Integrated PF Attachment, Orange Wheel Holders (owned, not offered: withdrawn) | 2 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=87574c01) |
+| 87761 | Technic, Gear Rack 1 x 7 with Axle and Pin Holes | 2 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=87761) |
+| 92438 | Plate 8 x 16 | 1 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=92438) |
+| 92906 | Technic, Steering CV Joint Narrow with 2L Axle | 4 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=92906) |
+| 94925 | Technic, Gear 16 Tooth - Axle Hole with Closed Sides | 20 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=94925) |
+| 99498c01 | Electric, Motor 9V Power Functions Servo with Dark Bluish Gray Bottom | 2 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=99498c01) |
+| 99499c01 | Electric, Motor 9V Power Functions L with Dark Bluish Gray Bottom | 2 | [BrickLink](https://www.bricklink.com/v2/catalog/catalogitem.page?P=99499c01) |

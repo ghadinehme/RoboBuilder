@@ -1,0 +1,5 @@
+No design was accepted yet, so you get an extension: **{sims} more simulations** and {hours} h (`brick-bench budget`). The goal is the same: pass this level.
+
+**New: you may design one custom 3D-printed part** to help. It is one part type, used in up to {copies} copies in your design, printed in PLA, fitting the printer's build volume ({max_mm} × {max_mm} × {max_mm} mm), with walls of at least {wall} mm. You write it as a CadQuery script and declare how it connects to the bricks (studs, sockets, pin holes, cross holes). `/work/docs/custom_part.md` explains how; `brick-bench part <script.py>` builds it, checks it, exports the STL that will be printed, and gives you its part id to use in your design like any other part.
+
+Use what you learned so far: think about why your attempts failed, and whether a printed part (or something else) removes that cause. Submit as before, and as before always end with a submission (`brick-bench submit --best-attempt <file>` if nothing passes in this extension).

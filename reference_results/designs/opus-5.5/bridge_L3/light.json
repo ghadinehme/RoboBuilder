@@ -1,0 +1,404 @@
+{
+ "name": "p10",
+ "description": "rigid car: low battery across two side plates, receiver on it; front 12T tread between 4185 flanges guides on the 8 mm plank; rear 2x4185t driven 12T->24T",
+ "part_set": "inventory",
+ "chassis": "battery",
+ "motor": "pb",
+ "battery": "battery",
+ "parts": [
+  {
+   "name": "side_l",
+   "part": "4477",
+   "pos_mm": [
+    32.0,
+    20.0,
+    6.4
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "side_r",
+   "part": "4477",
+   "pos_mm": [
+    32.0,
+    -20.0,
+    6.4
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    32.0,
+    8.0,
+    44.8
+   ],
+   "yaw_deg": -90.0
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    -8.0,
+    24.0,
+    25.600000000000005
+   ],
+   "yaw_deg": 180.0
+  },
+  {
+   "name": "fb_l",
+   "part": "3700",
+   "pos_mm": [
+    64.0,
+    20.0,
+    16.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "rb_l",
+   "part": "3701",
+   "pos_mm": [
+    0.0,
+    20.0,
+    16.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "fb_r",
+   "part": "3700",
+   "pos_mm": [
+    64.0,
+    -20.0,
+    16.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "rb_r",
+   "part": "3701",
+   "pos_mm": [
+    -8.0,
+    -20.0,
+    16.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "raxle",
+   "part": "3706",
+   "pos_mm": [
+    0.0,
+    0.0,
+    12.0
+   ],
+   "yaw_deg": 90.0
+  },
+  {
+   "name": "rt1",
+   "part": "4185",
+   "pos_mm": [
+    0.0,
+    2.0,
+    12.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "rt2",
+   "part": "4185",
+   "pos_mm": [
+    0.0,
+    -2.0,
+    12.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "rbush",
+   "part": "4265c",
+   "pos_mm": [
+    0.0,
+    14.0,
+    12.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "faxle",
+   "part": "3706",
+   "pos_mm": [
+    64.0,
+    0.0,
+    12.0
+   ],
+   "yaw_deg": 90.0
+  },
+  {
+   "name": "ft1",
+   "part": "94925",
+   "pos_mm": [
+    64.0,
+    0.0,
+    12.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "ffl",
+   "part": "4185",
+   "pos_mm": [
+    64.0,
+    7.4,
+    12.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "ffr",
+   "part": "4185",
+   "pos_mm": [
+    64.0,
+    -7.4,
+    12.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "fbl",
+   "part": "4265c",
+   "pos_mm": [
+    64.0,
+    14.0,
+    12.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "fbr",
+   "part": "4265c",
+   "pos_mm": [
+    64.0,
+    -14.0,
+    12.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "pb",
+   "part": "12787c01",
+   "pos_mm": [
+    0.0,
+    -44.0,
+    20.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "pbs",
+   "part": "3706",
+   "pos_mm": [
+    0.0,
+    -31.8,
+    20.0
+   ],
+   "yaw_deg": 90.0
+  },
+  {
+   "name": "pg",
+   "part": "10928",
+   "pos_mm": [
+    0.0,
+    -12.0,
+    20.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "rg",
+   "part": "10928",
+   "pos_mm": [
+    0.0,
+    -12.0,
+    12.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "pin1",
+   "part": "6558",
+   "pos_mm": [
+    -16.0,
+    -28.0,
+    12.0
+   ],
+   "yaw_deg": 90.0
+  },
+  {
+   "name": "pin2",
+   "part": "6558",
+   "pos_mm": [
+    -8.0,
+    -28.0,
+    12.0
+   ],
+   "yaw_deg": 90.0
+  }
+ ],
+ "connections": [
+  {
+   "child": "battery",
+   "parent": "side_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "battery",
+   "parent": "side_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "fb_l",
+   "parent": "side_l",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "fb_r",
+   "parent": "side_r",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "receiver",
+   "parent": "rb_l",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "raxle",
+   "parent": "rb_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "raxle",
+   "parent": "rb_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "rt1",
+   "parent": "raxle",
+   "kind": "cross"
+  },
+  {
+   "child": "rt2",
+   "parent": "raxle",
+   "kind": "cross"
+  },
+  {
+   "child": "rbush",
+   "parent": "raxle",
+   "kind": "cross"
+  },
+  {
+   "child": "faxle",
+   "parent": "fb_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "faxle",
+   "parent": "fb_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "ft1",
+   "parent": "faxle",
+   "kind": "cross"
+  },
+  {
+   "child": "ffl",
+   "parent": "faxle",
+   "kind": "cross"
+  },
+  {
+   "child": "ffr",
+   "parent": "faxle",
+   "kind": "cross"
+  },
+  {
+   "child": "fbl",
+   "parent": "faxle",
+   "kind": "cross"
+  },
+  {
+   "child": "fbr",
+   "parent": "faxle",
+   "kind": "cross"
+  },
+  {
+   "child": "rb_l",
+   "parent": "side_l",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "rb_r",
+   "parent": "side_r",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "pbs",
+   "parent": "pb",
+   "kind": "motor"
+  },
+  {
+   "child": "pg",
+   "parent": "pbs",
+   "kind": "cross"
+  },
+  {
+   "child": "rg",
+   "parent": "raxle",
+   "kind": "cross"
+  },
+  {
+   "child": "pin1",
+   "parent": "rb_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1",
+   "parent": "pb",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2",
+   "parent": "rb_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2",
+   "parent": "pb",
+   "kind": "pin"
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "pg",
+   "gear_b": "rg"
+  }
+ ],
+ "motor_program": [],
+ "start_gap_mm": 5,
+ "pullback": [
+  {
+   "motor": "pb",
+   "wind_turns": 10,
+   "sense": -1
+  }
+ ]
+}

@@ -1,0 +1,320 @@
+{
+ "name": "compact_three7",
+ "description": "Short chain drive and transverse battery, with wide rear track to keep the mass inside the three driven tyre contacts.",
+ "part_set": "inventory",
+ "chassis": "rail_l",
+ "motor": "motor",
+ "battery": "battery",
+ "parts": [
+  {
+   "name": "rail_l",
+   "part": "3702",
+   "pos_mm": [
+    -8,
+    12,
+    19.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail_r",
+   "part": "3700",
+   "pos_mm": [
+    -32,
+    -20,
+    19.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "motor",
+   "part": "58120c01",
+   "pos_mm": [
+    -32,
+    16,
+    31.2
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    8,
+    8,
+    57.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    -16,
+    -8,
+    67.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "rearaxle",
+   "part": "23948",
+   "pos_mm": [
+    -32,
+    -16,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "rearl",
+   "part": "4185t",
+   "pos_mm": [
+    -32,
+    26,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rearr",
+   "part": "4185t",
+   "pos_mm": [
+    -32,
+    -58,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "chainrear",
+   "part": "94925",
+   "pos_mm": [
+    -32,
+    -36,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "frontaxle",
+   "part": "23948",
+   "pos_mm": [
+    16,
+    2,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "frontl",
+   "part": "4185t",
+   "pos_mm": [
+    16,
+    42,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "frontbushl",
+   "part": "4265c",
+   "pos_mm": [
+    16,
+    18,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "frontbushr",
+   "part": "4265c",
+   "pos_mm": [
+    16,
+    6,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "chainfront",
+   "part": "94925",
+   "pos_mm": [
+    16,
+    -36,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "drivegear",
+   "part": "3648",
+   "pos_mm": [
+    -32,
+    20,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "shaft",
+   "part": "32062",
+   "pos_mm": [
+    -32,
+    16,
+    31.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pinion",
+   "part": "10928",
+   "pos_mm": [
+    -32,
+    20,
+    31.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rearbushr",
+   "part": "4265c",
+   "pos_mm": [
+    -32,
+    -26,
+    15.2
+   ],
+   "yaw_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "motor",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "motor",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "battery",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rearaxle",
+   "parent": "rail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "rearaxle",
+   "parent": "rail_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "rearl",
+   "parent": "rearaxle",
+   "kind": "cross"
+  },
+  {
+   "child": "rearr",
+   "parent": "rearaxle",
+   "kind": "cross"
+  },
+  {
+   "child": "chainrear",
+   "parent": "rearaxle",
+   "kind": "cross"
+  },
+  {
+   "child": "frontaxle",
+   "parent": "rail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "frontl",
+   "parent": "frontaxle",
+   "kind": "cross"
+  },
+  {
+   "child": "frontbushl",
+   "parent": "frontaxle",
+   "kind": "cross"
+  },
+  {
+   "child": "frontbushr",
+   "parent": "frontaxle",
+   "kind": "cross"
+  },
+  {
+   "child": "chainfront",
+   "parent": "frontaxle",
+   "kind": "cross"
+  },
+  {
+   "child": "drivegear",
+   "parent": "rearaxle",
+   "kind": "cross"
+  },
+  {
+   "child": "shaft",
+   "parent": "motor",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion",
+   "parent": "shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "rearbushr",
+   "parent": "rearaxle",
+   "kind": "cross"
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "pinion",
+   "gear_b": "drivegear"
+  }
+ ],
+ "chains": [
+  {
+   "name": "coupling",
+   "gears": [
+    "chainrear",
+    "chainfront"
+   ],
+   "links": 23
+  }
+ ],
+ "start_gap_mm": 20,
+ "motor_program": [
+  {
+   "t": 0,
+   "motor": "motor",
+   "level": 7
+  },
+  {
+   "t": 2.5,
+   "motor": "motor",
+   "level": 5
+  },
+  {
+   "t": 6,
+   "motor": "motor",
+   "level": "brake"
+  }
+ ]
+}

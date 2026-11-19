@@ -1,0 +1,447 @@
+{
+ "name": "small_awd",
+ "description": "Format example: a compact 4-wheel car. The M motor sits across two 4x4 plates on 8 studs and drives the rear axle through a 20T double bevel and a 24T gear; the IR receiver sits on the battery box beside its power connector. Soft start, then brake.",
+ "chassis": "rail_l",
+ "motor": "motor",
+ "battery": "battery",
+ "intended": [],
+ "parts": [
+  {
+   "name": "rail_l",
+   "part": "3703",
+   "pos_mm": [
+    0.0,
+    12.0,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "rail_r",
+   "part": "3703",
+   "pos_mm": [
+    0.0,
+    -12.0,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "rear_axle",
+   "part": "50451",
+   "pos_mm": [
+    -40.0,
+    0.0,
+    21.6
+   ],
+   "yaw_deg": 90.0
+  },
+  {
+   "name": "front_axle",
+   "part": "50451",
+   "pos_mm": [
+    24.0,
+    0.0,
+    21.6
+   ],
+   "yaw_deg": 90.0
+  },
+  {
+   "name": "rear_gear",
+   "part": "3649",
+   "pos_mm": [
+    -40.0,
+    28.0,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "riser0",
+   "part": "3032",
+   "pos_mm": [
+    -40.0,
+    0.0,
+    28.800000000000004
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "riser1",
+   "part": "3032",
+   "pos_mm": [
+    -40.0,
+    0.0,
+    32.0
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "riser2",
+   "part": "3032",
+   "pos_mm": [
+    -40.0,
+    0.0,
+    35.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "riser3",
+   "part": "3032",
+   "pos_mm": [
+    -40.0,
+    0.0,
+    38.4
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "riser4",
+   "part": "3032",
+   "pos_mm": [
+    -40.0,
+    0.0,
+    41.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "motor",
+   "part": "58120c01",
+   "pos_mm": [
+    -40.0,
+    24.0,
+    53.6
+   ],
+   "yaw_deg": 180.0
+  },
+  {
+   "name": "motor_shaft",
+   "part": "32062",
+   "pos_mm": [
+    -40.0,
+    28.0,
+    53.6
+   ],
+   "yaw_deg": 90.0
+  },
+  {
+   "name": "pinion",
+   "part": "3648",
+   "pos_mm": [
+    -40.0,
+    28.0,
+    53.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "deck",
+   "part": "3035",
+   "pos_mm": [
+    8.0,
+    0.0,
+    28.800000000000004
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    8.0,
+    0.0,
+    67.2
+   ],
+   "yaw_deg": 180.0
+  },
+  {
+   "name": "wheel_rl",
+   "part": "56145c01",
+   "pos_mm": [
+    -40.0,
+    50.0,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wheel_rr",
+   "part": "56145c01",
+   "pos_mm": [
+    -40.0,
+    -50.0,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wheel_fl",
+   "part": "56145c01",
+   "pos_mm": [
+    24.0,
+    50.0,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wheel_fr",
+   "part": "56145c01",
+   "pos_mm": [
+    24.0,
+    -50.0,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    24.0,
+    0.0,
+    76.8
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "cr",
+   "part": "3648",
+   "pos_mm": [
+    -40,
+    -28,
+    21.6
+   ]
+  },
+  {
+   "name": "cf",
+   "part": "3648",
+   "pos_mm": [
+    24,
+    -28,
+    21.6
+   ]
+  },
+  {
+   "name": "stop00",
+   "part": "3713",
+   "pos_mm": [
+    -40,
+    -20,
+    21.6
+   ]
+  },
+  {
+   "name": "stop01",
+   "part": "3713",
+   "pos_mm": [
+    -40,
+    20,
+    21.6
+   ]
+  },
+  {
+   "name": "stop10",
+   "part": "3713",
+   "pos_mm": [
+    24,
+    -20,
+    21.6
+   ]
+  },
+  {
+   "name": "stop11",
+   "part": "3713",
+   "pos_mm": [
+    24,
+    20,
+    21.6
+   ]
+  }
+ ],
+ "connections": [
+  {
+   "child": "rear_axle",
+   "parent": "rail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "front_axle",
+   "parent": "rail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "rear_gear",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "riser0",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "riser0",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "riser1",
+   "parent": "riser0",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "motor",
+   "parent": "riser4",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "motor_shaft",
+   "parent": "motor",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion",
+   "parent": "motor_shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "deck",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "deck",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "battery",
+   "parent": "deck",
+   "kind": "stud",
+   "studs": 32
+  },
+  {
+   "child": "wheel_rl",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_rr",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_fl",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_fr",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "riser2",
+   "parent": "riser1",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "riser3",
+   "parent": "riser2",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "riser4",
+   "parent": "riser3",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "cr",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "cf",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_axle",
+   "parent": "rail_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "front_axle",
+   "parent": "rail_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "stop00",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "stop01",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "stop10",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "stop11",
+   "parent": "front_axle",
+   "kind": "cross"
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "pinion",
+   "gear_b": "rear_gear"
+  }
+ ],
+ "part_set": "inventory",
+ "motor_program": [
+  {
+   "t": 0,
+   "motor": "all",
+   "level": 7
+  },
+  {
+   "t": 10,
+   "motor": "all",
+   "level": "brake"
+  }
+ ],
+ "start_gap_mm": 0,
+ "chains": [
+  {
+   "name": "awd",
+   "gears": [
+    "cr",
+    "cf"
+   ],
+   "links": 32
+  }
+ ]
+}

@@ -1,0 +1,717 @@
+{
+ "name": "uturn_car4",
+ "description": "",
+ "chassis": "p1",
+ "motor": "motor_l",
+ "battery": "battery",
+ "intended": [],
+ "parts": [
+  {
+   "name": "p1",
+   "part": "92438",
+   "pos_mm": [
+    0.0,
+    0.0,
+    19.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "p2",
+   "part": "41539",
+   "pos_mm": [
+    0.0,
+    0.0,
+    22.4
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "p3",
+   "part": "41539",
+   "pos_mm": [
+    0.0,
+    0.0,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "dk",
+   "part": "41539",
+   "pos_mm": [
+    0.0,
+    0.0,
+    38.52
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    0.0,
+    0.0,
+    76.92
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    16.0,
+    0.0,
+    86.52
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "beam_l",
+   "part": "2730",
+   "pos_mm": [
+    0.0,
+    28.0,
+    35.32
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "motor_l",
+   "part": "58120c01",
+   "pos_mm": [
+    48.0,
+    24.0,
+    31.32
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "mshaft_l",
+   "part": "4519",
+   "pos_mm": [
+    48.0,
+    28.2,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pinion_l",
+   "part": "10928",
+   "pos_mm": [
+    48.0,
+    36.0,
+    31.32
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "ax_fl",
+   "part": "32073",
+   "pos_mm": [
+    32.0,
+    39.8,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bush_fl",
+   "part": "4265c",
+   "pos_mm": [
+    32.0,
+    22.0,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "gear_fl",
+   "part": "3648",
+   "pos_mm": [
+    32.0,
+    36.0,
+    31.32
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wheel_fl",
+   "part": "32020c01",
+   "pos_mm": [
+    32.0,
+    46.8,
+    31.32
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "ax_rl",
+   "part": "32073",
+   "pos_mm": [
+    -32.0,
+    39.8,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bush_rl",
+   "part": "4265c",
+   "pos_mm": [
+    -32.0,
+    22.0,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "gear_rl",
+   "part": "3648",
+   "pos_mm": [
+    -32.0,
+    36.0,
+    31.32
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wheel_rl",
+   "part": "32020c01",
+   "pos_mm": [
+    -32.0,
+    46.8,
+    31.32
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "ax_il",
+   "part": "4519",
+   "pos_mm": [
+    0.0,
+    28.6,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bush_il",
+   "part": "4265c",
+   "pos_mm": [
+    0.0,
+    22.0,
+    31.32
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "gear_il",
+   "part": "3649",
+   "pos_mm": [
+    0.0,
+    36.0,
+    31.32
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "beam_r",
+   "part": "2730",
+   "pos_mm": [
+    0.0,
+    -28.0,
+    35.32
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "motor_r",
+   "part": "58120c01",
+   "pos_mm": [
+    -48.0,
+    -24.0,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "mshaft_r",
+   "part": "4519",
+   "pos_mm": [
+    -48.0,
+    -28.2,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pinion_r",
+   "part": "10928",
+   "pos_mm": [
+    -48.0,
+    -36.0,
+    31.32
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "ax_fr",
+   "part": "32073",
+   "pos_mm": [
+    32.0,
+    -39.8,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bush_fr",
+   "part": "4265c",
+   "pos_mm": [
+    32.0,
+    -22.0,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "gear_fr",
+   "part": "3648",
+   "pos_mm": [
+    32.0,
+    -36.0,
+    31.32
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wheel_fr",
+   "part": "32020c01",
+   "pos_mm": [
+    32.0,
+    -46.8,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "ax_rr",
+   "part": "32073",
+   "pos_mm": [
+    -32.0,
+    -39.8,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bush_rr",
+   "part": "4265c",
+   "pos_mm": [
+    -32.0,
+    -22.0,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "gear_rr",
+   "part": "3648",
+   "pos_mm": [
+    -32.0,
+    -36.0,
+    31.32
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wheel_rr",
+   "part": "32020c01",
+   "pos_mm": [
+    -32.0,
+    -46.8,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "ax_ir",
+   "part": "4519",
+   "pos_mm": [
+    0.0,
+    -28.6,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bush_ir",
+   "part": "4265c",
+   "pos_mm": [
+    0.0,
+    -22.0,
+    31.32
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "gear_ir",
+   "part": "3649",
+   "pos_mm": [
+    0.0,
+    -36.0,
+    31.32
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "col0",
+   "part": "3001",
+   "pos_mm": [
+    -16,
+    -8,
+    35.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "col1",
+   "part": "3001",
+   "pos_mm": [
+    16,
+    -8,
+    35.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "col2",
+   "part": "3001",
+   "pos_mm": [
+    -16,
+    8,
+    35.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "col3",
+   "part": "3001",
+   "pos_mm": [
+    16,
+    8,
+    35.2
+   ],
+   "yaw_deg": 0.0
+  }
+ ],
+ "connections": [
+  {
+   "child": "mshaft_l",
+   "parent": "motor_l",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion_l",
+   "parent": "mshaft_l",
+   "kind": "cross"
+  },
+  {
+   "child": "ax_fl",
+   "parent": "beam_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "bush_fl",
+   "parent": "ax_fl",
+   "kind": "cross"
+  },
+  {
+   "child": "gear_fl",
+   "parent": "ax_fl",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_fl",
+   "parent": "ax_fl",
+   "kind": "cross"
+  },
+  {
+   "child": "ax_rl",
+   "parent": "beam_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "bush_rl",
+   "parent": "ax_rl",
+   "kind": "cross"
+  },
+  {
+   "child": "gear_rl",
+   "parent": "ax_rl",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_rl",
+   "parent": "ax_rl",
+   "kind": "cross"
+  },
+  {
+   "child": "ax_il",
+   "parent": "beam_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "bush_il",
+   "parent": "ax_il",
+   "kind": "cross"
+  },
+  {
+   "child": "gear_il",
+   "parent": "ax_il",
+   "kind": "cross"
+  },
+  {
+   "child": "mshaft_r",
+   "parent": "motor_r",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion_r",
+   "parent": "mshaft_r",
+   "kind": "cross"
+  },
+  {
+   "child": "ax_fr",
+   "parent": "beam_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "bush_fr",
+   "parent": "ax_fr",
+   "kind": "cross"
+  },
+  {
+   "child": "gear_fr",
+   "parent": "ax_fr",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_fr",
+   "parent": "ax_fr",
+   "kind": "cross"
+  },
+  {
+   "child": "ax_rr",
+   "parent": "beam_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "bush_rr",
+   "parent": "ax_rr",
+   "kind": "cross"
+  },
+  {
+   "child": "gear_rr",
+   "parent": "ax_rr",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_rr",
+   "parent": "ax_rr",
+   "kind": "cross"
+  },
+  {
+   "child": "ax_ir",
+   "parent": "beam_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "bush_ir",
+   "parent": "ax_ir",
+   "kind": "cross"
+  },
+  {
+   "child": "gear_ir",
+   "parent": "ax_ir",
+   "kind": "cross"
+  },
+  {
+   "child": "p2",
+   "parent": "p1",
+   "kind": "stud",
+   "studs": 64
+  },
+  {
+   "child": "p3",
+   "parent": "p2",
+   "kind": "stud",
+   "studs": 64
+  },
+  {
+   "child": "dk",
+   "parent": "beam_l",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "dk",
+   "parent": "beam_r",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "battery",
+   "parent": "dk",
+   "kind": "stud",
+   "studs": 32
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "beam_l",
+   "parent": "p3",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "motor_l",
+   "parent": "p1",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "beam_r",
+   "parent": "p3",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "motor_r",
+   "parent": "p1",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "col0",
+   "parent": "p3",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "dk",
+   "parent": "col0",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "col1",
+   "parent": "p3",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "dk",
+   "parent": "col1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "col2",
+   "parent": "p3",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "dk",
+   "parent": "col2",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "col3",
+   "parent": "p3",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "dk",
+   "parent": "col3",
+   "kind": "stud",
+   "studs": 8
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "pinion_l",
+   "gear_b": "gear_fl",
+   "teeth_a": 8,
+   "teeth_b": 24
+  },
+  {
+   "gear_a": "gear_fl",
+   "gear_b": "gear_il",
+   "teeth_a": 24,
+   "teeth_b": 40
+  },
+  {
+   "gear_a": "gear_il",
+   "gear_b": "gear_rl",
+   "teeth_a": 40,
+   "teeth_b": 24
+  },
+  {
+   "gear_a": "pinion_r",
+   "gear_b": "gear_rr",
+   "teeth_a": 8,
+   "teeth_b": 24
+  },
+  {
+   "gear_a": "gear_rr",
+   "gear_b": "gear_ir",
+   "teeth_a": 24,
+   "teeth_b": 40
+  },
+  {
+   "gear_a": "gear_ir",
+   "gear_b": "gear_fr",
+   "teeth_a": 40,
+   "teeth_b": 24
+  }
+ ],
+ "part_set": "inventory",
+ "motor_program": [
+  {
+   "t": 0,
+   "motor": "all",
+   "level": 7
+  },
+  {
+   "t": 3.2,
+   "motor": "motor_l",
+   "level": 3
+  },
+  {
+   "t": 3.3,
+   "motor": "motor_r",
+   "level": 7
+  },
+  {
+   "t": 3.8,
+   "motor": "all",
+   "level": 7
+  },
+  {
+   "t": 7.0,
+   "motor": "all",
+   "level": "brake"
+  }
+ ],
+ "start_gap_mm": 0
+}

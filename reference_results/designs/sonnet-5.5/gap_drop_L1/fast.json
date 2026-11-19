@@ -1,0 +1,381 @@
+{
+ "name": "g4",
+ "description": "two pullback motors drive big rear wheels directly",
+ "part_set": "inventory",
+ "chassis": "rail_l",
+ "motor": "pb_l",
+ "battery": "battery",
+ "parts": [
+  {
+   "name": "rail_l",
+   "part": "3703",
+   "pos_mm": [
+    56,
+    28,
+    27.32
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "rail_r",
+   "part": "3703",
+   "pos_mm": [
+    56,
+    -28,
+    27.32
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "pb_l",
+   "part": "12787c01",
+   "pos_mm": [
+    0,
+    12,
+    31.32
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "pb_r",
+   "part": "12787c01",
+   "pos_mm": [
+    0,
+    -12,
+    31.32
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "pin_l0",
+   "part": "2780",
+   "pos_mm": [
+    8,
+    24,
+    23.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_l1",
+   "part": "2780",
+   "pos_mm": [
+    24,
+    24,
+    23.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_l2",
+   "part": "2780",
+   "pos_mm": [
+    40,
+    24,
+    23.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_r0",
+   "part": "2780",
+   "pos_mm": [
+    8,
+    -24,
+    23.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_r1",
+   "part": "2780",
+   "pos_mm": [
+    24,
+    -24,
+    23.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_r2",
+   "part": "2780",
+   "pos_mm": [
+    40,
+    -24,
+    23.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "ax_l",
+   "part": "44294",
+   "pos_mm": [
+    0,
+    29,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "ax_r",
+   "part": "44294",
+   "pos_mm": [
+    0,
+    -29,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "wheel_rl",
+   "part": "32020c01",
+   "pos_mm": [
+    0,
+    39.2,
+    31.32
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "wheel_rr",
+   "part": "32020c01",
+   "pos_mm": [
+    0,
+    -39.2,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "ax_f",
+   "part": "50451",
+   "pos_mm": [
+    80,
+    0,
+    23.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "wheel_fl",
+   "part": "56145c01",
+   "pos_mm": [
+    80,
+    50,
+    23.32
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "bush_fl",
+   "part": "4265c",
+   "pos_mm": [
+    80,
+    34.0,
+    23.32
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wheel_fr",
+   "part": "56145c01",
+   "pos_mm": [
+    80,
+    -50,
+    23.32
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "bush_fr",
+   "part": "4265c",
+   "pos_mm": [
+    80,
+    -34.0,
+    23.32
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "deck",
+   "part": "41539",
+   "pos_mm": [
+    80,
+    0,
+    30.52
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    80,
+    0,
+    68.92
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    96,
+    0,
+    78.52
+   ],
+   "yaw_deg": 0.0
+  }
+ ],
+ "connections": [
+  {
+   "child": "pin_l0",
+   "parent": "rail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_l0",
+   "parent": "pb_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_l1",
+   "parent": "rail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_l1",
+   "parent": "pb_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_l2",
+   "parent": "rail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_l2",
+   "parent": "pb_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_r0",
+   "parent": "rail_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_r0",
+   "parent": "pb_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_r1",
+   "parent": "rail_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_r1",
+   "parent": "pb_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_r2",
+   "parent": "rail_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_r2",
+   "parent": "pb_r",
+   "kind": "pin"
+  },
+  {
+   "child": "ax_l",
+   "parent": "pb_l",
+   "kind": "motor"
+  },
+  {
+   "child": "ax_r",
+   "parent": "pb_r",
+   "kind": "motor"
+  },
+  {
+   "child": "wheel_rl",
+   "parent": "ax_l",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_rr",
+   "parent": "ax_r",
+   "kind": "cross"
+  },
+  {
+   "child": "ax_f",
+   "parent": "rail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "ax_f",
+   "parent": "rail_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "wheel_fl",
+   "parent": "ax_f",
+   "kind": "cross"
+  },
+  {
+   "child": "bush_fl",
+   "parent": "ax_f",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_fr",
+   "parent": "ax_f",
+   "kind": "cross"
+  },
+  {
+   "child": "bush_fr",
+   "parent": "ax_f",
+   "kind": "cross"
+  },
+  {
+   "child": "deck",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "deck",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "battery",
+   "parent": "deck",
+   "kind": "stud",
+   "studs": 32
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  }
+ ],
+ "gear_meshes": [],
+ "motor_program": [],
+ "start_gap_mm": 130,
+ "pullback": [
+  {
+   "motor": "pb_l",
+   "wind_turns": 10,
+   "sense": -1
+  },
+  {
+   "motor": "pb_r",
+   "wind_turns": 10,
+   "sense": -1
+  }
+ ]
+}

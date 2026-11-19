@@ -1,0 +1,1581 @@
+{
+ "name": "Edge-supported rolling bridge",
+ "description": "Laminated stepped runners bridge the deck edges; elevated structure and end rollers prevent a square runner nose catching. Two chain-coupled axle pairs power all eight wheels, sharing traction from either bank. Mechanically retained motor shafts, staggered three-layer girders and free battery connector access. One receiver commands both motors: level 3 at 0 s, level 5 at 0.5 s, brake at 2.75 s.",
+ "part_set": "inventory",
+ "chassis": "tl1",
+ "motor": "rear_motor",
+ "battery": "battery",
+ "parts": [
+  {
+   "name": "tl0",
+   "part": "3703",
+   "pos_mm": [
+    -128,
+    12,
+    25.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "tl1",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    12,
+    25.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "tl2",
+   "part": "3703",
+   "pos_mm": [
+    128,
+    12,
+    25.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "bl0",
+   "part": "3895",
+   "pos_mm": [
+    -96,
+    12,
+    16
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "bl1",
+   "part": "3895",
+   "pos_mm": [
+    0,
+    12,
+    16
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "bl2",
+   "part": "3895",
+   "pos_mm": [
+    96,
+    12,
+    16
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "sl0",
+   "part": "4477",
+   "pos_mm": [
+    -120,
+    12,
+    6.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "sl1",
+   "part": "4477",
+   "pos_mm": [
+    -40,
+    12,
+    6.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "sl2",
+   "part": "4477",
+   "pos_mm": [
+    40,
+    12,
+    6.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "sl3",
+   "part": "4477",
+   "pos_mm": [
+    120,
+    12,
+    6.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "tr0",
+   "part": "3703",
+   "pos_mm": [
+    -128,
+    -12,
+    25.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "tr1",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    -12,
+    25.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "tr2",
+   "part": "3703",
+   "pos_mm": [
+    128,
+    -12,
+    25.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "br0",
+   "part": "3895",
+   "pos_mm": [
+    -96,
+    -12,
+    16
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "br1",
+   "part": "3895",
+   "pos_mm": [
+    0,
+    -12,
+    16
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "br2",
+   "part": "3895",
+   "pos_mm": [
+    96,
+    -12,
+    16
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "sr0",
+   "part": "4477",
+   "pos_mm": [
+    -120,
+    -12,
+    6.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "sr1",
+   "part": "4477",
+   "pos_mm": [
+    -40,
+    -12,
+    6.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "sr2",
+   "part": "4477",
+   "pos_mm": [
+    40,
+    -12,
+    6.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "sr3",
+   "part": "4477",
+   "pos_mm": [
+    120,
+    -12,
+    6.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck0",
+   "part": "3034",
+   "pos_mm": [
+    -128,
+    8,
+    28.8
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck1",
+   "part": "3031",
+   "pos_mm": [
+    -96,
+    0,
+    28.8
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck2",
+   "part": "3031",
+   "pos_mm": [
+    -64,
+    0,
+    28.8
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck3",
+   "part": "3031",
+   "pos_mm": [
+    0,
+    0,
+    28.8
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck4",
+   "part": "3031",
+   "pos_mm": [
+    64,
+    0,
+    28.8
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck5",
+   "part": "3031",
+   "pos_mm": [
+    96,
+    0,
+    28.8
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck6",
+   "part": "3034",
+   "pos_mm": [
+    128,
+    8,
+    28.8
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_rise0_0",
+   "part": "3020",
+   "pos_mm": [
+    -96,
+    -8,
+    32.0
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_rise0_1",
+   "part": "3020",
+   "pos_mm": [
+    -96,
+    8,
+    32.0
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_rise1_0",
+   "part": "3020",
+   "pos_mm": [
+    -96,
+    -8,
+    35.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_rise1_1",
+   "part": "3020",
+   "pos_mm": [
+    -96,
+    8,
+    35.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_rise2_0",
+   "part": "3020",
+   "pos_mm": [
+    -96,
+    -8,
+    38.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_rise2_1",
+   "part": "3020",
+   "pos_mm": [
+    -96,
+    8,
+    38.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_rise3_0",
+   "part": "3020",
+   "pos_mm": [
+    -96,
+    -8,
+    41.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_rise3_1",
+   "part": "3020",
+   "pos_mm": [
+    -96,
+    8,
+    41.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_motor",
+   "part": "58120c01",
+   "pos_mm": [
+    -96,
+    24,
+    53.6
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_shaft",
+   "part": "32073",
+   "pos_mm": [
+    -96,
+    28,
+    53.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_pinion",
+   "part": "3648",
+   "pos_mm": [
+    -96,
+    28,
+    53.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_gear",
+   "part": "3649",
+   "pos_mm": [
+    -96,
+    28,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_tower0",
+   "part": "3700",
+   "pos_mm": [
+    -128,
+    36,
+    38.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_tower1",
+   "part": "3700",
+   "pos_mm": [
+    -128,
+    36,
+    48.0
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_bearing",
+   "part": "3702",
+   "pos_mm": [
+    -112,
+    36,
+    57.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_stop",
+   "part": "4265c",
+   "pos_mm": [
+    -96,
+    42,
+    53.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_rise0_0",
+   "part": "3020",
+   "pos_mm": [
+    96,
+    -8,
+    32.0
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_rise0_1",
+   "part": "3020",
+   "pos_mm": [
+    96,
+    8,
+    32.0
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_rise1_0",
+   "part": "3020",
+   "pos_mm": [
+    96,
+    -8,
+    35.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_rise1_1",
+   "part": "3020",
+   "pos_mm": [
+    96,
+    8,
+    35.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_rise2_0",
+   "part": "3020",
+   "pos_mm": [
+    96,
+    -8,
+    38.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_rise2_1",
+   "part": "3020",
+   "pos_mm": [
+    96,
+    8,
+    38.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_rise3_0",
+   "part": "3020",
+   "pos_mm": [
+    96,
+    -8,
+    41.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_rise3_1",
+   "part": "3020",
+   "pos_mm": [
+    96,
+    8,
+    41.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_motor",
+   "part": "58120c01",
+   "pos_mm": [
+    96,
+    24,
+    53.6
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_shaft",
+   "part": "32073",
+   "pos_mm": [
+    96,
+    28,
+    53.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_pinion",
+   "part": "3648",
+   "pos_mm": [
+    96,
+    28,
+    53.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_gear",
+   "part": "3649",
+   "pos_mm": [
+    96,
+    28,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_tower0",
+   "part": "3700",
+   "pos_mm": [
+    128,
+    36,
+    38.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_tower1",
+   "part": "3700",
+   "pos_mm": [
+    128,
+    36,
+    48.0
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_bearing",
+   "part": "3702",
+   "pos_mm": [
+    112,
+    36,
+    57.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_stop",
+   "part": "4265c",
+   "pos_mm": [
+    96,
+    42,
+    53.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "tail_axle",
+   "part": "50451",
+   "pos_mm": [
+    -176,
+    0,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "tail_wheell",
+   "part": "56145c01",
+   "pos_mm": [
+    -176,
+    52,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "tail_wheelr",
+   "part": "56145c01",
+   "pos_mm": [
+    -176,
+    -52,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "tail_bushl",
+   "part": "4265c",
+   "pos_mm": [
+    -176,
+    18,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "tail_bushr",
+   "part": "4265c",
+   "pos_mm": [
+    -176,
+    -18,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_axle",
+   "part": "50451",
+   "pos_mm": [
+    -96,
+    0,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_wheell",
+   "part": "56145c01",
+   "pos_mm": [
+    -96,
+    52,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_wheelr",
+   "part": "56145c01",
+   "pos_mm": [
+    -96,
+    -52,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_bushl",
+   "part": "4265c",
+   "pos_mm": [
+    -96,
+    18,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_bushr",
+   "part": "4265c",
+   "pos_mm": [
+    -96,
+    -18,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_axle",
+   "part": "50451",
+   "pos_mm": [
+    96,
+    0,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_wheell",
+   "part": "56145c01",
+   "pos_mm": [
+    96,
+    52,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_wheelr",
+   "part": "56145c01",
+   "pos_mm": [
+    96,
+    -52,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_bushl",
+   "part": "4265c",
+   "pos_mm": [
+    96,
+    18,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_bushr",
+   "part": "4265c",
+   "pos_mm": [
+    96,
+    -18,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "nose_axle",
+   "part": "50451",
+   "pos_mm": [
+    176,
+    0,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "nose_wheell",
+   "part": "56145c01",
+   "pos_mm": [
+    176,
+    52,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "nose_wheelr",
+   "part": "56145c01",
+   "pos_mm": [
+    176,
+    -52,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "nose_bushl",
+   "part": "4265c",
+   "pos_mm": [
+    176,
+    18,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "nose_bushr",
+   "part": "4265c",
+   "pos_mm": [
+    176,
+    -18,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "tail_chain",
+   "part": "3648",
+   "pos_mm": [
+    -176,
+    -28,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_chain",
+   "part": "3648",
+   "pos_mm": [
+    -96,
+    -28,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_chain",
+   "part": "3648",
+   "pos_mm": [
+    96,
+    -28,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "nose_chain",
+   "part": "3648",
+   "pos_mm": [
+    176,
+    -28,
+    21.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    0,
+    0,
+    67.2
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    16,
+    0,
+    76.8
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "rear_shaft",
+   "parent": "rear_motor",
+   "kind": "motor"
+  },
+  {
+   "child": "rear_pinion",
+   "parent": "rear_shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_gear",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_stop",
+   "parent": "rear_shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "front_shaft",
+   "parent": "front_motor",
+   "kind": "motor"
+  },
+  {
+   "child": "front_pinion",
+   "parent": "front_shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "front_gear",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_stop",
+   "parent": "front_shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "tail_axle",
+   "parent": "tl0",
+   "kind": "hinge"
+  },
+  {
+   "child": "tail_axle",
+   "parent": "tr0",
+   "kind": "hinge"
+  },
+  {
+   "child": "tail_wheell",
+   "parent": "tail_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "tail_wheelr",
+   "parent": "tail_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "tail_bushl",
+   "parent": "tail_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "tail_bushr",
+   "parent": "tail_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_axle",
+   "parent": "tl0",
+   "kind": "hinge"
+  },
+  {
+   "child": "rear_axle",
+   "parent": "tr0",
+   "kind": "hinge"
+  },
+  {
+   "child": "rear_wheell",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_wheelr",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_bushl",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_bushr",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_axle",
+   "parent": "tl2",
+   "kind": "hinge"
+  },
+  {
+   "child": "front_axle",
+   "parent": "tr2",
+   "kind": "hinge"
+  },
+  {
+   "child": "front_wheell",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_wheelr",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_bushl",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_bushr",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "nose_axle",
+   "parent": "tl2",
+   "kind": "hinge"
+  },
+  {
+   "child": "nose_axle",
+   "parent": "tr2",
+   "kind": "hinge"
+  },
+  {
+   "child": "nose_wheell",
+   "parent": "nose_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "nose_wheelr",
+   "parent": "nose_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "nose_bushl",
+   "parent": "nose_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "nose_bushr",
+   "parent": "nose_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "tail_chain",
+   "parent": "tail_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_chain",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_chain",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "nose_chain",
+   "parent": "nose_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "deck0",
+   "parent": "tl0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck1",
+   "parent": "tl0",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "deck2",
+   "parent": "tl0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck2",
+   "parent": "tl1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck3",
+   "parent": "tl1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "deck4",
+   "parent": "tl1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck4",
+   "parent": "tl2",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck5",
+   "parent": "tl2",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "deck6",
+   "parent": "tl2",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "tl0",
+   "parent": "bl0",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "tl1",
+   "parent": "bl0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "tl1",
+   "parent": "bl1",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "tl1",
+   "parent": "bl2",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "tl2",
+   "parent": "bl2",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "bl0",
+   "parent": "sl0",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "bl0",
+   "parent": "sl1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "bl1",
+   "parent": "sl1",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "bl1",
+   "parent": "sl2",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "bl2",
+   "parent": "sl2",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "bl2",
+   "parent": "sl3",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "deck0",
+   "parent": "tr0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck1",
+   "parent": "tr0",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "deck2",
+   "parent": "tr0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck2",
+   "parent": "tr1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck3",
+   "parent": "tr1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "deck4",
+   "parent": "tr1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck4",
+   "parent": "tr2",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck5",
+   "parent": "tr2",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "deck6",
+   "parent": "tr2",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "tr0",
+   "parent": "br0",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "tr1",
+   "parent": "br0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "tr1",
+   "parent": "br1",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "tr1",
+   "parent": "br2",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "tr2",
+   "parent": "br2",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "br0",
+   "parent": "sr0",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "br0",
+   "parent": "sr1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "br1",
+   "parent": "sr1",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "br1",
+   "parent": "sr2",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "br2",
+   "parent": "sr2",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "br2",
+   "parent": "sr3",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "rear_tower0",
+   "parent": "deck0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "rear_rise0_0",
+   "parent": "deck1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "rear_rise0_1",
+   "parent": "deck1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "battery",
+   "parent": "deck3",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "front_rise0_0",
+   "parent": "deck5",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "front_rise0_1",
+   "parent": "deck5",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "front_tower0",
+   "parent": "deck6",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "rear_rise1_0",
+   "parent": "rear_rise0_0",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "rear_rise1_1",
+   "parent": "rear_rise0_1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "rear_rise2_0",
+   "parent": "rear_rise1_0",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "rear_rise2_1",
+   "parent": "rear_rise1_1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "rear_rise3_0",
+   "parent": "rear_rise2_0",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "rear_rise3_1",
+   "parent": "rear_rise2_1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "rear_motor",
+   "parent": "rear_rise3_0",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rear_motor",
+   "parent": "rear_rise3_1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rear_tower1",
+   "parent": "rear_tower0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "rear_bearing",
+   "parent": "rear_tower1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "front_rise1_0",
+   "parent": "front_rise0_0",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "front_rise1_1",
+   "parent": "front_rise0_1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "front_rise2_0",
+   "parent": "front_rise1_0",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "front_rise2_1",
+   "parent": "front_rise1_1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "front_rise3_0",
+   "parent": "front_rise2_0",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "front_rise3_1",
+   "parent": "front_rise2_1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "front_motor",
+   "parent": "front_rise3_0",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "front_motor",
+   "parent": "front_rise3_1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "front_tower1",
+   "parent": "front_tower0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "front_bearing",
+   "parent": "front_tower1",
+   "kind": "stud",
+   "studs": 2
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "rear_pinion",
+   "gear_b": "rear_gear"
+  },
+  {
+   "gear_a": "front_pinion",
+   "gear_b": "front_gear"
+  }
+ ],
+ "chains": [
+  {
+   "name": "tail_drive",
+   "gears": [
+    "tail_chain",
+    "rear_chain"
+   ],
+   "links": 37
+  },
+  {
+   "name": "front_drive",
+   "gears": [
+    "front_chain",
+    "nose_chain"
+   ],
+   "links": 37
+  }
+ ],
+ "start_gap_mm": 15,
+ "motor_program": [
+  {
+   "t": 0,
+   "motor": "all",
+   "level": 3
+  },
+  {
+   "t": 0.5,
+   "motor": "all",
+   "level": 5
+  },
+  {
+   "t": 2.75,
+   "motor": "all",
+   "level": "brake"
+  }
+ ]
+}

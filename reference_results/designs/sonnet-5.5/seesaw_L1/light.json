@@ -1,0 +1,438 @@
+{
+ "name": "foot_v32",
+ "description": "front-heavy wedge-nosed car",
+ "part_set": "inventory",
+ "chassis": "spA_l",
+ "motor": "motor",
+ "battery": "battery",
+ "intended": [],
+ "parts": [
+  {
+   "name": "spA_l",
+   "part": "3703",
+   "pos_mm": [
+    64,
+    -4,
+    19.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "spA_r",
+   "part": "3703",
+   "pos_mm": [
+    64,
+    4,
+    19.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "bplate",
+   "part": "3022",
+   "pos_mm": [
+    88,
+    0,
+    22.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    88,
+    0,
+    60.8
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    72,
+    0,
+    70.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "mplate",
+   "part": "3031",
+   "pos_mm": [
+    40,
+    0,
+    22.4
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "motor",
+   "part": "58120c01",
+   "pos_mm": [
+    40,
+    24,
+    34.4
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "mshaft",
+   "part": "32062",
+   "pos_mm": [
+    40,
+    27.8,
+    34.4
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "spr_m",
+   "part": "94925",
+   "pos_mm": [
+    40,
+    28,
+    34.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "dax",
+   "part": "44294",
+   "pos_mm": [
+    104,
+    4,
+    15.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "spr_a",
+   "part": "94925",
+   "pos_mm": [
+    104,
+    28,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "d_br",
+   "part": "3713",
+   "pos_mm": [
+    104,
+    12,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "d_bs",
+   "part": "4265c",
+   "pos_mm": [
+    104,
+    18,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "d_bs2",
+   "part": "4265c",
+   "pos_mm": [
+    104,
+    -18,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "d_wl",
+   "part": "4185t",
+   "pos_mm": [
+    104,
+    -22,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "d_wr",
+   "part": "4185t",
+   "pos_mm": [
+    104,
+    22,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rax",
+   "part": "32073",
+   "pos_mm": [
+    8,
+    0,
+    15.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "r_wl",
+   "part": "4185t",
+   "pos_mm": [
+    8,
+    -18,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "r_wr",
+   "part": "4185t",
+   "pos_mm": [
+    8,
+    18,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "foot",
+   "part": "6629",
+   "pos_mm": [
+    88,
+    -12,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "pinA",
+   "part": "2780",
+   "pos_mm": [
+    96,
+    -8,
+    15.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "beam",
+   "part": "40490",
+   "pos_mm": [
+    152.0,
+    -20,
+    47.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -53.1301
+  },
+  {
+   "name": "pinB2",
+   "part": "2780",
+   "pos_mm": [
+    132.8,
+    -16,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "pinB3",
+   "part": "2780",
+   "pos_mm": [
+    137.6,
+    -16,
+    28.0
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "bplate",
+   "parent": "spA_l",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "bplate",
+   "parent": "spA_r",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "battery",
+   "parent": "bplate",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "mplate",
+   "parent": "spA_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "mplate",
+   "parent": "spA_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "motor",
+   "parent": "mplate",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "mshaft",
+   "parent": "motor",
+   "kind": "motor"
+  },
+  {
+   "child": "spr_m",
+   "parent": "mshaft",
+   "kind": "cross"
+  },
+  {
+   "child": "dax",
+   "parent": "spA_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "spr_a",
+   "parent": "dax",
+   "kind": "cross"
+  },
+  {
+   "child": "d_br",
+   "parent": "dax",
+   "kind": "cross"
+  },
+  {
+   "child": "d_bs",
+   "parent": "dax",
+   "kind": "cross"
+  },
+  {
+   "child": "d_bs2",
+   "parent": "dax",
+   "kind": "cross"
+  },
+  {
+   "child": "d_wl",
+   "parent": "dax",
+   "kind": "cross"
+  },
+  {
+   "child": "d_wr",
+   "parent": "dax",
+   "kind": "cross"
+  },
+  {
+   "child": "rax",
+   "parent": "spA_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "r_wl",
+   "parent": "rax",
+   "kind": "cross"
+  },
+  {
+   "child": "r_wr",
+   "parent": "rax",
+   "kind": "cross"
+  },
+  {
+   "child": "pinA",
+   "parent": "spA_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pinA",
+   "parent": "foot",
+   "kind": "pin"
+  },
+  {
+   "child": "dax",
+   "parent": "foot",
+   "kind": "hinge"
+  },
+  {
+   "child": "pinB2",
+   "parent": "foot",
+   "kind": "pin"
+  },
+  {
+   "child": "pinB2",
+   "parent": "beam",
+   "kind": "pin"
+  },
+  {
+   "child": "pinB3",
+   "parent": "foot",
+   "kind": "pin"
+  },
+  {
+   "child": "pinB3",
+   "parent": "beam",
+   "kind": "pin"
+  }
+ ],
+ "gear_meshes": [],
+ "chains": [
+  {
+   "name": "chain",
+   "gears": [
+    "spr_m",
+    "spr_a"
+   ],
+   "links": 29
+  }
+ ],
+ "motor_program": [
+  {
+   "t": 0.0,
+   "motor": "motor",
+   "level": 5
+  },
+  {
+   "t": 14.0,
+   "motor": "motor",
+   "level": "brake"
+  }
+ ],
+ "start_gap_mm": 30.0
+}

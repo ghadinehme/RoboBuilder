@@ -1,0 +1,3175 @@
+{
+  "3895": {
+    "catalogue_id": "3895",
+    "title": "beam brick 1x12 with holes",
+    "colour": "Black",
+    "bounds_min_mm": [
+      -48.0,
+      -4.0,
+      -9.6
+    ],
+    "bounds_max_mm": [
+      48.0,
+      4.0,
+      1.6
+    ],
+    "triangles": 13018,
+    "hulls": 178,
+    "mass_measured_g": 4.2,
+    "mass_hull_estimate_g": 6.04,
+    "com_mm": [
+      0.0,
+      -0.0,
+      -5.02
+    ],
+    "pin_hole_free_radius_mm": 2.403
+  },
+  "3710": {
+    "catalogue_id": "3710",
+    "title": "Plate 1x4",
+    "colour": "Black",
+    "bounds_min_mm": [
+      -16.0,
+      -4.0,
+      -3.2
+    ],
+    "bounds_max_mm": [
+      16.0,
+      4.0,
+      1.6
+    ],
+    "triangles": 1036,
+    "hulls": 32,
+    "mass_measured_g": 0.71,
+    "mass_hull_estimate_g": 0.56,
+    "com_mm": [
+      -0.04,
+      0.01,
+      -1.4
+    ]
+  },
+  "3701": {
+    "catalogue_id": "3701",
+    "title": "beam brick 1x4 with holes",
+    "colour": "Black",
+    "bounds_min_mm": [
+      -16.0,
+      -4.0,
+      -9.6
+    ],
+    "bounds_max_mm": [
+      16.0,
+      4.0,
+      1.6
+    ],
+    "triangles": 3786,
+    "hulls": 50,
+    "mass_measured_g": 1.46,
+    "mass_hull_estimate_g": 2.12,
+    "com_mm": [
+      -0.0,
+      -0.0,
+      -4.97
+    ],
+    "pin_hole_free_radius_mm": 2.403
+  },
+  "3032": {
+    "catalogue_id": "3032",
+    "title": "Plate 4x6",
+    "colour": "Black",
+    "bounds_min_mm": [
+      -24.0,
+      -16.0,
+      -3.2
+    ],
+    "bounds_max_mm": [
+      24.0,
+      16.0,
+      1.6
+    ],
+    "triangles": 7804,
+    "hulls": 47,
+    "mass_measured_g": 3.3,
+    "mass_hull_estimate_g": 4.38,
+    "com_mm": [
+      -0.42,
+      -0.15,
+      -1.5
+    ]
+  },
+  "44294": {
+    "catalogue_id": "44294",
+    "title": "axle 7",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -27.8,
+      -2.4,
+      -2.4
+    ],
+    "bounds_max_mm": [
+      27.8,
+      2.4,
+      2.4
+    ],
+    "triangles": 176,
+    "hulls": 1,
+    "mass_measured_g": 1.05,
+    "mass_hull_estimate_g": 0.87,
+    "com_mm": [
+      -0.0,
+      -0.0,
+      0.0
+    ]
+  },
+  "3705": {
+    "catalogue_id": "3705",
+    "title": "axle 4",
+    "colour": "Black",
+    "bounds_min_mm": [
+      -15.8,
+      -2.4,
+      -2.4
+    ],
+    "bounds_max_mm": [
+      15.8,
+      2.4,
+      2.4
+    ],
+    "triangles": 176,
+    "hulls": 1,
+    "mass_measured_g": 0.59,
+    "mass_hull_estimate_g": 0.48,
+    "com_mm": [
+      -0.0,
+      -0.0,
+      0.0
+    ]
+  },
+  "94925": {
+    "catalogue_id": "94925",
+    "title": "Gear 16 tooth (reinforced)",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -8.66,
+      -4.0,
+      -8.66
+    ],
+    "bounds_max_mm": [
+      8.66,
+      4.0,
+      8.66
+    ],
+    "triangles": 1248,
+    "hulls": 17,
+    "mass_measured_g": 0.7,
+    "mass_hull_estimate_g": 1.69,
+    "com_mm": [
+      -0.0,
+      0.0,
+      -0.0
+    ],
+    "teeth": 16,
+    "tooth_phase_deg": -0.0
+  },
+  "3648": {
+    "catalogue_id": "3648",
+    "title": "Gear 24 tooth",
+    "colour": "Dark_Bluish_Grey",
+    "bounds_min_mm": [
+      -12.96,
+      -3.85,
+      -12.96
+    ],
+    "bounds_max_mm": [
+      12.96,
+      3.85,
+      12.96
+    ],
+    "triangles": 4328,
+    "hulls": 25,
+    "mass_measured_g": 1.17,
+    "mass_hull_estimate_g": 3.69,
+    "com_mm": [
+      -0.0,
+      -0.0,
+      -0.0
+    ],
+    "teeth": 24,
+    "tooth_phase_deg": -0.0
+  },
+  "10928": {
+    "catalogue_id": "10928",
+    "title": "Gear 8 tooth",
+    "colour": "Dark_Bluish_Grey",
+    "bounds_min_mm": [
+      -4.97,
+      -4.0,
+      -4.97
+    ],
+    "bounds_max_mm": [
+      4.97,
+      4.0,
+      4.97
+    ],
+    "triangles": 928,
+    "hulls": 9,
+    "mass_measured_g": 0.22,
+    "mass_hull_estimate_g": 0.46,
+    "com_mm": [
+      -0.0,
+      -0.0,
+      -0.0
+    ],
+    "teeth": 8,
+    "tooth_phase_deg": 0.0
+  },
+  "32062": {
+    "catalogue_id": "32062",
+    "title": "axle 2 notched",
+    "colour": "Red",
+    "bounds_min_mm": [
+      -7.8,
+      -2.4,
+      -2.4
+    ],
+    "bounds_max_mm": [
+      7.8,
+      2.4,
+      2.4
+    ],
+    "triangles": 368,
+    "hulls": 1,
+    "mass_measured_g": 0.26,
+    "mass_hull_estimate_g": 0.23,
+    "com_mm": [
+      0.0,
+      -0.0,
+      0.0
+    ]
+  },
+  "4185": {
+    "catalogue_id": "4185",
+    "title": "wedge-belt wheel (24 mm)",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -12.0,
+      -2.0,
+      -12.0
+    ],
+    "bounds_max_mm": [
+      12.0,
+      2.0,
+      12.0
+    ],
+    "triangles": 3616,
+    "hulls": 48,
+    "mass_measured_g": 0.97,
+    "mass_hull_estimate_g": 0.95,
+    "com_mm": [
+      0.29,
+      -0.02,
+      -0.19
+    ]
+  },
+  "3713": {
+    "catalogue_id": "3713",
+    "title": "bush",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -3.6,
+      -4.0,
+      -3.6
+    ],
+    "bounds_max_mm": [
+      3.6,
+      4.0,
+      3.6
+    ],
+    "triangles": 776,
+    "hulls": 33,
+    "mass_measured_g": 0.14,
+    "mass_hull_estimate_g": 0.05,
+    "com_mm": [
+      0.48,
+      -0.49,
+      0.17
+    ]
+  },
+  "58120c01": {
+    "catalogue_id": "58120c01",
+    "title": "M-motor",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -11.6,
+      0.0,
+      -12.0
+    ],
+    "bounds_max_mm": [
+      11.6,
+      48.0,
+      11.6
+    ],
+    "triangles": 5521,
+    "hulls": 24,
+    "mass_measured_g": 33.5,
+    "mass_hull_estimate_g": 24.37,
+    "com_mm": [
+      -0.01,
+      23.73,
+      0.12
+    ]
+  },
+  "87513c01": {
+    "catalogue_id": "87513c01",
+    "title": "AAA battery box",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -32.0,
+      -16.0,
+      -38.4
+    ],
+    "bounds_max_mm": [
+      32.0,
+      16.0,
+      1.6
+    ],
+    "triangles": 11319,
+    "hulls": 24,
+    "mass_measured_g": 109.0,
+    "mass_hull_estimate_g": 81.65,
+    "com_mm": [
+      0.23,
+      -0.03,
+      -18.85
+    ]
+  },
+  "32073": {
+    "catalogue_id": "32073",
+    "title": "axle 5",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -19.8,
+      -2.4,
+      -2.4
+    ],
+    "bounds_max_mm": [
+      19.8,
+      2.4,
+      2.4
+    ],
+    "triangles": 176,
+    "hulls": 1,
+    "mass_measured_g": 0.66,
+    "mass_hull_estimate_g": 0.61,
+    "com_mm": [
+      -0.0,
+      -0.0,
+      0.0
+    ]
+  },
+  "3706": {
+    "catalogue_id": "3706",
+    "title": "axle 6",
+    "colour": "Black",
+    "bounds_min_mm": [
+      -23.8,
+      -2.4,
+      -2.4
+    ],
+    "bounds_max_mm": [
+      23.8,
+      2.4,
+      2.4
+    ],
+    "triangles": 176,
+    "hulls": 1,
+    "mass_measured_g": 0.86,
+    "mass_hull_estimate_g": 0.74,
+    "com_mm": [
+      -0.0,
+      -0.0,
+      0.0
+    ]
+  },
+  "3707": {
+    "catalogue_id": "3707",
+    "title": "axle 8",
+    "colour": "Black",
+    "bounds_min_mm": [
+      -31.8,
+      -2.4,
+      -2.4
+    ],
+    "bounds_max_mm": [
+      31.8,
+      2.4,
+      2.4
+    ],
+    "triangles": 176,
+    "hulls": 1,
+    "mass_measured_g": 1.18,
+    "mass_hull_estimate_g": 0.99,
+    "com_mm": [
+      -0.0,
+      -0.0,
+      0.0
+    ]
+  },
+  "3894": {
+    "catalogue_id": "3894",
+    "title": "beam brick 1x6 with holes",
+    "colour": "Black",
+    "bounds_min_mm": [
+      -24.0,
+      -4.0,
+      -9.6
+    ],
+    "bounds_max_mm": [
+      24.0,
+      4.0,
+      1.6
+    ],
+    "triangles": 6094,
+    "hulls": 82,
+    "mass_measured_g": 2.2,
+    "mass_hull_estimate_g": 3.1,
+    "com_mm": [
+      -0.0,
+      -0.0,
+      -5.0
+    ],
+    "pin_hole_free_radius_mm": 2.403
+  },
+  "3702": {
+    "catalogue_id": "3702",
+    "title": "beam brick 1x8 with holes",
+    "colour": "Black",
+    "bounds_min_mm": [
+      -32.0,
+      -4.0,
+      -9.6
+    ],
+    "bounds_max_mm": [
+      32.0,
+      4.0,
+      1.6
+    ],
+    "triangles": 8402,
+    "hulls": 114,
+    "mass_measured_g": 2.85,
+    "mass_hull_estimate_g": 4.08,
+    "com_mm": [
+      -0.0,
+      -0.0,
+      -5.01
+    ],
+    "pin_hole_free_radius_mm": 2.403
+  },
+  "3703": {
+    "catalogue_id": "3703",
+    "title": "beam brick 1x16 with holes",
+    "colour": "Black",
+    "bounds_min_mm": [
+      -64.0,
+      -4.0,
+      -9.6
+    ],
+    "bounds_max_mm": [
+      64.0,
+      4.0,
+      1.6
+    ],
+    "triangles": 17634,
+    "hulls": 242,
+    "mass_measured_g": 5.87,
+    "mass_hull_estimate_g": 8.01,
+    "com_mm": [
+      0.0,
+      -0.0,
+      -5.03
+    ],
+    "pin_hole_free_radius_mm": 2.403
+  },
+  "2780": {
+    "catalogue_id": "2780",
+    "title": "pin with friction ridges",
+    "colour": "Black",
+    "bounds_min_mm": [
+      -8.0,
+      -3.2,
+      -2.96
+    ],
+    "bounds_max_mm": [
+      8.0,
+      3.2,
+      2.96
+    ],
+    "triangles": 1410,
+    "hulls": 1,
+    "mass_measured_g": 0.2,
+    "mass_hull_estimate_g": 0.24,
+    "com_mm": [
+      0.0,
+      -0.0,
+      0.0
+    ]
+  },
+  "32020c01": {
+    "catalogue_id": "32020c01",
+    "title": "Wheel 62.4 x 20 mm with rubber tyre (32020 / 32019)",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -31.32,
+      -13.8,
+      -31.32
+    ],
+    "bounds_max_mm": [
+      31.32,
+      6.2,
+      31.32
+    ],
+    "triangles": 15788,
+    "hulls": 1,
+    "mass_measured_g": 33.0,
+    "mass_hull_estimate_g": 64.32,
+    "com_mm": [
+      0.0,
+      -3.8,
+      0.0
+    ],
+    "wheel_radius_mm": 31.32,
+    "wheel_collision_mm": [
+      [
+        31.32,
+        -13.8,
+        6.2,
+        1.2
+      ]
+    ]
+  },
+  "3649": {
+    "catalogue_id": "3649",
+    "title": "Gear 40 tooth",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -20.94,
+      -4.0,
+      -20.94
+    ],
+    "bounds_max_mm": [
+      20.94,
+      4.0,
+      20.94
+    ],
+    "triangles": 10672,
+    "hulls": 41,
+    "mass_measured_g": 3.76,
+    "mass_hull_estimate_g": 10.26,
+    "com_mm": [
+      -0.0,
+      0.0,
+      0.0
+    ],
+    "teeth": 40,
+    "tooth_phase_deg": 0.001
+  },
+  "32270": {
+    "catalogue_id": "32270",
+    "title": "Gear 12 tooth double bevel (meshes as a spur gear)",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -6.8,
+      -4.0,
+      -6.8
+    ],
+    "bounds_max_mm": [
+      6.8,
+      4.0,
+      6.8
+    ],
+    "triangles": 2088,
+    "hulls": 13,
+    "mass_measured_g": 0.58,
+    "mass_hull_estimate_g": 0.92,
+    "com_mm": [
+      -0.0,
+      0.0,
+      0.0
+    ],
+    "teeth": 12,
+    "tooth_phase_deg": 0.0
+  },
+  "32269": {
+    "catalogue_id": "32269",
+    "title": "Gear 20 tooth double bevel (meshes as a spur gear)",
+    "colour": "Tan",
+    "bounds_min_mm": [
+      -10.8,
+      -4.0,
+      -10.8
+    ],
+    "bounds_max_mm": [
+      10.8,
+      4.0,
+      10.8
+    ],
+    "triangles": 3880,
+    "hulls": 21,
+    "mass_measured_g": 1.4,
+    "mass_hull_estimate_g": 2.56,
+    "com_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "teeth": 20,
+    "tooth_phase_deg": 0.0
+  },
+  "32498": {
+    "catalogue_id": "32498",
+    "title": "Gear 36 tooth double bevel (meshes as a spur gear)",
+    "colour": "Black",
+    "bounds_min_mm": [
+      -18.8,
+      -4.0,
+      -18.8
+    ],
+    "bounds_max_mm": [
+      18.8,
+      4.0,
+      18.8
+    ],
+    "triangles": 14328,
+    "hulls": 37,
+    "mass_measured_g": 3.5,
+    "mass_hull_estimate_g": 8.37,
+    "com_mm": [
+      -0.0,
+      0.0,
+      -0.0
+    ],
+    "teeth": 36,
+    "tooth_phase_deg": 0.0
+  },
+  "99499c01": {
+    "catalogue_id": "99499c01",
+    "title": "L-motor",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -12.0,
+      0.0,
+      -15.8
+    ],
+    "bounds_max_mm": [
+      12.0,
+      56.0,
+      15.8
+    ],
+    "triangles": 13456,
+    "hulls": 24,
+    "mass_measured_g": 45.0,
+    "mass_hull_estimate_g": 34.21,
+    "com_mm": [
+      -0.03,
+      27.53,
+      -0.08
+    ]
+  },
+  "58121c01": {
+    "catalogue_id": "58121c01",
+    "title": "XL-motor",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -20.0,
+      0.0,
+      -19.74
+    ],
+    "bounds_max_mm": [
+      20.0,
+      48.0,
+      19.74
+    ],
+    "triangles": 7552,
+    "hulls": 24,
+    "mass_measured_g": 72.0,
+    "mass_hull_estimate_g": 55.42,
+    "com_mm": [
+      0.07,
+      23.01,
+      0.05
+    ]
+  },
+  "32524": {
+    "catalogue_id": "32524",
+    "title": "liftarm thick 1x7",
+    "colour": "Black",
+    "bounds_min_mm": [
+      -3.6,
+      -27.6,
+      -4.0
+    ],
+    "bounds_max_mm": [
+      3.6,
+      27.6,
+      4.0
+    ],
+    "triangles": 6172,
+    "hulls": 48,
+    "mass_measured_g": 1.74,
+    "mass_hull_estimate_g": 1.96,
+    "com_mm": [
+      -0.04,
+      0.01,
+      0.0
+    ]
+  },
+  "40490": {
+    "catalogue_id": "40490",
+    "title": "liftarm thick 1x9",
+    "colour": "Black",
+    "bounds_min_mm": [
+      -3.6,
+      -35.6,
+      -4.0
+    ],
+    "bounds_max_mm": [
+      3.6,
+      35.6,
+      4.0
+    ],
+    "triangles": 7972,
+    "hulls": 40,
+    "mass_measured_g": 2.59,
+    "mass_hull_estimate_g": 2.72,
+    "com_mm": [
+      0.0,
+      -0.16,
+      -0.0
+    ]
+  },
+  "32278": {
+    "catalogue_id": "32278",
+    "title": "liftarm thick 1x15",
+    "colour": "Black",
+    "bounds_min_mm": [
+      -3.6,
+      -59.6,
+      -4.0
+    ],
+    "bounds_max_mm": [
+      3.6,
+      59.6,
+      4.0
+    ],
+    "triangles": 13372,
+    "hulls": 46,
+    "mass_measured_g": 4.0,
+    "mass_hull_estimate_g": 5.46,
+    "com_mm": [
+      -0.03,
+      0.1,
+      -0.0
+    ]
+  },
+  "4716": {
+    "catalogue_id": "4716",
+    "title": "Worm gear (single start, meshes at right angles with a spur gear: 1 : z)",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -5.08,
+      -8.0,
+      -5.08
+    ],
+    "bounds_max_mm": [
+      5.08,
+      8.0,
+      5.08
+    ],
+    "triangles": 948,
+    "hulls": 48,
+    "mass_measured_g": 0.6,
+    "mass_hull_estimate_g": 0.84,
+    "com_mm": [
+      0.01,
+      0.1,
+      0.0
+    ]
+  },
+  "59510c01": {
+    "catalogue_id": "59510c01",
+    "title": "AA battery box",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -44.0,
+      -16.0,
+      -28.0
+    ],
+    "bounds_max_mm": [
+      44.0,
+      16.0,
+      35.6
+    ],
+    "triangles": 27830,
+    "hulls": 24,
+    "mass_measured_g": 191.5,
+    "mass_hull_estimate_g": 132.7,
+    "com_mm": [
+      0.07,
+      -0.07,
+      0.34
+    ]
+  },
+  "58123c01": {
+    "catalogue_id": "58123c01",
+    "title": "IR receiver",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -16.0,
+      -16.0,
+      -9.6
+    ],
+    "bounds_max_mm": [
+      16.0,
+      16.0,
+      29.51
+    ],
+    "triangles": 6902,
+    "hulls": 16,
+    "mass_measured_g": 20.6,
+    "mass_hull_estimate_g": 25.07,
+    "com_mm": [
+      -0.0,
+      -3.7,
+      4.49
+    ]
+  },
+  "56145c01": {
+    "catalogue_id": "56145c01",
+    "title": "Wheel 30.4 x 20 rim with tyre 43.2 x 22 ZR (56145 / 44309)",
+    "colour": "Black",
+    "bounds_min_mm": [
+      -21.6,
+      -10.8,
+      -21.6
+    ],
+    "bounds_max_mm": [
+      21.6,
+      10.8,
+      21.6
+    ],
+    "triangles": 7546,
+    "hulls": 2,
+    "mass_measured_g": 15.1,
+    "mass_hull_estimate_g": 48.08,
+    "com_mm": [
+      0.0,
+      -0.0,
+      -0.0
+    ],
+    "wheel_radius_mm": 21.6,
+    "wheel_collision_mm": [
+      [
+        21.6,
+        -10.8,
+        10.8,
+        1.5
+      ],
+      [
+        15.2,
+        -10.0,
+        10.0,
+        0.4
+      ]
+    ]
+  },
+  "55982c01": {
+    "catalogue_id": "55982c01",
+    "title": "Wheel 18 x 14 rim with tyre 30.4 x 14 offset tread (55982 / 30391)",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -15.2,
+      -6.8,
+      -15.2
+    ],
+    "bounds_max_mm": [
+      15.2,
+      8.0,
+      15.2
+    ],
+    "triangles": 5764,
+    "hulls": 2,
+    "mass_measured_g": 8.37,
+    "mass_hull_estimate_g": 13.68,
+    "com_mm": [
+      0.0,
+      0.15,
+      -0.0
+    ],
+    "wheel_radius_mm": 15.2,
+    "wheel_collision_mm": [
+      [
+        15.2,
+        -6.8,
+        6.8,
+        1.0
+      ],
+      [
+        8.4,
+        -6.8,
+        8.0,
+        0.3
+      ]
+    ]
+  },
+  "55423c01": {
+    "catalogue_id": "55423c01",
+    "title": "RC train wheel with rubber friction band (55423)",
+    "colour": "Black",
+    "bounds_min_mm": [
+      -12.0,
+      -1.0,
+      -12.0
+    ],
+    "bounds_max_mm": [
+      12.0,
+      4.0,
+      12.0
+    ],
+    "triangles": 2970,
+    "hulls": 2,
+    "mass_measured_g": 1.1,
+    "mass_hull_estimate_g": 1.49,
+    "com_mm": [
+      0.0,
+      1.56,
+      0.0
+    ],
+    "wheel_radius_mm": 12.0,
+    "wheel_collision_mm": [
+      [
+        12.0,
+        2.4,
+        3.6,
+        0.4
+      ],
+      [
+        9.15,
+        -1.0,
+        2.4,
+        0.3
+      ]
+    ]
+  },
+  "4185t": {
+    "catalogue_id": "4185t",
+    "title": "Wedge-belt wheel 4185 with rubber tyre 2815",
+    "colour": "Yellow",
+    "bounds_min_mm": [
+      -15.2,
+      -2.0,
+      -15.2
+    ],
+    "bounds_max_mm": [
+      15.2,
+      2.0,
+      15.2
+    ],
+    "triangles": 4192,
+    "hulls": 2,
+    "mass_measured_g": 1.72,
+    "mass_hull_estimate_g": 4.29,
+    "com_mm": [
+      0.0,
+      0.0,
+      -0.0
+    ],
+    "wheel_radius_mm": 15.2,
+    "wheel_collision_mm": [
+      [
+        15.2,
+        -1.6,
+        1.6,
+        0.6
+      ],
+      [
+        12.0,
+        -2.0,
+        2.0,
+        0.3
+      ]
+    ]
+  },
+  "2730": {
+    "catalogue_id": "2730",
+    "title": "beam brick 1x10 with holes",
+    "colour": "Dark_Bluish_Grey",
+    "bounds_min_mm": [
+      -40.0,
+      -4.0,
+      -9.6
+    ],
+    "bounds_max_mm": [
+      40.0,
+      4.0,
+      1.6
+    ],
+    "triangles": 10710,
+    "hulls": 146,
+    "mass_measured_g": 3.67,
+    "mass_hull_estimate_g": 5.06,
+    "com_mm": [
+      0.0,
+      -0.0,
+      -5.02
+    ],
+    "pin_hole_free_radius_mm": 2.403
+  },
+  "32018": {
+    "catalogue_id": "32018",
+    "title": "beam brick 1x14 with holes",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -56.0,
+      -4.0,
+      -9.6
+    ],
+    "bounds_max_mm": [
+      56.0,
+      4.0,
+      1.6
+    ],
+    "triangles": 15326,
+    "hulls": 210,
+    "mass_measured_g": 4.92,
+    "mass_hull_estimate_g": 7.02,
+    "com_mm": [
+      0.0,
+      -0.0,
+      -5.03
+    ],
+    "pin_hole_free_radius_mm": 2.403
+  },
+  "3700": {
+    "catalogue_id": "3700",
+    "title": "beam brick 1x2 with hole",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -8.0,
+      -4.0,
+      -9.6
+    ],
+    "bounds_max_mm": [
+      8.0,
+      4.0,
+      1.6
+    ],
+    "triangles": 1478,
+    "hulls": 18,
+    "mass_measured_g": 0.82,
+    "mass_hull_estimate_g": 1.14,
+    "com_mm": [
+      0.0,
+      -0.0,
+      -4.91
+    ],
+    "pin_hole_free_radius_mm": 2.403
+  },
+  "32000": {
+    "catalogue_id": "32000",
+    "title": "beam brick 1x2 with 2 holes (under the studs)",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -8.0,
+      -4.0,
+      -9.6
+    ],
+    "bounds_max_mm": [
+      8.0,
+      4.0,
+      1.6
+    ],
+    "triangles": 1812,
+    "hulls": 32,
+    "mass_measured_g": 0.73,
+    "mass_hull_estimate_g": 0.98,
+    "com_mm": [
+      -0.0,
+      0.0,
+      -5.05
+    ],
+    "pin_hole_free_radius_mm": 0.0
+  },
+  "6541": {
+    "catalogue_id": "6541",
+    "title": "beam brick 1x1 with hole",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -4.0,
+      -4.0,
+      -9.6
+    ],
+    "bounds_max_mm": [
+      4.0,
+      4.0,
+      1.6
+    ],
+    "triangles": 904,
+    "hulls": 16,
+    "mass_measured_g": 0.38,
+    "mass_hull_estimate_g": 0.49,
+    "com_mm": [
+      -0.0,
+      -0.0,
+      -5.05
+    ],
+    "pin_hole_free_radius_mm": 2.403
+  },
+  "32523": {
+    "catalogue_id": "32523",
+    "title": "liftarm thick 1x3",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -3.6,
+      -11.6,
+      -4.0
+    ],
+    "bounds_max_mm": [
+      3.6,
+      11.6,
+      4.0
+    ],
+    "triangles": 2572,
+    "hulls": 46,
+    "mass_measured_g": 0.7,
+    "mass_hull_estimate_g": 0.61,
+    "com_mm": [
+      -0.22,
+      -1.55,
+      -0.01
+    ]
+  },
+  "32316": {
+    "catalogue_id": "32316",
+    "title": "liftarm thick 1x5",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -3.6,
+      -19.6,
+      -4.0
+    ],
+    "bounds_max_mm": [
+      3.6,
+      19.6,
+      4.0
+    ],
+    "triangles": 4372,
+    "hulls": 46,
+    "mass_measured_g": 1.25,
+    "mass_hull_estimate_g": 1.59,
+    "com_mm": [
+      -0.48,
+      0.27,
+      -0.05
+    ]
+  },
+  "32525": {
+    "catalogue_id": "32525",
+    "title": "liftarm thick 1x11",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -3.6,
+      -43.6,
+      -4.0
+    ],
+    "bounds_max_mm": [
+      3.6,
+      43.6,
+      4.0
+    ],
+    "triangles": 9772,
+    "hulls": 48,
+    "mass_measured_g": 2.8,
+    "mass_hull_estimate_g": 3.67,
+    "com_mm": [
+      0.05,
+      -0.03,
+      0.01
+    ]
+  },
+  "41239": {
+    "catalogue_id": "41239",
+    "title": "liftarm thick 1x13",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -3.6,
+      -51.6,
+      -4.0
+    ],
+    "bounds_max_mm": [
+      3.6,
+      51.6,
+      4.0
+    ],
+    "triangles": 11572,
+    "hulls": 48,
+    "mass_measured_g": 3.3,
+    "mass_hull_estimate_g": 4.46,
+    "com_mm": [
+      -0.02,
+      0.44,
+      0.0
+    ]
+  },
+  "3673": {
+    "catalogue_id": "3673",
+    "title": "pin without friction ridges (pivot)",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -8.0,
+      -3.2,
+      -3.2
+    ],
+    "bounds_max_mm": [
+      8.0,
+      3.2,
+      3.2
+    ],
+    "triangles": 1936,
+    "hulls": 1,
+    "mass_measured_g": 0.16,
+    "mass_hull_estimate_g": 0.24,
+    "com_mm": [
+      0.0,
+      -0.0,
+      0.0
+    ]
+  },
+  "6558": {
+    "catalogue_id": "6558",
+    "title": "pin 3L with friction ridges",
+    "colour": "Blue",
+    "bounds_min_mm": [
+      -12.0,
+      -3.2,
+      -3.12
+    ],
+    "bounds_max_mm": [
+      12.0,
+      3.2,
+      3.12
+    ],
+    "triangles": 5312,
+    "hulls": 1,
+    "mass_measured_g": 0.37,
+    "mass_hull_estimate_g": 0.36,
+    "com_mm": [
+      -0.0,
+      -0.0,
+      0.0
+    ]
+  },
+  "32054": {
+    "catalogue_id": "32054",
+    "title": "pin 3L with friction ridges and stop bush",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -12.0,
+      -3.6,
+      -3.6
+    ],
+    "bounds_max_mm": [
+      12.0,
+      3.6,
+      3.6
+    ],
+    "triangles": 4720,
+    "hulls": 44,
+    "mass_measured_g": 0.33,
+    "mass_hull_estimate_g": 0.34,
+    "com_mm": [
+      -0.07,
+      -0.09,
+      0.06
+    ]
+  },
+  "43093": {
+    "catalogue_id": "43093",
+    "title": "axle-pin 1L/1L with friction",
+    "colour": "Blue",
+    "bounds_min_mm": [
+      -8.0,
+      -3.2,
+      -3.2
+    ],
+    "bounds_max_mm": [
+      7.8,
+      3.2,
+      3.2
+    ],
+    "triangles": 1720,
+    "hulls": 1,
+    "mass_measured_g": 0.26,
+    "mass_hull_estimate_g": 0.23,
+    "com_mm": [
+      -0.1,
+      -0.0,
+      0.0
+    ]
+  },
+  "65249": {
+    "catalogue_id": "65249",
+    "title": "axle-pin 1L pin (no friction) + 2L axle",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -12.0,
+      -3.2,
+      -3.2
+    ],
+    "bounds_max_mm": [
+      11.8,
+      3.2,
+      3.2
+    ],
+    "triangles": 1096,
+    "hulls": 1,
+    "mass_measured_g": 0.3,
+    "mass_hull_estimate_g": 0.36,
+    "com_mm": [
+      -0.1,
+      -0.0,
+      0.0
+    ]
+  },
+  "15100": {
+    "catalogue_id": "15100",
+    "title": "pin 1L with friction and perpendicular pin hole",
+    "colour": "Dark_Azure",
+    "bounds_min_mm": [
+      -3.6,
+      -3.6,
+      -4.0
+    ],
+    "bounds_max_mm": [
+      12.0,
+      3.6,
+      4.0
+    ],
+    "triangles": 1766,
+    "hulls": 39,
+    "mass_measured_g": 0.4,
+    "mass_hull_estimate_g": 0.21,
+    "com_mm": [
+      1.78,
+      0.08,
+      -0.01
+    ]
+  },
+  "87082": {
+    "catalogue_id": "87082",
+    "title": "pin 3L with centre pin hole",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -12.0,
+      -3.6,
+      -4.0
+    ],
+    "bounds_max_mm": [
+      12.0,
+      3.6,
+      4.0
+    ],
+    "triangles": 2764,
+    "hulls": 43,
+    "mass_measured_g": 0.5,
+    "mass_hull_estimate_g": 0.46,
+    "com_mm": [
+      0.57,
+      0.06,
+      0.09
+    ]
+  },
+  "4519": {
+    "catalogue_id": "4519",
+    "title": "axle 3",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -11.8,
+      -2.4,
+      -2.4
+    ],
+    "bounds_max_mm": [
+      11.8,
+      2.4,
+      2.4
+    ],
+    "triangles": 176,
+    "hulls": 1,
+    "mass_measured_g": 0.43,
+    "mass_hull_estimate_g": 0.36,
+    "com_mm": [
+      -0.0,
+      -0.0,
+      0.0
+    ]
+  },
+  "60485": {
+    "catalogue_id": "60485",
+    "title": "axle 9",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -35.8,
+      -2.4,
+      -2.4
+    ],
+    "bounds_max_mm": [
+      35.8,
+      2.4,
+      2.4
+    ],
+    "triangles": 176,
+    "hulls": 1,
+    "mass_measured_g": 1.3,
+    "mass_hull_estimate_g": 1.12,
+    "com_mm": [
+      0.0,
+      -0.0,
+      0.0
+    ]
+  },
+  "23948": {
+    "catalogue_id": "23948",
+    "title": "axle 11",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -43.8,
+      -2.4,
+      -2.4
+    ],
+    "bounds_max_mm": [
+      43.8,
+      2.4,
+      2.4
+    ],
+    "triangles": 176,
+    "hulls": 1,
+    "mass_measured_g": 1.65,
+    "mass_hull_estimate_g": 1.37,
+    "com_mm": [
+      -0.0,
+      -0.0,
+      0.0
+    ]
+  },
+  "50451": {
+    "catalogue_id": "50451",
+    "title": "axle 16",
+    "colour": "Black",
+    "bounds_min_mm": [
+      -63.8,
+      -2.4,
+      -2.4
+    ],
+    "bounds_max_mm": [
+      63.8,
+      2.4,
+      2.4
+    ],
+    "triangles": 176,
+    "hulls": 1,
+    "mass_measured_g": 2.37,
+    "mass_hull_estimate_g": 2.01,
+    "com_mm": [
+      0.0,
+      -0.0,
+      0.0
+    ]
+  },
+  "24316": {
+    "catalogue_id": "24316",
+    "title": "axle 3 with stop",
+    "colour": "Dark_Bluish_Grey",
+    "bounds_min_mm": [
+      -11.8,
+      -3.2,
+      -3.2
+    ],
+    "bounds_max_mm": [
+      12.0,
+      3.2,
+      3.2
+    ],
+    "triangles": 296,
+    "hulls": 1,
+    "mass_measured_g": 0.45,
+    "mass_hull_estimate_g": 0.36,
+    "com_mm": [
+      0.1,
+      -0.0,
+      0.0
+    ]
+  },
+  "15462": {
+    "catalogue_id": "15462",
+    "title": "axle 5 with stop",
+    "colour": "Dark_Bluish_Grey",
+    "bounds_min_mm": [
+      -19.8,
+      -3.2,
+      -3.2
+    ],
+    "bounds_max_mm": [
+      20.0,
+      3.2,
+      3.2
+    ],
+    "triangles": 296,
+    "hulls": 1,
+    "mass_measured_g": 0.73,
+    "mass_hull_estimate_g": 0.61,
+    "com_mm": [
+      0.1,
+      -0.0,
+      0.0
+    ]
+  },
+  "87083": {
+    "catalogue_id": "87083",
+    "title": "axle 4 with stop",
+    "colour": "Dark_Bluish_Grey",
+    "bounds_min_mm": [
+      -15.8,
+      -3.2,
+      -3.2
+    ],
+    "bounds_max_mm": [
+      16.0,
+      3.2,
+      3.2
+    ],
+    "triangles": 296,
+    "hulls": 1,
+    "mass_measured_g": 0.59,
+    "mass_hull_estimate_g": 0.49,
+    "com_mm": [
+      0.1,
+      -0.0,
+      0.0
+    ]
+  },
+  "6587": {
+    "catalogue_id": "6587",
+    "title": "axle 3 with stud",
+    "colour": "Dark_Bluish_Grey",
+    "bounds_min_mm": [
+      -11.8,
+      -3.2,
+      -3.2
+    ],
+    "bounds_max_mm": [
+      13.6,
+      3.2,
+      3.2
+    ],
+    "triangles": 584,
+    "hulls": 1,
+    "mass_measured_g": 0.48,
+    "mass_hull_estimate_g": 0.36,
+    "com_mm": [
+      0.1,
+      -0.0,
+      0.0
+    ]
+  },
+  "4265c": {
+    "catalogue_id": "4265c",
+    "title": "bush 1/2 smooth",
+    "colour": "White",
+    "bounds_min_mm": [
+      -3.6,
+      -2.0,
+      -3.6
+    ],
+    "bounds_max_mm": [
+      3.6,
+      2.0,
+      3.6
+    ],
+    "triangles": 736,
+    "hulls": 47,
+    "mass_measured_g": 0.1,
+    "mass_hull_estimate_g": 0.05,
+    "com_mm": [
+      0.0,
+      -0.01,
+      0.01
+    ]
+  },
+  "6589": {
+    "catalogue_id": "6589",
+    "title": "Gear 12 tooth bevel (meshes at right angles only)",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -6.4,
+      -1.2,
+      -6.4
+    ],
+    "bounds_max_mm": [
+      6.4,
+      2.8,
+      6.4
+    ],
+    "triangles": 1284,
+    "hulls": 12,
+    "mass_measured_g": 0.29,
+    "mass_hull_estimate_g": 0.4,
+    "com_mm": [
+      -0.12,
+      0.78,
+      -0.04
+    ]
+  },
+  "32198": {
+    "catalogue_id": "32198",
+    "title": "Gear 20 tooth bevel (meshes at right angles only)",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -10.4,
+      -2.8,
+      -10.4
+    ],
+    "bounds_max_mm": [
+      10.4,
+      1.2,
+      10.4
+    ],
+    "triangles": 1300,
+    "hulls": 13,
+    "mass_measured_g": 0.75,
+    "mass_hull_estimate_g": 1.04,
+    "com_mm": [
+      -0.21,
+      -1.03,
+      0.18
+    ]
+  },
+  "69778": {
+    "catalogue_id": "69778",
+    "title": "Gear 12 tooth (spur, 4 mm wide teeth)",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -7.08,
+      -4.0,
+      -7.08
+    ],
+    "bounds_max_mm": [
+      7.08,
+      4.0,
+      7.08
+    ],
+    "triangles": 1372,
+    "hulls": 13,
+    "mass_measured_g": 0.5,
+    "mass_hull_estimate_g": 1.0,
+    "com_mm": [
+      -0.0,
+      0.0,
+      0.0
+    ],
+    "teeth": 12,
+    "tooth_phase_deg": -0.0
+  },
+  "18946": {
+    "catalogue_id": "18946",
+    "title": "Gear 16 tooth with clutch on both sides (round bore: turns freely)",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -8.71,
+      -4.0,
+      -8.71
+    ],
+    "bounds_max_mm": [
+      8.71,
+      4.0,
+      8.71
+    ],
+    "triangles": 1968,
+    "hulls": 17,
+    "mass_measured_g": 0.84,
+    "mass_hull_estimate_g": 1.7,
+    "com_mm": [
+      -0.0,
+      0.0,
+      -0.0
+    ],
+    "teeth": 16,
+    "tooth_phase_deg": 0.0
+  },
+  "6542b": {
+    "catalogue_id": "6542b",
+    "title": "Gear 16 tooth with clutch, smooth centre (round bore: turns freely)",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -8.74,
+      -4.0,
+      -8.74
+    ],
+    "bounds_max_mm": [
+      8.74,
+      4.0,
+      8.74
+    ],
+    "triangles": 1896,
+    "hulls": 17,
+    "mass_measured_g": 0.7,
+    "mass_hull_estimate_g": 1.7,
+    "com_mm": [
+      0.0,
+      0.0,
+      -0.0
+    ],
+    "teeth": 16,
+    "tooth_phase_deg": 0.0
+  },
+  "4019": {
+    "catalogue_id": "4019",
+    "title": "Gear 16 tooth (axle hole, open sides)",
+    "colour": "Light_Grey",
+    "bounds_min_mm": [
+      -8.66,
+      -4.0,
+      -8.66
+    ],
+    "bounds_max_mm": [
+      8.66,
+      4.0,
+      8.66
+    ],
+    "triangles": 1704,
+    "hulls": 17,
+    "mass_measured_g": 0.7,
+    "mass_hull_estimate_g": 1.69,
+    "com_mm": [
+      -0.0,
+      0.0,
+      -0.0
+    ],
+    "teeth": 16,
+    "tooth_phase_deg": -0.0
+  },
+  "32140": {
+    "catalogue_id": "32140",
+    "title": "liftarm L 2x4 thick (90 deg)",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -3.6,
+      -3.6,
+      -4.0
+    ],
+    "bounds_max_mm": [
+      11.6,
+      27.6,
+      4.0
+    ],
+    "triangles": 3832,
+    "hulls": 47,
+    "mass_measured_g": 1.43,
+    "mass_hull_estimate_g": 1.41,
+    "com_mm": [
+      1.28,
+      15.29,
+      0.08
+    ]
+  },
+  "32526": {
+    "catalogue_id": "32526",
+    "title": "liftarm L 3x5 thick (90 deg)",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -3.6,
+      -3.6,
+      -4.0
+    ],
+    "bounds_max_mm": [
+      19.6,
+      35.6,
+      4.0
+    ],
+    "triangles": 6144,
+    "hulls": 48,
+    "mass_measured_g": 1.77,
+    "mass_hull_estimate_g": 3.09,
+    "com_mm": [
+      3.0,
+      20.37,
+      -0.05
+    ]
+  },
+  "32348": {
+    "catalogue_id": "32348",
+    "title": "liftarm bent 1x7 (4-4, 53.13 deg)",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -3.6,
+      -3.6,
+      -4.0
+    ],
+    "bounds_max_mm": [
+      22.8,
+      42.0,
+      4.0
+    ],
+    "triangles": 5166,
+    "hulls": 47,
+    "mass_measured_g": 2.0,
+    "mass_hull_estimate_g": 3.02,
+    "com_mm": [
+      5.0,
+      20.63,
+      0.01
+    ]
+  },
+  "32271": {
+    "catalogue_id": "32271",
+    "title": "liftarm bent 1x9 (7-3, 53.13 deg)",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -3.6,
+      -3.6,
+      -4.0
+    ],
+    "bounds_max_mm": [
+      16.4,
+      61.2,
+      4.0
+    ],
+    "triangles": 6966,
+    "hulls": 48,
+    "mass_measured_g": 2.63,
+    "mass_hull_estimate_g": 2.84,
+    "com_mm": [
+      2.16,
+      31.06,
+      0.0
+    ]
+  },
+  "6629": {
+    "catalogue_id": "6629",
+    "title": "liftarm bent 1x9 (6-4, 53.13 deg)",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -3.6,
+      -3.6,
+      -4.0
+    ],
+    "bounds_max_mm": [
+      22.8,
+      58.0,
+      4.0
+    ],
+    "triangles": 6966,
+    "hulls": 48,
+    "mass_measured_g": 2.6,
+    "mass_hull_estimate_g": 2.89,
+    "com_mm": [
+      4.3,
+      30.11,
+      -0.0
+    ]
+  },
+  "60484": {
+    "catalogue_id": "60484",
+    "title": "liftarm T 3x3 thick",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -11.6,
+      -3.6,
+      -4.0
+    ],
+    "bounds_max_mm": [
+      11.6,
+      19.6,
+      4.0
+    ],
+    "triangles": 4234,
+    "hulls": 44,
+    "mass_measured_g": 1.19,
+    "mass_hull_estimate_g": 1.55,
+    "com_mm": [
+      -0.17,
+      11.99,
+      0.03
+    ]
+  },
+  "32056": {
+    "catalogue_id": "32056",
+    "title": "liftarm L 3x3 thin (4 mm)",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -3.6,
+      -3.6,
+      -2.0
+    ],
+    "bounds_max_mm": [
+      19.6,
+      19.6,
+      2.0
+    ],
+    "triangles": 2960,
+    "hulls": 38,
+    "mass_measured_g": 0.73,
+    "mass_hull_estimate_g": 0.71,
+    "com_mm": [
+      4.47,
+      4.71,
+      0.05
+    ]
+  },
+  "32009": {
+    "catalogue_id": "32009",
+    "title": "liftarm double bent 1x11.5 thick (45 deg)",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -3.6,
+      -67.6,
+      -4.0
+    ],
+    "bounds_max_mm": [
+      35.6,
+      3.6,
+      4.0
+    ],
+    "triangles": 8816,
+    "hulls": 48,
+    "mass_measured_g": 3.46,
+    "mass_hull_estimate_g": 3.83,
+    "com_mm": [
+      7.3,
+      -25.04,
+      0.0
+    ]
+  },
+  "6536": {
+    "catalogue_id": "6536",
+    "title": "axle and pin connector perpendicular",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -4.0,
+      -4.0,
+      -11.6
+    ],
+    "bounds_max_mm": [
+      4.0,
+      4.0,
+      3.6
+    ],
+    "triangles": 1924,
+    "hulls": 41,
+    "mass_measured_g": 0.39,
+    "mass_hull_estimate_g": 0.39,
+    "com_mm": [
+      0.02,
+      0.01,
+      -4.82
+    ]
+  },
+  "32184": {
+    "catalogue_id": "32184",
+    "title": "axle and pin connector perpendicular 3L",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -4.0,
+      -4.0,
+      -11.6
+    ],
+    "bounds_max_mm": [
+      4.0,
+      4.0,
+      11.6
+    ],
+    "triangles": 3076,
+    "hulls": 48,
+    "mass_measured_g": 0.64,
+    "mass_hull_estimate_g": 0.77,
+    "com_mm": [
+      -0.15,
+      0.02,
+      0.04
+    ]
+  },
+  "42003": {
+    "catalogue_id": "42003",
+    "title": "axle and pin connector perpendicular 3L with 2 pin holes",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -4.0,
+      -4.0,
+      -11.6
+    ],
+    "bounds_max_mm": [
+      4.0,
+      4.0,
+      11.6
+    ],
+    "triangles": 3332,
+    "hulls": 46,
+    "mass_measured_g": 0.77,
+    "mass_hull_estimate_g": 0.73,
+    "com_mm": [
+      -0.29,
+      -0.08,
+      0.4
+    ]
+  },
+  "32013": {
+    "catalogue_id": "32013",
+    "title": "angle connector #1",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -4.0,
+      -12.0,
+      -3.6
+    ],
+    "bounds_max_mm": [
+      4.0,
+      3.6,
+      3.6
+    ],
+    "triangles": 1247,
+    "hulls": 48,
+    "mass_measured_g": 0.46,
+    "mass_hull_estimate_g": 0.32,
+    "com_mm": [
+      -0.02,
+      -4.13,
+      0.03
+    ]
+  },
+  "32015": {
+    "catalogue_id": "32015",
+    "title": "angle connector #5 (112.5 deg)",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -4.0,
+      -12.0,
+      -3.6
+    ],
+    "bounds_max_mm": [
+      4.0,
+      7.82,
+      12.42
+    ],
+    "triangles": 1804,
+    "hulls": 48,
+    "mass_measured_g": 0.69,
+    "mass_hull_estimate_g": 0.59,
+    "com_mm": [
+      -0.01,
+      -1.65,
+      2.39
+    ]
+  },
+  "32034": {
+    "catalogue_id": "32034",
+    "title": "angle connector #2 (180 deg)",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -4.0,
+      -12.0,
+      -3.6
+    ],
+    "bounds_max_mm": [
+      4.0,
+      12.0,
+      3.6
+    ],
+    "triangles": 1798,
+    "hulls": 48,
+    "mass_measured_g": 0.68,
+    "mass_hull_estimate_g": 0.62,
+    "com_mm": [
+      -0.01,
+      0.02,
+      0.0
+    ]
+  },
+  "48989": {
+    "catalogue_id": "48989",
+    "title": "pin connector perpendicular 3L with 4 pins",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -4.0,
+      -12.0,
+      -11.6
+    ],
+    "bounds_max_mm": [
+      4.0,
+      12.0,
+      11.6
+    ],
+    "triangles": 6976,
+    "hulls": 48,
+    "mass_measured_g": 1.22,
+    "mass_hull_estimate_g": 1.62,
+    "com_mm": [
+      -0.03,
+      -0.12,
+      -0.12
+    ]
+  },
+  "3001": {
+    "catalogue_id": "3001",
+    "title": "Brick 2x4",
+    "colour": "Black",
+    "bounds_min_mm": [
+      -16.0,
+      -8.0,
+      -9.6
+    ],
+    "bounds_max_mm": [
+      16.0,
+      8.0,
+      1.6
+    ],
+    "triangles": 2044,
+    "hulls": 1,
+    "mass_measured_g": 2.32,
+    "mass_hull_estimate_g": 5.16,
+    "com_mm": [
+      0.0,
+      0.0,
+      -4.8
+    ]
+  },
+  "3020": {
+    "catalogue_id": "3020",
+    "title": "Plate 2x4",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -16.0,
+      -8.0,
+      -3.2
+    ],
+    "bounds_max_mm": [
+      16.0,
+      8.0,
+      1.6
+    ],
+    "triangles": 2044,
+    "hulls": 1,
+    "mass_measured_g": 1.2,
+    "mass_hull_estimate_g": 1.72,
+    "com_mm": [
+      0.0,
+      0.0,
+      -1.6
+    ]
+  },
+  "3021": {
+    "catalogue_id": "3021",
+    "title": "Plate 2x3",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -12.0,
+      -8.0,
+      -3.2
+    ],
+    "bounds_max_mm": [
+      12.0,
+      8.0,
+      1.6
+    ],
+    "triangles": 1468,
+    "hulls": 1,
+    "mass_measured_g": 0.93,
+    "mass_hull_estimate_g": 1.29,
+    "com_mm": [
+      0.0,
+      0.0,
+      -1.6
+    ]
+  },
+  "3022": {
+    "catalogue_id": "3022",
+    "title": "Plate 2x2",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -8.0,
+      -8.0,
+      -3.2
+    ],
+    "bounds_max_mm": [
+      8.0,
+      8.0,
+      1.6
+    ],
+    "triangles": 892,
+    "hulls": 1,
+    "mass_measured_g": 0.64,
+    "mass_hull_estimate_g": 0.86,
+    "com_mm": [
+      0.0,
+      0.0,
+      -1.6
+    ]
+  },
+  "3023": {
+    "catalogue_id": "3023",
+    "title": "Plate 1x2",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -8.0,
+      -4.0,
+      -3.2
+    ],
+    "bounds_max_mm": [
+      8.0,
+      4.0,
+      1.6
+    ],
+    "triangles": 460,
+    "hulls": 1,
+    "mass_measured_g": 0.36,
+    "mass_hull_estimate_g": 0.43,
+    "com_mm": [
+      0.0,
+      0.0,
+      -1.6
+    ]
+  },
+  "3623": {
+    "catalogue_id": "3623",
+    "title": "Plate 1x3",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -12.0,
+      -4.0,
+      -3.2
+    ],
+    "bounds_max_mm": [
+      12.0,
+      4.0,
+      1.6
+    ],
+    "triangles": 748,
+    "hulls": 1,
+    "mass_measured_g": 0.53,
+    "mass_hull_estimate_g": 0.65,
+    "com_mm": [
+      0.0,
+      0.0,
+      -1.6
+    ]
+  },
+  "3795": {
+    "catalogue_id": "3795",
+    "title": "Plate 2x6",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -24.0,
+      -8.0,
+      -3.2
+    ],
+    "bounds_max_mm": [
+      24.0,
+      8.0,
+      1.6
+    ],
+    "triangles": 3196,
+    "hulls": 1,
+    "mass_measured_g": 1.74,
+    "mass_hull_estimate_g": 2.58,
+    "com_mm": [
+      0.0,
+      0.0,
+      -1.6
+    ]
+  },
+  "3034": {
+    "catalogue_id": "3034",
+    "title": "Plate 2x8",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -32.0,
+      -8.0,
+      -3.2
+    ],
+    "bounds_max_mm": [
+      32.0,
+      8.0,
+      1.6
+    ],
+    "triangles": 4348,
+    "hulls": 1,
+    "mass_measured_g": 2.27,
+    "mass_hull_estimate_g": 3.44,
+    "com_mm": [
+      0.0,
+      0.0,
+      -1.6
+    ]
+  },
+  "4477": {
+    "catalogue_id": "4477",
+    "title": "Plate 1x10",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -40.0,
+      -4.0,
+      -3.2
+    ],
+    "bounds_max_mm": [
+      40.0,
+      4.0,
+      1.6
+    ],
+    "triangles": 2764,
+    "hulls": 1,
+    "mass_measured_g": 1.61,
+    "mass_hull_estimate_g": 2.15,
+    "com_mm": [
+      0.0,
+      0.0,
+      -1.6
+    ]
+  },
+  "3028": {
+    "catalogue_id": "3028",
+    "title": "Plate 6x12",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -48.0,
+      -24.0,
+      -3.2
+    ],
+    "bounds_max_mm": [
+      48.0,
+      24.0,
+      1.6
+    ],
+    "triangles": 26236,
+    "hulls": 1,
+    "mass_measured_g": 9.47,
+    "mass_hull_estimate_g": 15.48,
+    "com_mm": [
+      0.0,
+      0.0,
+      -1.6
+    ]
+  },
+  "3030": {
+    "catalogue_id": "3030",
+    "title": "Plate 4x10",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -40.0,
+      -16.0,
+      -3.2
+    ],
+    "bounds_max_mm": [
+      40.0,
+      16.0,
+      1.6
+    ],
+    "triangles": 13564,
+    "hulls": 1,
+    "mass_measured_g": 5.55,
+    "mass_hull_estimate_g": 8.6,
+    "com_mm": [
+      0.0,
+      0.0,
+      -1.6
+    ]
+  },
+  "3031": {
+    "catalogue_id": "3031",
+    "title": "Plate 4x4",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -16.0,
+      -16.0,
+      -3.2
+    ],
+    "bounds_max_mm": [
+      16.0,
+      16.0,
+      1.6
+    ],
+    "triangles": 4924,
+    "hulls": 1,
+    "mass_measured_g": 2.22,
+    "mass_hull_estimate_g": 3.44,
+    "com_mm": [
+      0.0,
+      0.0,
+      -1.6
+    ]
+  },
+  "3033": {
+    "catalogue_id": "3033",
+    "title": "Plate 6x10",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -40.0,
+      -24.0,
+      -3.2
+    ],
+    "bounds_max_mm": [
+      40.0,
+      24.0,
+      1.6
+    ],
+    "triangles": 21628,
+    "hulls": 1,
+    "mass_measured_g": 7.95,
+    "mass_hull_estimate_g": 12.9,
+    "com_mm": [
+      0.0,
+      0.0,
+      -1.6
+    ]
+  },
+  "3035": {
+    "catalogue_id": "3035",
+    "title": "Plate 4x8",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -32.0,
+      -16.0,
+      -3.2
+    ],
+    "bounds_max_mm": [
+      32.0,
+      16.0,
+      1.6
+    ],
+    "triangles": 10684,
+    "hulls": 1,
+    "mass_measured_g": 4.7,
+    "mass_hull_estimate_g": 6.88,
+    "com_mm": [
+      0.0,
+      0.0,
+      -1.6
+    ]
+  },
+  "3036": {
+    "catalogue_id": "3036",
+    "title": "Plate 6x8",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -32.0,
+      -24.0,
+      -3.2
+    ],
+    "bounds_max_mm": [
+      32.0,
+      24.0,
+      1.6
+    ],
+    "triangles": 17020,
+    "hulls": 1,
+    "mass_measured_g": 6.4,
+    "mass_hull_estimate_g": 10.32,
+    "com_mm": [
+      0.0,
+      0.0,
+      -1.6
+    ]
+  },
+  "3958": {
+    "catalogue_id": "3958",
+    "title": "Plate 6x6",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -24.0,
+      -24.0,
+      -3.2
+    ],
+    "bounds_max_mm": [
+      24.0,
+      24.0,
+      1.6
+    ],
+    "triangles": 12412,
+    "hulls": 1,
+    "mass_measured_g": 4.71,
+    "mass_hull_estimate_g": 7.74,
+    "com_mm": [
+      0.0,
+      0.0,
+      -1.6
+    ]
+  },
+  "41539": {
+    "catalogue_id": "41539",
+    "title": "Plate 8x8",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -32.0,
+      -32.0,
+      -3.2
+    ],
+    "bounds_max_mm": [
+      32.0,
+      32.0,
+      1.6
+    ],
+    "triangles": 23356,
+    "hulls": 1,
+    "mass_measured_g": 9.4,
+    "mass_hull_estimate_g": 13.76,
+    "com_mm": [
+      0.0,
+      0.0,
+      -1.6
+    ]
+  },
+  "92438": {
+    "catalogue_id": "92438",
+    "title": "Plate 8x16",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -64.0,
+      -32.0,
+      -3.2
+    ],
+    "bounds_max_mm": [
+      64.0,
+      32.0,
+      1.6
+    ],
+    "triangles": 48700,
+    "hulls": 1,
+    "mass_measured_g": 17.0,
+    "mass_hull_estimate_g": 27.53,
+    "com_mm": [
+      0.0,
+      0.0,
+      -1.6
+    ]
+  },
+  "99498c01": {
+    "catalogue_id": "99498c01",
+    "title": "servo motor",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -12.0,
+      0.0,
+      -11.8
+    ],
+    "bounds_max_mm": [
+      12.0,
+      55.6,
+      27.8
+    ],
+    "triangles": 14666,
+    "hulls": 24,
+    "mass_measured_g": 44.0,
+    "mass_hull_estimate_g": 39.47,
+    "com_mm": [
+      0.02,
+      25.5,
+      10.39
+    ]
+  },
+  "64179": {
+    "catalogue_id": "64179",
+    "title": "liftarm frame thick 5x7 open centre",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -20.0,
+      -28.0,
+      -4.0
+    ],
+    "bounds_max_mm": [
+      20.0,
+      28.0,
+      4.0
+    ],
+    "triangles": 18376,
+    "hulls": 48,
+    "mass_measured_g": 5.3,
+    "mass_hull_estimate_g": 9.56,
+    "com_mm": [
+      -0.1,
+      -0.49,
+      0.04
+    ]
+  },
+  "64178": {
+    "catalogue_id": "64178",
+    "title": "liftarm frame thick 5x11 open centre (cross bars 2 holes in from the ends)",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -20.0,
+      -43.6,
+      -4.0
+    ],
+    "bounds_max_mm": [
+      20.0,
+      43.6,
+      4.0
+    ],
+    "triangles": 22756,
+    "hulls": 48,
+    "mass_measured_g": 7.0,
+    "mass_hull_estimate_g": 13.82,
+    "com_mm": [
+      -0.25,
+      -0.17,
+      0.0
+    ]
+  },
+  "57520": {
+    "catalogue_id": "57520",
+    "title": "tread sprocket wheel small (25.4 mm, 6 lobes, 12 tread links per turn)",
+    "colour": "Pearl_Light_Grey",
+    "bounds_min_mm": [
+      -12.8,
+      -4.0,
+      -12.59
+    ],
+    "bounds_max_mm": [
+      12.8,
+      4.0,
+      12.59
+    ],
+    "triangles": 4644,
+    "hulls": 48,
+    "mass_measured_g": 1.63,
+    "mass_hull_estimate_g": 1.66,
+    "com_mm": [
+      -0.18,
+      -0.6,
+      -0.11
+    ]
+  },
+  "3743": {
+    "catalogue_id": "3743",
+    "title": "gear rack 1x4 (10 teeth, studs underneath)",
+    "colour": "Black",
+    "bounds_min_mm": [
+      -16.0,
+      -4.0,
+      -3.2
+    ],
+    "bounds_max_mm": [
+      16.0,
+      4.0,
+      2.4
+    ],
+    "triangles": 580,
+    "hulls": 11,
+    "mass_measured_g": 0.79,
+    "mass_hull_estimate_g": 1.24,
+    "com_mm": [
+      0.0,
+      0.0,
+      -0.84
+    ]
+  },
+  "6630": {
+    "catalogue_id": "6630",
+    "title": "gear rack 1x8 with holes (14 teeth)",
+    "colour": "Light_Grey",
+    "bounds_min_mm": [
+      -32.0,
+      -4.0,
+      -4.0
+    ],
+    "bounds_max_mm": [
+      32.0,
+      4.0,
+      1.6
+    ],
+    "triangles": 1888,
+    "hulls": 15,
+    "mass_measured_g": 2.0,
+    "mass_hull_estimate_g": 2.44,
+    "com_mm": [
+      0.0,
+      0.0,
+      -1.7
+    ]
+  },
+  "87761": {
+    "catalogue_id": "87761",
+    "title": "gear rack 1x7 with axle and pin holes (8 teeth, end stops)",
+    "colour": "Black",
+    "bounds_min_mm": [
+      -28.0,
+      -4.0,
+      -4.0
+    ],
+    "bounds_max_mm": [
+      28.0,
+      4.0,
+      4.0
+    ],
+    "triangles": 3934,
+    "hulls": 11,
+    "mass_measured_g": 1.8,
+    "mass_hull_estimate_g": 3.28,
+    "com_mm": [
+      -0.0,
+      -0.0,
+      -0.42
+    ]
+  },
+  "57519": {
+    "catalogue_id": "57519",
+    "title": "tread sprocket wheel large (40.4 mm lobes, cross hole, 6 pin holes)",
+    "colour": "Yellow",
+    "bounds_min_mm": [
+      -20.4,
+      -7.28,
+      -20.23
+    ],
+    "bounds_max_mm": [
+      20.4,
+      7.28,
+      20.23
+    ],
+    "triangles": 18492,
+    "hulls": 48,
+    "mass_measured_g": 5.1,
+    "mass_hull_estimate_g": 9.49,
+    "com_mm": [
+      -0.02,
+      -0.41,
+      -0.03
+    ]
+  },
+  "32072": {
+    "catalogue_id": "32072",
+    "title": "knob wheel (4 knobs; meshes with another knob wheel, 1 : 1)",
+    "colour": "Yellow",
+    "bounds_min_mm": [
+      -12.0,
+      -4.0,
+      -12.0
+    ],
+    "bounds_max_mm": [
+      12.0,
+      4.0,
+      12.0
+    ],
+    "triangles": 3804,
+    "hulls": 46,
+    "mass_measured_g": 0.87,
+    "mass_hull_estimate_g": 0.8,
+    "com_mm": [
+      -0.1,
+      -0.01,
+      0.08
+    ]
+  },
+  "69761": {
+    "catalogue_id": "69761",
+    "title": "Gear 22 tooth bevel half with pin hole (round bore: turns freely)",
+    "colour": "Yellow",
+    "bounds_min_mm": [
+      -16.36,
+      -4.0,
+      -16.36
+    ],
+    "bounds_max_mm": [
+      16.36,
+      4.0,
+      16.36
+    ],
+    "triangles": 2352,
+    "hulls": 48,
+    "mass_measured_g": 2.2,
+    "mass_hull_estimate_g": 3.69,
+    "com_mm": [
+      0.01,
+      1.03,
+      -0.11
+    ]
+  },
+  "69762": {
+    "catalogue_id": "69762",
+    "title": "Gear 14 tooth bevel thick (half bevel, teeth on the -y face)",
+    "colour": "Yellow",
+    "bounds_min_mm": [
+      -10.8,
+      -4.0,
+      -10.8
+    ],
+    "bounds_max_mm": [
+      10.8,
+      4.0,
+      10.8
+    ],
+    "triangles": 1884,
+    "hulls": 48,
+    "mass_measured_g": 1.2,
+    "mass_hull_estimate_g": 1.62,
+    "com_mm": [
+      -0.1,
+      -0.05,
+      -0.05
+    ]
+  },
+  "57585": {
+    "catalogue_id": "57585",
+    "title": "axle connector hub with 3 axles",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -11.07,
+      -7.61,
+      -4.0
+    ],
+    "bounds_max_mm": [
+      11.07,
+      11.8,
+      4.0
+    ],
+    "triangles": 1468,
+    "hulls": 44,
+    "mass_measured_g": 0.65,
+    "mass_hull_estimate_g": 0.57,
+    "com_mm": [
+      0.01,
+      -0.03,
+      -0.01
+    ]
+  },
+  "55615": {
+    "catalogue_id": "55615",
+    "title": "pin connector perpendicular 3x3 bent with 4 pins",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -4.0,
+      -12.0,
+      -12.0
+    ],
+    "bounds_max_mm": [
+      4.0,
+      19.6,
+      19.6
+    ],
+    "triangles": 8756,
+    "hulls": 48,
+    "mass_measured_g": 1.9,
+    "mass_hull_estimate_g": 2.46,
+    "com_mm": [
+      -0.01,
+      3.39,
+      2.79
+    ]
+  },
+  "6575": {
+    "catalogue_id": "6575",
+    "title": "cam (4 mm thick, 4 cross holes in a line)",
+    "colour": "Yellow",
+    "bounds_min_mm": [
+      -7.6,
+      -2.0,
+      -11.6
+    ],
+    "bounds_max_mm": [
+      7.6,
+      2.0,
+      11.6
+    ],
+    "triangles": 1564,
+    "hulls": 48,
+    "mass_measured_g": 0.7,
+    "mass_hull_estimate_g": 0.6,
+    "com_mm": [
+      -0.04,
+      -0.0,
+      0.88
+    ]
+  },
+  "6641": {
+    "catalogue_id": "6641",
+    "title": "changeover catch (lever with a cross hole and an axle socket)",
+    "colour": "Red",
+    "bounds_min_mm": [
+      -4.0,
+      -18.4,
+      -3.6
+    ],
+    "bounds_max_mm": [
+      4.0,
+      2.4,
+      3.6
+    ],
+    "triangles": 1026,
+    "hulls": 43,
+    "mass_measured_g": 0.5,
+    "mass_hull_estimate_g": 0.51,
+    "com_mm": [
+      -0.0,
+      -5.99,
+      0.01
+    ]
+  },
+  "35188": {
+    "catalogue_id": "35188",
+    "title": "changeover rotary catch (round, cross hole)",
+    "colour": "Orange",
+    "bounds_min_mm": [
+      -11.04,
+      -5.91,
+      -11.04
+    ],
+    "bounds_max_mm": [
+      11.04,
+      5.91,
+      11.04
+    ],
+    "triangles": 1876,
+    "hulls": 48,
+    "mass_measured_g": 1.08,
+    "mass_hull_estimate_g": 1.33,
+    "com_mm": [
+      -0.09,
+      -0.04,
+      0.04
+    ]
+  },
+  "6588": {
+    "catalogue_id": "6588",
+    "title": "gearbox 2x4x3 1/3 (worm + 24T housing)",
+    "colour": "Light_Grey",
+    "bounds_min_mm": [
+      -16.0,
+      -8.0,
+      -16.0
+    ],
+    "bounds_max_mm": [
+      16.0,
+      8.0,
+      16.0
+    ],
+    "triangles": 8350,
+    "hulls": 48,
+    "mass_measured_g": 4.5,
+    "mass_hull_estimate_g": 8.75,
+    "com_mm": [
+      0.12,
+      0.06,
+      -0.16
+    ]
+  },
+  "57515": {
+    "catalogue_id": "57515",
+    "title": "steering arm 6x2 with tow ball socket (fork + socket)",
+    "colour": "Dark_Bluish_Grey",
+    "bounds_min_mm": [
+      -8.0,
+      -44.0,
+      -3.6
+    ],
+    "bounds_max_mm": [
+      8.0,
+      3.6,
+      3.6
+    ],
+    "triangles": 8560,
+    "hulls": 48,
+    "mass_measured_g": 1.52,
+    "mass_hull_estimate_g": 1.83,
+    "com_mm": [
+      -0.06,
+      -19.45,
+      0.1
+    ]
+  },
+  "731c04": {
+    "catalogue_id": "731c04",
+    "title": "shock absorber 6.5L, hard spring (a sprung slide between its end holes)",
+    "colour": "Yellow",
+    "bounds_min_mm": [
+      -4.0,
+      -4.0,
+      -40.0
+    ],
+    "bounds_max_mm": [
+      4.0,
+      4.0,
+      4.0
+    ],
+    "triangles": 3702,
+    "hulls": 47,
+    "mass_measured_g": 2.1,
+    "mass_hull_estimate_g": 1.07,
+    "com_mm": [
+      0.03,
+      -0.03,
+      -11.75
+    ]
+  },
+  "2909c03": {
+    "catalogue_id": "2909c03",
+    "title": "shock absorber 9.5L, soft spring (a sprung slide between its end holes)",
+    "colour": "Black",
+    "bounds_min_mm": [
+      -12.0,
+      -5.2,
+      -56.0
+    ],
+    "bounds_max_mm": [
+      5.2,
+      5.2,
+      0.0
+    ],
+    "triangles": 3925,
+    "hulls": 48,
+    "mass_measured_g": 4.0,
+    "mass_hull_estimate_g": 2.79,
+    "com_mm": [
+      -1.17,
+      0.01,
+      -20.28
+    ]
+  },
+  "32494": {
+    "catalogue_id": "32494",
+    "title": "CV joint ball (axle driver; cross-fit on an axle)",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -3.6,
+      -4.0,
+      -3.6
+    ],
+    "bounds_max_mm": [
+      3.6,
+      20.0,
+      3.6
+    ],
+    "triangles": 2208,
+    "hulls": 43,
+    "mass_measured_g": 0.55,
+    "mass_hull_estimate_g": 0.38,
+    "com_mm": [
+      0.03,
+      10.36,
+      -0.0
+    ]
+  },
+  "92906": {
+    "catalogue_id": "92906",
+    "title": "CV joint cup with integral axle (turns in a hole, takes a wheel / gear)",
+    "colour": "Dark_Bluish_Grey",
+    "bounds_min_mm": [
+      -4.0,
+      -19.8,
+      -4.0
+    ],
+    "bounds_max_mm": [
+      4.0,
+      2.4,
+      4.0
+    ],
+    "triangles": 1512,
+    "hulls": 39,
+    "mass_measured_g": 0.45,
+    "mass_hull_estimate_g": 0.35,
+    "com_mm": [
+      -0.01,
+      -6.67,
+      0.01
+    ]
+  },
+  "62821b": {
+    "catalogue_id": "62821b",
+    "title": "differential (one-piece, 28T bevel ring)",
+    "colour": "Dark_Bluish_Grey",
+    "bounds_min_mm": [
+      -14.4,
+      -12.0,
+      -14.4
+    ],
+    "bounds_max_mm": [
+      14.4,
+      12.0,
+      14.4
+    ],
+    "triangles": 4248,
+    "hulls": 48,
+    "mass_measured_g": 2.8,
+    "mass_hull_estimate_g": 3.6,
+    "com_mm": [
+      0.49,
+      2.67,
+      -0.22
+    ]
+  },
+  "65414": {
+    "catalogue_id": "65414",
+    "title": "differential housing, new style (no ring gear: a plain part)",
+    "colour": "Light_Bluish_Grey",
+    "bounds_min_mm": [
+      -10.5,
+      -4.0,
+      -10.5
+    ],
+    "bounds_max_mm": [
+      10.5,
+      18.8,
+      10.28
+    ],
+    "triangles": 2090,
+    "hulls": 47,
+    "mass_measured_g": 2.31,
+    "mass_hull_estimate_g": 2.87,
+    "com_mm": [
+      -0.07,
+      6.03,
+      -0.39
+    ]
+  },
+  "12787c01": {
+    "catalogue_id": "12787c01",
+    "title": "Pullback motor 6 x 5 x 3 (spring motor, not IR controlled)",
+    "colour": "Dark_Bluish_Grey",
+    "bounds_min_mm": [
+      -12.0,
+      -43.6,
+      -11.6
+    ],
+    "bounds_max_mm": [
+      12.0,
+      6.4,
+      27.6
+    ],
+    "triangles": 21799,
+    "hulls": 24,
+    "mass_measured_g": 31.0,
+    "mass_hull_estimate_g": 35.73,
+    "com_mm": [
+      -0.01,
+      -20.07,
+      9.57
+    ]
+  },
+  "87574c01": {
+    "catalogue_id": "87574c01",
+    "title": "train motor (two integral driven axles)",
+    "colour": "Black",
+    "bounds_min_mm": [
+      -16.0,
+      -43.0,
+      -23.6
+    ],
+    "bounds_max_mm": [
+      16.0,
+      43.0,
+      5.6
+    ],
+    "triangles": 18568,
+    "hulls": 24,
+    "mass_measured_g": 57.1,
+    "mass_hull_estimate_g": 56.18,
+    "com_mm": [
+      0.03,
+      0.08,
+      -12.45
+    ]
+  }
+}

@@ -1,0 +1,598 @@
+{
+ "name": "Bridge thin-wheel straight runner",
+ "description": "Long rigid chassis, matched thin tyres tucked inside bearings, mechanically locked rear axle, centred battery, gentle open loop drive.",
+ "part_set": "inventory",
+ "chassis": "rail_l",
+ "motor": "motor",
+ "battery": "battery",
+ "parts": [
+  {
+   "name": "rail_l",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    20,
+    19.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "tower_l0",
+   "part": "3710",
+   "pos_mm": [
+    -48,
+    20,
+    22.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "tower_l1",
+   "part": "3710",
+   "pos_mm": [
+    -48,
+    20,
+    25.599999999999998
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "tower_l2",
+   "part": "3710",
+   "pos_mm": [
+    -48,
+    20,
+    28.799999999999997
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "tower_l3",
+   "part": "3710",
+   "pos_mm": [
+    -48,
+    20,
+    32.0
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail_r",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    -20,
+    19.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "tower_r0",
+   "part": "3710",
+   "pos_mm": [
+    -48,
+    -20,
+    22.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "tower_r1",
+   "part": "3710",
+   "pos_mm": [
+    -48,
+    -20,
+    25.599999999999998
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "tower_r2",
+   "part": "3710",
+   "pos_mm": [
+    -48,
+    -20,
+    28.799999999999997
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "tower_r3",
+   "part": "3710",
+   "pos_mm": [
+    -48,
+    -20,
+    32.0
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "motor_deck",
+   "part": "3032",
+   "pos_mm": [
+    -48,
+    0,
+    35.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "motor",
+   "part": "58120c01",
+   "pos_mm": [
+    -48,
+    24,
+    47.2
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "shaft",
+   "part": "4519",
+   "pos_mm": [
+    -48,
+    30,
+    47.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pinion",
+   "part": "3649",
+   "pos_mm": [
+    -48,
+    32,
+    47.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_axle",
+   "part": "60485",
+   "pos_mm": [
+    -48,
+    4.2,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "rearwheel_l",
+   "part": "4185t",
+   "pos_mm": [
+    -48,
+    12,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rearwheel_r",
+   "part": "4185t",
+   "pos_mm": [
+    -48,
+    -12,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rearbush_l",
+   "part": "4265c",
+   "pos_mm": [
+    -48,
+    26,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rearbush_r",
+   "part": "4265c",
+   "pos_mm": [
+    -48,
+    -26,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_axle",
+   "part": "3707",
+   "pos_mm": [
+    56,
+    0,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "frontwheel_l",
+   "part": "4185t",
+   "pos_mm": [
+    56,
+    12,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "frontwheel_r",
+   "part": "4185t",
+   "pos_mm": [
+    56,
+    -12,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "frontbush_l",
+   "part": "4265c",
+   "pos_mm": [
+    56,
+    26,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "frontbush_r",
+   "part": "4265c",
+   "pos_mm": [
+    56,
+    -26,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "gear",
+   "part": "3648",
+   "pos_mm": [
+    -48,
+    32,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "gearstop",
+   "part": "4265c",
+   "pos_mm": [
+    -48,
+    38,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "deck",
+   "part": "3036",
+   "pos_mm": [
+    8,
+    0,
+    22.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    8,
+    0,
+    60.8
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    24,
+    0,
+    70.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "underbrace",
+   "part": "3033",
+   "pos_mm": [
+    0,
+    8,
+    9.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "keeper_foot",
+   "part": "4477",
+   "pos_mm": [
+    -24,
+    44,
+    12.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "keeper0",
+   "part": "3701",
+   "pos_mm": [
+    -48,
+    44,
+    22.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "keeper1",
+   "part": "3701",
+   "pos_mm": [
+    -48,
+    44,
+    32.0
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "keeper2",
+   "part": "3701",
+   "pos_mm": [
+    -48,
+    44,
+    41.599999999999994
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "keeper3",
+   "part": "3701",
+   "pos_mm": [
+    -48,
+    44,
+    51.199999999999996
+   ],
+   "yaw_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "tower_l0",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "tower_l1",
+   "parent": "tower_l0",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "tower_l2",
+   "parent": "tower_l1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "tower_l3",
+   "parent": "tower_l2",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "tower_r0",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "tower_r1",
+   "parent": "tower_r0",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "tower_r2",
+   "parent": "tower_r1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "tower_r3",
+   "parent": "tower_r2",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "motor_deck",
+   "parent": "tower_l3",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "motor_deck",
+   "parent": "tower_r3",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "motor",
+   "parent": "motor_deck",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "shaft",
+   "parent": "motor",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion",
+   "parent": "shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_axle",
+   "parent": "rail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "rear_axle",
+   "parent": "rail_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "rearwheel_l",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rearwheel_r",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rearbush_l",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rearbush_r",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_axle",
+   "parent": "rail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "front_axle",
+   "parent": "rail_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "frontwheel_l",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "frontwheel_r",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "frontbush_l",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "frontbush_r",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "gear",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "gearstop",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "deck",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "deck",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "battery",
+   "parent": "deck",
+   "kind": "stud",
+   "studs": 32
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "rail_l",
+   "parent": "underbrace",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "rail_r",
+   "parent": "underbrace",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "keeper_foot",
+   "parent": "underbrace",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "keeper0",
+   "parent": "keeper_foot",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "keeper1",
+   "parent": "keeper0",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "keeper2",
+   "parent": "keeper1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "keeper3",
+   "parent": "keeper2",
+   "kind": "stud",
+   "studs": 4
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "pinion",
+   "gear_b": "gear"
+  }
+ ],
+ "start_gap_mm": 30,
+ "motor_program": [
+  {
+   "t": 0,
+   "motor": "motor",
+   "level": 2
+  },
+  {
+   "t": 1,
+   "motor": "motor",
+   "level": 3
+  },
+  {
+   "t": 3.3,
+   "motor": "motor",
+   "level": "brake"
+  }
+ ]
+}

@@ -1,0 +1,577 @@
+{
+ "name": "bump_pin",
+ "description": "pinned L-motor sandwich 4WD",
+ "part_set": "inventory",
+ "chassis": "brick_l",
+ "motor": "motor_f",
+ "battery": "battery",
+ "parts": [
+  {
+   "name": "brick_l",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    32.0,
+    35.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "brick_r",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    -32.0,
+    35.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "axle_f",
+   "part": "50451",
+   "pos_mm": [
+    40.0,
+    0.0,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "wl_f",
+   "part": "32020c01",
+   "pos_mm": [
+    40.0,
+    58.0,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "wr_f",
+   "part": "32020c01",
+   "pos_mm": [
+    40.0,
+    -58.0,
+    31.32
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "gear_f",
+   "part": "94925",
+   "pos_mm": [
+    40.0,
+    40.0,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "stop_f",
+   "part": "3713",
+   "pos_mm": [
+    40.0,
+    -40.0,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "motor_f",
+   "part": "99499c01",
+   "pos_mm": [
+    24.0,
+    28.0,
+    31.32
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "pin_of-8",
+   "part": "2780",
+   "pos_mm": [
+    16.0,
+    28.0,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_if-8",
+   "part": "2780",
+   "pos_mm": [
+    16.0,
+    -28.0,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_of8",
+   "part": "2780",
+   "pos_mm": [
+    32.0,
+    28.0,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_if8",
+   "part": "2780",
+   "pos_mm": [
+    32.0,
+    -28.0,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "shaft_f",
+   "part": "4519",
+   "pos_mm": [
+    24.0,
+    32.4,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pinion_f",
+   "part": "94925",
+   "pos_mm": [
+    24.0,
+    40.0,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "axle_r",
+   "part": "50451",
+   "pos_mm": [
+    -40.0,
+    0.0,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "wl_r",
+   "part": "32020c01",
+   "pos_mm": [
+    -40.0,
+    58.0,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "wr_r",
+   "part": "32020c01",
+   "pos_mm": [
+    -40.0,
+    -58.0,
+    31.32
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "gear_r",
+   "part": "94925",
+   "pos_mm": [
+    -40.0,
+    -40.0,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "stop_r",
+   "part": "3713",
+   "pos_mm": [
+    -40.0,
+    40.0,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "motor_r",
+   "part": "99499c01",
+   "pos_mm": [
+    -24.0,
+    -28.0,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pin_or-8",
+   "part": "2780",
+   "pos_mm": [
+    -32.0,
+    -28.0,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_ir-8",
+   "part": "2780",
+   "pos_mm": [
+    -32.0,
+    28.0,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_or8",
+   "part": "2780",
+   "pos_mm": [
+    -16.0,
+    -28.0,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_ir8",
+   "part": "2780",
+   "pos_mm": [
+    -16.0,
+    28.0,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "shaft_r",
+   "part": "4519",
+   "pos_mm": [
+    -24.0,
+    -32.4,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pinion_r",
+   "part": "94925",
+   "pos_mm": [
+    -24.0,
+    -40.0,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "wall11",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    32.0,
+    44.92
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "wall12",
+   "part": "3710",
+   "pos_mm": [
+    0,
+    32.0,
+    48.120000000000005
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "wall-11",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    -32.0,
+    44.92
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "wall-12",
+   "part": "3710",
+   "pos_mm": [
+    0,
+    -32.0,
+    48.120000000000005
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "deck",
+   "part": "3030",
+   "pos_mm": [
+    0,
+    4.0,
+    51.32000000000001
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    0,
+    4.0,
+    89.72
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    0,
+    -12.0,
+    99.32
+   ],
+   "yaw_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "axle_f",
+   "parent": "brick_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "axle_f",
+   "parent": "brick_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "wl_f",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "wr_f",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "gear_f",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "stop_f",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "pin_of-8",
+   "parent": "brick_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_of-8",
+   "parent": "motor_f",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_if-8",
+   "parent": "brick_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_if-8",
+   "parent": "motor_f",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_of8",
+   "parent": "brick_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_of8",
+   "parent": "motor_f",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_if8",
+   "parent": "brick_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_if8",
+   "parent": "motor_f",
+   "kind": "pin"
+  },
+  {
+   "child": "shaft_f",
+   "parent": "motor_f",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion_f",
+   "parent": "shaft_f",
+   "kind": "cross"
+  },
+  {
+   "child": "axle_r",
+   "parent": "brick_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "axle_r",
+   "parent": "brick_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "wl_r",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "wr_r",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "gear_r",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "stop_r",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "pin_or-8",
+   "parent": "brick_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_or-8",
+   "parent": "motor_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_ir-8",
+   "parent": "brick_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_ir-8",
+   "parent": "motor_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_or8",
+   "parent": "brick_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_or8",
+   "parent": "motor_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_ir8",
+   "parent": "brick_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_ir8",
+   "parent": "motor_r",
+   "kind": "pin"
+  },
+  {
+   "child": "shaft_r",
+   "parent": "motor_r",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion_r",
+   "parent": "shaft_r",
+   "kind": "cross"
+  },
+  {
+   "child": "wall11",
+   "parent": "brick_l",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "wall12",
+   "parent": "wall11",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "wall-11",
+   "parent": "brick_r",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "wall-12",
+   "parent": "wall-11",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "deck",
+   "parent": "wall12",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "deck",
+   "parent": "wall-12",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "battery",
+   "parent": "deck",
+   "kind": "stud",
+   "studs": 32
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 8
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "pinion_f",
+   "gear_b": "gear_f",
+   "teeth_a": 16,
+   "teeth_b": 16
+  },
+  {
+   "gear_a": "pinion_r",
+   "gear_b": "gear_r",
+   "teeth_a": 16,
+   "teeth_b": 16
+  }
+ ],
+ "motor_program": [
+  {
+   "t": 0.0,
+   "motor": "all",
+   "level": 7
+  },
+  {
+   "t": 10,
+   "motor": "all",
+   "level": "brake"
+  }
+ ],
+ "start_gap_mm": 15
+}

@@ -1,0 +1,408 @@
+{
+ "name": "c25",
+ "description": "pullback rear-drive car; outrigger-mounted 36.87 deg bent-liftarm noses push the raised seesaw end down; nothing else is in the plank's path",
+ "chassis": "pb",
+ "motor": "pb",
+ "battery": "battery",
+ "intended": [],
+ "parts": [
+  {
+   "name": "pb",
+   "part": "12787c01",
+   "pos_mm": [
+    0.0,
+    0.0,
+    15.2
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "drive_axle",
+   "part": "3705",
+   "pos_mm": [
+    0.0,
+    0.0,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "dw_l",
+   "part": "4185t",
+   "pos_mm": [
+    0.0,
+    13.8,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "dw_r",
+   "part": "4185t",
+   "pos_mm": [
+    0.0,
+    -13.8,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "fl_l",
+   "part": "32526",
+   "pos_mm": [
+    32.0,
+    16.0,
+    7.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "flp_l0",
+   "part": "2780",
+   "pos_mm": [
+    32.0,
+    12.0,
+    7.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "flp_l1",
+   "part": "2780",
+   "pos_mm": [
+    40.0,
+    12.0,
+    7.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "front_axle",
+   "part": "32073",
+   "pos_mm": [
+    64.0,
+    4.0,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "fw_l",
+   "part": "4185t",
+   "pos_mm": [
+    64.0,
+    21.8,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "fw_r",
+   "part": "4185t",
+   "pos_mm": [
+    64.0,
+    -13.8,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "sb_l",
+   "part": "2730",
+   "pos_mm": [
+    32.0,
+    20.0,
+    43.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "sbp_l0",
+   "part": "2780",
+   "pos_mm": [
+    0.0,
+    16.0,
+    39.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "sbp_l1",
+   "part": "2780",
+   "pos_mm": [
+    8.0,
+    16.0,
+    39.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "sb_r",
+   "part": "3894",
+   "pos_mm": [
+    16.0,
+    -20.0,
+    43.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "sbp_r0",
+   "part": "2780",
+   "pos_mm": [
+    0.0,
+    -16.0,
+    39.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    40.0,
+    0.0,
+    81.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    40.0,
+    -16.0,
+    91.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail_l",
+   "part": "32526",
+   "pos_mm": [
+    56.0,
+    8,
+    39.2
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 180
+  },
+  {
+   "name": "rp_l0",
+   "part": "2780",
+   "pos_mm": [
+    56.0,
+    14,
+    39.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "rp_l1",
+   "part": "2780",
+   "pos_mm": [
+    64.0,
+    14,
+    39.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "np_l",
+   "part": "2780",
+   "pos_mm": [
+    88.0,
+    4,
+    31.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "nose_r",
+   "part": "32271",
+   "pos_mm": [
+    126.4,
+    0,
+    68.0
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 143.13010235
+  },
+  {
+   "name": "fbush",
+   "part": "4265c",
+   "pos_mm": [
+    64,
+    10,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "bp_l",
+   "part": "2780",
+   "pos_mm": [
+    88,
+    4,
+    39.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "drive_axle",
+   "parent": "pb",
+   "kind": "motor"
+  },
+  {
+   "child": "dw_l",
+   "parent": "drive_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "dw_r",
+   "parent": "drive_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "flp_l0",
+   "parent": "pb",
+   "kind": "pin"
+  },
+  {
+   "child": "flp_l0",
+   "parent": "fl_l",
+   "kind": "pin"
+  },
+  {
+   "child": "flp_l1",
+   "parent": "pb",
+   "kind": "pin"
+  },
+  {
+   "child": "flp_l1",
+   "parent": "fl_l",
+   "kind": "pin"
+  },
+  {
+   "child": "front_axle",
+   "parent": "fl_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "fw_l",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "fw_r",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "sbp_l0",
+   "parent": "pb",
+   "kind": "pin"
+  },
+  {
+   "child": "sbp_l0",
+   "parent": "sb_l",
+   "kind": "pin"
+  },
+  {
+   "child": "sbp_l1",
+   "parent": "pb",
+   "kind": "pin"
+  },
+  {
+   "child": "sbp_l1",
+   "parent": "sb_l",
+   "kind": "pin"
+  },
+  {
+   "child": "sbp_r0",
+   "parent": "pb",
+   "kind": "pin"
+  },
+  {
+   "child": "sbp_r0",
+   "parent": "sb_r",
+   "kind": "pin"
+  },
+  {
+   "child": "battery",
+   "parent": "sb_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "battery",
+   "parent": "sb_r",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "rp_l0",
+   "parent": "sb_l",
+   "kind": "pin"
+  },
+  {
+   "child": "rp_l0",
+   "parent": "rail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "rp_l1",
+   "parent": "sb_l",
+   "kind": "pin"
+  },
+  {
+   "child": "rp_l1",
+   "parent": "rail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "np_l",
+   "parent": "rail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "fbush",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "bp_l",
+   "parent": "rail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "np_l",
+   "parent": "nose_r",
+   "kind": "pin"
+  },
+  {
+   "child": "bp_l",
+   "parent": "nose_r",
+   "kind": "pin"
+  }
+ ],
+ "gear_meshes": [],
+ "part_set": "inventory",
+ "start_gap_mm": 100,
+ "pullback": [
+  {
+   "motor": "pb",
+   "wind_turns": 8
+  }
+ ]
+}

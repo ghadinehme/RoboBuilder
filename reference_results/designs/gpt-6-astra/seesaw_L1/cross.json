@@ -1,0 +1,1080 @@
+{
+ "name": "passive_seesaw_lowerer",
+ "description": "A fixed inclined nose depresses the raised plank; narrow rubber wheels cross it under a single timed drive command. Outboard nose mounts avoid catching the lip. Retained 3:1 gearing provides low-speed torque.",
+ "part_set": "inventory",
+ "chassis": "rail_l",
+ "motor": "motor",
+ "battery": "battery",
+ "parts": [
+  {
+   "name": "rail_l",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    4,
+    19.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rail_r",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    -4,
+    19.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_axle",
+   "part": "50451",
+   "pos_mm": [
+    -56,
+    0,
+    15.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "wheel_rearl",
+   "part": "55982c01",
+   "pos_mm": [
+    -56,
+    24,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "bush_rearl",
+   "part": "4265c",
+   "pos_mm": [
+    -56,
+    10,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "wheel_rearr",
+   "part": "55982c01",
+   "pos_mm": [
+    -56,
+    -24,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "bush_rearr",
+   "part": "4265c",
+   "pos_mm": [
+    -56,
+    -10,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_axle",
+   "part": "23948",
+   "pos_mm": [
+    56,
+    0,
+    15.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "wheel_frontl",
+   "part": "55982c01",
+   "pos_mm": [
+    56,
+    24,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "bush_frontl",
+   "part": "4265c",
+   "pos_mm": [
+    56,
+    10,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "wheel_frontr",
+   "part": "55982c01",
+   "pos_mm": [
+    56,
+    -24,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "bush_frontr",
+   "part": "4265c",
+   "pos_mm": [
+    56,
+    -10,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck",
+   "part": "3035",
+   "pos_mm": [
+    0,
+    0,
+    22.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    0,
+    0,
+    60.8
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    16,
+    0,
+    70.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "mp0",
+   "part": "3020",
+   "pos_mm": [
+    -56,
+    0,
+    22.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "mp1",
+   "part": "3020",
+   "pos_mm": [
+    -56,
+    0,
+    25.599999999999998
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "mp2",
+   "part": "3020",
+   "pos_mm": [
+    -56,
+    0,
+    28.799999999999997
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "mp3",
+   "part": "3020",
+   "pos_mm": [
+    -56,
+    0,
+    32.0
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "mp4",
+   "part": "3033",
+   "pos_mm": [
+    -72,
+    0,
+    35.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "motor",
+   "part": "58120c01",
+   "pos_mm": [
+    -56,
+    24,
+    47.2
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "shaft",
+   "part": "3706",
+   "pos_mm": [
+    -56,
+    32,
+    47.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "pinion",
+   "part": "10928",
+   "pos_mm": [
+    -56,
+    36,
+    47.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "gear",
+   "part": "94925",
+   "pos_mm": [
+    -56,
+    52,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "outer_low",
+   "part": "3701",
+   "pos_mm": [
+    -56,
+    44,
+    19.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "outer_plate",
+   "part": "3710",
+   "pos_mm": [
+    -56,
+    44,
+    22.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "outer_fill",
+   "part": "3710",
+   "pos_mm": [
+    -56,
+    44,
+    25.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "outer_mid",
+   "part": "3701",
+   "pos_mm": [
+    -56,
+    44,
+    35.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "outer_p1",
+   "part": "3710",
+   "pos_mm": [
+    -56,
+    44,
+    38.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "bridge",
+   "part": "3030",
+   "pos_mm": [
+    -96,
+    8,
+    38.4
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "outer_p2",
+   "part": "4477",
+   "pos_mm": [
+    -72,
+    44,
+    41.6
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "outer_high",
+   "part": "3701",
+   "pos_mm": [
+    -56,
+    44,
+    51.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "motor_stop",
+   "part": "4265c",
+   "pos_mm": [
+    -56,
+    50,
+    47.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "middle_axle",
+   "part": "4519",
+   "pos_mm": [
+    -56,
+    44,
+    31.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "middle_input",
+   "part": "3648",
+   "pos_mm": [
+    -56,
+    36,
+    31.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "middle_output",
+   "part": "94925",
+   "pos_mm": [
+    -56,
+    52,
+    31.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "nose_tl0",
+   "part": "3700",
+   "pos_mm": [
+    48,
+    4,
+    28.8
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "nose_tl1",
+   "part": "3700",
+   "pos_mm": [
+    48,
+    4,
+    38.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "nose_tl2",
+   "part": "3700",
+   "pos_mm": [
+    48,
+    4,
+    48.0
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "nose_tl3",
+   "part": "3700",
+   "pos_mm": [
+    48,
+    4,
+    57.599999999999994
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "nose_tl4",
+   "part": "3700",
+   "pos_mm": [
+    48,
+    4,
+    67.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "upper_l",
+   "part": "3703",
+   "pos_mm": [
+    104,
+    4,
+    76.8
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "ski_l",
+   "part": "32278",
+   "pos_mm": [
+    112,
+    12,
+    48.8
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -36.86989765
+  },
+  {
+   "name": "pin_l1",
+   "part": "2780",
+   "pos_mm": [
+    144,
+    8,
+    72.8
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "nose_bridge_l",
+   "part": "3795",
+   "pos_mm": [
+    32,
+    24,
+    9.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "outrigger_l",
+   "part": "3702",
+   "pos_mm": [
+    56,
+    44,
+    19.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "lower_l",
+   "part": "3701",
+   "pos_mm": [
+    72,
+    44,
+    28.8
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "nose_tr0",
+   "part": "3700",
+   "pos_mm": [
+    48,
+    -4,
+    28.8
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "nose_tr1",
+   "part": "3700",
+   "pos_mm": [
+    48,
+    -4,
+    38.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "nose_tr2",
+   "part": "3700",
+   "pos_mm": [
+    48,
+    -4,
+    48.0
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "nose_tr3",
+   "part": "3700",
+   "pos_mm": [
+    48,
+    -4,
+    57.599999999999994
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "nose_tr4",
+   "part": "3700",
+   "pos_mm": [
+    48,
+    -4,
+    67.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "upper_r",
+   "part": "3703",
+   "pos_mm": [
+    104,
+    -4,
+    76.8
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "ski_r",
+   "part": "32278",
+   "pos_mm": [
+    112,
+    -12,
+    48.8
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -36.86989765
+  },
+  {
+   "name": "pin_r1",
+   "part": "2780",
+   "pos_mm": [
+    144,
+    -8,
+    72.8
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "nose_bridge_r",
+   "part": "3795",
+   "pos_mm": [
+    32,
+    -24,
+    9.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "outrigger_r",
+   "part": "3702",
+   "pos_mm": [
+    56,
+    -44,
+    19.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "lower_r",
+   "part": "3701",
+   "pos_mm": [
+    72,
+    -44,
+    28.8
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "nose_axle",
+   "part": "50451",
+   "pos_mm": [
+    80,
+    0,
+    24.8
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "nose_stop_l",
+   "part": "4265c",
+   "pos_mm": [
+    80,
+    50,
+    24.8
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "nose_stop_r",
+   "part": "4265c",
+   "pos_mm": [
+    80,
+    -50,
+    24.8
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "rear_axle",
+   "parent": "rail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "wheel_rearl",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "bush_rearl",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_axle",
+   "parent": "rail_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "wheel_rearr",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "bush_rearr",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_axle",
+   "parent": "rail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "wheel_frontl",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "bush_frontl",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_axle",
+   "parent": "rail_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "wheel_frontr",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "bush_frontr",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "deck",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "deck",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "battery",
+   "parent": "deck",
+   "kind": "stud",
+   "studs": 32
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "mp0",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "mp0",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "mp1",
+   "parent": "mp0",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "mp2",
+   "parent": "mp1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "mp3",
+   "parent": "mp2",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "mp4",
+   "parent": "mp3",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "motor",
+   "parent": "mp4",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "shaft",
+   "parent": "motor",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion",
+   "parent": "shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "gear",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_axle",
+   "parent": "outer_low",
+   "kind": "hinge"
+  },
+  {
+   "child": "outer_plate",
+   "parent": "outer_low",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "outer_fill",
+   "parent": "outer_plate",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "outer_mid",
+   "parent": "outer_fill",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "outer_p1",
+   "parent": "outer_mid",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "bridge",
+   "parent": "mp4",
+   "kind": "stud",
+   "studs": 24
+  },
+  {
+   "child": "outer_p2",
+   "parent": "outer_p1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "outer_p2",
+   "parent": "bridge",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "outer_high",
+   "parent": "outer_p2",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "motor_stop",
+   "parent": "shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "middle_axle",
+   "parent": "outer_mid",
+   "kind": "hinge"
+  },
+  {
+   "child": "middle_input",
+   "parent": "middle_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "middle_output",
+   "parent": "middle_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "nose_tl0",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "nose_tl1",
+   "parent": "nose_tl0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "nose_tl2",
+   "parent": "nose_tl1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "nose_tl3",
+   "parent": "nose_tl2",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "nose_tl4",
+   "parent": "nose_tl3",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "upper_l",
+   "parent": "nose_tl4",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "pin_l1",
+   "parent": "upper_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_l1",
+   "parent": "ski_l",
+   "kind": "pin"
+  },
+  {
+   "child": "rail_l",
+   "parent": "nose_bridge_l",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "outrigger_l",
+   "parent": "nose_bridge_l",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "lower_l",
+   "parent": "outrigger_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "nose_tr0",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "nose_tr1",
+   "parent": "nose_tr0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "nose_tr2",
+   "parent": "nose_tr1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "nose_tr3",
+   "parent": "nose_tr2",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "nose_tr4",
+   "parent": "nose_tr3",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "upper_r",
+   "parent": "nose_tr4",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "pin_r1",
+   "parent": "upper_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_r1",
+   "parent": "ski_r",
+   "kind": "pin"
+  },
+  {
+   "child": "rail_r",
+   "parent": "nose_bridge_r",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "outrigger_r",
+   "parent": "nose_bridge_r",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "lower_r",
+   "parent": "outrigger_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "nose_axle",
+   "parent": "lower_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "nose_axle",
+   "parent": "ski_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "nose_stop_l",
+   "parent": "nose_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "nose_axle",
+   "parent": "lower_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "nose_axle",
+   "parent": "ski_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "nose_stop_r",
+   "parent": "nose_axle",
+   "kind": "cross"
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "pinion",
+   "gear_b": "middle_input"
+  },
+  {
+   "gear_a": "middle_output",
+   "gear_b": "gear"
+  }
+ ],
+ "start_gap_mm": 5,
+ "motor_program": [
+  {
+   "t": 0,
+   "motor": "motor",
+   "level": 7,
+   "note": "Drive the passive nose into the plank, then cross."
+  },
+  {
+   "t": 6,
+   "motor": "motor",
+   "level": "brake",
+   "note": "Stop on the landing board."
+  }
+ ]
+}

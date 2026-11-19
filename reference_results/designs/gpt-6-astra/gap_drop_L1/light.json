@@ -1,0 +1,669 @@
+{
+ "name": "balanced_geared",
+ "description": "Front driven lightweight spanning vehicle; long rear support and narrow rubber wheels.",
+ "chassis": "crossbeama",
+ "motor": "motor",
+ "battery": "battery",
+ "intended": [],
+ "parts": [
+  {
+   "name": "rail_l",
+   "part": "3703",
+   "pos_mm": [
+    -80,
+    40.0,
+    19.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "rear_axle",
+   "part": "23948",
+   "pos_mm": [
+    -136.0,
+    24,
+    15.2
+   ],
+   "yaw_deg": 90.0
+  },
+  {
+   "name": "front_axle",
+   "part": "23948",
+   "pos_mm": [
+    136.0,
+    24,
+    15.2
+   ],
+   "yaw_deg": 90.0
+  },
+  {
+   "name": "rear_gear",
+   "part": "94925",
+   "pos_mm": [
+    -136.0,
+    56.0,
+    15.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "motor",
+   "part": "58120c01",
+   "pos_mm": [
+    -136.0,
+    52.0,
+    31.200000000000003
+   ],
+   "yaw_deg": 180.0
+  },
+  {
+   "name": "motor_shaft",
+   "part": "32062",
+   "pos_mm": [
+    -136.0,
+    54,
+    31.200000000000003
+   ],
+   "yaw_deg": 90.0
+  },
+  {
+   "name": "pinion",
+   "part": "94925",
+   "pos_mm": [
+    -136.0,
+    56.0,
+    31.200000000000003
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    0,
+    -20,
+    60.8
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wheel_rl",
+   "part": "4185t",
+   "pos_mm": [
+    -136.0,
+    64,
+    15.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wheel_rr",
+   "part": "4185t",
+   "pos_mm": [
+    -136.0,
+    -16,
+    15.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wheel_fl",
+   "part": "4185t",
+   "pos_mm": [
+    136.0,
+    64,
+    15.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wheel_fr",
+   "part": "4185t",
+   "pos_mm": [
+    136.0,
+    -16,
+    15.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    -16,
+    -20,
+    70.39999999999999
+   ],
+   "yaw_deg": 180.0
+  },
+  {
+   "name": "tail_l",
+   "part": "3703",
+   "pos_mm": [
+    80,
+    40,
+    19.2
+   ]
+  },
+  {
+   "name": "rear_axle-1",
+   "part": "3713",
+   "pos_mm": [
+    -136.0,
+    -8.0,
+    15.2
+   ]
+  },
+  {
+   "name": "front_axle-1",
+   "part": "3713",
+   "pos_mm": [
+    136.0,
+    32,
+    15.2
+   ]
+  },
+  {
+   "name": "front_axle1",
+   "part": "3713",
+   "pos_mm": [
+    136.0,
+    48,
+    15.2
+   ]
+  },
+  {
+   "name": "tie_l",
+   "part": "3030",
+   "pos_mm": [
+    0,
+    36,
+    9.6
+   ]
+  },
+  {
+   "name": "rear_axle_chain",
+   "part": "3648",
+   "pos_mm": [
+    -136.0,
+    0,
+    15.2
+   ]
+  },
+  {
+   "name": "front_axle_chain",
+   "part": "3648",
+   "pos_mm": [
+    136.0,
+    0,
+    15.2
+   ]
+  },
+  {
+   "name": "motor_support",
+   "part": "3701",
+   "pos_mm": [
+    -136,
+    16,
+    19.2
+   ]
+  },
+  {
+   "name": "motor_tie",
+   "part": "3032",
+   "pos_mm": [
+    -136,
+    28,
+    9.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "motor_middle-8",
+   "part": "3701",
+   "pos_mm": [
+    -136,
+    32,
+    19.2
+   ]
+  },
+  {
+   "name": "motor_middle-16",
+   "part": "3701",
+   "pos_mm": [
+    -136,
+    24,
+    19.2
+   ]
+  },
+  {
+   "name": "crossbeama",
+   "part": "2730",
+   "pos_mm": [
+    -20,
+    -4,
+    19.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "crossbeamb",
+   "part": "2730",
+   "pos_mm": [
+    20,
+    -4,
+    19.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "top_clamp",
+   "part": "3030",
+   "pos_mm": [
+    0,
+    36,
+    22.4
+   ]
+  },
+  {
+   "name": "span_brace",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    48.0,
+    19.2
+   ]
+  },
+  {
+   "name": "brace_pin-48",
+   "part": "2780",
+   "pos_mm": [
+    -48,
+    44.0,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "brace_pin-32",
+   "part": "2780",
+   "pos_mm": [
+    -32,
+    44.0,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "brace_pin32",
+   "part": "2780",
+   "pos_mm": [
+    32,
+    44.0,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "brace_pin48",
+   "part": "2780",
+   "pos_mm": [
+    48,
+    44.0,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "battery_deck",
+   "part": "3030",
+   "pos_mm": [
+    0,
+    -20,
+    22.399999999999995
+   ]
+  },
+  {
+   "name": "extra_mount0",
+   "part": "3701",
+   "pos_mm": [
+    -136.0,
+    8.0,
+    19.2
+   ]
+  },
+  {
+   "name": "extra_mount1",
+   "part": "3701",
+   "pos_mm": [
+    -136.0,
+    48.0,
+    19.2
+   ]
+  }
+ ],
+ "connections": [
+  {
+   "child": "rear_axle",
+   "parent": "rail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "rear_gear",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "motor_shaft",
+   "parent": "motor",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion",
+   "parent": "motor_shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_rl",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_rr",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_fl",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_fr",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_axle",
+   "parent": "tail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "rear_axle-1",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_axle-1",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_axle1",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rail_l",
+   "parent": "tie_l",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "tail_l",
+   "parent": "tie_l",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "motor",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "rear_axle_chain",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_axle_chain",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "motor",
+   "parent": "motor_support",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "motor_support",
+   "parent": "motor_tie",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rail_l",
+   "parent": "motor_tie",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "rear_axle",
+   "parent": "motor_support",
+   "kind": "hinge"
+  },
+  {
+   "child": "motor",
+   "parent": "motor_middle-8",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "motor_middle-8",
+   "parent": "motor_tie",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rear_axle",
+   "parent": "motor_middle-8",
+   "kind": "hinge"
+  },
+  {
+   "child": "motor",
+   "parent": "motor_middle-16",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "motor_middle-16",
+   "parent": "motor_tie",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rear_axle",
+   "parent": "motor_middle-16",
+   "kind": "hinge"
+  },
+  {
+   "child": "crossbeama",
+   "parent": "tie_l",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "battery_deck",
+   "parent": "crossbeama",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "crossbeamb",
+   "parent": "tie_l",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "battery_deck",
+   "parent": "crossbeamb",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "top_clamp",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "top_clamp",
+   "parent": "tail_l",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "top_clamp",
+   "parent": "crossbeama",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "top_clamp",
+   "parent": "crossbeamb",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "brace_pin-48",
+   "parent": "rail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "brace_pin-48",
+   "parent": "span_brace",
+   "kind": "pin"
+  },
+  {
+   "child": "brace_pin-32",
+   "parent": "rail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "brace_pin-32",
+   "parent": "span_brace",
+   "kind": "pin"
+  },
+  {
+   "child": "brace_pin32",
+   "parent": "tail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "brace_pin32",
+   "parent": "span_brace",
+   "kind": "pin"
+  },
+  {
+   "child": "brace_pin48",
+   "parent": "tail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "brace_pin48",
+   "parent": "span_brace",
+   "kind": "pin"
+  },
+  {
+   "child": "span_brace",
+   "parent": "tie_l",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "top_clamp",
+   "parent": "span_brace",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "battery",
+   "parent": "battery_deck",
+   "kind": "stud",
+   "studs": 32
+  },
+  {
+   "child": "motor",
+   "parent": "extra_mount0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "extra_mount0",
+   "parent": "motor_tie",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rear_axle",
+   "parent": "extra_mount0",
+   "kind": "hinge"
+  },
+  {
+   "child": "motor",
+   "parent": "extra_mount1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "extra_mount1",
+   "parent": "motor_tie",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rear_axle",
+   "parent": "extra_mount1",
+   "kind": "hinge"
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "pinion",
+   "gear_b": "rear_gear"
+  }
+ ],
+ "part_set": "inventory",
+ "motor_program": [
+  {
+   "t": 0,
+   "motor": "motor",
+   "level": 7
+  },
+  {
+   "t": 6,
+   "motor": "motor",
+   "level": "brake"
+  }
+ ],
+ "start_gap_mm": 30.0,
+ "treads": [
+  {
+   "name": "edge_track",
+   "sprockets": [
+    "rear_axle_chain",
+    "front_axle_chain"
+   ],
+   "links": 98,
+   "link": "3711"
+  }
+ ]
+}

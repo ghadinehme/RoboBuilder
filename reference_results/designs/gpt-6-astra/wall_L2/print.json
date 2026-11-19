@@ -1,0 +1,3101 @@
+{
+ "name": "X01_landing",
+ "description": "A centred 40T chain tread driven directly at the front leg axle provides immediate crest support; pinned outside chassis splices clear the chain and narrow foot hubs preserve lateral margin.",
+ "part_set": "inventory",
+ "chassis": "rail_l",
+ "motor": "motor_r",
+ "battery": "battery",
+ "parts": [
+  {
+   "name": "rail_l",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    8,
+    122.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rail_r",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    -8,
+    122.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck",
+   "part": "92438",
+   "pos_mm": [
+    0,
+    -4,
+    144.9948452238571
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    32,
+    12,
+    183.39484522385712
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    0,
+    -20,
+    154.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "axle_f",
+   "part": "50451",
+   "pos_mm": [
+    144,
+    0,
+    118.59484522385713
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "bush_fr",
+   "part": "3713",
+   "pos_mm": [
+    144,
+    -16,
+    118.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "gear_f",
+   "part": "3649",
+   "pos_mm": [
+    144,
+    36,
+    118.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "axle_r",
+   "part": "50451",
+   "pos_mm": [
+    -144,
+    0,
+    118.59484522385713
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "bush_rr",
+   "part": "3713",
+   "pos_mm": [
+    -144,
+    -16,
+    118.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "gear_r",
+   "part": "3649",
+   "pos_mm": [
+    -144,
+    36,
+    118.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "frame_f",
+   "part": "32278",
+   "pos_mm": [
+    144,
+    20,
+    150.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 90
+  },
+  {
+   "name": "brace_f",
+   "part": "32140",
+   "pos_mm": [
+    136,
+    28,
+    110.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "bp_f0",
+   "part": "2780",
+   "pos_mm": [
+    144,
+    24,
+    110.59484522385713
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "framepin_f",
+   "part": "6558",
+   "pos_mm": [
+    160,
+    16,
+    118.59484522385713
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "motor_f",
+   "part": "99499c01",
+   "pos_mm": [
+    144,
+    16,
+    166.59484522385713
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 90
+  },
+  {
+   "name": "mp_f0",
+   "part": "2780",
+   "pos_mm": [
+    144,
+    16,
+    158.59484522385713
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "mp_f1",
+   "part": "2780",
+   "pos_mm": [
+    144,
+    16,
+    174.59484522385713
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "shaft_f",
+   "part": "3705",
+   "pos_mm": [
+    144,
+    24,
+    166.59484522385713
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "pinion_f",
+   "part": "10928",
+   "pos_mm": [
+    144,
+    28,
+    166.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "frame_r",
+   "part": "32278",
+   "pos_mm": [
+    -144,
+    20,
+    150.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 90
+  },
+  {
+   "name": "brace_r",
+   "part": "32140",
+   "pos_mm": [
+    -136,
+    28,
+    110.59484522385713
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "bp_r0",
+   "part": "2780",
+   "pos_mm": [
+    -144,
+    24,
+    110.59484522385713
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "framepin_r",
+   "part": "6558",
+   "pos_mm": [
+    -160,
+    16,
+    118.59484522385713
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "motor_r",
+   "part": "99499c01",
+   "pos_mm": [
+    -144,
+    16,
+    166.59484522385713
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 90
+  },
+  {
+   "name": "mp_r0",
+   "part": "2780",
+   "pos_mm": [
+    -144,
+    16,
+    158.59484522385713
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "mp_r1",
+   "part": "2780",
+   "pos_mm": [
+    -144,
+    16,
+    174.59484522385713
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "shaft_r",
+   "part": "3705",
+   "pos_mm": [
+    -144,
+    24,
+    166.59484522385713
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "pinion_r",
+   "part": "10928",
+   "pos_mm": [
+    -144,
+    28,
+    166.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "extension_fl",
+   "part": "2730",
+   "pos_mm": [
+    128,
+    8,
+    122.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "extension_fr",
+   "part": "2730",
+   "pos_mm": [
+    128,
+    -8,
+    122.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "extension_rl",
+   "part": "2730",
+   "pos_mm": [
+    -128,
+    8,
+    122.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "extension_rr",
+   "part": "2730",
+   "pos_mm": [
+    -128,
+    -8,
+    122.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "retainer_f",
+   "part": "32278",
+   "pos_mm": [
+    144,
+    44,
+    150.59484522385713
+   ],
+   "spin_deg": 90
+  },
+  {
+   "name": "retainpin_f0",
+   "part": "6558",
+   "pos_mm": [
+    144,
+    32,
+    182.59484522385713
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "retainpin_f1",
+   "part": "6558",
+   "pos_mm": [
+    144,
+    32,
+    198.59484522385713
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "retainer_r",
+   "part": "32278",
+   "pos_mm": [
+    -144,
+    44,
+    150.59484522385713
+   ],
+   "spin_deg": 90
+  },
+  {
+   "name": "retainpin_r0",
+   "part": "6558",
+   "pos_mm": [
+    -144,
+    32,
+    182.59484522385713
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "retainpin_r1",
+   "part": "6558",
+   "pos_mm": [
+    -144,
+    32,
+    198.59484522385713
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "inter_f",
+   "part": "32073",
+   "pos_mm": [
+    144,
+    28,
+    142.59484522385713
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "inter_big_f",
+   "part": "3649",
+   "pos_mm": [
+    144,
+    28,
+    142.59484522385713
+   ]
+  },
+  {
+   "name": "inter_small_f",
+   "part": "10928",
+   "pos_mm": [
+    144,
+    36,
+    142.59484522385713
+   ]
+  },
+  {
+   "name": "inter_stop_in_f",
+   "part": "3713",
+   "pos_mm": [
+    144,
+    12,
+    142.59484522385713
+   ]
+  },
+  {
+   "name": "inter_r",
+   "part": "32073",
+   "pos_mm": [
+    -144,
+    28,
+    142.59484522385713
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "inter_big_r",
+   "part": "3649",
+   "pos_mm": [
+    -144,
+    28,
+    142.59484522385713
+   ]
+  },
+  {
+   "name": "inter_small_r",
+   "part": "10928",
+   "pos_mm": [
+    -144,
+    36,
+    142.59484522385713
+   ]
+  },
+  {
+   "name": "inter_stop_in_r",
+   "part": "3713",
+   "pos_mm": [
+    -144,
+    12,
+    142.59484522385713
+   ]
+  },
+  {
+   "name": "output_stop_f",
+   "part": "3713",
+   "pos_mm": [
+    144,
+    36,
+    166.59484522385713
+   ]
+  },
+  {
+   "name": "output_stop_r",
+   "part": "3713",
+   "pos_mm": [
+    -144,
+    36,
+    166.59484522385713
+   ]
+  },
+  {
+   "name": "centre_tie",
+   "part": "3700",
+   "pos_mm": [
+    0,
+    0,
+    122.59484522385713
+   ]
+  },
+  {
+   "name": "centre_pin",
+   "part": "6558",
+   "pos_mm": [
+    0,
+    0,
+    118.59484522385713
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "spoke_fl0",
+   "part": "32348",
+   "pos_mm": [
+    144.0,
+    52,
+    118.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -60
+  },
+  {
+   "name": "long_fl0",
+   "part": "32018",
+   "pos_mm": [
+    172.53589838486224,
+    60,
+    176.0204710660612
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -60
+  },
+  {
+   "name": "lap_fl00",
+   "part": "2780",
+   "pos_mm": [
+    152.0,
+    56,
+    132.45125168440816
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "lap_fl01",
+   "part": "2780",
+   "pos_mm": [
+    156.0,
+    56,
+    139.37945491468366
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "lock_fl0",
+   "part": "32140",
+   "pos_mm": [
+    200.0,
+    52,
+    215.58969044771425
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 120
+  },
+  {
+   "name": "lockpin_fl00",
+   "part": "2780",
+   "pos_mm": [
+    196.0,
+    56,
+    208.66148721743875
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "lockpin_fl01",
+   "part": "2780",
+   "pos_mm": [
+    192.0,
+    56,
+    201.73328398716325
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "footaxle_fl0",
+   "part": "3706",
+   "pos_mm": [
+    200.0,
+    65,
+    215.58969044771425
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "foot_fl0",
+   "part": "56145c01",
+   "pos_mm": [
+    200.0,
+    79,
+    215.58969044771425
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -60
+  },
+  {
+   "name": "footstop_fl0",
+   "part": "4265c",
+   "pos_mm": [
+    200.0,
+    66,
+    215.58969044771425
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -60
+  },
+  {
+   "name": "spoke_fl1",
+   "part": "32348",
+   "pos_mm": [
+    144.0,
+    60,
+    118.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -240
+  },
+  {
+   "name": "long_fl1",
+   "part": "32018",
+   "pos_mm": [
+    115.46410161513772,
+    68,
+    61.16921938165308
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -240
+  },
+  {
+   "name": "lap_fl10",
+   "part": "2780",
+   "pos_mm": [
+    136.0,
+    64,
+    104.73843876330612
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "lap_fl11",
+   "part": "2780",
+   "pos_mm": [
+    132.0,
+    64,
+    97.8102355330306
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "lock_fl1",
+   "part": "32140",
+   "pos_mm": [
+    87.99999999999994,
+    60,
+    21.600000000000037
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -60
+  },
+  {
+   "name": "lockpin_fl10",
+   "part": "2780",
+   "pos_mm": [
+    91.99999999999996,
+    64,
+    28.52820323027555
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "lockpin_fl11",
+   "part": "2780",
+   "pos_mm": [
+    95.99999999999996,
+    64,
+    35.45640646055105
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "footaxle_fl1",
+   "part": "3706",
+   "pos_mm": [
+    87.99999999999994,
+    73,
+    21.600000000000037
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "foot_fl1",
+   "part": "56145c01",
+   "pos_mm": [
+    87.99999999999994,
+    87,
+    21.600000000000037
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -240
+  },
+  {
+   "name": "footstop_fl1",
+   "part": "4265c",
+   "pos_mm": [
+    87.99999999999994,
+    74,
+    21.600000000000037
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -240
+  },
+  {
+   "name": "spoke_fr0",
+   "part": "32348",
+   "pos_mm": [
+    144.0,
+    -52,
+    118.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -60
+  },
+  {
+   "name": "long_fr0",
+   "part": "32018",
+   "pos_mm": [
+    172.53589838486224,
+    -60,
+    176.0204710660612
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -60
+  },
+  {
+   "name": "lap_fr00",
+   "part": "2780",
+   "pos_mm": [
+    152.0,
+    -56,
+    132.45125168440816
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "lap_fr01",
+   "part": "2780",
+   "pos_mm": [
+    156.0,
+    -56,
+    139.37945491468366
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "lock_fr0",
+   "part": "32140",
+   "pos_mm": [
+    200.0,
+    -52,
+    215.58969044771425
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 120
+  },
+  {
+   "name": "lockpin_fr00",
+   "part": "2780",
+   "pos_mm": [
+    196.0,
+    -56,
+    208.66148721743875
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "lockpin_fr01",
+   "part": "2780",
+   "pos_mm": [
+    192.0,
+    -56,
+    201.73328398716325
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "footaxle_fr0",
+   "part": "3706",
+   "pos_mm": [
+    200.0,
+    -65,
+    215.58969044771425
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "foot_fr0",
+   "part": "56145c01",
+   "pos_mm": [
+    200.0,
+    -79,
+    215.58969044771425
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -60
+  },
+  {
+   "name": "footstop_fr0",
+   "part": "4265c",
+   "pos_mm": [
+    200.0,
+    -66,
+    215.58969044771425
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -60
+  },
+  {
+   "name": "spoke_fr1",
+   "part": "32348",
+   "pos_mm": [
+    144.0,
+    -60,
+    118.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -240
+  },
+  {
+   "name": "long_fr1",
+   "part": "32018",
+   "pos_mm": [
+    115.46410161513772,
+    -68,
+    61.16921938165308
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -240
+  },
+  {
+   "name": "lap_fr10",
+   "part": "2780",
+   "pos_mm": [
+    136.0,
+    -64,
+    104.73843876330612
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "lap_fr11",
+   "part": "2780",
+   "pos_mm": [
+    132.0,
+    -64,
+    97.8102355330306
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "lock_fr1",
+   "part": "32140",
+   "pos_mm": [
+    87.99999999999994,
+    -60,
+    21.600000000000037
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -60
+  },
+  {
+   "name": "lockpin_fr10",
+   "part": "2780",
+   "pos_mm": [
+    91.99999999999996,
+    -64,
+    28.52820323027555
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "lockpin_fr11",
+   "part": "2780",
+   "pos_mm": [
+    95.99999999999996,
+    -64,
+    35.45640646055105
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "footaxle_fr1",
+   "part": "3706",
+   "pos_mm": [
+    87.99999999999994,
+    -73,
+    21.600000000000037
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "foot_fr1",
+   "part": "56145c01",
+   "pos_mm": [
+    87.99999999999994,
+    -87,
+    21.600000000000037
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -240
+  },
+  {
+   "name": "footstop_fr1",
+   "part": "4265c",
+   "pos_mm": [
+    87.99999999999994,
+    -74,
+    21.600000000000037
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -240
+  },
+  {
+   "name": "spoke_rl0",
+   "part": "32348",
+   "pos_mm": [
+    -144.0,
+    52,
+    118.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -120
+  },
+  {
+   "name": "long_rl0",
+   "part": "32018",
+   "pos_mm": [
+    -179.46410161513776,
+    60,
+    172.02047106606122
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -120
+  },
+  {
+   "name": "lap_rl00",
+   "part": "2780",
+   "pos_mm": [
+    -152.0,
+    56,
+    132.45125168440816
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "lap_rl01",
+   "part": "2780",
+   "pos_mm": [
+    -156.0,
+    56,
+    139.37945491468366
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "lock_rl0",
+   "part": "32140",
+   "pos_mm": [
+    -199.99999999999997,
+    52,
+    215.58969044771428
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 60
+  },
+  {
+   "name": "lockpin_rl00",
+   "part": "2780",
+   "pos_mm": [
+    -195.99999999999997,
+    56,
+    208.66148721743878
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "lockpin_rl01",
+   "part": "2780",
+   "pos_mm": [
+    -191.99999999999997,
+    56,
+    201.73328398716325
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "footaxle_rl0",
+   "part": "3706",
+   "pos_mm": [
+    -199.99999999999997,
+    65,
+    215.58969044771428
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "foot_rl0",
+   "part": "56145c01",
+   "pos_mm": [
+    -199.99999999999997,
+    79,
+    215.58969044771428
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -120
+  },
+  {
+   "name": "footstop_rl0",
+   "part": "4265c",
+   "pos_mm": [
+    -199.99999999999997,
+    66,
+    215.58969044771428
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -120
+  },
+  {
+   "name": "spoke_rl1",
+   "part": "32348",
+   "pos_mm": [
+    -144.0,
+    60,
+    118.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -300
+  },
+  {
+   "name": "long_rl1",
+   "part": "32018",
+   "pos_mm": [
+    -108.53589838486225,
+    68,
+    65.16921938165306
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -300
+  },
+  {
+   "name": "lap_rl10",
+   "part": "2780",
+   "pos_mm": [
+    -136.0,
+    64,
+    104.73843876330612
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "lap_rl11",
+   "part": "2780",
+   "pos_mm": [
+    -132.0,
+    64,
+    97.8102355330306
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "lock_rl1",
+   "part": "32140",
+   "pos_mm": [
+    -87.99999999999999,
+    60,
+    21.60000000000001
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -120
+  },
+  {
+   "name": "lockpin_rl10",
+   "part": "2780",
+   "pos_mm": [
+    -91.99999999999999,
+    64,
+    28.528203230275523
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "lockpin_rl11",
+   "part": "2780",
+   "pos_mm": [
+    -95.99999999999999,
+    64,
+    35.45640646055102
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "footaxle_rl1",
+   "part": "3706",
+   "pos_mm": [
+    -87.99999999999999,
+    73,
+    21.60000000000001
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "foot_rl1",
+   "part": "56145c01",
+   "pos_mm": [
+    -87.99999999999999,
+    87,
+    21.60000000000001
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -300
+  },
+  {
+   "name": "footstop_rl1",
+   "part": "4265c",
+   "pos_mm": [
+    -87.99999999999999,
+    74,
+    21.60000000000001
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -300
+  },
+  {
+   "name": "spoke_rr0",
+   "part": "32348",
+   "pos_mm": [
+    -144.0,
+    -52,
+    118.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -120
+  },
+  {
+   "name": "long_rr0",
+   "part": "32018",
+   "pos_mm": [
+    -179.46410161513776,
+    -60,
+    172.02047106606122
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -120
+  },
+  {
+   "name": "lap_rr00",
+   "part": "2780",
+   "pos_mm": [
+    -152.0,
+    -56,
+    132.45125168440816
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "lap_rr01",
+   "part": "2780",
+   "pos_mm": [
+    -156.0,
+    -56,
+    139.37945491468366
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "lock_rr0",
+   "part": "32140",
+   "pos_mm": [
+    -199.99999999999997,
+    -52,
+    215.58969044771428
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 60
+  },
+  {
+   "name": "lockpin_rr00",
+   "part": "2780",
+   "pos_mm": [
+    -195.99999999999997,
+    -56,
+    208.66148721743878
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "lockpin_rr01",
+   "part": "2780",
+   "pos_mm": [
+    -191.99999999999997,
+    -56,
+    201.73328398716325
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "footaxle_rr0",
+   "part": "3706",
+   "pos_mm": [
+    -199.99999999999997,
+    -65,
+    215.58969044771428
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "foot_rr0",
+   "part": "56145c01",
+   "pos_mm": [
+    -199.99999999999997,
+    -79,
+    215.58969044771428
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -120
+  },
+  {
+   "name": "footstop_rr0",
+   "part": "4265c",
+   "pos_mm": [
+    -199.99999999999997,
+    -66,
+    215.58969044771428
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -120
+  },
+  {
+   "name": "spoke_rr1",
+   "part": "32348",
+   "pos_mm": [
+    -144.0,
+    -60,
+    118.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -300
+  },
+  {
+   "name": "long_rr1",
+   "part": "32018",
+   "pos_mm": [
+    -108.53589838486225,
+    -68,
+    65.16921938165306
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -300
+  },
+  {
+   "name": "lap_rr10",
+   "part": "2780",
+   "pos_mm": [
+    -136.0,
+    -64,
+    104.73843876330612
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "lap_rr11",
+   "part": "2780",
+   "pos_mm": [
+    -132.0,
+    -64,
+    97.8102355330306
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "lock_rr1",
+   "part": "32140",
+   "pos_mm": [
+    -87.99999999999999,
+    -60,
+    21.60000000000001
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -120
+  },
+  {
+   "name": "lockpin_rr10",
+   "part": "2780",
+   "pos_mm": [
+    -91.99999999999999,
+    -64,
+    28.528203230275523
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "lockpin_rr11",
+   "part": "2780",
+   "pos_mm": [
+    -95.99999999999999,
+    -64,
+    35.45640646055102
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "footaxle_rr1",
+   "part": "3706",
+   "pos_mm": [
+    -87.99999999999999,
+    -73,
+    21.60000000000001
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "foot_rr1",
+   "part": "56145c01",
+   "pos_mm": [
+    -87.99999999999999,
+    -87,
+    21.60000000000001
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -300
+  },
+  {
+   "name": "footstop_rr1",
+   "part": "4265c",
+   "pos_mm": [
+    -87.99999999999999,
+    -74,
+    21.60000000000001
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -300
+  },
+  {
+   "name": "lower_crosspin_f",
+   "part": "6558",
+   "pos_mm": [
+    144,
+    32,
+    94.59484522385713
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "lower_crosspin_r",
+   "part": "6558",
+   "pos_mm": [
+    -144,
+    32,
+    94.59484522385713
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "outside_splice_fl",
+   "part": "32278",
+   "pos_mm": [
+    80,
+    24,
+    118.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "outside_splice_fl0",
+   "part": "6558",
+   "pos_mm": [
+    32,
+    16,
+    118.59484522385713
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "outside_splice_fl1",
+   "part": "6558",
+   "pos_mm": [
+    56,
+    16,
+    118.59484522385713
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "outside_splice_fl2",
+   "part": "6558",
+   "pos_mm": [
+    112,
+    16,
+    118.59484522385713
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "outside_splice_fl3",
+   "part": "6558",
+   "pos_mm": [
+    136,
+    16,
+    118.59484522385713
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "outside_splice_fr",
+   "part": "41239",
+   "pos_mm": [
+    96,
+    -24,
+    118.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "outside_splice_fr0",
+   "part": "6558",
+   "pos_mm": [
+    48,
+    -16,
+    118.59484522385713
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "outside_splice_fr1",
+   "part": "6558",
+   "pos_mm": [
+    56,
+    -16,
+    118.59484522385713
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "outside_splice_fr2",
+   "part": "6558",
+   "pos_mm": [
+    112,
+    -16,
+    118.59484522385713
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "outside_splice_fr3",
+   "part": "6558",
+   "pos_mm": [
+    136,
+    -16,
+    118.59484522385713
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "outside_splice_rl",
+   "part": "32278",
+   "pos_mm": [
+    -80,
+    24,
+    118.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "outside_splice_rl0",
+   "part": "6558",
+   "pos_mm": [
+    -32,
+    16,
+    118.59484522385713
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "outside_splice_rl1",
+   "part": "6558",
+   "pos_mm": [
+    -56,
+    16,
+    118.59484522385713
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "outside_splice_rl2",
+   "part": "6558",
+   "pos_mm": [
+    -112,
+    16,
+    118.59484522385713
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "outside_splice_rl3",
+   "part": "6558",
+   "pos_mm": [
+    -136,
+    16,
+    118.59484522385713
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "outside_splice_rr",
+   "part": "41239",
+   "pos_mm": [
+    -96,
+    -24,
+    118.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "outside_splice_rr0",
+   "part": "6558",
+   "pos_mm": [
+    -48,
+    -16,
+    118.59484522385713
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "outside_splice_rr1",
+   "part": "6558",
+   "pos_mm": [
+    -56,
+    -16,
+    118.59484522385713
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "outside_splice_rr2",
+   "part": "6558",
+   "pos_mm": [
+    -112,
+    -16,
+    118.59484522385713
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "outside_splice_rr3",
+   "part": "6558",
+   "pos_mm": [
+    -136,
+    -16,
+    118.59484522385713
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck_post_-1l",
+   "part": "3700",
+   "pos_mm": [
+    -40,
+    8,
+    132.19484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck_post_-1l0",
+   "part": "3023",
+   "pos_mm": [
+    -40,
+    8,
+    135.39484522385715
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck_post_-1l1",
+   "part": "3023",
+   "pos_mm": [
+    -40,
+    8,
+    138.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck_post_-1r",
+   "part": "3700",
+   "pos_mm": [
+    -40,
+    -8,
+    132.19484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck_post_-1r0",
+   "part": "3023",
+   "pos_mm": [
+    -40,
+    -8,
+    135.39484522385715
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck_post_-1r1",
+   "part": "3023",
+   "pos_mm": [
+    -40,
+    -8,
+    138.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck_post_1l",
+   "part": "3700",
+   "pos_mm": [
+    40,
+    8,
+    132.19484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck_post_1l0",
+   "part": "3023",
+   "pos_mm": [
+    40,
+    8,
+    135.39484522385715
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck_post_1l1",
+   "part": "3023",
+   "pos_mm": [
+    40,
+    8,
+    138.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck_post_1r",
+   "part": "3700",
+   "pos_mm": [
+    40,
+    -8,
+    132.19484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck_post_1r0",
+   "part": "3023",
+   "pos_mm": [
+    40,
+    -8,
+    135.39484522385715
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck_post_1r1",
+   "part": "3023",
+   "pos_mm": [
+    40,
+    -8,
+    138.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck_post_-1l2",
+   "part": "3023",
+   "pos_mm": [
+    -40,
+    8,
+    141.79484522385712
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck_post_-1r2",
+   "part": "3023",
+   "pos_mm": [
+    -40,
+    -8,
+    141.79484522385712
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck_post_1l2",
+   "part": "3023",
+   "pos_mm": [
+    40,
+    8,
+    141.79484522385712
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck_post_1r2",
+   "part": "3023",
+   "pos_mm": [
+    40,
+    -8,
+    141.79484522385712
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_chain_axle",
+   "part": "23948",
+   "pos_mm": [
+    -104,
+    -4,
+    118.59484522385713
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_chain_gear",
+   "part": "3649",
+   "pos_mm": [
+    -104,
+    0,
+    118.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_chain_stop-1",
+   "part": "4265c",
+   "pos_mm": [
+    -104,
+    -30,
+    118.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_chain_stop1",
+   "part": "4265c",
+   "pos_mm": [
+    -104,
+    30,
+    118.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_crest_gear",
+   "part": "3649",
+   "pos_mm": [
+    144,
+    0,
+    118.59484522385713
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "battery",
+   "parent": "deck",
+   "kind": "stud",
+   "studs": 32
+  },
+  {
+   "child": "receiver",
+   "parent": "deck",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "axle_f",
+   "parent": "extension_fl",
+   "kind": "hinge"
+  },
+  {
+   "child": "axle_f",
+   "parent": "extension_fr",
+   "kind": "hinge"
+  },
+  {
+   "child": "bush_fr",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "gear_f",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "axle_r",
+   "parent": "extension_rl",
+   "kind": "hinge"
+  },
+  {
+   "child": "axle_r",
+   "parent": "extension_rr",
+   "kind": "hinge"
+  },
+  {
+   "child": "bush_rr",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "gear_r",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "bp_f0",
+   "parent": "brace_f",
+   "kind": "pin"
+  },
+  {
+   "child": "bp_f0",
+   "parent": "frame_f",
+   "kind": "pin"
+  },
+  {
+   "child": "axle_f",
+   "parent": "frame_f",
+   "kind": "hinge"
+  },
+  {
+   "child": "framepin_f",
+   "parent": "brace_f",
+   "kind": "pin"
+  },
+  {
+   "child": "framepin_f",
+   "parent": "extension_fl",
+   "kind": "pin"
+  },
+  {
+   "child": "mp_f0",
+   "parent": "frame_f",
+   "kind": "pin"
+  },
+  {
+   "child": "mp_f0",
+   "parent": "motor_f",
+   "kind": "pin"
+  },
+  {
+   "child": "mp_f1",
+   "parent": "frame_f",
+   "kind": "pin"
+  },
+  {
+   "child": "mp_f1",
+   "parent": "motor_f",
+   "kind": "pin"
+  },
+  {
+   "child": "shaft_f",
+   "parent": "motor_f",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion_f",
+   "parent": "shaft_f",
+   "kind": "cross"
+  },
+  {
+   "child": "bp_r0",
+   "parent": "brace_r",
+   "kind": "pin"
+  },
+  {
+   "child": "bp_r0",
+   "parent": "frame_r",
+   "kind": "pin"
+  },
+  {
+   "child": "axle_r",
+   "parent": "frame_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "framepin_r",
+   "parent": "brace_r",
+   "kind": "pin"
+  },
+  {
+   "child": "framepin_r",
+   "parent": "extension_rl",
+   "kind": "pin"
+  },
+  {
+   "child": "mp_r0",
+   "parent": "frame_r",
+   "kind": "pin"
+  },
+  {
+   "child": "mp_r0",
+   "parent": "motor_r",
+   "kind": "pin"
+  },
+  {
+   "child": "mp_r1",
+   "parent": "frame_r",
+   "kind": "pin"
+  },
+  {
+   "child": "mp_r1",
+   "parent": "motor_r",
+   "kind": "pin"
+  },
+  {
+   "child": "shaft_r",
+   "parent": "motor_r",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion_r",
+   "parent": "shaft_r",
+   "kind": "cross"
+  },
+  {
+   "child": "retainpin_f0",
+   "parent": "retainer_f",
+   "kind": "pin"
+  },
+  {
+   "child": "retainpin_f0",
+   "parent": "frame_f",
+   "kind": "pin"
+  },
+  {
+   "child": "retainpin_f1",
+   "parent": "retainer_f",
+   "kind": "pin"
+  },
+  {
+   "child": "retainpin_f1",
+   "parent": "frame_f",
+   "kind": "pin"
+  },
+  {
+   "child": "retainpin_r0",
+   "parent": "retainer_r",
+   "kind": "pin"
+  },
+  {
+   "child": "retainpin_r0",
+   "parent": "frame_r",
+   "kind": "pin"
+  },
+  {
+   "child": "retainpin_r1",
+   "parent": "retainer_r",
+   "kind": "pin"
+  },
+  {
+   "child": "retainpin_r1",
+   "parent": "frame_r",
+   "kind": "pin"
+  },
+  {
+   "child": "inter_f",
+   "parent": "frame_f",
+   "kind": "hinge"
+  },
+  {
+   "child": "inter_big_f",
+   "parent": "inter_f",
+   "kind": "cross"
+  },
+  {
+   "child": "inter_small_f",
+   "parent": "inter_f",
+   "kind": "cross"
+  },
+  {
+   "child": "inter_stop_in_f",
+   "parent": "inter_f",
+   "kind": "cross"
+  },
+  {
+   "child": "inter_r",
+   "parent": "frame_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "inter_big_r",
+   "parent": "inter_r",
+   "kind": "cross"
+  },
+  {
+   "child": "inter_small_r",
+   "parent": "inter_r",
+   "kind": "cross"
+  },
+  {
+   "child": "inter_stop_in_r",
+   "parent": "inter_r",
+   "kind": "cross"
+  },
+  {
+   "child": "axle_f",
+   "parent": "retainer_f",
+   "kind": "hinge"
+  },
+  {
+   "child": "inter_f",
+   "parent": "retainer_f",
+   "kind": "hinge"
+  },
+  {
+   "child": "output_stop_f",
+   "parent": "shaft_f",
+   "kind": "cross"
+  },
+  {
+   "child": "axle_r",
+   "parent": "retainer_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "inter_r",
+   "parent": "retainer_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "output_stop_r",
+   "parent": "shaft_r",
+   "kind": "cross"
+  },
+  {
+   "child": "centre_pin",
+   "parent": "rail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "centre_pin",
+   "parent": "rail_r",
+   "kind": "pin"
+  },
+  {
+   "child": "centre_pin",
+   "parent": "centre_tie",
+   "kind": "pin"
+  },
+  {
+   "child": "spoke_fl0",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "lap_fl00",
+   "parent": "spoke_fl0",
+   "kind": "pin"
+  },
+  {
+   "child": "lap_fl00",
+   "parent": "long_fl0",
+   "kind": "pin"
+  },
+  {
+   "child": "lap_fl01",
+   "parent": "spoke_fl0",
+   "kind": "pin"
+  },
+  {
+   "child": "lap_fl01",
+   "parent": "long_fl0",
+   "kind": "pin"
+  },
+  {
+   "child": "lockpin_fl00",
+   "parent": "lock_fl0",
+   "kind": "pin"
+  },
+  {
+   "child": "lockpin_fl00",
+   "parent": "long_fl0",
+   "kind": "pin"
+  },
+  {
+   "child": "lockpin_fl01",
+   "parent": "lock_fl0",
+   "kind": "pin"
+  },
+  {
+   "child": "lockpin_fl01",
+   "parent": "long_fl0",
+   "kind": "pin"
+  },
+  {
+   "child": "lock_fl0",
+   "parent": "footaxle_fl0",
+   "kind": "cross"
+  },
+  {
+   "child": "footaxle_fl0",
+   "parent": "long_fl0",
+   "kind": "hinge"
+  },
+  {
+   "child": "foot_fl0",
+   "parent": "footaxle_fl0",
+   "kind": "cross"
+  },
+  {
+   "child": "footstop_fl0",
+   "parent": "footaxle_fl0",
+   "kind": "cross"
+  },
+  {
+   "child": "spoke_fl1",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "lap_fl10",
+   "parent": "spoke_fl1",
+   "kind": "pin"
+  },
+  {
+   "child": "lap_fl10",
+   "parent": "long_fl1",
+   "kind": "pin"
+  },
+  {
+   "child": "lap_fl11",
+   "parent": "spoke_fl1",
+   "kind": "pin"
+  },
+  {
+   "child": "lap_fl11",
+   "parent": "long_fl1",
+   "kind": "pin"
+  },
+  {
+   "child": "lockpin_fl10",
+   "parent": "lock_fl1",
+   "kind": "pin"
+  },
+  {
+   "child": "lockpin_fl10",
+   "parent": "long_fl1",
+   "kind": "pin"
+  },
+  {
+   "child": "lockpin_fl11",
+   "parent": "lock_fl1",
+   "kind": "pin"
+  },
+  {
+   "child": "lockpin_fl11",
+   "parent": "long_fl1",
+   "kind": "pin"
+  },
+  {
+   "child": "lock_fl1",
+   "parent": "footaxle_fl1",
+   "kind": "cross"
+  },
+  {
+   "child": "footaxle_fl1",
+   "parent": "long_fl1",
+   "kind": "hinge"
+  },
+  {
+   "child": "foot_fl1",
+   "parent": "footaxle_fl1",
+   "kind": "cross"
+  },
+  {
+   "child": "footstop_fl1",
+   "parent": "footaxle_fl1",
+   "kind": "cross"
+  },
+  {
+   "child": "spoke_fr0",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "lap_fr00",
+   "parent": "spoke_fr0",
+   "kind": "pin"
+  },
+  {
+   "child": "lap_fr00",
+   "parent": "long_fr0",
+   "kind": "pin"
+  },
+  {
+   "child": "lap_fr01",
+   "parent": "spoke_fr0",
+   "kind": "pin"
+  },
+  {
+   "child": "lap_fr01",
+   "parent": "long_fr0",
+   "kind": "pin"
+  },
+  {
+   "child": "lockpin_fr00",
+   "parent": "lock_fr0",
+   "kind": "pin"
+  },
+  {
+   "child": "lockpin_fr00",
+   "parent": "long_fr0",
+   "kind": "pin"
+  },
+  {
+   "child": "lockpin_fr01",
+   "parent": "lock_fr0",
+   "kind": "pin"
+  },
+  {
+   "child": "lockpin_fr01",
+   "parent": "long_fr0",
+   "kind": "pin"
+  },
+  {
+   "child": "lock_fr0",
+   "parent": "footaxle_fr0",
+   "kind": "cross"
+  },
+  {
+   "child": "footaxle_fr0",
+   "parent": "long_fr0",
+   "kind": "hinge"
+  },
+  {
+   "child": "foot_fr0",
+   "parent": "footaxle_fr0",
+   "kind": "cross"
+  },
+  {
+   "child": "footstop_fr0",
+   "parent": "footaxle_fr0",
+   "kind": "cross"
+  },
+  {
+   "child": "spoke_fr1",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "lap_fr10",
+   "parent": "spoke_fr1",
+   "kind": "pin"
+  },
+  {
+   "child": "lap_fr10",
+   "parent": "long_fr1",
+   "kind": "pin"
+  },
+  {
+   "child": "lap_fr11",
+   "parent": "spoke_fr1",
+   "kind": "pin"
+  },
+  {
+   "child": "lap_fr11",
+   "parent": "long_fr1",
+   "kind": "pin"
+  },
+  {
+   "child": "lockpin_fr10",
+   "parent": "lock_fr1",
+   "kind": "pin"
+  },
+  {
+   "child": "lockpin_fr10",
+   "parent": "long_fr1",
+   "kind": "pin"
+  },
+  {
+   "child": "lockpin_fr11",
+   "parent": "lock_fr1",
+   "kind": "pin"
+  },
+  {
+   "child": "lockpin_fr11",
+   "parent": "long_fr1",
+   "kind": "pin"
+  },
+  {
+   "child": "lock_fr1",
+   "parent": "footaxle_fr1",
+   "kind": "cross"
+  },
+  {
+   "child": "footaxle_fr1",
+   "parent": "long_fr1",
+   "kind": "hinge"
+  },
+  {
+   "child": "foot_fr1",
+   "parent": "footaxle_fr1",
+   "kind": "cross"
+  },
+  {
+   "child": "footstop_fr1",
+   "parent": "footaxle_fr1",
+   "kind": "cross"
+  },
+  {
+   "child": "spoke_rl0",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "lap_rl00",
+   "parent": "spoke_rl0",
+   "kind": "pin"
+  },
+  {
+   "child": "lap_rl00",
+   "parent": "long_rl0",
+   "kind": "pin"
+  },
+  {
+   "child": "lap_rl01",
+   "parent": "spoke_rl0",
+   "kind": "pin"
+  },
+  {
+   "child": "lap_rl01",
+   "parent": "long_rl0",
+   "kind": "pin"
+  },
+  {
+   "child": "lockpin_rl00",
+   "parent": "lock_rl0",
+   "kind": "pin"
+  },
+  {
+   "child": "lockpin_rl00",
+   "parent": "long_rl0",
+   "kind": "pin"
+  },
+  {
+   "child": "lockpin_rl01",
+   "parent": "lock_rl0",
+   "kind": "pin"
+  },
+  {
+   "child": "lockpin_rl01",
+   "parent": "long_rl0",
+   "kind": "pin"
+  },
+  {
+   "child": "lock_rl0",
+   "parent": "footaxle_rl0",
+   "kind": "cross"
+  },
+  {
+   "child": "footaxle_rl0",
+   "parent": "long_rl0",
+   "kind": "hinge"
+  },
+  {
+   "child": "foot_rl0",
+   "parent": "footaxle_rl0",
+   "kind": "cross"
+  },
+  {
+   "child": "footstop_rl0",
+   "parent": "footaxle_rl0",
+   "kind": "cross"
+  },
+  {
+   "child": "spoke_rl1",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "lap_rl10",
+   "parent": "spoke_rl1",
+   "kind": "pin"
+  },
+  {
+   "child": "lap_rl10",
+   "parent": "long_rl1",
+   "kind": "pin"
+  },
+  {
+   "child": "lap_rl11",
+   "parent": "spoke_rl1",
+   "kind": "pin"
+  },
+  {
+   "child": "lap_rl11",
+   "parent": "long_rl1",
+   "kind": "pin"
+  },
+  {
+   "child": "lockpin_rl10",
+   "parent": "lock_rl1",
+   "kind": "pin"
+  },
+  {
+   "child": "lockpin_rl10",
+   "parent": "long_rl1",
+   "kind": "pin"
+  },
+  {
+   "child": "lockpin_rl11",
+   "parent": "lock_rl1",
+   "kind": "pin"
+  },
+  {
+   "child": "lockpin_rl11",
+   "parent": "long_rl1",
+   "kind": "pin"
+  },
+  {
+   "child": "lock_rl1",
+   "parent": "footaxle_rl1",
+   "kind": "cross"
+  },
+  {
+   "child": "footaxle_rl1",
+   "parent": "long_rl1",
+   "kind": "hinge"
+  },
+  {
+   "child": "foot_rl1",
+   "parent": "footaxle_rl1",
+   "kind": "cross"
+  },
+  {
+   "child": "footstop_rl1",
+   "parent": "footaxle_rl1",
+   "kind": "cross"
+  },
+  {
+   "child": "spoke_rr0",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "lap_rr00",
+   "parent": "spoke_rr0",
+   "kind": "pin"
+  },
+  {
+   "child": "lap_rr00",
+   "parent": "long_rr0",
+   "kind": "pin"
+  },
+  {
+   "child": "lap_rr01",
+   "parent": "spoke_rr0",
+   "kind": "pin"
+  },
+  {
+   "child": "lap_rr01",
+   "parent": "long_rr0",
+   "kind": "pin"
+  },
+  {
+   "child": "lockpin_rr00",
+   "parent": "lock_rr0",
+   "kind": "pin"
+  },
+  {
+   "child": "lockpin_rr00",
+   "parent": "long_rr0",
+   "kind": "pin"
+  },
+  {
+   "child": "lockpin_rr01",
+   "parent": "lock_rr0",
+   "kind": "pin"
+  },
+  {
+   "child": "lockpin_rr01",
+   "parent": "long_rr0",
+   "kind": "pin"
+  },
+  {
+   "child": "lock_rr0",
+   "parent": "footaxle_rr0",
+   "kind": "cross"
+  },
+  {
+   "child": "footaxle_rr0",
+   "parent": "long_rr0",
+   "kind": "hinge"
+  },
+  {
+   "child": "foot_rr0",
+   "parent": "footaxle_rr0",
+   "kind": "cross"
+  },
+  {
+   "child": "footstop_rr0",
+   "parent": "footaxle_rr0",
+   "kind": "cross"
+  },
+  {
+   "child": "spoke_rr1",
+   "parent": "axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "lap_rr10",
+   "parent": "spoke_rr1",
+   "kind": "pin"
+  },
+  {
+   "child": "lap_rr10",
+   "parent": "long_rr1",
+   "kind": "pin"
+  },
+  {
+   "child": "lap_rr11",
+   "parent": "spoke_rr1",
+   "kind": "pin"
+  },
+  {
+   "child": "lap_rr11",
+   "parent": "long_rr1",
+   "kind": "pin"
+  },
+  {
+   "child": "lockpin_rr10",
+   "parent": "lock_rr1",
+   "kind": "pin"
+  },
+  {
+   "child": "lockpin_rr10",
+   "parent": "long_rr1",
+   "kind": "pin"
+  },
+  {
+   "child": "lockpin_rr11",
+   "parent": "lock_rr1",
+   "kind": "pin"
+  },
+  {
+   "child": "lockpin_rr11",
+   "parent": "long_rr1",
+   "kind": "pin"
+  },
+  {
+   "child": "lock_rr1",
+   "parent": "footaxle_rr1",
+   "kind": "cross"
+  },
+  {
+   "child": "footaxle_rr1",
+   "parent": "long_rr1",
+   "kind": "hinge"
+  },
+  {
+   "child": "foot_rr1",
+   "parent": "footaxle_rr1",
+   "kind": "cross"
+  },
+  {
+   "child": "footstop_rr1",
+   "parent": "footaxle_rr1",
+   "kind": "cross"
+  },
+  {
+   "child": "lower_crosspin_f",
+   "parent": "frame_f",
+   "kind": "pin"
+  },
+  {
+   "child": "lower_crosspin_f",
+   "parent": "retainer_f",
+   "kind": "pin"
+  },
+  {
+   "child": "lower_crosspin_r",
+   "parent": "frame_r",
+   "kind": "pin"
+  },
+  {
+   "child": "lower_crosspin_r",
+   "parent": "retainer_r",
+   "kind": "pin"
+  },
+  {
+   "child": "outside_splice_fl0",
+   "parent": "outside_splice_fl",
+   "kind": "pin"
+  },
+  {
+   "child": "outside_splice_fl0",
+   "parent": "rail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "outside_splice_fl1",
+   "parent": "outside_splice_fl",
+   "kind": "pin"
+  },
+  {
+   "child": "outside_splice_fl1",
+   "parent": "rail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "outside_splice_fl2",
+   "parent": "outside_splice_fl",
+   "kind": "pin"
+  },
+  {
+   "child": "outside_splice_fl2",
+   "parent": "extension_fl",
+   "kind": "pin"
+  },
+  {
+   "child": "outside_splice_fl3",
+   "parent": "outside_splice_fl",
+   "kind": "pin"
+  },
+  {
+   "child": "outside_splice_fl3",
+   "parent": "extension_fl",
+   "kind": "pin"
+  },
+  {
+   "child": "outside_splice_fr0",
+   "parent": "outside_splice_fr",
+   "kind": "pin"
+  },
+  {
+   "child": "outside_splice_fr0",
+   "parent": "rail_r",
+   "kind": "pin"
+  },
+  {
+   "child": "outside_splice_fr1",
+   "parent": "outside_splice_fr",
+   "kind": "pin"
+  },
+  {
+   "child": "outside_splice_fr1",
+   "parent": "rail_r",
+   "kind": "pin"
+  },
+  {
+   "child": "outside_splice_fr2",
+   "parent": "outside_splice_fr",
+   "kind": "pin"
+  },
+  {
+   "child": "outside_splice_fr2",
+   "parent": "extension_fr",
+   "kind": "pin"
+  },
+  {
+   "child": "outside_splice_fr3",
+   "parent": "outside_splice_fr",
+   "kind": "pin"
+  },
+  {
+   "child": "outside_splice_fr3",
+   "parent": "extension_fr",
+   "kind": "pin"
+  },
+  {
+   "child": "axle_f",
+   "parent": "outside_splice_fr",
+   "kind": "hinge"
+  },
+  {
+   "child": "outside_splice_rl0",
+   "parent": "outside_splice_rl",
+   "kind": "pin"
+  },
+  {
+   "child": "outside_splice_rl0",
+   "parent": "rail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "outside_splice_rl1",
+   "parent": "outside_splice_rl",
+   "kind": "pin"
+  },
+  {
+   "child": "outside_splice_rl1",
+   "parent": "rail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "outside_splice_rl2",
+   "parent": "outside_splice_rl",
+   "kind": "pin"
+  },
+  {
+   "child": "outside_splice_rl2",
+   "parent": "extension_rl",
+   "kind": "pin"
+  },
+  {
+   "child": "outside_splice_rl3",
+   "parent": "outside_splice_rl",
+   "kind": "pin"
+  },
+  {
+   "child": "outside_splice_rl3",
+   "parent": "extension_rl",
+   "kind": "pin"
+  },
+  {
+   "child": "outside_splice_rr0",
+   "parent": "outside_splice_rr",
+   "kind": "pin"
+  },
+  {
+   "child": "outside_splice_rr0",
+   "parent": "rail_r",
+   "kind": "pin"
+  },
+  {
+   "child": "outside_splice_rr1",
+   "parent": "outside_splice_rr",
+   "kind": "pin"
+  },
+  {
+   "child": "outside_splice_rr1",
+   "parent": "rail_r",
+   "kind": "pin"
+  },
+  {
+   "child": "outside_splice_rr2",
+   "parent": "outside_splice_rr",
+   "kind": "pin"
+  },
+  {
+   "child": "outside_splice_rr2",
+   "parent": "extension_rr",
+   "kind": "pin"
+  },
+  {
+   "child": "outside_splice_rr3",
+   "parent": "outside_splice_rr",
+   "kind": "pin"
+  },
+  {
+   "child": "outside_splice_rr3",
+   "parent": "extension_rr",
+   "kind": "pin"
+  },
+  {
+   "child": "axle_r",
+   "parent": "outside_splice_rr",
+   "kind": "hinge"
+  },
+  {
+   "child": "deck_post_-1l",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck_post_-1l0",
+   "parent": "deck_post_-1l",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck_post_-1l1",
+   "parent": "deck_post_-1l0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck_post_-1r",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck_post_-1r0",
+   "parent": "deck_post_-1r",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck_post_-1r1",
+   "parent": "deck_post_-1r0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck_post_1l",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck_post_1l0",
+   "parent": "deck_post_1l",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck_post_1l1",
+   "parent": "deck_post_1l0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck_post_1r",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck_post_1r0",
+   "parent": "deck_post_1r",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck_post_1r1",
+   "parent": "deck_post_1r0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck_post_-1l2",
+   "parent": "deck_post_-1l1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck",
+   "parent": "deck_post_-1l2",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck_post_-1r2",
+   "parent": "deck_post_-1r1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck",
+   "parent": "deck_post_-1r2",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck_post_1l2",
+   "parent": "deck_post_1l1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck",
+   "parent": "deck_post_1l2",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck_post_1r2",
+   "parent": "deck_post_1r1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck",
+   "parent": "deck_post_1r2",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "rear_chain_axle",
+   "parent": "extension_rl",
+   "kind": "hinge"
+  },
+  {
+   "child": "rear_chain_axle",
+   "parent": "extension_rr",
+   "kind": "hinge"
+  },
+  {
+   "child": "rear_chain_axle",
+   "parent": "outside_splice_rl",
+   "kind": "hinge"
+  },
+  {
+   "child": "rear_chain_axle",
+   "parent": "outside_splice_rr",
+   "kind": "hinge"
+  },
+  {
+   "child": "rear_chain_gear",
+   "parent": "rear_chain_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_chain_stop-1",
+   "parent": "rear_chain_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_chain_stop1",
+   "parent": "rear_chain_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_crest_gear",
+   "parent": "axle_f",
+   "kind": "cross"
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "pinion_f",
+   "gear_b": "inter_big_f"
+  },
+  {
+   "gear_a": "inter_small_f",
+   "gear_b": "gear_f"
+  },
+  {
+   "gear_a": "pinion_r",
+   "gear_b": "inter_big_r"
+  },
+  {
+   "gear_a": "inter_small_r",
+   "gear_b": "gear_r"
+  }
+ ],
+ "start_gap_mm": 10,
+ "motor_program": [
+  {
+   "t": 0,
+   "motor": "all",
+   "level": 7
+  },
+  {
+   "t": 4.6,
+   "motor": "all",
+   "level": 4
+  },
+  {
+   "t": 6.5,
+   "motor": "all",
+   "level": "brake"
+  }
+ ],
+ "treads": [
+  {
+   "name": "front_driven_crest_chain",
+   "sprockets": [
+    "rear_chain_gear",
+    "front_crest_gear"
+   ],
+   "link": "3711",
+   "links": 98
+  }
+ ]
+}

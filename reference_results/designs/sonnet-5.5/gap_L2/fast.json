@@ -1,0 +1,3325 @@
+{
+ "name": "gap3_4ax",
+ "description": "4-axle bridge: axles 376 apart end to end, drive on the two middle axles by chain, CoM between them",
+ "chassis": "b3l",
+ "motor": "axFM_m",
+ "battery": "bat_front",
+ "intended": [],
+ "gear_meshes": [],
+ "chains": [
+  {
+   "name": "chRM",
+   "gears": [
+    "axRM_pin",
+    "axRM_g"
+   ],
+   "links": 28
+  },
+  {
+   "name": "chFM",
+   "gears": [
+    "axFM_pin",
+    "axFM_g"
+   ],
+   "links": 28
+  }
+ ],
+ "part_set": "inventory",
+ "start_gap_mm": 5,
+ "motor_program": [
+  {
+   "t": 0.0,
+   "motor": "all",
+   "level": 4
+  },
+  {
+   "t": 0.35,
+   "motor": "all",
+   "level": 7
+  },
+  {
+   "t": 2.4,
+   "motor": "all",
+   "level": 3
+  },
+  {
+   "t": 3.4,
+   "motor": "all",
+   "level": "brake"
+  }
+ ],
+ "parts": [
+  {
+   "name": "b0l",
+   "part": "3895",
+   "pos_mm": [
+    -368,
+    12,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "b1l",
+   "part": "3703",
+   "pos_mm": [
+    -256,
+    12,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "b2l",
+   "part": "3703",
+   "pos_mm": [
+    -128,
+    12,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "b3l",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    12,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "b4l",
+   "part": "3703",
+   "pos_mm": [
+    128,
+    12,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "b5l",
+   "part": "3703",
+   "pos_mm": [
+    256,
+    12,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "b6l",
+   "part": "3895",
+   "pos_mm": [
+    368,
+    12,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "b0r",
+   "part": "3895",
+   "pos_mm": [
+    -368,
+    -12,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "b1r",
+   "part": "3703",
+   "pos_mm": [
+    -256,
+    -12,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "b2r",
+   "part": "3703",
+   "pos_mm": [
+    -128,
+    -12,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "b3r",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    -12,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "b4r",
+   "part": "3703",
+   "pos_mm": [
+    128,
+    -12,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "b5r",
+   "part": "3703",
+   "pos_mm": [
+    256,
+    -12,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "b6r",
+   "part": "3895",
+   "pos_mm": [
+    368,
+    -12,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "lap0l",
+   "part": "32525",
+   "pos_mm": [
+    -320,
+    4,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "lapo0l",
+   "part": "3702",
+   "pos_mm": [
+    -320,
+    20,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "pin0l-360",
+   "part": "2780",
+   "pos_mm": [
+    -360,
+    8,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin0l-344",
+   "part": "6558",
+   "pos_mm": [
+    -344,
+    12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin0l-328",
+   "part": "6558",
+   "pos_mm": [
+    -328,
+    12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin0l-312",
+   "part": "6558",
+   "pos_mm": [
+    -312,
+    12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin0l-296",
+   "part": "6558",
+   "pos_mm": [
+    -296,
+    12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin0l-280",
+   "part": "2780",
+   "pos_mm": [
+    -280,
+    8,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "lap0r",
+   "part": "32525",
+   "pos_mm": [
+    -320,
+    -4,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "lapo0r",
+   "part": "3702",
+   "pos_mm": [
+    -320,
+    -20,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "pin0r-360",
+   "part": "2780",
+   "pos_mm": [
+    -360,
+    -8,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin0r-344",
+   "part": "6558",
+   "pos_mm": [
+    -344,
+    -12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin0r-328",
+   "part": "6558",
+   "pos_mm": [
+    -328,
+    -12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin0r-312",
+   "part": "6558",
+   "pos_mm": [
+    -312,
+    -12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin0r-296",
+   "part": "6558",
+   "pos_mm": [
+    -296,
+    -12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin0r-280",
+   "part": "2780",
+   "pos_mm": [
+    -280,
+    -8,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "lap1l",
+   "part": "32525",
+   "pos_mm": [
+    -192,
+    4,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "lapo1l",
+   "part": "3702",
+   "pos_mm": [
+    -192,
+    20,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "pin1l-232",
+   "part": "2780",
+   "pos_mm": [
+    -232,
+    8,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin1l-216",
+   "part": "6558",
+   "pos_mm": [
+    -216,
+    12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin1l-200",
+   "part": "6558",
+   "pos_mm": [
+    -200,
+    12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin1l-184",
+   "part": "6558",
+   "pos_mm": [
+    -184,
+    12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin1l-168",
+   "part": "6558",
+   "pos_mm": [
+    -168,
+    12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin1l-152",
+   "part": "2780",
+   "pos_mm": [
+    -152,
+    8,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "lap1r",
+   "part": "32525",
+   "pos_mm": [
+    -192,
+    -4,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "lapo1r",
+   "part": "3702",
+   "pos_mm": [
+    -192,
+    -20,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "pin1r-232",
+   "part": "2780",
+   "pos_mm": [
+    -232,
+    -8,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin1r-216",
+   "part": "6558",
+   "pos_mm": [
+    -216,
+    -12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin1r-200",
+   "part": "6558",
+   "pos_mm": [
+    -200,
+    -12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin1r-184",
+   "part": "6558",
+   "pos_mm": [
+    -184,
+    -12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin1r-168",
+   "part": "6558",
+   "pos_mm": [
+    -168,
+    -12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin1r-152",
+   "part": "2780",
+   "pos_mm": [
+    -152,
+    -8,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "lap2l",
+   "part": "32278",
+   "pos_mm": [
+    -88,
+    4,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "lapo2l",
+   "part": "41239",
+   "pos_mm": [
+    -88,
+    20,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "pin2l-120",
+   "part": "6558",
+   "pos_mm": [
+    -120,
+    12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin2l-104",
+   "part": "6558",
+   "pos_mm": [
+    -104,
+    12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin2l-88",
+   "part": "6558",
+   "pos_mm": [
+    -88,
+    12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin2l-72",
+   "part": "6558",
+   "pos_mm": [
+    -72,
+    12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin2l-56",
+   "part": "6558",
+   "pos_mm": [
+    -56,
+    12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin2l-48",
+   "part": "6558",
+   "pos_mm": [
+    -48,
+    12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin2l-40",
+   "part": "6558",
+   "pos_mm": [
+    -40,
+    12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin2l-32",
+   "part": "2780",
+   "pos_mm": [
+    -32,
+    8,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "lap2r",
+   "part": "32278",
+   "pos_mm": [
+    -88,
+    -4,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "lapo2r",
+   "part": "41239",
+   "pos_mm": [
+    -88,
+    -20,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "pin2r-120",
+   "part": "6558",
+   "pos_mm": [
+    -120,
+    -12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin2r-104",
+   "part": "6558",
+   "pos_mm": [
+    -104,
+    -12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin2r-88",
+   "part": "6558",
+   "pos_mm": [
+    -88,
+    -12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin2r-72",
+   "part": "6558",
+   "pos_mm": [
+    -72,
+    -12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin2r-56",
+   "part": "6558",
+   "pos_mm": [
+    -56,
+    -12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin2r-48",
+   "part": "6558",
+   "pos_mm": [
+    -48,
+    -12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin2r-40",
+   "part": "6558",
+   "pos_mm": [
+    -40,
+    -12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin2r-32",
+   "part": "2780",
+   "pos_mm": [
+    -32,
+    -8,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "lap3l",
+   "part": "32278",
+   "pos_mm": [
+    88,
+    4,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "lapo3l",
+   "part": "41239",
+   "pos_mm": [
+    88,
+    20,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "pin3l32",
+   "part": "2780",
+   "pos_mm": [
+    32,
+    8,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin3l40",
+   "part": "6558",
+   "pos_mm": [
+    40,
+    12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin3l48",
+   "part": "6558",
+   "pos_mm": [
+    48,
+    12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin3l56",
+   "part": "6558",
+   "pos_mm": [
+    56,
+    12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin3l72",
+   "part": "6558",
+   "pos_mm": [
+    72,
+    12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin3l88",
+   "part": "6558",
+   "pos_mm": [
+    88,
+    12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin3l104",
+   "part": "6558",
+   "pos_mm": [
+    104,
+    12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin3l120",
+   "part": "6558",
+   "pos_mm": [
+    120,
+    12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "lap3r",
+   "part": "32278",
+   "pos_mm": [
+    88,
+    -4,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "lapo3r",
+   "part": "41239",
+   "pos_mm": [
+    88,
+    -20,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "pin3r32",
+   "part": "2780",
+   "pos_mm": [
+    32,
+    -8,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin3r40",
+   "part": "6558",
+   "pos_mm": [
+    40,
+    -12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin3r48",
+   "part": "6558",
+   "pos_mm": [
+    48,
+    -12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin3r56",
+   "part": "6558",
+   "pos_mm": [
+    56,
+    -12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin3r72",
+   "part": "6558",
+   "pos_mm": [
+    72,
+    -12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin3r88",
+   "part": "6558",
+   "pos_mm": [
+    88,
+    -12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin3r104",
+   "part": "6558",
+   "pos_mm": [
+    104,
+    -12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin3r120",
+   "part": "6558",
+   "pos_mm": [
+    120,
+    -12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "lap4l",
+   "part": "32525",
+   "pos_mm": [
+    192,
+    4,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "lapo4l",
+   "part": "3702",
+   "pos_mm": [
+    192,
+    20,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "pin4l152",
+   "part": "2780",
+   "pos_mm": [
+    152,
+    8,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin4l168",
+   "part": "6558",
+   "pos_mm": [
+    168,
+    12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin4l184",
+   "part": "6558",
+   "pos_mm": [
+    184,
+    12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin4l200",
+   "part": "6558",
+   "pos_mm": [
+    200,
+    12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin4l216",
+   "part": "6558",
+   "pos_mm": [
+    216,
+    12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin4l232",
+   "part": "2780",
+   "pos_mm": [
+    232,
+    8,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "lap4r",
+   "part": "32525",
+   "pos_mm": [
+    192,
+    -4,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "lapo4r",
+   "part": "3702",
+   "pos_mm": [
+    192,
+    -20,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "pin4r152",
+   "part": "2780",
+   "pos_mm": [
+    152,
+    -8,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin4r168",
+   "part": "6558",
+   "pos_mm": [
+    168,
+    -12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin4r184",
+   "part": "6558",
+   "pos_mm": [
+    184,
+    -12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin4r200",
+   "part": "6558",
+   "pos_mm": [
+    200,
+    -12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin4r216",
+   "part": "6558",
+   "pos_mm": [
+    216,
+    -12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin4r232",
+   "part": "2780",
+   "pos_mm": [
+    232,
+    -8,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "lap5l",
+   "part": "32525",
+   "pos_mm": [
+    320,
+    4,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "lapo5l",
+   "part": "3702",
+   "pos_mm": [
+    320,
+    20,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "pin5l280",
+   "part": "2780",
+   "pos_mm": [
+    280,
+    8,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin5l296",
+   "part": "6558",
+   "pos_mm": [
+    296,
+    12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin5l312",
+   "part": "6558",
+   "pos_mm": [
+    312,
+    12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin5l328",
+   "part": "6558",
+   "pos_mm": [
+    328,
+    12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin5l344",
+   "part": "6558",
+   "pos_mm": [
+    344,
+    12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin5l360",
+   "part": "2780",
+   "pos_mm": [
+    360,
+    8,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "lap5r",
+   "part": "32525",
+   "pos_mm": [
+    320,
+    -4,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "lapo5r",
+   "part": "3702",
+   "pos_mm": [
+    320,
+    -20,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "pin5r280",
+   "part": "2780",
+   "pos_mm": [
+    280,
+    -8,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin5r296",
+   "part": "6558",
+   "pos_mm": [
+    296,
+    -12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin5r312",
+   "part": "6558",
+   "pos_mm": [
+    312,
+    -12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin5r328",
+   "part": "6558",
+   "pos_mm": [
+    328,
+    -12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin5r344",
+   "part": "6558",
+   "pos_mm": [
+    344,
+    -12,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin5r360",
+   "part": "2780",
+   "pos_mm": [
+    360,
+    -8,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "top-368",
+   "part": "3035",
+   "pos_mm": [
+    -368,
+    0,
+    28.8
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "top-256",
+   "part": "3035",
+   "pos_mm": [
+    -256,
+    0,
+    28.8
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "top256",
+   "part": "3035",
+   "pos_mm": [
+    256,
+    0,
+    28.8
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "top368",
+   "part": "3035",
+   "pos_mm": [
+    368,
+    0,
+    28.8
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "bot-368",
+   "part": "3030",
+   "pos_mm": [
+    -368,
+    0,
+    16.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "bot-256",
+   "part": "3030",
+   "pos_mm": [
+    -256,
+    0,
+    16.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "bot-128",
+   "part": "3030",
+   "pos_mm": [
+    -128,
+    0,
+    16.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "bot0",
+   "part": "3030",
+   "pos_mm": [
+    0,
+    0,
+    16.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "bot128",
+   "part": "3030",
+   "pos_mm": [
+    128,
+    0,
+    16.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "bot256",
+   "part": "3030",
+   "pos_mm": [
+    256,
+    0,
+    16.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "bot368",
+   "part": "3030",
+   "pos_mm": [
+    368,
+    0,
+    16.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "axR",
+   "part": "50451",
+   "pos_mm": [
+    -384,
+    0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "axR_wl",
+   "part": "56145c01",
+   "pos_mm": [
+    -384,
+    50,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "axR_wr",
+   "part": "56145c01",
+   "pos_mm": [
+    -384,
+    -50,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "axR_bu20",
+   "part": "3713",
+   "pos_mm": [
+    -384,
+    20,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "axR_bu-20",
+   "part": "3713",
+   "pos_mm": [
+    -384,
+    -20,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "axRM",
+   "part": "50451",
+   "pos_mm": [
+    -24,
+    0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "axRM_wl",
+   "part": "56145c01",
+   "pos_mm": [
+    -24,
+    50,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "axRM_wr",
+   "part": "56145c01",
+   "pos_mm": [
+    -24,
+    -50,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "axRM_bu20",
+   "part": "3713",
+   "pos_mm": [
+    -24,
+    20,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "axRM_bu-20",
+   "part": "3713",
+   "pos_mm": [
+    -24,
+    -20,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "axRM_g",
+   "part": "3648",
+   "pos_mm": [
+    -24,
+    28,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "axRM_ris0",
+   "part": "3031",
+   "pos_mm": [
+    -24,
+    0,
+    28.8
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "axRM_ris1",
+   "part": "3031",
+   "pos_mm": [
+    -24,
+    0,
+    32.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "axRM_ris2",
+   "part": "3031",
+   "pos_mm": [
+    -24,
+    0,
+    35.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "axRM_ris3",
+   "part": "3031",
+   "pos_mm": [
+    -24,
+    0,
+    38.400000000000006
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "axRM_ris4",
+   "part": "3031",
+   "pos_mm": [
+    -24,
+    0,
+    41.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "axRM_ris5",
+   "part": "3031",
+   "pos_mm": [
+    -24,
+    0,
+    44.8
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "axRM_m",
+   "part": "58120c01",
+   "pos_mm": [
+    -32,
+    24,
+    56.8
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "axRM_sh",
+   "part": "32062",
+   "pos_mm": [
+    -32,
+    28,
+    56.8
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "axRM_pin",
+   "part": "3649",
+   "pos_mm": [
+    -32,
+    28,
+    56.8
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "axRM_shbu",
+   "part": "4265c",
+   "pos_mm": [
+    -32,
+    34,
+    56.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "axFM",
+   "part": "50451",
+   "pos_mm": [
+    24,
+    0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "axFM_wl",
+   "part": "56145c01",
+   "pos_mm": [
+    24,
+    50,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "axFM_wr",
+   "part": "56145c01",
+   "pos_mm": [
+    24,
+    -50,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "axFM_bu20",
+   "part": "3713",
+   "pos_mm": [
+    24,
+    20,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "axFM_bu-20",
+   "part": "3713",
+   "pos_mm": [
+    24,
+    -20,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "axFM_g",
+   "part": "3648",
+   "pos_mm": [
+    24,
+    28,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "axFM_ris0",
+   "part": "3032",
+   "pos_mm": [
+    24,
+    0,
+    28.8
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "axFM_ris1",
+   "part": "3032",
+   "pos_mm": [
+    24,
+    0,
+    32.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "axFM_ris2",
+   "part": "3032",
+   "pos_mm": [
+    24,
+    0,
+    35.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "axFM_ris3",
+   "part": "3032",
+   "pos_mm": [
+    24,
+    0,
+    38.400000000000006
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "axFM_ris4",
+   "part": "3032",
+   "pos_mm": [
+    24,
+    0,
+    41.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "axFM_ris5",
+   "part": "3032",
+   "pos_mm": [
+    24,
+    0,
+    44.8
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "axFM_m",
+   "part": "58120c01",
+   "pos_mm": [
+    32,
+    24,
+    56.8
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "axFM_sh",
+   "part": "32062",
+   "pos_mm": [
+    32,
+    28,
+    56.8
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "axFM_pin",
+   "part": "3649",
+   "pos_mm": [
+    32,
+    28,
+    56.8
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "axFM_shbu",
+   "part": "4265c",
+   "pos_mm": [
+    32,
+    34,
+    56.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "axF",
+   "part": "50451",
+   "pos_mm": [
+    384,
+    0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "axF_wl",
+   "part": "56145c01",
+   "pos_mm": [
+    384,
+    50,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "axF_wr",
+   "part": "56145c01",
+   "pos_mm": [
+    384,
+    -50,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "axF_bu20",
+   "part": "3713",
+   "pos_mm": [
+    384,
+    20,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "axF_bu-20",
+   "part": "3713",
+   "pos_mm": [
+    384,
+    -20,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "top-160",
+   "part": "3035",
+   "pos_mm": [
+    -160,
+    0,
+    28.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bat_dummy",
+   "part": "87513c01",
+   "pos_mm": [
+    -160,
+    0,
+    67.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "top96",
+   "part": "3035",
+   "pos_mm": [
+    96,
+    0,
+    28.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bat_front",
+   "part": "87513c01",
+   "pos_mm": [
+    96,
+    0,
+    67.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rx_front",
+   "part": "58123c01",
+   "pos_mm": [
+    80,
+    0,
+    76.8
+   ],
+   "yaw_deg": 180
+  }
+ ],
+ "connections": [
+  {
+   "child": "pin0l-360",
+   "parent": "lap0l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0l-360",
+   "parent": "b0l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0l-344",
+   "parent": "lap0l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0l-344",
+   "parent": "b0l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0l-344",
+   "parent": "lapo0l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0l-328",
+   "parent": "lap0l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0l-328",
+   "parent": "b0l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0l-328",
+   "parent": "lapo0l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0l-312",
+   "parent": "lap0l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0l-312",
+   "parent": "b1l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0l-312",
+   "parent": "lapo0l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0l-296",
+   "parent": "lap0l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0l-296",
+   "parent": "b1l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0l-296",
+   "parent": "lapo0l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0l-280",
+   "parent": "lap0l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0l-280",
+   "parent": "b1l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0r-360",
+   "parent": "lap0r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0r-360",
+   "parent": "b0r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0r-344",
+   "parent": "lap0r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0r-344",
+   "parent": "b0r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0r-344",
+   "parent": "lapo0r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0r-328",
+   "parent": "lap0r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0r-328",
+   "parent": "b0r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0r-328",
+   "parent": "lapo0r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0r-312",
+   "parent": "lap0r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0r-312",
+   "parent": "b1r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0r-312",
+   "parent": "lapo0r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0r-296",
+   "parent": "lap0r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0r-296",
+   "parent": "b1r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0r-296",
+   "parent": "lapo0r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0r-280",
+   "parent": "lap0r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0r-280",
+   "parent": "b1r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1l-232",
+   "parent": "lap1l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1l-232",
+   "parent": "b1l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1l-216",
+   "parent": "lap1l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1l-216",
+   "parent": "b1l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1l-216",
+   "parent": "lapo1l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1l-200",
+   "parent": "lap1l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1l-200",
+   "parent": "b1l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1l-200",
+   "parent": "lapo1l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1l-184",
+   "parent": "lap1l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1l-184",
+   "parent": "b2l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1l-184",
+   "parent": "lapo1l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1l-168",
+   "parent": "lap1l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1l-168",
+   "parent": "b2l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1l-168",
+   "parent": "lapo1l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1l-152",
+   "parent": "lap1l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1l-152",
+   "parent": "b2l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1r-232",
+   "parent": "lap1r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1r-232",
+   "parent": "b1r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1r-216",
+   "parent": "lap1r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1r-216",
+   "parent": "b1r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1r-216",
+   "parent": "lapo1r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1r-200",
+   "parent": "lap1r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1r-200",
+   "parent": "b1r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1r-200",
+   "parent": "lapo1r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1r-184",
+   "parent": "lap1r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1r-184",
+   "parent": "b2r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1r-184",
+   "parent": "lapo1r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1r-168",
+   "parent": "lap1r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1r-168",
+   "parent": "b2r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1r-168",
+   "parent": "lapo1r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1r-152",
+   "parent": "lap1r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1r-152",
+   "parent": "b2r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2l-120",
+   "parent": "lap2l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2l-120",
+   "parent": "b2l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2l-120",
+   "parent": "lapo2l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2l-104",
+   "parent": "lap2l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2l-104",
+   "parent": "b2l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2l-104",
+   "parent": "lapo2l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2l-88",
+   "parent": "lap2l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2l-88",
+   "parent": "b2l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2l-88",
+   "parent": "lapo2l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2l-72",
+   "parent": "lap2l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2l-72",
+   "parent": "b2l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2l-72",
+   "parent": "lapo2l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2l-56",
+   "parent": "lap2l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2l-56",
+   "parent": "b3l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2l-56",
+   "parent": "lapo2l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2l-48",
+   "parent": "lap2l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2l-48",
+   "parent": "b3l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2l-48",
+   "parent": "lapo2l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2l-40",
+   "parent": "lap2l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2l-40",
+   "parent": "b3l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2l-40",
+   "parent": "lapo2l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2l-32",
+   "parent": "lap2l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2l-32",
+   "parent": "b3l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2r-120",
+   "parent": "lap2r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2r-120",
+   "parent": "b2r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2r-120",
+   "parent": "lapo2r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2r-104",
+   "parent": "lap2r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2r-104",
+   "parent": "b2r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2r-104",
+   "parent": "lapo2r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2r-88",
+   "parent": "lap2r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2r-88",
+   "parent": "b2r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2r-88",
+   "parent": "lapo2r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2r-72",
+   "parent": "lap2r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2r-72",
+   "parent": "b2r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2r-72",
+   "parent": "lapo2r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2r-56",
+   "parent": "lap2r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2r-56",
+   "parent": "b3r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2r-56",
+   "parent": "lapo2r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2r-48",
+   "parent": "lap2r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2r-48",
+   "parent": "b3r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2r-48",
+   "parent": "lapo2r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2r-40",
+   "parent": "lap2r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2r-40",
+   "parent": "b3r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2r-40",
+   "parent": "lapo2r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2r-32",
+   "parent": "lap2r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin2r-32",
+   "parent": "b3r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3l32",
+   "parent": "lap3l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3l32",
+   "parent": "b3l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3l40",
+   "parent": "lap3l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3l40",
+   "parent": "b3l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3l40",
+   "parent": "lapo3l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3l48",
+   "parent": "lap3l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3l48",
+   "parent": "b3l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3l48",
+   "parent": "lapo3l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3l56",
+   "parent": "lap3l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3l56",
+   "parent": "b3l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3l56",
+   "parent": "lapo3l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3l72",
+   "parent": "lap3l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3l72",
+   "parent": "b4l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3l72",
+   "parent": "lapo3l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3l88",
+   "parent": "lap3l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3l88",
+   "parent": "b4l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3l88",
+   "parent": "lapo3l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3l104",
+   "parent": "lap3l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3l104",
+   "parent": "b4l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3l104",
+   "parent": "lapo3l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3l120",
+   "parent": "lap3l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3l120",
+   "parent": "b4l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3l120",
+   "parent": "lapo3l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3r32",
+   "parent": "lap3r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3r32",
+   "parent": "b3r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3r40",
+   "parent": "lap3r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3r40",
+   "parent": "b3r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3r40",
+   "parent": "lapo3r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3r48",
+   "parent": "lap3r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3r48",
+   "parent": "b3r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3r48",
+   "parent": "lapo3r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3r56",
+   "parent": "lap3r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3r56",
+   "parent": "b3r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3r56",
+   "parent": "lapo3r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3r72",
+   "parent": "lap3r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3r72",
+   "parent": "b4r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3r72",
+   "parent": "lapo3r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3r88",
+   "parent": "lap3r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3r88",
+   "parent": "b4r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3r88",
+   "parent": "lapo3r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3r104",
+   "parent": "lap3r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3r104",
+   "parent": "b4r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3r104",
+   "parent": "lapo3r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3r120",
+   "parent": "lap3r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3r120",
+   "parent": "b4r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin3r120",
+   "parent": "lapo3r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4l152",
+   "parent": "lap4l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4l152",
+   "parent": "b4l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4l168",
+   "parent": "lap4l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4l168",
+   "parent": "b4l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4l168",
+   "parent": "lapo4l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4l184",
+   "parent": "lap4l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4l184",
+   "parent": "b4l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4l184",
+   "parent": "lapo4l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4l200",
+   "parent": "lap4l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4l200",
+   "parent": "b5l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4l200",
+   "parent": "lapo4l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4l216",
+   "parent": "lap4l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4l216",
+   "parent": "b5l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4l216",
+   "parent": "lapo4l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4l232",
+   "parent": "lap4l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4l232",
+   "parent": "b5l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4r152",
+   "parent": "lap4r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4r152",
+   "parent": "b4r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4r168",
+   "parent": "lap4r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4r168",
+   "parent": "b4r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4r168",
+   "parent": "lapo4r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4r184",
+   "parent": "lap4r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4r184",
+   "parent": "b4r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4r184",
+   "parent": "lapo4r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4r200",
+   "parent": "lap4r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4r200",
+   "parent": "b5r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4r200",
+   "parent": "lapo4r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4r216",
+   "parent": "lap4r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4r216",
+   "parent": "b5r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4r216",
+   "parent": "lapo4r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4r232",
+   "parent": "lap4r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin4r232",
+   "parent": "b5r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5l280",
+   "parent": "lap5l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5l280",
+   "parent": "b5l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5l296",
+   "parent": "lap5l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5l296",
+   "parent": "b5l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5l296",
+   "parent": "lapo5l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5l312",
+   "parent": "lap5l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5l312",
+   "parent": "b5l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5l312",
+   "parent": "lapo5l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5l328",
+   "parent": "lap5l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5l328",
+   "parent": "b6l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5l328",
+   "parent": "lapo5l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5l344",
+   "parent": "lap5l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5l344",
+   "parent": "b6l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5l344",
+   "parent": "lapo5l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5l360",
+   "parent": "lap5l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5l360",
+   "parent": "b6l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5r280",
+   "parent": "lap5r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5r280",
+   "parent": "b5r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5r296",
+   "parent": "lap5r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5r296",
+   "parent": "b5r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5r296",
+   "parent": "lapo5r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5r312",
+   "parent": "lap5r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5r312",
+   "parent": "b5r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5r312",
+   "parent": "lapo5r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5r328",
+   "parent": "lap5r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5r328",
+   "parent": "b6r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5r328",
+   "parent": "lapo5r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5r344",
+   "parent": "lap5r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5r344",
+   "parent": "b6r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5r344",
+   "parent": "lapo5r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5r360",
+   "parent": "lap5r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin5r360",
+   "parent": "b6r",
+   "kind": "pin"
+  },
+  {
+   "child": "top-368",
+   "parent": "b0l",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "top-368",
+   "parent": "b0r",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "top-256",
+   "parent": "b1l",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "top-256",
+   "parent": "b1r",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "top256",
+   "parent": "b5l",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "top256",
+   "parent": "b5r",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "top368",
+   "parent": "b6l",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "top368",
+   "parent": "b6r",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "bot-368",
+   "parent": "b0l",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "bot-368",
+   "parent": "b0r",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "bot-256",
+   "parent": "b1l",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "bot-256",
+   "parent": "b1r",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "bot-128",
+   "parent": "b2l",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "bot-128",
+   "parent": "b2r",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "bot0",
+   "parent": "b3l",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "bot0",
+   "parent": "b3r",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "bot128",
+   "parent": "b4l",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "bot128",
+   "parent": "b4r",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "bot256",
+   "parent": "b5l",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "bot256",
+   "parent": "b5r",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "bot368",
+   "parent": "b6l",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "bot368",
+   "parent": "b6r",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "axR",
+   "parent": "b0l",
+   "kind": "hinge"
+  },
+  {
+   "child": "axR_wl",
+   "parent": "axR",
+   "kind": "cross"
+  },
+  {
+   "child": "axR_wr",
+   "parent": "axR",
+   "kind": "cross"
+  },
+  {
+   "child": "axR_bu20",
+   "parent": "axR",
+   "kind": "cross"
+  },
+  {
+   "child": "axR_bu-20",
+   "parent": "axR",
+   "kind": "cross"
+  },
+  {
+   "child": "axRM",
+   "parent": "b3l",
+   "kind": "hinge"
+  },
+  {
+   "child": "axRM_wl",
+   "parent": "axRM",
+   "kind": "cross"
+  },
+  {
+   "child": "axRM_wr",
+   "parent": "axRM",
+   "kind": "cross"
+  },
+  {
+   "child": "axRM_bu20",
+   "parent": "axRM",
+   "kind": "cross"
+  },
+  {
+   "child": "axRM_bu-20",
+   "parent": "axRM",
+   "kind": "cross"
+  },
+  {
+   "child": "axRM_g",
+   "parent": "axRM",
+   "kind": "cross"
+  },
+  {
+   "child": "axRM_ris0",
+   "parent": "b3l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "axRM_ris0",
+   "parent": "b3r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "axRM_ris1",
+   "parent": "axRM_ris0",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "axRM_ris2",
+   "parent": "axRM_ris1",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "axRM_ris3",
+   "parent": "axRM_ris2",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "axRM_ris4",
+   "parent": "axRM_ris3",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "axRM_ris5",
+   "parent": "axRM_ris4",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "axRM_m",
+   "parent": "axRM_ris5",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "axRM_sh",
+   "parent": "axRM_m",
+   "kind": "motor"
+  },
+  {
+   "child": "axRM_pin",
+   "parent": "axRM_sh",
+   "kind": "cross"
+  },
+  {
+   "child": "axRM_shbu",
+   "parent": "axRM_sh",
+   "kind": "cross"
+  },
+  {
+   "child": "axFM",
+   "parent": "b3l",
+   "kind": "hinge"
+  },
+  {
+   "child": "axFM_wl",
+   "parent": "axFM",
+   "kind": "cross"
+  },
+  {
+   "child": "axFM_wr",
+   "parent": "axFM",
+   "kind": "cross"
+  },
+  {
+   "child": "axFM_bu20",
+   "parent": "axFM",
+   "kind": "cross"
+  },
+  {
+   "child": "axFM_bu-20",
+   "parent": "axFM",
+   "kind": "cross"
+  },
+  {
+   "child": "axFM_g",
+   "parent": "axFM",
+   "kind": "cross"
+  },
+  {
+   "child": "axFM_ris0",
+   "parent": "b3l",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "axFM_ris0",
+   "parent": "b3r",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "axFM_ris1",
+   "parent": "axFM_ris0",
+   "kind": "stud",
+   "studs": 24
+  },
+  {
+   "child": "axFM_ris2",
+   "parent": "axFM_ris1",
+   "kind": "stud",
+   "studs": 24
+  },
+  {
+   "child": "axFM_ris3",
+   "parent": "axFM_ris2",
+   "kind": "stud",
+   "studs": 24
+  },
+  {
+   "child": "axFM_ris4",
+   "parent": "axFM_ris3",
+   "kind": "stud",
+   "studs": 24
+  },
+  {
+   "child": "axFM_ris5",
+   "parent": "axFM_ris4",
+   "kind": "stud",
+   "studs": 24
+  },
+  {
+   "child": "axFM_m",
+   "parent": "axFM_ris5",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "axFM_sh",
+   "parent": "axFM_m",
+   "kind": "motor"
+  },
+  {
+   "child": "axFM_pin",
+   "parent": "axFM_sh",
+   "kind": "cross"
+  },
+  {
+   "child": "axFM_shbu",
+   "parent": "axFM_sh",
+   "kind": "cross"
+  },
+  {
+   "child": "axF",
+   "parent": "b6l",
+   "kind": "hinge"
+  },
+  {
+   "child": "axF_wl",
+   "parent": "axF",
+   "kind": "cross"
+  },
+  {
+   "child": "axF_wr",
+   "parent": "axF",
+   "kind": "cross"
+  },
+  {
+   "child": "axF_bu20",
+   "parent": "axF",
+   "kind": "cross"
+  },
+  {
+   "child": "axF_bu-20",
+   "parent": "axF",
+   "kind": "cross"
+  },
+  {
+   "child": "top-160",
+   "parent": "b2l",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "top-160",
+   "parent": "b2r",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "bat_dummy",
+   "parent": "top-160",
+   "kind": "stud",
+   "studs": 32
+  },
+  {
+   "child": "top96",
+   "parent": "b4l",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "top96",
+   "parent": "b4r",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "bat_front",
+   "parent": "top96",
+   "kind": "stud",
+   "studs": 32
+  },
+  {
+   "child": "rx_front",
+   "parent": "bat_front",
+   "kind": "stud",
+   "studs": 8
+  }
+ ]
+}

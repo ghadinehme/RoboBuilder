@@ -1,0 +1,762 @@
+{
+ "name": "wheg2",
+ "description": "4 whegs (bent liftarm spokes), long spine, chain-synced, one L motor",
+ "part_set": "inventory",
+ "chassis": "P1",
+ "motor": "motor",
+ "battery": "battery",
+ "intended": [],
+ "parts": [
+  {
+   "name": "P1",
+   "part": "3703",
+   "pos_mm": [
+    -64.0,
+    1.0,
+    67.3
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "Q1",
+   "part": "3703",
+   "pos_mm": [
+    64.0,
+    1.0,
+    67.3
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rail_o",
+   "part": "3703",
+   "pos_mm": [
+    56.0,
+    -55.0,
+    67.3
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "R1",
+   "part": "3703",
+   "pos_mm": [
+    0.0,
+    1.0,
+    76.9
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "R2",
+   "part": "3703",
+   "pos_mm": [
+    0.0,
+    9.0,
+    76.9
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "R_o",
+   "part": "3894",
+   "pos_mm": [
+    16,
+    -55.0,
+    76.9
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck",
+   "part": "92438",
+   "pos_mm": [
+    8.0,
+    5.0,
+    80.1
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "fax",
+   "part": "50451",
+   "pos_mm": [
+    104.0,
+    5.0,
+    63.3
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "fax_l0",
+   "part": "32271",
+   "pos_mm": [
+    104.0,
+    17.0,
+    63.3
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 93.5
+  },
+  {
+   "name": "fax_l1",
+   "part": "32271",
+   "pos_mm": [
+    104.0,
+    25.0,
+    63.3
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 3.5
+  },
+  {
+   "name": "fax_l2",
+   "part": "32271",
+   "pos_mm": [
+    104.0,
+    33.0,
+    63.3
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 273.5
+  },
+  {
+   "name": "fax_l3",
+   "part": "32271",
+   "pos_mm": [
+    104.0,
+    41.0,
+    63.3
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 183.5
+  },
+  {
+   "name": "fax_r0",
+   "part": "32271",
+   "pos_mm": [
+    104.0,
+    -7.0,
+    63.3
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 93.5
+  },
+  {
+   "name": "fax_r1",
+   "part": "32271",
+   "pos_mm": [
+    104.0,
+    -15.0,
+    63.3
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 3.5
+  },
+  {
+   "name": "fax_r2",
+   "part": "32271",
+   "pos_mm": [
+    104.0,
+    -23.0,
+    63.3
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 273.5
+  },
+  {
+   "name": "fax_r3",
+   "part": "32271",
+   "pos_mm": [
+    104.0,
+    -31.0,
+    63.3
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 183.5
+  },
+  {
+   "name": "fax_gc",
+   "part": "3649",
+   "pos_mm": [
+    104.0,
+    57.0,
+    63.3
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "fax_gr",
+   "part": "3649",
+   "pos_mm": [
+    104.0,
+    -47.0,
+    63.3
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rax",
+   "part": "50451",
+   "pos_mm": [
+    -104.0,
+    5.0,
+    63.3
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "rax_l0",
+   "part": "6629",
+   "pos_mm": [
+    -104.0,
+    17.0,
+    63.3
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 100.4
+  },
+  {
+   "name": "rax_l1",
+   "part": "6629",
+   "pos_mm": [
+    -104.0,
+    25.0,
+    63.3
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 10.4
+  },
+  {
+   "name": "rax_l2",
+   "part": "6629",
+   "pos_mm": [
+    -104.0,
+    33.0,
+    63.3
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 280.4
+  },
+  {
+   "name": "rax_l3",
+   "part": "6629",
+   "pos_mm": [
+    -104.0,
+    41.0,
+    63.3
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 190.4
+  },
+  {
+   "name": "rax_r0",
+   "part": "6629",
+   "pos_mm": [
+    -104.0,
+    -7.0,
+    63.3
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 100.4
+  },
+  {
+   "name": "rax_r1",
+   "part": "6629",
+   "pos_mm": [
+    -104.0,
+    -15.0,
+    63.3
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 10.4
+  },
+  {
+   "name": "rax_r2",
+   "part": "6629",
+   "pos_mm": [
+    -104.0,
+    -23.0,
+    63.3
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 280.4
+  },
+  {
+   "name": "rax_r3",
+   "part": "6629",
+   "pos_mm": [
+    -104.0,
+    -31.0,
+    63.3
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 190.4
+  },
+  {
+   "name": "rax_gc",
+   "part": "3649",
+   "pos_mm": [
+    -104.0,
+    57.0,
+    63.3
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "motor",
+   "part": "99499c01",
+   "pos_mm": [
+    80.0,
+    -63.0,
+    63.3
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "mbush",
+   "part": "4265c",
+   "pos_mm": [
+    80.0,
+    -61.0,
+    63.3
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "pin0",
+   "part": "2780",
+   "pos_mm": [
+    72.0,
+    -61.0,
+    63.3
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "pin1",
+   "part": "2780",
+   "pos_mm": [
+    88.0,
+    -61.0,
+    63.3
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "shaft",
+   "part": "4519",
+   "pos_mm": [
+    80.0,
+    -55.0,
+    63.3
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "pinion",
+   "part": "10928",
+   "pos_mm": [
+    80.0,
+    -47.0,
+    63.3
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    8.0,
+    37.0,
+    118.5
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    24.0,
+    -27.0,
+    89.7
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "P2",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    9,
+    67.3
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "fax_bs",
+   "part": "3713",
+   "pos_mm": [
+    104,
+    9,
+    63.3
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rax_bs",
+   "part": "3713",
+   "pos_mm": [
+    -104,
+    9,
+    63.3
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "under0",
+   "part": "3034",
+   "pos_mm": [
+    16,
+    -27,
+    57.699999999999996
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "under1",
+   "part": "3034",
+   "pos_mm": [
+    32,
+    -27,
+    57.699999999999996
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "splice",
+   "part": "3020",
+   "pos_mm": [
+    -8,
+    5.0,
+    57.699999999999996
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "R1",
+   "parent": "P1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "R1",
+   "parent": "Q1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "R2",
+   "parent": "P2",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "R_o",
+   "parent": "rail_o",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "deck",
+   "parent": "R1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "deck",
+   "parent": "R2",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "deck",
+   "parent": "R_o",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "fax",
+   "parent": "Q1",
+   "kind": "hinge"
+  },
+  {
+   "child": "fax_l0",
+   "parent": "fax",
+   "kind": "cross"
+  },
+  {
+   "child": "fax_l1",
+   "parent": "fax",
+   "kind": "cross"
+  },
+  {
+   "child": "fax_l2",
+   "parent": "fax",
+   "kind": "cross"
+  },
+  {
+   "child": "fax_l3",
+   "parent": "fax",
+   "kind": "cross"
+  },
+  {
+   "child": "fax_r0",
+   "parent": "fax",
+   "kind": "cross"
+  },
+  {
+   "child": "fax_r1",
+   "parent": "fax",
+   "kind": "cross"
+  },
+  {
+   "child": "fax_r2",
+   "parent": "fax",
+   "kind": "cross"
+  },
+  {
+   "child": "fax_r3",
+   "parent": "fax",
+   "kind": "cross"
+  },
+  {
+   "child": "fax_gc",
+   "parent": "fax",
+   "kind": "cross"
+  },
+  {
+   "child": "fax_gr",
+   "parent": "fax",
+   "kind": "cross"
+  },
+  {
+   "child": "rax",
+   "parent": "P1",
+   "kind": "hinge"
+  },
+  {
+   "child": "rax_l0",
+   "parent": "rax",
+   "kind": "cross"
+  },
+  {
+   "child": "rax_l1",
+   "parent": "rax",
+   "kind": "cross"
+  },
+  {
+   "child": "rax_l2",
+   "parent": "rax",
+   "kind": "cross"
+  },
+  {
+   "child": "rax_l3",
+   "parent": "rax",
+   "kind": "cross"
+  },
+  {
+   "child": "rax_r0",
+   "parent": "rax",
+   "kind": "cross"
+  },
+  {
+   "child": "rax_r1",
+   "parent": "rax",
+   "kind": "cross"
+  },
+  {
+   "child": "rax_r2",
+   "parent": "rax",
+   "kind": "cross"
+  },
+  {
+   "child": "rax_r3",
+   "parent": "rax",
+   "kind": "cross"
+  },
+  {
+   "child": "rax_gc",
+   "parent": "rax",
+   "kind": "cross"
+  },
+  {
+   "child": "pin0",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0",
+   "parent": "rail_o",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1",
+   "parent": "rail_o",
+   "kind": "pin"
+  },
+  {
+   "child": "shaft",
+   "parent": "motor",
+   "kind": "motor"
+  },
+  {
+   "child": "mbush",
+   "parent": "shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "pinion",
+   "parent": "shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "battery",
+   "parent": "deck",
+   "kind": "stud",
+   "studs": 32
+  },
+  {
+   "child": "receiver",
+   "parent": "deck",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "fax_bs",
+   "parent": "fax",
+   "kind": "cross"
+  },
+  {
+   "child": "rax_bs",
+   "parent": "rax",
+   "kind": "cross"
+  },
+  {
+   "child": "under0",
+   "parent": "rail_o",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "under0",
+   "parent": "Q1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "under1",
+   "parent": "rail_o",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "under1",
+   "parent": "Q1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "splice",
+   "parent": "P1",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "splice",
+   "parent": "Q1",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "splice",
+   "parent": "P2",
+   "kind": "stud",
+   "studs": 4
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "pinion",
+   "gear_b": "fax_gr",
+   "teeth_a": 8,
+   "teeth_b": 40
+  }
+ ],
+ "chains": [
+  {
+   "name": "chain",
+   "gears": [
+    "fax_gc",
+    "rax_gc"
+   ],
+   "links": 85
+  }
+ ],
+ "motor_program": [
+  {
+   "t": 0,
+   "motor": "motor",
+   "level": -3
+  },
+  {
+   "t": 0.5,
+   "motor": "motor",
+   "level": -4
+  },
+  {
+   "t": 1.0,
+   "motor": "motor",
+   "level": -6
+  },
+  {
+   "t": 5.05,
+   "motor": "motor",
+   "level": "brake"
+  }
+ ],
+ "start_gap_mm": 60
+}

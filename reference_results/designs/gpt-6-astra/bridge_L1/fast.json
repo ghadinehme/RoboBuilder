@@ -1,0 +1,1103 @@
+{
+ "name": "c25",
+ "description": "Low-battery dual L runner, retained 40:16 chain drives, 43.2 mm tyres, 80 mm wheelbase",
+ "part_set": "inventory",
+ "chassis": "rail_l",
+ "motor": "motor_rear",
+ "battery": "battery",
+ "parts": [
+  {
+   "name": "rail_l",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    28,
+    25.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail_r",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    -36,
+    25.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "deck",
+   "part": "3030",
+   "pos_mm": [
+    0,
+    0,
+    28.8
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    0,
+    0,
+    67.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    0,
+    -16,
+    76.8
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pedestal_rearl0",
+   "part": "3894",
+   "pos_mm": [
+    -48,
+    28,
+    54.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "ear_rearl0",
+   "part": "32000",
+   "pos_mm": [
+    -64,
+    28,
+    64.0
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pin_rearl0",
+   "part": "2780",
+   "pos_mm": [
+    -60,
+    24,
+    60.0
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "ear_rearl1",
+   "part": "32000",
+   "pos_mm": [
+    -40,
+    28,
+    64.0
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pin_rearl1",
+   "part": "2780",
+   "pos_mm": [
+    -44,
+    24,
+    60.0
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pedestal_rearr0",
+   "part": "3894",
+   "pos_mm": [
+    -48,
+    -36,
+    54.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "ear_rearr0",
+   "part": "32000",
+   "pos_mm": [
+    -64,
+    -36,
+    64.0
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pin_rearr0",
+   "part": "2780",
+   "pos_mm": [
+    -60,
+    -32,
+    60.0
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "ear_rearr1",
+   "part": "32000",
+   "pos_mm": [
+    -40,
+    -36,
+    64.0
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pin_rearr1",
+   "part": "2780",
+   "pos_mm": [
+    -44,
+    -32,
+    60.0
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "motor_rear",
+   "part": "99499c01",
+   "pos_mm": [
+    -52,
+    24,
+    60.0
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "shaft_rear",
+   "part": "3705",
+   "pos_mm": [
+    -52,
+    32,
+    60.0
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pinion_rear",
+   "part": "3649",
+   "pos_mm": [
+    -52,
+    36,
+    60.0
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_axle",
+   "part": "23948",
+   "pos_mm": [
+    -40,
+    0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "wheel_rearl",
+   "part": "56145c01",
+   "pos_mm": [
+    -40,
+    11,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "wheel_rearr",
+   "part": "56145c01",
+   "pos_mm": [
+    -40,
+    -11,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bush_rear",
+   "part": "4265c",
+   "pos_mm": [
+    -40,
+    -42,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "gear_rear",
+   "part": "94925",
+   "pos_mm": [
+    -40,
+    36,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pedestal_frontl0",
+   "part": "3894",
+   "pos_mm": [
+    48,
+    28,
+    54.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "ear_frontl0",
+   "part": "32000",
+   "pos_mm": [
+    40,
+    28,
+    64.0
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pin_frontl0",
+   "part": "2780",
+   "pos_mm": [
+    44,
+    24,
+    60.0
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "ear_frontl1",
+   "part": "32000",
+   "pos_mm": [
+    64,
+    28,
+    64.0
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pin_frontl1",
+   "part": "2780",
+   "pos_mm": [
+    60,
+    24,
+    60.0
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pedestal_frontr0",
+   "part": "3894",
+   "pos_mm": [
+    48,
+    -36,
+    54.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "ear_frontr0",
+   "part": "32000",
+   "pos_mm": [
+    40,
+    -36,
+    64.0
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pin_frontr0",
+   "part": "2780",
+   "pos_mm": [
+    44,
+    -32,
+    60.0
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "ear_frontr1",
+   "part": "32000",
+   "pos_mm": [
+    64,
+    -36,
+    64.0
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pin_frontr1",
+   "part": "2780",
+   "pos_mm": [
+    60,
+    -32,
+    60.0
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "motor_front",
+   "part": "99499c01",
+   "pos_mm": [
+    52,
+    24,
+    60.0
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "shaft_front",
+   "part": "3705",
+   "pos_mm": [
+    52,
+    32,
+    60.0
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pinion_front",
+   "part": "3649",
+   "pos_mm": [
+    52,
+    36,
+    60.0
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_axle",
+   "part": "23948",
+   "pos_mm": [
+    40,
+    0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "wheel_frontl",
+   "part": "56145c01",
+   "pos_mm": [
+    40,
+    11,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "wheel_frontr",
+   "part": "56145c01",
+   "pos_mm": [
+    40,
+    -11,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bush_front",
+   "part": "4265c",
+   "pos_mm": [
+    40,
+    -42,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "gear_front",
+   "part": "94925",
+   "pos_mm": [
+    40,
+    36,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "earbridge_rear",
+   "part": "3623",
+   "pos_mm": [
+    -52,
+    28,
+    67.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "stopupright_rear0",
+   "part": "3700",
+   "pos_mm": [
+    -48,
+    28,
+    76.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "stopupright_rear1",
+   "part": "3700",
+   "pos_mm": [
+    -48,
+    28,
+    86.39999999999999
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "stopbridge_rear",
+   "part": "3034",
+   "pos_mm": [
+    -48,
+    24,
+    89.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "stopfinger_rear0",
+   "part": "3700",
+   "pos_mm": [
+    -48,
+    52,
+    86.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "stopfinger_rear1",
+   "part": "3700",
+   "pos_mm": [
+    -48,
+    52,
+    76.80000000000001
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "stopfinger_rear2",
+   "part": "3700",
+   "pos_mm": [
+    -48,
+    52,
+    67.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "shaftcollar_rear",
+   "part": "3713",
+   "pos_mm": [
+    -52,
+    28,
+    60.0
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "earbridge_front",
+   "part": "3623",
+   "pos_mm": [
+    52,
+    28,
+    67.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "stopupright_front0",
+   "part": "3700",
+   "pos_mm": [
+    56,
+    28,
+    76.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "stopupright_front1",
+   "part": "3700",
+   "pos_mm": [
+    56,
+    28,
+    86.39999999999999
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "stopbridge_front",
+   "part": "3034",
+   "pos_mm": [
+    56,
+    24,
+    89.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "stopfinger_front0",
+   "part": "3700",
+   "pos_mm": [
+    56,
+    52,
+    86.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "stopfinger_front1",
+   "part": "3700",
+   "pos_mm": [
+    56,
+    52,
+    76.80000000000001
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "stopfinger_front2",
+   "part": "3700",
+   "pos_mm": [
+    56,
+    52,
+    67.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "shaftcollar_front",
+   "part": "3713",
+   "pos_mm": [
+    52,
+    28,
+    60.0
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pedestal_rearl0_lower",
+   "part": "3894",
+   "pos_mm": [
+    -48,
+    28,
+    35.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pedestal_rearl0_middle",
+   "part": "3894",
+   "pos_mm": [
+    -48,
+    28,
+    44.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pedestal_rearr0_lower",
+   "part": "3894",
+   "pos_mm": [
+    -48,
+    -36,
+    35.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pedestal_rearr0_middle",
+   "part": "3894",
+   "pos_mm": [
+    -48,
+    -36,
+    44.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pedestal_frontl0_lower",
+   "part": "3894",
+   "pos_mm": [
+    48,
+    28,
+    35.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pedestal_frontl0_middle",
+   "part": "3894",
+   "pos_mm": [
+    48,
+    28,
+    44.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pedestal_frontr0_lower",
+   "part": "3894",
+   "pos_mm": [
+    48,
+    -36,
+    35.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pedestal_frontr0_middle",
+   "part": "3894",
+   "pos_mm": [
+    48,
+    -36,
+    44.8
+   ],
+   "yaw_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "deck",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "deck",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "battery",
+   "parent": "deck",
+   "kind": "stud",
+   "studs": 32
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "pedestal_rearl0",
+   "parent": "pedestal_rearl0_middle",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "ear_rearl0",
+   "parent": "pedestal_rearl0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "pin_rearl0",
+   "parent": "ear_rearl0",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_rearl0",
+   "parent": "motor_rear",
+   "kind": "pin"
+  },
+  {
+   "child": "ear_rearl1",
+   "parent": "pedestal_rearl0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "pin_rearl1",
+   "parent": "ear_rearl1",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_rearl1",
+   "parent": "motor_rear",
+   "kind": "pin"
+  },
+  {
+   "child": "pedestal_rearr0",
+   "parent": "pedestal_rearr0_middle",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "ear_rearr0",
+   "parent": "pedestal_rearr0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "pin_rearr0",
+   "parent": "ear_rearr0",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_rearr0",
+   "parent": "motor_rear",
+   "kind": "pin"
+  },
+  {
+   "child": "ear_rearr1",
+   "parent": "pedestal_rearr0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "pin_rearr1",
+   "parent": "ear_rearr1",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_rearr1",
+   "parent": "motor_rear",
+   "kind": "pin"
+  },
+  {
+   "child": "shaft_rear",
+   "parent": "motor_rear",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion_rear",
+   "parent": "shaft_rear",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_axle",
+   "parent": "rail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "rear_axle",
+   "parent": "rail_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "wheel_rearl",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_rearr",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "bush_rear",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "gear_rear",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "pedestal_frontl0",
+   "parent": "pedestal_frontl0_middle",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "ear_frontl0",
+   "parent": "pedestal_frontl0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "pin_frontl0",
+   "parent": "ear_frontl0",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_frontl0",
+   "parent": "motor_front",
+   "kind": "pin"
+  },
+  {
+   "child": "ear_frontl1",
+   "parent": "pedestal_frontl0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "pin_frontl1",
+   "parent": "ear_frontl1",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_frontl1",
+   "parent": "motor_front",
+   "kind": "pin"
+  },
+  {
+   "child": "pedestal_frontr0",
+   "parent": "pedestal_frontr0_middle",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "ear_frontr0",
+   "parent": "pedestal_frontr0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "pin_frontr0",
+   "parent": "ear_frontr0",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_frontr0",
+   "parent": "motor_front",
+   "kind": "pin"
+  },
+  {
+   "child": "ear_frontr1",
+   "parent": "pedestal_frontr0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "pin_frontr1",
+   "parent": "ear_frontr1",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_frontr1",
+   "parent": "motor_front",
+   "kind": "pin"
+  },
+  {
+   "child": "shaft_front",
+   "parent": "motor_front",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion_front",
+   "parent": "shaft_front",
+   "kind": "cross"
+  },
+  {
+   "child": "front_axle",
+   "parent": "rail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "front_axle",
+   "parent": "rail_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "wheel_frontl",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "wheel_frontr",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "bush_front",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "gear_front",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "earbridge_rear",
+   "parent": "ear_rearl0",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "earbridge_rear",
+   "parent": "ear_rearl1",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "stopupright_rear0",
+   "parent": "earbridge_rear",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "stopupright_rear1",
+   "parent": "stopupright_rear0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "stopbridge_rear",
+   "parent": "stopupright_rear1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "stopbridge_rear",
+   "parent": "stopfinger_rear0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "stopfinger_rear0",
+   "parent": "stopfinger_rear1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "stopfinger_rear1",
+   "parent": "stopfinger_rear2",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "shaftcollar_rear",
+   "parent": "shaft_rear",
+   "kind": "cross"
+  },
+  {
+   "child": "earbridge_front",
+   "parent": "ear_frontl0",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "earbridge_front",
+   "parent": "ear_frontl1",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "stopupright_front0",
+   "parent": "earbridge_front",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "stopupright_front1",
+   "parent": "stopupright_front0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "stopbridge_front",
+   "parent": "stopupright_front1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "stopbridge_front",
+   "parent": "stopfinger_front0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "stopfinger_front0",
+   "parent": "stopfinger_front1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "stopfinger_front1",
+   "parent": "stopfinger_front2",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "shaftcollar_front",
+   "parent": "shaft_front",
+   "kind": "cross"
+  },
+  {
+   "child": "pedestal_rearl0_lower",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "pedestal_rearl0_middle",
+   "parent": "pedestal_rearl0_lower",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "pedestal_rearr0_lower",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "pedestal_rearr0_middle",
+   "parent": "pedestal_rearr0_lower",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "pedestal_frontl0_lower",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "pedestal_frontl0_middle",
+   "parent": "pedestal_frontl0_lower",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "pedestal_frontr0_lower",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "pedestal_frontr0_middle",
+   "parent": "pedestal_frontr0_lower",
+   "kind": "stud",
+   "studs": 6
+  }
+ ],
+ "chains": [
+  {
+   "name": "drive_rear",
+   "gears": [
+    "pinion_rear",
+    "gear_rear"
+   ],
+   "links": 27
+  },
+  {
+   "name": "drive_front",
+   "gears": [
+    "pinion_front",
+    "gear_front"
+   ],
+   "links": 27
+  }
+ ],
+ "start_gap_mm": 0,
+ "motor_program": [
+  {
+   "t": 0,
+   "motor": "all",
+   "level": 7
+  },
+  {
+   "t": 1.05,
+   "motor": "all",
+   "level": "brake"
+  }
+ ]
+}

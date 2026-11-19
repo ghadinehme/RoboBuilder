@@ -1,0 +1,1343 @@
+{
+ "name": "slot_pivot_4wd_chain",
+ "description": "Slot-pivot 4WD: one M motor drives the front axle (8T->24T); a chain couples the rear axle 1:1, so all four\ntyres drive at the same speed (solid axles).  A free-rolling vertical post hangs into the 104 mm slot between the\nlanes: it guides the car along lane A, catches on the tilted plate's front edge, and the car - all four tyres\npushing - pivots round it onto lane B, where the post guides it again.  No steering and no timing: the battery\nlevel only changes the speed.",
+ "part_set": "inventory",
+ "chassis": "rail-16",
+ "motor": "motor",
+ "battery": "battery",
+ "parts": [
+  {
+   "name": "rail16",
+   "part": "32018",
+   "pos_mm": [
+    0,
+    16,
+    25.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "rail40",
+   "part": "32018",
+   "pos_mm": [
+    0,
+    40,
+    25.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "rail-16",
+   "part": "32018",
+   "pos_mm": [
+    0,
+    -16,
+    25.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "rail-32",
+   "part": "32018",
+   "pos_mm": [
+    0,
+    -32,
+    25.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "axF",
+   "part": "50451",
+   "pos_mm": [
+    48,
+    0,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "wFL",
+   "part": "56145c01",
+   "pos_mm": [
+    48,
+    54.8,
+    21.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "wFRt",
+   "part": "56145c01",
+   "pos_mm": [
+    48,
+    -54.8,
+    21.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "sF",
+   "part": "3648",
+   "pos_mm": [
+    48,
+    32,
+    21.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "axR",
+   "part": "50451",
+   "pos_mm": [
+    -48,
+    0,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "wRL",
+   "part": "56145c01",
+   "pos_mm": [
+    -48,
+    54.8,
+    21.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "wRRt",
+   "part": "56145c01",
+   "pos_mm": [
+    -48,
+    -54.8,
+    21.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "sR",
+   "part": "3648",
+   "pos_mm": [
+    -48,
+    32,
+    21.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "motor",
+   "part": "58120c01",
+   "pos_mm": [
+    48,
+    20,
+    37.6
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "mr8",
+   "part": "3701",
+   "pos_mm": [
+    48,
+    8,
+    25.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "mr0",
+   "part": "3701",
+   "pos_mm": [
+    48,
+    0,
+    25.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "mr-8",
+   "part": "3701",
+   "pos_mm": [
+    48,
+    -8,
+    25.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "mr-24",
+   "part": "3701",
+   "pos_mm": [
+    48,
+    -24,
+    25.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "mpin0",
+   "part": "6558",
+   "pos_mm": [
+    40,
+    8.0,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "mpin1",
+   "part": "6558",
+   "pos_mm": [
+    40,
+    -16.0,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "mshaft",
+   "part": "32062",
+   "pos_mm": [
+    48,
+    20.1,
+    37.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "m8",
+   "part": "10928",
+   "pos_mm": [
+    48,
+    24,
+    37.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "g24",
+   "part": "3648",
+   "pos_mm": [
+    48,
+    24,
+    21.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "hb1_40",
+   "part": "3700",
+   "pos_mm": [
+    48,
+    40,
+    35.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "hb2_40",
+   "part": "3700",
+   "pos_mm": [
+    48,
+    40,
+    44.8
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "hp1_40",
+   "part": "3023",
+   "pos_mm": [
+    48,
+    40,
+    48.0
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "hp2_40",
+   "part": "3023",
+   "pos_mm": [
+    48,
+    40,
+    51.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "hb1_-32",
+   "part": "3700",
+   "pos_mm": [
+    48,
+    -32,
+    35.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "hb2_-32",
+   "part": "3700",
+   "pos_mm": [
+    48,
+    -32,
+    44.8
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "hp1_-32",
+   "part": "3023",
+   "pos_mm": [
+    48,
+    -32,
+    48.0
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "hp2_-32",
+   "part": "3023",
+   "pos_mm": [
+    48,
+    -32,
+    51.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "hbridge",
+   "part": "4477",
+   "pos_mm": [
+    52,
+    4,
+    54.4
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "motorB",
+   "part": "58120c01",
+   "pos_mm": [
+    -48,
+    20,
+    37.6
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "mrB8",
+   "part": "3701",
+   "pos_mm": [
+    -48,
+    8,
+    25.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "mrB0",
+   "part": "3701",
+   "pos_mm": [
+    -48,
+    0,
+    25.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "mrB-8",
+   "part": "3701",
+   "pos_mm": [
+    -48,
+    -8,
+    25.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "mrB-24",
+   "part": "3701",
+   "pos_mm": [
+    -48,
+    -24,
+    25.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "mpinB0",
+   "part": "6558",
+   "pos_mm": [
+    -40,
+    8.0,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "mpinB1",
+   "part": "6558",
+   "pos_mm": [
+    -40,
+    -16.0,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "mshaftB",
+   "part": "32062",
+   "pos_mm": [
+    -48,
+    20.1,
+    37.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "m8B",
+   "part": "10928",
+   "pos_mm": [
+    -48,
+    24,
+    37.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "gB24",
+   "part": "3648",
+   "pos_mm": [
+    -48,
+    24,
+    21.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "hb1B_40",
+   "part": "3700",
+   "pos_mm": [
+    -48,
+    40,
+    35.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "hb2B_40",
+   "part": "3700",
+   "pos_mm": [
+    -48,
+    40,
+    44.8
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "hp1B_40",
+   "part": "3023",
+   "pos_mm": [
+    -48,
+    40,
+    48.0
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "hp2B_40",
+   "part": "3023",
+   "pos_mm": [
+    -48,
+    40,
+    51.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "hb1B_-32",
+   "part": "3700",
+   "pos_mm": [
+    -48,
+    -32,
+    35.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "hb2B_-32",
+   "part": "3700",
+   "pos_mm": [
+    -48,
+    -32,
+    44.8
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "hp1B_-32",
+   "part": "3023",
+   "pos_mm": [
+    -48,
+    -32,
+    48.0
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "hp2B_-32",
+   "part": "3023",
+   "pos_mm": [
+    -48,
+    -32,
+    51.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "hbridgeB",
+   "part": "4477",
+   "pos_mm": [
+    -44,
+    4,
+    54.4
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "batplate",
+   "part": "3035",
+   "pos_mm": [
+    0,
+    -20,
+    28.8
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    0,
+    -20,
+    67.2
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    16,
+    -20,
+    76.8
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "ts16",
+   "part": "3700",
+   "pos_mm": [
+    -16,
+    16,
+    35.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "tp16",
+   "part": "3023",
+   "pos_mm": [
+    -16,
+    16,
+    38.4
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "ts40",
+   "part": "3700",
+   "pos_mm": [
+    -16,
+    40,
+    35.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "tp40",
+   "part": "3023",
+   "pos_mm": [
+    -16,
+    40,
+    38.4
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "tbridge",
+   "part": "3031",
+   "pos_mm": [
+    -16,
+    28,
+    41.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "pax0",
+   "part": "50451",
+   "pos_mm": [
+    0.0,
+    59.8,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "pb0",
+   "part": "4265c",
+   "pos_mm": [
+    0.0,
+    118.0,
+    21.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "pd0",
+   "part": "4265c",
+   "pos_mm": [
+    0.0,
+    106.0,
+    21.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "pc0",
+   "part": "4265c",
+   "pos_mm": [
+    0.0,
+    10.0,
+    21.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "pax1",
+   "part": "50451",
+   "pos_mm": [
+    16.0,
+    59.8,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "pb1",
+   "part": "4265c",
+   "pos_mm": [
+    16.0,
+    118.0,
+    21.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "pd1",
+   "part": "4265c",
+   "pos_mm": [
+    16.0,
+    106.0,
+    21.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "pc1",
+   "part": "4265c",
+   "pos_mm": [
+    16.0,
+    10.0,
+    21.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "pframe",
+   "part": "64179",
+   "pos_mm": [
+    8.0,
+    112.0,
+    37.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 0.0
+  },
+  {
+   "name": "post",
+   "part": "50451",
+   "pos_mm": [
+    8.0,
+    112.0,
+    37.0
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 90
+  },
+  {
+   "name": "pcol1",
+   "part": "6536",
+   "pos_mm": [
+    8.0,
+    112.0,
+    61.7
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": -90
+  },
+  {
+   "name": "pcol2",
+   "part": "6536",
+   "pos_mm": [
+    8.0,
+    112.0,
+    13.5
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": -90
+  }
+ ],
+ "connections": [
+  {
+   "child": "axF",
+   "parent": "rail16",
+   "kind": "hinge"
+  },
+  {
+   "child": "axF",
+   "parent": "rail40",
+   "kind": "hinge"
+  },
+  {
+   "child": "axF",
+   "parent": "rail-16",
+   "kind": "hinge"
+  },
+  {
+   "child": "axF",
+   "parent": "rail-32",
+   "kind": "hinge"
+  },
+  {
+   "child": "wFL",
+   "parent": "axF",
+   "kind": "cross"
+  },
+  {
+   "child": "wFRt",
+   "parent": "axF",
+   "kind": "cross"
+  },
+  {
+   "child": "sF",
+   "parent": "axF",
+   "kind": "cross"
+  },
+  {
+   "child": "axR",
+   "parent": "rail16",
+   "kind": "hinge"
+  },
+  {
+   "child": "axR",
+   "parent": "rail40",
+   "kind": "hinge"
+  },
+  {
+   "child": "axR",
+   "parent": "rail-16",
+   "kind": "hinge"
+  },
+  {
+   "child": "axR",
+   "parent": "rail-32",
+   "kind": "hinge"
+  },
+  {
+   "child": "wRL",
+   "parent": "axR",
+   "kind": "cross"
+  },
+  {
+   "child": "wRRt",
+   "parent": "axR",
+   "kind": "cross"
+  },
+  {
+   "child": "sR",
+   "parent": "axR",
+   "kind": "cross"
+  },
+  {
+   "child": "axF",
+   "parent": "mr8",
+   "kind": "hinge"
+  },
+  {
+   "child": "axF",
+   "parent": "mr0",
+   "kind": "hinge"
+  },
+  {
+   "child": "axF",
+   "parent": "mr-8",
+   "kind": "hinge"
+  },
+  {
+   "child": "axF",
+   "parent": "mr-24",
+   "kind": "hinge"
+  },
+  {
+   "child": "motor",
+   "parent": "rail16",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "motor",
+   "parent": "rail-16",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "motor",
+   "parent": "mr8",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "motor",
+   "parent": "mr0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "motor",
+   "parent": "mr-8",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "motor",
+   "parent": "mr-24",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "mpin0",
+   "parent": "rail16",
+   "kind": "pin"
+  },
+  {
+   "child": "mpin0",
+   "parent": "mr8",
+   "kind": "pin"
+  },
+  {
+   "child": "mpin0",
+   "parent": "mr0",
+   "kind": "pin"
+  },
+  {
+   "child": "mpin1",
+   "parent": "mr-8",
+   "kind": "pin"
+  },
+  {
+   "child": "mpin1",
+   "parent": "rail-16",
+   "kind": "pin"
+  },
+  {
+   "child": "mpin1",
+   "parent": "mr-24",
+   "kind": "pin"
+  },
+  {
+   "child": "mshaft",
+   "parent": "motor",
+   "kind": "motor"
+  },
+  {
+   "child": "m8",
+   "parent": "mshaft",
+   "kind": "cross"
+  },
+  {
+   "child": "g24",
+   "parent": "axF",
+   "kind": "cross"
+  },
+  {
+   "child": "hb1_40",
+   "parent": "rail40",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "hb2_40",
+   "parent": "hb1_40",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "hp1_40",
+   "parent": "hb2_40",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "hp2_40",
+   "parent": "hp1_40",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "hb1_-32",
+   "parent": "rail-32",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "hb2_-32",
+   "parent": "hb1_-32",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "hp1_-32",
+   "parent": "hb2_-32",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "hp2_-32",
+   "parent": "hp1_-32",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "hbridge",
+   "parent": "hp2_40",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "hbridge",
+   "parent": "hp2_-32",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "axR",
+   "parent": "mrB8",
+   "kind": "hinge"
+  },
+  {
+   "child": "axR",
+   "parent": "mrB0",
+   "kind": "hinge"
+  },
+  {
+   "child": "axR",
+   "parent": "mrB-8",
+   "kind": "hinge"
+  },
+  {
+   "child": "axR",
+   "parent": "mrB-24",
+   "kind": "hinge"
+  },
+  {
+   "child": "motorB",
+   "parent": "rail16",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "motorB",
+   "parent": "rail-16",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "motorB",
+   "parent": "mrB8",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "motorB",
+   "parent": "mrB0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "motorB",
+   "parent": "mrB-8",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "motorB",
+   "parent": "mrB-24",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "mpinB0",
+   "parent": "rail16",
+   "kind": "pin"
+  },
+  {
+   "child": "mpinB0",
+   "parent": "mrB8",
+   "kind": "pin"
+  },
+  {
+   "child": "mpinB0",
+   "parent": "mrB0",
+   "kind": "pin"
+  },
+  {
+   "child": "mpinB1",
+   "parent": "mrB-8",
+   "kind": "pin"
+  },
+  {
+   "child": "mpinB1",
+   "parent": "rail-16",
+   "kind": "pin"
+  },
+  {
+   "child": "mpinB1",
+   "parent": "mrB-24",
+   "kind": "pin"
+  },
+  {
+   "child": "mshaftB",
+   "parent": "motorB",
+   "kind": "motor"
+  },
+  {
+   "child": "m8B",
+   "parent": "mshaftB",
+   "kind": "cross"
+  },
+  {
+   "child": "gB24",
+   "parent": "axR",
+   "kind": "cross"
+  },
+  {
+   "child": "hb1B_40",
+   "parent": "rail40",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "hb2B_40",
+   "parent": "hb1B_40",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "hp1B_40",
+   "parent": "hb2B_40",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "hp2B_40",
+   "parent": "hp1B_40",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "hb1B_-32",
+   "parent": "rail-32",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "hb2B_-32",
+   "parent": "hb1B_-32",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "hp1B_-32",
+   "parent": "hb2B_-32",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "hp2B_-32",
+   "parent": "hp1B_-32",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "hbridgeB",
+   "parent": "hp2B_40",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "hbridgeB",
+   "parent": "hp2B_-32",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "batplate",
+   "parent": "rail-16",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "batplate",
+   "parent": "rail-32",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "battery",
+   "parent": "batplate",
+   "kind": "stud",
+   "studs": 32
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "ts16",
+   "parent": "rail16",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "tp16",
+   "parent": "ts16",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "ts40",
+   "parent": "rail40",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "tp40",
+   "parent": "ts40",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "tbridge",
+   "parent": "tp16",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "tbridge",
+   "parent": "tp40",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "pax0",
+   "parent": "rail16",
+   "kind": "hinge"
+  },
+  {
+   "child": "pax0",
+   "parent": "rail40",
+   "kind": "hinge"
+  },
+  {
+   "child": "pb0",
+   "parent": "pax0",
+   "kind": "cross"
+  },
+  {
+   "child": "pd0",
+   "parent": "pax0",
+   "kind": "cross"
+  },
+  {
+   "child": "pc0",
+   "parent": "pax0",
+   "kind": "cross"
+  },
+  {
+   "child": "pax1",
+   "parent": "rail16",
+   "kind": "hinge"
+  },
+  {
+   "child": "pax1",
+   "parent": "rail40",
+   "kind": "hinge"
+  },
+  {
+   "child": "pb1",
+   "parent": "pax1",
+   "kind": "cross"
+  },
+  {
+   "child": "pd1",
+   "parent": "pax1",
+   "kind": "cross"
+  },
+  {
+   "child": "pc1",
+   "parent": "pax1",
+   "kind": "cross"
+  },
+  {
+   "child": "pax0",
+   "parent": "pframe",
+   "kind": "hinge"
+  },
+  {
+   "child": "pax1",
+   "parent": "pframe",
+   "kind": "hinge"
+  },
+  {
+   "child": "post",
+   "parent": "pframe",
+   "kind": "hinge"
+  },
+  {
+   "child": "pcol1",
+   "parent": "post",
+   "kind": "cross"
+  },
+  {
+   "child": "pcol2",
+   "parent": "post",
+   "kind": "cross"
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "m8",
+   "gear_b": "g24"
+  },
+  {
+   "gear_a": "m8B",
+   "gear_b": "gB24"
+  }
+ ],
+ "chains": [
+  {
+   "name": "chain",
+   "gears": [
+    "sF",
+    "sR"
+   ],
+   "links": 42
+  }
+ ],
+ "motor_program": [
+  {
+   "t": 0.0,
+   "motor": "all",
+   "level": 7,
+   "note": "drive; the slot post does the steering"
+  },
+  {
+   "t": 30.0,
+   "motor": "all",
+   "level": "brake"
+  }
+ ],
+ "start_gap_mm": 10.0
+}

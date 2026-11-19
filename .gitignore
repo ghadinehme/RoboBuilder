@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+build/
+dist/
+runs/
+selftest_out/
+_sims/
+real_world/controller/tools/

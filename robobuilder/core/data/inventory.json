@@ -1,0 +1,660 @@
+{
+ "description": "The owned inventory: part id -> neutral name, pieces (all colours) and catalogue unit mass. Part ids are the catalogue numbers, used here only as neutral identifiers.",
+ "parts": {
+  "10928": {
+   "name": "Gear 8 tooth",
+   "count": 39,
+   "unit_mass_g": 0.22
+  },
+  "12787c01": {
+   "name": "Pullback motor 6 x 5 x 3 (spring motor, not IR controlled)",
+   "count": 2,
+   "unit_mass_g": 31.0
+  },
+  "15100": {
+   "name": "pin 1L with friction and perpendicular pin hole",
+   "count": 7,
+   "unit_mass_g": 0.4
+  },
+  "15462": {
+   "name": "axle 5 with stop",
+   "count": 8,
+   "unit_mass_g": 0.73
+  },
+  "18946": {
+   "name": "Gear 16 tooth with clutch on both sides (round bore: turns freely)",
+   "count": 10,
+   "unit_mass_g": 0.84
+  },
+  "23948": {
+   "name": "axle 11",
+   "count": 8,
+   "unit_mass_g": 1.65
+  },
+  "24316": {
+   "name": "axle 3 with stop",
+   "count": 8,
+   "unit_mass_g": 0.45
+  },
+  "2730": {
+   "name": "beam brick 1x10 with holes",
+   "count": 15,
+   "unit_mass_g": 3.67
+  },
+  "2780": {
+   "name": "pin with friction ridges",
+   "count": 121,
+   "unit_mass_g": 0.2
+  },
+  "2815": {
+   "name": "Tyre for the 4185 wedge-belt wheel",
+   "count": 4,
+   "unit_mass_g": 0.75
+  },
+  "2909c03": {
+   "name": "shock absorber 9.5L, soft spring (a sprung slide between its end holes)",
+   "count": 2,
+   "unit_mass_g": 4.0
+  },
+  "3001": {
+   "name": "Brick 2x4",
+   "count": 500,
+   "unit_mass_g": 2.32
+  },
+  "3020": {
+   "name": "Plate 2x4",
+   "count": 55,
+   "unit_mass_g": 1.2
+  },
+  "3021": {
+   "name": "Plate 2x3",
+   "count": 40,
+   "unit_mass_g": 0.93
+  },
+  "3022": {
+   "name": "Plate 2x2",
+   "count": 45,
+   "unit_mass_g": 0.64
+  },
+  "3023": {
+   "name": "Plate 1x2",
+   "count": 44,
+   "unit_mass_g": 0.36
+  },
+  "3028": {
+   "name": "Plate 6x12",
+   "count": 10,
+   "unit_mass_g": 9.47
+  },
+  "3030": {
+   "name": "Plate 4x10",
+   "count": 10,
+   "unit_mass_g": 5.55
+  },
+  "3031": {
+   "name": "Plate 4x4",
+   "count": 10,
+   "unit_mass_g": 2.22
+  },
+  "3032": {
+   "name": "Plate 4x6",
+   "count": 10,
+   "unit_mass_g": 3.3
+  },
+  "3033": {
+   "name": "Plate 6x10",
+   "count": 10,
+   "unit_mass_g": 7.95
+  },
+  "3034": {
+   "name": "Plate 2x8",
+   "count": 51,
+   "unit_mass_g": 2.27
+  },
+  "3035": {
+   "name": "Plate 4x8",
+   "count": 10,
+   "unit_mass_g": 4.7
+  },
+  "3036": {
+   "name": "Plate 6x8",
+   "count": 10,
+   "unit_mass_g": 6.4
+  },
+  "32000": {
+   "name": "beam brick 1x2 with 2 holes (under the studs)",
+   "count": 20,
+   "unit_mass_g": 0.73
+  },
+  "32009": {
+   "name": "liftarm double bent 1x11.5 thick (45 deg)",
+   "count": 8,
+   "unit_mass_g": 3.46
+  },
+  "32013": {
+   "name": "angle connector #1",
+   "count": 11,
+   "unit_mass_g": 0.46
+  },
+  "32015": {
+   "name": "angle connector #5 (112.5 deg)",
+   "count": 11,
+   "unit_mass_g": 0.69
+  },
+  "32018": {
+   "name": "beam brick 1x14 with holes",
+   "count": 15,
+   "unit_mass_g": 4.92
+  },
+  "32020c01": {
+   "name": "Wheel 62.4 x 20 mm with rubber tyre (32020 / 32019)",
+   "count": 4,
+   "unit_mass_g": 33.0
+  },
+  "32034": {
+   "name": "angle connector #2 (180 deg)",
+   "count": 11,
+   "unit_mass_g": 0.68
+  },
+  "32054": {
+   "name": "pin 3L with friction ridges and stop bush",
+   "count": 102,
+   "unit_mass_g": 0.33
+  },
+  "32056": {
+   "name": "liftarm L 3x3 thin (4 mm)",
+   "count": 11,
+   "unit_mass_g": 0.73
+  },
+  "32062": {
+   "name": "axle 2 notched",
+   "count": 50,
+   "unit_mass_g": 0.26
+  },
+  "32072": {
+   "name": "knob wheel (4 knobs; meshes with another knob wheel, 1 : 1)",
+   "count": 26,
+   "unit_mass_g": 0.87
+  },
+  "32073": {
+   "name": "axle 5",
+   "count": 20,
+   "unit_mass_g": 0.66
+  },
+  "32140": {
+   "name": "liftarm L 2x4 thick (90 deg)",
+   "count": 10,
+   "unit_mass_g": 1.43
+  },
+  "32184": {
+   "name": "axle and pin connector perpendicular 3L",
+   "count": 21,
+   "unit_mass_g": 0.64
+  },
+  "32198": {
+   "name": "Gear 20 tooth bevel (meshes at right angles only)",
+   "count": 33,
+   "unit_mass_g": 0.75
+  },
+  "32269": {
+   "name": "Gear 20 tooth double bevel (meshes as a spur gear)",
+   "count": 44,
+   "unit_mass_g": 1.4
+  },
+  "32270": {
+   "name": "Gear 12 tooth double bevel (meshes as a spur gear)",
+   "count": 45,
+   "unit_mass_g": 0.58
+  },
+  "32271": {
+   "name": "liftarm bent 1x9 (7-3, 53.13 deg)",
+   "count": 10,
+   "unit_mass_g": 2.63
+  },
+  "32278": {
+   "name": "liftarm thick 1x15",
+   "count": 6,
+   "unit_mass_g": 4.0
+  },
+  "32316": {
+   "name": "liftarm thick 1x5",
+   "count": 10,
+   "unit_mass_g": 1.25
+  },
+  "32348": {
+   "name": "liftarm bent 1x7 (4-4, 53.13 deg)",
+   "count": 10,
+   "unit_mass_g": 2.0
+  },
+  "32494": {
+   "name": "CV joint ball (axle driver; cross-fit on an axle)",
+   "count": 4,
+   "unit_mass_g": 0.55
+  },
+  "32498": {
+   "name": "Gear 36 tooth double bevel (meshes as a spur gear)",
+   "count": 6,
+   "unit_mass_g": 3.5
+  },
+  "32523": {
+   "name": "liftarm thick 1x3",
+   "count": 11,
+   "unit_mass_g": 0.7
+  },
+  "32524": {
+   "name": "liftarm thick 1x7",
+   "count": 10,
+   "unit_mass_g": 1.74
+  },
+  "32525": {
+   "name": "liftarm thick 1x11",
+   "count": 10,
+   "unit_mass_g": 2.8
+  },
+  "32526": {
+   "name": "liftarm L 3x5 thick (90 deg)",
+   "count": 10,
+   "unit_mass_g": 1.77
+  },
+  "35188": {
+   "name": "changeover rotary catch (round, cross hole)",
+   "count": 2,
+   "unit_mass_g": 1.08
+  },
+  "3623": {
+   "name": "Plate 1x3",
+   "count": 40,
+   "unit_mass_g": 0.53
+  },
+  "3648": {
+   "name": "Gear 24 tooth",
+   "count": 10,
+   "unit_mass_g": 1.17
+  },
+  "3649": {
+   "name": "Gear 40 tooth",
+   "count": 18,
+   "unit_mass_g": 3.76
+  },
+  "3673": {
+   "name": "pin without friction ridges (pivot)",
+   "count": 143,
+   "unit_mass_g": 0.16
+  },
+  "3700": {
+   "name": "beam brick 1x2 with hole",
+   "count": 30,
+   "unit_mass_g": 0.82
+  },
+  "3701": {
+   "name": "beam brick 1x4 with holes",
+   "count": 31,
+   "unit_mass_g": 1.46
+  },
+  "3702": {
+   "name": "beam brick 1x8 with holes",
+   "count": 20,
+   "unit_mass_g": 2.85
+  },
+  "3703": {
+   "name": "beam brick 1x16 with holes",
+   "count": 15,
+   "unit_mass_g": 5.87
+  },
+  "3705": {
+   "name": "axle 4",
+   "count": 20,
+   "unit_mass_g": 0.59
+  },
+  "3706": {
+   "name": "axle 6",
+   "count": 44,
+   "unit_mass_g": 0.86
+  },
+  "3707": {
+   "name": "axle 8",
+   "count": 16,
+   "unit_mass_g": 1.18
+  },
+  "3710": {
+   "name": "Plate 1x4",
+   "count": 36,
+   "unit_mass_g": 0.71
+  },
+  "3711": {
+   "name": "link chain",
+   "count": 100,
+   "unit_mass_g": 0.09
+  },
+  "3713": {
+   "name": "bush",
+   "count": 10,
+   "unit_mass_g": 0.14
+  },
+  "3743": {
+   "name": "gear rack 1x4 (10 teeth, studs underneath)",
+   "count": 22,
+   "unit_mass_g": 0.79
+  },
+  "3795": {
+   "name": "Plate 2x6",
+   "count": 35,
+   "unit_mass_g": 1.74
+  },
+  "3873": {
+   "name": "tread link",
+   "count": 50,
+   "unit_mass_g": 0.19
+  },
+  "3894": {
+   "name": "beam brick 1x6 with holes",
+   "count": 20,
+   "unit_mass_g": 2.2
+  },
+  "3895": {
+   "name": "beam brick 1x12 with holes",
+   "count": 15,
+   "unit_mass_g": 4.2
+  },
+  "3958": {
+   "name": "Plate 6x6",
+   "count": 10,
+   "unit_mass_g": 4.71
+  },
+  "4019": {
+   "name": "Gear 16 tooth (axle hole, open sides)",
+   "count": 1,
+   "unit_mass_g": 0.7
+  },
+  "40490": {
+   "name": "liftarm thick 1x9",
+   "count": 10,
+   "unit_mass_g": 2.59
+  },
+  "41239": {
+   "name": "liftarm thick 1x13",
+   "count": 6,
+   "unit_mass_g": 3.3
+  },
+  "41539": {
+   "name": "Plate 8x8",
+   "count": 10,
+   "unit_mass_g": 9.4
+  },
+  "4185": {
+   "name": "wedge-belt wheel (24 mm)",
+   "count": 4,
+   "unit_mass_g": 0.97
+  },
+  "42003": {
+   "name": "axle and pin connector perpendicular 3L with 2 pin holes",
+   "count": 21,
+   "unit_mass_g": 0.77
+  },
+  "4265c": {
+   "name": "bush 1/2 smooth",
+   "count": 66,
+   "unit_mass_g": 0.1
+  },
+  "43093": {
+   "name": "axle-pin 1L/1L with friction",
+   "count": 153,
+   "unit_mass_g": 0.26
+  },
+  "44294": {
+   "name": "axle 7",
+   "count": 20,
+   "unit_mass_g": 1.05
+  },
+  "4477": {
+   "name": "Plate 1x10",
+   "count": 15,
+   "unit_mass_g": 1.61
+  },
+  "4519": {
+   "name": "axle 3",
+   "count": 33,
+   "unit_mass_g": 0.43
+  },
+  "4716": {
+   "name": "Worm gear (single start, meshes at right angles with a spur gear: 1 : z)",
+   "count": 11,
+   "unit_mass_g": 0.6
+  },
+  "48989": {
+   "name": "pin connector perpendicular 3L with 4 pins",
+   "count": 5,
+   "unit_mass_g": 1.22
+  },
+  "50451": {
+   "name": "axle 16",
+   "count": 8,
+   "unit_mass_g": 2.37
+  },
+  "55423c01": {
+   "name": "RC train wheel with rubber friction band (55423)",
+   "count": 8,
+   "unit_mass_g": 1.1
+  },
+  "55615": {
+   "name": "pin connector perpendicular 3x3 bent with 4 pins",
+   "count": 5,
+   "unit_mass_g": 1.9
+  },
+  "55982c01": {
+   "name": "Wheel 18 x 14 rim with tyre 30.4 x 14 offset tread (55982 / 30391)",
+   "count": 4,
+   "unit_mass_g": 8.37
+  },
+  "56145c01": {
+   "name": "Wheel 30.4 x 20 rim with tyre 43.2 x 22 ZR (56145 / 44309)",
+   "count": 8,
+   "unit_mass_g": 15.1
+  },
+  "57515": {
+   "name": "steering arm 6x2 with tow ball socket (fork + socket)",
+   "count": 4,
+   "unit_mass_g": 1.52
+  },
+  "57518": {
+   "name": "tread link wide with 2 pin holes",
+   "count": 52,
+   "unit_mass_g": 1.4
+  },
+  "57519": {
+   "name": "tread sprocket wheel large (40.4 mm lobes, cross hole, 6 pin holes)",
+   "count": 4,
+   "unit_mass_g": 5.1
+  },
+  "57520": {
+   "name": "tread sprocket wheel small (25.4 mm, 6 lobes, 12 tread links per turn)",
+   "count": 10,
+   "unit_mass_g": 1.63
+  },
+  "57585": {
+   "name": "axle connector hub with 3 axles",
+   "count": 4,
+   "unit_mass_g": 0.65
+  },
+  "58120c01": {
+   "name": "M-motor",
+   "count": 2,
+   "unit_mass_g": 33.5
+  },
+  "58121c01": {
+   "name": "XL-motor",
+   "count": 2,
+   "unit_mass_g": 72.0
+  },
+  "58123c01": {
+   "name": "IR receiver",
+   "count": 2,
+   "unit_mass_g": 20.6
+  },
+  "59510c01": {
+   "name": "AA battery box",
+   "count": 2,
+   "unit_mass_g": 53.5
+  },
+  "60484": {
+   "name": "liftarm T 3x3 thick",
+   "count": 10,
+   "unit_mass_g": 1.19
+  },
+  "60485": {
+   "name": "axle 9",
+   "count": 8,
+   "unit_mass_g": 1.3
+  },
+  "62821b": {
+   "name": "differential (one-piece, 28T bevel ring)",
+   "count": 2,
+   "unit_mass_g": 2.8
+  },
+  "64178": {
+   "name": "liftarm frame thick 5x11 open centre (cross bars 2 holes in from the ends)",
+   "count": 2,
+   "unit_mass_g": 7.0
+  },
+  "64179": {
+   "name": "liftarm frame thick 5x7 open centre",
+   "count": 12,
+   "unit_mass_g": 5.3
+  },
+  "65249": {
+   "name": "axle-pin 1L pin (no friction) + 2L axle",
+   "count": 8,
+   "unit_mass_g": 0.3
+  },
+  "6536": {
+   "name": "axle and pin connector perpendicular",
+   "count": 21,
+   "unit_mass_g": 0.39
+  },
+  "6541": {
+   "name": "beam brick 1x1 with hole",
+   "count": 30,
+   "unit_mass_g": 0.38
+  },
+  "65414": {
+   "name": "differential housing, new style (no ring gear: a plain part)",
+   "count": 3,
+   "unit_mass_g": 2.31
+  },
+  "6542b": {
+   "name": "Gear 16 tooth with clutch, smooth centre (round bore: turns freely)",
+   "count": 8,
+   "unit_mass_g": 0.7
+  },
+  "6558": {
+   "name": "pin 3L with friction ridges",
+   "count": 101,
+   "unit_mass_g": 0.37
+  },
+  "6575": {
+   "name": "cam (4 mm thick, 4 cross holes in a line)",
+   "count": 2,
+   "unit_mass_g": 0.7
+  },
+  "6587": {
+   "name": "axle 3 with stud",
+   "count": 8,
+   "unit_mass_g": 0.48
+  },
+  "6588": {
+   "name": "gearbox 2x4x3 1/3 (worm + 24T housing)",
+   "count": 1,
+   "unit_mass_g": 4.5
+  },
+  "6589": {
+   "name": "Gear 12 tooth bevel (meshes at right angles only)",
+   "count": 35,
+   "unit_mass_g": 0.29
+  },
+  "6629": {
+   "name": "liftarm bent 1x9 (6-4, 53.13 deg)",
+   "count": 10,
+   "unit_mass_g": 2.6
+  },
+  "6630": {
+   "name": "gear rack 1x8 with holes (14 teeth)",
+   "count": 4,
+   "unit_mass_g": 2.0
+  },
+  "6641": {
+   "name": "changeover catch (lever with a cross hole and an axle socket)",
+   "count": 4,
+   "unit_mass_g": 0.5
+  },
+  "69761": {
+   "name": "Gear 22 tooth bevel half with pin hole (round bore: turns freely)",
+   "count": 3,
+   "unit_mass_g": 2.2
+  },
+  "69762": {
+   "name": "Gear 14 tooth bevel thick (half bevel, teeth on the -y face)",
+   "count": 6,
+   "unit_mass_g": 1.2
+  },
+  "69778": {
+   "name": "Gear 12 tooth (spur, 4 mm wide teeth)",
+   "count": 8,
+   "unit_mass_g": 0.5
+  },
+  "731c04": {
+   "name": "shock absorber 6.5L, hard spring (a sprung slide between its end holes)",
+   "count": 6,
+   "unit_mass_g": 2.1
+  },
+  "87082": {
+   "name": "pin 3L with centre pin hole",
+   "count": 5,
+   "unit_mass_g": 0.5
+  },
+  "87083": {
+   "name": "axle 4 with stop",
+   "count": 8,
+   "unit_mass_g": 0.59
+  },
+  "87513c01": {
+   "name": "AAA battery box",
+   "count": 2,
+   "unit_mass_g": 40.0
+  },
+  "87574c01": {
+   "name": "train motor (two integral driven axles)",
+   "count": 2,
+   "unit_mass_g": 57.1
+  },
+  "87761": {
+   "name": "gear rack 1x7 with axle and pin holes (8 teeth, end stops)",
+   "count": 2,
+   "unit_mass_g": 1.8
+  },
+  "92438": {
+   "name": "Plate 8x16",
+   "count": 1,
+   "unit_mass_g": 17.0
+  },
+  "92906": {
+   "name": "CV joint cup with integral axle (turns in a hole, takes a wheel / gear)",
+   "count": 4,
+   "unit_mass_g": 0.45
+  },
+  "94925": {
+   "name": "Gear 16 tooth (reinforced)",
+   "count": 20,
+   "unit_mass_g": 0.7
+  },
+  "99498c01": {
+   "name": "servo motor",
+   "count": 2,
+   "unit_mass_g": 44.0
+  },
+  "99499c01": {
+   "name": "L-motor",
+   "count": 2,
+   "unit_mass_g": 45.0
+  }
+ }
+}

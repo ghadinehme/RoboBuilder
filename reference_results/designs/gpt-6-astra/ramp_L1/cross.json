@@ -1,0 +1,585 @@
+{
+ "name": "Twin axle ramp climber",
+ "description": "Compact four-wheel drive, two geared M motors, retained axles and broad battery support.",
+ "part_set": "inventory",
+ "chassis": "rail_l",
+ "motor": "rear_motor",
+ "battery": "battery",
+ "parts": [
+  {
+   "name": "rail_l",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    12,
+    25.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail_r",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    -12,
+    25.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "deck",
+   "part": "3035",
+   "pos_mm": [
+    0,
+    0,
+    28.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    0,
+    0,
+    67.2
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    16,
+    0,
+    76.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_axle",
+   "part": "50451",
+   "pos_mm": [
+    -48,
+    0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "rear_under",
+   "part": "3031",
+   "pos_mm": [
+    -48,
+    0,
+    16
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_fill0",
+   "part": "3701",
+   "pos_mm": [
+    -48,
+    -4,
+    25.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_fill1",
+   "part": "3701",
+   "pos_mm": [
+    -48,
+    4,
+    25.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_motor",
+   "part": "58120c01",
+   "pos_mm": [
+    -48,
+    24,
+    37.6
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "rear_shaft",
+   "part": "4519",
+   "pos_mm": [
+    -48,
+    24,
+    37.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "rear_pinion",
+   "part": "10928",
+   "pos_mm": [
+    -48,
+    28,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_gear",
+   "part": "3648",
+   "pos_mm": [
+    -48,
+    28,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_wheel_l",
+   "part": "56145c01",
+   "pos_mm": [
+    -48,
+    50,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_wheel_r",
+   "part": "56145c01",
+   "pos_mm": [
+    -48,
+    -50,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_bush_l",
+   "part": "4265c",
+   "pos_mm": [
+    -48,
+    18,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_bush_r",
+   "part": "4265c",
+   "pos_mm": [
+    -48,
+    -18,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_shaftbush0",
+   "part": "4265c",
+   "pos_mm": [
+    -48,
+    34,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_axle",
+   "part": "50451",
+   "pos_mm": [
+    48,
+    0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "front_under",
+   "part": "3031",
+   "pos_mm": [
+    48,
+    0,
+    16
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_fill0",
+   "part": "3701",
+   "pos_mm": [
+    48,
+    -4,
+    25.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_fill1",
+   "part": "3701",
+   "pos_mm": [
+    48,
+    4,
+    25.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_motor",
+   "part": "58120c01",
+   "pos_mm": [
+    48,
+    24,
+    37.6
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "front_shaft",
+   "part": "4519",
+   "pos_mm": [
+    48,
+    24,
+    37.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "front_pinion",
+   "part": "10928",
+   "pos_mm": [
+    48,
+    28,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_gear",
+   "part": "3648",
+   "pos_mm": [
+    48,
+    28,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_wheel_l",
+   "part": "56145c01",
+   "pos_mm": [
+    48,
+    50,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_wheel_r",
+   "part": "56145c01",
+   "pos_mm": [
+    48,
+    -50,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_bush_l",
+   "part": "4265c",
+   "pos_mm": [
+    48,
+    18,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_bush_r",
+   "part": "4265c",
+   "pos_mm": [
+    48,
+    -18,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_shaftbush0",
+   "part": "4265c",
+   "pos_mm": [
+    48,
+    34,
+    37.6
+   ],
+   "yaw_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "deck",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "deck",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "battery",
+   "parent": "deck",
+   "kind": "stud",
+   "studs": 32
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "rear_axle",
+   "parent": "rail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "rear_axle",
+   "parent": "rail_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "rail_l",
+   "parent": "rear_under",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rail_r",
+   "parent": "rear_under",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rear_fill0",
+   "parent": "rear_under",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rear_axle",
+   "parent": "rear_fill0",
+   "kind": "hinge"
+  },
+  {
+   "child": "rear_fill1",
+   "parent": "rear_under",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rear_axle",
+   "parent": "rear_fill1",
+   "kind": "hinge"
+  },
+  {
+   "child": "rear_motor",
+   "parent": "rear_fill0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "rear_motor",
+   "parent": "rear_fill1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "rear_motor",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "rear_motor",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "rear_shaft",
+   "parent": "rear_motor",
+   "kind": "motor"
+  },
+  {
+   "child": "rear_pinion",
+   "parent": "rear_shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_gear",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_wheel_l",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_wheel_r",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_bush_l",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_bush_r",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_shaftbush0",
+   "parent": "rear_shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "front_axle",
+   "parent": "rail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "front_axle",
+   "parent": "rail_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "rail_l",
+   "parent": "front_under",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rail_r",
+   "parent": "front_under",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "front_fill0",
+   "parent": "front_under",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "front_axle",
+   "parent": "front_fill0",
+   "kind": "hinge"
+  },
+  {
+   "child": "front_fill1",
+   "parent": "front_under",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "front_axle",
+   "parent": "front_fill1",
+   "kind": "hinge"
+  },
+  {
+   "child": "front_motor",
+   "parent": "front_fill0",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "front_motor",
+   "parent": "front_fill1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "front_motor",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "front_motor",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "front_shaft",
+   "parent": "front_motor",
+   "kind": "motor"
+  },
+  {
+   "child": "front_pinion",
+   "parent": "front_shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "front_gear",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_wheel_l",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_wheel_r",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_bush_l",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_bush_r",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_shaftbush0",
+   "parent": "front_shaft",
+   "kind": "cross"
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "rear_pinion",
+   "gear_b": "rear_gear"
+  },
+  {
+   "gear_a": "front_pinion",
+   "gear_b": "front_gear"
+  }
+ ],
+ "start_gap_mm": 20,
+ "motor_program": [
+  {
+   "t": 0,
+   "motor": "all",
+   "level": 7
+  },
+  {
+   "t": 3.5,
+   "motor": "all",
+   "level": "brake"
+  }
+ ]
+}

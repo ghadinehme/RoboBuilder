@@ -1,0 +1,650 @@
+{
+ "name": "light_pullback_final",
+ "description": "Pin-mounted nine-turn spring crawler, powered 232 mm chain tread, four light rubber drive wheels and a retained passive rolling tail. Studless spars replace studded bricks where all load transfer already uses paired pins. Battery and receiver remain on the original studded deck. Preset spring release at t=0; no sensors or steering.",
+ "part_set": "inventory",
+ "chassis": "rail0",
+ "motor": "motor",
+ "battery": "battery",
+ "parts": [
+  {
+   "name": "motor",
+   "part": "12787c01",
+   "pos_mm": [
+    0,
+    0,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail0",
+   "part": "3895",
+   "pos_mm": [
+    0,
+    20,
+    11.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail1",
+   "part": "3703",
+   "pos_mm": [
+    88,
+    28,
+    11.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pin0",
+   "part": "6558",
+   "pos_mm": [
+    -32,
+    12,
+    7.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin1",
+   "part": "6558",
+   "pos_mm": [
+    -8,
+    12,
+    7.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "deck",
+   "part": "3035",
+   "pos_mm": [
+    48,
+    24,
+    14.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    40,
+    8,
+    52.8
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    56,
+    8,
+    62.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rearaxle",
+   "part": "23948",
+   "pos_mm": [
+    0,
+    0,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "frontaxle",
+   "part": "23948",
+   "pos_mm": [
+    232,
+    0,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "rearwheel_l",
+   "part": "4185t",
+   "pos_mm": [
+    0,
+    36,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rearwheel_r",
+   "part": "4185t",
+   "pos_mm": [
+    0,
+    -36,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rearstop_l",
+   "part": "4265c",
+   "pos_mm": [
+    0,
+    14,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rearstop_r",
+   "part": "4265c",
+   "pos_mm": [
+    0,
+    -14,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "frontwheel_l",
+   "part": "4185t",
+   "pos_mm": [
+    232,
+    36,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "frontwheel_r",
+   "part": "4185t",
+   "pos_mm": [
+    232,
+    -36,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "frontstop_l",
+   "part": "4265c",
+   "pos_mm": [
+    232,
+    18,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "frontstop_r",
+   "part": "4265c",
+   "pos_mm": [
+    232,
+    6,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_L",
+   "part": "32140",
+   "pos_mm": [
+    208,
+    12,
+    7.2
+   ]
+  },
+  {
+   "name": "frontpin0",
+   "part": "2780",
+   "pos_mm": [
+    216,
+    16,
+    7.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "frontpin1",
+   "part": "2780",
+   "pos_mm": [
+    224,
+    16,
+    7.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "framepin0",
+   "part": "2780",
+   "pos_mm": [
+    32,
+    24,
+    7.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "framepin1",
+   "part": "2780",
+   "pos_mm": [
+    40,
+    24,
+    7.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "frontbeam",
+   "part": "32278",
+   "pos_mm": [
+    176,
+    20,
+    7.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "nosejoin0",
+   "part": "2780",
+   "pos_mm": [
+    120,
+    24,
+    7.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "nosejoin1",
+   "part": "2780",
+   "pos_mm": [
+    128,
+    24,
+    7.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "tailbeam",
+   "part": "32278",
+   "pos_mm": [
+    -80,
+    28,
+    7.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "tailjoin0",
+   "part": "2780",
+   "pos_mm": [
+    -40,
+    24,
+    7.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "tailjoin1",
+   "part": "2780",
+   "pos_mm": [
+    -24,
+    24,
+    7.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "tail_L",
+   "part": "32140",
+   "pos_mm": [
+    -152,
+    20,
+    7.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "tailpin0",
+   "part": "2780",
+   "pos_mm": [
+    -136,
+    24,
+    7.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "tailpin1",
+   "part": "2780",
+   "pos_mm": [
+    -128,
+    24,
+    7.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "tailaxle",
+   "part": "23948",
+   "pos_mm": [
+    -128,
+    0,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "tailwheel_l",
+   "part": "55423c01",
+   "pos_mm": [
+    -128,
+    36,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "tailwheel_r",
+   "part": "55423c01",
+   "pos_mm": [
+    -128,
+    -24,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "tailstop_l",
+   "part": "4265c",
+   "pos_mm": [
+    -128,
+    26,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "tailstop_r",
+   "part": "4265c",
+   "pos_mm": [
+    -128,
+    14,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "reartrack",
+   "part": "3648",
+   "pos_mm": [
+    0,
+    -28,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "fronttrack",
+   "part": "3648",
+   "pos_mm": [
+    232,
+    -28,
+    15.2
+   ],
+   "yaw_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "pin0",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "pin0",
+   "parent": "rail0",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "pin1",
+   "parent": "rail0",
+   "kind": "pin"
+  },
+  {
+   "child": "deck",
+   "parent": "rail0",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "deck",
+   "parent": "rail1",
+   "kind": "stud",
+   "studs": 7
+  },
+  {
+   "child": "battery",
+   "parent": "deck",
+   "kind": "stud",
+   "studs": 14
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "rearaxle",
+   "parent": "motor",
+   "kind": "motor"
+  },
+  {
+   "child": "frontaxle",
+   "parent": "front_L",
+   "kind": "hinge"
+  },
+  {
+   "child": "rearwheel_l",
+   "parent": "rearaxle",
+   "kind": "cross"
+  },
+  {
+   "child": "rearwheel_r",
+   "parent": "rearaxle",
+   "kind": "cross"
+  },
+  {
+   "child": "rearstop_l",
+   "parent": "rearaxle",
+   "kind": "cross"
+  },
+  {
+   "child": "rearstop_r",
+   "parent": "rearaxle",
+   "kind": "cross"
+  },
+  {
+   "child": "frontwheel_l",
+   "parent": "frontaxle",
+   "kind": "cross"
+  },
+  {
+   "child": "frontwheel_r",
+   "parent": "frontaxle",
+   "kind": "cross"
+  },
+  {
+   "child": "frontstop_l",
+   "parent": "frontaxle",
+   "kind": "cross"
+  },
+  {
+   "child": "frontstop_r",
+   "parent": "frontaxle",
+   "kind": "cross"
+  },
+  {
+   "child": "frontpin0",
+   "parent": "front_L",
+   "kind": "pin"
+  },
+  {
+   "child": "frontpin0",
+   "parent": "frontbeam",
+   "kind": "pin"
+  },
+  {
+   "child": "frontpin1",
+   "parent": "front_L",
+   "kind": "pin"
+  },
+  {
+   "child": "frontpin1",
+   "parent": "frontbeam",
+   "kind": "pin"
+  },
+  {
+   "child": "framepin0",
+   "parent": "rail0",
+   "kind": "pin"
+  },
+  {
+   "child": "framepin0",
+   "parent": "rail1",
+   "kind": "pin"
+  },
+  {
+   "child": "framepin1",
+   "parent": "rail0",
+   "kind": "pin"
+  },
+  {
+   "child": "framepin1",
+   "parent": "rail1",
+   "kind": "pin"
+  },
+  {
+   "child": "nosejoin0",
+   "parent": "rail1",
+   "kind": "pin"
+  },
+  {
+   "child": "nosejoin0",
+   "parent": "frontbeam",
+   "kind": "pin"
+  },
+  {
+   "child": "nosejoin1",
+   "parent": "rail1",
+   "kind": "pin"
+  },
+  {
+   "child": "nosejoin1",
+   "parent": "frontbeam",
+   "kind": "pin"
+  },
+  {
+   "child": "tailjoin0",
+   "parent": "rail0",
+   "kind": "pin"
+  },
+  {
+   "child": "tailjoin0",
+   "parent": "tailbeam",
+   "kind": "pin"
+  },
+  {
+   "child": "tailjoin1",
+   "parent": "rail0",
+   "kind": "pin"
+  },
+  {
+   "child": "tailjoin1",
+   "parent": "tailbeam",
+   "kind": "pin"
+  },
+  {
+   "child": "tailpin0",
+   "parent": "tail_L",
+   "kind": "pin"
+  },
+  {
+   "child": "tailpin0",
+   "parent": "tailbeam",
+   "kind": "pin"
+  },
+  {
+   "child": "tailpin1",
+   "parent": "tail_L",
+   "kind": "pin"
+  },
+  {
+   "child": "tailpin1",
+   "parent": "tailbeam",
+   "kind": "pin"
+  },
+  {
+   "child": "tailaxle",
+   "parent": "tail_L",
+   "kind": "hinge"
+  },
+  {
+   "child": "tailwheel_l",
+   "parent": "tailaxle",
+   "kind": "cross"
+  },
+  {
+   "child": "tailwheel_r",
+   "parent": "tailaxle",
+   "kind": "cross"
+  },
+  {
+   "child": "tailstop_l",
+   "parent": "tailaxle",
+   "kind": "cross"
+  },
+  {
+   "child": "tailstop_r",
+   "parent": "tailaxle",
+   "kind": "cross"
+  },
+  {
+   "child": "reartrack",
+   "parent": "rearaxle",
+   "kind": "cross"
+  },
+  {
+   "child": "fronttrack",
+   "parent": "frontaxle",
+   "kind": "cross"
+  }
+ ],
+ "start_gap_mm": 0,
+ "pullback": [
+  {
+   "motor": "motor",
+   "wind_turns": 9.0,
+   "sense": 1
+  }
+ ],
+ "motor_program": [],
+ "treads": [
+  {
+   "name": "springtrack",
+   "sprockets": [
+    "reartrack",
+    "fronttrack"
+   ],
+   "links": 85,
+   "link": "3711"
+  }
+ ]
+}

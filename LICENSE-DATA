@@ -1,0 +1,11 @@
+Copyright (c) 2026 Ghadi Nehme
+
+The data of this repository is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0):
+everything in reference_results/ (results, design files, printed part specifications, CAD scripts and meshes) and in
+real_world/ (the STL files in course_parts.zip, the documents and the parts list), except the firmware source in
+real_world/firmware/, which is code under the MIT License (LICENSE).
+
+You are free to share and adapt the data for any purpose, provided you give appropriate credit, provide a link to the
+license, and indicate if changes were made.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode

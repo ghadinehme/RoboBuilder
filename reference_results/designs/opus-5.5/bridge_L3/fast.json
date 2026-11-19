@@ -1,0 +1,579 @@
+{
+ "name": "x10",
+ "description": "Direct-drive spring sprinter: no gears, no chains. The rear axle runs straight through the bores of two pullback\nmotors (every tooth mesh costs 28 % of the force in this drive; a spring motor also has no back-EMF sag and almost no\nrotor inertia), with one r31.3 wheel between them, sized so the spring's 600 rpm is a useful 2 m/s.\nThe front axle guides: r12 train wheels on the 8 mm plank between r15.2 tyres hanging 3.2 mm beside it.\nAAA battery stands low, crosswise between the axles on a 4x10 plate under the walls. No program, no stop.",
+ "chassis": "w1l",
+ "motor": "pb_l",
+ "battery": "battery",
+ "intended": [],
+ "parts": [
+  {
+   "name": "w1l",
+   "part": "3702",
+   "pos_mm": [
+    -8.0,
+    36.0,
+    27.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "w1r",
+   "part": "3702",
+   "pos_mm": [
+    -8.0,
+    -36.0,
+    27.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "axle_f",
+   "part": "23948",
+   "pos_mm": [
+    16.0,
+    0.0,
+    23.32
+   ],
+   "yaw_deg": 270
+  },
+  {
+   "name": "tr-1",
+   "part": "55423c01",
+   "pos_mm": [
+    16.0,
+    -1.3,
+    23.32
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "fl-1",
+   "part": "4185t",
+   "pos_mm": [
+    16.0,
+    -7.3,
+    23.32
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "hbx-1",
+   "part": "4265c",
+   "pos_mm": [
+    16.0,
+    -11.3,
+    23.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "hbf-1",
+   "part": "4265c",
+   "pos_mm": [
+    16.0,
+    -30.0,
+    23.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "obf-1",
+   "part": "4265c",
+   "pos_mm": [
+    16.0,
+    -42.0,
+    23.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "tr+1",
+   "part": "55423c01",
+   "pos_mm": [
+    16.0,
+    1.3,
+    23.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "fl+1",
+   "part": "4185t",
+   "pos_mm": [
+    16.0,
+    7.3,
+    23.32
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "hbx+1",
+   "part": "4265c",
+   "pos_mm": [
+    16.0,
+    11.3,
+    23.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "hbf+1",
+   "part": "4265c",
+   "pos_mm": [
+    16.0,
+    30.0,
+    23.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "obf+1",
+   "part": "4265c",
+   "pos_mm": [
+    16.0,
+    42.0,
+    23.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pb_l",
+   "part": "12787c01",
+   "pos_mm": [
+    -48.0,
+    52.0,
+    31.32
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "axle_l",
+   "part": "60485",
+   "pos_mm": [
+    -48.0,
+    14.8,
+    31.32
+   ],
+   "yaw_deg": 270
+  },
+  {
+   "name": "tyre",
+   "part": "32020c01",
+   "pos_mm": [
+    -48.0,
+    4.6,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "hbrl",
+   "part": "4265c",
+   "pos_mm": [
+    -48.0,
+    38.0,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "ball",
+   "part": "32494",
+   "pos_mm": [
+    -48.0,
+    -29.0,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "ppl0",
+   "part": "2780",
+   "pos_mm": [
+    -32.0,
+    40.0,
+    23.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "ppl1",
+   "part": "2780",
+   "pos_mm": [
+    -24.0,
+    40.0,
+    23.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "ppl2",
+   "part": "2780",
+   "pos_mm": [
+    -16.0,
+    40.0,
+    23.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "ppl3",
+   "part": "2780",
+   "pos_mm": [
+    -8.0,
+    40.0,
+    23.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pb_r",
+   "part": "12787c01",
+   "pos_mm": [
+    -48.0,
+    -52.0,
+    31.32
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "cup",
+   "part": "92906",
+   "pos_mm": [
+    -48.0,
+    -43.0,
+    31.32
+   ],
+   "yaw_deg": 270
+  },
+  {
+   "name": "ppr0",
+   "part": "2780",
+   "pos_mm": [
+    -32.0,
+    -40.0,
+    23.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "ppr1",
+   "part": "2780",
+   "pos_mm": [
+    -24.0,
+    -40.0,
+    23.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "ppr2",
+   "part": "2780",
+   "pos_mm": [
+    -16.0,
+    -40.0,
+    23.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "ppr3",
+   "part": "2780",
+   "pos_mm": [
+    -8.0,
+    -40.0,
+    23.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bkl",
+   "part": "3701",
+   "pos_mm": [
+    0.0,
+    36.0,
+    36.92
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "stl",
+   "part": "3020",
+   "pos_mm": [
+    0.0,
+    32.0,
+    40.12
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bkr",
+   "part": "3701",
+   "pos_mm": [
+    0.0,
+    -36.0,
+    36.92
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "str",
+   "part": "3020",
+   "pos_mm": [
+    0.0,
+    -32.0,
+    40.12
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    0.0,
+    0.0,
+    78.52
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    0.0,
+    -16.0,
+    88.12
+   ],
+   "yaw_deg": 90
+  }
+ ],
+ "connections": [
+  {
+   "child": "axle_f",
+   "parent": "w1l",
+   "kind": "hinge"
+  },
+  {
+   "child": "axle_f",
+   "parent": "w1r",
+   "kind": "hinge"
+  },
+  {
+   "child": "tr-1",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "fl-1",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "hbx-1",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "hbf-1",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "obf-1",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "tr+1",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "fl+1",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "hbx+1",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "hbf+1",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "obf+1",
+   "parent": "axle_f",
+   "kind": "cross"
+  },
+  {
+   "child": "axle_l",
+   "parent": "pb_l",
+   "kind": "motor"
+  },
+  {
+   "child": "tyre",
+   "parent": "axle_l",
+   "kind": "cross"
+  },
+  {
+   "child": "hbrl",
+   "parent": "axle_l",
+   "kind": "cross"
+  },
+  {
+   "child": "ball",
+   "parent": "axle_l",
+   "kind": "cross"
+  },
+  {
+   "child": "ppl0",
+   "parent": "pb_l",
+   "kind": "pin"
+  },
+  {
+   "child": "ppl0",
+   "parent": "w1l",
+   "kind": "pin"
+  },
+  {
+   "child": "ppl1",
+   "parent": "pb_l",
+   "kind": "pin"
+  },
+  {
+   "child": "ppl1",
+   "parent": "w1l",
+   "kind": "pin"
+  },
+  {
+   "child": "ppl2",
+   "parent": "pb_l",
+   "kind": "pin"
+  },
+  {
+   "child": "ppl2",
+   "parent": "w1l",
+   "kind": "pin"
+  },
+  {
+   "child": "ppl3",
+   "parent": "pb_l",
+   "kind": "pin"
+  },
+  {
+   "child": "ppl3",
+   "parent": "w1l",
+   "kind": "pin"
+  },
+  {
+   "child": "cup",
+   "parent": "pb_r",
+   "kind": "motor"
+  },
+  {
+   "child": "ppr0",
+   "parent": "pb_r",
+   "kind": "pin"
+  },
+  {
+   "child": "ppr0",
+   "parent": "w1r",
+   "kind": "pin"
+  },
+  {
+   "child": "ppr1",
+   "parent": "pb_r",
+   "kind": "pin"
+  },
+  {
+   "child": "ppr1",
+   "parent": "w1r",
+   "kind": "pin"
+  },
+  {
+   "child": "ppr2",
+   "parent": "pb_r",
+   "kind": "pin"
+  },
+  {
+   "child": "ppr2",
+   "parent": "w1r",
+   "kind": "pin"
+  },
+  {
+   "child": "ppr3",
+   "parent": "pb_r",
+   "kind": "pin"
+  },
+  {
+   "child": "ppr3",
+   "parent": "w1r",
+   "kind": "pin"
+  },
+  {
+   "child": "bkl",
+   "parent": "w1l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "stl",
+   "parent": "bkl",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "bkr",
+   "parent": "w1r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "str",
+   "parent": "bkr",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "battery",
+   "parent": "stl",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "battery",
+   "parent": "str",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  }
+ ],
+ "gear_meshes": [],
+ "part_set": "inventory",
+ "start_gap_mm": 0.0,
+ "cv_joints": [
+  {
+   "name": "cv",
+   "ball": "ball",
+   "cup": "cup"
+  }
+ ],
+ "pullback": [
+  {
+   "motor": "pb_l",
+   "wind_turns": 10.0
+  },
+  {
+   "motor": "pb_r",
+   "wind_turns": 10.0
+  }
+ ]
+}

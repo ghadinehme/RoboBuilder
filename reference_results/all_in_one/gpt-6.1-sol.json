@@ -1,0 +1,1477 @@
+{
+ "name": "Long-wheelbase lifting rover",
+ "description": "Shared six-wheel printed rover: two independently geared drive groups, chain-driven centre tyres, large front climbing rims, and a geared lifting fork. Two IR receivers control three motors from one AAA battery box. Each bench has its own open-loop program.",
+ "part_set": "inventory",
+ "chassis": "frame",
+ "motor": "rear_motor",
+ "battery": "battery",
+ "parts": [
+  {
+   "name": "frame",
+   "part": "p3d_4f78561618",
+   "pos_mm": [
+    0,
+    0,
+    0
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "frame_back",
+   "part": "p3d_46a2d41b8e",
+   "pos_mm": [
+    0,
+    0,
+    0
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "join0_0",
+   "part": "2780",
+   "pos_mm": [
+    0,
+    -44,
+    67.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "join0_1",
+   "part": "6558",
+   "pos_mm": [
+    4,
+    -44,
+    83.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "join1_0",
+   "part": "2780",
+   "pos_mm": [
+    0,
+    44,
+    67.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "join1_1",
+   "part": "6558",
+   "pos_mm": [
+    4,
+    44,
+    83.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    8,
+    0,
+    108
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "receiver_b",
+   "part": "58123c01",
+   "pos_mm": [
+    -32,
+    40,
+    79.2
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "receiver_f",
+   "part": "58123c01",
+   "pos_mm": [
+    32,
+    -72,
+    79.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_axle",
+   "part": "50451",
+   "pos_mm": [
+    -152,
+    0,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "rearl",
+   "part": "32020c01",
+   "pos_mm": [
+    -152,
+    23.8,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rearr",
+   "part": "32020c01",
+   "pos_mm": [
+    -152,
+    -23.8,
+    31.32
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "rear_gear",
+   "part": "3649",
+   "pos_mm": [
+    -152,
+    52,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_bush",
+   "part": "4265c",
+   "pos_mm": [
+    -152,
+    -50,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_motor",
+   "part": "58121c01",
+   "pos_mm": [
+    -152,
+    56,
+    55.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "aux_motor",
+   "part": "99499c01",
+   "pos_mm": [
+    38,
+    48.5,
+    81.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_mountpin0",
+   "part": "2780",
+   "pos_mm": [
+    -130,
+    60,
+    55.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_mountpin1",
+   "part": "2780",
+   "pos_mm": [
+    -130,
+    100,
+    55.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_third_mount",
+   "part": "6558",
+   "pos_mm": [
+    -176,
+    60,
+    55.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_shaft",
+   "part": "3705",
+   "pos_mm": [
+    -152,
+    48,
+    55.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "rear_pinion",
+   "part": "10928",
+   "pos_mm": [
+    -152,
+    52,
+    55.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_axle",
+   "part": "50451",
+   "pos_mm": [
+    152,
+    0,
+    90
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "frontl",
+   "part": "p3d_cd81b44a3d",
+   "pos_mm": [
+    152,
+    20,
+    90
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "frontl_collar0",
+   "part": "4265c",
+   "pos_mm": [
+    152,
+    10,
+    90
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "frontl_collar1",
+   "part": "4265c",
+   "pos_mm": [
+    152,
+    22,
+    90
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "frontr",
+   "part": "p3d_cd81b44a3d",
+   "pos_mm": [
+    152,
+    -20,
+    90
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "frontr_collar0",
+   "part": "4265c",
+   "pos_mm": [
+    152,
+    -10,
+    90
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "frontr_collar1",
+   "part": "4265c",
+   "pos_mm": [
+    152,
+    -22,
+    90
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_gear",
+   "part": "3649",
+   "pos_mm": [
+    152,
+    -52,
+    90
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_bush",
+   "part": "4265c",
+   "pos_mm": [
+    152,
+    50,
+    90
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_motor",
+   "part": "58121c01",
+   "pos_mm": [
+    152,
+    -56,
+    114
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "front_mountpin0",
+   "part": "2780",
+   "pos_mm": [
+    130,
+    -60,
+    114
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_mountpin1",
+   "part": "2780",
+   "pos_mm": [
+    130,
+    -100,
+    114
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_third_mount",
+   "part": "6558",
+   "pos_mm": [
+    176,
+    -60,
+    114
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_shaft",
+   "part": "3705",
+   "pos_mm": [
+    152,
+    -48,
+    114
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "front_pinion",
+   "part": "10928",
+   "pos_mm": [
+    152,
+    -52,
+    114
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "middle_axle",
+   "part": "23948",
+   "pos_mm": [
+    0,
+    0,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "middle_l",
+   "part": "32020c01",
+   "pos_mm": [
+    0,
+    23.8,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "middle_r",
+   "part": "32020c01",
+   "pos_mm": [
+    0,
+    -23.8,
+    31.32
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "middle_bush",
+   "part": "4265c",
+   "pos_mm": [
+    0,
+    -42,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_chain_gear",
+   "part": "3649",
+   "pos_mm": [
+    -152,
+    0,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "middle_chain_gear",
+   "part": "3649",
+   "pos_mm": [
+    0,
+    0,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "battery_cap",
+   "part": "p3d_19a9f1f4ee",
+   "pos_mm": [
+    8,
+    0,
+    108
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_inner_stop_-1",
+   "part": "4265c",
+   "pos_mm": [
+    152,
+    -38,
+    90
+   ]
+  },
+  {
+   "name": "front_inner_stop_1",
+   "part": "4265c",
+   "pos_mm": [
+    152,
+    38,
+    90
+   ]
+  },
+  {
+   "name": "rear_inner_stop_-1",
+   "part": "4265c",
+   "pos_mm": [
+    -152,
+    -38,
+    31.32
+   ]
+  },
+  {
+   "name": "rear_inner_stop_1",
+   "part": "4265c",
+   "pos_mm": [
+    -152,
+    38,
+    31.32
+   ]
+  },
+  {
+   "name": "middle_bush_l",
+   "part": "4265c",
+   "pos_mm": [
+    0,
+    42,
+    31.32
+   ]
+  },
+  {
+   "name": "aux_mount0",
+   "part": "2780",
+   "pos_mm": [
+    50,
+    52.5,
+    89.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "aux_mount1",
+   "part": "2780",
+   "pos_mm": [
+    50,
+    100.5,
+    73.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "aux_mount2",
+   "part": "2780",
+   "pos_mm": [
+    26,
+    100.5,
+    89.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "aux_shaft",
+   "part": "3705",
+   "pos_mm": [
+    38,
+    40.5,
+    81.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "aux_input_gear",
+   "part": "10928",
+   "pos_mm": [
+    38,
+    44,
+    81.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "aux_input_collar",
+   "part": "4265c",
+   "pos_mm": [
+    38,
+    36,
+    81.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "aux_intermediate",
+   "part": "50451",
+   "pos_mm": [
+    38,
+    0,
+    57.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "aux_first40",
+   "part": "3649",
+   "pos_mm": [
+    38,
+    44,
+    57.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "aux_second8",
+   "part": "10928",
+   "pos_mm": [
+    38,
+    -40,
+    57.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "aux_intermediate_collar22",
+   "part": "4265c",
+   "pos_mm": [
+    38,
+    22,
+    57.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "aux_intermediate_collar36",
+   "part": "4265c",
+   "pos_mm": [
+    38,
+    36,
+    57.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "aux_intermediate_collar50",
+   "part": "4265c",
+   "pos_mm": [
+    38,
+    50,
+    57.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "aux_intermediate_collar-22",
+   "part": "4265c",
+   "pos_mm": [
+    38,
+    -22,
+    57.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "aux_intermediate_collar-46",
+   "part": "4265c",
+   "pos_mm": [
+    38,
+    -46,
+    57.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "aux_output",
+   "part": "50451",
+   "pos_mm": [
+    61.51510153071851,
+    0,
+    52.8
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "aux_final40",
+   "part": "3649",
+   "pos_mm": [
+    61.51510153071851,
+    -40,
+    52.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "lifting_foot",
+   "part": "p3d_abbeeca59f",
+   "pos_mm": [
+    61.51510153071851,
+    0,
+    52.8
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 3
+  },
+  {
+   "name": "aux_output_collar-14",
+   "part": "4265c",
+   "pos_mm": [
+    61.51510153071851,
+    -14,
+    52.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "aux_output_collar14",
+   "part": "4265c",
+   "pos_mm": [
+    61.51510153071851,
+    14,
+    52.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "aux_output_collar-20",
+   "part": "3713",
+   "pos_mm": [
+    61.51510153071851,
+    -20,
+    52.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "aux_output_collar20",
+   "part": "3713",
+   "pos_mm": [
+    61.51510153071851,
+    20,
+    52.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "aux_output_collar34",
+   "part": "4265c",
+   "pos_mm": [
+    61.51510153071851,
+    34,
+    52.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "aux_output_collar-46",
+   "part": "4265c",
+   "pos_mm": [
+    61.51510153071851,
+    -46,
+    52.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_input_inner_stop",
+   "part": "4265c",
+   "pos_mm": [
+    -152,
+    38,
+    55.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "front_input_inner_stop",
+   "part": "4265c",
+   "pos_mm": [
+    152,
+    -38,
+    114
+   ],
+   "yaw_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "join0_0",
+   "parent": "frame",
+   "kind": "pin"
+  },
+  {
+   "child": "join0_0",
+   "parent": "frame_back",
+   "kind": "pin"
+  },
+  {
+   "child": "join0_1",
+   "parent": "frame",
+   "kind": "pin"
+  },
+  {
+   "child": "join0_1",
+   "parent": "frame_back",
+   "kind": "pin"
+  },
+  {
+   "child": "join1_0",
+   "parent": "frame",
+   "kind": "pin"
+  },
+  {
+   "child": "join1_0",
+   "parent": "frame_back",
+   "kind": "pin"
+  },
+  {
+   "child": "join1_1",
+   "parent": "frame",
+   "kind": "pin"
+  },
+  {
+   "child": "join1_1",
+   "parent": "frame_back",
+   "kind": "pin"
+  },
+  {
+   "child": "receiver_b",
+   "parent": "frame_back",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "receiver_f",
+   "parent": "frame",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "rear_axle",
+   "parent": "frame_back",
+   "kind": "hinge"
+  },
+  {
+   "child": "rearl",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rearr",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_gear",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_bush",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_mountpin0",
+   "parent": "rear_motor",
+   "kind": "pin"
+  },
+  {
+   "child": "rear_mountpin0",
+   "parent": "frame_back",
+   "kind": "pin"
+  },
+  {
+   "child": "rear_mountpin1",
+   "parent": "rear_motor",
+   "kind": "pin"
+  },
+  {
+   "child": "rear_mountpin1",
+   "parent": "frame_back",
+   "kind": "pin"
+  },
+  {
+   "child": "rear_third_mount",
+   "parent": "rear_motor",
+   "kind": "pin"
+  },
+  {
+   "child": "rear_third_mount",
+   "parent": "frame_back",
+   "kind": "pin"
+  },
+  {
+   "child": "rear_shaft",
+   "parent": "rear_motor",
+   "kind": "motor"
+  },
+  {
+   "child": "rear_pinion",
+   "parent": "rear_shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "front_axle",
+   "parent": "frame",
+   "kind": "hinge"
+  },
+  {
+   "child": "frontl_collar0",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "frontl_collar1",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "frontl",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "frontr_collar0",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "frontr_collar1",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "frontr",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_gear",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_bush",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_mountpin0",
+   "parent": "front_motor",
+   "kind": "pin"
+  },
+  {
+   "child": "front_mountpin0",
+   "parent": "frame",
+   "kind": "pin"
+  },
+  {
+   "child": "front_mountpin1",
+   "parent": "front_motor",
+   "kind": "pin"
+  },
+  {
+   "child": "front_mountpin1",
+   "parent": "frame",
+   "kind": "pin"
+  },
+  {
+   "child": "front_third_mount",
+   "parent": "front_motor",
+   "kind": "pin"
+  },
+  {
+   "child": "front_third_mount",
+   "parent": "frame",
+   "kind": "pin"
+  },
+  {
+   "child": "front_shaft",
+   "parent": "front_motor",
+   "kind": "motor"
+  },
+  {
+   "child": "front_pinion",
+   "parent": "front_shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "middle_axle",
+   "parent": "frame",
+   "kind": "hinge"
+  },
+  {
+   "child": "middle_l",
+   "parent": "middle_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "middle_r",
+   "parent": "middle_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "middle_bush",
+   "parent": "middle_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_chain_gear",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "middle_chain_gear",
+   "parent": "middle_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "join0_1",
+   "parent": "battery_cap",
+   "kind": "pin"
+  },
+  {
+   "child": "join1_1",
+   "parent": "battery_cap",
+   "kind": "pin"
+  },
+  {
+   "child": "front_inner_stop_-1",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_inner_stop_1",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_inner_stop_-1",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_inner_stop_1",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "middle_bush_l",
+   "parent": "middle_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "aux_mount0",
+   "parent": "aux_motor",
+   "kind": "pin"
+  },
+  {
+   "child": "aux_mount0",
+   "parent": "frame",
+   "kind": "pin"
+  },
+  {
+   "child": "aux_mount1",
+   "parent": "aux_motor",
+   "kind": "pin"
+  },
+  {
+   "child": "aux_mount1",
+   "parent": "frame",
+   "kind": "pin"
+  },
+  {
+   "child": "aux_mount2",
+   "parent": "aux_motor",
+   "kind": "pin"
+  },
+  {
+   "child": "aux_mount2",
+   "parent": "frame",
+   "kind": "pin"
+  },
+  {
+   "child": "aux_shaft",
+   "parent": "aux_motor",
+   "kind": "motor"
+  },
+  {
+   "child": "aux_input_gear",
+   "parent": "aux_shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "aux_input_collar",
+   "parent": "aux_shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "aux_intermediate",
+   "parent": "frame",
+   "kind": "hinge"
+  },
+  {
+   "child": "aux_first40",
+   "parent": "aux_intermediate",
+   "kind": "cross"
+  },
+  {
+   "child": "aux_second8",
+   "parent": "aux_intermediate",
+   "kind": "cross"
+  },
+  {
+   "child": "aux_intermediate_collar22",
+   "parent": "aux_intermediate",
+   "kind": "cross"
+  },
+  {
+   "child": "aux_intermediate_collar36",
+   "parent": "aux_intermediate",
+   "kind": "cross"
+  },
+  {
+   "child": "aux_intermediate_collar50",
+   "parent": "aux_intermediate",
+   "kind": "cross"
+  },
+  {
+   "child": "aux_intermediate_collar-22",
+   "parent": "aux_intermediate",
+   "kind": "cross"
+  },
+  {
+   "child": "aux_intermediate_collar-46",
+   "parent": "aux_intermediate",
+   "kind": "cross"
+  },
+  {
+   "child": "aux_output",
+   "parent": "frame",
+   "kind": "hinge"
+  },
+  {
+   "child": "aux_final40",
+   "parent": "aux_output",
+   "kind": "cross"
+  },
+  {
+   "child": "lifting_foot",
+   "parent": "aux_output",
+   "kind": "cross"
+  },
+  {
+   "child": "aux_output_collar-14",
+   "parent": "aux_output",
+   "kind": "cross"
+  },
+  {
+   "child": "aux_output_collar14",
+   "parent": "aux_output",
+   "kind": "cross"
+  },
+  {
+   "child": "aux_output_collar-20",
+   "parent": "aux_output",
+   "kind": "cross"
+  },
+  {
+   "child": "aux_output_collar20",
+   "parent": "aux_output",
+   "kind": "cross"
+  },
+  {
+   "child": "aux_output_collar34",
+   "parent": "aux_output",
+   "kind": "cross"
+  },
+  {
+   "child": "aux_output_collar-46",
+   "parent": "aux_output",
+   "kind": "cross"
+  },
+  {
+   "child": "battery_cap",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "rear_input_inner_stop",
+   "parent": "rear_shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "front_input_inner_stop",
+   "parent": "front_shaft",
+   "kind": "cross"
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "rear_pinion",
+   "gear_b": "rear_gear"
+  },
+  {
+   "gear_a": "front_pinion",
+   "gear_b": "front_gear"
+  },
+  {
+   "gear_a": "aux_input_gear",
+   "gear_b": "aux_first40"
+  },
+  {
+   "gear_a": "aux_second8",
+   "gear_b": "aux_final40"
+  }
+ ],
+ "motor_programs": {
+  "ramp": [
+   {
+    "t": 0,
+    "motor": "all",
+    "level": 0
+   },
+   {
+    "t": 0.1,
+    "motor": "rear_motor",
+    "level": 7
+   },
+   {
+    "t": 0.2,
+    "motor": "front_motor",
+    "level": -4
+   },
+   {
+    "t": 24,
+    "motor": "all",
+    "level": "brake"
+   }
+  ],
+  "gap": [
+   {
+    "t": 0,
+    "motor": "all",
+    "level": 0
+   },
+   {
+    "t": 0.1,
+    "motor": "rear_motor",
+    "level": 3
+   },
+   {
+    "t": 0.2,
+    "motor": "front_motor",
+    "level": -2
+   },
+   {
+    "t": 1.1,
+    "motor": "rear_motor",
+    "level": 7
+   },
+   {
+    "t": 1.2,
+    "motor": "front_motor",
+    "level": -3
+   },
+   {
+    "t": 5.7,
+    "motor": "rear_motor",
+    "level": 3
+   },
+   {
+    "t": 5.8,
+    "motor": "front_motor",
+    "level": -2
+   },
+   {
+    "t": 6.0,
+    "motor": "rear_motor",
+    "level": 1
+   },
+   {
+    "t": 6.1,
+    "motor": "front_motor",
+    "level": 0
+   },
+   {
+    "t": 6.5,
+    "motor": "all",
+    "level": "brake"
+   }
+  ],
+  "bridge": [
+   {
+    "t": 0,
+    "motor": "all",
+    "level": 0
+   },
+   {
+    "t": 0.1,
+    "motor": "rear_motor",
+    "level": 3
+   },
+   {
+    "t": 0.2,
+    "motor": "front_motor",
+    "level": -2
+   },
+   {
+    "t": 1.1,
+    "motor": "rear_motor",
+    "level": 7
+   },
+   {
+    "t": 1.2,
+    "motor": "front_motor",
+    "level": -3
+   },
+   {
+    "t": 9.7,
+    "motor": "all",
+    "level": "brake"
+   }
+  ],
+  "rope": [
+   {
+    "t": 0,
+    "motor": "all",
+    "level": 0
+   },
+   {
+    "t": 0.1,
+    "motor": "rear_motor",
+    "level": 7
+   },
+   {
+    "t": 0.2,
+    "motor": "front_motor",
+    "level": -3
+   },
+   {
+    "t": 24,
+    "motor": "all",
+    "level": "brake"
+   }
+  ],
+  "steps": [
+   {
+    "t": 0,
+    "motor": "all",
+    "level": 0
+   },
+   {
+    "t": 0.1,
+    "motor": "rear_motor",
+    "level": 7
+   },
+   {
+    "t": 0.2,
+    "motor": "front_motor",
+    "level": -3
+   },
+   {
+    "t": 2.7,
+    "motor": "aux_motor",
+    "level": 7
+   },
+   {
+    "t": 8,
+    "motor": "aux_motor",
+    "level": "brake"
+   },
+   {
+    "t": 18,
+    "motor": "all",
+    "level": "brake"
+   }
+  ],
+  "bumps": [
+   {
+    "t": 0,
+    "motor": "all",
+    "level": 0
+   },
+   {
+    "t": 0.1,
+    "motor": "rear_motor",
+    "level": 7
+   },
+   {
+    "t": 0.2,
+    "motor": "front_motor",
+    "level": -3
+   },
+   {
+    "t": 7,
+    "motor": "aux_motor",
+    "level": 7
+   },
+   {
+    "t": 8.8,
+    "motor": "aux_motor",
+    "level": -7
+   },
+   {
+    "t": 11.5,
+    "motor": "aux_motor",
+    "level": "brake"
+   },
+   {
+    "t": 13.4,
+    "motor": "rear_motor",
+    "level": "brake"
+   },
+   {
+    "t": 13.5,
+    "motor": "front_motor",
+    "level": "brake"
+   }
+  ],
+  "seesaw": [
+   {
+    "t": 0,
+    "motor": "all",
+    "level": 0
+   },
+   {
+    "t": 0.1,
+    "motor": "rear_motor",
+    "level": 3
+   },
+   {
+    "t": 0.2,
+    "motor": "front_motor",
+    "level": -3
+   },
+   {
+    "t": 12.75,
+    "motor": "all",
+    "level": "brake"
+   }
+  ],
+  "gap_drop": [
+   {
+    "t": 0,
+    "motor": "all",
+    "level": 0
+   },
+   {
+    "t": 0.1,
+    "motor": "rear_motor",
+    "level": 7
+   },
+   {
+    "t": 0.2,
+    "motor": "front_motor",
+    "level": -1
+   },
+   {
+    "t": 8.5,
+    "motor": "all",
+    "level": "brake"
+   }
+  ],
+  "wall": [
+   {
+    "t": 0,
+    "motor": "all",
+    "level": 0
+   },
+   {
+    "t": 0.1,
+    "motor": "rear_motor",
+    "level": 5
+   },
+   {
+    "t": 0.2,
+    "motor": "front_motor",
+    "level": -5
+   },
+   {
+    "t": 2.7,
+    "motor": "aux_motor",
+    "level": 7
+   },
+   {
+    "t": 7.1,
+    "motor": "all",
+    "level": "brake"
+   }
+  ],
+  "u_turn": [
+   {
+    "t": 0,
+    "motor": "all",
+    "level": 0
+   },
+   {
+    "t": 0.1,
+    "motor": "rear_motor",
+    "level": 7
+   },
+   {
+    "t": 0.2,
+    "motor": "front_motor",
+    "level": -3
+   },
+   {
+    "t": 24,
+    "motor": "all",
+    "level": "brake"
+   }
+  ]
+ },
+ "start_gap_mm": 30,
+ "chains": [
+  {
+   "name": "centre_drive",
+   "gears": [
+    "rear_chain_gear",
+    "middle_chain_gear"
+   ],
+   "links": 68
+  }
+ ]
+}

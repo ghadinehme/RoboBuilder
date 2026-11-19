@@ -1,0 +1,274 @@
+{
+ "name": "pbH",
+ "description": "Pullback spring motor pinned beside the plank into the left rail's holes; its output (8 mm above the rear axle) drives the rear axle 1:1 through 8T-8T; flanged free front axle; transverse AAA box.",
+ "part_set": "inventory",
+ "parts": [
+  {
+   "name": "rail_l",
+   "part": "3894",
+   "pos_mm": [
+    16.0,
+    20.0,
+    19.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "rail_r",
+   "part": "2730",
+   "pos_mm": [
+    32.0,
+    -12.0,
+    19.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    32.0,
+    -8.0,
+    57.6
+   ],
+   "yaw_deg": 90.0
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    32.0,
+    -24.0,
+    67.2
+   ],
+   "yaw_deg": 90.0
+  },
+  {
+   "name": "pb",
+   "part": "12787c01",
+   "pos_mm": [
+    0.0,
+    36.0,
+    23.2
+   ],
+   "yaw_deg": 180.0
+  },
+  {
+   "name": "ppin0",
+   "part": "2780",
+   "pos_mm": [
+    8.0,
+    24.0,
+    15.2
+   ],
+   "yaw_deg": 90.0
+  },
+  {
+   "name": "ppin1",
+   "part": "2780",
+   "pos_mm": [
+    16.0,
+    24.0,
+    15.2
+   ],
+   "yaw_deg": 90.0
+  },
+  {
+   "name": "pshaft",
+   "part": "4519",
+   "pos_mm": [
+    0.0,
+    20.0,
+    23.2
+   ],
+   "yaw_deg": 90.0
+  },
+  {
+   "name": "pg",
+   "part": "10928",
+   "pos_mm": [
+    0.0,
+    12.0,
+    23.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "raxle",
+   "part": "32073",
+   "pos_mm": [
+    0.0,
+    4.0,
+    15.2
+   ],
+   "yaw_deg": 90.0
+  },
+  {
+   "name": "rg",
+   "part": "10928",
+   "pos_mm": [
+    0.0,
+    12.0,
+    15.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "rw_l",
+   "part": "4185",
+   "pos_mm": [
+    0.0,
+    -2.0,
+    15.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "faxle",
+   "part": "32073",
+   "pos_mm": [
+    64.0,
+    0.0,
+    15.2
+   ],
+   "yaw_deg": 90.0
+  },
+  {
+   "name": "fi",
+   "part": "94925",
+   "pos_mm": [
+    64.0,
+    -1.2,
+    15.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "fo_l",
+   "part": "32198",
+   "pos_mm": [
+    64.0,
+    18.1,
+    15.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "fo_r",
+   "part": "32198",
+   "pos_mm": [
+    64.0,
+    -18.9,
+    15.2
+   ],
+   "yaw_deg": 180.0
+  }
+ ],
+ "connections": [
+  {
+   "child": "rail_l",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "rail_r",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "ppin0",
+   "parent": "pb",
+   "kind": "pin"
+  },
+  {
+   "child": "ppin0",
+   "parent": "rail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "ppin1",
+   "parent": "pb",
+   "kind": "pin"
+  },
+  {
+   "child": "ppin1",
+   "parent": "rail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pshaft",
+   "parent": "pb",
+   "kind": "motor"
+  },
+  {
+   "child": "pg",
+   "parent": "pshaft",
+   "kind": "cross"
+  },
+  {
+   "child": "raxle",
+   "parent": "rail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "raxle",
+   "parent": "rail_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "rg",
+   "parent": "raxle",
+   "kind": "cross"
+  },
+  {
+   "child": "rw_l",
+   "parent": "raxle",
+   "kind": "cross"
+  },
+  {
+   "child": "faxle",
+   "parent": "rail_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "fi",
+   "parent": "faxle",
+   "kind": "cross"
+  },
+  {
+   "child": "fo_l",
+   "parent": "faxle",
+   "kind": "cross"
+  },
+  {
+   "child": "fo_r",
+   "parent": "faxle",
+   "kind": "cross"
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "pg",
+   "gear_b": "rg"
+  }
+ ],
+ "chassis": "rail_r",
+ "motor": "pb",
+ "battery": "battery",
+ "motor_program": [],
+ "start_gap_mm": 0.0,
+ "pullback": [
+  {
+   "motor": "pb",
+   "wind_turns": 10
+  }
+ ]
+}

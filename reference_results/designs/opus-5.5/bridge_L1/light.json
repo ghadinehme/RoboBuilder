@@ -1,0 +1,307 @@
+{
+ "name": "pg6w",
+ "description": "pullback-motor car: the spring motor is the chassis; crosswise AAA box over the drive axle on two 1x2 beam bricks pinned to the motor's top pin holes; 12T gears as small rear wheels; two free-swinging finger levers (changeover catches on a 7L axle through the motor's pin hole) drop beside the plank's side faces and keep the car centred, trailing up over the goal edge",
+ "chassis": "pb",
+ "motor": "pb",
+ "battery": "battery",
+ "intended": [],
+ "parts": [
+  {
+   "name": "pb",
+   "part": "12787c01",
+   "pos_mm": [
+    0.0,
+    0.0,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "axle",
+   "part": "3705",
+   "pos_mm": [
+    0.0,
+    0.0,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "rax",
+   "part": "32073",
+   "pos_mm": [
+    -40.0,
+    0.0,
+    7.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "wheel_l",
+   "part": "4185t",
+   "pos_mm": [
+    0.0,
+    14.2,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rw_l",
+   "part": "69778",
+   "pos_mm": [
+    -40.0,
+    16.0,
+    7.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "brick_l",
+   "part": "3701",
+   "pos_mm": [
+    0.0,
+    20.0,
+    43.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pin_l0",
+   "part": "2780",
+   "pos_mm": [
+    0.0,
+    14.0,
+    39.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_l1",
+   "part": "2780",
+   "pos_mm": [
+    -8.0,
+    14.0,
+    39.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "wheel_r",
+   "part": "4185t",
+   "pos_mm": [
+    0.0,
+    -14.2,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rw_r",
+   "part": "69778",
+   "pos_mm": [
+    -40.0,
+    -16.0,
+    7.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "brick_r",
+   "part": "3701",
+   "pos_mm": [
+    0.0,
+    -20.0,
+    43.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pin_r0",
+   "part": "2780",
+   "pos_mm": [
+    0.0,
+    -14.0,
+    39.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_r1",
+   "part": "2780",
+   "pos_mm": [
+    -8.0,
+    -14.0,
+    39.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    0.0,
+    0.0,
+    81.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    0.0,
+    -16.0,
+    91.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "fax2",
+   "part": "44294",
+   "pos_mm": [
+    -24.0,
+    0.0,
+    7.199999999999999
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "fing_l",
+   "part": "6641",
+   "pos_mm": [
+    -16.272593389687454,
+    24.4,
+    9.270552360820165
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -15.0
+  },
+  {
+   "name": "fing_r",
+   "part": "6641",
+   "pos_mm": [
+    -16.272593389687454,
+    -24.4,
+    9.270552360820165
+   ],
+   "yaw_deg": 0,
+   "spin_deg": -15.0
+  }
+ ],
+ "connections": [
+  {
+   "child": "axle",
+   "parent": "pb",
+   "kind": "motor"
+  },
+  {
+   "child": "rax",
+   "parent": "pb",
+   "kind": "hinge"
+  },
+  {
+   "child": "wheel_l",
+   "parent": "axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rw_l",
+   "parent": "rax",
+   "kind": "cross"
+  },
+  {
+   "child": "pin_l0",
+   "parent": "pb",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_l0",
+   "parent": "brick_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_l1",
+   "parent": "pb",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_l1",
+   "parent": "brick_l",
+   "kind": "pin"
+  },
+  {
+   "child": "wheel_r",
+   "parent": "axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rw_r",
+   "parent": "rax",
+   "kind": "cross"
+  },
+  {
+   "child": "pin_r0",
+   "parent": "pb",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_r0",
+   "parent": "brick_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_r1",
+   "parent": "pb",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_r1",
+   "parent": "brick_r",
+   "kind": "pin"
+  },
+  {
+   "child": "battery",
+   "parent": "brick_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "battery",
+   "parent": "brick_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "fax2",
+   "parent": "pb",
+   "kind": "hinge"
+  },
+  {
+   "child": "fing_l",
+   "parent": "fax2",
+   "kind": "cross"
+  },
+  {
+   "child": "fing_r",
+   "parent": "fax2",
+   "kind": "cross"
+  }
+ ],
+ "gear_meshes": [],
+ "part_set": "inventory",
+ "start_gap_mm": 5.0,
+ "pullback": [
+  {
+   "motor": "pb",
+   "wind_turns": 8.0,
+   "sense": 1
+  }
+ ]
+}

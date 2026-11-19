@@ -1,0 +1,609 @@
+{
+ "name": "diamond_rover",
+ "description": "Four large driven tyres plus two raised, chain-driven centreline rollers climb central rods without grounding. Two M motors with 5:1 reductions and equal chain sprockets. Timed constant drive then brake.",
+ "part_set": "inventory",
+ "chassis": "rail_l",
+ "motor": "rear_motor",
+ "battery": "battery",
+ "start_gap_mm": 10,
+ "motor_program": [
+  {
+   "t": 0,
+   "motor": "all",
+   "level": 6
+  },
+  {
+   "t": 25,
+   "motor": "all",
+   "level": "brake"
+  }
+ ],
+ "parts": [
+  {
+   "name": "rear_axle",
+   "part": "50451",
+   "pos_mm": [
+    0,
+    0,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "rear_wheel_l",
+   "part": "32020c01",
+   "pos_mm": [
+    0,
+    50,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_wheel_r",
+   "part": "32020c01",
+   "pos_mm": [
+    0,
+    -58,
+    31.32
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "rear_stop_l",
+   "part": "4265c",
+   "pos_mm": [
+    0,
+    14,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_stop_r",
+   "part": "4265c",
+   "pos_mm": [
+    0,
+    -14,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_gear",
+   "part": "3649",
+   "pos_mm": [
+    0,
+    28,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_mount0",
+   "part": "3032",
+   "pos_mm": [
+    8,
+    0,
+    38.52
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "rear_mount1",
+   "part": "3032",
+   "pos_mm": [
+    8,
+    0,
+    41.720000000000006
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "rear_motor",
+   "part": "58120c01",
+   "pos_mm": [
+    8,
+    24,
+    53.82
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "rear_shaft",
+   "part": "4519",
+   "pos_mm": [
+    8,
+    24,
+    53.82
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "rear_pinion",
+   "part": "10928",
+   "pos_mm": [
+    8,
+    28,
+    53.82
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rear_shaftstop",
+   "part": "4265c",
+   "pos_mm": [
+    8,
+    34,
+    53.82
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "deck",
+   "part": "3032",
+   "pos_mm": [
+    -40,
+    0,
+    38.52
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    -40,
+    0,
+    76.92
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    -40,
+    -16,
+    86.52
+   ],
+   "yaw_deg": -90
+  },
+  {
+   "name": "rail_l",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    20,
+    35.32
+   ]
+  },
+  {
+   "name": "nose_rail_l",
+   "part": "3894",
+   "pos_mm": [
+    88,
+    20,
+    35.32
+   ]
+  },
+  {
+   "name": "nose_tie_l",
+   "part": "4477",
+   "pos_mm": [
+    64,
+    20,
+    25.72
+   ]
+  },
+  {
+   "name": "tail_rail_l",
+   "part": "3894",
+   "pos_mm": [
+    -88,
+    20,
+    35.32
+   ]
+  },
+  {
+   "name": "tail_tie_l",
+   "part": "4477",
+   "pos_mm": [
+    -64,
+    20,
+    25.72
+   ]
+  },
+  {
+   "name": "rail_r",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    -20,
+    35.32
+   ]
+  },
+  {
+   "name": "nose_rail_r",
+   "part": "3894",
+   "pos_mm": [
+    88,
+    -20,
+    35.32
+   ]
+  },
+  {
+   "name": "nose_tie_r",
+   "part": "4477",
+   "pos_mm": [
+    64,
+    -20,
+    25.72
+   ]
+  },
+  {
+   "name": "tail_rail_r",
+   "part": "3894",
+   "pos_mm": [
+    -88,
+    -20,
+    35.32
+   ]
+  },
+  {
+   "name": "tail_tie_r",
+   "part": "4477",
+   "pos_mm": [
+    -64,
+    -20,
+    25.72
+   ]
+  },
+  {
+   "name": "nose_axle",
+   "part": "3707",
+   "pos_mm": [
+    96,
+    0,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "nose_wheel",
+   "part": "32020c01",
+   "pos_mm": [
+    96,
+    0,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "nose_stop",
+   "part": "4265c",
+   "pos_mm": [
+    96,
+    26,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "nose_out",
+   "part": "94925",
+   "pos_mm": [
+    96,
+    -28,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "nose_drive",
+   "part": "94925",
+   "pos_mm": [
+    0,
+    -28,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "tail_axle",
+   "part": "23948",
+   "pos_mm": [
+    -96,
+    0,
+    31.32
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "tail_wheel",
+   "part": "32020c01",
+   "pos_mm": [
+    -96,
+    0,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "tail_stop",
+   "part": "4265c",
+   "pos_mm": [
+    -96,
+    26,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "tail_out",
+   "part": "94925",
+   "pos_mm": [
+    -96,
+    -36,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "tail_drive",
+   "part": "94925",
+   "pos_mm": [
+    0,
+    -36,
+    31.32
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "tail_inner_stop",
+   "part": "3713",
+   "pos_mm": [
+    -96,
+    -28,
+    31.32
+   ]
+  }
+ ],
+ "connections": [
+  {
+   "child": "rear_axle",
+   "parent": "rail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "rear_axle",
+   "parent": "rail_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "rear_wheel_l",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_wheel_r",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_stop_l",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_stop_r",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_gear",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_mount0",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rear_mount0",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rear_mount1",
+   "parent": "rear_mount0",
+   "kind": "stud",
+   "studs": 24
+  },
+  {
+   "child": "rear_motor",
+   "parent": "rear_mount1",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "rear_shaft",
+   "parent": "rear_motor",
+   "kind": "motor"
+  },
+  {
+   "child": "rear_pinion",
+   "parent": "rear_shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_shaftstop",
+   "parent": "rear_shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "deck",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "deck",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "battery",
+   "parent": "deck",
+   "kind": "stud",
+   "studs": 24
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "rail_l",
+   "parent": "nose_tie_l",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "nose_rail_l",
+   "parent": "nose_tie_l",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "rail_l",
+   "parent": "tail_tie_l",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "tail_rail_l",
+   "parent": "tail_tie_l",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "rail_r",
+   "parent": "nose_tie_r",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "nose_rail_r",
+   "parent": "nose_tie_r",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "rail_r",
+   "parent": "tail_tie_r",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "tail_rail_r",
+   "parent": "tail_tie_r",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "nose_axle",
+   "parent": "nose_rail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "nose_axle",
+   "parent": "nose_rail_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "nose_wheel",
+   "parent": "nose_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "nose_stop",
+   "parent": "nose_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "nose_out",
+   "parent": "nose_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "nose_drive",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "tail_axle",
+   "parent": "tail_rail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "tail_axle",
+   "parent": "tail_rail_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "tail_wheel",
+   "parent": "tail_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "tail_stop",
+   "parent": "tail_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "tail_out",
+   "parent": "tail_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "tail_drive",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "tail_inner_stop",
+   "parent": "tail_axle",
+   "kind": "cross"
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "rear_pinion",
+   "gear_b": "rear_gear"
+  }
+ ],
+ "chains": [
+  {
+   "name": "nose_chain",
+   "gears": [
+    "nose_drive",
+    "nose_out"
+   ],
+   "links": 38
+  },
+  {
+   "name": "tail_chain",
+   "gears": [
+    "tail_drive",
+    "tail_out"
+   ],
+   "links": 38
+  }
+ ]
+}

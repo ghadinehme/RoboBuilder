@@ -1,0 +1,4369 @@
+{
+ "name": "Tandem bridge crawler",
+ "description": "Serial chain and wide tracks hand deck-edge propulsion between modules; pinned girders and passive end rollers carry the cantilever without timed deployment.",
+ "part_set": "inventory",
+ "chassis": "rail_1_3",
+ "motor": "motor_f",
+ "battery": "battery",
+ "parts": [
+  {
+   "name": "rail_-1_0",
+   "part": "32018",
+   "pos_mm": [
+    -336,
+    -28,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail_-1_1",
+   "part": "32018",
+   "pos_mm": [
+    -224,
+    -28,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail_-1_2",
+   "part": "32018",
+   "pos_mm": [
+    -112,
+    -28,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail_-1_3",
+   "part": "32018",
+   "pos_mm": [
+    0,
+    -28,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail_-1_4",
+   "part": "32018",
+   "pos_mm": [
+    112,
+    -28,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail_-1_5",
+   "part": "32018",
+   "pos_mm": [
+    224,
+    -28,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail_-1_6",
+   "part": "32018",
+   "pos_mm": [
+    336,
+    -28,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "lap_-1_0",
+   "part": "3703",
+   "pos_mm": [
+    -320,
+    -36,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "lap_-1_1",
+   "part": "3703",
+   "pos_mm": [
+    -192,
+    -36,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "lap_-1_2",
+   "part": "3703",
+   "pos_mm": [
+    -64,
+    -36,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "lap_-1_3",
+   "part": "3703",
+   "pos_mm": [
+    64,
+    -36,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "lap_-1_4",
+   "part": "3703",
+   "pos_mm": [
+    192,
+    -36,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "lap_-1_5",
+   "part": "3703",
+   "pos_mm": [
+    320,
+    -36,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pin_-1_0_0_-376",
+   "part": "2780",
+   "pos_mm": [
+    -376,
+    -32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_-1_0_0_-288",
+   "part": "2780",
+   "pos_mm": [
+    -288,
+    -32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_-1_1_0_-272",
+   "part": "2780",
+   "pos_mm": [
+    -272,
+    -32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_-1_1_0_-264",
+   "part": "2780",
+   "pos_mm": [
+    -264,
+    -32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_-1_1_1_-248",
+   "part": "2780",
+   "pos_mm": [
+    -248,
+    -32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_-1_1_1_-176",
+   "part": "2780",
+   "pos_mm": [
+    -176,
+    -32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_-1_2_1_-160",
+   "part": "2780",
+   "pos_mm": [
+    -160,
+    -32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_-1_2_1_-136",
+   "part": "2780",
+   "pos_mm": [
+    -136,
+    -32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_-1_2_2_-120",
+   "part": "2780",
+   "pos_mm": [
+    -120,
+    -32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_-1_2_2_-64",
+   "part": "2780",
+   "pos_mm": [
+    -64,
+    -32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_-1_3_2_-48",
+   "part": "2780",
+   "pos_mm": [
+    -48,
+    -32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_-1_3_2_-8",
+   "part": "2780",
+   "pos_mm": [
+    -8,
+    -32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_-1_3_3_8",
+   "part": "2780",
+   "pos_mm": [
+    8,
+    -32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_-1_3_3_48",
+   "part": "2780",
+   "pos_mm": [
+    48,
+    -32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_-1_4_3_64",
+   "part": "2780",
+   "pos_mm": [
+    64,
+    -32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_-1_4_3_120",
+   "part": "2780",
+   "pos_mm": [
+    120,
+    -32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_-1_4_4_136",
+   "part": "2780",
+   "pos_mm": [
+    136,
+    -32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_-1_4_4_160",
+   "part": "2780",
+   "pos_mm": [
+    160,
+    -32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_-1_5_4_176",
+   "part": "2780",
+   "pos_mm": [
+    176,
+    -32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_-1_5_4_248",
+   "part": "2780",
+   "pos_mm": [
+    248,
+    -32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_-1_5_5_264",
+   "part": "2780",
+   "pos_mm": [
+    264,
+    -32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_-1_5_5_272",
+   "part": "2780",
+   "pos_mm": [
+    272,
+    -32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_-1_6_5_288",
+   "part": "2780",
+   "pos_mm": [
+    288,
+    -32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_-1_6_5_376",
+   "part": "2780",
+   "pos_mm": [
+    376,
+    -32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "rail_1_0",
+   "part": "32018",
+   "pos_mm": [
+    -336,
+    28,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail_1_1",
+   "part": "32018",
+   "pos_mm": [
+    -224,
+    28,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail_1_2",
+   "part": "32018",
+   "pos_mm": [
+    -112,
+    28,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail_1_3",
+   "part": "32018",
+   "pos_mm": [
+    0,
+    28,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail_1_4",
+   "part": "32018",
+   "pos_mm": [
+    112,
+    28,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail_1_5",
+   "part": "32018",
+   "pos_mm": [
+    224,
+    28,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rail_1_6",
+   "part": "32018",
+   "pos_mm": [
+    336,
+    28,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "lap_1_0",
+   "part": "3703",
+   "pos_mm": [
+    -320,
+    36,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "lap_1_1",
+   "part": "3703",
+   "pos_mm": [
+    -192,
+    36,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "lap_1_2",
+   "part": "3703",
+   "pos_mm": [
+    -64,
+    36,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "lap_1_3",
+   "part": "3703",
+   "pos_mm": [
+    64,
+    36,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "lap_1_4",
+   "part": "3703",
+   "pos_mm": [
+    192,
+    36,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "lap_1_5",
+   "part": "3703",
+   "pos_mm": [
+    320,
+    36,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pin_1_0_0_-376",
+   "part": "2780",
+   "pos_mm": [
+    -376,
+    32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_1_0_0_-288",
+   "part": "2780",
+   "pos_mm": [
+    -288,
+    32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_1_1_0_-272",
+   "part": "2780",
+   "pos_mm": [
+    -272,
+    32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_1_1_0_-264",
+   "part": "2780",
+   "pos_mm": [
+    -264,
+    32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_1_1_1_-248",
+   "part": "2780",
+   "pos_mm": [
+    -248,
+    32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_1_1_1_-176",
+   "part": "2780",
+   "pos_mm": [
+    -176,
+    32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_1_2_1_-160",
+   "part": "2780",
+   "pos_mm": [
+    -160,
+    32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_1_2_1_-136",
+   "part": "2780",
+   "pos_mm": [
+    -136,
+    32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_1_2_2_-120",
+   "part": "2780",
+   "pos_mm": [
+    -120,
+    32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_1_2_2_-64",
+   "part": "2780",
+   "pos_mm": [
+    -64,
+    32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_1_3_2_-48",
+   "part": "2780",
+   "pos_mm": [
+    -48,
+    32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_1_3_2_-8",
+   "part": "2780",
+   "pos_mm": [
+    -8,
+    32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_1_3_3_8",
+   "part": "2780",
+   "pos_mm": [
+    8,
+    32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_1_3_3_48",
+   "part": "2780",
+   "pos_mm": [
+    48,
+    32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_1_4_3_64",
+   "part": "2780",
+   "pos_mm": [
+    64,
+    32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_1_4_3_120",
+   "part": "2780",
+   "pos_mm": [
+    120,
+    32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_1_4_4_136",
+   "part": "2780",
+   "pos_mm": [
+    136,
+    32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_1_4_4_160",
+   "part": "2780",
+   "pos_mm": [
+    160,
+    32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_1_5_4_176",
+   "part": "2780",
+   "pos_mm": [
+    176,
+    32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_1_5_4_248",
+   "part": "2780",
+   "pos_mm": [
+    248,
+    32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_1_5_5_264",
+   "part": "2780",
+   "pos_mm": [
+    264,
+    32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_1_5_5_272",
+   "part": "2780",
+   "pos_mm": [
+    272,
+    32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_1_6_5_288",
+   "part": "2780",
+   "pos_mm": [
+    288,
+    32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pin_1_6_5_376",
+   "part": "2780",
+   "pos_mm": [
+    376,
+    32,
+    33.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "post_-360_-1",
+   "part": "3001",
+   "pos_mm": [
+    -360,
+    -32,
+    47.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "postcap_-360_-1",
+   "part": "3020",
+   "pos_mm": [
+    -360,
+    -32,
+    50.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "post_-360_1",
+   "part": "3001",
+   "pos_mm": [
+    -360,
+    32,
+    47.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "postcap_-360_1",
+   "part": "3020",
+   "pos_mm": [
+    -360,
+    32,
+    50.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "cross-360",
+   "part": "3030",
+   "pos_mm": [
+    -360,
+    0,
+    53.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "post_-152_-1",
+   "part": "3001",
+   "pos_mm": [
+    -152,
+    -32,
+    47.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "postcap_-152_-1",
+   "part": "3020",
+   "pos_mm": [
+    -152,
+    -32,
+    50.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "post_-152_1",
+   "part": "3001",
+   "pos_mm": [
+    -152,
+    32,
+    47.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "postcap_-152_1",
+   "part": "3020",
+   "pos_mm": [
+    -152,
+    32,
+    50.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "cross-152",
+   "part": "3030",
+   "pos_mm": [
+    -152,
+    0,
+    53.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "post_-88.0_-1",
+   "part": "3001",
+   "pos_mm": [
+    -88.0,
+    -32,
+    47.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "postcap_-88.0_-1",
+   "part": "3020",
+   "pos_mm": [
+    -88.0,
+    -32,
+    50.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "post_-88.0_1",
+   "part": "3001",
+   "pos_mm": [
+    -88.0,
+    32,
+    47.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "postcap_-88.0_1",
+   "part": "3020",
+   "pos_mm": [
+    -88.0,
+    32,
+    50.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "cross-88.0",
+   "part": "3030",
+   "pos_mm": [
+    -88.0,
+    0,
+    53.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "post_152_-1",
+   "part": "3001",
+   "pos_mm": [
+    152,
+    -32,
+    47.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "postcap_152_-1",
+   "part": "3020",
+   "pos_mm": [
+    152,
+    -32,
+    50.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "post_152_1",
+   "part": "3001",
+   "pos_mm": [
+    152,
+    32,
+    47.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "postcap_152_1",
+   "part": "3020",
+   "pos_mm": [
+    152,
+    32,
+    50.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "cross152",
+   "part": "3030",
+   "pos_mm": [
+    152,
+    0,
+    53.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "post_360_-1",
+   "part": "3001",
+   "pos_mm": [
+    360,
+    -32,
+    47.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "postcap_360_-1",
+   "part": "3020",
+   "pos_mm": [
+    360,
+    -32,
+    50.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "post_360_1",
+   "part": "3001",
+   "pos_mm": [
+    360,
+    32,
+    47.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "postcap_360_1",
+   "part": "3020",
+   "pos_mm": [
+    360,
+    32,
+    50.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "cross360",
+   "part": "3030",
+   "pos_mm": [
+    360,
+    0,
+    53.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "endax_r",
+   "part": "50451",
+   "pos_mm": [
+    -376,
+    0,
+    14.4
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "endbearing_r_-1_0",
+   "part": "3701",
+   "pos_mm": [
+    -376,
+    -28,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "endbearing_r_-1_1",
+   "part": "3701",
+   "pos_mm": [
+    -376,
+    -28,
+    18.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "endwheel_r_-1",
+   "part": "55423c01",
+   "pos_mm": [
+    -376,
+    -52,
+    14.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "endbush_r_-1",
+   "part": "4265c",
+   "pos_mm": [
+    -376,
+    -34,
+    14.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "endbearing_r_1_0",
+   "part": "3701",
+   "pos_mm": [
+    -376,
+    28,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "endbearing_r_1_1",
+   "part": "3701",
+   "pos_mm": [
+    -376,
+    28,
+    18.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "endwheel_r_1",
+   "part": "55423c01",
+   "pos_mm": [
+    -376,
+    52,
+    14.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "endbush_r_1",
+   "part": "4265c",
+   "pos_mm": [
+    -376,
+    34,
+    14.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "endax_f",
+   "part": "50451",
+   "pos_mm": [
+    376,
+    0,
+    14.4
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "endbearing_f_-1_0",
+   "part": "3701",
+   "pos_mm": [
+    376,
+    -28,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "endbearing_f_-1_1",
+   "part": "3701",
+   "pos_mm": [
+    376,
+    -28,
+    18.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "endwheel_f_-1",
+   "part": "55423c01",
+   "pos_mm": [
+    376,
+    -52,
+    14.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "endbush_f_-1",
+   "part": "4265c",
+   "pos_mm": [
+    376,
+    -34,
+    14.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "endbearing_f_1_0",
+   "part": "3701",
+   "pos_mm": [
+    376,
+    28,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "endbearing_f_1_1",
+   "part": "3701",
+   "pos_mm": [
+    376,
+    28,
+    18.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "endwheel_f_1",
+   "part": "55423c01",
+   "pos_mm": [
+    376,
+    52,
+    14.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "endbush_f_1",
+   "part": "4265c",
+   "pos_mm": [
+    376,
+    34,
+    14.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "ax_r_drive",
+   "part": "50451",
+   "pos_mm": [
+    -32,
+    0,
+    24
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bearing_r_drive_-1_28",
+   "part": "3894",
+   "pos_mm": [
+    -32,
+    -28,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bearing_r_drive_-1_36",
+   "part": "3894",
+   "pos_mm": [
+    -32,
+    -36,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bearingpin_r_drive_-1_-16",
+   "part": "2780",
+   "pos_mm": [
+    -48,
+    -32,
+    24
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bearingpin_r_drive_-1_16",
+   "part": "2780",
+   "pos_mm": [
+    -16,
+    -32,
+    24
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bearing_r_drive_1_28",
+   "part": "3894",
+   "pos_mm": [
+    -32,
+    28,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bearing_r_drive_1_36",
+   "part": "3894",
+   "pos_mm": [
+    -32,
+    36,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bearingpin_r_drive_1_-16",
+   "part": "2780",
+   "pos_mm": [
+    -48,
+    32,
+    24
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bearingpin_r_drive_1_16",
+   "part": "2780",
+   "pos_mm": [
+    -16,
+    32,
+    24
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bush_r_drive_1",
+   "part": "4265c",
+   "pos_mm": [
+    -32,
+    42,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "spr_r_drive",
+   "part": "3649",
+   "pos_mm": [
+    -32,
+    0,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "ax_r_idler",
+   "part": "50451",
+   "pos_mm": [
+    -280,
+    0,
+    24
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bearing_r_idler_-1_28",
+   "part": "3894",
+   "pos_mm": [
+    -280,
+    -28,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bearing_r_idler_-1_36",
+   "part": "3894",
+   "pos_mm": [
+    -280,
+    -36,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bearingpin_r_idler_-1_-16",
+   "part": "2780",
+   "pos_mm": [
+    -296,
+    -32,
+    24
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bearingpin_r_idler_-1_16",
+   "part": "2780",
+   "pos_mm": [
+    -264,
+    -32,
+    24
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bush_r_idler_-1",
+   "part": "4265c",
+   "pos_mm": [
+    -280,
+    -42,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bearing_r_idler_1_28",
+   "part": "3894",
+   "pos_mm": [
+    -280,
+    28,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bearing_r_idler_1_36",
+   "part": "3894",
+   "pos_mm": [
+    -280,
+    36,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bearingpin_r_idler_1_-16",
+   "part": "2780",
+   "pos_mm": [
+    -296,
+    32,
+    24
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bearingpin_r_idler_1_16",
+   "part": "2780",
+   "pos_mm": [
+    -264,
+    32,
+    24
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bush_r_idler_1",
+   "part": "4265c",
+   "pos_mm": [
+    -280,
+    42,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "spr_r_idler",
+   "part": "3649",
+   "pos_mm": [
+    -280,
+    0,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "gear_r",
+   "part": "3649",
+   "pos_mm": [
+    -32,
+    -44,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "arm_r_-32",
+   "part": "3020",
+   "pos_mm": [
+    -64,
+    -40,
+    40.8
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "arm_r_32",
+   "part": "3020",
+   "pos_mm": [
+    0,
+    -40,
+    40.8
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "platform_r",
+   "part": "3033",
+   "pos_mm": [
+    -32,
+    -72,
+    44
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "motor_r",
+   "part": "58120c01",
+   "pos_mm": [
+    -32,
+    -48,
+    56
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "shaft_r",
+   "part": "32073",
+   "pos_mm": [
+    -32,
+    -44,
+    56
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pinion_r",
+   "part": "3648",
+   "pos_mm": [
+    -32,
+    -44,
+    56
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "shafttower_r_brick",
+   "part": "3701",
+   "pos_mm": [
+    -32,
+    -36,
+    47.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "shafttower_r_cap",
+   "part": "3710",
+   "pos_mm": [
+    -32,
+    -36,
+    50.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "shaftbearing_r",
+   "part": "3701",
+   "pos_mm": [
+    -32,
+    -36,
+    60
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "shaftstop_r",
+   "part": "4265c",
+   "pos_mm": [
+    -32,
+    -30,
+    56
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "ax_f_drive",
+   "part": "50451",
+   "pos_mm": [
+    24,
+    0,
+    24
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bearing_f_drive_-1_28",
+   "part": "3894",
+   "pos_mm": [
+    24,
+    -28,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bearing_f_drive_-1_36",
+   "part": "3894",
+   "pos_mm": [
+    24,
+    -36,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bearingpin_f_drive_-1_-16",
+   "part": "2780",
+   "pos_mm": [
+    8,
+    -32,
+    24
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bearingpin_f_drive_-1_16",
+   "part": "2780",
+   "pos_mm": [
+    40,
+    -32,
+    24
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bush_f_drive_-1",
+   "part": "4265c",
+   "pos_mm": [
+    24,
+    -42,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bearing_f_drive_1_28",
+   "part": "3894",
+   "pos_mm": [
+    24,
+    28,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bearing_f_drive_1_36",
+   "part": "3894",
+   "pos_mm": [
+    24,
+    36,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bearingpin_f_drive_1_-16",
+   "part": "2780",
+   "pos_mm": [
+    8,
+    32,
+    24
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bearingpin_f_drive_1_16",
+   "part": "2780",
+   "pos_mm": [
+    40,
+    32,
+    24
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "spr_f_drive",
+   "part": "57519",
+   "pos_mm": [
+    24,
+    0,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "ax_f_idler",
+   "part": "50451",
+   "pos_mm": [
+    272,
+    0,
+    24
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bearing_f_idler_-1_28",
+   "part": "3894",
+   "pos_mm": [
+    272,
+    -28,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bearing_f_idler_-1_36",
+   "part": "3894",
+   "pos_mm": [
+    272,
+    -36,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bearingpin_f_idler_-1_-16",
+   "part": "2780",
+   "pos_mm": [
+    256,
+    -32,
+    24
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bearingpin_f_idler_-1_16",
+   "part": "2780",
+   "pos_mm": [
+    288,
+    -32,
+    24
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bush_f_idler_-1",
+   "part": "4265c",
+   "pos_mm": [
+    272,
+    -42,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bearing_f_idler_1_28",
+   "part": "3894",
+   "pos_mm": [
+    272,
+    28,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bearing_f_idler_1_36",
+   "part": "3894",
+   "pos_mm": [
+    272,
+    36,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "bearingpin_f_idler_1_-16",
+   "part": "2780",
+   "pos_mm": [
+    256,
+    32,
+    24
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bearingpin_f_idler_1_16",
+   "part": "2780",
+   "pos_mm": [
+    288,
+    32,
+    24
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bush_f_idler_1",
+   "part": "4265c",
+   "pos_mm": [
+    272,
+    42,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "spr_f_idler",
+   "part": "57519",
+   "pos_mm": [
+    272,
+    0,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "gear_f",
+   "part": "3649",
+   "pos_mm": [
+    24,
+    44,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "arm_f_-32",
+   "part": "3020",
+   "pos_mm": [
+    -8,
+    40,
+    40.8
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "arm_f_32",
+   "part": "3020",
+   "pos_mm": [
+    56,
+    40,
+    40.8
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "platform_f",
+   "part": "3033",
+   "pos_mm": [
+    24,
+    72,
+    44
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "motor_f",
+   "part": "58120c01",
+   "pos_mm": [
+    24,
+    48,
+    56
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "shaft_f",
+   "part": "32073",
+   "pos_mm": [
+    24,
+    44,
+    56
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "pinion_f",
+   "part": "3648",
+   "pos_mm": [
+    24,
+    44,
+    56
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "shafttower_f_brick",
+   "part": "3701",
+   "pos_mm": [
+    24,
+    36,
+    47.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "shafttower_f_cap",
+   "part": "3710",
+   "pos_mm": [
+    24,
+    36,
+    50.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "shaftbearing_f",
+   "part": "3701",
+   "pos_mm": [
+    24,
+    36,
+    60
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "shaftstop_f",
+   "part": "4265c",
+   "pos_mm": [
+    24,
+    30,
+    56
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_ax0",
+   "part": "23948",
+   "pos_mm": [
+    -232,
+    0,
+    24
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "road_bearing0_-1",
+   "part": "3701",
+   "pos_mm": [
+    -232,
+    -28,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_bush0_-1",
+   "part": "4265c",
+   "pos_mm": [
+    -232,
+    -34,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_bearing0_1",
+   "part": "3701",
+   "pos_mm": [
+    -232,
+    28,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_bush0_1",
+   "part": "4265c",
+   "pos_mm": [
+    -232,
+    34,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_wheel0",
+   "part": "4185t",
+   "pos_mm": [
+    -232,
+    0,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_ax1",
+   "part": "23948",
+   "pos_mm": [
+    -200,
+    0,
+    24
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "road_bearing1_-1",
+   "part": "3701",
+   "pos_mm": [
+    -200,
+    -28,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_bush1_-1",
+   "part": "4265c",
+   "pos_mm": [
+    -200,
+    -34,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_bearing1_1",
+   "part": "3701",
+   "pos_mm": [
+    -200,
+    28,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_bush1_1",
+   "part": "4265c",
+   "pos_mm": [
+    -200,
+    34,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_wheel1",
+   "part": "55982c01",
+   "pos_mm": [
+    -200,
+    0,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_ax2",
+   "part": "23948",
+   "pos_mm": [
+    -168,
+    0,
+    24
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "road_bearing2_-1",
+   "part": "3701",
+   "pos_mm": [
+    -168,
+    -28,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_bush2_-1",
+   "part": "4265c",
+   "pos_mm": [
+    -168,
+    -34,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_bearing2_1",
+   "part": "3701",
+   "pos_mm": [
+    -168,
+    28,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_bush2_1",
+   "part": "4265c",
+   "pos_mm": [
+    -168,
+    34,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_wheel2",
+   "part": "4185t",
+   "pos_mm": [
+    -168,
+    0,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_ax3",
+   "part": "23948",
+   "pos_mm": [
+    -136,
+    0,
+    24
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "road_bearing3_-1",
+   "part": "3701",
+   "pos_mm": [
+    -136,
+    -28,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_bush3_-1",
+   "part": "4265c",
+   "pos_mm": [
+    -136,
+    -34,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_bearing3_1",
+   "part": "3701",
+   "pos_mm": [
+    -136,
+    28,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_bush3_1",
+   "part": "4265c",
+   "pos_mm": [
+    -136,
+    34,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_wheel3",
+   "part": "55982c01",
+   "pos_mm": [
+    -136,
+    0,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_ax4",
+   "part": "23948",
+   "pos_mm": [
+    -104,
+    0,
+    24
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "road_bearing4_-1",
+   "part": "3701",
+   "pos_mm": [
+    -104,
+    -28,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_bush4_-1",
+   "part": "4265c",
+   "pos_mm": [
+    -104,
+    -34,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_bearing4_1",
+   "part": "3701",
+   "pos_mm": [
+    -104,
+    28,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_bush4_1",
+   "part": "4265c",
+   "pos_mm": [
+    -104,
+    34,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_wheel4",
+   "part": "4185t",
+   "pos_mm": [
+    -104,
+    0,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_ax5",
+   "part": "23948",
+   "pos_mm": [
+    -72,
+    0,
+    24
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "road_bearing5_-1",
+   "part": "3701",
+   "pos_mm": [
+    -72,
+    -28,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_bush5_-1",
+   "part": "4265c",
+   "pos_mm": [
+    -72,
+    -34,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_bearing5_1",
+   "part": "3701",
+   "pos_mm": [
+    -72,
+    28,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_bush5_1",
+   "part": "4265c",
+   "pos_mm": [
+    -72,
+    34,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_wheel5",
+   "part": "4185t",
+   "pos_mm": [
+    -72,
+    0,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_ax6",
+   "part": "23948",
+   "pos_mm": [
+    64,
+    0,
+    24
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "road_bearing6_-1",
+   "part": "3701",
+   "pos_mm": [
+    64,
+    -28,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_bush6_-1",
+   "part": "4265c",
+   "pos_mm": [
+    64,
+    -34,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_bearing6_1",
+   "part": "3701",
+   "pos_mm": [
+    64,
+    28,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_bush6_1",
+   "part": "4265c",
+   "pos_mm": [
+    64,
+    34,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_wheel6",
+   "part": "55423c01",
+   "pos_mm": [
+    64,
+    0,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_ax7",
+   "part": "23948",
+   "pos_mm": [
+    128,
+    0,
+    24
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "road_bearing7_-1",
+   "part": "3894",
+   "pos_mm": [
+    128,
+    -28,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_bush7_-1",
+   "part": "4265c",
+   "pos_mm": [
+    128,
+    -34,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_bearing7_1",
+   "part": "3894",
+   "pos_mm": [
+    128,
+    28,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_bush7_1",
+   "part": "4265c",
+   "pos_mm": [
+    128,
+    34,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_wheel7",
+   "part": "55423c01",
+   "pos_mm": [
+    128,
+    0,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_ax8",
+   "part": "50451",
+   "pos_mm": [
+    192,
+    0,
+    24
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "road_bearing8_-1",
+   "part": "3701",
+   "pos_mm": [
+    192,
+    -28,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_bush8_-1",
+   "part": "4265c",
+   "pos_mm": [
+    192,
+    -34,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_bearing8_1",
+   "part": "3701",
+   "pos_mm": [
+    192,
+    28,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_bush8_1",
+   "part": "4265c",
+   "pos_mm": [
+    192,
+    34,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_wheel8",
+   "part": "55423c01",
+   "pos_mm": [
+    192,
+    0,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_ax9",
+   "part": "50451",
+   "pos_mm": [
+    232,
+    0,
+    24
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "road_bearing9_-1",
+   "part": "3701",
+   "pos_mm": [
+    232,
+    -28,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_bush9_-1",
+   "part": "4265c",
+   "pos_mm": [
+    232,
+    -34,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_bearing9_1",
+   "part": "3701",
+   "pos_mm": [
+    232,
+    28,
+    28
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_bush9_1",
+   "part": "4265c",
+   "pos_mm": [
+    232,
+    34,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "road_wheel9",
+   "part": "55423c01",
+   "pos_mm": [
+    232,
+    0,
+    24
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "deck",
+   "part": "3035",
+   "pos_mm": [
+    -88.0,
+    0,
+    56.8
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    -88.0,
+    0,
+    95.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    -104.0,
+    0,
+    104.8
+   ],
+   "yaw_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "pin_-1_0_0_-376",
+   "parent": "rail_-1_0",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_0_0_-376",
+   "parent": "lap_-1_0",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_0_0_-288",
+   "parent": "rail_-1_0",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_0_0_-288",
+   "parent": "lap_-1_0",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_1_0_-272",
+   "parent": "rail_-1_1",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_1_0_-272",
+   "parent": "lap_-1_0",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_1_0_-264",
+   "parent": "rail_-1_1",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_1_0_-264",
+   "parent": "lap_-1_0",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_1_1_-248",
+   "parent": "rail_-1_1",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_1_1_-248",
+   "parent": "lap_-1_1",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_1_1_-176",
+   "parent": "rail_-1_1",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_1_1_-176",
+   "parent": "lap_-1_1",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_2_1_-160",
+   "parent": "rail_-1_2",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_2_1_-160",
+   "parent": "lap_-1_1",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_2_1_-136",
+   "parent": "rail_-1_2",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_2_1_-136",
+   "parent": "lap_-1_1",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_2_2_-120",
+   "parent": "rail_-1_2",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_2_2_-120",
+   "parent": "lap_-1_2",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_2_2_-64",
+   "parent": "rail_-1_2",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_2_2_-64",
+   "parent": "lap_-1_2",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_3_2_-48",
+   "parent": "rail_-1_3",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_3_2_-48",
+   "parent": "lap_-1_2",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_3_2_-8",
+   "parent": "rail_-1_3",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_3_2_-8",
+   "parent": "lap_-1_2",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_3_3_8",
+   "parent": "rail_-1_3",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_3_3_8",
+   "parent": "lap_-1_3",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_3_3_48",
+   "parent": "rail_-1_3",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_3_3_48",
+   "parent": "lap_-1_3",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_4_3_64",
+   "parent": "rail_-1_4",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_4_3_64",
+   "parent": "lap_-1_3",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_4_3_120",
+   "parent": "rail_-1_4",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_4_3_120",
+   "parent": "lap_-1_3",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_4_4_136",
+   "parent": "rail_-1_4",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_4_4_136",
+   "parent": "lap_-1_4",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_4_4_160",
+   "parent": "rail_-1_4",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_4_4_160",
+   "parent": "lap_-1_4",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_5_4_176",
+   "parent": "rail_-1_5",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_5_4_176",
+   "parent": "lap_-1_4",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_5_4_248",
+   "parent": "rail_-1_5",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_5_4_248",
+   "parent": "lap_-1_4",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_5_5_264",
+   "parent": "rail_-1_5",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_5_5_264",
+   "parent": "lap_-1_5",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_5_5_272",
+   "parent": "rail_-1_5",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_5_5_272",
+   "parent": "lap_-1_5",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_6_5_288",
+   "parent": "rail_-1_6",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_6_5_288",
+   "parent": "lap_-1_5",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_6_5_376",
+   "parent": "rail_-1_6",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_-1_6_5_376",
+   "parent": "lap_-1_5",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_0_0_-376",
+   "parent": "rail_1_0",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_0_0_-376",
+   "parent": "lap_1_0",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_0_0_-288",
+   "parent": "rail_1_0",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_0_0_-288",
+   "parent": "lap_1_0",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_1_0_-272",
+   "parent": "rail_1_1",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_1_0_-272",
+   "parent": "lap_1_0",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_1_0_-264",
+   "parent": "rail_1_1",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_1_0_-264",
+   "parent": "lap_1_0",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_1_1_-248",
+   "parent": "rail_1_1",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_1_1_-248",
+   "parent": "lap_1_1",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_1_1_-176",
+   "parent": "rail_1_1",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_1_1_-176",
+   "parent": "lap_1_1",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_2_1_-160",
+   "parent": "rail_1_2",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_2_1_-160",
+   "parent": "lap_1_1",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_2_1_-136",
+   "parent": "rail_1_2",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_2_1_-136",
+   "parent": "lap_1_1",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_2_2_-120",
+   "parent": "rail_1_2",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_2_2_-120",
+   "parent": "lap_1_2",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_2_2_-64",
+   "parent": "rail_1_2",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_2_2_-64",
+   "parent": "lap_1_2",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_3_2_-48",
+   "parent": "rail_1_3",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_3_2_-48",
+   "parent": "lap_1_2",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_3_2_-8",
+   "parent": "rail_1_3",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_3_2_-8",
+   "parent": "lap_1_2",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_3_3_8",
+   "parent": "rail_1_3",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_3_3_8",
+   "parent": "lap_1_3",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_3_3_48",
+   "parent": "rail_1_3",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_3_3_48",
+   "parent": "lap_1_3",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_4_3_64",
+   "parent": "rail_1_4",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_4_3_64",
+   "parent": "lap_1_3",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_4_3_120",
+   "parent": "rail_1_4",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_4_3_120",
+   "parent": "lap_1_3",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_4_4_136",
+   "parent": "rail_1_4",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_4_4_136",
+   "parent": "lap_1_4",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_4_4_160",
+   "parent": "rail_1_4",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_4_4_160",
+   "parent": "lap_1_4",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_5_4_176",
+   "parent": "rail_1_5",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_5_4_176",
+   "parent": "lap_1_4",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_5_4_248",
+   "parent": "rail_1_5",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_5_4_248",
+   "parent": "lap_1_4",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_5_5_264",
+   "parent": "rail_1_5",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_5_5_264",
+   "parent": "lap_1_5",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_5_5_272",
+   "parent": "rail_1_5",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_5_5_272",
+   "parent": "lap_1_5",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_6_5_288",
+   "parent": "rail_1_6",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_6_5_288",
+   "parent": "lap_1_5",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_6_5_376",
+   "parent": "rail_1_6",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_1_6_5_376",
+   "parent": "lap_1_5",
+   "kind": "pin"
+  },
+  {
+   "child": "endax_r",
+   "parent": "endbearing_r_-1_1",
+   "kind": "hinge"
+  },
+  {
+   "child": "endwheel_r_-1",
+   "parent": "endax_r",
+   "kind": "cross"
+  },
+  {
+   "child": "endbush_r_-1",
+   "parent": "endax_r",
+   "kind": "cross"
+  },
+  {
+   "child": "endax_r",
+   "parent": "endbearing_r_1_1",
+   "kind": "hinge"
+  },
+  {
+   "child": "endwheel_r_1",
+   "parent": "endax_r",
+   "kind": "cross"
+  },
+  {
+   "child": "endbush_r_1",
+   "parent": "endax_r",
+   "kind": "cross"
+  },
+  {
+   "child": "endax_f",
+   "parent": "endbearing_f_-1_1",
+   "kind": "hinge"
+  },
+  {
+   "child": "endwheel_f_-1",
+   "parent": "endax_f",
+   "kind": "cross"
+  },
+  {
+   "child": "endbush_f_-1",
+   "parent": "endax_f",
+   "kind": "cross"
+  },
+  {
+   "child": "endax_f",
+   "parent": "endbearing_f_1_1",
+   "kind": "hinge"
+  },
+  {
+   "child": "endwheel_f_1",
+   "parent": "endax_f",
+   "kind": "cross"
+  },
+  {
+   "child": "endbush_f_1",
+   "parent": "endax_f",
+   "kind": "cross"
+  },
+  {
+   "child": "ax_r_drive",
+   "parent": "bearing_r_drive_-1_28",
+   "kind": "hinge"
+  },
+  {
+   "child": "ax_r_drive",
+   "parent": "bearing_r_drive_-1_36",
+   "kind": "hinge"
+  },
+  {
+   "child": "bearingpin_r_drive_-1_-16",
+   "parent": "bearing_r_drive_-1_28",
+   "kind": "pin"
+  },
+  {
+   "child": "bearingpin_r_drive_-1_-16",
+   "parent": "bearing_r_drive_-1_36",
+   "kind": "pin"
+  },
+  {
+   "child": "bearingpin_r_drive_-1_16",
+   "parent": "bearing_r_drive_-1_28",
+   "kind": "pin"
+  },
+  {
+   "child": "bearingpin_r_drive_-1_16",
+   "parent": "bearing_r_drive_-1_36",
+   "kind": "pin"
+  },
+  {
+   "child": "ax_r_drive",
+   "parent": "bearing_r_drive_1_28",
+   "kind": "hinge"
+  },
+  {
+   "child": "ax_r_drive",
+   "parent": "bearing_r_drive_1_36",
+   "kind": "hinge"
+  },
+  {
+   "child": "bearingpin_r_drive_1_-16",
+   "parent": "bearing_r_drive_1_28",
+   "kind": "pin"
+  },
+  {
+   "child": "bearingpin_r_drive_1_-16",
+   "parent": "bearing_r_drive_1_36",
+   "kind": "pin"
+  },
+  {
+   "child": "bearingpin_r_drive_1_16",
+   "parent": "bearing_r_drive_1_28",
+   "kind": "pin"
+  },
+  {
+   "child": "bearingpin_r_drive_1_16",
+   "parent": "bearing_r_drive_1_36",
+   "kind": "pin"
+  },
+  {
+   "child": "bush_r_drive_1",
+   "parent": "ax_r_drive",
+   "kind": "cross"
+  },
+  {
+   "child": "spr_r_drive",
+   "parent": "ax_r_drive",
+   "kind": "cross"
+  },
+  {
+   "child": "ax_r_idler",
+   "parent": "bearing_r_idler_-1_28",
+   "kind": "hinge"
+  },
+  {
+   "child": "ax_r_idler",
+   "parent": "bearing_r_idler_-1_36",
+   "kind": "hinge"
+  },
+  {
+   "child": "bearingpin_r_idler_-1_-16",
+   "parent": "bearing_r_idler_-1_28",
+   "kind": "pin"
+  },
+  {
+   "child": "bearingpin_r_idler_-1_-16",
+   "parent": "bearing_r_idler_-1_36",
+   "kind": "pin"
+  },
+  {
+   "child": "bearingpin_r_idler_-1_16",
+   "parent": "bearing_r_idler_-1_28",
+   "kind": "pin"
+  },
+  {
+   "child": "bearingpin_r_idler_-1_16",
+   "parent": "bearing_r_idler_-1_36",
+   "kind": "pin"
+  },
+  {
+   "child": "bush_r_idler_-1",
+   "parent": "ax_r_idler",
+   "kind": "cross"
+  },
+  {
+   "child": "ax_r_idler",
+   "parent": "bearing_r_idler_1_28",
+   "kind": "hinge"
+  },
+  {
+   "child": "ax_r_idler",
+   "parent": "bearing_r_idler_1_36",
+   "kind": "hinge"
+  },
+  {
+   "child": "bearingpin_r_idler_1_-16",
+   "parent": "bearing_r_idler_1_28",
+   "kind": "pin"
+  },
+  {
+   "child": "bearingpin_r_idler_1_-16",
+   "parent": "bearing_r_idler_1_36",
+   "kind": "pin"
+  },
+  {
+   "child": "bearingpin_r_idler_1_16",
+   "parent": "bearing_r_idler_1_28",
+   "kind": "pin"
+  },
+  {
+   "child": "bearingpin_r_idler_1_16",
+   "parent": "bearing_r_idler_1_36",
+   "kind": "pin"
+  },
+  {
+   "child": "bush_r_idler_1",
+   "parent": "ax_r_idler",
+   "kind": "cross"
+  },
+  {
+   "child": "spr_r_idler",
+   "parent": "ax_r_idler",
+   "kind": "cross"
+  },
+  {
+   "child": "gear_r",
+   "parent": "ax_r_drive",
+   "kind": "cross"
+  },
+  {
+   "child": "shaft_r",
+   "parent": "motor_r",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion_r",
+   "parent": "shaft_r",
+   "kind": "cross"
+  },
+  {
+   "child": "shaftstop_r",
+   "parent": "shaft_r",
+   "kind": "cross"
+  },
+  {
+   "child": "ax_f_drive",
+   "parent": "bearing_f_drive_-1_28",
+   "kind": "hinge"
+  },
+  {
+   "child": "ax_f_drive",
+   "parent": "bearing_f_drive_-1_36",
+   "kind": "hinge"
+  },
+  {
+   "child": "bearingpin_f_drive_-1_-16",
+   "parent": "bearing_f_drive_-1_28",
+   "kind": "pin"
+  },
+  {
+   "child": "bearingpin_f_drive_-1_-16",
+   "parent": "bearing_f_drive_-1_36",
+   "kind": "pin"
+  },
+  {
+   "child": "bearingpin_f_drive_-1_16",
+   "parent": "bearing_f_drive_-1_28",
+   "kind": "pin"
+  },
+  {
+   "child": "bearingpin_f_drive_-1_16",
+   "parent": "bearing_f_drive_-1_36",
+   "kind": "pin"
+  },
+  {
+   "child": "bush_f_drive_-1",
+   "parent": "ax_f_drive",
+   "kind": "cross"
+  },
+  {
+   "child": "ax_f_drive",
+   "parent": "bearing_f_drive_1_28",
+   "kind": "hinge"
+  },
+  {
+   "child": "ax_f_drive",
+   "parent": "bearing_f_drive_1_36",
+   "kind": "hinge"
+  },
+  {
+   "child": "bearingpin_f_drive_1_-16",
+   "parent": "bearing_f_drive_1_28",
+   "kind": "pin"
+  },
+  {
+   "child": "bearingpin_f_drive_1_-16",
+   "parent": "bearing_f_drive_1_36",
+   "kind": "pin"
+  },
+  {
+   "child": "bearingpin_f_drive_1_16",
+   "parent": "bearing_f_drive_1_28",
+   "kind": "pin"
+  },
+  {
+   "child": "bearingpin_f_drive_1_16",
+   "parent": "bearing_f_drive_1_36",
+   "kind": "pin"
+  },
+  {
+   "child": "spr_f_drive",
+   "parent": "ax_f_drive",
+   "kind": "cross"
+  },
+  {
+   "child": "ax_f_idler",
+   "parent": "bearing_f_idler_-1_28",
+   "kind": "hinge"
+  },
+  {
+   "child": "ax_f_idler",
+   "parent": "bearing_f_idler_-1_36",
+   "kind": "hinge"
+  },
+  {
+   "child": "bearingpin_f_idler_-1_-16",
+   "parent": "bearing_f_idler_-1_28",
+   "kind": "pin"
+  },
+  {
+   "child": "bearingpin_f_idler_-1_-16",
+   "parent": "bearing_f_idler_-1_36",
+   "kind": "pin"
+  },
+  {
+   "child": "bearingpin_f_idler_-1_16",
+   "parent": "bearing_f_idler_-1_28",
+   "kind": "pin"
+  },
+  {
+   "child": "bearingpin_f_idler_-1_16",
+   "parent": "bearing_f_idler_-1_36",
+   "kind": "pin"
+  },
+  {
+   "child": "bush_f_idler_-1",
+   "parent": "ax_f_idler",
+   "kind": "cross"
+  },
+  {
+   "child": "ax_f_idler",
+   "parent": "bearing_f_idler_1_28",
+   "kind": "hinge"
+  },
+  {
+   "child": "ax_f_idler",
+   "parent": "bearing_f_idler_1_36",
+   "kind": "hinge"
+  },
+  {
+   "child": "bearingpin_f_idler_1_-16",
+   "parent": "bearing_f_idler_1_28",
+   "kind": "pin"
+  },
+  {
+   "child": "bearingpin_f_idler_1_-16",
+   "parent": "bearing_f_idler_1_36",
+   "kind": "pin"
+  },
+  {
+   "child": "bearingpin_f_idler_1_16",
+   "parent": "bearing_f_idler_1_28",
+   "kind": "pin"
+  },
+  {
+   "child": "bearingpin_f_idler_1_16",
+   "parent": "bearing_f_idler_1_36",
+   "kind": "pin"
+  },
+  {
+   "child": "bush_f_idler_1",
+   "parent": "ax_f_idler",
+   "kind": "cross"
+  },
+  {
+   "child": "spr_f_idler",
+   "parent": "ax_f_idler",
+   "kind": "cross"
+  },
+  {
+   "child": "gear_f",
+   "parent": "ax_f_drive",
+   "kind": "cross"
+  },
+  {
+   "child": "shaft_f",
+   "parent": "motor_f",
+   "kind": "motor"
+  },
+  {
+   "child": "pinion_f",
+   "parent": "shaft_f",
+   "kind": "cross"
+  },
+  {
+   "child": "shaftstop_f",
+   "parent": "shaft_f",
+   "kind": "cross"
+  },
+  {
+   "child": "road_ax0",
+   "parent": "road_bearing0_-1",
+   "kind": "hinge"
+  },
+  {
+   "child": "road_bush0_-1",
+   "parent": "road_ax0",
+   "kind": "cross"
+  },
+  {
+   "child": "road_ax0",
+   "parent": "road_bearing0_1",
+   "kind": "hinge"
+  },
+  {
+   "child": "road_bush0_1",
+   "parent": "road_ax0",
+   "kind": "cross"
+  },
+  {
+   "child": "road_wheel0",
+   "parent": "road_ax0",
+   "kind": "cross"
+  },
+  {
+   "child": "road_ax1",
+   "parent": "road_bearing1_-1",
+   "kind": "hinge"
+  },
+  {
+   "child": "road_bush1_-1",
+   "parent": "road_ax1",
+   "kind": "cross"
+  },
+  {
+   "child": "road_ax1",
+   "parent": "road_bearing1_1",
+   "kind": "hinge"
+  },
+  {
+   "child": "road_bush1_1",
+   "parent": "road_ax1",
+   "kind": "cross"
+  },
+  {
+   "child": "road_wheel1",
+   "parent": "road_ax1",
+   "kind": "cross"
+  },
+  {
+   "child": "road_ax2",
+   "parent": "road_bearing2_-1",
+   "kind": "hinge"
+  },
+  {
+   "child": "road_bush2_-1",
+   "parent": "road_ax2",
+   "kind": "cross"
+  },
+  {
+   "child": "road_ax2",
+   "parent": "road_bearing2_1",
+   "kind": "hinge"
+  },
+  {
+   "child": "road_bush2_1",
+   "parent": "road_ax2",
+   "kind": "cross"
+  },
+  {
+   "child": "road_wheel2",
+   "parent": "road_ax2",
+   "kind": "cross"
+  },
+  {
+   "child": "road_ax3",
+   "parent": "road_bearing3_-1",
+   "kind": "hinge"
+  },
+  {
+   "child": "road_bush3_-1",
+   "parent": "road_ax3",
+   "kind": "cross"
+  },
+  {
+   "child": "road_ax3",
+   "parent": "road_bearing3_1",
+   "kind": "hinge"
+  },
+  {
+   "child": "road_bush3_1",
+   "parent": "road_ax3",
+   "kind": "cross"
+  },
+  {
+   "child": "road_wheel3",
+   "parent": "road_ax3",
+   "kind": "cross"
+  },
+  {
+   "child": "road_ax4",
+   "parent": "road_bearing4_-1",
+   "kind": "hinge"
+  },
+  {
+   "child": "road_bush4_-1",
+   "parent": "road_ax4",
+   "kind": "cross"
+  },
+  {
+   "child": "road_ax4",
+   "parent": "road_bearing4_1",
+   "kind": "hinge"
+  },
+  {
+   "child": "road_bush4_1",
+   "parent": "road_ax4",
+   "kind": "cross"
+  },
+  {
+   "child": "road_wheel4",
+   "parent": "road_ax4",
+   "kind": "cross"
+  },
+  {
+   "child": "road_ax5",
+   "parent": "road_bearing5_-1",
+   "kind": "hinge"
+  },
+  {
+   "child": "road_bush5_-1",
+   "parent": "road_ax5",
+   "kind": "cross"
+  },
+  {
+   "child": "road_ax5",
+   "parent": "road_bearing5_1",
+   "kind": "hinge"
+  },
+  {
+   "child": "road_bush5_1",
+   "parent": "road_ax5",
+   "kind": "cross"
+  },
+  {
+   "child": "road_wheel5",
+   "parent": "road_ax5",
+   "kind": "cross"
+  },
+  {
+   "child": "road_ax6",
+   "parent": "road_bearing6_-1",
+   "kind": "hinge"
+  },
+  {
+   "child": "road_bush6_-1",
+   "parent": "road_ax6",
+   "kind": "cross"
+  },
+  {
+   "child": "road_ax6",
+   "parent": "road_bearing6_1",
+   "kind": "hinge"
+  },
+  {
+   "child": "road_bush6_1",
+   "parent": "road_ax6",
+   "kind": "cross"
+  },
+  {
+   "child": "road_wheel6",
+   "parent": "road_ax6",
+   "kind": "cross"
+  },
+  {
+   "child": "road_ax7",
+   "parent": "road_bearing7_-1",
+   "kind": "hinge"
+  },
+  {
+   "child": "road_bush7_-1",
+   "parent": "road_ax7",
+   "kind": "cross"
+  },
+  {
+   "child": "road_ax7",
+   "parent": "road_bearing7_1",
+   "kind": "hinge"
+  },
+  {
+   "child": "road_bush7_1",
+   "parent": "road_ax7",
+   "kind": "cross"
+  },
+  {
+   "child": "road_wheel7",
+   "parent": "road_ax7",
+   "kind": "cross"
+  },
+  {
+   "child": "road_ax8",
+   "parent": "road_bearing8_-1",
+   "kind": "hinge"
+  },
+  {
+   "child": "road_bush8_-1",
+   "parent": "road_ax8",
+   "kind": "cross"
+  },
+  {
+   "child": "road_ax8",
+   "parent": "road_bearing8_1",
+   "kind": "hinge"
+  },
+  {
+   "child": "road_bush8_1",
+   "parent": "road_ax8",
+   "kind": "cross"
+  },
+  {
+   "child": "road_wheel8",
+   "parent": "road_ax8",
+   "kind": "cross"
+  },
+  {
+   "child": "road_ax9",
+   "parent": "road_bearing9_-1",
+   "kind": "hinge"
+  },
+  {
+   "child": "road_bush9_-1",
+   "parent": "road_ax9",
+   "kind": "cross"
+  },
+  {
+   "child": "road_ax9",
+   "parent": "road_bearing9_1",
+   "kind": "hinge"
+  },
+  {
+   "child": "road_bush9_1",
+   "parent": "road_ax9",
+   "kind": "cross"
+  },
+  {
+   "child": "road_wheel9",
+   "parent": "road_ax9",
+   "kind": "cross"
+  },
+  {
+   "child": "rail_-1_0",
+   "parent": "endbearing_r_-1_0",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rail_-1_0",
+   "parent": "bearing_r_idler_-1_28",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "rail_-1_1",
+   "parent": "bearing_r_idler_-1_28",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "rail_-1_1",
+   "parent": "road_bearing0_-1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rail_-1_1",
+   "parent": "road_bearing1_-1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rail_-1_1",
+   "parent": "road_bearing2_-1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "rail_-1_2",
+   "parent": "road_bearing2_-1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "rail_-1_2",
+   "parent": "road_bearing3_-1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rail_-1_2",
+   "parent": "road_bearing4_-1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rail_-1_2",
+   "parent": "road_bearing5_-1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rail_-1_3",
+   "parent": "bearing_r_drive_-1_28",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "rail_-1_3",
+   "parent": "bearing_f_drive_-1_28",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "rail_-1_3",
+   "parent": "road_bearing6_-1",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "rail_-1_4",
+   "parent": "road_bearing6_-1",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "rail_-1_4",
+   "parent": "road_bearing7_-1",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "rail_-1_5",
+   "parent": "bearing_f_idler_-1_28",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rail_-1_5",
+   "parent": "road_bearing8_-1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rail_-1_5",
+   "parent": "road_bearing9_-1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rail_-1_6",
+   "parent": "endbearing_f_-1_0",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rail_-1_6",
+   "parent": "bearing_f_idler_-1_28",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "lap_-1_0",
+   "parent": "bearing_r_idler_-1_36",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "lap_-1_2",
+   "parent": "bearing_r_drive_-1_36",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "lap_-1_3",
+   "parent": "bearing_f_drive_-1_36",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "lap_-1_4",
+   "parent": "bearing_f_idler_-1_36",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "lap_-1_5",
+   "parent": "bearing_f_idler_-1_36",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "rail_1_0",
+   "parent": "endbearing_r_1_0",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rail_1_0",
+   "parent": "bearing_r_idler_1_28",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "rail_1_1",
+   "parent": "bearing_r_idler_1_28",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "rail_1_1",
+   "parent": "road_bearing0_1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rail_1_1",
+   "parent": "road_bearing1_1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rail_1_1",
+   "parent": "road_bearing2_1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "rail_1_2",
+   "parent": "road_bearing2_1",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "rail_1_2",
+   "parent": "road_bearing3_1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rail_1_2",
+   "parent": "road_bearing4_1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rail_1_2",
+   "parent": "road_bearing5_1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rail_1_3",
+   "parent": "bearing_r_drive_1_28",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "rail_1_3",
+   "parent": "bearing_f_drive_1_28",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "rail_1_3",
+   "parent": "road_bearing6_1",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "rail_1_4",
+   "parent": "road_bearing6_1",
+   "kind": "stud",
+   "studs": 3
+  },
+  {
+   "child": "rail_1_4",
+   "parent": "road_bearing7_1",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "rail_1_5",
+   "parent": "bearing_f_idler_1_28",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rail_1_5",
+   "parent": "road_bearing8_1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rail_1_5",
+   "parent": "road_bearing9_1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rail_1_6",
+   "parent": "endbearing_f_1_0",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rail_1_6",
+   "parent": "bearing_f_idler_1_28",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "lap_1_0",
+   "parent": "bearing_r_idler_1_36",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "lap_1_2",
+   "parent": "bearing_r_drive_1_36",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "lap_1_3",
+   "parent": "bearing_f_drive_1_36",
+   "kind": "stud",
+   "studs": 6
+  },
+  {
+   "child": "lap_1_4",
+   "parent": "bearing_f_idler_1_36",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "lap_1_5",
+   "parent": "bearing_f_idler_1_36",
+   "kind": "stud",
+   "studs": 5
+  },
+  {
+   "child": "post_-360_-1",
+   "parent": "rail_-1_0",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "post_-360_-1",
+   "parent": "lap_-1_0",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "postcap_-360_-1",
+   "parent": "post_-360_-1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "post_-360_1",
+   "parent": "rail_1_0",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "post_-360_1",
+   "parent": "lap_1_0",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "postcap_-360_1",
+   "parent": "post_-360_1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "cross-360",
+   "parent": "postcap_-360_-1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "cross-360",
+   "parent": "postcap_-360_1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "post_-152_-1",
+   "parent": "rail_-1_2",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "post_-152_-1",
+   "parent": "lap_-1_1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "postcap_-152_-1",
+   "parent": "post_-152_-1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "post_-152_1",
+   "parent": "rail_1_2",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "post_-152_1",
+   "parent": "lap_1_1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "postcap_-152_1",
+   "parent": "post_-152_1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "cross-152",
+   "parent": "postcap_-152_-1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "cross-152",
+   "parent": "postcap_-152_1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "post_-88.0_-1",
+   "parent": "rail_-1_2",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "post_-88.0_-1",
+   "parent": "lap_-1_2",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "postcap_-88.0_-1",
+   "parent": "post_-88.0_-1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "post_-88.0_1",
+   "parent": "rail_1_2",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "post_-88.0_1",
+   "parent": "lap_1_2",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "postcap_-88.0_1",
+   "parent": "post_-88.0_1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "cross-88.0",
+   "parent": "postcap_-88.0_-1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "cross-88.0",
+   "parent": "postcap_-88.0_1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "post_152_-1",
+   "parent": "rail_-1_4",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "post_152_-1",
+   "parent": "lap_-1_4",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "postcap_152_-1",
+   "parent": "post_152_-1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "post_152_1",
+   "parent": "rail_1_4",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "post_152_1",
+   "parent": "lap_1_4",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "postcap_152_1",
+   "parent": "post_152_1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "cross152",
+   "parent": "postcap_152_-1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "cross152",
+   "parent": "postcap_152_1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "post_360_-1",
+   "parent": "rail_-1_6",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "post_360_-1",
+   "parent": "lap_-1_5",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "postcap_360_-1",
+   "parent": "post_360_-1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "post_360_1",
+   "parent": "rail_1_6",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "post_360_1",
+   "parent": "lap_1_5",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "postcap_360_1",
+   "parent": "post_360_1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "cross360",
+   "parent": "postcap_360_-1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "cross360",
+   "parent": "postcap_360_1",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "endbearing_r_-1_0",
+   "parent": "endbearing_r_-1_1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "endbearing_r_1_0",
+   "parent": "endbearing_r_1_1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "endbearing_f_-1_0",
+   "parent": "endbearing_f_-1_1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "endbearing_f_1_0",
+   "parent": "endbearing_f_1_1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "arm_r_-32",
+   "parent": "rail_-1_2",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "arm_r_-32",
+   "parent": "lap_-1_2",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "arm_r_32",
+   "parent": "rail_-1_3",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "arm_r_32",
+   "parent": "lap_-1_2",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "arm_r_32",
+   "parent": "lap_-1_3",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "platform_r",
+   "parent": "arm_r_-32",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "platform_r",
+   "parent": "arm_r_32",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "motor_r",
+   "parent": "platform_r",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "shafttower_r_brick",
+   "parent": "lap_-1_2",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "shafttower_r_cap",
+   "parent": "shafttower_r_brick",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "shaftbearing_r",
+   "parent": "shafttower_r_cap",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "arm_f_-32",
+   "parent": "rail_1_3",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "arm_f_-32",
+   "parent": "lap_1_2",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "arm_f_32",
+   "parent": "rail_1_3",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "arm_f_32",
+   "parent": "rail_1_4",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "arm_f_32",
+   "parent": "lap_1_3",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "platform_f",
+   "parent": "arm_f_-32",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "platform_f",
+   "parent": "arm_f_32",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "motor_f",
+   "parent": "platform_f",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "shafttower_f_brick",
+   "parent": "lap_1_3",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "shafttower_f_cap",
+   "parent": "shafttower_f_brick",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "shaftbearing_f",
+   "parent": "shafttower_f_cap",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "deck",
+   "parent": "cross-88.0",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "battery",
+   "parent": "deck",
+   "kind": "stud",
+   "studs": 32
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "pinion_r",
+   "gear_b": "gear_r"
+  },
+  {
+   "gear_a": "pinion_f",
+   "gear_b": "gear_f"
+  }
+ ],
+ "treads": [
+  {
+   "name": "track_r",
+   "sprockets": [
+    "spr_r_drive",
+    "spr_r_idler"
+   ],
+   "links": 98,
+   "link": "3711"
+  },
+  {
+   "name": "track_f",
+   "sprockets": [
+    "spr_f_drive",
+    "spr_f_idler"
+   ],
+   "links": 52,
+   "link": "57518"
+  }
+ ],
+ "start_gap_mm": 20,
+ "motor_program": [
+  {
+   "t": 0,
+   "motor": "all",
+   "level": 4
+  },
+  {
+   "t": 5.3,
+   "motor": "all",
+   "level": "brake"
+  }
+ ]
+}

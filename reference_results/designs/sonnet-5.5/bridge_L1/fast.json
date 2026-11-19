@@ -1,0 +1,452 @@
+{
+ "name": "car10",
+ "description": "narrow 4-wheel car, twin motors chain driven",
+ "part_set": "inventory",
+ "chassis": "rail_l",
+ "motor": "motor",
+ "battery": "battery",
+ "intended": [],
+ "parts": [
+  {
+   "name": "rail_l",
+   "part": "3703",
+   "pos_mm": [
+    16.0,
+    4,
+    19.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rail_r",
+   "part": "3703",
+   "pos_mm": [
+    16.0,
+    -4,
+    19.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_axle",
+   "part": "3707",
+   "pos_mm": [
+    -24,
+    14,
+    15.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_axle",
+   "part": "3707",
+   "pos_mm": [
+    56,
+    14,
+    15.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "wrl",
+   "part": "4185t",
+   "pos_mm": [
+    -24,
+    10.6,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "wrr",
+   "part": "4185t",
+   "pos_mm": [
+    -24,
+    -10.6,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "wfl",
+   "part": "4185t",
+   "pos_mm": [
+    56,
+    10.6,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "wfr",
+   "part": "4185t",
+   "pos_mm": [
+    56,
+    -10.6,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "r_brick",
+   "part": "3001",
+   "pos_mm": [
+    -24,
+    0,
+    28.799999999999997
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "r_plate",
+   "part": "3020",
+   "pos_mm": [
+    -24,
+    0,
+    31.999999999999996
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "r_wide",
+   "part": "3032",
+   "pos_mm": [
+    -24,
+    0,
+    35.199999999999996
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "motor",
+   "part": "58120c01",
+   "pos_mm": [
+    -24,
+    24,
+    47.199999999999996
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "r_msh",
+   "part": "32062",
+   "pos_mm": [
+    -24,
+    28,
+    47.199999999999996
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "r_pin",
+   "part": "3649",
+   "pos_mm": [
+    -24,
+    30,
+    47.199999999999996
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "r_gear",
+   "part": "94925",
+   "pos_mm": [
+    -24,
+    30,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "f_brick",
+   "part": "3001",
+   "pos_mm": [
+    56,
+    0,
+    28.799999999999997
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "f_plate",
+   "part": "3020",
+   "pos_mm": [
+    56,
+    0,
+    31.999999999999996
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "f_wide",
+   "part": "3032",
+   "pos_mm": [
+    56,
+    0,
+    35.199999999999996
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "motor2",
+   "part": "58120c01",
+   "pos_mm": [
+    56,
+    24,
+    47.199999999999996
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "f_msh",
+   "part": "32062",
+   "pos_mm": [
+    56,
+    28,
+    47.199999999999996
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "f_pin",
+   "part": "3649",
+   "pos_mm": [
+    56,
+    30,
+    47.199999999999996
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "f_gear",
+   "part": "94925",
+   "pos_mm": [
+    56,
+    30,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    16,
+    0,
+    57.599999999999994
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    16,
+    -16,
+    67.19999999999999
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "rear_axle",
+   "parent": "rail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "rear_axle",
+   "parent": "rail_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "front_axle",
+   "parent": "rail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "front_axle",
+   "parent": "rail_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "wrl",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "wrr",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "wfl",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "wfr",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "r_brick",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "r_brick",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "r_plate",
+   "parent": "r_brick",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "r_wide",
+   "parent": "r_plate",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "motor",
+   "parent": "r_wide",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "r_msh",
+   "parent": "motor",
+   "kind": "motor"
+  },
+  {
+   "child": "r_pin",
+   "parent": "r_msh",
+   "kind": "cross"
+  },
+  {
+   "child": "r_gear",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "f_brick",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "f_brick",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "f_plate",
+   "parent": "f_brick",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "f_wide",
+   "parent": "f_plate",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "motor2",
+   "parent": "f_wide",
+   "kind": "stud",
+   "studs": 12
+  },
+  {
+   "child": "f_msh",
+   "parent": "motor2",
+   "kind": "motor"
+  },
+  {
+   "child": "f_pin",
+   "parent": "f_msh",
+   "kind": "cross"
+  },
+  {
+   "child": "f_gear",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "battery",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "battery",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 8
+  }
+ ],
+ "gear_meshes": [],
+ "chains": [
+  {
+   "name": "chain_r",
+   "gears": [
+    "r_pin",
+    "r_gear"
+   ],
+   "links": 25
+  },
+  {
+   "name": "chain_f",
+   "gears": [
+    "f_pin",
+    "f_gear"
+   ],
+   "links": 25
+  }
+ ],
+ "motor_program": [
+  {
+   "t": 0.0,
+   "motor": "all",
+   "level": 7
+  }
+ ],
+ "start_gap_mm": 0
+}

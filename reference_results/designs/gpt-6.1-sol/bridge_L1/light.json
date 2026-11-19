@@ -1,0 +1,415 @@
+{
+ "name": "tiny_short75",
+ "description": "Minimal four-tyre saddle with 4L drive axle. Driven wheel centres at +/-14.5 mm leave 0.5 mm motor-side clearance and 3.5 mm plank edge margin.",
+ "part_set": "inventory",
+ "chassis": "motor",
+ "motor": "motor",
+ "battery": "battery",
+ "parts": [
+  {
+   "name": "motor",
+   "part": "12787c01",
+   "pos_mm": [
+    0,
+    0,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rail_l",
+   "part": "32526",
+   "pos_mm": [
+    -32,
+    16,
+    7.2
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "pin_l0",
+   "part": "2780",
+   "pos_mm": [
+    -32,
+    12,
+    7.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "pin_l1",
+   "part": "2780",
+   "pos_mm": [
+    -40,
+    12,
+    7.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "rail_r",
+   "part": "32526",
+   "pos_mm": [
+    -32,
+    -16,
+    7.2
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "pin_r0",
+   "part": "2780",
+   "pos_mm": [
+    -32,
+    -12,
+    7.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "pin_r1",
+   "part": "2780",
+   "pos_mm": [
+    -40,
+    -12,
+    7.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_axle",
+   "part": "32073",
+   "pos_mm": [
+    -64,
+    0,
+    15.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_l",
+   "part": "4185t",
+   "pos_mm": [
+    -64,
+    10,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_r",
+   "part": "4185t",
+   "pos_mm": [
+    -64,
+    -10,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "drive_axle",
+   "part": "3705",
+   "pos_mm": [
+    0,
+    0,
+    15.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "drive_l",
+   "part": "4185t",
+   "pos_mm": [
+    0,
+    14.5,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "drive_r",
+   "part": "4185t",
+   "pos_mm": [
+    0,
+    -14.5,
+    15.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "upper_l",
+   "part": "32000",
+   "pos_mm": [
+    -4,
+    16,
+    43.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "upper_pin_l0",
+   "part": "2780",
+   "pos_mm": [
+    0,
+    12,
+    39.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "upper_pin_l1",
+   "part": "2780",
+   "pos_mm": [
+    -8,
+    12,
+    39.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "upper_r",
+   "part": "32000",
+   "pos_mm": [
+    -4,
+    -16,
+    43.2
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "upper_pin_r0",
+   "part": "2780",
+   "pos_mm": [
+    0,
+    -12,
+    39.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "upper_pin_r1",
+   "part": "2780",
+   "pos_mm": [
+    -8,
+    -12,
+    39.2
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    -12,
+    4,
+    84.8
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    -28,
+    4,
+    94.4
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck_l",
+   "part": "3023",
+   "pos_mm": [
+    -4,
+    16,
+    46.4
+   ]
+  },
+  {
+   "name": "deck_r",
+   "part": "3022",
+   "pos_mm": [
+    -4,
+    -12,
+    46.4
+   ]
+  }
+ ],
+ "connections": [
+  {
+   "child": "pin_l0",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_l0",
+   "parent": "rail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_l1",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_l1",
+   "parent": "rail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_r0",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_r0",
+   "parent": "rail_r",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_r1",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "pin_r1",
+   "parent": "rail_r",
+   "kind": "pin"
+  },
+  {
+   "child": "rear_axle",
+   "parent": "rail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "rear_axle",
+   "parent": "rail_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "rear_l",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_r",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "drive_axle",
+   "parent": "motor",
+   "kind": "motor"
+  },
+  {
+   "child": "drive_l",
+   "parent": "drive_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "drive_r",
+   "parent": "drive_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "upper_pin_l0",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "upper_pin_l0",
+   "parent": "upper_l",
+   "kind": "pin"
+  },
+  {
+   "child": "upper_pin_l1",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "upper_pin_l1",
+   "parent": "upper_l",
+   "kind": "pin"
+  },
+  {
+   "child": "upper_pin_r0",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "upper_pin_r0",
+   "parent": "upper_r",
+   "kind": "pin"
+  },
+  {
+   "child": "upper_pin_r1",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "upper_pin_r1",
+   "parent": "upper_r",
+   "kind": "pin"
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "deck_l",
+   "parent": "upper_l",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "battery",
+   "parent": "deck_l",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "deck_r",
+   "parent": "upper_r",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "battery",
+   "parent": "deck_r",
+   "kind": "stud",
+   "studs": 2
+  }
+ ],
+ "pullback": [
+  {
+   "motor": "motor",
+   "wind_turns": 7.5,
+   "sense": 1
+  }
+ ],
+ "start_gap_mm": 10,
+ "motor_program": []
+}

@@ -1,0 +1,2210 @@
+{
+ "name": "rope3_v9",
+ "description": "Rope trolley v16: an inverted-U frame straddling the rope, hanging from two V-pulleys.\n\nTwo beam-brick side walls (y = +-16) hang from two driven V-pulleys riding on top of the rope (y = 0). Each\npulley is a pair of rubber-tyred wedge-belt wheels (4185 + 2815, r 15.2) 1.4 mm apart: the cord sits on both tyre\nedges, centred (no roll), and the tyres grip the cord. One XL motor (left wall) drives, through an 8T -> 24T main\nshaft in the channel and a 24T-24T-40T transfer row outboard right, both pulleys (1:5). The rear deck wheels\n(43 mm, under the rear pulley) are chain-driven 1:1 from the rear pulley axle; they push on the start deck and\nclimb the goal deck edge. The front deck wheels (30 mm) hover 6 mm above the deck line: the trolley starts with\nits front pulley already resting on the rope, and at the goal they only touch down once the front pulley has\nrolled off the end of the rope. A plate floor 6 mm above the rope joins the walls; heavy parts hang low (battery\nright, receiver left) so the trolley hangs like a pendulum under the rope.",
+ "chassis": "wl_B8_a",
+ "motor": "motor",
+ "battery": "battery",
+ "intended": [],
+ "parts": [
+  {
+   "name": "wl_B1_a",
+   "part": "3703",
+   "pos_mm": [
+    -80.0,
+    16.0,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wl_B3_a",
+   "part": "3703",
+   "pos_mm": [
+    0.0,
+    16.0,
+    48.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wl_B5_a",
+   "part": "3703",
+   "pos_mm": [
+    0.0,
+    16.0,
+    67.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wl_B7_a",
+   "part": "3703",
+   "pos_mm": [
+    0.0,
+    16.0,
+    86.4
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wl_B8_a",
+   "part": "3703",
+   "pos_mm": [
+    0.0,
+    16.0,
+    99.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wl_B2_a",
+   "part": "3702",
+   "pos_mm": [
+    -32.0,
+    16.0,
+    38.4
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wl_B2_b",
+   "part": "3702",
+   "pos_mm": [
+    32.0,
+    16.0,
+    38.4
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wl_B4_a",
+   "part": "3702",
+   "pos_mm": [
+    -32.0,
+    16.0,
+    57.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wl_B4_b",
+   "part": "3702",
+   "pos_mm": [
+    32.0,
+    16.0,
+    57.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wl_B6_a",
+   "part": "3702",
+   "pos_mm": [
+    -32.0,
+    16.0,
+    76.8
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wl_B6_b",
+   "part": "3702",
+   "pos_mm": [
+    32.0,
+    16.0,
+    76.8
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wl_P1_a",
+   "part": "3710",
+   "pos_mm": [
+    -48.0,
+    16.0,
+    28.8
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wl_P1_b",
+   "part": "3023",
+   "pos_mm": [
+    -24.0,
+    16.0,
+    28.8
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wl_P1_e",
+   "part": "3023",
+   "pos_mm": [
+    56.0,
+    16.0,
+    28.8
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wl_P1_c",
+   "part": "3710",
+   "pos_mm": [
+    32.0,
+    16.0,
+    28.8
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wl_PF_a",
+   "part": "3710",
+   "pos_mm": [
+    -48.0,
+    16.0,
+    89.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wl_PF_b",
+   "part": "3710",
+   "pos_mm": [
+    0.0,
+    16.0,
+    89.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wl_PF_c",
+   "part": "3710",
+   "pos_mm": [
+    48.0,
+    16.0,
+    89.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wr_B1_a",
+   "part": "3703",
+   "pos_mm": [
+    -80.0,
+    -16.0,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wr_B3_a",
+   "part": "3703",
+   "pos_mm": [
+    0.0,
+    -16.0,
+    48.0
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wr_B5_a",
+   "part": "3703",
+   "pos_mm": [
+    0.0,
+    -16.0,
+    67.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wr_B7_a",
+   "part": "3703",
+   "pos_mm": [
+    0.0,
+    -16.0,
+    86.4
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wr_B8_a",
+   "part": "3703",
+   "pos_mm": [
+    0.0,
+    -16.0,
+    99.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wr_B2_a",
+   "part": "3702",
+   "pos_mm": [
+    -32.0,
+    -16.0,
+    38.4
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wr_B2_b",
+   "part": "3702",
+   "pos_mm": [
+    32.0,
+    -16.0,
+    38.4
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wr_B4_a",
+   "part": "3702",
+   "pos_mm": [
+    -32.0,
+    -16.0,
+    57.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wr_B4_b",
+   "part": "3702",
+   "pos_mm": [
+    32.0,
+    -16.0,
+    57.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wr_B6_a",
+   "part": "3702",
+   "pos_mm": [
+    -32.0,
+    -16.0,
+    76.8
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wr_B6_b",
+   "part": "3702",
+   "pos_mm": [
+    32.0,
+    -16.0,
+    76.8
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wr_P1_a",
+   "part": "3710",
+   "pos_mm": [
+    -48.0,
+    -16.0,
+    28.8
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wr_P1_e",
+   "part": "3710",
+   "pos_mm": [
+    48.0,
+    -16.0,
+    28.8
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wr_PF_a",
+   "part": "3710",
+   "pos_mm": [
+    -48.0,
+    -16.0,
+    89.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wr_PF_b",
+   "part": "3710",
+   "pos_mm": [
+    0.0,
+    -16.0,
+    89.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wr_PF_c",
+   "part": "3710",
+   "pos_mm": [
+    48.0,
+    -16.0,
+    89.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "rx_shelf",
+   "part": "3710",
+   "pos_mm": [
+    0.0,
+    16.0,
+    28.8
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "floor_a",
+   "part": "3795",
+   "pos_mm": [
+    -32.0,
+    -4.0,
+    102.4
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "floor_b",
+   "part": "3795",
+   "pos_mm": [
+    24.0,
+    4.0,
+    102.4
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    -112.0,
+    -36.0,
+    67.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    -96.0,
+    28.0,
+    38.4
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "fp_axle",
+   "part": "60485",
+   "pos_mm": [
+    56.0,
+    -7.8,
+    95.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "fp_wheel_a",
+   "part": "4185t",
+   "pos_mm": [
+    56.0,
+    3.2,
+    95.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "fp_wheel_b",
+   "part": "4185t",
+   "pos_mm": [
+    56.0,
+    -3.2,
+    95.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "fp_gear",
+   "part": "3649",
+   "pos_mm": [
+    56.0,
+    -33.0,
+    95.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "rp_axle",
+   "part": "60485",
+   "pos_mm": [
+    -56.0,
+    -4.6,
+    95.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "rp_wheel_a",
+   "part": "4185t",
+   "pos_mm": [
+    -56.0,
+    3.2,
+    95.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "rp_wheel_b",
+   "part": "4185t",
+   "pos_mm": [
+    -56.0,
+    -3.2,
+    95.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "rp_spr_l",
+   "part": "94925",
+   "pos_mm": [
+    -56.0,
+    24.5,
+    95.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "rp_spr_r",
+   "part": "3713",
+   "pos_mm": [
+    -56.0,
+    -24.15,
+    95.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "rp_gear",
+   "part": "3649",
+   "pos_mm": [
+    -56.0,
+    -33.0,
+    95.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "rs_axle_l",
+   "part": "3706",
+   "pos_mm": [
+    -56.0,
+    31.6,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "rs_bush_l",
+   "part": "4265c",
+   "pos_mm": [
+    -56.0,
+    9.8,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "rs_spr_l",
+   "part": "3648",
+   "pos_mm": [
+    -56.0,
+    24.5,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "rw_l",
+   "part": "56145c01",
+   "pos_mm": [
+    -56.0,
+    39.65,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "rs_axle_r",
+   "part": "3706",
+   "pos_mm": [
+    -56.0,
+    -31.6,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "rs_bush_r",
+   "part": "4265c",
+   "pos_mm": [
+    -56.0,
+    -9.8,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "rs_spr_r",
+   "part": "3713",
+   "pos_mm": [
+    -56.0,
+    -24.15,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "rw_r",
+   "part": "56145c01",
+   "pos_mm": [
+    -56.0,
+    -39.65,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "fs_axle_l",
+   "part": "3706",
+   "pos_mm": [
+    56.0,
+    31.6,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "fs_bush_l",
+   "part": "4265c",
+   "pos_mm": [
+    56.0,
+    9.8,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "fw_l",
+   "part": "55982c01",
+   "pos_mm": [
+    56.0,
+    37.0,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "fs_axle_r",
+   "part": "3706",
+   "pos_mm": [
+    56.0,
+    -31.6,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "fs_bush_r",
+   "part": "4265c",
+   "pos_mm": [
+    56.0,
+    -9.8,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "fw_r",
+   "part": "55982c01",
+   "pos_mm": [
+    56.0,
+    -37.0,
+    21.6
+   ],
+   "yaw_deg": 180
+  },
+  {
+   "name": "motor",
+   "part": "58121c01",
+   "pos_mm": [
+    40.0,
+    28.0,
+    95.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "mpin_8",
+   "part": "6558",
+   "pos_mm": [
+    40.0,
+    24.0,
+    111.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "mpin_24",
+   "part": "6558",
+   "pos_mm": [
+    32.0,
+    24.0,
+    95.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "m_shaft",
+   "part": "4519",
+   "pos_mm": [
+    40.0,
+    30.0,
+    95.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "m_pinion",
+   "part": "10928",
+   "pos_mm": [
+    40.0,
+    24.0,
+    95.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "b_shaft",
+   "part": "3705",
+   "pos_mm": [
+    0.0,
+    -23.8,
+    95.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "b_bush",
+   "part": "4265c",
+   "pos_mm": [
+    0.0,
+    -10.0,
+    95.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "b_spacer",
+   "part": "3713",
+   "pos_mm": [
+    0.0,
+    -24.2,
+    95.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "b_g24",
+   "part": "3648",
+   "pos_mm": [
+    0.0,
+    -33.0,
+    95.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "if_shaft",
+   "part": "3705",
+   "pos_mm": [
+    24.0,
+    -23.8,
+    95.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "if_g24",
+   "part": "3648",
+   "pos_mm": [
+    24.0,
+    -33.0,
+    95.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "if_spacer",
+   "part": "3713",
+   "pos_mm": [
+    24.0,
+    -24.2,
+    95.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "if_ibush",
+   "part": "4265c",
+   "pos_mm": [
+    24.0,
+    -10.0,
+    95.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "ir_shaft",
+   "part": "3705",
+   "pos_mm": [
+    -24.0,
+    -23.8,
+    95.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "ir_g24",
+   "part": "3648",
+   "pos_mm": [
+    -24.0,
+    -33.0,
+    95.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "ir_spacer",
+   "part": "3713",
+   "pos_mm": [
+    -24.0,
+    -24.2,
+    95.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "ir_ibush",
+   "part": "4265c",
+   "pos_mm": [
+    -24.0,
+    -10.0,
+    95.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "lock_l_B2B7_68",
+   "part": "32524",
+   "pos_mm": [
+    -32.0,
+    24.0,
+    58.4
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 90
+  },
+  {
+   "name": "lpin_l_B2B7_68_B2",
+   "part": "2780",
+   "pos_mm": [
+    -32.0,
+    20.0,
+    34.4
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "lpin_l_B2B7_68_B7",
+   "part": "2780",
+   "pos_mm": [
+    -32.0,
+    20.0,
+    82.4
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "lock_l_B5B8_76",
+   "part": "32316",
+   "pos_mm": [
+    -24.0,
+    24.0,
+    79.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 90
+  },
+  {
+   "name": "lpin_l_B5B8_76_B5",
+   "part": "2780",
+   "pos_mm": [
+    -24.0,
+    20.0,
+    63.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "lock_r_B5B8_60",
+   "part": "32316",
+   "pos_mm": [
+    -40.0,
+    -24.0,
+    79.2
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 90
+  },
+  {
+   "name": "lpin_r_B5B8_60_B5",
+   "part": "2780",
+   "pos_mm": [
+    -40.0,
+    -20.0,
+    63.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "lpin_r_B5B8_60_B8",
+   "part": "2780",
+   "pos_mm": [
+    -40.0,
+    -20.0,
+    95.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "wl_F_b",
+   "part": "3894",
+   "pos_mm": [
+    40.0,
+    16.0,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wr_F_b",
+   "part": "3894",
+   "pos_mm": [
+    40.0,
+    -16.0,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "lockF_l",
+   "part": "32316",
+   "pos_mm": [
+    40.0,
+    24.0,
+    37.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 90
+  },
+  {
+   "name": "lockF_l_p21",
+   "part": "2780",
+   "pos_mm": [
+    40.0,
+    20.0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "lockF_l_p53",
+   "part": "2780",
+   "pos_mm": [
+    40.0,
+    20.0,
+    53.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "lockR_l",
+   "part": "32316",
+   "pos_mm": [
+    -24.0,
+    24.0,
+    37.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 90
+  },
+  {
+   "name": "lockR_l_p21",
+   "part": "2780",
+   "pos_mm": [
+    -24.0,
+    20.0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "lockR_l_p53",
+   "part": "2780",
+   "pos_mm": [
+    -24.0,
+    20.0,
+    53.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "lockF_r",
+   "part": "32316",
+   "pos_mm": [
+    40.0,
+    -24.0,
+    37.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 90
+  },
+  {
+   "name": "lockF_r_p21",
+   "part": "2780",
+   "pos_mm": [
+    40.0,
+    -20.0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "lockF_r_p53",
+   "part": "2780",
+   "pos_mm": [
+    40.0,
+    -20.0,
+    53.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "lockR_r",
+   "part": "32316",
+   "pos_mm": [
+    -40.0,
+    -24.0,
+    37.6
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 90
+  },
+  {
+   "name": "lockR_r_p21",
+   "part": "2780",
+   "pos_mm": [
+    -40.0,
+    -20.0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "lockR_r_p53",
+   "part": "2780",
+   "pos_mm": [
+    -40.0,
+    -20.0,
+    53.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "lockM_r",
+   "part": "32524",
+   "pos_mm": [
+    -48.0,
+    -24.0,
+    58.400000000000006
+   ],
+   "yaw_deg": 0.0,
+   "spin_deg": 90
+  },
+  {
+   "name": "lockM_r_p34",
+   "part": "2780",
+   "pos_mm": [
+    -48.0,
+    -20.0,
+    34.4
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "lockM_r_p82",
+   "part": "2780",
+   "pos_mm": [
+    -48.0,
+    -20.0,
+    82.4
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "wr_B1_m",
+   "part": "3701",
+   "pos_mm": [
+    0.0,
+    -16.0,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wr_P1_m1",
+   "part": "3710",
+   "pos_mm": [
+    -16.0,
+    -16.0,
+    28.8
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wr_P1_m2",
+   "part": "3710",
+   "pos_mm": [
+    16.0,
+    -16.0,
+    28.8
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "bat_plate",
+   "part": "3036",
+   "pos_mm": [
+    -112.0,
+    -36.0,
+    28.8
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "bat_rail",
+   "part": "3702",
+   "pos_mm": [
+    -112.0,
+    -24.0,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "bat_pin0",
+   "part": "2780",
+   "pos_mm": [
+    -136.0,
+    -20.0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "bat_pin1",
+   "part": "2780",
+   "pos_mm": [
+    -88.0,
+    -20.0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "wl_B1_m",
+   "part": "3701",
+   "pos_mm": [
+    0.0,
+    16.0,
+    25.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "rx_plate",
+   "part": "3031",
+   "pos_mm": [
+    -96.0,
+    28.0,
+    28.8
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wl_PFf-24",
+   "part": "3023",
+   "pos_mm": [
+    -24.0,
+    16.0,
+    89.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wl_PFf24",
+   "part": "3023",
+   "pos_mm": [
+    24.0,
+    16.0,
+    89.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wr_PFf-24",
+   "part": "3023",
+   "pos_mm": [
+    -24.0,
+    -16.0,
+    89.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wr_PFf24",
+   "part": "3023",
+   "pos_mm": [
+    24.0,
+    -16.0,
+    89.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "fs_spr_l",
+   "part": "3713",
+   "pos_mm": [
+    56.0,
+    24.15,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "fs_spr_r",
+   "part": "94925",
+   "pos_mm": [
+    56.0,
+    -24.5,
+    21.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "fp_spr_r",
+   "part": "94925",
+   "pos_mm": [
+    56.0,
+    -24.5,
+    95.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wl_T1",
+   "part": "3710",
+   "pos_mm": [
+    48.0,
+    16.0,
+    102.4
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wl_T2",
+   "part": "3710",
+   "pos_mm": [
+    48.0,
+    16.0,
+    105.6
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "wl_T3",
+   "part": "3701",
+   "pos_mm": [
+    48.0,
+    16.0,
+    115.2
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "lpin_l_B5B8_76_B8",
+   "part": "2780",
+   "pos_mm": [
+    -24.0,
+    20.0,
+    95.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "fp_g24c",
+   "part": "3648",
+   "pos_mm": [
+    56.0,
+    24.0,
+    95.2
+   ],
+   "yaw_deg": 0.0
+  }
+ ],
+ "connections": [
+  {
+   "child": "wl_P1_a",
+   "parent": "wl_B1_a",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "wl_P1_b",
+   "parent": "wl_B1_a",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "wl_P1_e",
+   "parent": "wl_F_b",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "wl_P1_c",
+   "parent": "wl_F_b",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "rx_shelf",
+   "parent": "wl_B1_m",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "wl_B2_a",
+   "parent": "wl_P1_a",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "wl_B2_a",
+   "parent": "wl_P1_b",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "wl_B2_a",
+   "parent": "rx_shelf",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "wl_B2_b",
+   "parent": "wl_P1_e",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "wl_B2_b",
+   "parent": "wl_P1_c",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "wl_B2_b",
+   "parent": "rx_shelf",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "wl_B3_a",
+   "parent": "wl_B2_a",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "wl_B3_a",
+   "parent": "wl_B2_b",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "wl_B4_a",
+   "parent": "wl_B3_a",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "wl_B4_b",
+   "parent": "wl_B3_a",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "wl_B5_a",
+   "parent": "wl_B4_a",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "wl_B5_a",
+   "parent": "wl_B4_b",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "wl_B6_a",
+   "parent": "wl_B5_a",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "wl_B6_b",
+   "parent": "wl_B5_a",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "wl_B7_a",
+   "parent": "wl_B6_a",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "wl_B7_a",
+   "parent": "wl_B6_b",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "wl_PF_a",
+   "parent": "wl_B7_a",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "wl_PF_b",
+   "parent": "wl_B7_a",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "wl_PF_c",
+   "parent": "wl_B7_a",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "wl_B8_a",
+   "parent": "wl_PF_a",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "wl_B8_a",
+   "parent": "wl_PF_b",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "wl_B8_a",
+   "parent": "wl_PF_c",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "wr_P1_a",
+   "parent": "wr_B1_a",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "wr_P1_e",
+   "parent": "wr_F_b",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "wr_B2_a",
+   "parent": "wr_P1_a",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "wr_B2_b",
+   "parent": "wr_P1_e",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "wr_B3_a",
+   "parent": "wr_B2_a",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "wr_B3_a",
+   "parent": "wr_B2_b",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "wr_B4_a",
+   "parent": "wr_B3_a",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "wr_B4_b",
+   "parent": "wr_B3_a",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "wr_B5_a",
+   "parent": "wr_B4_a",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "wr_B5_a",
+   "parent": "wr_B4_b",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "wr_B6_a",
+   "parent": "wr_B5_a",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "wr_B6_b",
+   "parent": "wr_B5_a",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "wr_B7_a",
+   "parent": "wr_B6_a",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "wr_B7_a",
+   "parent": "wr_B6_b",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "wr_PF_a",
+   "parent": "wr_B7_a",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "wr_PF_b",
+   "parent": "wr_B7_a",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "wr_PF_c",
+   "parent": "wr_B7_a",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "wr_B8_a",
+   "parent": "wr_PF_a",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "wr_B8_a",
+   "parent": "wr_PF_b",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "wr_B8_a",
+   "parent": "wr_PF_c",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "fp_axle",
+   "parent": "wl_B8_a",
+   "kind": "hinge"
+  },
+  {
+   "child": "fp_axle",
+   "parent": "wr_B8_a",
+   "kind": "hinge"
+  },
+  {
+   "child": "fp_wheel_a",
+   "parent": "fp_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "fp_wheel_b",
+   "parent": "fp_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "fp_gear",
+   "parent": "fp_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rp_axle",
+   "parent": "wl_B8_a",
+   "kind": "hinge"
+  },
+  {
+   "child": "rp_axle",
+   "parent": "wr_B8_a",
+   "kind": "hinge"
+  },
+  {
+   "child": "rp_wheel_a",
+   "parent": "rp_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rp_wheel_b",
+   "parent": "rp_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rp_spr_l",
+   "parent": "rp_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rp_spr_r",
+   "parent": "rp_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rp_gear",
+   "parent": "rp_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rs_axle_l",
+   "parent": "wl_B1_a",
+   "kind": "hinge"
+  },
+  {
+   "child": "rs_bush_l",
+   "parent": "rs_axle_l",
+   "kind": "cross"
+  },
+  {
+   "child": "rs_spr_l",
+   "parent": "rs_axle_l",
+   "kind": "cross"
+  },
+  {
+   "child": "rw_l",
+   "parent": "rs_axle_l",
+   "kind": "cross"
+  },
+  {
+   "child": "rs_axle_r",
+   "parent": "wr_B1_a",
+   "kind": "hinge"
+  },
+  {
+   "child": "rs_bush_r",
+   "parent": "rs_axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "rs_spr_r",
+   "parent": "rs_axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "rw_r",
+   "parent": "rs_axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "fs_axle_l",
+   "parent": "wl_F_b",
+   "kind": "hinge"
+  },
+  {
+   "child": "fs_bush_l",
+   "parent": "fs_axle_l",
+   "kind": "cross"
+  },
+  {
+   "child": "fw_l",
+   "parent": "fs_axle_l",
+   "kind": "cross"
+  },
+  {
+   "child": "fs_axle_r",
+   "parent": "wr_F_b",
+   "kind": "hinge"
+  },
+  {
+   "child": "fs_bush_r",
+   "parent": "fs_axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "fw_r",
+   "parent": "fs_axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "mpin_8",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "mpin_24",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "mpin_24",
+   "parent": "wl_B8_a",
+   "kind": "pin"
+  },
+  {
+   "child": "m_shaft",
+   "parent": "motor",
+   "kind": "motor"
+  },
+  {
+   "child": "m_pinion",
+   "parent": "m_shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "b_shaft",
+   "parent": "wr_B8_a",
+   "kind": "hinge"
+  },
+  {
+   "child": "b_bush",
+   "parent": "b_shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "b_spacer",
+   "parent": "b_shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "b_g24",
+   "parent": "b_shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "if_shaft",
+   "parent": "wr_B8_a",
+   "kind": "hinge"
+  },
+  {
+   "child": "if_g24",
+   "parent": "if_shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "if_spacer",
+   "parent": "if_shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "if_ibush",
+   "parent": "if_shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "ir_shaft",
+   "parent": "wr_B8_a",
+   "kind": "hinge"
+  },
+  {
+   "child": "ir_g24",
+   "parent": "ir_shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "ir_spacer",
+   "parent": "ir_shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "ir_ibush",
+   "parent": "ir_shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "lpin_l_B2B7_68_B2",
+   "parent": "lock_l_B2B7_68",
+   "kind": "pin"
+  },
+  {
+   "child": "lpin_l_B2B7_68_B2",
+   "parent": "wl_B2_a",
+   "kind": "pin"
+  },
+  {
+   "child": "lpin_l_B2B7_68_B7",
+   "parent": "lock_l_B2B7_68",
+   "kind": "pin"
+  },
+  {
+   "child": "lpin_l_B2B7_68_B7",
+   "parent": "wl_B7_a",
+   "kind": "pin"
+  },
+  {
+   "child": "lpin_l_B5B8_76_B5",
+   "parent": "lock_l_B5B8_76",
+   "kind": "pin"
+  },
+  {
+   "child": "lpin_l_B5B8_76_B5",
+   "parent": "wl_B5_a",
+   "kind": "pin"
+  },
+  {
+   "child": "lpin_r_B5B8_60_B5",
+   "parent": "lock_r_B5B8_60",
+   "kind": "pin"
+  },
+  {
+   "child": "lpin_r_B5B8_60_B5",
+   "parent": "wr_B5_a",
+   "kind": "pin"
+  },
+  {
+   "child": "lpin_r_B5B8_60_B8",
+   "parent": "lock_r_B5B8_60",
+   "kind": "pin"
+  },
+  {
+   "child": "lpin_r_B5B8_60_B8",
+   "parent": "wr_B8_a",
+   "kind": "pin"
+  },
+  {
+   "child": "lockF_l_p21",
+   "parent": "lockF_l",
+   "kind": "pin"
+  },
+  {
+   "child": "lockF_l_p21",
+   "parent": "wl_F_b",
+   "kind": "pin"
+  },
+  {
+   "child": "lockF_l_p53",
+   "parent": "lockF_l",
+   "kind": "pin"
+  },
+  {
+   "child": "lockF_l_p53",
+   "parent": "wl_B4_b",
+   "kind": "pin"
+  },
+  {
+   "child": "lockR_l_p21",
+   "parent": "lockR_l",
+   "kind": "pin"
+  },
+  {
+   "child": "lockR_l_p21",
+   "parent": "wl_B1_a",
+   "kind": "pin"
+  },
+  {
+   "child": "lockR_l_p53",
+   "parent": "lockR_l",
+   "kind": "pin"
+  },
+  {
+   "child": "lockR_l_p53",
+   "parent": "wl_B4_a",
+   "kind": "pin"
+  },
+  {
+   "child": "lockF_r_p21",
+   "parent": "lockF_r",
+   "kind": "pin"
+  },
+  {
+   "child": "lockF_r_p21",
+   "parent": "wr_F_b",
+   "kind": "pin"
+  },
+  {
+   "child": "lockF_r_p53",
+   "parent": "lockF_r",
+   "kind": "pin"
+  },
+  {
+   "child": "lockF_r_p53",
+   "parent": "wr_B4_b",
+   "kind": "pin"
+  },
+  {
+   "child": "lockR_r_p21",
+   "parent": "lockR_r",
+   "kind": "pin"
+  },
+  {
+   "child": "lockR_r_p21",
+   "parent": "wr_B1_a",
+   "kind": "pin"
+  },
+  {
+   "child": "lockR_r_p53",
+   "parent": "lockR_r",
+   "kind": "pin"
+  },
+  {
+   "child": "lockR_r_p53",
+   "parent": "wr_B4_a",
+   "kind": "pin"
+  },
+  {
+   "child": "lockM_r_p34",
+   "parent": "lockM_r",
+   "kind": "pin"
+  },
+  {
+   "child": "lockM_r_p34",
+   "parent": "wr_B2_a",
+   "kind": "pin"
+  },
+  {
+   "child": "lockM_r_p82",
+   "parent": "lockM_r",
+   "kind": "pin"
+  },
+  {
+   "child": "lockM_r_p82",
+   "parent": "wr_B7_a",
+   "kind": "pin"
+  },
+  {
+   "child": "wr_P1_m1",
+   "parent": "wr_B1_a",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "wr_P1_m1",
+   "parent": "wr_B1_m",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "wr_P1_m2",
+   "parent": "wr_B1_m",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "wr_P1_m2",
+   "parent": "wr_F_b",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "wr_B2_a",
+   "parent": "wr_P1_m1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "wr_B2_b",
+   "parent": "wr_P1_m2",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "bat_plate",
+   "parent": "wr_B1_a",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "battery",
+   "parent": "bat_plate",
+   "kind": "stud",
+   "studs": 32
+  },
+  {
+   "child": "bat_plate",
+   "parent": "bat_rail",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "bat_pin0",
+   "parent": "bat_rail",
+   "kind": "pin"
+  },
+  {
+   "child": "bat_pin0",
+   "parent": "wr_B1_a",
+   "kind": "pin"
+  },
+  {
+   "child": "bat_pin1",
+   "parent": "bat_rail",
+   "kind": "pin"
+  },
+  {
+   "child": "bat_pin1",
+   "parent": "wr_B1_a",
+   "kind": "pin"
+  },
+  {
+   "child": "rx_plate",
+   "parent": "wl_B1_a",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "receiver",
+   "parent": "rx_plate",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "floor_a",
+   "parent": "wl_B8_a",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "floor_a",
+   "parent": "wr_B8_a",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "floor_b",
+   "parent": "wl_B8_a",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "floor_b",
+   "parent": "wr_B8_a",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "wl_PFf-24",
+   "parent": "wl_B7_a",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "wl_B8_a",
+   "parent": "wl_PFf-24",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "wl_PFf24",
+   "parent": "wl_B7_a",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "wl_B8_a",
+   "parent": "wl_PFf24",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "wr_PFf-24",
+   "parent": "wr_B7_a",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "wr_B8_a",
+   "parent": "wr_PFf-24",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "wr_PFf24",
+   "parent": "wr_B7_a",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "wr_B8_a",
+   "parent": "wr_PFf24",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "fs_spr_l",
+   "parent": "fs_axle_l",
+   "kind": "cross"
+  },
+  {
+   "child": "fs_spr_r",
+   "parent": "fs_axle_r",
+   "kind": "cross"
+  },
+  {
+   "child": "fp_spr_r",
+   "parent": "fp_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "wl_T1",
+   "parent": "wl_B8_a",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "wl_T2",
+   "parent": "wl_T1",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "wl_T3",
+   "parent": "wl_T2",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "mpin_8",
+   "parent": "wl_T3",
+   "kind": "pin"
+  },
+  {
+   "child": "lpin_l_B5B8_76_B8",
+   "parent": "lock_l_B5B8_76",
+   "kind": "pin"
+  },
+  {
+   "child": "lpin_l_B5B8_76_B8",
+   "parent": "wl_B8_a",
+   "kind": "pin"
+  },
+  {
+   "child": "fp_g24c",
+   "parent": "fp_axle",
+   "kind": "cross"
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "m_pinion",
+   "gear_b": "fp_g24c",
+   "teeth_a": 8,
+   "teeth_b": 24
+  },
+  {
+   "gear_a": "b_g24",
+   "gear_b": "if_g24",
+   "teeth_a": 24,
+   "teeth_b": 24
+  },
+  {
+   "gear_a": "if_g24",
+   "gear_b": "fp_gear",
+   "teeth_a": 24,
+   "teeth_b": 40
+  },
+  {
+   "gear_a": "b_g24",
+   "gear_b": "ir_g24",
+   "teeth_a": 24,
+   "teeth_b": 24
+  },
+  {
+   "gear_a": "ir_g24",
+   "gear_b": "rp_gear",
+   "teeth_a": 24,
+   "teeth_b": 40
+  }
+ ],
+ "part_set": "inventory",
+ "motor_program": [
+  {
+   "t": 0.0,
+   "motor": "motor",
+   "level": 7,
+   "note": "full power: deck -> rope climb (traction-limited, needs torque) -> goal deck"
+  },
+  {
+   "t": 11.6,
+   "motor": "motor",
+   "level": 3,
+   "note": "climb finished even for a ~12% slower run: slow down on the goal deck to widen the stopping window"
+  },
+  {
+   "t": 13.8,
+   "motor": "motor",
+   "level": "brake",
+   "note": "stop on the goal deck (nominal goal 11.0 s, ~0.2 m past it, ~0.2 m before the deck end)"
+  }
+ ],
+ "start_gap_mm": 0.0,
+ "chains": [
+  {
+   "name": "chain_fr",
+   "gears": [
+    "fp_spr_r",
+    "fs_spr_r"
+   ],
+   "links": 31
+  },
+  {
+   "name": "chain_rl",
+   "gears": [
+    "rp_spr_l",
+    "rs_spr_l"
+   ],
+   "links": 33
+  }
+ ]
+}

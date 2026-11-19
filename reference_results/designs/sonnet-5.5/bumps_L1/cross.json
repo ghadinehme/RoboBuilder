@@ -1,0 +1,593 @@
+{
+ "name": "narrow_track",
+ "description": "narrow-track AWD: wheels y 23..43 cover every rod; rails outboard, deck over the wheels on brick walls; motors pinned outboard",
+ "chassis": "deck",
+ "motor": "rear_motor",
+ "battery": "battery",
+ "intended": [],
+ "parts": [
+  {
+   "name": "rail_l",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    60,
+    35.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rail_r",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    -60,
+    35.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "wall_l0",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    60,
+    44.92
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "wall_l1",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    60,
+    54.519999999999996
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "wall_l2",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    60,
+    64.12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "wall_r0",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    -60,
+    44.92
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "wall_r1",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    -60,
+    54.519999999999996
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "wall_r2",
+   "part": "3703",
+   "pos_mm": [
+    0,
+    -60,
+    64.12
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "deck",
+   "part": "92438",
+   "pos_mm": [
+    0,
+    0,
+    67.32000000000001
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    0,
+    0,
+    105.72
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    0,
+    -16,
+    115.32
+   ],
+   "yaw_deg": 270,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_axle",
+   "part": "50451",
+   "pos_mm": [
+    -40,
+    0,
+    31.32
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_wl",
+   "part": "32020c01",
+   "pos_mm": [
+    -40,
+    29.2,
+    31.32
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_wr",
+   "part": "32020c01",
+   "pos_mm": [
+    -40,
+    -29.2,
+    31.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_gear",
+   "part": "3648",
+   "pos_mm": [
+    -40,
+    52,
+    31.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_bush",
+   "part": "3713",
+   "pos_mm": [
+    -40,
+    -52,
+    31.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_motor",
+   "part": "99499c01",
+   "pos_mm": [
+    -24,
+    64,
+    31.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_pin0",
+   "part": "2780",
+   "pos_mm": [
+    -32,
+    64,
+    31.32
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_pin1",
+   "part": "2780",
+   "pos_mm": [
+    -16,
+    64,
+    31.32
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_shaft",
+   "part": "4519",
+   "pos_mm": [
+    -24,
+    55.2,
+    31.32
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "rear_pinion",
+   "part": "10928",
+   "pos_mm": [
+    -24,
+    52,
+    31.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_axle",
+   "part": "50451",
+   "pos_mm": [
+    32,
+    0,
+    31.32
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_wl",
+   "part": "32020c01",
+   "pos_mm": [
+    32,
+    29.2,
+    31.32
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_wr",
+   "part": "32020c01",
+   "pos_mm": [
+    32,
+    -29.2,
+    31.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_gear",
+   "part": "3648",
+   "pos_mm": [
+    32,
+    -52,
+    31.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_bush",
+   "part": "3713",
+   "pos_mm": [
+    32,
+    52,
+    31.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_motor",
+   "part": "99499c01",
+   "pos_mm": [
+    16,
+    -64,
+    31.32
+   ],
+   "yaw_deg": 180,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_pin0",
+   "part": "2780",
+   "pos_mm": [
+    8,
+    -64,
+    31.32
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_pin1",
+   "part": "2780",
+   "pos_mm": [
+    24,
+    -64,
+    31.32
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_shaft",
+   "part": "4519",
+   "pos_mm": [
+    16,
+    -55.2,
+    31.32
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 0
+  },
+  {
+   "name": "front_pinion",
+   "part": "10928",
+   "pos_mm": [
+    16,
+    -52,
+    31.32
+   ],
+   "yaw_deg": 0,
+   "spin_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "wall_l0",
+   "parent": "rail_l",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "wall_l1",
+   "parent": "wall_l0",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "wall_l2",
+   "parent": "wall_l1",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "wall_r0",
+   "parent": "rail_r",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "wall_r1",
+   "parent": "wall_r0",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "wall_r2",
+   "parent": "wall_r1",
+   "kind": "stud",
+   "studs": 16
+  },
+  {
+   "child": "deck",
+   "parent": "wall_l2",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "deck",
+   "parent": "wall_r2",
+   "kind": "stud",
+   "studs": 8
+  },
+  {
+   "child": "battery",
+   "parent": "deck",
+   "kind": "stud",
+   "studs": 32
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "rear_axle",
+   "parent": "rail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "rear_axle",
+   "parent": "rail_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "rear_wl",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_wr",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_gear",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_bush",
+   "parent": "rear_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "rear_pin0",
+   "parent": "rear_motor",
+   "kind": "pin"
+  },
+  {
+   "child": "rear_pin0",
+   "parent": "rail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "rear_pin1",
+   "parent": "rear_motor",
+   "kind": "pin"
+  },
+  {
+   "child": "rear_pin1",
+   "parent": "rail_l",
+   "kind": "pin"
+  },
+  {
+   "child": "rear_shaft",
+   "parent": "rear_motor",
+   "kind": "motor"
+  },
+  {
+   "child": "rear_pinion",
+   "parent": "rear_shaft",
+   "kind": "cross"
+  },
+  {
+   "child": "front_axle",
+   "parent": "rail_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "front_axle",
+   "parent": "rail_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "front_wl",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_wr",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_gear",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_bush",
+   "parent": "front_axle",
+   "kind": "cross"
+  },
+  {
+   "child": "front_pin0",
+   "parent": "front_motor",
+   "kind": "pin"
+  },
+  {
+   "child": "front_pin0",
+   "parent": "rail_r",
+   "kind": "pin"
+  },
+  {
+   "child": "front_pin1",
+   "parent": "front_motor",
+   "kind": "pin"
+  },
+  {
+   "child": "front_pin1",
+   "parent": "rail_r",
+   "kind": "pin"
+  },
+  {
+   "child": "front_shaft",
+   "parent": "front_motor",
+   "kind": "motor"
+  },
+  {
+   "child": "front_pinion",
+   "parent": "front_shaft",
+   "kind": "cross"
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "rear_pinion",
+   "gear_b": "rear_gear",
+   "teeth_a": 8,
+   "teeth_b": 24
+  },
+  {
+   "gear_a": "front_pinion",
+   "gear_b": "front_gear",
+   "teeth_a": 8,
+   "teeth_b": 24
+  }
+ ],
+ "part_set": "inventory",
+ "treads": [],
+ "racks": [],
+ "motor_program": [
+  {
+   "t": 0,
+   "motor": "rear_motor",
+   "level": 3
+  },
+  {
+   "t": 0.1,
+   "motor": "front_motor",
+   "level": 3
+  },
+  {
+   "t": 0.6,
+   "motor": "rear_motor",
+   "level": 5
+  },
+  {
+   "t": 0.7,
+   "motor": "front_motor",
+   "level": 5
+  },
+  {
+   "t": 1.2,
+   "motor": "rear_motor",
+   "level": 7
+  },
+  {
+   "t": 1.3,
+   "motor": "front_motor",
+   "level": 7
+  },
+  {
+   "t": 8,
+   "motor": "rear_motor",
+   "level": "brake"
+  },
+  {
+   "t": 8.1,
+   "motor": "front_motor",
+   "level": "brake"
+  }
+ ],
+ "start_gap_mm": 40
+}

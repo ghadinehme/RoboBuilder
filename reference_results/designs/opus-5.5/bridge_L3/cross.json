@@ -1,0 +1,2018 @@
+{
+ "name": "walker_c",
+ "description": "Tightrope walker: single-track rail vehicle on a flanged free front axle and one wide driven rear tyre; two battery boxes hang beside the decks on a rigid drooping pole, so the centre of mass is below the plank top.",
+ "chassis": "deck",
+ "motor": "motor",
+ "battery": "battery",
+ "intended": [],
+ "parts": [
+  {
+   "name": "beam_l",
+   "part": "3703",
+   "pos_mm": [
+    8.0,
+    36.0,
+    25.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "nose_l",
+   "part": "3701",
+   "pos_mm": [
+    88.0,
+    36.0,
+    25.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "spl_l",
+   "part": "32316",
+   "pos_mm": [
+    72.0,
+    44.0,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "splm_l0",
+   "part": "2780",
+   "pos_mm": [
+    56.0,
+    40.0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "splm_l1",
+   "part": "2780",
+   "pos_mm": [
+    64.0,
+    40.0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "spln_l0",
+   "part": "2780",
+   "pos_mm": [
+    80.0,
+    40.0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "spln_l1",
+   "part": "2780",
+   "pos_mm": [
+    88.0,
+    40.0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "beam_r",
+   "part": "3703",
+   "pos_mm": [
+    8.0,
+    -36.0,
+    25.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "nose_r",
+   "part": "3701",
+   "pos_mm": [
+    88.0,
+    -36.0,
+    25.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "spl_r",
+   "part": "32316",
+   "pos_mm": [
+    72.0,
+    -44.0,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "splm_r0",
+   "part": "2780",
+   "pos_mm": [
+    56.0,
+    -40.0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "splm_r1",
+   "part": "2780",
+   "pos_mm": [
+    64.0,
+    -40.0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "spln_r0",
+   "part": "2780",
+   "pos_mm": [
+    80.0,
+    -40.0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "spln_r1",
+   "part": "2780",
+   "pos_mm": [
+    88.0,
+    -40.0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "raxle",
+   "part": "23948",
+   "pos_mm": [
+    0.0,
+    -4.0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "rwheel",
+   "part": "56145c01",
+   "pos_mm": [
+    0.0,
+    0.0,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rgear",
+   "part": "3648",
+   "pos_mm": [
+    0.0,
+    -44.0,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rb_l",
+   "part": "4265c",
+   "pos_mm": [
+    0.0,
+    30.0,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "rb_r",
+   "part": "4265c",
+   "pos_mm": [
+    0.0,
+    -30.0,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "motor",
+   "part": "99499c01",
+   "pos_mm": [
+    -40.0,
+    -28.0,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "mpin_l0",
+   "part": "2780",
+   "pos_mm": [
+    -48.0,
+    28.0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "mpin_l1",
+   "part": "2780",
+   "pos_mm": [
+    -32.0,
+    28.0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "mpin_r0",
+   "part": "2780",
+   "pos_mm": [
+    -48.0,
+    -28.0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "mpin_r1",
+   "part": "2780",
+   "pos_mm": [
+    -32.0,
+    -28.0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "mshaft",
+   "part": "3705",
+   "pos_mm": [
+    -40.0,
+    -36.0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "msb",
+   "part": "4265c",
+   "pos_mm": [
+    -40.0,
+    -50.0,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pinion",
+   "part": "10928",
+   "pos_mm": [
+    -40.0,
+    -44.0,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "idax",
+   "part": "4519",
+   "pos_mm": [
+    -24.0,
+    -40.0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "idler",
+   "part": "3648",
+   "pos_mm": [
+    -24.0,
+    -44.0,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "idb",
+   "part": "4265c",
+   "pos_mm": [
+    -24.0,
+    -30.0,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "faxle",
+   "part": "23948",
+   "pos_mm": [
+    96.0,
+    0.0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "tread",
+   "part": "4185t",
+   "pos_mm": [
+    96.0,
+    0.0,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "fbi_l",
+   "part": "4265c",
+   "pos_mm": [
+    96.0,
+    4.0,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "flange_l",
+   "part": "56145c01",
+   "pos_mm": [
+    96.0,
+    16.8,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "fbm_l",
+   "part": "4265c",
+   "pos_mm": [
+    96.0,
+    30.0,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "fbo_l",
+   "part": "4265c",
+   "pos_mm": [
+    96.0,
+    41.8,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "fbi_r",
+   "part": "4265c",
+   "pos_mm": [
+    96.0,
+    -4.0,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "flange_r",
+   "part": "56145c01",
+   "pos_mm": [
+    96.0,
+    -16.8,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "fbm_r",
+   "part": "4265c",
+   "pos_mm": [
+    96.0,
+    -30.0,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "fbo_r",
+   "part": "4265c",
+   "pos_mm": [
+    96.0,
+    -41.8,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "deck",
+   "part": "3030",
+   "pos_mm": [
+    40.0,
+    0.0,
+    28.8
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "deck2",
+   "part": "3030",
+   "pos_mm": [
+    40.0,
+    0.0,
+    32.0
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "tie",
+   "part": "50451",
+   "pos_mm": [
+    40.0,
+    0.0,
+    21.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "conl",
+   "part": "42003",
+   "pos_mm": [
+    40.0,
+    48.0,
+    29.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 180
+  },
+  {
+   "name": "cbl",
+   "part": "4265c",
+   "pos_mm": [
+    40.0,
+    30.0,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "conr",
+   "part": "42003",
+   "pos_mm": [
+    40.0,
+    -48.0,
+    29.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 180
+  },
+  {
+   "name": "cbr",
+   "part": "4265c",
+   "pos_mm": [
+    40.0,
+    -30.0,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pca",
+   "part": "3703",
+   "pos_mm": [
+    28.0,
+    0.0,
+    41.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "conpal",
+   "part": "2780",
+   "pos_mm": [
+    32.0,
+    48.0,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "poal",
+   "part": "3703",
+   "pos_mm": [
+    28.0,
+    128.0,
+    41.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "spal",
+   "part": "40490",
+   "pos_mm": [
+    20.0,
+    64.0,
+    37.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "sppal0",
+   "part": "2780",
+   "pos_mm": [
+    24.0,
+    40.0,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "sppal1",
+   "part": "2780",
+   "pos_mm": [
+    24.0,
+    56.0,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "sppal2",
+   "part": "2780",
+   "pos_mm": [
+    24.0,
+    72.0,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "sppal3",
+   "part": "2780",
+   "pos_mm": [
+    24.0,
+    80.0,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "ttal",
+   "part": "60484",
+   "pos_mm": [
+    20.0,
+    176.0,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": -90
+  },
+  {
+   "name": "tbal",
+   "part": "60484",
+   "pos_mm": [
+    36.0,
+    176.0,
+    29.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 90
+  },
+  {
+   "name": "cral",
+   "part": "3701",
+   "pos_mm": [
+    28.0,
+    176.0,
+    17.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "ttpal0",
+   "part": "2780",
+   "pos_mm": [
+    24.0,
+    168.0,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "tbpal0",
+   "part": "2780",
+   "pos_mm": [
+    32.0,
+    168.0,
+    13.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "ttpal1",
+   "part": "2780",
+   "pos_mm": [
+    24.0,
+    184.0,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "tbpal1",
+   "part": "2780",
+   "pos_mm": [
+    32.0,
+    184.0,
+    13.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "stpal0",
+   "part": "6558",
+   "pos_mm": [
+    28.0,
+    176.0,
+    29.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "stpal1",
+   "part": "6558",
+   "pos_mm": [
+    28.0,
+    176.0,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "conpar",
+   "part": "2780",
+   "pos_mm": [
+    32.0,
+    -48.0,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "poar",
+   "part": "3703",
+   "pos_mm": [
+    28.0,
+    -128.0,
+    41.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "spar",
+   "part": "40490",
+   "pos_mm": [
+    20.0,
+    -64.0,
+    37.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "sppar0",
+   "part": "2780",
+   "pos_mm": [
+    24.0,
+    -40.0,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "sppar1",
+   "part": "2780",
+   "pos_mm": [
+    24.0,
+    -56.0,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "sppar2",
+   "part": "2780",
+   "pos_mm": [
+    24.0,
+    -72.0,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "sppar3",
+   "part": "2780",
+   "pos_mm": [
+    24.0,
+    -80.0,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "ttar",
+   "part": "60484",
+   "pos_mm": [
+    20.0,
+    -176.0,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": -90
+  },
+  {
+   "name": "tbar",
+   "part": "60484",
+   "pos_mm": [
+    36.0,
+    -176.0,
+    29.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 90
+  },
+  {
+   "name": "crar",
+   "part": "3701",
+   "pos_mm": [
+    28.0,
+    -176.0,
+    17.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "ttpar0",
+   "part": "2780",
+   "pos_mm": [
+    24.0,
+    -184.0,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "tbpar0",
+   "part": "2780",
+   "pos_mm": [
+    32.0,
+    -184.0,
+    13.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "ttpar1",
+   "part": "2780",
+   "pos_mm": [
+    24.0,
+    -168.0,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "tbpar1",
+   "part": "2780",
+   "pos_mm": [
+    32.0,
+    -168.0,
+    13.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "stpar0",
+   "part": "6558",
+   "pos_mm": [
+    28.0,
+    -176.0,
+    29.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "stpar1",
+   "part": "6558",
+   "pos_mm": [
+    28.0,
+    -176.0,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pcb",
+   "part": "3703",
+   "pos_mm": [
+    52.0,
+    0.0,
+    41.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "conpbl",
+   "part": "2780",
+   "pos_mm": [
+    48.0,
+    48.0,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pobl",
+   "part": "3703",
+   "pos_mm": [
+    52.0,
+    128.0,
+    41.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "spbl",
+   "part": "40490",
+   "pos_mm": [
+    60.0,
+    64.0,
+    37.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "sppbl0",
+   "part": "2780",
+   "pos_mm": [
+    56.0,
+    40.0,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "sppbl1",
+   "part": "2780",
+   "pos_mm": [
+    56.0,
+    56.0,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "sppbl2",
+   "part": "2780",
+   "pos_mm": [
+    56.0,
+    72.0,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "sppbl3",
+   "part": "2780",
+   "pos_mm": [
+    56.0,
+    80.0,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "ttbl",
+   "part": "60484",
+   "pos_mm": [
+    60.0,
+    176.0,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": -90
+  },
+  {
+   "name": "tbbl",
+   "part": "60484",
+   "pos_mm": [
+    44.0,
+    176.0,
+    29.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 90
+  },
+  {
+   "name": "crbl",
+   "part": "3701",
+   "pos_mm": [
+    52.0,
+    176.0,
+    17.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "ttpbl0",
+   "part": "2780",
+   "pos_mm": [
+    56.0,
+    168.0,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "tbpbl0",
+   "part": "2780",
+   "pos_mm": [
+    48.0,
+    168.0,
+    13.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "ttpbl1",
+   "part": "2780",
+   "pos_mm": [
+    56.0,
+    184.0,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "tbpbl1",
+   "part": "2780",
+   "pos_mm": [
+    48.0,
+    184.0,
+    13.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "stpbl0",
+   "part": "6558",
+   "pos_mm": [
+    52.0,
+    176.0,
+    29.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "stpbl1",
+   "part": "6558",
+   "pos_mm": [
+    52.0,
+    176.0,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "conpbr",
+   "part": "2780",
+   "pos_mm": [
+    48.0,
+    -48.0,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "pobr",
+   "part": "3703",
+   "pos_mm": [
+    52.0,
+    -128.0,
+    41.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "spbr",
+   "part": "40490",
+   "pos_mm": [
+    60.0,
+    -64.0,
+    37.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "sppbr0",
+   "part": "2780",
+   "pos_mm": [
+    56.0,
+    -40.0,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "sppbr1",
+   "part": "2780",
+   "pos_mm": [
+    56.0,
+    -56.0,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "sppbr2",
+   "part": "2780",
+   "pos_mm": [
+    56.0,
+    -72.0,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "sppbr3",
+   "part": "2780",
+   "pos_mm": [
+    56.0,
+    -80.0,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "ttbr",
+   "part": "60484",
+   "pos_mm": [
+    60.0,
+    -176.0,
+    21.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": -90
+  },
+  {
+   "name": "tbbr",
+   "part": "60484",
+   "pos_mm": [
+    44.0,
+    -176.0,
+    29.6
+   ],
+   "yaw_deg": 90,
+   "spin_deg": 90
+  },
+  {
+   "name": "crbr",
+   "part": "3701",
+   "pos_mm": [
+    52.0,
+    -176.0,
+    17.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "ttpbr0",
+   "part": "2780",
+   "pos_mm": [
+    56.0,
+    -184.0,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "tbpbr0",
+   "part": "2780",
+   "pos_mm": [
+    48.0,
+    -184.0,
+    13.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "ttpbr1",
+   "part": "2780",
+   "pos_mm": [
+    56.0,
+    -168.0,
+    37.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "tbpbr1",
+   "part": "2780",
+   "pos_mm": [
+    48.0,
+    -168.0,
+    13.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "stpbr0",
+   "part": "6558",
+   "pos_mm": [
+    52.0,
+    -176.0,
+    29.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "stpbr1",
+   "part": "6558",
+   "pos_mm": [
+    52.0,
+    -176.0,
+    21.6
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    40.0,
+    192.0,
+    8.0
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "ballast",
+   "part": "87513c01",
+   "pos_mm": [
+    40.0,
+    -192.0,
+    8.0
+   ],
+   "yaw_deg": -90
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    40.0,
+    176.0,
+    51.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "receiver2",
+   "part": "58123c01",
+   "pos_mm": [
+    40.0,
+    -176.0,
+    51.2
+   ],
+   "yaw_deg": -90
+  }
+ ],
+ "connections": [
+  {
+   "child": "splm_l0",
+   "parent": "beam_l",
+   "kind": "pin"
+  },
+  {
+   "child": "splm_l0",
+   "parent": "spl_l",
+   "kind": "pin"
+  },
+  {
+   "child": "splm_l1",
+   "parent": "beam_l",
+   "kind": "pin"
+  },
+  {
+   "child": "splm_l1",
+   "parent": "spl_l",
+   "kind": "pin"
+  },
+  {
+   "child": "spln_l0",
+   "parent": "nose_l",
+   "kind": "pin"
+  },
+  {
+   "child": "spln_l0",
+   "parent": "spl_l",
+   "kind": "pin"
+  },
+  {
+   "child": "spln_l1",
+   "parent": "nose_l",
+   "kind": "pin"
+  },
+  {
+   "child": "spln_l1",
+   "parent": "spl_l",
+   "kind": "pin"
+  },
+  {
+   "child": "splm_r0",
+   "parent": "beam_r",
+   "kind": "pin"
+  },
+  {
+   "child": "splm_r0",
+   "parent": "spl_r",
+   "kind": "pin"
+  },
+  {
+   "child": "splm_r1",
+   "parent": "beam_r",
+   "kind": "pin"
+  },
+  {
+   "child": "splm_r1",
+   "parent": "spl_r",
+   "kind": "pin"
+  },
+  {
+   "child": "spln_r0",
+   "parent": "nose_r",
+   "kind": "pin"
+  },
+  {
+   "child": "spln_r0",
+   "parent": "spl_r",
+   "kind": "pin"
+  },
+  {
+   "child": "spln_r1",
+   "parent": "nose_r",
+   "kind": "pin"
+  },
+  {
+   "child": "spln_r1",
+   "parent": "spl_r",
+   "kind": "pin"
+  },
+  {
+   "child": "rwheel",
+   "parent": "raxle",
+   "kind": "cross"
+  },
+  {
+   "child": "rgear",
+   "parent": "raxle",
+   "kind": "cross"
+  },
+  {
+   "child": "rb_l",
+   "parent": "raxle",
+   "kind": "cross"
+  },
+  {
+   "child": "rb_r",
+   "parent": "raxle",
+   "kind": "cross"
+  },
+  {
+   "child": "raxle",
+   "parent": "beam_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "raxle",
+   "parent": "beam_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "mpin_l0",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "mpin_l0",
+   "parent": "beam_l",
+   "kind": "pin"
+  },
+  {
+   "child": "mpin_l1",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "mpin_l1",
+   "parent": "beam_l",
+   "kind": "pin"
+  },
+  {
+   "child": "mpin_r0",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "mpin_r0",
+   "parent": "beam_r",
+   "kind": "pin"
+  },
+  {
+   "child": "mpin_r1",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "mpin_r1",
+   "parent": "beam_r",
+   "kind": "pin"
+  },
+  {
+   "child": "mshaft",
+   "parent": "motor",
+   "kind": "motor"
+  },
+  {
+   "child": "msb",
+   "parent": "mshaft",
+   "kind": "cross"
+  },
+  {
+   "child": "pinion",
+   "parent": "mshaft",
+   "kind": "cross"
+  },
+  {
+   "child": "idax",
+   "parent": "beam_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "idler",
+   "parent": "idax",
+   "kind": "cross"
+  },
+  {
+   "child": "idb",
+   "parent": "idax",
+   "kind": "cross"
+  },
+  {
+   "child": "faxle",
+   "parent": "nose_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "faxle",
+   "parent": "nose_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "tread",
+   "parent": "faxle",
+   "kind": "cross"
+  },
+  {
+   "child": "fbi_l",
+   "parent": "faxle",
+   "kind": "cross"
+  },
+  {
+   "child": "flange_l",
+   "parent": "faxle",
+   "kind": "cross"
+  },
+  {
+   "child": "fbm_l",
+   "parent": "faxle",
+   "kind": "cross"
+  },
+  {
+   "child": "fbo_l",
+   "parent": "faxle",
+   "kind": "cross"
+  },
+  {
+   "child": "fbi_r",
+   "parent": "faxle",
+   "kind": "cross"
+  },
+  {
+   "child": "flange_r",
+   "parent": "faxle",
+   "kind": "cross"
+  },
+  {
+   "child": "fbm_r",
+   "parent": "faxle",
+   "kind": "cross"
+  },
+  {
+   "child": "fbo_r",
+   "parent": "faxle",
+   "kind": "cross"
+  },
+  {
+   "child": "deck",
+   "parent": "beam_l",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "deck",
+   "parent": "beam_r",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "deck2",
+   "parent": "deck",
+   "kind": "stud",
+   "studs": 40
+  },
+  {
+   "child": "tie",
+   "parent": "beam_l",
+   "kind": "hinge"
+  },
+  {
+   "child": "tie",
+   "parent": "beam_r",
+   "kind": "hinge"
+  },
+  {
+   "child": "conl",
+   "parent": "tie",
+   "kind": "cross"
+  },
+  {
+   "child": "cbl",
+   "parent": "tie",
+   "kind": "cross"
+  },
+  {
+   "child": "conr",
+   "parent": "tie",
+   "kind": "cross"
+  },
+  {
+   "child": "cbr",
+   "parent": "tie",
+   "kind": "cross"
+  },
+  {
+   "child": "pca",
+   "parent": "deck2",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "conpal",
+   "parent": "pca",
+   "kind": "pin"
+  },
+  {
+   "child": "conpal",
+   "parent": "conl",
+   "kind": "pin"
+  },
+  {
+   "child": "sppal0",
+   "parent": "pca",
+   "kind": "pin"
+  },
+  {
+   "child": "sppal0",
+   "parent": "spal",
+   "kind": "pin"
+  },
+  {
+   "child": "sppal1",
+   "parent": "pca",
+   "kind": "pin"
+  },
+  {
+   "child": "sppal1",
+   "parent": "spal",
+   "kind": "pin"
+  },
+  {
+   "child": "sppal2",
+   "parent": "poal",
+   "kind": "pin"
+  },
+  {
+   "child": "sppal2",
+   "parent": "spal",
+   "kind": "pin"
+  },
+  {
+   "child": "sppal3",
+   "parent": "poal",
+   "kind": "pin"
+  },
+  {
+   "child": "sppal3",
+   "parent": "spal",
+   "kind": "pin"
+  },
+  {
+   "child": "ttpal0",
+   "parent": "poal",
+   "kind": "pin"
+  },
+  {
+   "child": "ttpal0",
+   "parent": "ttal",
+   "kind": "pin"
+  },
+  {
+   "child": "tbpal0",
+   "parent": "cral",
+   "kind": "pin"
+  },
+  {
+   "child": "tbpal0",
+   "parent": "tbal",
+   "kind": "pin"
+  },
+  {
+   "child": "ttpal1",
+   "parent": "poal",
+   "kind": "pin"
+  },
+  {
+   "child": "ttpal1",
+   "parent": "ttal",
+   "kind": "pin"
+  },
+  {
+   "child": "tbpal1",
+   "parent": "cral",
+   "kind": "pin"
+  },
+  {
+   "child": "tbpal1",
+   "parent": "tbal",
+   "kind": "pin"
+  },
+  {
+   "child": "stpal0",
+   "parent": "ttal",
+   "kind": "pin"
+  },
+  {
+   "child": "stpal0",
+   "parent": "tbal",
+   "kind": "pin"
+  },
+  {
+   "child": "stpal1",
+   "parent": "ttal",
+   "kind": "pin"
+  },
+  {
+   "child": "stpal1",
+   "parent": "tbal",
+   "kind": "pin"
+  },
+  {
+   "child": "conpar",
+   "parent": "pca",
+   "kind": "pin"
+  },
+  {
+   "child": "conpar",
+   "parent": "conr",
+   "kind": "pin"
+  },
+  {
+   "child": "sppar0",
+   "parent": "pca",
+   "kind": "pin"
+  },
+  {
+   "child": "sppar0",
+   "parent": "spar",
+   "kind": "pin"
+  },
+  {
+   "child": "sppar1",
+   "parent": "pca",
+   "kind": "pin"
+  },
+  {
+   "child": "sppar1",
+   "parent": "spar",
+   "kind": "pin"
+  },
+  {
+   "child": "sppar2",
+   "parent": "poar",
+   "kind": "pin"
+  },
+  {
+   "child": "sppar2",
+   "parent": "spar",
+   "kind": "pin"
+  },
+  {
+   "child": "sppar3",
+   "parent": "poar",
+   "kind": "pin"
+  },
+  {
+   "child": "sppar3",
+   "parent": "spar",
+   "kind": "pin"
+  },
+  {
+   "child": "ttpar0",
+   "parent": "poar",
+   "kind": "pin"
+  },
+  {
+   "child": "ttpar0",
+   "parent": "ttar",
+   "kind": "pin"
+  },
+  {
+   "child": "tbpar0",
+   "parent": "crar",
+   "kind": "pin"
+  },
+  {
+   "child": "tbpar0",
+   "parent": "tbar",
+   "kind": "pin"
+  },
+  {
+   "child": "ttpar1",
+   "parent": "poar",
+   "kind": "pin"
+  },
+  {
+   "child": "ttpar1",
+   "parent": "ttar",
+   "kind": "pin"
+  },
+  {
+   "child": "tbpar1",
+   "parent": "crar",
+   "kind": "pin"
+  },
+  {
+   "child": "tbpar1",
+   "parent": "tbar",
+   "kind": "pin"
+  },
+  {
+   "child": "stpar0",
+   "parent": "ttar",
+   "kind": "pin"
+  },
+  {
+   "child": "stpar0",
+   "parent": "tbar",
+   "kind": "pin"
+  },
+  {
+   "child": "stpar1",
+   "parent": "ttar",
+   "kind": "pin"
+  },
+  {
+   "child": "stpar1",
+   "parent": "tbar",
+   "kind": "pin"
+  },
+  {
+   "child": "pcb",
+   "parent": "deck2",
+   "kind": "stud",
+   "studs": 10
+  },
+  {
+   "child": "conpbl",
+   "parent": "pcb",
+   "kind": "pin"
+  },
+  {
+   "child": "conpbl",
+   "parent": "conl",
+   "kind": "pin"
+  },
+  {
+   "child": "sppbl0",
+   "parent": "pcb",
+   "kind": "pin"
+  },
+  {
+   "child": "sppbl0",
+   "parent": "spbl",
+   "kind": "pin"
+  },
+  {
+   "child": "sppbl1",
+   "parent": "pcb",
+   "kind": "pin"
+  },
+  {
+   "child": "sppbl1",
+   "parent": "spbl",
+   "kind": "pin"
+  },
+  {
+   "child": "sppbl2",
+   "parent": "pobl",
+   "kind": "pin"
+  },
+  {
+   "child": "sppbl2",
+   "parent": "spbl",
+   "kind": "pin"
+  },
+  {
+   "child": "sppbl3",
+   "parent": "pobl",
+   "kind": "pin"
+  },
+  {
+   "child": "sppbl3",
+   "parent": "spbl",
+   "kind": "pin"
+  },
+  {
+   "child": "ttpbl0",
+   "parent": "pobl",
+   "kind": "pin"
+  },
+  {
+   "child": "ttpbl0",
+   "parent": "ttbl",
+   "kind": "pin"
+  },
+  {
+   "child": "tbpbl0",
+   "parent": "crbl",
+   "kind": "pin"
+  },
+  {
+   "child": "tbpbl0",
+   "parent": "tbbl",
+   "kind": "pin"
+  },
+  {
+   "child": "ttpbl1",
+   "parent": "pobl",
+   "kind": "pin"
+  },
+  {
+   "child": "ttpbl1",
+   "parent": "ttbl",
+   "kind": "pin"
+  },
+  {
+   "child": "tbpbl1",
+   "parent": "crbl",
+   "kind": "pin"
+  },
+  {
+   "child": "tbpbl1",
+   "parent": "tbbl",
+   "kind": "pin"
+  },
+  {
+   "child": "stpbl0",
+   "parent": "ttbl",
+   "kind": "pin"
+  },
+  {
+   "child": "stpbl0",
+   "parent": "tbbl",
+   "kind": "pin"
+  },
+  {
+   "child": "stpbl1",
+   "parent": "ttbl",
+   "kind": "pin"
+  },
+  {
+   "child": "stpbl1",
+   "parent": "tbbl",
+   "kind": "pin"
+  },
+  {
+   "child": "conpbr",
+   "parent": "pcb",
+   "kind": "pin"
+  },
+  {
+   "child": "conpbr",
+   "parent": "conr",
+   "kind": "pin"
+  },
+  {
+   "child": "sppbr0",
+   "parent": "pcb",
+   "kind": "pin"
+  },
+  {
+   "child": "sppbr0",
+   "parent": "spbr",
+   "kind": "pin"
+  },
+  {
+   "child": "sppbr1",
+   "parent": "pcb",
+   "kind": "pin"
+  },
+  {
+   "child": "sppbr1",
+   "parent": "spbr",
+   "kind": "pin"
+  },
+  {
+   "child": "sppbr2",
+   "parent": "pobr",
+   "kind": "pin"
+  },
+  {
+   "child": "sppbr2",
+   "parent": "spbr",
+   "kind": "pin"
+  },
+  {
+   "child": "sppbr3",
+   "parent": "pobr",
+   "kind": "pin"
+  },
+  {
+   "child": "sppbr3",
+   "parent": "spbr",
+   "kind": "pin"
+  },
+  {
+   "child": "ttpbr0",
+   "parent": "pobr",
+   "kind": "pin"
+  },
+  {
+   "child": "ttpbr0",
+   "parent": "ttbr",
+   "kind": "pin"
+  },
+  {
+   "child": "tbpbr0",
+   "parent": "crbr",
+   "kind": "pin"
+  },
+  {
+   "child": "tbpbr0",
+   "parent": "tbbr",
+   "kind": "pin"
+  },
+  {
+   "child": "ttpbr1",
+   "parent": "pobr",
+   "kind": "pin"
+  },
+  {
+   "child": "ttpbr1",
+   "parent": "ttbr",
+   "kind": "pin"
+  },
+  {
+   "child": "tbpbr1",
+   "parent": "crbr",
+   "kind": "pin"
+  },
+  {
+   "child": "tbpbr1",
+   "parent": "tbbr",
+   "kind": "pin"
+  },
+  {
+   "child": "stpbr0",
+   "parent": "ttbr",
+   "kind": "pin"
+  },
+  {
+   "child": "stpbr0",
+   "parent": "tbbr",
+   "kind": "pin"
+  },
+  {
+   "child": "stpbr1",
+   "parent": "ttbr",
+   "kind": "pin"
+  },
+  {
+   "child": "stpbr1",
+   "parent": "tbbr",
+   "kind": "pin"
+  },
+  {
+   "child": "cral",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "crar",
+   "parent": "ballast",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "crbl",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "crbr",
+   "parent": "ballast",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "receiver",
+   "parent": "poal",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "receiver2",
+   "parent": "poar",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "receiver",
+   "parent": "pobl",
+   "kind": "stud",
+   "studs": 4
+  },
+  {
+   "child": "receiver2",
+   "parent": "pobr",
+   "kind": "stud",
+   "studs": 4
+  }
+ ],
+ "gear_meshes": [
+  {
+   "gear_a": "pinion",
+   "gear_b": "idler",
+   "teeth_a": 8,
+   "teeth_b": 24
+  },
+  {
+   "gear_a": "idler",
+   "gear_b": "rgear",
+   "teeth_a": 24,
+   "teeth_b": 24
+  }
+ ],
+ "part_set": "inventory",
+ "motor_program": [
+  {
+   "t": 0.0,
+   "motor": "motor",
+   "level": 3
+  },
+  {
+   "t": 0.3,
+   "motor": "motor",
+   "level": 5
+  },
+  {
+   "t": 3.9,
+   "motor": "motor",
+   "level": 3
+  },
+  {
+   "t": 5.55,
+   "motor": "motor",
+   "level": 0
+  },
+  {
+   "t": 6.05,
+   "motor": "motor",
+   "level": "brake"
+  }
+ ],
+ "start_gap_mm": 5.0
+}

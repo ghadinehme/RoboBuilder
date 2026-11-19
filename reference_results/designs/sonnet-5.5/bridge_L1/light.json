@@ -1,0 +1,195 @@
+{
+ "name": "pb21",
+ "description": "pullback",
+ "chassis": "ubl",
+ "motor": "motor",
+ "battery": "battery",
+ "intended": [],
+ "parts": [
+  {
+   "name": "motor",
+   "part": "12787c01",
+   "pos_mm": [
+    0.0,
+    0.0,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "axle",
+   "part": "32073",
+   "pos_mm": [
+    0.0,
+    0.0,
+    15.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "wl",
+   "part": "4185t",
+   "pos_mm": [
+    0.0,
+    14.0,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "ubl",
+   "part": "32000",
+   "pos_mm": [
+    -4.0,
+    16.0,
+    43.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "upinl0",
+   "part": "2780",
+   "pos_mm": [
+    0.0,
+    12.0,
+    39.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "upinl8",
+   "part": "3673",
+   "pos_mm": [
+    -8.0,
+    12.0,
+    39.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "wr",
+   "part": "4185t",
+   "pos_mm": [
+    0.0,
+    -14.0,
+    15.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "ubr",
+   "part": "6541",
+   "pos_mm": [
+    0.0,
+    -16.0,
+    43.2
+   ],
+   "yaw_deg": 0
+  },
+  {
+   "name": "upinr0",
+   "part": "3673",
+   "pos_mm": [
+    0.0,
+    -12.0,
+    39.2
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "battery",
+   "part": "87513c01",
+   "pos_mm": [
+    -4.0,
+    4.0,
+    81.6
+   ],
+   "yaw_deg": 90
+  },
+  {
+   "name": "receiver",
+   "part": "58123c01",
+   "pos_mm": [
+    -4.0,
+    -12.0,
+    91.2
+   ],
+   "yaw_deg": 0
+  }
+ ],
+ "connections": [
+  {
+   "child": "axle",
+   "parent": "motor",
+   "kind": "motor"
+  },
+  {
+   "child": "wl",
+   "parent": "axle",
+   "kind": "cross"
+  },
+  {
+   "child": "upinl0",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "upinl0",
+   "parent": "ubl",
+   "kind": "pin"
+  },
+  {
+   "child": "upinl8",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "upinl8",
+   "parent": "ubl",
+   "kind": "pin"
+  },
+  {
+   "child": "wr",
+   "parent": "axle",
+   "kind": "cross"
+  },
+  {
+   "child": "upinr0",
+   "parent": "motor",
+   "kind": "pin"
+  },
+  {
+   "child": "upinr0",
+   "parent": "ubr",
+   "kind": "pin"
+  },
+  {
+   "child": "battery",
+   "parent": "ubl",
+   "kind": "stud",
+   "studs": 2
+  },
+  {
+   "child": "battery",
+   "parent": "ubr",
+   "kind": "stud",
+   "studs": 1
+  },
+  {
+   "child": "receiver",
+   "parent": "battery",
+   "kind": "stud",
+   "studs": 4
+  }
+ ],
+ "gear_meshes": [],
+ "start_gap_mm": 5,
+ "motor_program": [],
+ "pullback": [
+  {
+   "motor": "motor",
+   "wind_turns": 10,
+   "sense": 1
+  }
+ ]
+}
